@@ -1,0 +1,55 @@
+
+symbol_08-47b1caca.png
+size: 544,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s8
+  rotate: false
+  xy: 2, 2
+  size: 540, 540
+  orig: 540, 540
+  offset: 0, 0
+  index: -1
+
+
+symbol_08.png
+size: 660,260
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion
+  rotate: false
+  xy: 527, 130
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow01_01
+  rotate: false
+  xy: 527, 4
+  size: 124, 124
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+glow1
+  rotate: true
+  xy: 2, 2
+  size: 256, 241
+  orig: 256, 256
+  offset: 0, 7
+  index: -1
+particle_251
+  rotate: false
+  xy: 245, 3
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+s8_mask
+  rotate: true
+  xy: 245, 85
+  size: 173, 280
+  orig: 173, 280
+  offset: 0, 0
+  index: -1

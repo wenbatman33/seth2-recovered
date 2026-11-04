@@ -1,0 +1,125 @@
+
+symbol_10.png
+size: 824,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s10_bg
+  rotate: false
+  xy: 1, 2
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+s10_d_l
+  rotate: true
+  xy: 790, 58
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+s10_d_r
+  rotate: true
+  xy: 790, 34
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+s10_eye
+  rotate: false
+  xy: 725, 48
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+s10_eye_middle
+  rotate: true
+  xy: 725, 37
+  size: 10, 41
+  orig: 10, 41
+  offset: 0, 0
+  index: -1
+s10_frame
+  rotate: false
+  xy: 112, 2
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+s10_frame_01
+  rotate: false
+  xy: 223, 2
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+s10_jp
+  rotate: true
+  xy: 472, 3
+  size: 109, 34
+  orig: 109, 34
+  offset: 0, 0
+  index: -1
+s10_jp_shadow
+  rotate: true
+  xy: 435, 2
+  size: 110, 36
+  orig: 110, 36
+  offset: 0, 0
+  index: -1
+s10_m_l
+  rotate: false
+  xy: 788, 9
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+s10_m_r
+  rotate: true
+  xy: 725, 5
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+s10_sp
+  rotate: false
+  xy: 507, 4
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+s10_teeth
+  rotate: true
+  xy: 334, 2
+  size: 110, 100
+  orig: 110, 100
+  offset: 0, 0
+  index: -1
+s10_teeth_down
+  rotate: false
+  xy: 790, 82
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+s10_up_l
+  rotate: true
+  xy: 767, 22
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+s10_up_r
+  rotate: false
+  xy: 751, 1
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+s10_wh
+  rotate: false
+  xy: 616, 4
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1

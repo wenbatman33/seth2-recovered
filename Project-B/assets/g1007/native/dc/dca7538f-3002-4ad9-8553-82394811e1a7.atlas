@@ -1,0 +1,48 @@
+
+buyfeature.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bc_2
+  rotate: false
+  xy: 1275, 688
+  size: 448, 317
+  orig: 449, 317
+  offset: 0, 0
+  index: -1
+bc_a1
+  rotate: false
+  xy: 624, 750
+  size: 649, 255
+  orig: 649, 256
+  offset: 0, 1
+  index: -1
+bc_a1_sd2
+  rotate: true
+  xy: 2, 2
+  size: 95, 261
+  orig: 96, 262
+  offset: 0, 1
+  index: -1
+bc_a2
+  rotate: false
+  xy: 624, 557
+  size: 524, 191
+  orig: 525, 191
+  offset: 0, 0
+  index: -1
+bc_b
+  rotate: false
+  xy: 2, 99
+  size: 575, 410
+  orig: 575, 411
+  offset: 0, 1
+  index: -1
+bc_txtpad
+  rotate: false
+  xy: 2, 511
+  size: 620, 494
+  orig: 620, 494
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,89 @@
+
+reel_frame-d8fb7005.png
+size: 1688,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_base
+  rotate: false
+  xy: 1535, 552
+  size: 149, 145
+  orig: 149, 145
+  offset: 0, 0
+  index: -1
+F_frame
+  rotate: false
+  xy: 768, 2
+  size: 766, 695
+  orig: 766, 695
+  offset: 0, 0
+  index: -1
+M_base
+  rotate: false
+  xy: 1535, 406
+  size: 149, 145
+  orig: 149, 145
+  offset: 0, 0
+  index: -1
+M_frame
+  rotate: false
+  xy: 1, 1
+  size: 766, 696
+  orig: 766, 696
+  offset: 0, 0
+  index: -1
+
+reel_frame.png
+size: 1288,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_glow_p1
+  rotate: true
+  xy: 882, 7
+  size: 81, 148
+  orig: 82, 149
+  offset: 1, 1
+  index: -1
+F_glow_p2
+  rotate: true
+  xy: 1, 16
+  size: 72, 440
+  orig: 72, 440
+  offset: 0, 0
+  index: -1
+M_glow_p1
+  rotate: true
+  xy: 1031, 7
+  size: 81, 148
+  orig: 82, 149
+  offset: 1, 1
+  index: -1
+M_glow_p2
+  rotate: false
+  xy: 1180, 13
+  size: 53, 75
+  orig: 53, 75
+  offset: 0, 0
+  index: -1
+M_glow_p3
+  rotate: true
+  xy: 442, 25
+  size: 63, 439
+  orig: 63, 441
+  offset: 0, 1
+  index: -1
+M_glow_p4
+  rotate: true
+  xy: 442, 1
+  size: 23, 410
+  orig: 23, 411
+  offset: 0, 0
+  index: -1
+gem_glow
+  rotate: false
+  xy: 1234, 14
+  size: 52, 74
+  orig: 52, 74
+  offset: 0, 0
+  index: -1

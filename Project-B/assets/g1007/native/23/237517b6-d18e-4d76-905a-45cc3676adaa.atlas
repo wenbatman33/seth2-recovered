@@ -1,0 +1,97 @@
+
+jp_smoke.png
+size: 1116,1128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explode_00
+  rotate: false
+  xy: 677, 284
+  size: 302, 278
+  orig: 302, 278
+  offset: 0, 0
+  index: -1
+explode_02
+  rotate: false
+  xy: 333, 1
+  size: 313, 280
+  orig: 313, 280
+  offset: 0, 0
+  index: -1
+explode_04
+  rotate: false
+  xy: 696, 563
+  size: 318, 280
+  orig: 318, 280
+  offset: 0, 0
+  index: -1
+explode_06
+  rotate: false
+  xy: 349, 282
+  size: 327, 280
+  orig: 327, 280
+  offset: 0, 0
+  index: -1
+explode_08
+  rotate: false
+  xy: 1, 1
+  size: 331, 280
+  orig: 331, 280
+  offset: 0, 0
+  index: -1
+explode_10
+  rotate: false
+  xy: 697, 844
+  size: 338, 280
+  orig: 338, 280
+  offset: 0, 0
+  index: -1
+explode_12
+  rotate: false
+  xy: 349, 563
+  size: 346, 280
+  orig: 346, 280
+  offset: 0, 0
+  index: -1
+explode_14
+  rotate: false
+  xy: 1, 844
+  size: 347, 280
+  orig: 347, 280
+  offset: 0, 0
+  index: -1
+explode_16
+  rotate: false
+  xy: 1, 563
+  size: 347, 280
+  orig: 347, 280
+  offset: 0, 0
+  index: -1
+explode_18
+  rotate: false
+  xy: 349, 844
+  size: 347, 280
+  orig: 347, 280
+  offset: 0, 0
+  index: -1
+explode_20
+  rotate: false
+  xy: 1, 282
+  size: 347, 280
+  orig: 347, 280
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 677, 16
+  size: 298, 267
+  orig: 298, 267
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: true
+  xy: 980, 106
+  size: 456, 135
+  orig: 516, 221
+  offset: 4, 51
+  index: -1

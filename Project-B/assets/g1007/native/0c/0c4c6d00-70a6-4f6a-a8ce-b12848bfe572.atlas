@@ -1,0 +1,41 @@
+
+bet_up_btn.png
+size: 220,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_light
+  rotate: false
+  xy: 1, 5
+  size: 130, 49
+  orig: 130, 49
+  offset: 0, 0
+  index: -1
+but_blur
+  rotate: false
+  xy: 1, 55
+  size: 145, 58
+  orig: 145, 58
+  offset: 0, 0
+  index: -1
+but_glow
+  rotate: true
+  xy: 164, 1
+  size: 142, 55
+  orig: 142, 55
+  offset: 0, 0
+  index: -1
+light_line
+  rotate: false
+  xy: 1, 114
+  size: 162, 29
+  orig: 162, 29
+  offset: 0, 0
+  index: -1
+spot
+  rotate: true
+  xy: 147, 19
+  size: 94, 15
+  orig: 94, 15
+  offset: 0, 0
+  index: -1
