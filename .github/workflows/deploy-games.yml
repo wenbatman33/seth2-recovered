@@ -1,5 +1,8 @@
 name: Publish verified game site
 on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/deploy-games.yml]
   workflow_dispatch:
 permissions:
   contents: read
