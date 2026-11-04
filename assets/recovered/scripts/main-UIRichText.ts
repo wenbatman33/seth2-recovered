@@ -50,7 +50,7 @@ __publish("default", (c = O("Quick渲染元件/UIRichText"), y = w({
 }), L(f = c((b = (0, __dependency_0.applyDecoratedDescriptor)((_ = function (t) {
   function e() {
     for (var e, i = arguments.length, o = new Array(i), a = 0; a < i; a++) o[a] = arguments[a];
-    return e = Reflect.construct(t, [this].concat(o).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "_lan", b, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "_bundle", m, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "_params", D, (0, __dependency_0.assertThisInitialized)(e)), e._isDirty = !0, (0, __dependency_0.initializerDefineProperty)(e, "_mult", v, (0, __dependency_0.assertThisInitialized)(e)), e;
+    return e = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "_lan", b, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "_bundle", m, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "_params", D, (0, __dependency_0.assertThisInitialized)(e)), e._isDirty = !0, (0, __dependency_0.initializerDefineProperty)(e, "_mult", v, (0, __dependency_0.assertThisInitialized)(e)), e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var a = e.prototype;

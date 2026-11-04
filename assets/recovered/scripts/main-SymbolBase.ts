@@ -39,7 +39,7 @@ var v = __dependency_1._decorator.ccclass,
 __publish("SymbolBase", (s = v("SymbolBase"), p = x("Slot/Symbol/SymbolBase"), d = I(__dependency_1.UITransform), f = g(__dependency_1.CCInteger), y = g(__dependency_1.CCInteger), s(b = p(b = d((m = (0, __dependency_0.applyDecoratedDescriptor)((h = function (e) {
   function n() {
     for (var n, t = arguments.length, r = new Array(t), l = 0; l < t; l++) r[l] = arguments[l];
-    return n = Reflect.construct(e, [this].concat(r).slice(1), new.target || n) || this, (0, __dependency_0.initializerDefineProperty)(n, "id", m, (0, __dependency_0.assertThisInitialized)(n)), (0, __dependency_0.initializerDefineProperty)(n, "zIndex", S, (0, __dependency_0.assertThisInitialized)(n)), n.isExplode = !1, n.originalParent = null, n;
+    return n = Reflect.construct(e, [this].concat(r).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(n, "id", m, (0, __dependency_0.assertThisInitialized)(n)), (0, __dependency_0.initializerDefineProperty)(n, "zIndex", S, (0, __dependency_0.assertThisInitialized)(n)), n.isExplode = !1, n.originalParent = null, n;
   }
   (0, __dependency_0.inheritsLoose)(n, e);
   var r = n.prototype;

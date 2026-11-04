@@ -65,7 +65,7 @@ var D = __dependency_1._decorator.ccclass,
 __publish("SymbolView", (I = D("SymbolView"), A = w(__dependency_1.Prefab), E = w(__dependency_1.Node), I((C = (0, __dependency_0.applyDecoratedDescriptor)((B = function (t) {
   function o() {
     for (var o, e = arguments.length, a = new Array(e), n = 0; n < e; n++) a[n] = arguments[n];
-    return (o = Reflect.construct(t, [this].concat(a).slice(1), new.target || o) || this).symbolsMap = new Map(), o.outSymbolMap = new Map(), o.lockSymbolMap = new Map(), o.SYMBOL_ROW = 6, o.SYMBOL_COL = 5, o.TOTAL_SYMBOL = o.SYMBOL_ROW * o.SYMBOL_COL, o.GAME_HEIGHT = 720, o.BIG_SYMBOLS = [__dependency_6.EBackendSymbolID.EYE, __dependency_6.EBackendSymbolID.SNAKE, __dependency_6.EBackendSymbolID.BOW, __dependency_6.EBackendSymbolID.MACHETE, __dependency_6.EBackendSymbolID.SCATTER, __dependency_6.EBackendSymbolID.JACKPOT], o.TIMES_SYMBOLS = [__dependency_6.EBackendSymbolID.T1, __dependency_6.EBackendSymbolID.T2, __dependency_6.EBackendSymbolID.T3, __dependency_6.EBackendSymbolID.T4], (0, __dependency_0.initializerDefineProperty)(o, "gameSymbol", C, (0, __dependency_0.assertThisInitialized)(o)), (0, __dependency_0.initializerDefineProperty)(o, "lockView", Y, (0, __dependency_0.assertThisInitialized)(o)), o.symbolOutTag = 1234, o.symbolInTag = 5678, o.isOutCompleted = !1, o.needInitHeight = !1, o.fireballPosIds = [], o.isStartSymbolIn = !1, o;
+    return (o = Reflect.construct(t, [this].concat(a).slice(1), new.target || this.constructor) || this).symbolsMap = new Map(), o.outSymbolMap = new Map(), o.lockSymbolMap = new Map(), o.SYMBOL_ROW = 6, o.SYMBOL_COL = 5, o.TOTAL_SYMBOL = o.SYMBOL_ROW * o.SYMBOL_COL, o.GAME_HEIGHT = 720, o.BIG_SYMBOLS = [__dependency_6.EBackendSymbolID.EYE, __dependency_6.EBackendSymbolID.SNAKE, __dependency_6.EBackendSymbolID.BOW, __dependency_6.EBackendSymbolID.MACHETE, __dependency_6.EBackendSymbolID.SCATTER, __dependency_6.EBackendSymbolID.JACKPOT], o.TIMES_SYMBOLS = [__dependency_6.EBackendSymbolID.T1, __dependency_6.EBackendSymbolID.T2, __dependency_6.EBackendSymbolID.T3, __dependency_6.EBackendSymbolID.T4], (0, __dependency_0.initializerDefineProperty)(o, "gameSymbol", C, (0, __dependency_0.assertThisInitialized)(o)), (0, __dependency_0.initializerDefineProperty)(o, "lockView", Y, (0, __dependency_0.assertThisInitialized)(o)), o.symbolOutTag = 1234, o.symbolInTag = 5678, o.isOutCompleted = !1, o.needInitHeight = !1, o.fireballPosIds = [], o.isStartSymbolIn = !1, o;
   }
   (0, __dependency_0.inheritsLoose)(o, t);
   var n = o.prototype;
@@ -752,7 +752,8 @@ function __recoverySymbolTrace(component, phase) {
   }
 }
 function __recoverySymbolTraceUnsafe(component, phase) {
-  if (!globalThis.location || new URLSearchParams(globalThis.location.search).get('reaDebug') !== '1' || __recoverySymbolTraceCount++ >= 80) return;
+  // GPU buffer snapshots require a separate explicit switch; ordinary QA stays light.
+  if (!globalThis.location || new URLSearchParams(globalThis.location.search).get('reaDebug') !== '1' || new URLSearchParams(globalThis.location.search).get('reaRenderDebug') !== '1' || __recoverySymbolTraceCount++ >= 80) return;
   if (!__dependency_1.isValid(component) || !component.node) return;
   const data = component.data.getData(),
     node = component.node;

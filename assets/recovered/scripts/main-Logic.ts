@@ -37,7 +37,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "4b9a0iaVZFD/KeijOJgJv2B", "Logic", void 0), __publish("Logic", function (t) {
   function n() {
     for (var e, o = arguments.length, n = new Array(o), i = 0; i < o; i++) n[i] = arguments[i];
-    return (e = Reflect.construct(t, [this].concat(n).slice(1), new.target || n) || this).module = __dependency_3.Macro.UNKNOWN, e.gameView = null, e;
+    return (e = Reflect.construct(t, [this].concat(n).slice(1), new.target || this.constructor) || this).module = __dependency_3.Macro.UNKNOWN, e.gameView = null, e;
   }
   (0, __dependency_0.inheritsLoose)(n, t);
   var s = n.prototype;

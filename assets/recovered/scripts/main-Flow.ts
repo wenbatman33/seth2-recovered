@@ -50,7 +50,7 @@ __publish("FlowTrigger", void 0), __dependency_1.cclegacy._RF.push({}, "b89fb33Z
 __publish("default", function (t) {
   function s(a) {
     var s;
-    return (s = Reflect.construct(t, [], new.target || s) || this).flowId = "", s._idx = 0, s._tag = 0, s._priority = 0, s._curPriority = 0, s._curTag = 0, s._taskManger = void 0, s.afterAllTasks = [], s._flowMap = new Map(), s.flowId = a, s._taskManger = new __dependency_2.TaskManager(), s._taskManger.eventTarget.once("completed", s.taskCompleted, (0, __dependency_0.assertThisInitialized)(s)), s._taskManger.eventTarget.on("curTaskConfig", s.setCurTaskConfig, (0, __dependency_0.assertThisInitialized)(s), !1), s;
+    return (s = Reflect.construct(t, [], new.target || this.constructor) || this).flowId = "", s._idx = 0, s._tag = 0, s._priority = 0, s._curPriority = 0, s._curTag = 0, s._taskManger = void 0, s.afterAllTasks = [], s._flowMap = new Map(), s.flowId = a, s._taskManger = new __dependency_2.TaskManager(), s._taskManger.eventTarget.once("completed", s.taskCompleted, (0, __dependency_0.assertThisInitialized)(s)), s._taskManger.eventTarget.on("curTaskConfig", s.setCurTaskConfig, (0, __dependency_0.assertThisInitialized)(s), !1), s;
   }
   (0, __dependency_0.inheritsLoose)(s, t);
   var l = s.prototype;

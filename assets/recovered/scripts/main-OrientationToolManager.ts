@@ -59,7 +59,7 @@ __publish("ORIENTATION_EVENT", {
 }), __publish("default", g(f = O(((h = function (t) {
   function i() {
     for (var o, n = arguments.length, i = new Array(n), e = 0; e < n; e++) i[e] = arguments[e];
-    return (o = Reflect.construct(t, [this].concat(i).slice(1), new.target || i) || this).orientationToolList = {}, o;
+    return (o = Reflect.construct(t, [this].concat(i).slice(1), new.target || this.constructor) || this).orientationToolList = {}, o;
   }
   (0, __dependency_0.inheritsLoose)(i, t);
   var e = i.prototype;

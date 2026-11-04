@@ -37,7 +37,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "59e54Kr71xFKJqo32ioELaM", "GameDataBase", void 0), __publish("GameDataBase", function (t) {
   function n() {
     for (var a, n = arguments.length, e = new Array(n), o = 0; o < n; o++) e[o] = arguments[o];
-    return (a = Reflect.construct(t, [this].concat(e).slice(1), new.target || n) || this).module = "", a.data = void 0, a;
+    return (a = Reflect.construct(t, [this].concat(e).slice(1), new.target || this.constructor) || this).module = "", a.data = void 0, a;
   }
   (0, __dependency_0.inheritsLoose)(n, t);
   var e = n.prototype;

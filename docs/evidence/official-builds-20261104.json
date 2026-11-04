@@ -1,0 +1,39 @@
+[
+  {
+    "game": "hades",
+    "engine": "3.8.8",
+    "buildMethod": "Authenticated Dashboard / official GUI",
+    "finishedAt": "2026-11-04T21:50:28+08:00",
+    "directory": "build/frontend-hades",
+    "bundles": [
+      "internal",
+      "resources",
+      "main",
+      "g1007",
+      "slotFramework"
+    ],
+    "scenes": [
+      "db://assets/recovered/main/main.scene"
+    ],
+    "automaticWrapper": true
+  },
+  {
+    "game": "seth2",
+    "engine": "3.8.8",
+    "buildMethod": "Authenticated Dashboard / official GUI",
+    "finishedAt": "2026-11-04T21:52:16+08:00",
+    "directory": "build/frontend-seth2",
+    "bundles": [
+      "internal",
+      "resources",
+      "main",
+      "g1005",
+      "slotFramework"
+    ],
+    "scenes": [
+      "db://assets/recovered/main/main.scene",
+      "db://assets/recovered/main/mainPortrait.scene"
+    ],
+    "automaticWrapper": true
+  }
+]

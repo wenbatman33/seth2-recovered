@@ -41,7 +41,7 @@ __publish("WaveSpineEffect", (u = _("WaveSpineEffect"), w = z({
 }), u((P = (0, __dependency_0.applyDecoratedDescriptor)((m = function (e) {
   function t() {
     for (var t, i = arguments.length, r = new Array(i), o = 0; o < i; o++) r[o] = arguments[o];
-    return t = Reflect.construct(e, [this].concat(r).slice(1), new.target || t) || this, (0, __dependency_0.initializerDefineProperty)(t, "waveDistance", P, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "waveSpeed", b, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "waveStrength", g, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "wavePosition", S, (0, __dependency_0.assertThisInitialized)(t)), t._trans = void 0, t._pass = void 0, t._handle = void 0, t.waveProp = new __dependency_1.Vec4(), t._material = null, t;
+    return t = Reflect.construct(e, [this].concat(r).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(t, "waveDistance", P, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "waveSpeed", b, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "waveStrength", g, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "wavePosition", S, (0, __dependency_0.assertThisInitialized)(t)), t._trans = void 0, t._pass = void 0, t._handle = void 0, t.waveProp = new __dependency_1.Vec4(), t._material = null, t;
   }
   (0, __dependency_0.inheritsLoose)(t, e);
   var r = t.prototype;

@@ -1,0 +1,107 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "MultipleTimes",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MultipleTimes",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 75,
+      "z": 0
+    },
+    "_id": "254073c5-3eaa-5a23-807f-9e5927c80c9c"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 6
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 50
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "afe1646e-5b03-5413-9c82-c327c73f27e5"
+  },
+  {
+    "__type__": "cc.Label",
+    "_string": "x0",
+    "_actualFontSize": 32,
+    "_fontSize": 32,
+    "_lineHeight": 32,
+    "_overflow": 2,
+    "_enableWrapText": false,
+    "_isSystemFontUsed": false,
+    "_spacingX": -6,
+    "__prefab": {
+      "__id__": 7
+    },
+    "_font": {
+      "__uuid__": "bb401267-cdf4-49b9-95c2-00a0651073eb"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "d84f9842-19ba-57b2-b25c-54c336d4d9d2"
+  },
+  {
+    "__type__": "cc.UIOpacity",
+    "__prefab": {
+      "__id__": 8
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "466b81b1-a9f4-5723-894e-8214c6200873"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "d1lV4VI89L44V0F+3YxWPY",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "cfmUQICdxCi71cOgMHYKTb"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "2eNF5D7U9MJaPDejbJr39N"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "94AMc0VoxA07YukDJsHP9o"
+  }
+]

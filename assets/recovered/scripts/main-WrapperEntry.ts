@@ -47,7 +47,7 @@ __dependency_1.cclegacy._RF.push({}, "bf4f5bJmlxJ8KeUii64qhtC", "WrapperEntry", 
 (0, __dependency_5.registerEntry)("WrapperEntry", __dependency_6.Macro.BUNDLE_RESOURCES, __dependency_9.default)(l = function (t) {
   function a() {
     for (var e, n = arguments.length, r = new Array(n), a = 0; a < n; a++) r[a] = arguments[a];
-    return (e = Reflect.construct(t, [this].concat(r).slice(1), new.target || a) || this).language = new __dependency_8.WrapperLanguage(), e.isMain = !0, e.delegate = new __dependency_3.CmmEntry(), e;
+    return (e = Reflect.construct(t, [this].concat(r).slice(1), new.target || this.constructor) || this).language = new __dependency_8.WrapperLanguage(), e.isMain = !0, e.delegate = new __dependency_3.CmmEntry(), e;
   }
   (0, __dependency_0.inheritsLoose)(a, t);
   var u = a.prototype;

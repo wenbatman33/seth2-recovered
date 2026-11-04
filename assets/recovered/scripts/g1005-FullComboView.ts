@@ -52,7 +52,7 @@ var A = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("FullComboView", (v = A("FullComboView"), b = (0, __dependency_3.inject)("alert", __dependency_1.Node), C = (0, __dependency_3.inject)("alert", __dependency_1.UIOpacityComponent), w = (0, __dependency_3.inject)("alert/effect", __dependency_1.sp.Skeleton), v((g = (0, __dependency_0.applyDecoratedDescriptor)((F = function (t) {
   function e() {
     for (var e, n = arguments.length, a = new Array(n), r = 0; r < n; r++) a[r] = arguments[r];
-    return e = Reflect.construct(t, [this].concat(a).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "alert", g, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "alertOpacity", D, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "effect", L, (0, __dependency_0.assertThisInitialized)(e)), e;
+    return e = Reflect.construct(t, [this].concat(a).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "alert", g, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "alertOpacity", D, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "effect", L, (0, __dependency_0.assertThisInitialized)(e)), e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var r = e.prototype;

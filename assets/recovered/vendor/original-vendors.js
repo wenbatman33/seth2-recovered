@@ -6,7 +6,8 @@
   // Editor/AssetDB/Builder own native resource protocols and lifecycle.
   // The isolation policy belongs to the generated Web game, not to Creator.
   // A clean Editor restart removes wrappers installed by older tool versions.
-  if((root.process&&root.process.versions&&root.process.versions.electron)||root.Editor){
+  // Builder executors hide Node globals but retain Electron's user agent.
+  if((root.process&&root.process.versions&&root.process.versions.electron)||root.Editor||/Electron\//i.test(root.navigator&&root.navigator.userAgent||'')){
     root.__SETH_RECOVERY_NETWORK_MODE__='Creator/Electron native resource pipeline; Web guard not installed';
     return;
   }

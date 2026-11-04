@@ -1,0 +1,125 @@
+
+spin.png
+size: 700,1060
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_spin_disabled
+  rotate: false
+  xy: 383, 12
+  size: 134, 134
+  orig: 136, 136
+  offset: 1, 1
+  index: -1
+btn_spin_hover
+  rotate: false
+  xy: 503, 305
+  size: 134, 134
+  orig: 136, 136
+  offset: 1, 1
+  index: -1
+btn_spin_normal
+  rotate: true
+  xy: 518, 36
+  size: 133, 132
+  orig: 135, 134
+  offset: 1, 1
+  index: -1
+btn_spin_pressed
+  rotate: false
+  xy: 470, 170
+  size: 134, 134
+  orig: 136, 136
+  offset: 1, 1
+  index: -1
+button
+  rotate: false
+  xy: 503, 440
+  size: 162, 162
+  orig: 164, 164
+  offset: 1, 1
+  index: -1
+fire_01
+  rotate: false
+  xy: 550, 634
+  size: 69, 45
+  orig: 71, 47
+  offset: 1, 1
+  index: -1
+fire_03
+  rotate: true
+  xy: 236, 9
+  size: 137, 146
+  orig: 139, 148
+  offset: 1, 1
+  index: -1
+fire_05
+  rotate: false
+  xy: 549, 837
+  size: 148, 220
+  orig: 150, 222
+  offset: 1, 1
+  index: -1
+fire_07
+  rotate: true
+  xy: 299, 603
+  size: 201, 250
+  orig: 203, 252
+  offset: 1, 1
+  index: -1
+fire_09
+  rotate: false
+  xy: 1, 510
+  size: 253, 248
+  orig: 255, 250
+  offset: 1, 1
+  index: -1
+fire_11
+  rotate: true
+  xy: 1, 245
+  size: 264, 230
+  orig: 266, 232
+  offset: 1, 1
+  index: -1
+fire_13
+  rotate: false
+  xy: 299, 805
+  size: 249, 252
+  orig: 251, 254
+  offset: 1, 1
+  index: -1
+fire_15
+  rotate: false
+  xy: 1, 1
+  size: 234, 243
+  orig: 236, 245
+  offset: 1, 1
+  index: -1
+fire_17
+  rotate: false
+  xy: 255, 374
+  size: 247, 228
+  orig: 249, 230
+  offset: 1, 1
+  index: -1
+fire_19
+  rotate: false
+  xy: 236, 147
+  size: 233, 226
+  orig: 235, 228
+  offset: 1, 1
+  index: -1
+fire_21
+  rotate: false
+  xy: 550, 680
+  size: 124, 156
+  orig: 126, 158
+  offset: 1, 1
+  index: -1
+fire_B
+  rotate: false
+  xy: 1, 759
+  size: 297, 298
+  orig: 300, 298
+  offset: 3, 0
+  index: -1

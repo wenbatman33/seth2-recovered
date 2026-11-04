@@ -41,7 +41,7 @@ var d = __dependency_1._decorator.ccclass,
 __publish("BlackOverlayView", (u = d("BlackOverlayView"), v = b(__dependency_1.Node), u((p = (0, __dependency_0.applyDecoratedDescriptor)((h = function (t) {
   function e() {
     for (var e, a = arguments.length, n = new Array(a), r = 0; r < a; r++) n[r] = arguments[r];
-    return e = Reflect.construct(t, [this].concat(n).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "blackOverlay", p, (0, __dependency_0.assertThisInitialized)(e)), e.scatterSymbols = [], e.spliteSymbols = [], e;
+    return e = Reflect.construct(t, [this].concat(n).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "blackOverlay", p, (0, __dependency_0.assertThisInitialized)(e)), e.scatterSymbols = [], e.spliteSymbols = [], e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var n = e.prototype;

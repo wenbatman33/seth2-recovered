@@ -38,7 +38,7 @@ __dependency_1.cclegacy._RF.push({}, "fad937gxhNAP5F5raDpetvK", "HeartbetBinary"
 __publish("HeartbeatBinary", function (t) {
   function r() {
     for (var e, n = arguments.length, r = new Array(n), i = 0; i < n; i++) r[i] = arguments[i];
-    return (e = Reflect.construct(t, [this].concat(r).slice(1), new.target || r) || this).mainCmd = __dependency_3.MainCmd.CMD_SYS, e.subCmd = __dependency_3.SUB_CMD_SYS.CMD_SYS_HEART, e;
+    return (e = Reflect.construct(t, [this].concat(r).slice(1), new.target || this.constructor) || this).mainCmd = __dependency_3.MainCmd.CMD_SYS, e.subCmd = __dependency_3.SUB_CMD_SYS.CMD_SYS_HEART, e;
   }
   return (0, __dependency_0.inheritsLoose)(r, t), (0, __dependency_0.createClass)(r, [{
     key: "cmd",

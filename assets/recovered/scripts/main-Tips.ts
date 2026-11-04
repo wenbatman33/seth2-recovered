@@ -34,7 +34,7 @@ __dependency_1.cclegacy._RF.push({}, "cbe3apTgWJJCIVevDJz8JOj", "Tips", void 0);
 var m = function (t) {
   function o() {
     for (var n, i = arguments.length, o = new Array(i), e = 0; e < i; e++) o[e] = arguments[e];
-    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || o) || this)._content = null, n._curPositon = new __dependency_1.Vec3(), n._curOpacity = null, n._transform = null, n;
+    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this)._content = null, n._curPositon = new __dependency_1.Vec3(), n._curOpacity = null, n._transform = null, n;
   }
   (0, __dependency_0.inheritsLoose)(o, t);
   var e = o.prototype;

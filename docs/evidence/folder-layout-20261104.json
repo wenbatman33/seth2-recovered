@@ -1,0 +1,11 @@
+{
+  "activeBundles": {
+    "g1005": "assets/recovered/g1005",
+    "g1007": "assets/recovered/g1007"
+  },
+  "hadesMetaFilesPreserved": 911,
+  "allMetaBytesUnchanged": true,
+  "legacyExternalUuidReferences": 0,
+  "legacyArchive": "archive/hades-visual-prototype (local only)",
+  "reason": "Remove unused fixed-board prototype assets from Creator imports; keep original-client assets and UUIDs."
+}

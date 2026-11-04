@@ -46,7 +46,7 @@ __dependency_1.cclegacy._RF.push({}, "302f8IF/spDE5Qlwe+LRO9e", "WrapperLogic", 
 __publish("WrapperLogic", function (t) {
   function o() {
     for (var n, e = arguments.length, o = new Array(e), r = 0; r < e; r++) o[r] = arguments[r];
-    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || o) || this).loader = new __dependency_2.default(), n.orientationHandler = function (t) {
+    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this).loader = new __dependency_2.default(), n.orientationHandler = function (t) {
       n.data.orientation = t;
     }, n;
   }

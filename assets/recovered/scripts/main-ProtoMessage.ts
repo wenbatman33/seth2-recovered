@@ -48,7 +48,7 @@ __dependency_1.cclegacy._RF.push({}, "2a060dCqolHUa5KS4cGgWCi", "ProtoMessage", 
 __publish("ProtoMessage", function (t) {
   function n(e) {
     var n;
-    return (n = Reflect.construct(t, [], new.target || n) || this).buffer = null, n.type = null, n.data = null, n.type = e, n;
+    return (n = Reflect.construct(t, [], new.target || this.constructor) || this).buffer = null, n.type = null, n.data = null, n.type = e, n;
   }
   (0, __dependency_0.inheritsLoose)(n, t);
   var r = n.prototype;

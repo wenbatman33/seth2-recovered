@@ -1,0 +1,273 @@
+
+symbol_01.png
+size: 636,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s1_ram_01
+  rotate: true
+  xy: 397, 21
+  size: 105, 96
+  orig: 105, 96
+  offset: 0, 0
+  index: -1
+s1_ram_02
+  rotate: true
+  xy: 495, 5
+  size: 121, 61
+  orig: 121, 61
+  offset: 0, 0
+  index: -1
+s1_ram_shadow
+  rotate: false
+  xy: 266, 23
+  size: 129, 103
+  orig: 131, 105
+  offset: 1, 1
+  index: -1
+s1_shadow
+  rotate: false
+  xy: 2, 2
+  size: 131, 124
+  orig: 133, 126
+  offset: 1, 1
+  index: -1
+s1_wild_board
+  rotate: false
+  xy: 135, 3
+  size: 129, 123
+  orig: 130, 124
+  offset: 1, 0
+  index: -1
+s1_wild_font
+  rotate: true
+  xy: 601, 27
+  size: 99, 32
+  orig: 101, 34
+  offset: 1, 1
+  index: -1
+s1_wild_font_shadow
+  rotate: true
+  xy: 558, 20
+  size: 106, 41
+  orig: 108, 43
+  offset: 1, 1
+  index: -1
+
+
+symbol_01-a213c0db.png
+size: 376,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion
+  rotate: false
+  xy: 245, 142
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow1
+  rotate: true
+  xy: 2, 14
+  size: 256, 241
+  orig: 256, 256
+  offset: 0, 7
+  index: -1
+particle_251
+  rotate: false
+  xy: 245, 63
+  size: 78, 77
+  orig: 80, 80
+  offset: 1, 2
+  index: -1
+s1_font_fx_01
+  rotate: false
+  xy: 51, 2
+  size: 2, 3
+  orig: 4, 5
+  offset: 1, 1
+  index: -1
+s1_font_fx_02
+  rotate: true
+  xy: 55, 7
+  size: 5, 11
+  orig: 7, 13
+  offset: 1, 1
+  index: -1
+s1_font_fx_03
+  rotate: true
+  xy: 2, 4
+  size: 8, 17
+  orig: 10, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_04
+  rotate: true
+  xy: 283, 50
+  size: 11, 17
+  orig: 13, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_05
+  rotate: true
+  xy: 245, 47
+  size: 14, 17
+  orig: 16, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_06
+  rotate: false
+  xy: 272, 10
+  size: 17, 17
+  orig: 19, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_07
+  rotate: false
+  xy: 325, 28
+  size: 19, 17
+  orig: 21, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_08
+  rotate: false
+  xy: 270, 29
+  size: 22, 17
+  orig: 24, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_09
+  rotate: true
+  xy: 354, 26
+  size: 25, 17
+  orig: 27, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_10
+  rotate: false
+  xy: 245, 7
+  size: 25, 17
+  orig: 27, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_11
+  rotate: false
+  xy: 325, 85
+  size: 27, 17
+  orig: 29, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_12
+  rotate: false
+  xy: 325, 66
+  size: 27, 17
+  orig: 29, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_13
+  rotate: true
+  xy: 354, 53
+  size: 27, 17
+  orig: 29, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_14
+  rotate: true
+  xy: 357, 112
+  size: 28, 17
+  orig: 30, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_15
+  rotate: false
+  xy: 325, 104
+  size: 28, 17
+  orig: 30, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_16
+  rotate: true
+  xy: 355, 82
+  size: 28, 17
+  orig: 30, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_17
+  rotate: false
+  xy: 325, 123
+  size: 30, 17
+  orig: 32, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_18
+  rotate: false
+  xy: 325, 47
+  size: 27, 17
+  orig: 29, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_19
+  rotate: false
+  xy: 245, 28
+  size: 23, 17
+  orig: 25, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_20
+  rotate: false
+  xy: 302, 44
+  size: 21, 17
+  orig: 23, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_21
+  rotate: false
+  xy: 294, 25
+  size: 19, 17
+  orig: 21, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_22
+  rotate: false
+  xy: 315, 9
+  size: 16, 17
+  orig: 18, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_23
+  rotate: true
+  xy: 264, 48
+  size: 13, 17
+  orig: 15, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_24
+  rotate: true
+  xy: 333, 15
+  size: 11, 17
+  orig: 13, 19
+  offset: 1, 1
+  index: -1
+s1_font_fx_25
+  rotate: true
+  xy: 21, 4
+  size: 8, 16
+  orig: 10, 18
+  offset: 1, 1
+  index: -1
+s1_font_fx_26
+  rotate: true
+  xy: 39, 7
+  size: 5, 14
+  orig: 7, 16
+  offset: 1, 1
+  index: -1
+s1_font_fx_27
+  rotate: true
+  xy: 39, 2
+  size: 3, 10
+  orig: 5, 12
+  offset: 1, 1
+  index: -1
+

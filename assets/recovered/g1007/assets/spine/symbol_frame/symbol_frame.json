@@ -1,0 +1,414 @@
+{
+  "skeleton": {
+    "hash": "JePFVv2WINmWGZ47svnG1hTfRbk",
+    "spine": "3.7.94",
+    "width": 709.58,
+    "height": 709.58
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -831.23
+    },
+    {
+      "name": "symbol_lock",
+      "parent": "root",
+      "x": 831.23,
+      "scaleX": 2.4,
+      "scaleY": 2.4
+    },
+    {
+      "name": "rune_1",
+      "parent": "symbol_lock",
+      "x": -0.53,
+      "y": 1.53,
+      "scaleX": 0.42,
+      "scaleY": 0.42
+    },
+    {
+      "name": "symbol_base",
+      "parent": "rune_1",
+      "x": 1.18,
+      "y": -1.01
+    },
+    {
+      "name": "rune_2",
+      "parent": "symbol_lock",
+      "x": -0.53,
+      "y": 1.53,
+      "scaleX": 0.42,
+      "scaleY": 0.42
+    }
+  ],
+  "slots": [
+    {
+      "name": "rune_1",
+      "bone": "rune_1",
+      "color": "ffffff00",
+      "attachment": "rune_1",
+      "blend": "additive"
+    },
+    {
+      "name": "rune_2",
+      "bone": "rune_2",
+      "color": "ffffff00",
+      "attachment": "rune_2",
+      "blend": "additive"
+    },
+    {
+      "name": "symbol_base",
+      "bone": "symbol_base",
+      "color": "ffffff00",
+      "attachment": "symbol_base",
+      "blend": "additive"
+    },
+    {
+      "name": "symbol_03_c3",
+      "bone": "symbol_lock",
+      "color": "ffffff00",
+      "attachment": "symbol_03_c",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "rune_1": {
+        "rune_1": {
+          "x": -1.01,
+          "y": 0.5,
+          "scaleX": 0.95,
+          "scaleY": 0.95,
+          "width": 638,
+          "height": 632
+        }
+      },
+      "rune_2": {
+        "rune_2": {
+          "x": -1.01,
+          "y": 0.5,
+          "scaleX": 0.95,
+          "scaleY": 0.95,
+          "width": 741,
+          "height": 741
+        }
+      },
+      "symbol_03_c3": {
+        "symbol_03_c": {
+          "path": "square_base_4",
+          "scaleX": 0.8,
+          "scaleY": 0.8,
+          "width": 296,
+          "height": 292
+        }
+      },
+      "symbol_base": {
+        "symbol_base": {
+          "width": 540,
+          "height": 540
+        }
+      }
+    }
+  },
+  "animations": {
+    "out": {
+      "slots": {
+        "rune_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff",
+              "curve": [
+                0,
+                0.25,
+                1,
+                0.75
+              ]
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rune_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffff",
+              "curve": [
+                0,
+                0.25,
+                1,
+                0.75
+              ]
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "symbol_base": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffb6",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffb6",
+              "curve": [
+                0.231,
+                0.47,
+                0.498,
+                0.85
+              ]
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "rune_1": {
+          "scale": [
+            {
+              "time": 0.1,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0,
+                0.25,
+                1,
+                0.75
+              ]
+            },
+            {
+              "time": 0.2333,
+              "x": 1.19,
+              "y": 1.19
+            }
+          ]
+        },
+        "rune_2": {
+          "scale": [
+            {
+              "time": 0.1333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.376,
+                0.03,
+                1,
+                0
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 1.19,
+              "y": 1.19
+            }
+          ]
+        },
+        "root": {
+          "translate": [
+            {
+              "time": 0.6667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "win": {
+      "slots": {
+        "rune_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.283,
+                0.45,
+                0.437,
+                0.87
+              ]
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": [
+                0.029,
+                0.38,
+                0,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "rune_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.283,
+                0.45,
+                0.437,
+                0.87
+              ]
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00",
+              "curve": [
+                0.029,
+                0.38,
+                0,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "symbol_03_c3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ff000000",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ff000000",
+              "curve": [
+                0.102,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "color": "ff2323b4",
+              "curve": [
+                0.25,
+                0,
+                0.173,
+                0.99
+              ]
+            },
+            {
+              "time": 1.0333,
+              "color": "ff000000"
+            }
+          ]
+        },
+        "symbol_base": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.283,
+                0.45,
+                0.437,
+                0.87
+              ]
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": [
+                0.363,
+                0.35,
+                0.667,
+                0.69
+              ]
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffb6"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "rune_1": {
+          "scale": [
+            {
+              "time": 0.0333,
+              "x": 1.19,
+              "y": 1.19,
+              "curve": [
+                0.029,
+                0.38,
+                0,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "rune_2": {
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 1.19,
+              "y": 1.19,
+              "curve": [
+                0.276,
+                0.17,
+                0.168,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "root": {
+          "translate": [
+            {
+              "time": 1.3333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

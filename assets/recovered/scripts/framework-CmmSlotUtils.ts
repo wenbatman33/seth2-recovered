@@ -92,8 +92,12 @@ __dependency_1["cclegacy"]['_RF']['push']({}, "61fe5EKYlZN0b8D3OtgU7WO", "CmmSlo
     return App["dataCenter"]["get"](__dependency_4['default'])['orientation'] || (_0x3ee97d = "landscape" === __dependency_6["default"]["getViewModeParam"]() ? _0x3e1f51 : _0x59c137), _0x3ee97d;
   }, _0x516c96['delayTime'] = function (_0x51aa90, _0xd43253) {
     var _0x178486 = this;
+    globalThis.__hadesLocalDelay?.('start', _0x51aa90);
     return new Promise(function (_0x500405) {
-      __dependency_1["Tween"]['stopAllByTarget'](_0x178486["delayNode"]), (0, __dependency_1['tween'])(_0x178486["delayNode"])["delay"](_0x51aa90)["call"](function () {
+      // The original timer uses an unparented Node. Preserve 3.7 behaviour;
+      // 3.8 activation binding must not suspend this nonvisual timing barrier.
+      __dependency_1["Tween"]['stopAllByTarget'](_0x178486["delayNode"]), (0, __dependency_1['tween'])(_0x178486["delayNode"]).bindNodeState(false)["delay"](_0x51aa90)["call"](function () {
+        globalThis.__hadesLocalDelay?.('end', _0x51aa90);
         _0x500405(!0x0);
       })["start"]();
     });

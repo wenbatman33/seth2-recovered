@@ -34,7 +34,7 @@ __dependency_1.cclegacy._RF.push({}, "b35e78QVExCGoTgRGudayLT", "CmmProto", void
 __publish("CmmProto", function (t) {
   function e() {
     for (var o, e = arguments.length, n = new Array(e), r = 0; r < e; r++) n[r] = arguments[r];
-    return (o = Reflect.construct(t, [this].concat(n).slice(1), new.target || e) || this).cmd = "", o.mainCmd = 0, o.subCmd = 0, o;
+    return (o = Reflect.construct(t, [this].concat(n).slice(1), new.target || this.constructor) || this).cmd = "", o.mainCmd = 0, o.subCmd = 0, o;
   }
   return (0, __dependency_0.inheritsLoose)(e, t), e;
 }(__dependency_2.ProtoMessage));

@@ -1,0 +1,2603 @@
+{
+  "skeleton": {
+    "hash": "t8bDF3vsdhOQdNk7BaM/dGUMwhg",
+    "spine": "3.7.94",
+    "width": 147.5,
+    "height": 146.5
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "mini",
+      "parent": "root"
+    },
+    {
+      "name": "minor",
+      "parent": "root"
+    },
+    {
+      "name": "grand",
+      "parent": "root"
+    },
+    {
+      "name": "light_grand",
+      "parent": "grand",
+      "y": -9
+    },
+    {
+      "name": "sparkle",
+      "parent": "grand",
+      "x": -28,
+      "y": 24
+    },
+    {
+      "name": "sparkle2",
+      "parent": "grand",
+      "x": 62.5,
+      "y": -11,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "sparkle3",
+      "parent": "grand",
+      "x": -66,
+      "y": -31,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "major",
+      "parent": "root"
+    },
+    {
+      "name": "light_major",
+      "parent": "major",
+      "y": -9
+    },
+    {
+      "name": "sparkle4",
+      "parent": "major",
+      "x": -31,
+      "y": 48
+    },
+    {
+      "name": "sparkle5",
+      "parent": "major",
+      "x": 48,
+      "y": -7,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "sparkle6",
+      "parent": "major",
+      "x": -42.6,
+      "y": -19,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "light_mini",
+      "parent": "mini",
+      "y": -9
+    },
+    {
+      "name": "sparkle7",
+      "parent": "mini",
+      "x": -31,
+      "y": 41
+    },
+    {
+      "name": "sparkle8",
+      "parent": "mini",
+      "x": 55,
+      "y": -19,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "sparkle9",
+      "parent": "mini",
+      "x": -48,
+      "y": -21,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "light_minor",
+      "parent": "minor",
+      "y": -9
+    },
+    {
+      "name": "sparkle10",
+      "parent": "minor",
+      "x": 4,
+      "y": 11
+    },
+    {
+      "name": "sparkle11",
+      "parent": "minor",
+      "x": -34,
+      "y": -19,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "sparkle12",
+      "parent": "minor",
+      "x": 46,
+      "y": -21,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "light_grand",
+      "bone": "light_grand",
+      "attachment": "light_grand",
+      "blend": "additive"
+    },
+    {
+      "name": "light_mini",
+      "bone": "light_mini",
+      "attachment": "light_mini",
+      "blend": "additive"
+    },
+    {
+      "name": "light_minor",
+      "bone": "light_minor",
+      "attachment": "light_minor",
+      "blend": "additive"
+    },
+    {
+      "name": "light_major",
+      "bone": "light_major",
+      "attachment": "light_major",
+      "blend": "additive"
+    },
+    {
+      "name": "mini_light",
+      "bone": "mini",
+      "attachment": "mini_light"
+    },
+    {
+      "name": "mini",
+      "bone": "mini",
+      "attachment": "mini"
+    },
+    {
+      "name": "mini2",
+      "bone": "mini",
+      "attachment": "mini",
+      "blend": "additive"
+    },
+    {
+      "name": "mini_word",
+      "bone": "mini",
+      "attachment": "mini_word"
+    },
+    {
+      "name": "minor_light",
+      "bone": "minor",
+      "attachment": "minor_light"
+    },
+    {
+      "name": "minor",
+      "bone": "minor",
+      "attachment": "minor"
+    },
+    {
+      "name": "minor2",
+      "bone": "minor",
+      "attachment": "minor",
+      "blend": "additive"
+    },
+    {
+      "name": "minor_word",
+      "bone": "minor",
+      "attachment": "minor_word"
+    },
+    {
+      "name": "major_light",
+      "bone": "major",
+      "attachment": "major_light"
+    },
+    {
+      "name": "major",
+      "bone": "major",
+      "attachment": "major"
+    },
+    {
+      "name": "major2",
+      "bone": "major",
+      "attachment": "major",
+      "blend": "additive"
+    },
+    {
+      "name": "major_word",
+      "bone": "major",
+      "attachment": "major_word"
+    },
+    {
+      "name": "grand_light",
+      "bone": "grand",
+      "attachment": "grand_light"
+    },
+    {
+      "name": "grand",
+      "bone": "grand",
+      "attachment": "grand"
+    },
+    {
+      "name": "grand2",
+      "bone": "grand",
+      "attachment": "grand",
+      "blend": "additive"
+    },
+    {
+      "name": "grand_word",
+      "bone": "grand",
+      "attachment": "grand_word"
+    },
+    {
+      "name": "sparkle",
+      "bone": "sparkle",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle2",
+      "bone": "sparkle2",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle3",
+      "bone": "sparkle3",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle4",
+      "bone": "sparkle4",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle5",
+      "bone": "sparkle5",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle6",
+      "bone": "sparkle6",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle7",
+      "bone": "sparkle7",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle8",
+      "bone": "sparkle8",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle9",
+      "bone": "sparkle9",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle10",
+      "bone": "sparkle10",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle11",
+      "bone": "sparkle11",
+      "attachment": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle12",
+      "bone": "sparkle12",
+      "attachment": "sparkle",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "grand": {
+        "grand": {
+          "width": 129,
+          "height": 133
+        }
+      },
+      "grand2": {
+        "grand": {
+          "width": 129,
+          "height": 133
+        }
+      },
+      "grand_light": {
+        "grand_light": {
+          "y": -2.5,
+          "width": 139,
+          "height": 138
+        }
+      },
+      "grand_word": {
+        "grand_word": {
+          "x": 0.5,
+          "y": -49.5,
+          "width": 144,
+          "height": 52
+        }
+      },
+      "light_grand": {
+        "light_grand": {
+          "x": 2,
+          "y": -7,
+          "width": 145,
+          "height": 128
+        }
+      },
+      "light_major": {
+        "light_major": {
+          "x": 2,
+          "y": -7,
+          "width": 145,
+          "height": 128
+        }
+      },
+      "light_mini": {
+        "light_mini": {
+          "x": 2,
+          "y": -7,
+          "width": 145,
+          "height": 128
+        }
+      },
+      "light_minor": {
+        "light_minor": {
+          "x": 2,
+          "y": -7,
+          "width": 145,
+          "height": 128
+        }
+      },
+      "major": {
+        "major": {
+          "y": -5,
+          "width": 129,
+          "height": 133
+        }
+      },
+      "major2": {
+        "major": {
+          "y": -5,
+          "width": 129,
+          "height": 133
+        }
+      },
+      "major_light": {
+        "major_light": {
+          "y": -2.5,
+          "width": 139,
+          "height": 138
+        }
+      },
+      "major_word": {
+        "major_word": {
+          "x": 1,
+          "y": -47.64,
+          "width": 143,
+          "height": 52
+        }
+      },
+      "mini": {
+        "mini": {
+          "y": -2.5,
+          "width": 129,
+          "height": 128
+        }
+      },
+      "mini2": {
+        "mini": {
+          "y": -2.5,
+          "width": 129,
+          "height": 128
+        }
+      },
+      "mini_light": {
+        "mini_light": {
+          "y": -2.5,
+          "width": 139,
+          "height": 138
+        }
+      },
+      "mini_word": {
+        "mini_word": {
+          "x": 0.5,
+          "y": -50,
+          "width": 106,
+          "height": 49
+        }
+      },
+      "minor": {
+        "minor": {
+          "y": -2.5,
+          "width": 129,
+          "height": 128
+        }
+      },
+      "minor2": {
+        "minor": {
+          "y": -2.5,
+          "width": 129,
+          "height": 128
+        }
+      },
+      "minor_light": {
+        "minor_light": {
+          "y": -2.5,
+          "width": 139,
+          "height": 138
+        }
+      },
+      "minor_word": {
+        "minor_word": {
+          "x": 0.5,
+          "y": -49.5,
+          "width": 142,
+          "height": 52
+        }
+      },
+      "sparkle": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle10": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle11": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle12": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle2": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle3": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle4": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle5": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle6": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle7": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle8": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      },
+      "sparkle9": {
+        "sparkle": {
+          "width": 28,
+          "height": 29
+        }
+      }
+    }
+  },
+  "animations": {
+    "grand": {
+      "slots": {
+        "grand2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff2b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "grand_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffb2",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffffb2"
+            }
+          ]
+        },
+        "light_grand": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ff0000ff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "light_major": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_mini": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_minor": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle4": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle5": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle6": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle7": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle8": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle9": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle10": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle11": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle12": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "light_grand": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.6,
+              "y": 1.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 2.1,
+              "y": 2.1,
+              "curve": [
+                0.34,
+                0.66,
+                0.673,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 1.6,
+              "y": 1.6
+            }
+          ]
+        },
+        "sparkle": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2.6667,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle3": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        }
+      }
+    },
+    "major": {
+      "slots": {
+        "grand": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_grand": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_major": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "9b00ffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "light_mini": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_minor": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff2b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "major_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffb2",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffffb2"
+            }
+          ]
+        },
+        "mini": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle3": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle7": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle8": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle9": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle10": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle11": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle12": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "light_major": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.6,
+              "y": 1.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 2.1,
+              "y": 2.1,
+              "curve": [
+                0.34,
+                0.66,
+                0.673,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 1.6,
+              "y": 1.6
+            }
+          ]
+        },
+        "sparkle4": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle5": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2.6667,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle6": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        }
+      }
+    },
+    "mini": {
+      "slots": {
+        "grand": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_grand": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_major": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_mini": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.249,
+                0,
+                0.742,
+                0.96
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "0022fffd",
+              "curve": [
+                0.34,
+                0.66,
+                0.673,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "light_minor": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff2b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "minor": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle3": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle4": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle5": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle6": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.1667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle10": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle11": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle12": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "light_mini": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.6,
+              "y": 1.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 2.1,
+              "y": 2.1,
+              "curve": [
+                0.34,
+                0.66,
+                0.673,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 1.6,
+              "y": 1.6
+            }
+          ]
+        },
+        "sparkle7": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle8": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 0.8333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2.1667,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle9": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        }
+      }
+    },
+    "minor": {
+      "slots": {
+        "grand": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "grand_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_grand": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_major": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_mini": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "light_minor": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "11c100ff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "major": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "major_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "mini_word": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "minor2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff2b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle3": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle4": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle5": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle6": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle7": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle8": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle9": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "sparkle10": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle11": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sparkle12": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "sparkle7": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle8": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2.6667,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "light_minor": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.6,
+              "y": 1.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 2.1,
+              "y": 2.1,
+              "curve": [
+                0.34,
+                0.66,
+                0.673,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 1.6,
+              "y": 1.6
+            }
+          ]
+        },
+        "sparkle10": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle11": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2.6667,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "sparkle12": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 2,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.249,
+                0,
+                0.741,
+                0.96
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -34,7 +34,7 @@ var l = __dependency_1._decorator.ccclass,
 __publish("default", l(u = d(u = h("自訂工具/直橫版/OrientationFitStage")(u = function (e) {
   function i() {
     for (var n, i = arguments.length, o = new Array(i), s = 0; s < i; s++) o[s] = arguments[s];
-    return (n = Reflect.construct(e, [this].concat(o).slice(1), new.target || i) || this).onResize = n.onResizeEvent.bind((0, __dependency_0.assertThisInitialized)(n)), n;
+    return (n = Reflect.construct(e, [this].concat(o).slice(1), new.target || this.constructor) || this).onResize = n.onResizeEvent.bind((0, __dependency_0.assertThisInitialized)(n)), n;
   }
   (0, __dependency_0.inheritsLoose)(i, e);
   var o = i.prototype;

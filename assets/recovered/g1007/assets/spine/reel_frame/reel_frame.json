@@ -1,0 +1,989 @@
+{
+  "skeleton": {
+    "hash": "MlAq27N76UZcHKDf/yby3HU/aBI",
+    "spine": "3.7.94",
+    "width": 2562,
+    "height": 1443.5
+  },
+  "bones": [
+    {
+      "name": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg_X",
+      "bone": "root"
+    },
+    {
+      "name": "base",
+      "bone": "root",
+      "attachment": "M_base"
+    },
+    {
+      "name": "frame",
+      "bone": "root",
+      "attachment": "M_frame"
+    },
+    {
+      "name": "glow_p3",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_p3_2",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "M_glow_p2",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "M_glow_p4",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_p1",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_p1_2",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "gem_glow",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "gem_glow3",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "gem_glow2",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "UI_X",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {
+      "M_glow_p2": {
+        "M_glow_p2": {
+          "x": -599,
+          "y": 329,
+          "width": 106,
+          "height": 150
+        }
+      },
+      "M_glow_p4": {
+        "M_glow_p4": {
+          "x": -608,
+          "y": -106.5,
+          "width": 46,
+          "height": 821
+        }
+      },
+      "base": {
+        "F_base": {
+          "scaleX": 4,
+          "scaleY": 4,
+          "width": 298,
+          "height": 290
+        },
+        "M_base": {
+          "scaleX": 4,
+          "scaleY": 4,
+          "width": 298,
+          "height": 290
+        }
+      },
+      "bg_X": {
+        "F_bg_X": {
+          "width": 2562,
+          "height": 1442
+        }
+      },
+      "frame": {
+        "F_frame": {
+          "x": -1,
+          "y": -4.5,
+          "width": 1532,
+          "height": 1389
+        },
+        "M_frame": {
+          "x": -1,
+          "y": -3,
+          "width": 1532,
+          "height": 1392
+        }
+      },
+      "gem_glow": {
+        "gem_glow": {
+          "x": -324,
+          "y": 648,
+          "width": 104,
+          "height": 148
+        }
+      },
+      "gem_glow2": {
+        "gem_glow": {
+          "x": 2.42,
+          "y": 648,
+          "width": 104,
+          "height": 148
+        }
+      },
+      "gem_glow3": {
+        "gem_glow": {
+          "x": 325.94,
+          "y": 648,
+          "width": 104,
+          "height": 148
+        }
+      },
+      "glow_p1": {
+        "F_glow_p1": {
+          "x": -658,
+          "y": 485,
+          "width": 164,
+          "height": 298
+        },
+        "M_glow_p1": {
+          "x": -658,
+          "y": 485,
+          "width": 164,
+          "height": 298
+        }
+      },
+      "glow_p1_2": {
+        "F_glow_p1": {
+          "x": 656.33,
+          "y": 485,
+          "scaleX": -1,
+          "width": 164,
+          "height": 298
+        },
+        "M_glow_p1": {
+          "x": 655.57,
+          "y": 485,
+          "scaleX": -1,
+          "width": 164,
+          "height": 298
+        }
+      },
+      "glow_p3": {
+        "F_glow_p2": {
+          "x": -617,
+          "y": -99,
+          "width": 144,
+          "height": 880
+        },
+        "M_glow_p3": {
+          "x": -608,
+          "y": -102.5,
+          "width": 126,
+          "height": 881
+        }
+      },
+      "glow_p3_2": {
+        "F_glow_p2": {
+          "x": 613.55,
+          "y": -99,
+          "scaleX": -1,
+          "width": 144,
+          "height": 880
+        },
+        "M_glow_p3": {
+          "x": 604.66,
+          "y": -102.5,
+          "scaleX": -1,
+          "width": 126,
+          "height": 881
+        }
+      }
+    }
+  },
+  "animations": {
+    "fg_loop": {
+      "slots": {
+        "base": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_base"
+            }
+          ]
+        },
+        "bg_X": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_bg_X"
+            }
+          ]
+        },
+        "frame": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_frame"
+            }
+          ]
+        },
+        "gem_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "gem_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "gem_glow3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "glow_p1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_glow_p1"
+            }
+          ]
+        },
+        "glow_p3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_glow_p2"
+            }
+          ]
+        },
+        "glow_p1_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_glow_p1"
+            }
+          ]
+        },
+        "glow_p3_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "F_glow_p2"
+            }
+          ]
+        }
+      }
+    },
+    "mg_bet_up": {
+      "slots": {
+        "gem_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.698,
+                0.05,
+                0.566,
+                0.92
+              ]
+            },
+            {
+              "time": 1.1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "gem_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.698,
+                0.05,
+                0.566,
+                0.92
+              ]
+            },
+            {
+              "time": 1.1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "gem_glow3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.698,
+                0.05,
+                0.566,
+                0.92
+              ]
+            },
+            {
+              "time": 1.1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "glow_p1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p1"
+            }
+          ]
+        },
+        "glow_p3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p3"
+            }
+          ]
+        },
+        "glow_p1_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p1"
+            }
+          ]
+        },
+        "glow_p3_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.351,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p3"
+            }
+          ]
+        }
+      }
+    },
+    "mg_loop": {
+      "slots": {
+        "M_glow_p2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff42",
+              "curve": [
+                0.382,
+                0.58,
+                0.733,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3,
+              "color": "ffffffff",
+              "curve": [
+                0.243,
+                0,
+                0.652,
+                0.61
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff42"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p2"
+            }
+          ]
+        },
+        "gem_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "gem_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "gem_glow3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "gem_glow"
+            }
+          ]
+        },
+        "glow_p1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p1"
+            }
+          ]
+        },
+        "glow_p3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p3"
+            }
+          ]
+        },
+        "glow_p1_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p1"
+            }
+          ]
+        },
+        "glow_p3_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "M_glow_p3"
+            }
+          ]
+        }
+      }
+    },
+    "mg_normal": {}
+  }
+}

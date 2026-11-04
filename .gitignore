@@ -33,3 +33,8 @@ __pycache__/
 *.log
 *local-state.json
 *local-state.tmp
+
+# Local captured mirrors, analysis sessions and obsolete duplicate runtime
+/hades-runtime/
+/research/
+/archive/

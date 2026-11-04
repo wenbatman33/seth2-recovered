@@ -38,7 +38,7 @@ __publish("default", (T = m({
 }), D((P = (0, __dependency_0.applyDecoratedDescriptor)((y = function (t) {
   function o() {
     for (var o, i = arguments.length, s = new Array(i), r = 0; r < i; r++) s[r] = arguments[r];
-    return o = Reflect.construct(t, [this].concat(s).slice(1), new.target || o) || this, (0, __dependency_0.initializerDefineProperty)(o, "targetOfDragList", P, (0, __dependency_0.assertThisInitialized)(o)), (0, __dependency_0.initializerDefineProperty)(o, "isCenter", S, (0, __dependency_0.assertThisInitialized)(o)), o._onDragComp = null, o._oldPos = null, o._target = null, o._touchStartPoint = new __dependency_1.Vec2(), o;
+    return o = Reflect.construct(t, [this].concat(s).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(o, "targetOfDragList", P, (0, __dependency_0.assertThisInitialized)(o)), (0, __dependency_0.initializerDefineProperty)(o, "isCenter", S, (0, __dependency_0.assertThisInitialized)(o)), o._onDragComp = null, o._oldPos = null, o._target = null, o._touchStartPoint = new __dependency_1.Vec2(), o;
   }
   (0, __dependency_0.inheritsLoose)(o, t);
   var h = o.prototype;

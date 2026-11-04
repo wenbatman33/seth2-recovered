@@ -65,7 +65,7 @@ __publish("default", (T = L(!0), d = _("Quick適配元件/AdapterSprite"), u = E
 }), I(g = T(g = d(((0, __dependency_0.applyDecoratedDescriptor)((f = function (t) {
   function e() {
     for (var e, i = arguments.length, s = new Array(i), n = 0; n < i; n++) s[n] = arguments[n];
-    return (e = Reflect.construct(t, [this].concat(s).slice(1), new.target || e) || this)._scaleType = S.SUIT, e._alignType = v.CENTER, e._sprite = null, e;
+    return (e = Reflect.construct(t, [this].concat(s).slice(1), new.target || this.constructor) || this)._scaleType = S.SUIT, e._alignType = v.CENTER, e._sprite = null, e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var n = e.prototype;

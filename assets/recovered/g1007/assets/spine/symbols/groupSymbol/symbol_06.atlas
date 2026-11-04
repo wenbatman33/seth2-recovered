@@ -1,0 +1,56 @@
+
+symbol_06.png
+size: 548,548
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s6
+  rotate: false
+  xy: 2, 2
+  size: 542, 542
+  orig: 542, 542
+  offset: 0, 0
+  index: -1
+
+
+symbol_06-1591107d.png
+size: 680,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion
+  rotate: false
+  xy: 547, 133
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow01_01
+  rotate: false
+  xy: 547, 7
+  size: 124, 124
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+glow1
+  rotate: true
+  xy: 2, 5
+  size: 256, 241
+  orig: 256, 256
+  offset: 0, 7
+  index: -1
+particle_251
+  rotate: false
+  xy: 245, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+s6_mask
+  rotate: true
+  xy: 245, 84
+  size: 177, 300
+  orig: 177, 300
+  offset: 0, 0
+  index: -1
+

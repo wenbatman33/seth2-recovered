@@ -43,7 +43,7 @@ __dependency_1.cclegacy._RF.push({}, "145c16Ty1VF5psCT5CUSYwT", "WrapperLanguage
 __publish("WrapperLanguage", (0, __dependency_2.injectLanguageData)(s = function (e) {
   function t() {
     for (var n, t = arguments.length, a = new Array(t), r = 0; r < t; r++) a[r] = arguments[r];
-    return (n = Reflect.construct(e, [this].concat(a).slice(1), new.target || t) || this).bundle = __dependency_3.EBundles[__dependency_3.EBundles.wrapper], n;
+    return (n = Reflect.construct(e, [this].concat(a).slice(1), new.target || this.constructor) || this).bundle = __dependency_3.EBundles[__dependency_3.EBundles.wrapper], n;
   }
   return (0, __dependency_0.inheritsLoose)(t, e), t.prototype.init = function () {
     this.importLanguages(__dependency_4);

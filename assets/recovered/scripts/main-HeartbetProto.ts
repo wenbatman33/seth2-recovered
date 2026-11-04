@@ -38,7 +38,7 @@ __dependency_1.cclegacy._RF.push({}, "0e25fKD2o1MUJ8sXE3BJGwU", "HeartbetProto",
 __publish("HeartbeatProto", function (t) {
   function r() {
     for (var e, n = arguments.length, r = new Array(n), i = 0; i < n; i++) r[i] = arguments[i];
-    return (e = Reflect.construct(t, [this].concat(r).slice(1), new.target || r) || this).buffer = null, e.mainCmd = __dependency_2.MainCmd.CMD_SYS, e.subCmd = __dependency_2.SUB_CMD_SYS.CMD_SYS_HEART, e;
+    return (e = Reflect.construct(t, [this].concat(r).slice(1), new.target || this.constructor) || this).buffer = null, e.mainCmd = __dependency_2.MainCmd.CMD_SYS, e.subCmd = __dependency_2.SUB_CMD_SYS.CMD_SYS_HEART, e;
   }
   (0, __dependency_0.inheritsLoose)(r, t);
   var i = r.prototype;

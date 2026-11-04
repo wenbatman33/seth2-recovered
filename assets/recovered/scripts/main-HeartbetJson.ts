@@ -38,7 +38,7 @@ __dependency_1.cclegacy._RF.push({}, "bf8fbqBBmlMgpCa176v8+Pq", "HeartbetJson", 
 __publish("HeartbeatJson", function (t) {
   function s() {
     for (var e, n = arguments.length, s = new Array(n), r = 0; r < n; r++) s[r] = arguments[r];
-    return (e = Reflect.construct(t, [this].concat(s).slice(1), new.target || s) || this).buffer = null, e.mainCmd = __dependency_3.MainCmd.CMD_SYS, e.subCmd = __dependency_3.SUB_CMD_SYS.CMD_SYS_HEART, e;
+    return (e = Reflect.construct(t, [this].concat(s).slice(1), new.target || this.constructor) || this).buffer = null, e.mainCmd = __dependency_3.MainCmd.CMD_SYS, e.subCmd = __dependency_3.SUB_CMD_SYS.CMD_SYS_HEART, e;
   }
   return (0, __dependency_0.inheritsLoose)(s, t), (0, __dependency_0.createClass)(s, [{
     key: "cmd",

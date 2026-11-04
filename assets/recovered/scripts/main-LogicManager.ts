@@ -33,7 +33,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "ed32aE8EBlBeKkWhJ7/xI6h", "LogicManager", void 0), __publish("LogicManager", function (t) {
   function n() {
     for (var e, n = arguments.length, o = new Array(n), r = 0; r < n; r++) o[r] = arguments[r];
-    return (e = Reflect.construct(t, [this].concat(o).slice(1), new.target || n) || this).module = null, e;
+    return (e = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this).module = null, e;
   }
   return (0, __dependency_0.inheritsLoose)(n, t), n.prototype.get = function (e, n) {
     return void 0 === n && (n = !1), t.prototype.get.call(this, e, n);

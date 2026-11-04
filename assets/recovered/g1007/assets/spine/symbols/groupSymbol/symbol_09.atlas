@@ -1,0 +1,307 @@
+
+symbol_09-e2f642d2.png
+size: 572,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s9_01_circle
+  rotate: false
+  xy: 508, 54
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+s9_01_in
+  rotate: false
+  xy: 239, 38
+  size: 72, 76
+  orig: 72, 80
+  offset: 0, 4
+  index: -1
+s9_01_out
+  rotate: false
+  xy: 2, 2
+  size: 126, 112
+  orig: 127, 114
+  offset: 1, 2
+  index: -1
+s9_02
+  rotate: false
+  xy: 313, 39
+  size: 127, 75
+  orig: 129, 78
+  offset: 1, 1
+  index: -1
+s9_font
+  rotate: false
+  xy: 288, 8
+  size: 125, 28
+  orig: 127, 30
+  offset: 1, 1
+  index: -1
+s9_font_shadow
+  rotate: false
+  xy: 415, 18
+  size: 67, 19
+  orig: 67, 20
+  offset: 0, 0
+  index: -1
+s9_frame
+  rotate: false
+  xy: 130, 7
+  size: 107, 107
+  orig: 111, 110
+  offset: 2, 2
+  index: -1
+s9_light_mask
+  rotate: false
+  xy: 442, 40
+  size: 64, 74
+  orig: 64, 74
+  offset: 0, 0
+  index: -1
+s9_ram head
+  rotate: false
+  xy: 239, 6
+  size: 47, 30
+  orig: 49, 33
+  offset: 1, 1
+  index: -1
+
+
+symbol_09.png
+size: 364,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_2_01
+  rotate: false
+  xy: 260, 219
+  size: 39, 51
+  orig: 39, 51
+  offset: 0, 0
+  index: -1
+fire_2_02
+  rotate: false
+  xy: 301, 219
+  size: 38, 51
+  orig: 38, 51
+  offset: 0, 0
+  index: -1
+fire_2_04
+  rotate: true
+  xy: 260, 21
+  size: 39, 49
+  orig: 39, 49
+  offset: 0, 0
+  index: -1
+fire_2_05
+  rotate: false
+  xy: 260, 114
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+fire_2_06
+  rotate: false
+  xy: 260, 62
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+fire_2_07
+  rotate: false
+  xy: 301, 114
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+fire_2_08
+  rotate: false
+  xy: 260, 166
+  size: 39, 51
+  orig: 39, 51
+  offset: 0, 0
+  index: -1
+fire_2_10
+  rotate: false
+  xy: 301, 166
+  size: 38, 51
+  orig: 38, 51
+  offset: 0, 0
+  index: -1
+fire_2_12
+  rotate: false
+  xy: 311, 12
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+fire_2_13
+  rotate: false
+  xy: 301, 62
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+glow1
+  rotate: false
+  xy: 2, 29
+  size: 256, 241
+  orig: 256, 256
+  offset: 0, 7
+  index: -1
+s9_font_fx01
+  rotate: false
+  xy: 356, 101
+  size: 6, 14
+  orig: 8, 16
+  offset: 1, 1
+  index: -1
+s9_font_fx02
+  rotate: false
+  xy: 342, 83
+  size: 9, 15
+  orig: 11, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx03
+  rotate: false
+  xy: 342, 100
+  size: 12, 15
+  orig: 14, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx04
+  rotate: false
+  xy: 342, 134
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx05
+  rotate: true
+  xy: 260, 2
+  size: 17, 15
+  orig: 19, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx06
+  rotate: false
+  xy: 342, 151
+  size: 20, 15
+  orig: 22, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx07
+  rotate: false
+  xy: 277, 4
+  size: 22, 15
+  orig: 24, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx08
+  rotate: true
+  xy: 341, 168
+  size: 23, 15
+  orig: 25, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx09
+  rotate: true
+  xy: 2, 2
+  size: 25, 15
+  orig: 27, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx10
+  rotate: false
+  xy: 204, 12
+  size: 26, 15
+  orig: 28, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx11
+  rotate: false
+  xy: 144, 12
+  size: 28, 15
+  orig: 30, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx12
+  rotate: true
+  xy: 341, 224
+  size: 29, 15
+  orig: 31, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx13
+  rotate: false
+  xy: 51, 12
+  size: 29, 15
+  orig: 31, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx14
+  rotate: true
+  xy: 341, 193
+  size: 29, 15
+  orig: 31, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx15
+  rotate: false
+  xy: 19, 12
+  size: 30, 15
+  orig: 32, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx16
+  rotate: false
+  xy: 82, 12
+  size: 29, 15
+  orig: 31, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx17
+  rotate: false
+  xy: 113, 12
+  size: 29, 15
+  orig: 31, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx18
+  rotate: false
+  xy: 174, 12
+  size: 28, 15
+  orig: 30, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx19
+  rotate: false
+  xy: 232, 12
+  size: 26, 15
+  orig: 28, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx20
+  rotate: false
+  xy: 341, 255
+  size: 21, 15
+  orig: 23, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx21
+  rotate: false
+  xy: 342, 117
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+s9_font_fx22
+  rotate: true
+  xy: 19, 2
+  size: 8, 14
+  orig: 10, 16
+  offset: 1, 1
+  index: -1

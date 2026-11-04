@@ -88,7 +88,7 @@ var M = __dependency_1._decorator.ccclass,
 __publish("BuyFeatureView", (v = M("BuyFeatureView"), w = (0, __dependency_2.inject)("popup", __dependency_1.Node), P = (0, __dependency_2.inject)("popup/cancelBtn", __dependency_1.Node), E = (0, __dependency_2.inject)("popup/content", __dependency_1.Node), v((L = (0, __dependency_0.applyDecoratedDescriptor)((I = function (t) {
   function e() {
     for (var e, a = arguments.length, u = new Array(a), r = 0; r < a; r++) u[r] = arguments[r];
-    return e = Reflect.construct(t, [this].concat(u).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "popup", L, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "cancelBtn", T, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "content", C, (0, __dependency_0.assertThisInitialized)(e)), e.titleFontTween = null, e.buyFeatureViewData = [], e;
+    return e = Reflect.construct(t, [this].concat(u).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "popup", L, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "cancelBtn", T, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "content", C, (0, __dependency_0.assertThisInitialized)(e)), e.titleFontTween = null, e.buyFeatureViewData = [], e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var r = e.prototype;

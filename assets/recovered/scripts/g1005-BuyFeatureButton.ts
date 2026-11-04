@@ -60,7 +60,7 @@ var A = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("BuyFeatureButton", (S = A("BuyFeatureButton"), T = (0, __dependency_3.inject)("font", __dependency_1.Sprite), S((C = (0, __dependency_0.applyDecoratedDescriptor)((b = function (t) {
   function e() {
     for (var e, n = arguments.length, a = new Array(n), r = 0; r < n; r++) a[r] = arguments[r];
-    return e = Reflect.construct(t, [this].concat(a).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "fontSprite", C, (0, __dependency_0.assertThisInitialized)(e)), e.button = null, e;
+    return e = Reflect.construct(t, [this].concat(a).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "fontSprite", C, (0, __dependency_0.assertThisInitialized)(e)), e.button = null, e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var r = e.prototype;

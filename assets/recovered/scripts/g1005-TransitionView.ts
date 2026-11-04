@@ -56,7 +56,7 @@ var w = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("TransitionView", (T = w("TransitionView"), v = (0, __dependency_3.inject)("transitionSpine", __dependency_1.sp.Skeleton), T((m = (0, __dependency_0.applyDecoratedDescriptor)((g = function (t) {
   function n() {
     for (var n, i = arguments.length, a = new Array(i), s = 0; s < i; s++) a[s] = arguments[s];
-    return n = Reflect.construct(t, [this].concat(a).slice(1), new.target || n) || this, (0, __dependency_0.initializerDefineProperty)(n, "transitionSpine", m, (0, __dependency_0.assertThisInitialized)(n)), n;
+    return n = Reflect.construct(t, [this].concat(a).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(n, "transitionSpine", m, (0, __dependency_0.assertThisInitialized)(n)), n;
   }
   (0, __dependency_0.inheritsLoose)(n, t);
   var s = n.prototype;

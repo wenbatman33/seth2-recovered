@@ -42,7 +42,7 @@ __dependency_1.cclegacy._RF.push({}, "8edff39/nxOT6WieRg4wCeT", "DefaultCodec", 
 __publish("DefaultCodec", function (e) {
   function r() {
     for (var n, t = arguments.length, r = new Array(t), i = 0; i < t; i++) r[i] = arguments[i];
-    return (n = Reflect.construct(e, [this].concat(r).slice(1), new.target || r) || this).mainCmd = 0, n.subCmd = 0, n.buffer = null, n.headerSize = 3 * Uint32Array.BYTES_PER_ELEMENT, n;
+    return (n = Reflect.construct(e, [this].concat(r).slice(1), new.target || this.constructor) || this).mainCmd = 0, n.subCmd = 0, n.buffer = null, n.headerSize = 3 * Uint32Array.BYTES_PER_ELEMENT, n;
   }
   (0, __dependency_0.inheritsLoose)(r, e);
   var u = r.prototype;

@@ -90,7 +90,7 @@ __publish("EInitName", void 0), __dependency_1.cclegacy._RF.push({}, "1ccecTxaNJ
 var D = __publish("default", function (e) {
   function s() {
     for (var t, a = arguments.length, i = new Array(a), s = 0; s < a; s++) i[s] = arguments[s];
-    return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || s) || this).GAME_VERSION = "1.1.5_8", t.preData = void 0, t._currentGameType = void 0, t.previousGameType = void 0, t.originTurbo = null, t.currSpinIndex = 0, t.preSpinData = null, t.isEarlyFlag = !1, t.isOpenEarlyFlag = !1, t.isSendOutEarlyFlag = !1, t.earlySpinDelaying = !1, t.earlyData = null, t.newEarlyData = null, t.isEarlyCloseFlag = !1, t.earlyCloseData = null, t.waitEarlyDataRetryInterval = null, t.waitEarlyCloseDataRetryInterval = null, t.isHaveNewLock = !1, t.newLockTimesSymbols = new Map(), t.delayEarlyTween = void 0, t.isSendClose = !1, t.originGameData = null, t;
+    return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || this.constructor) || this).GAME_VERSION = "1.1.5_8", t.preData = void 0, t._currentGameType = void 0, t.previousGameType = void 0, t.originTurbo = null, t.currSpinIndex = 0, t.preSpinData = null, t.isEarlyFlag = !1, t.isOpenEarlyFlag = !1, t.isSendOutEarlyFlag = !1, t.earlySpinDelaying = !1, t.earlyData = null, t.newEarlyData = null, t.isEarlyCloseFlag = !1, t.earlyCloseData = null, t.waitEarlyDataRetryInterval = null, t.waitEarlyCloseDataRetryInterval = null, t.isHaveNewLock = !1, t.newLockTimesSymbols = new Map(), t.delayEarlyTween = void 0, t.isSendClose = !1, t.originGameData = null, t;
   }
   (0, __dependency_0.inheritsLoose)(s, e);
   var r = s.prototype;

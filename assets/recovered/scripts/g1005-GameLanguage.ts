@@ -43,7 +43,7 @@ __dependency_1.cclegacy._RF.push({}, "f1193TL7XRNTotDdk19nkad", "GameLanguage", 
 __publish("GameLanguage", (0, __dependency_2.injectLanguageData)(c = function (e) {
   function n() {
     for (var t, n = arguments.length, a = new Array(n), u = 0; u < n; u++) a[u] = arguments[u];
-    return (t = Reflect.construct(e, [this].concat(a).slice(1), new.target || n) || this).bundle = __dependency_3.default.module, t;
+    return (t = Reflect.construct(e, [this].concat(a).slice(1), new.target || this.constructor) || this).bundle = __dependency_3.default.module, t;
   }
   return (0, __dependency_0.inheritsLoose)(n, e), n.prototype.init = function () {
     this.importLanguages(__dependency_4);

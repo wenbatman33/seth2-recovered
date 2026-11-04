@@ -33,7 +33,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "6524eDwP+pOxIVce9Jvkz7a", "Singleton", void 0), __publish("default", function (n) {
   function i() {
     for (var t, e = arguments.length, i = new Array(e), c = 0; c < e; c++) i[c] = arguments[c];
-    return (t = Reflect.construct(n, [this].concat(i).slice(1), new.target || i) || this).module = "【單列管理器】", t;
+    return (t = Reflect.construct(n, [this].concat(i).slice(1), new.target || this.constructor) || this).module = "【單列管理器】", t;
   }
   return (0, __dependency_0.inheritsLoose)(i, n), (0, __dependency_0.createClass)(i, null, [{
     key: "instance",

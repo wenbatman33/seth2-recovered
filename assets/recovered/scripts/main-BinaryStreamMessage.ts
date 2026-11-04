@@ -130,14 +130,14 @@ var u = function () {
   l = function (e) {
     function r() {
       for (var t, r = arguments.length, i = new Array(r), a = 0; a < r; a++) i[a] = arguments[a];
-      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || r) || this).data = 0, t;
+      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || this.constructor) || this).data = 0, t;
     }
     return (0, __dependency_0.inheritsLoose)(r, e), r;
   }(u),
   c = __publish("BOOL", function (e) {
     function r() {
       for (var t, r = arguments.length, i = new Array(r), a = 0; a < r; a++) i[a] = arguments[a];
-      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || r) || this).data = !1, t;
+      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || this.constructor) || this).data = !1, t;
     }
     (0, __dependency_0.inheritsLoose)(r, e);
     var i = r.prototype;
@@ -150,7 +150,7 @@ var u = function () {
   y = __publish("STRING", function (e) {
     function r() {
       for (var t, r = arguments.length, i = new Array(r), a = 0; a < r; a++) i[a] = arguments[a];
-      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || r) || this).data = "", t.byteSize = void 0, t;
+      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || this.constructor) || this).data = "", t.byteSize = void 0, t;
     }
     (0, __dependency_0.inheritsLoose)(r, e);
     var i = r.prototype;
@@ -261,7 +261,7 @@ var u = function () {
   _ = __publish("BinaryStream", function (e) {
     function r() {
       for (var t, r = arguments.length, i = new Array(r), a = 0; a < r; a++) i[a] = arguments[a];
-      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || r) || this).byteArray = null, t.buffer = null, t;
+      return (t = Reflect.construct(e, [this].concat(i).slice(1), new.target || this.constructor) || this).byteArray = null, t.buffer = null, t;
     }
     (0, __dependency_0.inheritsLoose)(r, e);
     var i = r.prototype;

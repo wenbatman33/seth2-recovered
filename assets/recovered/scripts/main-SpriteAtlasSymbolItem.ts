@@ -38,7 +38,7 @@ var A = __dependency_1._decorator.ccclass,
 __publish("SpriteAtlasSymbolItem", (u = A("SpriteAtlasSymbolItem"), S = I("Slot/Symbol/SpriteAtlasSymbolItem"), b = z(__dependency_1.SpriteAtlas), m = z(__dependency_1.Sprite), y = z(__dependency_1.CCString), u(f = S((g = (0, __dependency_0.applyDecoratedDescriptor)((h = function (t) {
   function e() {
     for (var e, i = arguments.length, l = new Array(i), o = 0; o < i; o++) l[o] = arguments[o];
-    return e = Reflect.construct(t, [this].concat(l).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "atlas", g, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "staticSprite", d, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "prefix", v, (0, __dependency_0.assertThisInitialized)(e)), e;
+    return e = Reflect.construct(t, [this].concat(l).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "atlas", g, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "staticSprite", d, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "prefix", v, (0, __dependency_0.assertThisInitialized)(e)), e;
   }
   return (0, __dependency_0.inheritsLoose)(e, t), e.prototype.setSymbol = function (e) {
     if (t.prototype.setSymbol.call(this, e), this.id = e, this.staticSprite && this.atlas) {

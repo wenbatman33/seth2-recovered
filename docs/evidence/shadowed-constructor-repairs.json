@@ -1,0 +1,1017 @@
+[
+  {
+    "file": "g1005-AnimaView.ts",
+    "edits": [
+      {
+        "start": 2342,
+        "end": 2343,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "g1005-BackgroundView.ts",
+    "edits": [
+      {
+        "start": 2361,
+        "end": 2362,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-BigwinView.ts",
+    "edits": [
+      {
+        "start": 3374,
+        "end": 3375,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-BlackOverlayView.ts",
+    "edits": [
+      {
+        "start": 1601,
+        "end": 1602,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-BuyFeatureButton.ts",
+    "edits": [
+      {
+        "start": 2183,
+        "end": 2184,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-BuyFeatureItem.ts",
+    "edits": [
+      {
+        "start": 3286,
+        "end": 3287,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-BuyFeatureView.ts",
+    "edits": [
+      {
+        "start": 3300,
+        "end": 3301,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-CharacterView.ts",
+    "edits": [
+      {
+        "start": 2553,
+        "end": 2554,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "g1005-CurrentTimesView.ts",
+    "edits": [
+      {
+        "start": 2362,
+        "end": 2363,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-FreeGameAlertView.ts",
+    "edits": [
+      {
+        "start": 3588,
+        "end": 3589,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-FullComboView.ts",
+    "edits": [
+      {
+        "start": 2109,
+        "end": 2110,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-GameColor.ts",
+    "edits": [
+      {
+        "start": 1460,
+        "end": 1461,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "g1005-GameConfigModel.ts",
+    "edits": [
+      {
+        "start": 6830,
+        "end": 6831,
+        "original": "_"
+      }
+    ]
+  },
+  {
+    "file": "g1005-GameData.ts",
+    "edits": [
+      {
+        "start": 2748,
+        "end": 2749,
+        "original": "s"
+      }
+    ]
+  },
+  {
+    "file": "g1005-GameLanguage.ts",
+    "edits": [
+      {
+        "start": 1487,
+        "end": 1488,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "g1005-GameView.ts",
+    "edits": [
+      {
+        "start": 5401,
+        "end": 5402,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-IntroView.ts",
+    "edits": [
+      {
+        "start": 2809,
+        "end": 2810,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-JackpotView.ts",
+    "edits": [
+      {
+        "start": 3227,
+        "end": 3228,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-PrizeView.ts",
+    "edits": [
+      {
+        "start": 1590,
+        "end": 1591,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-ReelView.ts",
+    "edits": [
+      {
+        "start": 3668,
+        "end": 3669,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "g1005-Symbol.ts",
+    "edits": [
+      {
+        "start": 3110,
+        "end": 3111,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "g1005-SymbolView.ts",
+    "edits": [
+      {
+        "start": 2282,
+        "end": 2283,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "g1005-TransitionView.ts",
+    "edits": [
+      {
+        "start": 2049,
+        "end": 2050,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "g1005-TreasuresView.ts",
+    "edits": [
+      {
+        "start": 3025,
+        "end": 3026,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-Adapter.ts",
+    "edits": [
+      {
+        "start": 1232,
+        "end": 1233,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-AdapterSafeArea.ts",
+    "edits": [
+      {
+        "start": 1859,
+        "end": 1860,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-AdapterSprite.ts",
+    "edits": [
+      {
+        "start": 2586,
+        "end": 2587,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-Alert.ts",
+    "edits": [
+      {
+        "start": 2103,
+        "end": 2104,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-Application.ts",
+    "edits": [
+      {
+        "start": 3677,
+        "end": 3678,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-AudioComponent.ts",
+    "edits": [
+      {
+        "start": 6792,
+        "end": 6793,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-BinaryStreamMessage.ts",
+    "edits": [
+      {
+        "start": 8227,
+        "end": 8228,
+        "original": "r"
+      },
+      {
+        "start": 4613,
+        "end": 4614,
+        "original": "r"
+      },
+      {
+        "start": 4119,
+        "end": 4120,
+        "original": "r"
+      },
+      {
+        "start": 3789,
+        "end": 3790,
+        "original": "r"
+      }
+    ]
+  },
+  {
+    "file": "main-ChatService.ts",
+    "edits": [
+      {
+        "start": 1414,
+        "end": 1415,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-CmmGameData.ts",
+    "edits": [
+      {
+        "start": 1315,
+        "end": 1316,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-CmmProto.ts",
+    "edits": [
+      {
+        "start": 1203,
+        "end": 1204,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-CommandManager.ts",
+    "edits": [
+      {
+        "start": 1214,
+        "end": 1215,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-CommonLanguage.ts",
+    "edits": [
+      {
+        "start": 2032,
+        "end": 2033,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-CompanyWaveEffect.ts",
+    "edits": [
+      {
+        "start": 1688,
+        "end": 1689,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-DataCenter.ts",
+    "edits": [
+      {
+        "start": 1211,
+        "end": 1212,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-DebugView.ts",
+    "edits": [
+      {
+        "start": 2150,
+        "end": 2151,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-DefaultCodec.ts",
+    "edits": [
+      {
+        "start": 1419,
+        "end": 1420,
+        "original": "r"
+      }
+    ]
+  },
+  {
+    "file": "main-DragItem.ts",
+    "edits": [
+      {
+        "start": 1476,
+        "end": 1477,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-EventComponent.ts",
+    "edits": [
+      {
+        "start": 1322,
+        "end": 1323,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-FlashSpine.ts",
+    "edits": [
+      {
+        "start": 1233,
+        "end": 1234,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-Flow.ts",
+    "edits": [
+      {
+        "start": 1678,
+        "end": 1679,
+        "original": "s"
+      }
+    ]
+  },
+  {
+    "file": "main-GameAlert.ts",
+    "edits": [
+      {
+        "start": 2576,
+        "end": 2577,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-GameAlert2.ts",
+    "edits": [
+      {
+        "start": 2113,
+        "end": 2114,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-GameViewBase.ts",
+    "edits": [
+      {
+        "start": 1383,
+        "end": 1384,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-Handler.ts",
+    "edits": [
+      {
+        "start": 1303,
+        "end": 1304,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-HandlerManager.ts",
+    "edits": [
+      {
+        "start": 1231,
+        "end": 1232,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-HeartbetBinary.ts",
+    "edits": [
+      {
+        "start": 1358,
+        "end": 1359,
+        "original": "r"
+      }
+    ]
+  },
+  {
+    "file": "main-HeartbetJson.ts",
+    "edits": [
+      {
+        "start": 1340,
+        "end": 1341,
+        "original": "s"
+      }
+    ]
+  },
+  {
+    "file": "main-HeartbetProto.ts",
+    "edits": [
+      {
+        "start": 1346,
+        "end": 1347,
+        "original": "r"
+      }
+    ]
+  },
+  {
+    "file": "main-JsonMessage.ts",
+    "edits": [
+      {
+        "start": 2292,
+        "end": 2293,
+        "original": "r"
+      }
+    ]
+  },
+  {
+    "file": "main-Logic.ts",
+    "edits": [
+      {
+        "start": 1301,
+        "end": 1302,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-LogicManager.ts",
+    "edits": [
+      {
+        "start": 1221,
+        "end": 1222,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-MainController.ts",
+    "edits": [
+      {
+        "start": 2163,
+        "end": 2164,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-OrientationCanvas.ts",
+    "edits": [
+      {
+        "start": 1500,
+        "end": 1501,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-OrientationFitStage.ts",
+    "edits": [
+      {
+        "start": 1396,
+        "end": 1397,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-OrientationTool.ts",
+    "edits": [
+      {
+        "start": 4493,
+        "end": 4494,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-OrientationToolManager.ts",
+    "edits": [
+      {
+        "start": 2023,
+        "end": 2024,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-OrientationWidget.ts",
+    "edits": [
+      {
+        "start": 2638,
+        "end": 2639,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-ParticleWinLine.ts",
+    "edits": [
+      {
+        "start": 1687,
+        "end": 1688,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-ProtoMessage.ts",
+    "edits": [
+      {
+        "start": 1463,
+        "end": 1464,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-ReelsController.ts",
+    "edits": [
+      {
+        "start": 2996,
+        "end": 2997,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-ResourceFileSizeChecker.ts",
+    "edits": [
+      {
+        "start": 1546,
+        "end": 1547,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-ScratchTool.ts",
+    "edits": [
+      {
+        "start": 1412,
+        "end": 1413,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-Sender.ts",
+    "edits": [
+      {
+        "start": 1386,
+        "end": 1387,
+        "original": "s"
+      }
+    ]
+  },
+  {
+    "file": "main-SenderManager.ts",
+    "edits": [
+      {
+        "start": 1226,
+        "end": 1227,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-Service.ts",
+    "edits": [
+      {
+        "start": 1588,
+        "end": 1589,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-ShakeWaveEffect.ts",
+    "edits": [
+      {
+        "start": 1526,
+        "end": 1527,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-SingleReel.ts",
+    "edits": [
+      {
+        "start": 3024,
+        "end": 3025,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-Singleton.ts",
+    "edits": [
+      {
+        "start": 1208,
+        "end": 1209,
+        "original": "i"
+      }
+    ]
+  },
+  {
+    "file": "main-Snapshot.ts",
+    "edits": [
+      {
+        "start": 1302,
+        "end": 1303,
+        "original": "a"
+      }
+    ]
+  },
+  {
+    "file": "main-SpriteAnim.ts",
+    "edits": [
+      {
+        "start": 1409,
+        "end": 1410,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-SpriteAtlasSymbolItem.ts",
+    "edits": [
+      {
+        "start": 1715,
+        "end": 1716,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-SpriteSymbolItem.ts",
+    "edits": [
+      {
+        "start": 1768,
+        "end": 1769,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-StageData.ts",
+    "edits": [
+      {
+        "start": 1501,
+        "end": 1502,
+        "original": "s"
+      }
+    ]
+  },
+  {
+    "file": "main-SymbolBase.ts",
+    "edits": [
+      {
+        "start": 1738,
+        "end": 1739,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-TableView.ts",
+    "edits": [
+      {
+        "start": 6310,
+        "end": 6311,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-TableViewCell.ts",
+    "edits": [
+      {
+        "start": 1510,
+        "end": 1511,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-TaskQueue.ts",
+    "edits": [
+      {
+        "start": 1712,
+        "end": 1713,
+        "original": "s"
+      }
+    ]
+  },
+  {
+    "file": "main-TicketBase.ts",
+    "edits": [
+      {
+        "start": 2204,
+        "end": 2205,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-TimeManager.ts",
+    "edits": [
+      {
+        "start": 1261,
+        "end": 1262,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-Tips.ts",
+    "edits": [
+      {
+        "start": 1277,
+        "end": 1278,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-UIColor.ts",
+    "edits": [
+      {
+        "start": 2849,
+        "end": 2850,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-UILabel.ts",
+    "edits": [
+      {
+        "start": 1861,
+        "end": 1862,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-UIReconnect.ts",
+    "edits": [
+      {
+        "start": 1213,
+        "end": 1214,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-UIRichText.ts",
+    "edits": [
+      {
+        "start": 1870,
+        "end": 1871,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-UISprite.ts",
+    "edits": [
+      {
+        "start": 2713,
+        "end": 2714,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-UIView.ts",
+    "edits": [
+      {
+        "start": 1594,
+        "end": 1595,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-UIi18n.ts",
+    "edits": [
+      {
+        "start": 2476,
+        "end": 2477,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-UpdateLoading.ts",
+    "edits": [
+      {
+        "start": 1205,
+        "end": 1206,
+        "original": "e"
+      }
+    ]
+  },
+  {
+    "file": "main-WaveEffect.ts",
+    "edits": [
+      {
+        "start": 1524,
+        "end": 1525,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-WaveSpineEffect.ts",
+    "edits": [
+      {
+        "start": 1554,
+        "end": 1555,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-WrapperData.ts",
+    "edits": [
+      {
+        "start": 1309,
+        "end": 1310,
+        "original": "a"
+      }
+    ]
+  },
+  {
+    "file": "main-WrapperEntry.ts",
+    "edits": [
+      {
+        "start": 1629,
+        "end": 1630,
+        "original": "a"
+      }
+    ]
+  },
+  {
+    "file": "main-WrapperLanguage.ts",
+    "edits": [
+      {
+        "start": 1501,
+        "end": 1502,
+        "original": "t"
+      }
+    ]
+  },
+  {
+    "file": "main-WrapperLogic.ts",
+    "edits": [
+      {
+        "start": 1528,
+        "end": 1529,
+        "original": "o"
+      }
+    ]
+  },
+  {
+    "file": "main-WrapperView.ts",
+    "edits": [
+      {
+        "start": 1953,
+        "end": 1954,
+        "original": "n"
+      }
+    ]
+  },
+  {
+    "file": "main-debug-view-runtime-control.ts",
+    "edits": [
+      {
+        "start": 2175,
+        "end": 2176,
+        "original": "e"
+      }
+    ]
+  }
+]

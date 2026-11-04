@@ -1,8 +1,46 @@
-# 戰神賽特2 · Cocos Creator 可編輯工程
+# 戰神賽特2／古神巴風特 · Cocos Creator 前端還原工程
 
 使用 **Cocos Creator 3.8.8** 開啟本倉庫根目錄，即可編輯場景、Prefab、原始圖片、音效與還原腳本。遊戲搭配自行實作的本機假後端，無需原網站帳號、手機驗證或遊戲伺服器。
 
-這是發布客戶端的還原工程，**不是原作者完整原始碼或原伺服器**。原廠 RNG／RTP 未還原；部分還原 `.ts` 仍是反編譯 JavaScript。已驗證的操作與限制見 [還原狀態](docs/RECOVERY_STATUS.md)。
+這是發布客戶端的還原工程，**不是原作者完整原始碼或原伺服器**。後端依使用者要求使用自有假資料；部分還原 `.ts` 仍是反編譯 JavaScript。本輪實際驗證與剩餘項目見 [目前進度](docs/RECOVERY_PROGRESS_20261104.md)；舊版狀態另保留在 `docs/RECOVERY_STATUS.md`。
+
+## 本機兩款遊戲入口
+
+```sh
+npm run preview
+```
+
+選單：<http://127.0.0.1:8174/>。使用官方 Creator GUI 建置的 `build/frontend-seth2` 與 `build/frontend-hades`，不再使用舊的 `hades-runtime/build/web-desktop` 固定盤面預覽。
+
+| 遊戲 | 自動選擇版型 | 強制 PC 橫式 | 強制手機直式 |
+| --- | --- | --- | --- |
+| 戰神賽特2 | [開啟](http://127.0.0.1:8174/seth2/) | [PC](http://127.0.0.1:8174/seth2/?layout=desktop) | [手機](http://127.0.0.1:8174/seth2/?layout=mobile) |
+| 古神巴風特 | [開啟](http://127.0.0.1:8174/hades/) | 同一個原始橫式玩法 | 原始橫式玩法置於直式背景容器 |
+
+賽特2使用原始 `landscape/GameView.prefab` 與 `portrait/GameView.prefab`，並在引擎啟動前選擇 `main.scene`／`mainPortrait.scene`。PC 版不是放大直式版。開發自行驗證加 `reaDevelopmentMute=1`，限制 30 FPS 並使用靜音輸出；一般入口保留正常聲音。大量 GPU 繪圖診斷另需 `reaRenderDebug=1`，普通 QA 不啟用。
+
+## 兩款遊戲的資料夾配置
+
+```text
+assets/
+  recovered/
+    main/                  # 共用啟動場景；main 橫式、mainPortrait 直式
+    slotFramework/         # 共用 UI、設定、音效控制等
+    scripts/               # main- / framework- / g1005- / g1007- 還原腳本
+    g1005/                 # 賽特2原始素材、Prefab、Spine
+    g1007/                 # 巴風特原始素材、Prefab、Spine
+    bootstrap/             # 本機啟動與傳輸安裝
+  local-backend/           # 各遊戲獨立的自有模擬後端
+build/
+  frontend-seth2/           # 官方 GUI 的賽特2網頁輸出
+  frontend-hades/           # 官方 GUI 的巴風特網頁輸出
+extensions/
+  recovered-frontends-build/ # GUI 建置後自動設定遊戲身分、跨遊戲入口與版型
+```
+
+兩款遊戲各自建置，只載入自己的 Bundle。原始推薦圖示切換另一款遊戲時，入口會跳到另一份建置，避免在巴風特輸出中要求載入賽特2的 g1005。建置本身沒有 `gn` 參數時，會使用該建置的遊戲身分。
+
+舊固定盤面展示、重複素材與獨立 `hades-runtime` 已退出正式入口；本機研究／封存資料不推送。搬移巴風特原始資產時保留全部 `.meta` 內容，UUID 未重建。詳見 `docs/evidence/folder-layout-20261104.json`。
 
 ## 第一次開啟
 
@@ -16,7 +54,7 @@
 
 3. Dashboard →「專案」→「匯入」，選擇這個包含 `package.json`、`assets/`、`settings/` 的根目錄。
 4. 用 Creator 3.8.8 開啟，等待第一次素材匯入與腳本編譯結束。
-5. 資源管理器中雙擊 **`assets/recovered/main/mainPortrait.scene`**。
+5. PC 橫式開啟 **`assets/recovered/main/main.scene`**；賽特2手機直式開啟 **`assets/recovered/main/mainPortrait.scene`**。
 6. 工具列選「當前場景」，按 **▶ 播放**。瀏覽器載入後按「開始遊戲」，即可轉動。
 
 `assets/inspection/MaskNative388Diagnostic.scene` 是診斷場景，不是遊戲入口。Creator 預覽埠由編輯器分配，可能是7456或7457，以按播放後開啟的網址為準。
@@ -35,10 +73,17 @@
 ## 重新建置成網頁
 
 1. 在已登入的 Creator 內開啟上述主場景。
-2.「專案 → 構建發布」，新增 **Web Mobile** 工作；需要時可另建 Web Desktop。
-3. 將 `mainPortrait` 加入參與建置場景，設為啟動場景。其 UUID 是 `ed1c7a5d-01d8-4ed0-9393-741fe7f675a0`。
+2.「專案 → 發布到 → 終端」，選擇 **Web Desktop**，可匯入 `tools/build-configs/seth2.json` 或 `hades.json`。
+3. 賽特2同時勾選 `main` 與 `mainPortrait`，包含 `g1005` Bundle；巴風特使用 `main` 與 `g1007` Bundle。保留原場景 UUID。
 4. 使用工程已保存的引擎與 Spine 模組設定；不要任意切換渲染管線或刪除 Mask。按「構建」，以 GUI 顯示成功且實際可玩為驗收依據。
-5. 以實際產生的輸出資料夾為準，例如 `build/web-mobile`。不要直接用 `file://` 開啟輸出。
+5. 分別輸出 `build/frontend-seth2` 與 `build/frontend-hades`。工程的 `recovered-frontends-build` 擴充會在 GUI 建置完成後自動套用可重現的網頁容器與版型選擇；若使用未載入此擴充的舊編輯器，也可手動執行：
+
+   ```sh
+   node tools/prepare-recovered-build.mjs build/frontend-seth2
+   node tools/prepare-recovered-build.mjs build/frontend-hades
+   ```
+
+不要直接用 `file://` 開啟輸出。下方 `prepare_preview.py`／18992／18993 是保留的舊單款預覽流程；目前兩款整合入口使用上方 8174。
 
 可以使用內附工具將 GUI 輸出複製為獨立預覽，**不改動素材來源或原建置**：
 
@@ -52,7 +97,7 @@ python3 tools/prepare_preview.py build/web-mobile
 python3 tools/start_preview.py --development
 ```
 
-把範例 `build/web-mobile` 換成你的實際輸出路徑。正常入口是 <http://127.0.0.1:18992/>，開發入口是 <http://127.0.0.1:18993/development-muted/>。macOS 也可雙擊根目錄的 `啟動預覽.command` 啟動已準備的正常預覽。
+把範例 `build/web-mobile` 換成你的實際輸出路徑。舊單款入口是 <http://127.0.0.1:18992/>，舊開發入口是 <http://127.0.0.1:18993/development-muted/>。macOS 雙擊根目錄的 `啟動預覽.command` 會啟動目前兩款整合入口 8174。
 
 新 clone **不包含** `library/`、`temp/`、`build/`、`previews/` 或 `node_modules/`；Creator 會重建快取，預覽須先按上述流程建置。啟動器不會把別的服務當成目前專案、不會終止其他程序，也不會重設錢包。
 
@@ -62,8 +107,10 @@ python3 tools/start_preview.py --development
 
 | 位置 | 用途 |
 | --- | --- |
-| `assets/recovered/main/mainPortrait.scene` | 遊戲啟動場景 |
+| `assets/recovered/main/main.scene`／`mainPortrait.scene` | PC 橫式／賽特2手機直式啟動場景 |
 | `assets/recovered/g1005/` | 賽特2的場景、Prefab、原圖、音效與動畫素材 |
+| `assets/recovered/g1007/` | 巴風特正式客戶端的 Prefab、原圖、音效與動畫素材 |
+| `assets/local-backend/HadesLocalBackend.ts` | 巴風特自有模擬傳輸、特色回合與續局 |
 | `assets/recovered/slotFramework/` | 共享遊戲介面與資產 |
 | `assets/recovered/scripts/` | 還原腳本與 Creator 相容修正 |
 | `assets/recovered/bootstrap/local-runtime.ts` | 啟動參數、自有後端安裝、開發靜音選項 |

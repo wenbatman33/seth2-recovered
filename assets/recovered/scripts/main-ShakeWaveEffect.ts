@@ -41,7 +41,7 @@ __publish("ShakeWaveEffect", (l = m("ShakeWaveEffect"), h = S({
 }), l((v = (0, __dependency_0.applyDecoratedDescriptor)((g = function (t) {
   function e() {
     for (var e, r = arguments.length, n = new Array(r), s = 0; s < r; s++) n[s] = arguments[s];
-    return e = Reflect.construct(t, [this].concat(n).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "speedFactor", v, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "strengthFactor", y, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "isHorizontal", b, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "isVertical", _, (0, __dependency_0.assertThisInitialized)(e)), e._trans = void 0, e._pass = void 0, e._speedHandle = void 0, e._strengthHandler = void 0, e.waveStrength = 0, e;
+    return e = Reflect.construct(t, [this].concat(n).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "speedFactor", v, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "strengthFactor", y, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "isHorizontal", b, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "isVertical", _, (0, __dependency_0.assertThisInitialized)(e)), e._trans = void 0, e._pass = void 0, e._speedHandle = void 0, e._strengthHandler = void 0, e.waveStrength = 0, e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var n = e.prototype;

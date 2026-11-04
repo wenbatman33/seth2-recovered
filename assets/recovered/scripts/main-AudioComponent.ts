@@ -162,7 +162,7 @@ y.module = "【音效資料】";
 __publish("default", m(p = function (e) {
   function o() {
     for (var t, s = arguments.length, o = new Array(s), u = 0; u < s; u++) o[u] = arguments[u];
-    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || o) || this).owner = null, t;
+    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || this.constructor) || this).owner = null, t;
   }
   (0, __dependency_0.inheritsLoose)(o, e);
   var u = o.prototype;

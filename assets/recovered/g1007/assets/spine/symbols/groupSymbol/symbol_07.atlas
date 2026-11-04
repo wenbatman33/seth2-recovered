@@ -1,0 +1,55 @@
+
+symbol_07-4f598fbe.png
+size: 544,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s7
+  rotate: false
+  xy: 2, 2
+  size: 540, 540
+  orig: 540, 540
+  offset: 0, 0
+  index: -1
+
+
+symbol_07.png
+size: 532,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion
+  rotate: false
+  xy: 260, 14
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow01_01
+  rotate: false
+  xy: 390, 18
+  size: 124, 124
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+glow1
+  rotate: false
+  xy: 2, 84
+  size: 256, 241
+  orig: 256, 256
+  offset: 0, 7
+  index: -1
+particle_251
+  rotate: false
+  xy: 2, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+s7_mask
+  rotate: true
+  xy: 260, 144
+  size: 181, 267
+  orig: 181, 267
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,96 @@
+
+jp_mini-fb52a1fc.png
+size: 616,456
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mini
+  rotate: false
+  xy: 2, 2
+  size: 453, 451
+  orig: 455, 453
+  offset: 1, 1
+  index: -1
+mini_word
+  rotate: true
+  xy: 457, 118
+  size: 335, 155
+  orig: 337, 157
+  offset: 1, 1
+  index: -1
+
+jp_mini.png
+size: 516,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: true
+  xy: 318, 139
+  size: 253, 193
+  orig: 260, 193
+  offset: 4, 0
+  index: -1
+mini_light
+  rotate: true
+  xy: 2, 2
+  size: 390, 314
+  orig: 400, 314
+  offset: 10, 0
+  index: -1
+mini_word_light/mini_word_light03
+  rotate: false
+  xy: 318, 3
+  size: 10, 12
+  orig: 136, 50
+  offset: 19, 35
+  index: -1
+mini_word_light/mini_word_light05
+  rotate: true
+  xy: 366, 3
+  size: 29, 42
+  orig: 136, 50
+  offset: 18, 6
+  index: -1
+mini_word_light/mini_word_light07
+  rotate: true
+  xy: 366, 34
+  size: 47, 46
+  orig: 136, 50
+  offset: 18, 2
+  index: -1
+mini_word_light/mini_word_light09
+  rotate: true
+  xy: 318, 78
+  size: 59, 46
+  orig: 136, 50
+  offset: 25, 2
+  index: -1
+mini_word_light/mini_word_light11
+  rotate: true
+  xy: 318, 17
+  size: 59, 46
+  orig: 136, 50
+  offset: 43, 2
+  index: -1
+mini_word_light/mini_word_light13
+  rotate: true
+  xy: 366, 83
+  size: 54, 46
+  orig: 136, 50
+  offset: 61, 2
+  index: -1
+mini_word_light/mini_word_light15
+  rotate: false
+  xy: 414, 92
+  size: 39, 45
+  orig: 136, 50
+  offset: 79, 2
+  index: -1
+mini_word_light/mini_word_light17
+  rotate: false
+  xy: 410, 2
+  size: 20, 30
+  orig: 136, 50
+  offset: 98, 2
+  index: -1

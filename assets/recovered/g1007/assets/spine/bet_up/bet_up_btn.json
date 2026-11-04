@@ -1,0 +1,612 @@
+{
+  "skeleton": {
+    "hash": "KspMp4khSyQ0ju1Zk1CwGoU1ctk",
+    "spine": "3.7.94",
+    "width": 233.6,
+    "height": 92.8
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "scale",
+      "parent": "root",
+      "x": 381.64,
+      "y": 153.05,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "btn_light",
+      "parent": "scale",
+      "x": -464.6,
+      "y": -154.44
+    },
+    {
+      "name": "but_glow2",
+      "parent": "scale",
+      "x": -476.26,
+      "y": -192.15
+    },
+    {
+      "name": "spot",
+      "parent": "scale",
+      "x": -471.52,
+      "y": -153.75,
+      "scaleX": 1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "spot2",
+      "parent": "scale",
+      "x": -471.52,
+      "y": -153.75,
+      "scaleX": -1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "btn_btn_X",
+      "parent": "scale",
+      "x": -426.99,
+      "y": -192.12
+    },
+    {
+      "name": "but_glow3",
+      "parent": "scale",
+      "x": -476.26,
+      "y": -192.15,
+      "scaleY": -0.8
+    }
+  ],
+  "slots": [
+    {
+      "name": "but_base_X",
+      "bone": "scale"
+    },
+    {
+      "name": "btn_icon_X",
+      "bone": "scale"
+    },
+    {
+      "name": "btn_btn_X",
+      "bone": "btn_btn_X"
+    },
+    {
+      "name": "btn_light",
+      "bone": "btn_light",
+      "blend": "additive"
+    },
+    {
+      "name": "but_glow",
+      "bone": "scale",
+      "blend": "additive"
+    },
+    {
+      "name": "but_glow2",
+      "bone": "but_glow2",
+      "dark": "000000",
+      "blend": "additive"
+    },
+    {
+      "name": "but_glow3",
+      "bone": "but_glow3",
+      "dark": "000000",
+      "blend": "additive"
+    },
+    {
+      "name": "spot",
+      "bone": "spot",
+      "blend": "additive"
+    },
+    {
+      "name": "spot2",
+      "bone": "spot2",
+      "blend": "additive"
+    },
+    {
+      "name": "light_line",
+      "bone": "scale",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "btn_light": {
+        "btn_light": {
+          "x": 3.55,
+          "y": 1.95,
+          "width": 260,
+          "height": 97
+        }
+      },
+      "but_glow": {
+        "but_glow": {
+          "x": -476.26,
+          "y": -192.15,
+          "width": 284,
+          "height": 110
+        }
+      },
+      "but_glow2": {
+        "but_blur": {
+          "width": 290,
+          "height": 116
+        }
+      },
+      "but_glow3": {
+        "but_blur": {
+          "width": 290,
+          "height": 116
+        }
+      },
+      "light_line": {
+        "light_line": {
+          "x": -462.81,
+          "y": -231.53,
+          "scaleX": 1.691,
+          "scaleY": 3.212,
+          "width": 323,
+          "height": 58
+        }
+      },
+      "spot": {
+        "spot": {
+          "x": -0.28,
+          "y": 1.03,
+          "width": 187,
+          "height": 29
+        }
+      },
+      "spot2": {
+        "spot": {
+          "x": -0.28,
+          "y": 1.03,
+          "width": 187,
+          "height": 29
+        }
+      }
+    }
+  },
+  "animations": {
+    "bet_up": {
+      "slots": {
+        "but_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "6186ff0d",
+              "curve": [
+                0.371,
+                0.62,
+                0.71,
+                1
+              ]
+            },
+            {
+              "time": 0.1,
+              "color": "62cbffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "62cbffff",
+              "curve": [
+                0.25,
+                0,
+                1,
+                0.85
+              ]
+            },
+            {
+              "time": 0.8333,
+              "color": "6183ff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "but_glow"
+            }
+          ]
+        },
+        "but_glow2": {
+          "twoColor": [
+            {
+              "time": 0,
+              "light": "b4c9ffb6",
+              "dark": "000000",
+              "curve": [
+                0.351,
+                0.4,
+                0.757,
+                1
+              ]
+            },
+            {
+              "time": 0.1,
+              "light": "62cbffff",
+              "dark": "000000"
+            },
+            {
+              "time": 0.5,
+              "light": "6183ff00",
+              "dark": "000000"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "but_blur"
+            }
+          ]
+        },
+        "but_glow3": {
+          "twoColor": [
+            {
+              "time": 0,
+              "light": "b5c9ffac",
+              "dark": "000000"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "but_blur"
+            }
+          ]
+        },
+        "light_line": {
+          "color": [
+            {
+              "time": 0,
+              "color": "99e1ff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "99e1ffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "color": "99e1ffff"
+            },
+            {
+              "time": 0.9333,
+              "color": "99e1ff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "light_line"
+            }
+          ]
+        },
+        "spot": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "8cc0ff00"
+            },
+            {
+              "time": 0.1,
+              "color": "8cffffad",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "color": "8cffffad"
+            },
+            {
+              "time": 0.5667,
+              "color": "8cc0ff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "spot"
+            }
+          ]
+        },
+        "spot2": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "8cc0ff00"
+            },
+            {
+              "time": 0.1333,
+              "color": "8cc0ffa4",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "8cc0ffa4"
+            },
+            {
+              "time": 0.6667,
+              "color": "8cc0ff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "spot"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "but_glow2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 1.12,
+              "y": -4.81
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.333,
+                1
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 1.149,
+              "y": 1.542
+            }
+          ]
+        },
+        "spot": {
+          "translate": [
+            {
+              "time": 0.0333,
+              "x": 0,
+              "y": -21.56,
+              "curve": [
+                0.049,
+                0.21,
+                0.105,
+                0.75
+              ]
+            },
+            {
+              "time": 0.7,
+              "x": 0,
+              "y": 20.83
+            }
+          ]
+        },
+        "spot2": {
+          "translate": [
+            {
+              "time": 0.0333,
+              "x": 0,
+              "y": -21.56,
+              "curve": [
+                0.191,
+                0.16,
+                0.411,
+                0.73
+              ]
+            },
+            {
+              "time": 0.7,
+              "x": 0,
+              "y": 20.83
+            }
+          ]
+        },
+        "btn_btn_X": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.0333,
+              "x": 37.54,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "but_glow2": {
+          "twoColor": [
+            {
+              "time": 0,
+              "light": "b4c9ffb6",
+              "dark": "00428a",
+              "curve": [
+                0.351,
+                0.4,
+                0.757,
+                1
+              ]
+            },
+            {
+              "time": 0.6667,
+              "light": "ffffff00",
+              "dark": "000000",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "light": "85dbffff",
+              "dark": "000000",
+              "curve": [
+                0.265,
+                0,
+                0.618,
+                0.43
+              ]
+            },
+            {
+              "time": 2,
+              "light": "b4c9ffb6",
+              "dark": "00428a"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "but_blur"
+            }
+          ]
+        },
+        "but_glow3": {
+          "twoColor": [
+            {
+              "time": 0,
+              "light": "b5c9ffac",
+              "dark": "000000",
+              "curve": [
+                0.382,
+                0.56,
+                0.739,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "light": "92b0ffff",
+              "dark": "000000",
+              "curve": [
+                0.265,
+                0,
+                0.618,
+                0.43
+              ]
+            },
+            {
+              "time": 0.7,
+              "light": "b4c9ffb6",
+              "dark": "17355e",
+              "curve": [
+                0.351,
+                0.4,
+                0.757,
+                1
+              ]
+            },
+            {
+              "time": 1.3667,
+              "light": "ffffff00",
+              "dark": "6358ff",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.8667,
+              "light": "c8d7ff7f",
+              "dark": "000000",
+              "curve": [
+                0.336,
+                0.34,
+                0.672,
+                0.68
+              ]
+            },
+            {
+              "time": 2,
+              "light": "b5c9ffac",
+              "dark": "000000"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "but_blur"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "but_glow2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 1.046,
+              "y": 1.046,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "but_glow3": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 1.046,
+              "y": 1.263,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

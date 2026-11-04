@@ -41,7 +41,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "88af3+km/JPIL5D0tRyJFj+", "Sender", void 0), __publish("Sender", function (e) {
   function s() {
     for (var t, s = arguments.length, n = new Array(s), i = 0; i < s; i++) n[i] = arguments[i];
-    return (t = Reflect.construct(e, [this].concat(n).slice(1), new.target || s) || this).module = "", t;
+    return (t = Reflect.construct(e, [this].concat(n).slice(1), new.target || this.constructor) || this).module = "", t;
   }
   (0, __dependency_0.inheritsLoose)(s, e);
   var n = s.prototype;

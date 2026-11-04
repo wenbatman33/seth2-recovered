@@ -35,7 +35,7 @@ __publish("ScratchTool", (g = f("ScratchTool"), T = y({
 }), g((v = (0, __dependency_0.applyDecoratedDescriptor)((d = function (t) {
   function i() {
     for (var i, o = arguments.length, r = new Array(o), s = 0; s < o; s++) r[s] = arguments[s];
-    return (i = Reflect.construct(t, [this].concat(r).slice(1), new.target || i) || this)._graphics = null, (0, __dependency_0.initializerDefineProperty)(i, "lineWidth", v, (0, __dependency_0.assertThisInitialized)(i)), i;
+    return (i = Reflect.construct(t, [this].concat(r).slice(1), new.target || this.constructor) || this)._graphics = null, (0, __dependency_0.initializerDefineProperty)(i, "lineWidth", v, (0, __dependency_0.assertThisInitialized)(i)), i;
   }
   (0, __dependency_0.inheritsLoose)(i, t);
   var r = i.prototype;

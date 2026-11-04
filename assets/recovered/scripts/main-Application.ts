@@ -131,7 +131,7 @@ __dependency_1.cclegacy._RF.push({}, "342b5hltVBEl6IfNcT0LCMW", "Application", v
 var D = new (__publish("Application", function (t) {
     function o() {
       for (var n, e = arguments.length, o = new Array(e), a = 0; a < e; a++) o[a] = arguments[a];
-      return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || o) || this)._enterBackgroundTime = 0, n._wssCacertUrl = "", n._globalAudio = null, n;
+      return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this)._enterBackgroundTime = 0, n._wssCacertUrl = "", n._globalAudio = null, n;
     }
     (0, __dependency_0.inheritsLoose)(o, t);
     var M = o.prototype;

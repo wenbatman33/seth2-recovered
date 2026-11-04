@@ -1,0 +1,118 @@
+{
+  "engine": "Cocos Creator 3.8.8",
+  "officialGuiBuild": "2026-11-04T21:52:16+08:00",
+  "build": "build/frontend-seth2",
+  "scenes": [
+    "main.scene",
+    "mainPortrait.scene"
+  ],
+  "verified": [
+    {
+      "flow": "Desktop mouse spin",
+      "wallet": "pc-layout-20261104",
+      "spinId": "local-1",
+      "balanceAfter": 9999,
+      "closeSpin": 200
+    },
+    {
+      "flow": "Mobile automatic portrait launch and free game",
+      "wallet": "mobile-freegame-20261104",
+      "spinId": "local-1",
+      "rounds": 25,
+      "stages": 28,
+      "win": 19,
+      "balanceAfter": 10018,
+      "closeSpin": 200,
+      "uiBankObserved": 10018
+    },
+    {
+      "flow": "Immortal Awakening2000",
+      "wallet": "mobile-freegame-20261104",
+      "spinId": "local-2",
+      "rounds": 3,
+      "stages": 4,
+      "win": 5040,
+      "serverBalanceAfter": 13058,
+      "closeSpin": 200,
+      "visuals": [
+        "500x multiplier",
+        "ULTRA WIN5040"
+      ],
+      "limit": "Popup first acknowledgement observed; subsequent two-step dismissal independently validated by super-free-game below."
+    },
+    {
+      "flow": "PC Awakening500",
+      "wallet": "final-ui-20261104",
+      "spinId": "local-1",
+      "rounds": 15,
+      "stages": 19,
+      "win": 24.6,
+      "closeSpin": 200,
+      "uiBankObserved": 9524.6,
+      "popupTwoStepDismissal": true
+    },
+    {
+      "flow": "PC Jackpot MINI",
+      "wallet": "final-jp-20261104",
+      "award": 100,
+      "closeSpin": 200,
+      "uiBankObserved": 10099,
+      "popupTwoStepDismissal": true
+    },
+    {
+      "flow": "Forced split frontend continuation",
+      "wallet": "final-split-20261104",
+      "rounds": 15,
+      "stages": 19,
+      "win": 1101,
+      "closeSpin": 200,
+      "uiBankObserved": 11100,
+      "returnedToOriginalControls": true,
+      "turboToggleObserved": true
+    },
+    {
+      "flow": "Forced lock frontend continuation",
+      "wallet": "final-lock-20261104",
+      "rounds": 15,
+      "stages": 19,
+      "win": 125,
+      "closeSpin": 200,
+      "serverBalanceAfter": 10124,
+      "uiBankObserved": 10124,
+      "returnedToOriginalControls": true
+    },
+    {
+      "flow": "Final cleaned-source GUI build desktop spin and original Rotate button",
+      "wallet": "final-pc-build-smoke-20261104",
+      "missingGnCorrectedTo": "golden-seth",
+      "closeSpin": 200,
+      "uiBankObserved": 9999,
+      "originalRotateConfirmation": true,
+      "rotatedTo": "mainPortrait.scene / view_mode=portrait"
+    },
+    {
+      "flow": "Final portrait build390x844 spin after original Rotate confirmation",
+      "wallet": "final-pc-build-smoke-20261104",
+      "spinId": "local-2",
+      "closeSpin": 200,
+      "uiBankObserved": 9998.8,
+      "win": 0.8,
+      "returnedToOriginalControls": true
+    }
+  ],
+  "inputEvidence": {
+    "desktop": "trusted pointerdown mouse on GameCanvas",
+    "mobile": "390x844 viewport, coordinate mouse input; physical touch not yet verified"
+  },
+  "screenshot": "docs/evidence/seth2-desktop-20261104.png",
+  "mockBackend": true,
+  "remaining": [
+    "Physical touch on a real device is not verified; mobile viewport tests used mouse coordinates."
+  ],
+  "screenshots": [
+    "docs/evidence/seth2-desktop-20261104.png",
+    "docs/evidence/seth2-mobile-20261104.png"
+  ],
+  "automaticPostBuildHook": true,
+  "status": "Official standalone original-client frontend verified with owned simulated backend"
+}

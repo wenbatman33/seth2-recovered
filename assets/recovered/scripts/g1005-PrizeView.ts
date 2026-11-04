@@ -40,7 +40,7 @@ var y = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("PrizeView", (l = y("PrizeView"), f = (0, __dependency_3.inject)("someNode", __dependency_1.Node), l((h = (0, __dependency_0.applyDecoratedDescriptor)((d = function (t) {
   function e() {
     for (var e, i = arguments.length, r = new Array(i), c = 0; c < i; c++) r[c] = arguments[c];
-    return e = Reflect.construct(t, [this].concat(r).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "someNode", h, (0, __dependency_0.assertThisInitialized)(e)), e;
+    return e = Reflect.construct(t, [this].concat(r).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "someNode", h, (0, __dependency_0.assertThisInitialized)(e)), e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var r = e.prototype;

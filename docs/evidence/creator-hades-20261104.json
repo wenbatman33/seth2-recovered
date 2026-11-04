@@ -1,0 +1,212 @@
+{
+  "recordedAt": "2026-11-04T21:20:00+08:00",
+  "status": "Official standalone original-client frontend verified with owned simulated backend",
+  "engine": "Official Creator 3.8.8 launched through authenticated Dashboard",
+  "game": "g1007 / hades / 古神巴風特",
+  "preview": "http://127.0.0.1:8174/hades/",
+  "backend": "owned local fake data; original RNG/RTP not claimed",
+  "developmentFps": 30,
+  "normalRound": {
+    "observed": true,
+    "balanceBefore": 10000,
+    "balanceAfter": 9999,
+    "requests": [
+      "spin",
+      "closeSpin"
+    ],
+    "returnedToIdle": true
+  },
+  "powerFeature": {
+    "observed": true,
+    "purchaseCost": 5,
+    "spinId": "hades-local-2",
+    "stageCount": 3,
+    "giantSize": 4,
+    "symbol": "PERSE",
+    "balanceAfterPurchase": 9994,
+    "win": 61,
+    "finalBalance": 10055,
+    "resumeObserved": true,
+    "returnedState": "MG_WAIT_SPIN_STATE",
+    "requestsAfterResume": [
+      "initial",
+      "closeSpin"
+    ],
+    "states": [
+      "MG_LOADING_STATE",
+      "MG_INIT_STATE",
+      "MG_WAIT_RESUME_STATE",
+      "MG_SHOW_WIN_STATE",
+      "REMOVE_WIN_SYMBOLS_STATE",
+      "CREATE_RANDOM_WILD_STATE",
+      "MOVE_MULTIPLE_TIMES_STATE",
+      "CURRENT_SYMBOLS_FALL_STATE",
+      "SYMBOLS_RECHARGE_STATE",
+      "MG_SHOW_WIN_STATE",
+      "REMOVE_WIN_SYMBOLS_STATE",
+      "CREATE_RANDOM_WILD_STATE",
+      "MOVE_MULTIPLE_TIMES_STATE",
+      "CURRENT_SYMBOLS_FALL_STATE",
+      "SYMBOLS_RECHARGE_STATE",
+      "MG_RESET_MULTIPLE_STATE",
+      "MG_WAIT_SPIN_STATE"
+    ]
+  },
+  "spinePages": {
+    "checked": 93,
+    "missingOrIncorrectDimensions": 0
+  },
+  "notYetAccepted": [
+    "Physical touch on a real device is not verified."
+  ],
+  "freeGame": {
+    "observed": true,
+    "purchaseCost": 100,
+    "spinId": "hades-local-3",
+    "stageCount": 9,
+    "freeRounds": 8,
+    "resultScreen": "TOTAL WIN / Collect",
+    "win": 0,
+    "balanceBefore": 10055,
+    "finalBalance": 9955,
+    "closeSpinObserved": true,
+    "returnedState": "MG_WAIT_SPIN_STATE"
+  },
+  "standaloneBuild": {
+    "engine": "Cocos Creator 3.8.8",
+    "method": "Authenticated Dashboard + official GUI Web Desktop build",
+    "directory": "build/frontend-hades",
+    "result": "success",
+    "finishedAt": "2026-11-04T21:50:28+08:00",
+    "responsiveWrapper": "tools/prepare-recovered-build.mjs",
+    "qaWallet": "build-hades-20261104",
+    "verified": [
+      {
+        "flow": "normal spin",
+        "spinId": "hades-local-1",
+        "balanceAfter": 9999,
+        "closeSpin": 200,
+        "finalState": "MG_WAIT_SPIN_STATE"
+      },
+      {
+        "flow": "XTRA-BET at mobile 390x844",
+        "spinId": "hades-local-2",
+        "debit": 1.5,
+        "balanceAfter": 9997.5,
+        "closeSpin": 200
+      },
+      {
+        "flow": "Wrath buy25",
+        "spinId": "hades-local-3",
+        "stateObserved": "MOVE_TO_SPECIFY_MULTIPLE_STATE",
+        "balanceAfter": 9972.5,
+        "closeSpin": 200
+      },
+      {
+        "flow": "autoplay10 and stop before completion",
+        "spinIds": "hades-local-4 through hades-local-11",
+        "cascadeStageCounts": [
+          2,
+          2
+        ],
+        "finalState": "MG_WAIT_SPIN_STATE"
+      },
+      {
+        "flow": "Super Free Game400",
+        "spinId": "hades-local-12",
+        "freeRounds": 12,
+        "stages": 15,
+        "redScene": true,
+        "multiplierObserved": 4,
+        "win": 0.5,
+        "balanceAfter": 9561.4,
+        "closeSpin": 200,
+        "finalState": "MG_WAIT_SPIN_STATE"
+      },
+      {
+        "flow": "rules, records, settings",
+        "visible": "original rules text,3 chronological mock records and zero-volume development settings"
+      },
+      {
+        "flow": "Jackpot mini12 chest UI",
+        "wallet": "build-hades-jp-mini-20261104",
+        "picked": 6,
+        "award": 20,
+        "balanceAfter": 10019,
+        "closeSpin": 200,
+        "finalState": "MG_WAIT_SPIN_STATE"
+      },
+      {
+        "flow": "Treasure",
+        "wallet": "final-treasure-v2-20261104",
+        "bonusType": "noWinReward",
+        "prize": 5,
+        "uiAnimationObserved": true,
+        "events": [
+          "GameEvent:SHOW_TREASURE_VIEW",
+          "GameEvent:SHOW_TREASURE_VIEW_END"
+        ],
+        "closeSpin": 200,
+        "uiBankObserved": 10004,
+        "finalState": "MG_WAIT_SPIN_STATE"
+      },
+      {
+        "flow": "Luck or Bad Luck2000",
+        "wallet": "final-treasure-v2-20261104",
+        "spinId": "hades-local-2",
+        "freeRounds": 12,
+        "stages": 14,
+        "win": 0.35,
+        "uiBankObserved": 8004.35,
+        "closeSpin": 200,
+        "finalState": "MG_WAIT_SPIN_STATE"
+      },
+      {
+        "flow": "Mobile390x844 final ordinary spin and background cover",
+        "spinId": "hades-local-3",
+        "uiBankObserved": 8003.35,
+        "closeSpin": 200,
+        "finalState": "MG_WAIT_SPIN_STATE",
+        "originalRasterCover": true
+      },
+      {
+        "flow": "Final cleaned-source GUI build desktop/mobile smoke",
+        "wallet": "final-build-smoke-20261104",
+        "missingGnCorrectedTo": "hades",
+        "spin": "hades-local-1",
+        "closeSpin": 200,
+        "finalState": "MG_WAIT_SPIN_STATE",
+        "uiBankObserved": 9999,
+        "desktop": [
+          1024,
+          768
+        ],
+        "mobile": [
+          390,
+          844
+        ]
+      }
+    ],
+    "viewportChecks": {
+      "desktop": [
+        1024,
+        768
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "canvasResizesWithWindow": true,
+      "physicalTouch": false
+    },
+    "remaining": [
+      "Physical touch on real device"
+    ],
+    "bundle": "g1007",
+    "automaticPostBuildHook": true
+  },
+  "screenshots": [
+    "docs/evidence/hades-desktop-20261104.png",
+    "docs/evidence/hades-mobile-20261104.png"
+  ]
+}

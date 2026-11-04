@@ -35,7 +35,7 @@ __publish("default", (u = g(__dependency_1.CCFloat), c = g({
 }), d((F = (0, __dependency_0.applyDecoratedDescriptor)((y = function (i) {
   function t() {
     for (var t, e = arguments.length, n = new Array(e), a = 0; a < e; a++) n[a] = arguments[a];
-    return t = Reflect.construct(i, [this].concat(n).slice(1), new.target || t) || this, (0, __dependency_0.initializerDefineProperty)(t, "duration", F, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "spriteFrames", f, (0, __dependency_0.assertThisInitialized)(t)), t.loop = !1, t.playOnload = !1, t.endFunc = null, t.isPlaying = !1, t.playTime = null, t.sprite = null, t;
+    return t = Reflect.construct(i, [this].concat(n).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(t, "duration", F, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "spriteFrames", f, (0, __dependency_0.assertThisInitialized)(t)), t.loop = !1, t.playOnload = !1, t.endFunc = null, t.isPlaying = !1, t.playTime = null, t.sprite = null, t;
   }
   (0, __dependency_0.inheritsLoose)(t, i);
   var n = t.prototype;

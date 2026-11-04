@@ -80,7 +80,7 @@ __publish({
 var f = function (s) {
   function _() {
     var t;
-    (t = Reflect.construct(s, [], new.target || _) || this).turboMode = {
+    (t = Reflect.construct(s, [], new.target || this.constructor) || this).turboMode = {
       animStagger: 0,
       speed: .16,
       characterFireSpeed: 2.5,

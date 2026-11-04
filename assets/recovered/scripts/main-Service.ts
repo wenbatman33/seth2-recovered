@@ -49,7 +49,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "526ef9AI7RPRo6k9vx5gbA2", "Service", void 0), __publish("Service", function (e) {
   function o() {
     for (var s, t = arguments.length, o = new Array(t), i = 0; i < t; i++) o[i] = arguments[i];
-    return (s = Reflect.construct(e, [this].concat(o).slice(1), new.target || o) || this).module = __dependency_2.Macro.UNKNOWN, s.excludeType = ["echo"], s.maxEnterBackgroundTime = void 0, s.reconnectHandler = null, s._Process = new __dependency_6.Process(), s._Heartbeat = null, s.priority = 0, s.serviceType = __dependency_3.Net.ServiceType.Unknown, s;
+    return (s = Reflect.construct(e, [this].concat(o).slice(1), new.target || this.constructor) || this).module = __dependency_2.Macro.UNKNOWN, s.excludeType = ["echo"], s.maxEnterBackgroundTime = void 0, s.reconnectHandler = null, s._Process = new __dependency_6.Process(), s._Heartbeat = null, s.priority = 0, s.serviceType = __dependency_3.Net.ServiceType.Unknown, s;
   }
   (0, __dependency_0.inheritsLoose)(o, e);
   var r = o.prototype;

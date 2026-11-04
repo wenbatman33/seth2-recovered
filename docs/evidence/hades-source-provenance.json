@@ -1,0 +1,273 @@
+{
+  "source": "https://play.godeezone1.com/egames/37ab205b0990c6a3643e0dbb8c9ee4adb698123c/game/?gn=hades",
+  "sourceEngine": "Cocos Creator3.7.2",
+  "restoredEngine": "Cocos Creator3.8.8",
+  "modules": [
+    {
+      "module": "BackgroundView.js",
+      "capturedSha256": "96a7ed1e9e33e4ec1bbb9fd2dcd67edbc378627c45a1ebc294e23f2adb39a433",
+      "installed": "assets/recovered/scripts/g1007-BackgroundView.ts",
+      "metaUuid": "4f34dad6-7d1f-4cbe-8576-1efe73ba5bb3"
+    },
+    {
+      "module": "BigPrizeSignalView.js",
+      "capturedSha256": "a264f3ec22e1edd4745a87cacbc50fe9712ce820d563ae388ff216ffe4ecae82",
+      "installed": "assets/recovered/scripts/g1007-BigPrizeSignalView.ts",
+      "metaUuid": "3c358cbb-c70d-435e-8b83-f30a25c78a43"
+    },
+    {
+      "module": "BigWinView.js",
+      "capturedSha256": "df7a49f4fc894d6611d2bea5a54d0221caf927a8eb6505078913ff6d05fa0235",
+      "installed": "assets/recovered/scripts/g1007-BigWinView.ts",
+      "metaUuid": "929cb406-206c-4168-8805-8f37f1a563de"
+    },
+    {
+      "module": "BuyFeatureButton.js",
+      "capturedSha256": "99b780a733845e87b6da4bc0892665dc2408f6c12ad67373fe8a3ff17f1a4ae6",
+      "installed": "assets/recovered/scripts/g1007-BuyFeatureButton.ts",
+      "metaUuid": "f5a8c94d-8533-4cb8-934f-89a451793f0f"
+    },
+    {
+      "module": "BuyFeatureView.js",
+      "capturedSha256": "0c4d0253eb968a70c808e51ea5efefb90fa1fb3661860102993ac1ba997306ce",
+      "installed": "assets/recovered/scripts/g1007-BuyFeatureView.ts",
+      "metaUuid": "b8b95fc9-9cdc-44f0-b2e1-4a8fa578860b"
+    },
+    {
+      "module": "CharacterView.js",
+      "capturedSha256": "8fdfaffba6a453ecb4b21ca1285ad20616f6d841993fcc5e685b427dfdd03480",
+      "installed": "assets/recovered/scripts/g1007-CharacterView.ts",
+      "metaUuid": "309af581-fc11-4f8f-8547-d661aedc3d3c"
+    },
+    {
+      "module": "CurrentFeatureBtn.js",
+      "capturedSha256": "3c0081311763aebe5cec538cfc1a21e27cdba0a3de0c0c0c8b8d7df3eef386d8",
+      "installed": "assets/recovered/scripts/g1007-CurrentFeatureBtn.ts",
+      "metaUuid": "0460f344-cbea-413d-9cd5-09cd2fcd5df6"
+    },
+    {
+      "module": "FeatureOption.js",
+      "capturedSha256": "dc70734407f8b6257685e76036406641d85f233fb4b42d9384294ad8959b7096",
+      "installed": "assets/recovered/scripts/g1007-FeatureOption.ts",
+      "metaUuid": "08fb722d-8cb7-4103-b60c-2f3b316b15a3"
+    },
+    {
+      "module": "FeatureView.js",
+      "capturedSha256": "877383b553a3f2d12b31e1e493a77963a270c8b4a8a3f025a5577781a0531b5c",
+      "installed": "assets/recovered/scripts/g1007-FeatureView.ts",
+      "metaUuid": "37fb8f60-ddfb-4490-9418-94990a9604f8"
+    },
+    {
+      "module": "FreeGameAlertView.js",
+      "capturedSha256": "a11cc2736c2b46741a8f22e02774cba1957864621218120df794eed3ef9d1953",
+      "installed": "assets/recovered/scripts/g1007-FreeGameAlertView.ts",
+      "metaUuid": "ede6db8c-dc0d-420f-b7e8-329544b2af6c"
+    },
+    {
+      "module": "FullCharacterView.js",
+      "capturedSha256": "07965d2c2379d3ecb6ddad5ca23a7174ce92948cda113f360ca87d0e7e52e493",
+      "installed": "assets/recovered/scripts/g1007-FullCharacterView.ts",
+      "metaUuid": "b496321d-b516-4503-ab53-5df2ae2ae1ae"
+    },
+    {
+      "module": "GameColor.js",
+      "capturedSha256": "9485ec4b8db5ea0212fc8ca04fbeb7c1449ae047bbc3f59aea79f50b786e78d8",
+      "installed": "assets/recovered/scripts/g1007-GameColor.ts",
+      "metaUuid": "09537c5a-61b9-4cc7-aa92-2cb36f9b66a8"
+    },
+    {
+      "module": "GameColors.js",
+      "capturedSha256": "d345351db582ce39be2e4c850ec2e588bba2599234edb7824fa82c8f874afd36",
+      "installed": "assets/recovered/scripts/g1007-GameColors.ts",
+      "metaUuid": "c6692137-7d45-454b-b2b0-acf73d39be4a"
+    },
+    {
+      "module": "GameConfigModel.js",
+      "capturedSha256": "c1505f3163ae57d851eff207d762e892087887b18e2730a5b234ee535e2a6f29",
+      "installed": "assets/recovered/scripts/g1007-GameConfigModel.ts",
+      "metaUuid": "552b0a2d-3c40-4a1f-8328-9748ee7c7d19"
+    },
+    {
+      "module": "GameData.js",
+      "capturedSha256": "4342ebcd9f1e3daebdfd256d6489251d40fe26eb5489230ac1305f8b875d22c9",
+      "installed": "assets/recovered/scripts/g1007-GameData.ts",
+      "metaUuid": "893bdf86-c32d-473a-afe1-fbb4e97eeaeb"
+    },
+    {
+      "module": "GameEntry.js",
+      "capturedSha256": "597a587040910546d950eb8552d49d15d90311ebe4bc0ae7fdbd532c5e2acb41",
+      "installed": "assets/recovered/scripts/g1007-GameEntry.ts",
+      "metaUuid": "43b19c55-bc23-4e32-9c50-4f5efd53670a"
+    },
+    {
+      "module": "GameEvent.js",
+      "capturedSha256": "4dfe5113be6d10d658124262cf45db1c033ebd19248c667c8ba5cd8a2ac82f18",
+      "installed": "assets/recovered/scripts/g1007-GameEvent.ts",
+      "metaUuid": "2c1e5f06-4406-4c65-84ad-85afd2375c17"
+    },
+    {
+      "module": "GameHandler.js",
+      "capturedSha256": "e3c82fcce9c0893215b0b64a309b29bff52a6763cb6257b772e8a4524a8b64a5",
+      "installed": "assets/recovered/scripts/g1007-GameHandler.ts",
+      "metaUuid": "a4eedb70-a05d-4b39-acdf-0d077d1dfdb2"
+    },
+    {
+      "module": "GameLanguage.js",
+      "capturedSha256": "34353bed80834e8a52762a9625f68574ea23ed773d1c23109c6d492b209fde41",
+      "installed": "assets/recovered/scripts/g1007-GameLanguage.ts",
+      "metaUuid": "e9f88ea3-6973-42aa-afd9-e46784db343b"
+    },
+    {
+      "module": "GameLanguages.js",
+      "capturedSha256": "866bbb46c70b602ed33c809fa8c10596b8870f68f64f0dfb00d6f80f39a15b5a",
+      "installed": "assets/recovered/scripts/g1007-GameLanguages.ts",
+      "metaUuid": "fd0e1f14-b312-489f-b044-af58844f60a6"
+    },
+    {
+      "module": "GameLogic.js",
+      "capturedSha256": "ec9d2953a245af51bc40cb8bebc080d4ee0c5a047c0672238f607099352f5132",
+      "installed": "assets/recovered/scripts/g1007-GameLogic.ts",
+      "metaUuid": "50dfb7f8-552e-4250-9184-daeadfa98b2e"
+    },
+    {
+      "module": "GameSender.js",
+      "capturedSha256": "743d2529204d5531ee6f4b85d003300b721fe120df2c9330ec7ccb1de48213f0",
+      "installed": "assets/recovered/scripts/g1007-GameSender.ts",
+      "metaUuid": "0e6c3819-fbb4-43ae-90e9-e6c2f82a4f59"
+    },
+    {
+      "module": "GameService.js",
+      "capturedSha256": "f04bf854e1baf9b5dfd10614e6e98ffe8862e91388ac2ccf969fde229ff53a7b",
+      "installed": "assets/recovered/scripts/g1007-GameService.ts",
+      "metaUuid": "fadb64ec-80f7-43c9-87b9-40dc92d66743"
+    },
+    {
+      "module": "GameState.js",
+      "capturedSha256": "9397c68a7745b45c93880aa33606e540d2fe78cf526c924071e4c537a42b47ec",
+      "installed": "assets/recovered/scripts/g1007-GameState.ts",
+      "metaUuid": "96454de2-cb72-40ec-b0cc-bca97210dcd2"
+    },
+    {
+      "module": "GameSymbol.js",
+      "capturedSha256": "eb445ef066904e98e3199c67d768aa6b9239430da45d27b00d08bce87717fac0",
+      "installed": "assets/recovered/scripts/g1007-GameSymbol.ts",
+      "metaUuid": "b93f577b-aa8d-4477-a33c-43c2fe8e1b5c"
+    },
+    {
+      "module": "GameSymbolID.js",
+      "capturedSha256": "127dc45c229cc48bd29aefba3dbbfda711323509a886beb90b9c466c84f1c234",
+      "installed": "assets/recovered/scripts/g1007-GameSymbolID.ts",
+      "metaUuid": "158ad632-5bba-4757-b462-1add2f36ceae"
+    },
+    {
+      "module": "GameView.js",
+      "capturedSha256": "048eccde94ccfd4d626026953bde209ff5d2e836ab8dade7a17c2908dc7562a6",
+      "installed": "assets/recovered/scripts/g1007-GameView.ts",
+      "metaUuid": "b643a23c-acb2-46a1-9d6a-9ed1d4dac8fc"
+    },
+    {
+      "module": "IntroView.js",
+      "capturedSha256": "c5bdf9f74db1930fa16f2b6aac561b375d83d11419be8d0199f940a62b694a1b",
+      "installed": "assets/recovered/scripts/g1007-IntroView.ts",
+      "metaUuid": "a68fc73d-e49a-45b3-a671-aacb90cde489"
+    },
+    {
+      "module": "JackpotGameView.js",
+      "capturedSha256": "3ce06d90211cf7b4f71c34dba4c3fe850ee1b8ef812e9d5c916463c7493a8f63",
+      "installed": "assets/recovered/scripts/g1007-JackpotGameView.ts",
+      "metaUuid": "a4725d67-8482-49b2-90cb-a2ee1be80535"
+    },
+    {
+      "module": "JpBarView.js",
+      "capturedSha256": "4dfb71a2fa340aef8bc3733efe09479876a7bb82af93983a1ba106389f7e71a4",
+      "installed": "assets/recovered/scripts/g1007-JpBarView.ts",
+      "metaUuid": "61df67fd-5b0f-4ba6-8669-2d1edc97516f"
+    },
+    {
+      "module": "MultipleBoardView.js",
+      "capturedSha256": "20c3769678ec61679032a9b36f7dc822af0f4dd4152b2c942525daec52d69a3b",
+      "installed": "assets/recovered/scripts/g1007-MultipleBoardView.ts",
+      "metaUuid": "81ed5a8b-ccf7-4320-a38a-0318be4f037d"
+    },
+    {
+      "module": "NoBodyView.js",
+      "capturedSha256": "71b37ad4e726f51fa70440debdd66d7269099f1c3408ce045f760c52c74221ab",
+      "installed": "assets/recovered/scripts/g1007-NoBodyView.ts",
+      "metaUuid": "d7f4af9c-4fb6-4d5c-ace1-8518c7b74cc3"
+    },
+    {
+      "module": "ReelView.js",
+      "capturedSha256": "86439da198d274e13d7d44859376b0107759c25065709c46b9ae95cb05458a4b",
+      "installed": "assets/recovered/scripts/g1007-ReelView.ts",
+      "metaUuid": "cab0825b-6754-4cbc-ad63-088beccd9056"
+    },
+    {
+      "module": "ReplayState.js",
+      "capturedSha256": "988269394bb21bab1ea9a2b6ed5b0462719fe43a5b8f978724a68dcafef92890",
+      "installed": "assets/recovered/scripts/g1007-ReplayState.ts",
+      "metaUuid": "1e605a62-99bf-47af-be70-5072cc5c51ee"
+    },
+    {
+      "module": "ReplayUIViewL.js",
+      "capturedSha256": "140620ee781c235c344966ee79cefdcfe175d1bdeb8c9b266828bd155ae55bf4",
+      "installed": "assets/recovered/scripts/g1007-ReplayUIViewL.ts",
+      "metaUuid": "3715a875-2b95-464e-b7e1-3b0730a46f40"
+    },
+    {
+      "module": "SixPointStarView.js",
+      "capturedSha256": "944cbc9b58c6cc87c62ca3adbaecc751d06de29f8565d0f7483e1b542a0918c9",
+      "installed": "assets/recovered/scripts/g1007-SixPointStarView.ts",
+      "metaUuid": "a53e45db-1fa5-4d32-8316-7afa9485425f"
+    },
+    {
+      "module": "StateMachineManager.js",
+      "capturedSha256": "fbe2733c4ab088842b545dee111fc65c5ae69587be86db4e998bd8ed2b459b78",
+      "installed": "assets/recovered/scripts/g1007-StateMachineManager.ts",
+      "metaUuid": "df06ffb1-2db7-4c2d-a253-e74cd1e963b7"
+    },
+    {
+      "module": "StaticData.js",
+      "capturedSha256": "0d45c2437966cffecc1b379289defe640558b364a4a46d204c5b9f7fdfc599ee",
+      "installed": "assets/recovered/scripts/g1007-StaticData.ts",
+      "metaUuid": "b9781a01-780c-4c57-aeb7-4a1de3db57fa"
+    },
+    {
+      "module": "SymbolView.js",
+      "capturedSha256": "9b00acc10f6965829811543eeb70dbefa04ab18245030a88e117d812c52e1314",
+      "installed": "assets/recovered/scripts/g1007-SymbolView.ts",
+      "metaUuid": "58e2aa53-42cf-4aee-a5b4-26759abc1626"
+    },
+    {
+      "module": "TreasuresView.js",
+      "capturedSha256": "b5de3d1731ba63a8a0f4d92612f7df4dc9e2d3b930fe3c7c085b2aa0e624624c",
+      "installed": "assets/recovered/scripts/g1007-TreasuresView.ts",
+      "metaUuid": "094450a6-788b-43fe-9869-7c4b2153d5b1"
+    },
+    {
+      "module": "WinCashView.js",
+      "capturedSha256": "4d3726f56b6c35a9cf997dd83ae59b4d605c9be342c34258bd26ac88f2207618",
+      "installed": "assets/recovered/scripts/g1007-WinCashView.ts",
+      "metaUuid": "54954d79-8798-4e28-b7a4-8cc5cd1e0ed9"
+    },
+    {
+      "module": "XtraBetButton.js",
+      "capturedSha256": "41d7af8e510f5a78b0c9205307a68d92bc312089d544b6a004698a91ea6aeca8",
+      "installed": "assets/recovered/scripts/g1007-XtraBetButton.ts",
+      "metaUuid": "0bbfb879-8e71-408a-be36-4d9ebea0f4ed"
+    },
+    {
+      "module": "res-type2.js",
+      "capturedSha256": "3e4e16575e0f64e1445beb96f964362897986714ec803ef221efdb37848d6e19",
+      "installed": "assets/recovered/scripts/g1007-res-type2.ts",
+      "metaUuid": "d3b88c5d-16b3-48af-bcf7-bc6294229658"
+    },
+    {
+      "module": "types.js",
+      "capturedSha256": "771542515b44d3268a846270ffee37a7d4a003d220c723e104e733a965fc15ee",
+      "installed": "assets/recovered/scripts/g1007-types.ts",
+      "metaUuid": "38681edd-a10d-4d01-a61f-48564e02bd63"
+    }
+  ],
+  "retainedLocally": "Raw mirrors, REA sessions and capture inventories remain in research/atg/hades; not uploaded with the editable project.",
+  "originalBackendRestored": false
+}

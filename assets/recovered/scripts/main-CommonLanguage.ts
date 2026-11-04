@@ -66,7 +66,7 @@ __dependency_1.cclegacy._RF.push({}, "495989qswZParhGpu1PcGUI", "CommonLanguage"
 __publish("CommonLanguage", function (n) {
   function t() {
     for (var a, e = arguments.length, t = new Array(e), u = 0; u < e; u++) t[u] = arguments[u];
-    return (a = Reflect.construct(n, [this].concat(t).slice(1), new.target || t) || this).bundle = __dependency_6.Macro.BUNDLE_RESOURCES, a;
+    return (a = Reflect.construct(n, [this].concat(t).slice(1), new.target || this.constructor) || this).bundle = __dependency_6.Macro.BUNDLE_RESOURCES, a;
   }
   (0, __dependency_0.inheritsLoose)(t, n);
   var i = t.prototype;

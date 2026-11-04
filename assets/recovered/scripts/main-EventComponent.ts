@@ -36,7 +36,7 @@ var r = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("default", r(s = function (t) {
   function e() {
     for (var n, e = arguments.length, o = new Array(e), c = 0; c < e; c++) o[c] = arguments[c];
-    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || e) || this)._eventProcessor = new __dependency_2.EventProcessor(), n;
+    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this)._eventProcessor = new __dependency_2.EventProcessor(), n;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var o = e.prototype;

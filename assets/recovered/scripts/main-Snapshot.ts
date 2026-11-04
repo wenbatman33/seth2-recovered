@@ -32,7 +32,7 @@ var v = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("Snapshot", v("Snapshot")(_ = function (e) {
   function a() {
     for (var t, a = arguments.length, s = new Array(a), i = 0; i < a; i++) s[i] = arguments[i];
-    return (t = Reflect.construct(e, [this].concat(s).slice(1), new.target || a) || this)._camera = null, t.onCaptureComplete = void 0, t._texture = null, t._canvas = null, t._buffer = null, t;
+    return (t = Reflect.construct(e, [this].concat(s).slice(1), new.target || this.constructor) || this)._camera = null, t.onCaptureComplete = void 0, t._texture = null, t._canvas = null, t._buffer = null, t;
   }
   (0, __dependency_0.inheritsLoose)(a, e);
   var s = a.prototype;

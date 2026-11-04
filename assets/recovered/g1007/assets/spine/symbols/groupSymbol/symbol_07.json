@@ -1,0 +1,495 @@
+{
+  "skeleton": {
+    "hash": "r9O8Y/2vznfjEmBMqLrmaOS/0mU",
+    "spine": "3.7.94",
+    "width": 560,
+    "height": 560
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "fx",
+      "parent": "root"
+    },
+    {
+      "name": "bone4",
+      "parent": "fx"
+    },
+    {
+      "name": "bone5",
+      "parent": "fx"
+    },
+    {
+      "name": "bone6",
+      "parent": "fx"
+    },
+    {
+      "name": "bone7",
+      "parent": "fx"
+    }
+  ],
+  "slots": [
+    {
+      "name": "s7",
+      "bone": "root",
+      "attachment": "s7"
+    },
+    {
+      "name": "particle_251_fx",
+      "bone": "bone4",
+      "color": "ffffff00",
+      "attachment": "particle_251",
+      "blend": "additive"
+    },
+    {
+      "name": "s7_mask_fx",
+      "bone": "root",
+      "color": "ffffff00",
+      "attachment": "s7_mask",
+      "blend": "additive"
+    },
+    {
+      "name": "explosion_fx",
+      "bone": "bone5",
+      "blend": "additive"
+    },
+    {
+      "name": "glow1_fx",
+      "bone": "bone6",
+      "blend": "additive"
+    },
+    {
+      "name": "glow01_01_fx",
+      "bone": "bone7",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "explosion_fx": {
+        "explosion": {
+          "width": 128,
+          "height": 128
+        }
+      },
+      "glow01_01_fx": {
+        "glow01_01": {
+          "width": 128,
+          "height": 128
+        }
+      },
+      "glow1_fx": {
+        "glow1": {
+          "width": 256,
+          "height": 256
+        }
+      },
+      "particle_251_fx": {
+        "particle_251": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            280,
+            -280,
+            -280,
+            -280,
+            -280,
+            280,
+            280,
+            280
+          ]
+        }
+      },
+      "s7": {
+        "s7": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            270,
+            -270,
+            -270,
+            -270,
+            -270,
+            270,
+            270,
+            270
+          ]
+        }
+      },
+      "s7_mask_fx": {
+        "s7_mask": {
+          "type": "mesh",
+          "color": "41ffa6ff",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            90.5,
+            -133.5,
+            -90.5,
+            -133.5,
+            -90.5,
+            133.5,
+            90.5,
+            133.5
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "out": {
+      "slots": {
+        "glow1_fx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow01_01_fx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "particle_251_fx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.6667,
+              "name": null
+            }
+          ]
+        },
+        "s7": {
+          "color": [
+            {
+              "time": 0.6333,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.6667,
+              "name": null
+            }
+          ]
+        },
+        "s7_mask_fx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.6667,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "root": {
+          "translate": [
+            {
+              "time": 1.6667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "win": {
+      "slots": {
+        "glow1_fx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "glow1"
+            }
+          ]
+        },
+        "glow01_01_fx": {
+          "color": [
+            {
+              "time": 0.1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "glow01_01"
+            }
+          ]
+        },
+        "particle_251_fx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "s7_mask_fx": {
+          "color": [
+            {
+              "time": 0.1333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bone4": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "bone6": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "x": 0.1,
+              "y": 0.1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 4,
+              "y": 4
+            }
+          ]
+        },
+        "bone7": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0.1,
+              "y": 0.1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 7.5,
+              "y": 7.5
+            }
+          ]
+        }
+      }
+    }
+  }
+}

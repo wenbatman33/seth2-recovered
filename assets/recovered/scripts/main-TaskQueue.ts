@@ -51,7 +51,7 @@ var a,
 var o = __publish("TaskQueue", function (t) {
   function s() {
     for (var e, s = arguments.length, u = new Array(s), i = 0; i < s; i++) u[i] = arguments[i];
-    return (e = Reflect.construct(t, [this].concat(u).slice(1), new.target || s) || this)._curTask = null, e._taskQueue = Array(), e.eventTarget = new __dependency_1.EventTarget(), e._isCompleted = !1, e;
+    return (e = Reflect.construct(t, [this].concat(u).slice(1), new.target || this.constructor) || this)._curTask = null, e._taskQueue = Array(), e.eventTarget = new __dependency_1.EventTarget(), e._isCompleted = !1, e;
   }
   (0, __dependency_0.inheritsLoose)(s, t);
   var i = s.prototype;

@@ -1,0 +1,125 @@
+
+JP_icon_loop.png
+size: 940,288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grand
+  rotate: false
+  xy: 573, 154
+  size: 129, 133
+  orig: 129, 133
+  offset: 0, 0
+  index: -1
+grand_light
+  rotate: false
+  xy: 1, 149
+  size: 139, 138
+  orig: 139, 138
+  offset: 0, 0
+  index: -1
+grand_word
+  rotate: true
+  xy: 833, 143
+  size: 144, 52
+  orig: 144, 52
+  offset: 0, 0
+  index: -1
+light_grand
+  rotate: false
+  xy: 281, 159
+  size: 145, 128
+  orig: 145, 128
+  offset: 0, 0
+  index: -1
+light_major
+  rotate: false
+  xy: 281, 30
+  size: 145, 128
+  orig: 145, 128
+  offset: 0, 0
+  index: -1
+light_mini
+  rotate: false
+  xy: 427, 159
+  size: 145, 128
+  orig: 145, 128
+  offset: 0, 0
+  index: -1
+light_minor
+  rotate: false
+  xy: 427, 30
+  size: 145, 128
+  orig: 145, 128
+  offset: 0, 0
+  index: -1
+major
+  rotate: false
+  xy: 703, 154
+  size: 129, 133
+  orig: 129, 133
+  offset: 0, 0
+  index: -1
+major_light
+  rotate: false
+  xy: 1, 10
+  size: 139, 138
+  orig: 139, 138
+  offset: 0, 0
+  index: -1
+major_word
+  rotate: true
+  xy: 886, 144
+  size: 143, 52
+  orig: 143, 52
+  offset: 0, 0
+  index: -1
+mini
+  rotate: false
+  xy: 573, 25
+  size: 129, 128
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+mini_light
+  rotate: false
+  xy: 141, 149
+  size: 139, 138
+  orig: 139, 138
+  offset: 0, 0
+  index: -1
+mini_word
+  rotate: true
+  xy: 833, 36
+  size: 106, 49
+  orig: 106, 49
+  offset: 0, 0
+  index: -1
+minor
+  rotate: false
+  xy: 703, 25
+  size: 129, 128
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+minor_light
+  rotate: false
+  xy: 141, 10
+  size: 139, 138
+  orig: 139, 138
+  offset: 0, 0
+  index: -1
+minor_word
+  rotate: true
+  xy: 886, 1
+  size: 142, 52
+  orig: 142, 52
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: true
+  xy: 281, 1
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1

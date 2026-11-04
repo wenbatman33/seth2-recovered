@@ -45,7 +45,7 @@ var l = __dependency_1._decorator.ccclass,
 __publish("default", l(d = p("Quick公共元件/UIView")(d = function (n) {
   function o() {
     for (var e, t = arguments.length, o = new Array(t), i = 0; i < t; i++) o[i] = arguments[i];
-    return (e = Reflect.construct(n, [this].concat(o).slice(1), new.target || o) || this)._args = void 0, e._className = "unknow", e._bundle = null, e._enabledKeyUp = !1, e._enabledKeyDown = !1, e.audioHelper = null, e._enterBackgroundTime = 0, e._enableFrontAndBackgroundSwitch = !1, e;
+    return (e = Reflect.construct(n, [this].concat(o).slice(1), new.target || this.constructor) || this)._args = void 0, e._className = "unknow", e._bundle = null, e._enabledKeyUp = !1, e._enabledKeyDown = !1, e.audioHelper = null, e._enterBackgroundTime = 0, e._enableFrontAndBackgroundSwitch = !1, e;
   }
   (0, __dependency_0.inheritsLoose)(o, n), o.getPrefabUrl = function () {
     return Log.e("請求實現public static getPrefabUrl"), __dependency_4.Macro.UNKNOWN;

@@ -43,7 +43,7 @@ __dependency_1.cclegacy._RF.push({}, "a1bccOBJRhCP77JAb6CqO+C", "GameColor", voi
 __publish("GameColor", (0, __dependency_2.injectColorData)(u = function (o) {
   function n() {
     for (var t, n = arguments.length, r = new Array(n), e = 0; e < n; e++) r[e] = arguments[e];
-    return (t = Reflect.construct(o, [this].concat(r).slice(1), new.target || n) || this).bundle = __dependency_3.default.module, t;
+    return (t = Reflect.construct(o, [this].concat(r).slice(1), new.target || this.constructor) || this).bundle = __dependency_3.default.module, t;
   }
   return (0, __dependency_0.inheritsLoose)(n, o), n.prototype.init = function () {
     this.importColors(__dependency_4);

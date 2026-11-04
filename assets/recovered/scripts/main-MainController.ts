@@ -60,7 +60,7 @@ __publish("default", (D = R("Quick公共元件/MainController"), L = T(__depende
 }), z(A = D((_ = (0, __dependency_0.applyDecoratedDescriptor)((V = function (e) {
   function t() {
     for (var t, i = arguments.length, r = new Array(i), u = 0; u < i; u++) r[u] = arguments[u];
-    return t = Reflect.construct(e, [this].concat(r).slice(1), new.target || t) || this, (0, __dependency_0.initializerDefineProperty)(t, "wssCacert", _, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "width", M, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "height", O, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "orientation", S, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "isLockDirection", C, (0, __dependency_0.assertThisInitialized)(t)), t.debugView = null, t.viewMode = null, t;
+    return t = Reflect.construct(e, [this].concat(r).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(t, "wssCacert", _, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "width", M, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "height", O, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "orientation", S, (0, __dependency_0.assertThisInitialized)(t)), (0, __dependency_0.initializerDefineProperty)(t, "isLockDirection", C, (0, __dependency_0.assertThisInitialized)(t)), t.debugView = null, t.viewMode = null, t;
   }
   (0, __dependency_0.inheritsLoose)(t, e);
   var r = t.prototype;

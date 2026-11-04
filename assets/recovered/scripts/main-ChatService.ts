@@ -41,7 +41,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "35307er0mdBR7bBHQJfElHc", "ChatService", void 0), __publish("ChatService", function (t) {
   function o() {
     for (var n, o = arguments.length, i = new Array(o), r = 0; r < o; r++) i[r] = arguments[r];
-    return (n = Reflect.construct(t, [this].concat(i).slice(1), new.target || o) || this).priority = __dependency_2.NetPriority.Chat, n;
+    return (n = Reflect.construct(t, [this].concat(i).slice(1), new.target || this.constructor) || this).priority = __dependency_2.NetPriority.Chat, n;
   }
   (0, __dependency_0.inheritsLoose)(o, t);
   var r = o.prototype;

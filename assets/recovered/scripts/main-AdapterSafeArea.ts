@@ -51,7 +51,7 @@ __publish("default", (u = x(!0), p = M("Quick適配元件/AdapterSafeArea"), f =
 }), P(b = u(b = p((w = (0, __dependency_0.applyDecoratedDescriptor)((d = function (t) {
   function e() {
     for (var e, i = arguments.length, o = new Array(i), a = 0; a < i; a++) o[a] = arguments[a];
-    return e = Reflect.construct(t, [this].concat(o).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "withInsertTop", w, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "withInsertBottom", m, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "withInsertLeft", I, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "withInsertRight", y, (0, __dependency_0.assertThisInitialized)(e)), e;
+    return e = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "withInsertTop", w, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "withInsertBottom", m, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "withInsertLeft", I, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "withInsertRight", y, (0, __dependency_0.assertThisInitialized)(e)), e;
   }
   return (0, __dependency_0.inheritsLoose)(e, t), e.prototype.onChangeSize = function () {
     var t = this.getComponent(__dependency_1.Widget);

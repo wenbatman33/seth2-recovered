@@ -32,7 +32,7 @@ var c = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("Adapter", c("Adapter")(a = function (t) {
   function o() {
     for (var n, e = arguments.length, o = new Array(e), i = 0; i < e; i++) o[i] = arguments[i];
-    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || o) || this)._func = null, n;
+    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this)._func = null, n;
   }
   (0, __dependency_0.inheritsLoose)(o, t);
   var i = o.prototype;

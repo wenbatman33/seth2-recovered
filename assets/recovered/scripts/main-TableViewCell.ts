@@ -41,7 +41,7 @@ __publish("TableViewCell", (a = b("QuickUI组件/TableViewCell"), u = v({
 }), d(s = a(((y = function (e) {
   function t() {
     for (var t, i = arguments.length, l = new Array(i), o = 0; o < i; o++) l[o] = arguments[o];
-    return (t = Reflect.construct(e, [this].concat(l).slice(1), new.target || t) || this).view = null, t.index = -1, (0, __dependency_0.initializerDefineProperty)(t, "type", f, (0, __dependency_0.assertThisInitialized)(t)), t;
+    return (t = Reflect.construct(e, [this].concat(l).slice(1), new.target || this.constructor) || this).view = null, t.index = -1, (0, __dependency_0.initializerDefineProperty)(t, "type", f, (0, __dependency_0.assertThisInitialized)(t)), t;
   }
   (0, __dependency_0.inheritsLoose)(t, e);
   var l = t.prototype;

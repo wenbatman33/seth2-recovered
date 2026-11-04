@@ -33,7 +33,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "11e9a84A9hCHpeO57mkvw5P", "HandlerManager", void 0), __publish("HandlerManager", function (n) {
   function t() {
     for (var e, t = arguments.length, r = new Array(t), l = 0; l < t; l++) r[l] = arguments[l];
-    return (e = Reflect.construct(n, [this].concat(r).slice(1), new.target || t) || this).module = null, e;
+    return (e = Reflect.construct(n, [this].concat(r).slice(1), new.target || this.constructor) || this).module = null, e;
   }
   return (0, __dependency_0.inheritsLoose)(t, n), t;
 }(__dependency_2.SingletonT)).module = "【Handler管理器】", __dependency_1.cclegacy._RF.pop();

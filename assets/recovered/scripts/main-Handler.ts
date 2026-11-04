@@ -37,7 +37,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "5e9ffPDWfxKL7ScegSeKBG6", "Handler", void 0), __publish("Handler", function (e) {
   function o() {
     for (var t, n = arguments.length, o = new Array(n), r = 0; r < n; r++) o[r] = arguments[r];
-    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || o) || this)._module = __dependency_3.Macro.UNKNOWN, t;
+    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || this.constructor) || this)._module = __dependency_3.Macro.UNKNOWN, t;
   }
   (0, __dependency_0.inheritsLoose)(o, e);
   var r = o.prototype;

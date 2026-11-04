@@ -32,7 +32,7 @@ var l = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("TimeManager", l("TimeManager")(((s = function (e) {
   function n() {
     for (var t, i = arguments.length, n = new Array(i), r = 0; r < i; r++) n[r] = arguments[r];
-    return (t = Reflect.construct(e, [this].concat(n).slice(1), new.target || n) || this)._originalTick = null, t._timeScale = 1, t._resetSpeed = 1, t;
+    return (t = Reflect.construct(e, [this].concat(n).slice(1), new.target || this.constructor) || this)._originalTick = null, t._timeScale = 1, t._resetSpeed = 1, t;
   }
   (0, __dependency_0.inheritsLoose)(n, e);
   var r = n.prototype;

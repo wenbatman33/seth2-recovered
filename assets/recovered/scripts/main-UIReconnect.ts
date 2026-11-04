@@ -33,7 +33,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "eea64oh+bZBb7iXTe4r2WC1", "UIReconnect", void 0), __publish("UIReconnect", function (e) {
   function n() {
     for (var t, n = arguments.length, o = new Array(n), c = 0; c < n; c++) o[c] = arguments[c];
-    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || n) || this).module = null, t.isResident = !0, t;
+    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || this.constructor) || this).module = null, t.isResident = !0, t;
   }
   (0, __dependency_0.inheritsLoose)(n, e);
   var o = n.prototype;

@@ -1,0 +1,97 @@
+
+jp_grand.png
+size: 624,456
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grand
+  rotate: false
+  xy: 2, 3
+  size: 453, 451
+  orig: 455, 453
+  offset: 1, 1
+  index: -1
+grand_word
+  rotate: true
+  xy: 457, 2
+  size: 452, 163
+  orig: 454, 165
+  offset: 1, 1
+  index: -1
+
+jp_grand-c05b5dfb.png
+size: 632,320
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grand_light
+  rotate: false
+  xy: 2, 2
+  size: 390, 314
+  orig: 399, 314
+  offset: 9, 0
+  index: -1
+grand_word_light/grand_word_light_03
+  rotate: true
+  xy: 589, 251
+  size: 20, 32
+  orig: 136, 50
+  offset: 1, 17
+  index: -1
+grand_word_light/grand_word_light_05
+  rotate: false
+  xy: 587, 14
+  size: 43, 47
+  orig: 136, 50
+  offset: 1, 2
+  index: -1
+grand_word_light/grand_word_light_07
+  rotate: true
+  xy: 394, 3
+  size: 58, 47
+  orig: 136, 50
+  offset: 9, 1
+  index: -1
+grand_word_light/grand_word_light_09
+  rotate: true
+  xy: 443, 2
+  size: 59, 46
+  orig: 136, 50
+  offset: 31, 2
+  index: -1
+grand_word_light/grand_word_light_11
+  rotate: true
+  xy: 491, 2
+  size: 59, 46
+  orig: 136, 50
+  offset: 54, 2
+  index: -1
+grand_word_light/grand_word_light_13
+  rotate: true
+  xy: 539, 7
+  size: 54, 46
+  orig: 136, 50
+  offset: 77, 2
+  index: -1
+grand_word_light/grand_word_light_15
+  rotate: false
+  xy: 589, 273
+  size: 36, 43
+  orig: 136, 50
+  offset: 100, 2
+  index: -1
+grand_word_light/grand_word_light_17
+  rotate: true
+  xy: 589, 238
+  size: 11, 17
+  orig: 136, 50
+  offset: 123, 6
+  index: -1
+light
+  rotate: true
+  xy: 394, 63
+  size: 253, 193
+  orig: 260, 193
+  offset: 4, 0
+  index: -1
+

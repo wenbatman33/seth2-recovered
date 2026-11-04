@@ -32,7 +32,7 @@ var o = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("default", o("FlashSpine")(a = function (t) {
   function i() {
     for (var e, i = arguments.length, n = new Array(i), s = 0; s < i; s++) n[s] = arguments[s];
-    return (e = Reflect.construct(t, [this].concat(n).slice(1), new.target || i) || this).duration = .5, e._median = 0, e._time = 0, e._material = null, e._skeleton = null, e;
+    return (e = Reflect.construct(t, [this].concat(n).slice(1), new.target || this.constructor) || this).duration = .5, e._median = 0, e._time = 0, e._material = null, e._skeleton = null, e;
   }
   (0, __dependency_0.inheritsLoose)(i, t);
   var n = i.prototype;

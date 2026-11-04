@@ -37,7 +37,7 @@ var f = __dependency_1._decorator.ccclass,
 __publish("default", f(d = I("自訂工具/直橫版/OrientationCanvas")(d = function (t) {
   function o() {
     for (var n, i = arguments.length, o = new Array(i), a = 0; a < i; a++) o[a] = arguments[a];
-    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || o) || this).orientationToolManager = null, n.isChanging = !1, n.onResize = n.canvasResize.bind((0, __dependency_0.assertThisInitialized)(n)), n;
+    return (n = Reflect.construct(t, [this].concat(o).slice(1), new.target || this.constructor) || this).orientationToolManager = null, n.isChanging = !1, n.onResize = n.canvasResize.bind((0, __dependency_0.assertThisInitialized)(n)), n;
   }
   (0, __dependency_0.inheritsLoose)(o, t);
   var a = o.prototype;

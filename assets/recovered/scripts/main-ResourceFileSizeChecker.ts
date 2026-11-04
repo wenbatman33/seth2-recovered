@@ -36,7 +36,7 @@ __publish("ResourceFileSizeChecker", (h = y("ResourceFileSizeChecker"), d = F({
 }), h(v = b((k = (0, __dependency_0.applyDecoratedDescriptor)((x = function (e) {
   function t() {
     for (var t, r = arguments.length, a = new Array(r), s = 0; s < r; s++) a[s] = arguments[s];
-    return t = Reflect.construct(e, [this].concat(a).slice(1), new.target || t) || this, (0, __dependency_0.initializerDefineProperty)(t, "runInEditor", k, (0, __dependency_0.assertThisInitialized)(t)), t;
+    return t = Reflect.construct(e, [this].concat(a).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(t, "runInEditor", k, (0, __dependency_0.assertThisInitialized)(t)), t;
   }
   (0, __dependency_0.inheritsLoose)(t, e);
   var u = t.prototype;

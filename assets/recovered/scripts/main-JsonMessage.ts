@@ -64,7 +64,7 @@ __publish("serialize", function (e, i, r, a) {
 var n = __publish("JsonMessage", function (e) {
   function r() {
     for (var i, r = arguments.length, a = new Array(r), t = 0; t < r; t++) a[t] = arguments[t];
-    return (i = Reflect.construct(e, [this].concat(a).slice(1), new.target || r) || this).data = null, i.byteArray = null, i.buffer = null, i;
+    return (i = Reflect.construct(e, [this].concat(a).slice(1), new.target || this.constructor) || this).data = null, i.byteArray = null, i.buffer = null, i;
   }
   (0, __dependency_0.inheritsLoose)(r, e);
   var t = r.prototype;

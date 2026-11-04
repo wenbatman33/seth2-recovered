@@ -74,10 +74,17 @@ var c = [{
     }
   }],
   l = __dependency_2.StateMachine.from(c, {});
-console.log("machine id:::::::::", l.id), l.start();
-l.subscribe(function (t) {
-  t.context;
-  var e = t.currentStateId;
-  return console.log("subscribe:::::stateid::::", e);
-});
-console.log("after start the machine::::::is:::::", l.currentStateId), __dependency_0.cclegacy._RF.pop();
+// The recovered Seth2 demo machine is unrelated to the g1007 Hades route.
+// Do not start its random demo loop when the explicit, fixed local Hades
+// preview is selected.
+var __isHadesPreview = typeof location !== "undefined" && new URLSearchParams(location.search).get("gn") === "hades";
+if (!__isHadesPreview) {
+  console.log("machine id:::::::::", l.id), l.start();
+  l.subscribe(function (t) {
+    t.context;
+    var e = t.currentStateId;
+    return console.log("subscribe:::::stateid::::", e);
+  });
+  console.log("after start the machine::::::is:::::", l.currentStateId);
+}
+__dependency_0.cclegacy._RF.pop();

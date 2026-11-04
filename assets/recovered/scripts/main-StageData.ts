@@ -45,7 +45,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "c284cIfNW5DV5M9KCSAIfPf", "StageData", void 0), __publish("StageData", function (e) {
   function s() {
     for (var t, n = arguments.length, s = new Array(n), r = 0; r < n; r++) s[r] = arguments[r];
-    return (t = Reflect.construct(e, [this].concat(s).slice(1), new.target || s) || this)._sceneStack = [], t._where = __dependency_4.Macro.UNKNOWN, t._entrys = new Map(), t._games = [], t;
+    return (t = Reflect.construct(e, [this].concat(s).slice(1), new.target || this.constructor) || this)._sceneStack = [], t._where = __dependency_4.Macro.UNKNOWN, t._entrys = new Map(), t._games = [], t;
   }
   (0, __dependency_0.inheritsLoose)(s, e);
   var a = s.prototype;

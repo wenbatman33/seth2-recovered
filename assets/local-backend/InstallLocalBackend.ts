@@ -32,6 +32,14 @@ export function selectLocalJackpot(search = '') {
 export function installLocalBackend(GameServiceBase, options = {}) {
   const proto = GameServiceBase.prototype;
   if (proto.__sethLocalTransport) return proto.__sethLocalTransport;
+  const boundary = typeof document !== 'undefined' ? document.createElement('div') : null;
+  if (boundary) {
+    boundary.id = 'LocalRuntimeBoundary'; boundary.textContent = '本機模擬後端';
+    Object.assign(boundary.style, { position: 'fixed', bottom: '0', left: '0', zIndex: '10000',
+      font: '11px sans-serif', color: '#ffe6ac', padding: '2px 6px', pointerEvents: 'none' });
+    document.body.append(boundary);
+    boundary.dataset.transport = 'local';
+  }
   let backend;
   const clients = new Set();
   const original = {};
@@ -82,6 +90,7 @@ export function installLocalBackend(GameServiceBase, options = {}) {
         generated: local.state.sequence > sequenceBefore, localBackend: true };
       runtime.requests.push(record);
       if (runtime.requests.length > 300) runtime.requests.shift();
+      if (boundary) boundary.dataset.requests = JSON.stringify(runtime.requests.slice(-30));
       if (runtime.consoleCount === undefined) runtime.consoleCount = 0;
       if (runtime.consoleCount < 300) {
         console.info('[Seth local backend]', JSON.stringify(record)); runtime.consoleCount++;

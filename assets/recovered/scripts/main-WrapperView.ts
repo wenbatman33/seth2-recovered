@@ -56,7 +56,7 @@ var E = __dependency_1._decorator.ccclass;
 __dependency_1._decorator.property, __publish("default", (y = (0, __dependency_2.inject)("content/bbr", __dependency_1.Node), E(((w = function (t) {
   function n() {
     for (var n, e = arguments.length, s = new Array(e), r = 0; r < e; r++) s[r] = arguments[r];
-    return n = Reflect.construct(t, [this].concat(s).slice(1), new.target || n) || this, (0, __dependency_0.initializerDefineProperty)(n, "bbr", T, (0, __dependency_0.assertThisInitialized)(n)), n.title = null, n.btnContent = null, n.lobbyBtn = null, n.gamebtn = null, n.tween = null, n;
+    return n = Reflect.construct(t, [this].concat(s).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(n, "bbr", T, (0, __dependency_0.assertThisInitialized)(n)), n.title = null, n.btnContent = null, n.lobbyBtn = null, n.gamebtn = null, n.tween = null, n;
   }
   (0, __dependency_0.inheritsLoose)(n, t);
   var r = n.prototype;

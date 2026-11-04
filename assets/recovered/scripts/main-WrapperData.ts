@@ -37,7 +37,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "9d2b2JmbXhFEZLADzrPFFbL", "WrapperData", void 0), __publish("default", function (n) {
   function a() {
     for (var e, t = arguments.length, a = new Array(t), o = 0; o < t; o++) a[o] = arguments[o];
-    return (e = Reflect.construct(n, [this].concat(a).slice(1), new.target || a) || this).ENTER_SLOT_VIEW = !1, e.orientation = null, e._colorConfig = {
+    return (e = Reflect.construct(n, [this].concat(a).slice(1), new.target || this.constructor) || this).ENTER_SLOT_VIEW = !1, e.orientation = null, e._colorConfig = {
       main: "#FFD680",
       main_normal: "#FFD53A",
       main_pressed: "#FFDD61",

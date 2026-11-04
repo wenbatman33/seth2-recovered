@@ -33,7 +33,7 @@ function __publish(name, value) {
 __dependency_1.cclegacy._RF.push({}, "634b97zYMlAP5z8Buea/nWN", "UpdateLoading", void 0), __publish("default", function (t) {
   function e() {
     for (var n, e = arguments.length, i = new Array(e), o = 0; o < e; o++) i[o] = arguments[o];
-    return (n = Reflect.construct(t, [this].concat(i).slice(1), new.target || e) || this).module = null, n;
+    return (n = Reflect.construct(t, [this].concat(i).slice(1), new.target || this.constructor) || this).module = null, n;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var i = e.prototype;

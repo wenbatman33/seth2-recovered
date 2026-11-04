@@ -87,7 +87,7 @@ __publish("ReelsController", (y = F("ReelsController"), v = H("Slot/Reel/ReelsCo
 }), y(N = v(N = x(N = R((w = (0, __dependency_0.applyDecoratedDescriptor)((O = function (t) {
   function e() {
     for (var e, i = arguments.length, r = new Array(i), o = 0; o < i; o++) r[o] = arguments[o];
-    return e = Reflect.construct(t, [this].concat(r).slice(1), new.target || e) || this, (0, __dependency_0.initializerDefineProperty)(e, "_reelSetting", w, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "_reelList", _, (0, __dependency_0.assertThisInitialized)(e)), e.status = __dependency_7.EReelStatus.FINISH, e.reelResult = void 0, e.newReelResult = void 0, e.winSymbol = void 0, e.winPosition = void 0, e.currentExpectItem = null, e.currentNoWinExpectItem = null, e;
+    return e = Reflect.construct(t, [this].concat(r).slice(1), new.target || this.constructor) || this, (0, __dependency_0.initializerDefineProperty)(e, "_reelSetting", w, (0, __dependency_0.assertThisInitialized)(e)), (0, __dependency_0.initializerDefineProperty)(e, "_reelList", _, (0, __dependency_0.assertThisInitialized)(e)), e.status = __dependency_7.EReelStatus.FINISH, e.reelResult = void 0, e.newReelResult = void 0, e.winSymbol = void 0, e.winPosition = void 0, e.currentExpectItem = null, e.currentNoWinExpectItem = null, e;
   }
   (0, __dependency_0.inheritsLoose)(e, t);
   var o = e.prototype;

@@ -1,0 +1,55 @@
+
+jp_crates.png
+size: 780,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crates
+  rotate: false
+  xy: 431, 1
+  size: 125, 115
+  orig: 125, 115
+  offset: 0, 0
+  index: -1
+crates_cover
+  rotate: true
+  xy: 684, 13
+  size: 126, 95
+  orig: 126, 95
+  offset: 0, 0
+  index: -1
+crates_down
+  rotate: false
+  xy: 557, 2
+  size: 126, 114
+  orig: 126, 114
+  offset: 0, 0
+  index: -1
+crates_light
+  rotate: false
+  xy: 431, 117
+  size: 154, 165
+  orig: 154, 165
+  offset: 0, 0
+  index: -1
+crates_shadow
+  rotate: false
+  xy: 586, 140
+  size: 133, 142
+  orig: 133, 142
+  offset: 0, 0
+  index: -1
+light_01
+  rotate: true
+  xy: 254, 43
+  size: 239, 176
+  orig: 289, 295
+  offset: 8, 80
+  index: -1
+light_02
+  rotate: true
+  xy: 1, 7
+  size: 275, 252
+  orig: 298, 267
+  offset: 0, 15
+  index: -1

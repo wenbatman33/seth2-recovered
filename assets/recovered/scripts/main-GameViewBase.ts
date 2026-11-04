@@ -37,7 +37,7 @@ var a = __dependency_1._decorator.ccclass,
 __publish("default", a(s = l("Quick公共元件/GameView")(((c = function (e) {
   function o() {
     for (var t, n = arguments.length, o = new Array(n), i = 0; i < n; i++) o[i] = arguments[i];
-    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || o) || this)._logic = null, t;
+    return (t = Reflect.construct(e, [this].concat(o).slice(1), new.target || this.constructor) || this)._logic = null, t;
   }
   (0, __dependency_0.inheritsLoose)(o, e);
   var i = o.prototype;
