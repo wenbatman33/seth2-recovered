@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-const root = new URL('../assets/local-backend/', import.meta.url);
+const root = new URL('../Project-A/assets/game/backend/', import.meta.url);
 async function load(name) { return import('data:text/javascript;base64,' + Buffer.from(await readFile(new URL(name + '.ts', root), 'utf8')).toString('base64')); }
 const feature = await load('FeatureDefinitions'), jp = await load('JackpotRules');
 const board = count => { const values=Array(30).fill(1); for(let i=0;i<count;i++)values[i]=15; return Array.from({length:5},(_,i)=>values.slice(i*6,i*6+6)); };
@@ -58,7 +58,7 @@ test('new local JP notify is consumed by the actual recovered GameService listen
  const {createRequire}=await import('node:module'),require=createRequire(import.meta.url);
  const parser=require('@babel/parser'),traverse=require('@babel/traverse').default,generate=require('@babel/generator').default;
  const {runInNewContext}=await import('node:vm');
- const original=await readFile(new URL('../assets/recovered/scripts/g1005-GameService.ts',import.meta.url),'utf8');
+ const original=await readFile(new URL('../Project-A/assets/game/scripts/g1005-GameService.ts',import.meta.url),'utf8');
  let listener;
  traverse(parser.parse(original,{sourceType:'module'}),{AssignmentExpression(path){const n=path.node;if(n.left.type==='MemberExpression'&&n.left.property.name==='addSocketListeners')listener=n.right;}});
  assert.ok(listener,'Original addSocketListeners exists');

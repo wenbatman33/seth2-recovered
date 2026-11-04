@@ -1,19 +1,16 @@
 {
-  "name": "seth2-recovered",
-  "uuid": "2645e8d2-0c6a-4ac9-81e6-ea9530a4753e",
-  "creator": {
-    "version": "3.8.8"
-  },
-  "version": "3.8.8",
-  "description": "Editable Seth2 and Hades Cocos Creator 3.8.8 frontend reconstruction with owned simulated backends",
+  "name": "recovered-game-collection",
+  "version": "1.0.0",
+  "description": "Independent recovered game projects and shared development tools",
   "private": true,
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "test": "node tests/test-creator-launch.mjs && node tests/test-hades-contract.mjs && node --experimental-vm-modules tests/test-local-backend.mjs && node --experimental-vm-modules --test --test-concurrency=1 tests/test-feature-backend.mjs tests/test-feature-definitions.mjs tests/test-feature-progress.mjs && node --experimental-vm-modules tests/test-feature-rules.mjs && node --test --test-concurrency=1 tests/test-local-jackpot-continuation.mjs tests/test-local-presentation-compatibility.mjs && node --test --test-concurrency=1 tests/test-hades-original-backend.mjs tests/test-recovered-constructor-compatibility.mjs && node tests/test-native-vendor-isolation.mjs && node tests/test-responsive-launch.mjs",
+    "test": "node tests/test-creator-launch.mjs && node tests/test-hades-contract.mjs && node --experimental-vm-modules tests/test-local-backend.mjs && node --experimental-vm-modules --test --test-concurrency=1 tests/test-feature-backend.mjs tests/test-feature-definitions.mjs tests/test-feature-progress.mjs && node --experimental-vm-modules tests/test-feature-rules.mjs && node --test --test-concurrency=1 tests/test-local-jackpot-continuation.mjs tests/test-local-presentation-compatibility.mjs && node --test --test-concurrency=1 tests/test-hades-original-backend.mjs tests/test-recovered-constructor-compatibility.mjs && node tests/test-native-vendor-isolation.mjs && node tests/test-responsive-launch.mjs && node tools/check-projects.mjs",
     "preview": "node tools/start-frontend-preview.mjs",
-    "preview:dev": "node tools/start-frontend-preview.mjs --development"
+    "preview:dev": "node tools/start-frontend-preview.mjs --development",
+    "catalog:sync": "node tools/sync-game-catalog.mjs"
   },
   "devDependencies": {
     "@babel/generator": "^7.29.8",

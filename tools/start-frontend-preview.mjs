@@ -2,17 +2,16 @@ import { spawn } from 'node:child_process';
 import { openSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {loadGames} from './project-registry.mjs';
 const project = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const development = process.argv.includes('--development');
 const port = development ? 8178 : 8174, base = `http://127.0.0.1:${port}`;
-for (const game of ['hades', 'seth2']) if (!existsSync(resolve(project, 'build/frontend-' + game, 'index.html'))) {
-  throw Error('Missing official GUI build: build/frontend-' + game);
-}
+if(!loadGames().some(g=>g.available))throw Error('請先在任一遊戲專案中完成官方 GUI 建置。');
 async function ours() {
-  try { const response = await fetch(base + '/__recovered_health', { signal: AbortSignal.timeout(700) }); return (await response.json()).project === project; } catch { return false; }
+  try { const response = await fetch(base + '/__recovered_health', { signal: AbortSignal.timeout(700) }); const health=await response.json();return health.project===project&&health.catalogVersion===2; } catch { return false; }
 }
 if (!await ours()) {
-  const logs = resolve(project, 'temp/local-preview'); mkdirSync(logs, { recursive: true });
+  const logs = resolve(project, '.cache/preview'); mkdirSync(logs, { recursive: true });
   const log = openSync(resolve(logs, development ? 'frontends-development.log' : 'frontends.log'), 'a');
   const args = [resolve(project, 'tools/serve-recovered-frontends.mjs'), String(port), ...(development ? ['--development'] : [])];
   const unix = process.platform !== 'win32';
@@ -23,3 +22,5 @@ if (!await ours()) {
   if (!ready) throw Error('Preview service unavailable; inspect ' + logs + '. No unrelated service was stopped.');
 }
 console.log((development ? '靜音開發預覽：' : '兩款遊戲本機入口：') + base + '/');
+
+if(process.argv.includes('--open')&&process.platform==='darwin')spawn('open',[base+'/'],{stdio:'ignore'}).unref();

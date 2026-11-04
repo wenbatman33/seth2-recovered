@@ -1,0 +1,17 @@
+{
+  "name": "project-b",
+  "uuid": "281964f9-7a16-4c54-8941-b742ce96db7f",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "version": "3.8.8",
+  "description": "Independent recovered frontend project · Cocos Creator3.8.8",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "preview": "node tools/start-preview.cjs",
+    "preview:dev": "node tools/start-preview.cjs --development"
+  }
+}

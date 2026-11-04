@@ -1,6 +1,6 @@
 /** Actual pending-feature stage cursor contracts; no recovered engine edits/stubs. */
 import{SourceTextModule,createContext}from'node:vm';import{readFileSync}from'node:fs';import{resolve,dirname}from'node:path';import test from'node:test';import assert from'node:assert/strict';
-const root=resolve('assets/local-backend'),ctx=createContext({console,Math,Date,Map,Set,Promise,Error,JSON,Number,Array,Object,URLSearchParams}),cache=new Map();
+const root=resolve('Project-A/assets/game/backend'),ctx=createContext({console,Math,Date,Map,Set,Promise,Error,JSON,Number,Array,Object,URLSearchParams}),cache=new Map();
 async function load(path){path=resolve(path);if(cache.has(path))return cache.get(path);assert.ok(path.startsWith(root+'/'));const m=new SourceTextModule(readFileSync(path,'utf8'),{context:ctx,identifier:path});cache.set(path,m);await m.link((name,ref)=>{assert.ok(name.startsWith('./'));return load(resolve(dirname(ref.identifier),name+'.ts'))});return m}
 const entry=await load(resolve(root,'LocalGameBackend.ts'));await entry.evaluate();const{LocalGameBackend}=entry.namespace;
 const plain=x=>JSON.parse(JSON.stringify(x));const seedRng=(seed=87)=>()=>((seed=(Math.imul(seed,1664525)+1013904223)>>>0)/2**32);

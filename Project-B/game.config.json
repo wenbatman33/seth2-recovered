@@ -1,0 +1,17 @@
+{
+  "id": "hades",
+  "title": "Project-B",
+  "bundle": "g1007",
+  "gn": "hades",
+  "gt": "slot-erase-cluster-times-1",
+  "buildDirectory": "build/web",
+  "previewPort": 8182,
+  "scenes": {
+    "landscape": {
+      "url": "db://assets/scenes/Game.scene",
+      "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+    }
+  },
+  "defaultMode": "landscape",
+  "project": "Project-B"
+}

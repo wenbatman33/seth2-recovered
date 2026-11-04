@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-04",
+  "scope": "Independent Creator project migration and local preview verification; this is not a new full gameplay-fidelity audit.",
+  "dashboard": {
+    "remaining": [
+      "Project-A",
+      "Project-B"
+    ],
+    "oldEntriesRemovedKeepingFiles": true
+  },
+  "officialGuiBuilds": [
+    {
+      "project": "Project-A",
+      "creator": "3.8.8",
+      "finished": "23:11:41",
+      "status": "success"
+    },
+    {
+      "project": "Project-B",
+      "creator": "3.8.8",
+      "finished": "23:01:21",
+      "status": "success"
+    }
+  ],
+  "metadata": [
+    {
+      "project": "Project-A",
+      "bytePreservedOriginalMeta": 2318,
+      "newFolderMeta": 3,
+      "changedOriginalMeta": 0
+    },
+    {
+      "project": "Project-B",
+      "bytePreservedOriginalMeta": 1651,
+      "newFolderMeta": 3,
+      "changedOriginalMeta": 0
+    }
+  ],
+  "browserVerification": {
+    "viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "projects": [
+      "Project-A",
+      "Project-B"
+    ],
+    "checks": [
+      "initial loads original assets",
+      "trusted mouse input on game canvas",
+      "spin and closeSpin status 200",
+      "canvas bounds match viewport"
+    ],
+    "mobileDeviceTouchTested": false,
+    "developmentMute": true,
+    "developmentFps": 30,
+    "backend": "Explicitly labeled local simulation; original RNG and RTP not restored"
+  },
+  "tests": {
+    "command": "npm test",
+    "exitCode": 0,
+    "additionalChecks": [
+      "Independent preview works from unrelated working directory",
+      "Existing service checked against project identity before opening browser"
+    ]
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8174/",
+    "catalogVersion": 2,
+    "oldRootBuildArchived": true,
+    "oldPythonPreviewsStopped": true
+  },
+  "publication": "Local changes only; no remote write during this migration."
+}

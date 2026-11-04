@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { HadesLocalBackend, evaluateClusters, PAYOUTS, FEATURES } from '../tools/hades-original/backend.mjs';
+import {readFileSync} from 'node:fs';
+const {HadesLocalBackend,evaluateClusters,PAYOUTS,FEATURES}=await import('data:text/javascript;base64,'+Buffer.from(readFileSync(new URL('../Project-B/assets/game/backend/HadesLocalBackend.ts',import.meta.url))).toString('base64'));
 
 function random(seed=90210){return()=>{seed=(1664525*seed+1013904223)>>>0;return seed/4294967296;};}
 

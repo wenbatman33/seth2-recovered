@@ -3,7 +3,7 @@ import { runInNewContext } from 'node:vm';
 import assert from 'node:assert/strict';
 
 // Execute the actual isolation prelude, without loading unrelated vendor code.
-const source = readFileSync(new URL('../assets/recovered/vendor/original-vendors.js', import.meta.url), 'utf8');
+const source = readFileSync(new URL('../Project-A/assets/shared/vendor/original-vendors.js', import.meta.url), 'utf8');
 const prelude = source.slice(0, source.indexOf('// Original plugin 0:')) +
   '}).call(window, window);';
 for (const native of [{ process: { versions: { electron: '30' } } },

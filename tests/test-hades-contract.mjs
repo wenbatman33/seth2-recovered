@@ -4,7 +4,7 @@ import vm from 'node:vm';
 
 // Keep this source-contract test dependency-free: transpile the tiny exported
 // module shape just enough for Node's test runner without loading Cocos.
-const source = fs.readFileSync(new URL('../assets/local-backend/HadesContract.ts', import.meta.url), 'utf8')
+const source = fs.readFileSync(new URL('../Project-B/assets/game/backend/HadesContract.ts', import.meta.url), 'utf8')
   .replace(/export const /g, 'const ')
   .replace(/export function /g, 'function ')
   .replace(/: unknown/g, '')

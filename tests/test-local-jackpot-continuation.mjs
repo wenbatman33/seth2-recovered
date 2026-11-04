@@ -1,8 +1,8 @@
 import test from 'node:test';import assert from 'node:assert/strict';import{readFile}from'node:fs/promises';import{createRequire}from'node:module';import{runInNewContext}from'node:vm';
 const require=createRequire(import.meta.url),parser=require('@babel/parser'),traverse=require('@babel/traverse').default,generate=require('@babel/generator').default;
-const directory=new URL('../assets/',import.meta.url);
-const helper=await import('data:text/javascript;base64,'+Buffer.from(await readFile(new URL('local-backend/LocalJackpotContinuation.ts',directory),'utf8')).toString('base64'));
-async function extract(file,predicate){const ast=parser.parse(await readFile(new URL('recovered/scripts/'+file+'.ts',directory),'utf8'),{sourceType:'module'});let result;traverse(ast,{AssignmentExpression(path){if(predicate(path.node))result=path.node.right;},CallExpression(path){if(predicate(path.node))result=path.node.arguments[1];}});assert.ok(result,file+' source consumer found');return generate(result).code;}
+const directory=new URL('../Project-A/assets/',import.meta.url);
+const helper=await import('data:text/javascript;base64,'+Buffer.from(await readFile(new URL('game/backend/LocalJackpotContinuation.ts',directory),'utf8')).toString('base64'));
+async function extract(file,predicate){const ast=parser.parse(await readFile(new URL('game/scripts/'+file+'.ts',directory),'utf8'),{sourceType:'module'});let result;traverse(ast,{AssignmentExpression(path){if(predicate(path.node))result=path.node.right;},CallExpression(path){if(predicate(path.node))result=path.node.arguments[1];}});assert.ok(result,file+' source consumer found');return generate(result).code;}
 const createSource=await extract('g1005-CreateNewSpinCompleteFlowCmd',n=>n.type==='AssignmentExpression'&&n.left.type==='MemberExpression'&&n.left.property.name==='createFlow');
 const symbolSource=await extract('g1005-SymbolView',n=>n.type==='CallExpression'&&n.arguments[0]?.type==='MemberExpression'&&n.arguments[0].property.name==='SHOW_JP_WIN');
 const popupSource=await extract('g1005-JackpotView',n=>n.type==='CallExpression'&&n.arguments[0]?.type==='MemberExpression'&&n.arguments[0].property.name==='SHOW_JP');

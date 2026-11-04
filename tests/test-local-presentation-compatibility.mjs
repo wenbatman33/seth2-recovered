@@ -1,7 +1,7 @@
 import test from'node:test';import assert from'node:assert/strict';import{readFile}from'node:fs/promises';import{createRequire}from'node:module';import{runInNewContext}from'node:vm';
 const require=createRequire(import.meta.url),parser=require('@babel/parser'),traverse=require('@babel/traverse').default,generate=require('@babel/generator').default;
-const directory=new URL('../assets/recovered/scripts/',import.meta.url);
-async function method(file,name){let node;traverse(parser.parse(await readFile(new URL(file+'.ts',directory),'utf8'),{sourceType:'module'}),{AssignmentExpression(p){if(p.node.left.type==='MemberExpression'&&(p.node.left.property.name||p.node.left.property.value)===name)node=p.node.right;}});assert.ok(node,name);return generate(node).code;}
+const directory=new URL('../Project-A/assets/game/scripts/',import.meta.url);
+async function method(file,name){let node;traverse(parser.parse(await readFile(new URL(file+'.ts',file.startsWith('framework-')?new URL('../Project-A/assets/shared/scripts/',import.meta.url):directory),'utf8'),{sourceType:'module'}),{AssignmentExpression(p){if(p.node.left.type==='MemberExpression'&&(p.node.left.property.name||p.node.left.property.value)===name)node=p.node.right;}});assert.ok(node,name);return generate(node).code;}
 const times=await method('g1005-EffectsView','showTimesMoving'),clones=await method('g1005-EffectsView','showCloneTimesMoving');
 function effects(source,currentTimes=3){
  class Node{constructor(){this.active=true;this.destroyed=false;}destroy(){this.destroyed=true;this.active=false;}}

@@ -1,40 +1,15 @@
-
-#///////////////////////////
-# Cocos Creator Project
-#///////////////////////////
-
-/library/
-/temp/
-/local/
-/build/
-/profiles/
-/native/engine/android/**/*/assets
-
-#//////////////////////////
-# NPM
-#//////////////////////////
 node_modules/
-
-#//////////////////////////
-# VSCode
-#//////////////////////////
-.vscode/
-
-#//////////////////////////
-# WebStorm
-#//////////////////////////
-.idea/
-
-# Generated previews, OS files, private local state
-/previews/
+**/library/
+**/temp/
+**/local/
+**/profiles/
+**/build/
 .DS_Store
+*.log
 __pycache__/
 *.pyc
-*.log
 *local-state.json
 *local-state.tmp
-
-# Local captured mirrors, analysis sessions and obsolete duplicate runtime
-/hades-runtime/
-/research/
-/archive/
+.local-game-names.json
+本機遊戲對照.md
+.cache/

@@ -3,7 +3,7 @@ import {SourceTextModule,createContext}from'node:vm';
 import{readFileSync}from'node:fs';
 import{resolve,dirname}from'node:path';
 import assert from'node:assert/strict';
-const root=resolve('assets/local-backend');
+const root=resolve('Project-A/assets/game/backend');
 const context=createContext({console,Math,Date,Map,Set,Promise,Error,JSON,Number,Array,Object,URLSearchParams});
 const modules=new Map();
 async function load(path){

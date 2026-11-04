@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 
 test('original Hades legacy .call chain preserves its derived constructor over an ES class base',()=>{
-  const source=readFileSync(new URL('../assets/recovered/scripts/main-GameDataBase.ts',import.meta.url),'utf8')
+  const source=readFileSync(new URL('../Project-A/assets/shared/scripts/main-GameDataBase.ts',import.meta.url),'utf8')
     .replace(/^import .*;\n/gm,'').replace(/^export \{.*\};\n/gm,'');
   class NativeBase {constructor(...args){this.received=args;}}
   const sandbox={__dependency_0:{inheritsLoose(child,parent){child.prototype=Object.create(parent.prototype);Object.defineProperty(child.prototype,'constructor',{value:child,writable:true,configurable:true});Object.setPrototypeOf(child,parent);}},
@@ -21,7 +21,7 @@ test('original Hades legacy .call chain preserves its derived constructor over a
 });
 
 test('recovered Hades GameData constructs with original fields and superclass arguments',()=>{
-  let source=readFileSync(new URL('../assets/recovered/scripts/g1007-GameData.ts',import.meta.url),'utf8');
+  let source=readFileSync(new URL('../Project-B/assets/game/scripts/g1007-GameData.ts',import.meta.url),'utf8');
   const sandbox={};
   for(const match of source.matchAll(/^import \* as (\w+) from "([^"]+)";/gm))sandbox[match[1]]={};
   class NativeBase {constructor(...args){this.received=args;}}
@@ -40,7 +40,7 @@ test('Hades giant transformation completes when the timing Spine node is hidden'
   const {parse}=await import('@babel/parser');
   const traverse=(await import('@babel/traverse')).default.default;
   const generate=(await import('@babel/generator')).default.default;
-  const source=readFileSync(new URL('../assets/recovered/scripts/g1007-GameSymbol.ts',import.meta.url),'utf8');
+  const source=readFileSync(new URL('../Project-B/assets/game/scripts/g1007-GameSymbol.ts',import.meta.url),'utf8');
   let method;
   traverse(parse(source,{sourceType:'module'}),{AssignmentExpression(p){if(p.node.left.type==='MemberExpression'&&p.node.left.property.name==='setSymbolScaleByTween')method=p.node.right;}});
   assert.ok(method);
@@ -57,7 +57,7 @@ test('shared 3.7 delay sentinel completes without belonging to the scene tree',a
   const {parse}=await import('@babel/parser');
   const traverse=(await import('@babel/traverse')).default.default;
   const generate=(await import('@babel/generator')).default.default;
-  const source=readFileSync(new URL('../assets/recovered/scripts/framework-CmmSlotUtils.ts',import.meta.url),'utf8');
+  const source=readFileSync(new URL('../Project-A/assets/shared/scripts/framework-CmmSlotUtils.ts',import.meta.url),'utf8');
   let method;
   traverse(parse(source,{sourceType:'module'}),{AssignmentExpression(p){if(p.node.left.type==='MemberExpression'&&p.node.left.property.value==='delayTime')method=p.node.right;}});
   assert.ok(method);

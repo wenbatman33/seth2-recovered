@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "game": "Project-A",
+      "projectUuid": "bc731e45-1440-4960-8f12-0ee0609c961a",
+      "preservedMetaFiles": 2318,
+      "duplicateAssetUuidCount": 0
+    },
+    {
+      "game": "Project-B",
+      "projectUuid": "281964f9-7a16-4c54-8941-b742ce96db7f",
+      "preservedMetaFiles": 1651,
+      "duplicateAssetUuidCount": 0
+    }
+  ],
+  "originalAssetMetadataPreserved": true,
+  "strategy": "Copy existing corrected source and original assets; rewrite relative imports; no asset regeneration.",
+  "archiveLocation": "Outside the repository; path recorded only in the ignored local guide."
+}
