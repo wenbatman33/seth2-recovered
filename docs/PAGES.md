@@ -26,4 +26,6 @@ robots.txt                 請搜尋引擎不要索引
 
 發布時，將這份靜態輸出放到獨立的 `gh-pages` 分支，並將 GitHub Pages 來源設為該分支根目錄。主分支保留獨立 Creator 專案與測試；不要將整份原始碼目錄當作遊戲網站發布。每次更新仍需先完成官方 GUI 建置、打包及操作驗證。
 
+建立發布分支的 Git 索引時，必須完整納入打包輸出，使用 `git add --force --all`，避免全域忽略規則漏掉引擎必要的 `src/settings.json`。推送前執行 `node tools/check-pages-release.mjs`，比對 `.cache/pages/site` 與 `.cache/pages/deploy.git` 的完整檔案清單。此檢查只針對已隔離的靜態發布目錄，不可對原始專案強制加入被忽略的檔案。
+
 發布及切換 Pages 來源均需使用者當次明確指示。打包與本機測試不會推送或更新線上網站。`noindex` 與 robots 設定只能請求降低索引，不能保證不被搜尋或隱藏原始遊戲畫面。

@@ -107,6 +107,12 @@ __dependency_1.cclegacy._RF.push({}, "2e004QPo4RDaquC+p8l+fiE", "BundleManager",
       }, e, this, [[3, 18]]);
     }));
     return function (n, o) {
+      // Recovered Web builds include the complete framework locally on every host.
+      // The original provider manifest endpoint is absent on static hosting.
+      if (typeof window !== "undefined" && window.__recoveredLaunch) {
+        __dependency_1.assetManager.loadBundle(n, o);
+        return Promise.resolve();
+      }
       return e.apply(this, arguments);
     };
   }(), t.getHostType = function (e) {
