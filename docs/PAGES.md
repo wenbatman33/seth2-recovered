@@ -24,7 +24,7 @@ robots.txt                 請搜尋引擎不要索引
 
 打包只複製已完成的官方 GUI 建置，不重新編譯引擎或生成素材。公共路徑使用中性專案名稱；遊戲仍使用自己的 GN 與原始 Bundle。打包後的 `frontend-game-config.js` 將跨遊戲導向限制在同一網站子路徑內。原始 `build/web` 不被修改。
 
-發布時，將這份靜態輸出放到獨立的 `gh-pages` 分支，並將 GitHub Pages 來源設為該分支根目錄。主分支保留獨立 Creator 專案與測試；不要將整份原始碼目錄當作遊戲網站發布。每次更新仍需先完成官方 GUI 建置、打包及操作驗證。
+發布時，將這份靜態輸出放到獨立的 `gh-pages` 分支，GitHub Pages 的 Source 使用 GitHub Actions。手動執行 `Publish verified game site` 工作，它會讀取 `gh-pages` 的已驗證成品、檢查必要檔案，然後發布。工作不會自行建置 Creator，也不會因一般原始碼推送而自動發布。主分支保留獨立 Creator 專案與測試；不要將整份原始碼目錄當作遊戲網站發布。每次更新仍需先完成官方 GUI 建置、打包及操作驗證。
 
 建立發布分支的 Git 索引時，必須完整納入打包輸出，使用 `git add --force --all`，避免全域忽略規則漏掉引擎必要的 `src/settings.json`。推送前執行 `node tools/check-pages-release.mjs`，比對 `.cache/pages/site` 與 `.cache/pages/deploy.git` 的完整檔案清單。此檢查只針對已隔離的靜態發布目錄，不可對原始專案強制加入被忽略的檔案。
 
