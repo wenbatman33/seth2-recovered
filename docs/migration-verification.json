@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-04",
+  "sourceCommit": "ef27437e5f7430ebcfe588297feac7ba5a387c6b",
+  "originalAssetFileCount": 4465,
+  "unexpectedAssetDifferences": [],
+  "allowedDocumentationUpdates": [
+    "assets/local-backend/README.md",
+    "assets/local-backend/FeatureRules.md"
+  ],
+  "npmTest": "passed",
+  "standaloneToolPaths": "No reference to old workspace in tools, tests or runtime file loading",
+  "creatorMcpConfirmedProjectPath": "/Users/batman_work/claude/seth2-recovered",
+  "editorSceneOpened": true,
+  "notes": [
+    "Creator MCP confirmed the new project path and opened mainPortrait after a fresh import",
+    "Old source directory removed from the old workspace; recoverable local archive retained outside both repositories",
+    "Old built previews copied locally for convenience, excluded from Git; fresh clones must build in Creator"
+  ],
+  "quickStopFix": {
+    "rootCause": "Creator 3.8 inactive Node binding pauses quick-entry tween before set(active)",
+    "change": "Only showSymbolsQuickIn uses bindNodeState(false), preserving callback and original flow",
+    "regression": "7 presentation compatibility tests passed; unpatched quick-stop reproduces zero completions",
+    "uiVerification": "in progress"
+  },
+  "allowedCodeChanges": [
+    "assets/recovered/scripts/g1005-SymbolView.ts"
+  ]
+}
