@@ -46,3 +46,7 @@ docs/                      維護說明與驗證紀錄
 `library`、`temp`、`profiles`、`build` 與 `node_modules` 是本機產物，不推送。過時展示工程及研究鏡像已移出此集合。正式名稱對照只存在被忽略的本機檔案；公開文件使用中性專案代稱。既有 Git 歷史與原始素材仍可能辨識來源，這不是匿名化保證。
 
 開發驗證：`npm ci --ignore-scripts --no-audit --no-fund`，再執行 `npm test`。
+
+## 網站入口
+
+GitHub Pages 使用獨立的靜態遊戲網站，首頁為 `index.html`；此 README 保留為工程說明。完成各專案官方 GUI 建置後，執行 `npm run pages:package` 與 `npm run pages:preview`。打包位置、子路徑驗證與發布方式見 [網站發布說明](docs/PAGES.md)。

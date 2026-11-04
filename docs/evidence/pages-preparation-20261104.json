@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-04",
+  "scope": "Prepared static Pages game site; production still displays README until explicit publication approval.",
+  "menu": "Neutral Project-A and Project-B links with desktop/mobile entry choices.",
+  "staticPrefix": "/seth2-recovered/",
+  "browserChecks": {
+    "Project-A desktop": [
+      "original assets loaded",
+      "spin 200",
+      "closeSpin 200"
+    ],
+    "Project-B desktop": [
+      "original assets loaded",
+      "spin 200",
+      "closeSpin 200"
+    ],
+    "Project-A mobile": [
+      "portrait scene",
+      "canvas matches 390x844 viewport",
+      "spin 200",
+      "closeSpin 200"
+    ],
+    "crossGameRedirect": "Project-A to Project-B retains the website prefix",
+    "input": "Trusted mouse input; real device touch not tested",
+    "developmentMute": true
+  },
+  "tests": {
+    "command": "npm test",
+    "exitCode": 0
+  },
+  "publication": {
+    "status": "not published",
+    "proposedBranch": "gh-pages",
+    "proposedSource": "gh-pages / (root)",
+    "sourceDocumentsIncluded": false,
+    "userApprovalRequired": true
+  }
+}

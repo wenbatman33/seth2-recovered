@@ -7,10 +7,12 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "node tests/test-creator-launch.mjs && node tests/test-hades-contract.mjs && node --experimental-vm-modules tests/test-local-backend.mjs && node --experimental-vm-modules --test --test-concurrency=1 tests/test-feature-backend.mjs tests/test-feature-definitions.mjs tests/test-feature-progress.mjs && node --experimental-vm-modules tests/test-feature-rules.mjs && node --test --test-concurrency=1 tests/test-local-jackpot-continuation.mjs tests/test-local-presentation-compatibility.mjs && node --test --test-concurrency=1 tests/test-hades-original-backend.mjs tests/test-recovered-constructor-compatibility.mjs && node tests/test-native-vendor-isolation.mjs && node tests/test-responsive-launch.mjs && node tools/check-projects.mjs",
+    "test": "node tests/test-creator-launch.mjs && node tests/test-hades-contract.mjs && node --experimental-vm-modules tests/test-local-backend.mjs && node --experimental-vm-modules --test --test-concurrency=1 tests/test-feature-backend.mjs tests/test-feature-definitions.mjs tests/test-feature-progress.mjs && node --experimental-vm-modules tests/test-feature-rules.mjs && node --test --test-concurrency=1 tests/test-local-jackpot-continuation.mjs tests/test-local-presentation-compatibility.mjs && node --test --test-concurrency=1 tests/test-hades-original-backend.mjs tests/test-recovered-constructor-compatibility.mjs && node tests/test-native-vendor-isolation.mjs && node tests/test-responsive-launch.mjs && node tools/check-projects.mjs && node tests/test-pages-package.mjs",
     "preview": "node tools/start-frontend-preview.mjs",
     "preview:dev": "node tools/start-frontend-preview.mjs --development",
-    "catalog:sync": "node tools/sync-game-catalog.mjs"
+    "catalog:sync": "node tools/sync-game-catalog.mjs",
+    "pages:package": "node tools/package-pages.mjs",
+    "pages:preview": "node tools/serve-pages-preview.mjs"
   },
   "devDependencies": {
     "@babel/generator": "^7.29.8",
