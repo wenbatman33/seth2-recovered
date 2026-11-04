@@ -32780,6 +32780,12 @@ System.register("chunks:///_virtual/main-BundleManager.ts", ['cc', './shared-rol
             }, e, this, [[3, 18]]);
           }));
           return function (n, o) {
+            // Recovered Web builds include the complete framework locally on every host.
+            // The original provider manifest endpoint is absent on static hosting.
+            if (typeof window !== "undefined" && window.__recoveredLaunch) {
+              assetManager.loadBundle(n, o);
+              return Promise.resolve();
+            }
             return e.apply(this, arguments);
           };
         }(), t.getHostType = function (e) {
