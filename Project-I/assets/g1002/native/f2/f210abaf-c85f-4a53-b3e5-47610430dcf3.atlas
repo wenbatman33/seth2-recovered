@@ -1,0 +1,551 @@
+
+bonus_stove.png
+size: 1804,872
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle
+  rotate: false
+  xy: 506, 249
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+cloud
+  rotate: false
+  xy: 506, 443
+  size: 504, 425
+  orig: 504, 426
+  offset: 0, 0
+  index: -1
+pot
+  rotate: false
+  xy: 1, 122
+  size: 504, 746
+  orig: 504, 746
+  offset: 0, 0
+  index: -1
+smoke_01
+  rotate: true
+  xy: 477, 24
+  size: 97, 210
+  orig: 99, 212
+  offset: 1, 1
+  index: -1
+smoke_02
+  rotate: true
+  xy: 907, 22
+  size: 93, 216
+  orig: 95, 218
+  offset: 1, 1
+  index: -1
+smoke_03
+  rotate: false
+  xy: 1682, 324
+  size: 92, 220
+  orig: 94, 221
+  offset: 1, 1
+  index: -1
+smoke_04
+  rotate: true
+  xy: 1396, 113
+  size: 105, 221
+  orig: 107, 223
+  offset: 1, 1
+  index: -1
+smoke_05
+  rotate: false
+  xy: 1124, 407
+  size: 108, 225
+  orig: 110, 227
+  offset: 1, 1
+  index: -1
+smoke_06
+  rotate: false
+  xy: 1689, 654
+  size: 109, 214
+  orig: 111, 216
+  offset: 1, 1
+  index: -1
+smoke_07
+  rotate: false
+  xy: 1011, 407
+  size: 112, 225
+  orig: 114, 227
+  offset: 1, 1
+  index: -1
+smoke_08
+  rotate: false
+  xy: 1646, 109
+  size: 108, 214
+  orig: 110, 216
+  offset: 1, 1
+  index: -1
+smoke_09
+  rotate: true
+  xy: 1382, 6
+  size: 106, 219
+  orig: 108, 221
+  offset: 1, 1
+  index: -1
+smoke_10
+  rotate: true
+  xy: 688, 13
+  size: 105, 218
+  orig: 107, 219
+  offset: 1, 1
+  index: -1
+smoke_11
+  rotate: true
+  xy: 700, 331
+  size: 111, 237
+  orig: 113, 239
+  offset: 1, 1
+  index: -1
+smoke_12
+  rotate: true
+  xy: 239, 11
+  size: 110, 237
+  orig: 112, 239
+  offset: 1, 1
+  index: -1
+smoke_13
+  rotate: true
+  xy: 1, 7
+  size: 114, 237
+  orig: 116, 239
+  offset: 1, 1
+  index: -1
+smoke_14
+  rotate: false
+  xy: 1011, 633
+  size: 114, 235
+  orig: 116, 237
+  offset: 1, 1
+  index: -1
+smoke_15
+  rotate: false
+  xy: 1346, 640
+  size: 110, 228
+  orig: 112, 230
+  offset: 1, 1
+  index: -1
+smoke_16
+  rotate: true
+  xy: 700, 225
+  size: 105, 232
+  orig: 107, 234
+  offset: 1, 1
+  index: -1
+smoke_17
+  rotate: true
+  xy: 693, 119
+  size: 105, 231
+  orig: 107, 233
+  offset: 1, 1
+  index: -1
+smoke_18
+  rotate: true
+  xy: 1457, 545
+  size: 106, 230
+  orig: 108, 232
+  offset: 1, 1
+  index: -1
+smoke_19
+  rotate: true
+  xy: 1457, 761
+  size: 107, 231
+  orig: 110, 233
+  offset: 1, 1
+  index: -1
+smoke_20
+  rotate: true
+  xy: 1168, 190
+  size: 107, 227
+  orig: 110, 229
+  offset: 1, 1
+  index: -1
+smoke_21
+  rotate: true
+  xy: 1154, 82
+  size: 107, 227
+  orig: 110, 229
+  offset: 1, 1
+  index: -1
+smoke_22
+  rotate: false
+  xy: 1126, 638
+  size: 109, 230
+  orig: 111, 232
+  offset: 1, 1
+  index: -1
+smoke_23
+  rotate: false
+  xy: 1236, 638
+  size: 109, 230
+  orig: 111, 232
+  offset: 1, 1
+  index: -1
+smoke_24
+  rotate: true
+  xy: 1457, 652
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_25
+  rotate: false
+  xy: 1233, 407
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_26
+  rotate: false
+  xy: 1342, 407
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_27
+  rotate: false
+  xy: 1342, 407
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_28
+  rotate: true
+  xy: 1451, 436
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_29
+  rotate: true
+  xy: 1188, 298
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_30
+  rotate: true
+  xy: 938, 224
+  size: 107, 229
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_31
+  rotate: true
+  xy: 1451, 327
+  size: 108, 230
+  orig: 110, 232
+  offset: 1, 1
+  index: -1
+smoke_32
+  rotate: true
+  xy: 925, 116
+  size: 107, 228
+  orig: 109, 230
+  offset: 1, 1
+  index: -1
+smoke_33
+  rotate: true
+  xy: 1419, 219
+  size: 107, 226
+  orig: 109, 228
+  offset: 1, 1
+  index: -1
+smoke_34
+  rotate: true
+  xy: 1602, 1
+  size: 107, 199
+  orig: 109, 201
+  offset: 1, 1
+  index: -1
+smoke_35
+  rotate: true
+  xy: 506, 142
+  size: 106, 186
+  orig: 108, 188
+  offset: 1, 1
+  index: -1
+speed
+  rotate: true
+  xy: 938, 332
+  size: 74, 249
+  orig: 76, 249
+  offset: 1, 0
+  index: -1
+
+bonus_stove_2.png
+size: 2004,852
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 1, 311
+  size: 360, 537
+  orig: 360, 537
+  offset: 0, 0
+  index: -1
+fire_48
+  rotate: false
+  xy: 1, 89
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_49
+  rotate: false
+  xy: 362, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_50
+  rotate: false
+  xy: 362, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_51
+  rotate: false
+  xy: 544, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_52
+  rotate: false
+  xy: 544, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_53
+  rotate: false
+  xy: 726, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_54
+  rotate: false
+  xy: 726, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_55
+  rotate: false
+  xy: 908, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_56
+  rotate: false
+  xy: 908, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_57
+  rotate: false
+  xy: 1090, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_58
+  rotate: false
+  xy: 1090, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_59
+  rotate: false
+  xy: 1272, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_60
+  rotate: false
+  xy: 1272, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_61
+  rotate: false
+  xy: 1454, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_62
+  rotate: false
+  xy: 1454, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_63
+  rotate: false
+  xy: 1636, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_64
+  rotate: false
+  xy: 1636, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_65
+  rotate: false
+  xy: 1818, 627
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_66
+  rotate: false
+  xy: 1818, 405
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_67
+  rotate: false
+  xy: 183, 89
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_68
+  rotate: false
+  xy: 365, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_69
+  rotate: false
+  xy: 547, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_70
+  rotate: false
+  xy: 729, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_71
+  rotate: false
+  xy: 911, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_72
+  rotate: false
+  xy: 1093, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_73
+  rotate: false
+  xy: 1275, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_74
+  rotate: false
+  xy: 1457, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_75
+  rotate: false
+  xy: 1639, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_76
+  rotate: false
+  xy: 1821, 183
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_77
+  rotate: true
+  xy: 365, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_78
+  rotate: true
+  xy: 587, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_79
+  rotate: true
+  xy: 809, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_80
+  rotate: true
+  xy: 1031, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_81
+  rotate: true
+  xy: 1253, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_82
+  rotate: true
+  xy: 1475, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+fire_83
+  rotate: true
+  xy: 1697, 1
+  size: 181, 221
+  orig: 181, 221
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1, 44
+  size: 44, 44
+  orig: 46, 46
+  offset: 1, 1
+  index: -1

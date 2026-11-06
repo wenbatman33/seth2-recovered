@@ -1,0 +1,41 @@
+
+bonus_mutiple_light.png
+size: 1556,628
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_circle_in
+  rotate: false
+  xy: 1134, 72
+  size: 285, 285
+  orig: 285, 285
+  offset: 0, 0
+  index: -1
+fx_circle_key
+  rotate: false
+  xy: 632, 10
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+fx_circle_out
+  rotate: false
+  xy: 632, 126
+  size: 501, 501
+  orig: 501, 501
+  offset: 0, 0
+  index: -1
+fx_diverge
+  rotate: true
+  xy: 1, 1
+  size: 626, 630
+  orig: 640, 640
+  offset: 14, 6
+  index: -1
+fx_spotlight
+  rotate: false
+  xy: 1134, 358
+  size: 421, 269
+  orig: 435, 288
+  offset: 5, 0
+  index: -1

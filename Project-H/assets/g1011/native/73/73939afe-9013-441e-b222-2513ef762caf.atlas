@@ -1,0 +1,160 @@
+
+A_character.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L-manbody
+  rotate: true
+  xy: 645, 1464
+  size: 306, 440
+  orig: 306, 440
+  offset: 0, 0
+  index: -1
+L-manhand-1
+  rotate: false
+  xy: 1886, 1529
+  size: 97, 214
+  orig: 97, 214
+  offset: 0, 0
+  index: -1
+L-manhand-2
+  rotate: false
+  xy: 942, 1352
+  size: 126, 110
+  orig: 126, 110
+  offset: 0, 0
+  index: -1
+L-winhead
+  rotate: false
+  xy: 1826, 1745
+  size: 218, 297
+  orig: 218, 297
+  offset: 0, 0
+  index: -1
+L_-head
+  rotate: true
+  xy: 1400, 1514
+  size: 218, 285
+  orig: 218, 285
+  offset: 0, 0
+  index: -1
+R-head
+  rotate: false
+  xy: 1687, 1503
+  size: 197, 229
+  orig: 197, 229
+  offset: 0, 0
+  index: -1
+R-manbody
+  rotate: false
+  xy: 2, 174
+  size: 225, 540
+  orig: 225, 540
+  offset: 0, 0
+  index: -1
+R-manhand-1
+  rotate: false
+  xy: 2, 2
+  size: 201, 170
+  orig: 201, 170
+  offset: 0, 0
+  index: -1
+R-manhand-2
+  rotate: true
+  xy: 1070, 1357
+  size: 103, 116
+  orig: 103, 116
+  offset: 0, 0
+  index: -1
+R-manhand-3
+  rotate: false
+  xy: 1188, 1354
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+R-winhead
+  rotate: true
+  xy: 645, 1265
+  size: 197, 229
+  orig: 197, 229
+  offset: 0, 0
+  index: -1
+loveheart
+  rotate: false
+  xy: 533, 372
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+sweat
+  rotate: false
+  xy: 1400, 1740
+  size: 14, 30
+  orig: 14, 30
+  offset: 0, 0
+  index: -1
+table
+  rotate: false
+  xy: 645, 1772
+  size: 866, 270
+  orig: 866, 270
+  offset: 0, 0
+  index: -1
+winword-tease
+  rotate: false
+  xy: 229, 366
+  size: 302, 348
+  orig: 302, 348
+  offset: 0, 0
+  index: -1
+winword_01
+  rotate: false
+  xy: 1087, 1462
+  size: 311, 308
+  orig: 311, 308
+  offset: 0, 0
+  index: -1
+winword_02
+  rotate: false
+  xy: 1513, 1734
+  size: 311, 308
+  orig: 311, 308
+  offset: 0, 0
+  index: -1
+winword_03
+  rotate: false
+  xy: 229, 56
+  size: 311, 308
+  orig: 311, 308
+  offset: 0, 0
+  index: -1
+woman-body
+  rotate: false
+  xy: 2, 1380
+  size: 641, 662
+  orig: 641, 662
+  offset: 0, 0
+  index: -1
+woman-hand-1
+  rotate: false
+  xy: 533, 454
+  size: 84, 260
+  orig: 84, 260
+  offset: 0, 0
+  index: -1
+woman-hand-2
+  rotate: false
+  xy: 876, 1271
+  size: 64, 191
+  orig: 64, 191
+  offset: 0, 0
+  index: -1
+womanwin-face
+  rotate: false
+  xy: 2, 716
+  size: 614, 662
+  orig: 614, 662
+  offset: 0, 0
+  index: -1

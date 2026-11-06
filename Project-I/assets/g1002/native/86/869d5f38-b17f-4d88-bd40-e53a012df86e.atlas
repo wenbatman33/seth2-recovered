@@ -1,0 +1,103 @@
+
+symbol_09.png
+size: 912,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_A
+  rotate: false
+  xy: 714, 115
+  size: 143, 72
+  orig: 143, 72
+  offset: 0, 0
+  index: -1
+cloud_B
+  rotate: true
+  xy: 861, 63
+  size: 124, 50
+  orig: 124, 50
+  offset: 0, 0
+  index: -1
+frame_A
+  rotate: false
+  xy: 607, 17
+  size: 126, 54
+  orig: 128, 56
+  offset: 1, 1
+  index: -1
+frame_B
+  rotate: false
+  xy: 734, 3
+  size: 126, 78
+  orig: 126, 78
+  offset: 0, 0
+  index: -1
+gate
+  rotate: true
+  xy: 370, 19
+  size: 168, 165
+  orig: 168, 165
+  offset: 0, 0
+  index: -1
+gate_glow
+  rotate: true
+  xy: 189, 1
+  size: 186, 180
+  orig: 186, 180
+  offset: 0, 0
+  index: -1
+gate_roof
+  rotate: false
+  xy: 714, 82
+  size: 146, 32
+  orig: 146, 32
+  offset: 0, 0
+  index: -1
+light_B
+  rotate: true
+  xy: 1, 1
+  size: 186, 187
+  orig: 186, 187
+  offset: 0, 0
+  index: -1
+scatter_gold
+  rotate: true
+  xy: 536, 5
+  size: 182, 70
+  orig: 182, 70
+  offset: 0, 0
+  index: -1
+sky
+  rotate: true
+  xy: 607, 72
+  size: 115, 106
+  orig: 115, 106
+  offset: 0, 0
+  index: -1
+
+symbol_09-e106ffef-3c1f-4338-bde2-8762d2835e8c.jpg
+size: 280,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: true
+  xy: 1, 1
+  size: 120, 127
+  orig: 120, 127
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 129, 18
+  size: 103, 103
+  orig: 105, 105
+  offset: 1, 1
+  index: -1
+sparkle
+  rotate: false
+  xy: 233, 74
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1

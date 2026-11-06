@@ -1,0 +1,76 @@
+
+A_symbol_02.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 1209, 84
+  size: 170, 194
+  orig: 170, 194
+  offset: 0, 0
+  index: -1
+R-head
+  rotate: true
+  xy: 544, 57
+  size: 197, 229
+  orig: 197, 229
+  offset: 0, 0
+  index: -1
+R-manbody
+  rotate: true
+  xy: 2, 29
+  size: 225, 540
+  orig: 225, 540
+  offset: 0, 0
+  index: -1
+R-manhand-1
+  rotate: false
+  xy: 1006, 84
+  size: 201, 170
+  orig: 201, 170
+  offset: 0, 0
+  index: -1
+R-manhand-2
+  rotate: false
+  xy: 1601, 138
+  size: 103, 116
+  orig: 103, 116
+  offset: 0, 0
+  index: -1
+R-manhand-3
+  rotate: false
+  xy: 1706, 148
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+R-winhead
+  rotate: true
+  xy: 775, 57
+  size: 197, 229
+  orig: 197, 229
+  offset: 0, 0
+  index: -1
+loveheart
+  rotate: false
+  xy: 1006, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+sweat
+  rotate: false
+  xy: 1601, 106
+  size: 14, 30
+  orig: 14, 30
+  offset: 0, 0
+  index: -1
+symbol_02
+  rotate: true
+  xy: 1405, 90
+  size: 164, 194
+  orig: 164, 194
+  offset: 0, 0
+  index: -1

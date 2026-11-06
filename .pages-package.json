@@ -12,6 +12,36 @@
       "bundle": "g1007",
       "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
       "settingsSha256": "3d8d8f7fccea528eec4ca19ea33813c3941925f1ebdbd1329fd49a6b747aa287"
+    },
+    {
+      "project": "Project-C",
+      "bundle": "g1009",
+      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
+      "settingsSha256": "dea8272a42e1a4e4847472e3521a2af6cfb94b39a7c7be51bc879a3878cfd9b7"
+    },
+    {
+      "project": "Project-D",
+      "bundle": "g1001",
+      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
+      "settingsSha256": "1270b723c68b34d9566717de2f394d2df2a0e18ae5432d68b6b37866be665177"
+    },
+    {
+      "project": "Project-G",
+      "bundle": "g1008",
+      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
+      "settingsSha256": "5b159afe8b2f55317e018dce65b71f1e63fb58d4ab8d6db3bdd3315e0e5403bd"
+    },
+    {
+      "project": "Project-H",
+      "bundle": "g1011",
+      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
+      "settingsSha256": "60bf0381619d6d3f6e3982ca92f61381882c899fc6ac1df4b254625448ae85ca"
+    },
+    {
+      "project": "Project-I",
+      "bundle": "g1002",
+      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
+      "settingsSha256": "cc1ae262dd32ee786d72409b4573c20aa3d3ac385521160d961e079c763b566d"
     }
   ]
 }

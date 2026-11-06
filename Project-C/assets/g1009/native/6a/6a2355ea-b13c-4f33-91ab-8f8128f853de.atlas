@@ -1,0 +1,321 @@
+
+popup.png
+size: 800,800
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bar_barrel_r_01
+  rotate: true
+  xy: 464, 278
+  size: 132, 145
+  orig: 132, 145
+  offset: 0, 0
+  index: -1
+bar_barrel_r_02
+  rotate: false
+  xy: 614, 466
+  size: 131, 153
+  orig: 131, 153
+  offset: 0, 0
+  index: -1
+bar_bg_2
+  rotate: false
+  xy: 341, 596
+  size: 227, 203
+  orig: 227, 203
+  offset: 0, 0
+  index: -1
+bar_top
+  rotate: false
+  xy: 1, 639
+  size: 339, 160
+  orig: 339, 160
+  offset: 0, 0
+  index: -1
+idol_body
+  rotate: true
+  xy: 331, 418
+  size: 177, 179
+  orig: 177, 179
+  offset: 0, 0
+  index: -1
+idol_ear_l_
+  rotate: false
+  xy: 518, 26
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+idol_ear_r_1
+  rotate: false
+  xy: 629, 92
+  size: 80, 59
+  orig: 81, 59
+  offset: 0, 0
+  index: -1
+idol_ear_r_2
+  rotate: false
+  xy: 650, 28
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+idol_ear_r_3
+  rotate: true
+  xy: 222, 1
+  size: 77, 90
+  orig: 77, 90
+  offset: 0, 0
+  index: -1
+idol_face_1
+  rotate: false
+  xy: 1, 11
+  size: 140, 164
+  orig: 144, 164
+  offset: 4, 0
+  index: -1
+idol_face_2
+  rotate: false
+  xy: 746, 466
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+idol_face_3
+  rotate: false
+  xy: 307, 97
+  size: 48, 20
+  orig: 48, 21
+  offset: 0, 1
+  index: -1
+idol_face_4
+  rotate: true
+  xy: 746, 551
+  size: 68, 53
+  orig: 68, 53
+  offset: 0, 0
+  index: -1
+idol_face_eye_l
+  rotate: false
+  xy: 569, 608
+  size: 33, 11
+  orig: 33, 11
+  offset: 0, 0
+  index: -1
+idol_face_eye_r
+  rotate: true
+  xy: 760, 631
+  size: 47, 13
+  orig: 47, 13
+  offset: 0, 0
+  index: -1
+idol_hair_01
+  rotate: true
+  xy: 710, 90
+  size: 61, 58
+  orig: 61, 58
+  offset: 0, 0
+  index: -1
+idol_hair_02
+  rotate: false
+  xy: 511, 411
+  size: 102, 184
+  orig: 102, 184
+  offset: 0, 0
+  index: -1
+idol_hair_03
+  rotate: true
+  xy: 614, 397
+  size: 68, 142
+  orig: 68, 142
+  offset: 0, 0
+  index: -1
+idol_hair_04
+  rotate: false
+  xy: 309, 290
+  size: 154, 127
+  orig: 154, 127
+  offset: 0, 0
+  index: -1
+idol_hair_05
+  rotate: true
+  xy: 637, 152
+  size: 40, 131
+  orig: 40, 131
+  offset: 0, 0
+  index: -1
+idol_hair_06
+  rotate: true
+  xy: 460, 180
+  size: 97, 176
+  orig: 97, 176
+  offset: 0, 0
+  index: -1
+idol_hair_07
+  rotate: true
+  xy: 637, 193
+  size: 89, 161
+  orig: 89, 161
+  offset: 0, 0
+  index: -1
+idol_hair_08
+  rotate: true
+  xy: 313, 1
+  size: 95, 66
+  orig: 95, 66
+  offset: 0, 0
+  index: -1
+idol_hair_09
+  rotate: false
+  xy: 760, 679
+  size: 36, 120
+  orig: 36, 120
+  offset: 0, 0
+  index: -1
+idol_hair_bk
+  rotate: false
+  xy: 457, 97
+  size: 125, 82
+  orig: 125, 82
+  offset: 0, 0
+  index: -1
+idol_hair_sd_02
+  rotate: false
+  xy: 583, 128
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+idol_hair_sd_03
+  rotate: true
+  xy: 142, 11
+  size: 164, 79
+  orig: 167, 83
+  offset: 0, 0
+  index: -1
+idol_hair_sd_04
+  rotate: false
+  xy: 209, 229
+  size: 99, 181
+  orig: 99, 195
+  offset: 0, 14
+  index: -1
+idol_hand_1_a
+  rotate: true
+  xy: 222, 458
+  size: 180, 108
+  orig: 180, 108
+  offset: 0, 0
+  index: -1
+idol_hand_1_b
+  rotate: false
+  xy: 708, 34
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+idol_hand_1_c
+  rotate: true
+  xy: 746, 494
+  size: 56, 50
+  orig: 56, 63
+  offset: 0, 13
+  index: -1
+idol_hand_2
+  rotate: false
+  xy: 569, 620
+  size: 190, 179
+  orig: 190, 179
+  offset: 0, 0
+  index: -1
+idol_meat_01
+  rotate: true
+  xy: 380, 28
+  size: 89, 57
+  orig: 89, 57
+  offset: 0, 0
+  index: -1
+idol_meat_02
+  rotate: false
+  xy: 610, 283
+  size: 136, 113
+  orig: 136, 113
+  offset: 0, 0
+  index: -1
+idol_neck
+  rotate: false
+  xy: 438, 33
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+idol_tie_01
+  rotate: false
+  xy: 747, 351
+  size: 52, 45
+  orig: 60, 47
+  offset: 0, 0
+  index: -1
+idol_tie_02
+  rotate: true
+  xy: 454, 1
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+idol_tie_03
+  rotate: true
+  xy: 222, 415
+  size: 42, 67
+  orig: 42, 67
+  offset: 0, 0
+  index: -1
+idol_tie_04
+  rotate: true
+  xy: 380, 1
+  size: 26, 73
+  orig: 26, 73
+  offset: 0, 0
+  index: -1
+light_01
+  rotate: false
+  xy: 1, 411
+  size: 220, 227
+  orig: 220, 227
+  offset: 0, 0
+  index: -1
+light_02
+  rotate: true
+  xy: 1, 176
+  size: 234, 207
+  orig: 234, 207
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 586, 28
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+smoke_a
+  rotate: true
+  xy: 307, 118
+  size: 79, 149
+  orig: 79, 149
+  offset: 0, 0
+  index: -1
+smoke_b
+  rotate: false
+  xy: 222, 79
+  size: 84, 149
+  orig: 84, 149
+  offset: 0, 0
+  index: -1
+smoke_c
+  rotate: true
+  xy: 309, 198
+  size: 91, 150
+  orig: 91, 150
+  offset: 0, 0
+  index: -1

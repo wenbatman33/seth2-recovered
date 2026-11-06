@@ -14,7 +14,7 @@
     article p{color:#b0b8c4;font-size:14px;line-height:1.6;margin:0 0 28px}a{color:inherit;text-decoration:none}
     .play{display:block;text-align:center;background:#ecdba8;color:#17191e;padding:14px;border-radius:8px;font-weight:650}
     .layouts{display:flex;justify-content:center;gap:28px;margin-top:20px;font-size:14px;color:#c7ced7}.layouts a:hover{text-decoration:underline}
-    a:focus-visible{outline:3px solid #e7be65;outline-offset:5px}footer{margin-top:32px;color:#8993a2;font-size:13px;line-height:1.8}
+    .status{display:inline-block;margin:0 0 12px;padding:4px 10px;border:1px solid #6b6045;border-radius:20px;color:#e8cf8e;font-size:12px}.pending{background:#303540;color:#bac0ca;cursor:wait}.status-text{min-height:44px}a:focus-visible{outline:3px solid #e7be65;outline-offset:5px}footer{margin-top:32px;color:#8993a2;font-size:13px;line-height:1.8}
     @media(max-width:580px){body{padding:36px 20px}.games{grid-template-columns:1fr}article{padding:24px}h2{margin-top:16px}}
   </style>
 </head>
@@ -22,7 +22,7 @@
   <main>
     <div class="eyebrow">BROWSER GAMES</div>
     <h1>選擇遊戲</h1>
-    <p class="intro">使用電腦或手機開啟，選擇一款開始體驗。</p>
+    <p class="intro">共 9 款遊戲。新增項目會標示目前驗證狀態，可使用電腦或手機開啟。</p>
     <div class="games">
       <article aria-labelledby="project-a">
         <span class="number">01</span>
@@ -37,6 +37,55 @@
         <p>保留橫向盤面，手機亦可直接開啟遊玩。</p>
         <a class="play" href="./Project-B/" aria-label="開始 Project-B">開始遊戲</a>
         <div class="layouts"><a href="./Project-B/?layout=desktop" aria-label="Project-B 電腦版">電腦版</a><a href="./Project-B/?layout=mobile" aria-label="Project-B 手機開啟">手機開啟</a></div>
+      </article>
+      <article aria-labelledby="project-c">
+        <span class="status">測試預覽・驗證中</span><br><span class="number">03</span>
+        <h2 id="project-c">Project-C</h2>
+        <p>保留原橫向盤面，手機以原比例縮放顯示。</p>
+        <a class="play" href="./Project-C/" aria-label="開始 Project-C">開啟測試預覽</a>
+        <div class="layouts"><a href="./Project-C/?layout=desktop" aria-label="Project-C 電腦版">電腦版</a><a href="./Project-C/?layout=mobile" aria-label="Project-C 手機開啟">手機開啟</a></div>
+      </article>
+      <article aria-labelledby="project-d">
+        <span class="status">測試預覽・驗證中</span><br><span class="number">04</span>
+        <h2 id="project-d">Project-D</h2>
+        <p>依照螢幕尺寸，選擇原生橫版或直版。</p>
+        <a class="play" href="./Project-D/" aria-label="開始 Project-D">開啟測試預覽</a>
+        <div class="layouts"><a href="./Project-D/?layout=desktop" aria-label="Project-D 電腦版">電腦版</a><a href="./Project-D/?layout=mobile" aria-label="Project-D 手機開啟">手機開啟</a></div>
+      </article>
+      <article aria-labelledby="project-e">
+        <span class="status">特殊動畫更新中</span><br><span class="number">05</span>
+        <h2 id="project-e">Project-E</h2>
+        <p>保留原直向盤面，支援電腦與手機操作。</p>
+        <span class="play pending" aria-disabled="true">建置更新中</span>
+
+      </article>
+      <article aria-labelledby="project-f">
+        <span class="status">倍數資料更新中</span><br><span class="number">06</span>
+        <h2 id="project-f">Project-F</h2>
+        <p>保留原直向盤面，支援電腦與手機操作。</p>
+        <span class="play pending" aria-disabled="true">建置更新中</span>
+
+      </article>
+      <article aria-labelledby="project-g">
+        <span class="status">測試預覽・驗證中</span><br><span class="number">07</span>
+        <h2 id="project-g">Project-G</h2>
+        <p>保留原橫向盤面，手機以原比例縮放顯示。</p>
+        <a class="play" href="./Project-G/" aria-label="開始 Project-G">開啟測試預覽</a>
+        <div class="layouts"><a href="./Project-G/?layout=desktop" aria-label="Project-G 電腦版">電腦版</a><a href="./Project-G/?layout=mobile" aria-label="Project-G 手機開啟">手機開啟</a></div>
+      </article>
+      <article aria-labelledby="project-h">
+        <span class="status">測試預覽・驗證中</span><br><span class="number">08</span>
+        <h2 id="project-h">Project-H</h2>
+        <p>保留原直向盤面，支援電腦與手機操作。</p>
+        <a class="play" href="./Project-H/" aria-label="開始 Project-H">開啟測試預覽</a>
+        <div class="layouts"><a href="./Project-H/?layout=desktop" aria-label="Project-H 電腦開啟">電腦開啟</a><a href="./Project-H/?layout=mobile" aria-label="Project-H 手機開啟">手機開啟</a></div>
+      </article>
+      <article aria-labelledby="project-i">
+        <span class="status">測試預覽・驗證中</span><br><span class="number">09</span>
+        <h2 id="project-i">Project-I</h2>
+        <p>保留原直向盤面，支援電腦與手機操作。</p>
+        <a class="play" href="./Project-I/" aria-label="開始 Project-I">開啟測試預覽</a>
+        <div class="layouts"><a href="./Project-I/?layout=desktop" aria-label="Project-I 電腦開啟">電腦開啟</a><a href="./Project-I/?layout=mobile" aria-label="Project-I 手機開啟">手機開啟</a></div>
       </article>
     </div>
     <footer>模擬遊戲，僅供展示。進度與模擬點數儲存在目前的瀏覽器。</footer>

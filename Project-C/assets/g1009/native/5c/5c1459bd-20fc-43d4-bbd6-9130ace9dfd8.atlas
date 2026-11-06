@@ -1,0 +1,56 @@
+
+w_win.png
+size: 236,236
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_txt_a
+  rotate: false
+  xy: 1, 1
+  size: 130, 116
+  orig: 135, 116
+  offset: 5, 0
+  index: -1
+win_txt_b
+  rotate: false
+  xy: 1, 118
+  size: 175, 116
+  orig: 175, 116
+  offset: 0, 0
+  index: -1
+win_txt_c
+  rotate: false
+  xy: 177, 118
+  size: 51, 116
+  orig: 51, 116
+  offset: 0, 0
+  index: -1
+
+
+w_win-edcc43d7-b70a-4a24-afbf-dbac9a95764e.jpg
+size: 400,400
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 1, 62
+  size: 312, 335
+  orig: 313, 335
+  offset: 1, 0
+  index: -1
+light_b
+  rotate: false
+  xy: 314, 313
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+light_y
+  rotate: false
+  xy: 1, 6
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+

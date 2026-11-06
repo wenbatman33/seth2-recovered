@@ -1,0 +1,132 @@
+
+T_board.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FREE GAME
+  rotate: false
+  xy: 794, 1561
+  size: 834, 228
+  orig: 834, 228
+  offset: 0, 0
+  index: -1
+FREE GAME_shadow
+  rotate: false
+  xy: 794, 1791
+  size: 838, 226
+  orig: 838, 226
+  offset: 0, 0
+  index: -1
+board-1
+  rotate: false
+  xy: 2, 746
+  size: 739, 559
+  orig: 739, 559
+  offset: 0, 0
+  index: -1
+board-2
+  rotate: false
+  xy: 2, 1307
+  size: 790, 710
+  orig: 790, 710
+  offset: 0, 0
+  index: -1
+light_01
+  rotate: false
+  xy: 2, 2
+  size: 90, 98
+  orig: 90, 98
+  offset: 0, 0
+  index: -1
+lotuslight_008
+  rotate: false
+  xy: 2, 424
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_009
+  rotate: false
+  xy: 2, 102
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_010
+  rotate: true
+  xy: 404, 344
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_011
+  rotate: false
+  xy: 794, 1239
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_012
+  rotate: false
+  xy: 1196, 1239
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_013
+  rotate: false
+  xy: 743, 917
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_014
+  rotate: false
+  xy: 1145, 917
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_015
+  rotate: false
+  xy: 1634, 1697
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_016
+  rotate: false
+  xy: 743, 595
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_017
+  rotate: false
+  xy: 1145, 595
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_018
+  rotate: false
+  xy: 726, 273
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_019
+  rotate: false
+  xy: 1128, 273
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+lotuslight_020
+  rotate: false
+  xy: 1630, 1375
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1

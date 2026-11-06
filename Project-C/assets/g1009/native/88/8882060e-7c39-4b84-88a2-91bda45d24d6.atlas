@@ -1,0 +1,55 @@
+
+symbol_06.png
+size: 140,176
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s6_a
+  rotate: false
+  xy: 57, 36
+  size: 33, 55
+  orig: 33, 55
+  offset: 0, 0
+  index: -1
+s6_b
+  rotate: false
+  xy: 82, 111
+  size: 47, 64
+  orig: 51, 65
+  offset: 4, 1
+  index: -1
+s6_c
+  rotate: true
+  xy: 57, 7
+  size: 28, 55
+  orig: 29, 55
+  offset: 0, 0
+  index: -1
+s6_d
+  rotate: true
+  xy: 1, 1
+  size: 30, 55
+  orig: 33, 56
+  offset: 1, 1
+  index: -1
+s6_light
+  rotate: false
+  xy: 1, 32
+  size: 55, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+s6_sd
+  rotate: false
+  xy: 91, 60
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+s6_sd_2
+  rotate: false
+  xy: 1, 92
+  size: 80, 83
+  orig: 80, 83
+  offset: 0, 0
+  index: -1

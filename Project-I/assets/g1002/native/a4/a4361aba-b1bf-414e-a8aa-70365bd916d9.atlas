@@ -1,0 +1,320 @@
+
+symbol_01.png
+size: 1608,488
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 1261, 2
+  size: 178, 160
+  orig: 180, 162
+  offset: 1, 1
+  index: -1
+base_lightsweep_00
+  rotate: false
+  xy: 1, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_01
+  rotate: false
+  xy: 1, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_02
+  rotate: false
+  xy: 181, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_03
+  rotate: false
+  xy: 1, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_04
+  rotate: false
+  xy: 181, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_05
+  rotate: false
+  xy: 361, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_06
+  rotate: false
+  xy: 181, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_07
+  rotate: false
+  xy: 361, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_08
+  rotate: false
+  xy: 541, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_09
+  rotate: false
+  xy: 361, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_10
+  rotate: false
+  xy: 541, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_11
+  rotate: false
+  xy: 721, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_12
+  rotate: false
+  xy: 541, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_13
+  rotate: false
+  xy: 721, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_14
+  rotate: false
+  xy: 901, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_15
+  rotate: false
+  xy: 721, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_16
+  rotate: false
+  xy: 901, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_17
+  rotate: false
+  xy: 1081, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_18
+  rotate: false
+  xy: 901, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_19
+  rotate: false
+  xy: 1081, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_20
+  rotate: false
+  xy: 1261, 325
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_21
+  rotate: false
+  xy: 1081, 1
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_22
+  rotate: false
+  xy: 1261, 163
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+base_lightsweep_23
+  rotate: true
+  xy: 1441, 307
+  size: 179, 161
+  orig: 181, 163
+  offset: 1, 1
+  index: -1
+light
+  rotate: false
+  xy: 1441, 178
+  size: 158, 128
+  orig: 160, 130
+  offset: 1, 1
+  index: -1
+wild_shadow
+  rotate: false
+  xy: 1441, 99
+  size: 161, 78
+  orig: 163, 80
+  offset: 1, 1
+  index: -1
+wild_top
+  rotate: false
+  xy: 1440, 15
+  size: 165, 83
+  orig: 167, 85
+  offset: 1, 1
+  index: -1
+
+symbol_01-c2aa5773-394d-40c4-8ba0-effe446cc06d.jpg
+size: 184,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light_A
+  rotate: false
+  xy: 1, 409
+  size: 133, 133
+  orig: 135, 135
+  offset: 1, 1
+  index: -1
+wild_lightsweep_03
+  rotate: false
+  xy: 135, 425
+  size: 35, 57
+  orig: 37, 59
+  offset: 1, 1
+  index: -1
+wild_lightsweep_04
+  rotate: false
+  xy: 135, 483
+  size: 48, 59
+  orig: 50, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_05
+  rotate: true
+  xy: 61, 1
+  size: 68, 59
+  orig: 70, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_06
+  rotate: true
+  xy: 61, 70
+  size: 84, 59
+  orig: 86, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_07
+  rotate: true
+  xy: 1, 166
+  size: 100, 59
+  orig: 102, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_08
+  rotate: true
+  xy: 61, 155
+  size: 119, 59
+  orig: 121, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_09
+  rotate: true
+  xy: 61, 275
+  size: 133, 59
+  orig: 135, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_10
+  rotate: true
+  xy: 1, 267
+  size: 141, 59
+  orig: 143, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_11
+  rotate: true
+  xy: 121, 241
+  size: 130, 59
+  orig: 132, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_12
+  rotate: true
+  xy: 121, 126
+  size: 114, 59
+  orig: 116, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_13
+  rotate: true
+  xy: 1, 69
+  size: 96, 59
+  orig: 98, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_14
+  rotate: true
+  xy: 121, 49
+  size: 76, 59
+  orig: 78, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_15
+  rotate: true
+  xy: 1, 10
+  size: 58, 59
+  orig: 60, 61
+  offset: 1, 1
+  index: -1
+wild_lightsweep_16
+  rotate: false
+  xy: 135, 372
+  size: 38, 52
+  orig: 40, 54
+  offset: 1, 1
+  index: -1
+wild_lightsweep_17
+  rotate: false
+  xy: 121, 9
+  size: 28, 39
+  orig: 30, 41
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,20 @@
+
+jp_minor_bg.png
+size: 1001, 868
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+jp_light01
+  rotate: true
+  xy: 2, 2
+  size: 864, 531
+  orig: 938, 544
+  offset: 57, 10
+  index: -1
+jp_light02
+  rotate: true
+  xy: 535, 88
+  size: 778, 464
+  orig: 822, 512
+  offset: 22, 24
+  index: -1

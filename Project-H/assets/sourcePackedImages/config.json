@@ -1,0 +1,33 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "sourcePackedImages",
+    "deps": [],
+    "uuids": [
+        "47ce9b99-cea0-47bc-bd0e-5455e460337a",
+        "47ce9b99-cea0-47bc-bd0e-5455e460337a@6c48a"
+    ],
+    "paths": {
+        "47ce9b99-cea0-47bc-bd0e-5455e460337a": [
+            "resources/199a3e420",
+            "cc.ImageAsset",
+            1
+        ],
+        "47ce9b99-cea0-47bc-bd0e-5455e460337a@6c48a": [
+            "resources/199a3e420/texture",
+            "cc.Texture2D",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

@@ -1,0 +1,41 @@
+
+symbol_transition.png
+size: 796,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light_A
+  rotate: false
+  xy: 1, 1
+  size: 269, 114
+  orig: 271, 116
+  offset: 1, 1
+  index: -1
+light_B
+  rotate: false
+  xy: 271, 35
+  size: 282, 80
+  orig: 282, 80
+  offset: 0, 0
+  index: -1
+light_C
+  rotate: false
+  xy: 554, 32
+  size: 134, 83
+  orig: 134, 83
+  offset: 0, 0
+  index: -1
+light_D
+  rotate: false
+  xy: 689, 12
+  size: 105, 103
+  orig: 105, 105
+  offset: 0, 1
+  index: -1
+sparkle
+  rotate: false
+  xy: 271, 6
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1

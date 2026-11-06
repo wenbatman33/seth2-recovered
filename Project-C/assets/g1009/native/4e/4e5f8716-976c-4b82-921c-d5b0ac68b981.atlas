@@ -1,0 +1,224 @@
+
+chest-f64c9508-747c-4fd7-b9ef-6a4f5a8b5075.png
+size: 1668,404
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cap_2
+  rotate: false
+  xy: 1, 117
+  size: 465, 286
+  orig: 466, 306
+  offset: 0, 20
+  index: -1
+cap_g_1
+  rotate: true
+  xy: 327, 1
+  size: 58, 90
+  orig: 58, 90
+  offset: 0, 0
+  index: -1
+cap_g_2
+  rotate: true
+  xy: 1510, 51
+  size: 42, 76
+  orig: 42, 77
+  offset: 0, 1
+  index: -1
+cap_lock
+  rotate: false
+  xy: 1548, 266
+  size: 117, 137
+  orig: 122, 138
+  offset: 3, 1
+  index: -1
+chest_body_a
+  rotate: false
+  xy: 467, 134
+  size: 467, 269
+  orig: 468, 269
+  offset: 0, 0
+  index: -1
+chest_body_b
+  rotate: false
+  xy: 467, 13
+  size: 313, 120
+  orig: 314, 120
+  offset: 0, 0
+  index: -1
+chest_body_f
+  rotate: false
+  xy: 935, 87
+  size: 324, 116
+  orig: 324, 117
+  offset: 0, 1
+  index: -1
+chest_cap_
+  rotate: false
+  xy: 935, 204
+  size: 325, 199
+  orig: 325, 200
+  offset: 0, 1
+  index: -1
+chest_cap_gem_l
+  rotate: true
+  xy: 1314, 14
+  size: 42, 64
+  orig: 43, 64
+  offset: 0, 0
+  index: -1
+chest_cap_gem_r
+  rotate: true
+  xy: 1240, 3
+  size: 53, 73
+  orig: 54, 73
+  offset: 0, 0
+  index: -1
+chest_cap_handle_l
+  rotate: true
+  xy: 935, 21
+  size: 65, 100
+  orig: 66, 101
+  offset: 0, 1
+  index: -1
+chest_cap_handle_r
+  rotate: true
+  xy: 327, 60
+  size: 56, 122
+  orig: 57, 122
+  offset: 0, 0
+  index: -1
+chest_cap_inside
+  rotate: false
+  xy: 1261, 241
+  size: 286, 162
+  orig: 291, 163
+  offset: 5, 1
+  index: -1
+chest_cap_lock
+  rotate: false
+  xy: 781, 6
+  size: 153, 127
+  orig: 153, 127
+  offset: 0, 0
+  index: -1
+chest_cap_shaft
+  rotate: true
+  xy: 418, 13
+  size: 46, 22
+  orig: 46, 22
+  offset: 0, 0
+  index: -1
+chest_sd_a
+  rotate: false
+  xy: 1, 7
+  size: 325, 109
+  orig: 325, 109
+  offset: 0, 0
+  index: -1
+chest_sd_b
+  rotate: false
+  xy: 1261, 184
+  size: 311, 56
+  orig: 311, 57
+  offset: 0, 1
+  index: -1
+chest_sd_c
+  rotate: true
+  xy: 1510, 94
+  size: 89, 57
+  orig: 89, 58
+  offset: 0, 1
+  index: -1
+coins_gp
+  rotate: false
+  xy: 1260, 57
+  size: 249, 126
+  orig: 250, 127
+  offset: 0, 1
+  index: -1
+coint_0
+  rotate: false
+  xy: 1036, 19
+  size: 67, 67
+  orig: 68, 68
+  offset: 0, 1
+  index: -1
+coint_1
+  rotate: false
+  xy: 1104, 19
+  size: 67, 67
+  orig: 68, 68
+  offset: 0, 1
+  index: -1
+coint_2
+  rotate: false
+  xy: 1172, 19
+  size: 67, 67
+  orig: 68, 68
+  offset: 0, 1
+  index: -1
+coint_3
+  rotate: false
+  xy: 1573, 198
+  size: 67, 67
+  orig: 68, 68
+  offset: 0, 1
+  index: -1
+coint_4
+  rotate: false
+  xy: 1573, 130
+  size: 67, 67
+  orig: 68, 68
+  offset: 0, 1
+  index: -1
+coint_5
+  rotate: false
+  xy: 1587, 62
+  size: 67, 67
+  orig: 68, 68
+  offset: 0, 1
+  index: -1
+
+
+
+chest.jpg
+size: 864,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light_a
+  rotate: false
+  xy: 674, 96
+  size: 189, 184
+  orig: 189, 185
+  offset: 0, 1
+  index: -1
+light_b
+  rotate: false
+  xy: 392, 1
+  size: 281, 279
+  orig: 281, 280
+  offset: 0, 1
+  index: -1
+light_l
+  rotate: true
+  xy: 1, 85
+  size: 195, 390
+  orig: 195, 390
+  offset: 0, 0
+  index: -1
+light_m
+  rotate: true
+  xy: 1, 18
+  size: 66, 223
+  orig: 66, 224
+  offset: 0, 1
+  index: -1
+shine
+  rotate: false
+  xy: 674, 14
+  size: 81, 81
+  orig: 82, 82
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,76 @@
+
+w_ultra_bg.png
+size: 1012,1080
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ultra_build
+  rotate: true
+  xy: 629, 1
+  size: 223, 192
+  orig: 361, 641
+  offset: 69, 334
+  index: -1
+ultra_build_light
+  rotate: false
+  xy: 405, 29
+  size: 223, 195
+  orig: 223, 219
+  offset: 0, 0
+  index: -1
+ultra_cloud_01
+  rotate: false
+  xy: 733, 236
+  size: 264, 181
+  orig: 265, 182
+  offset: 0, 0
+  index: -1
+ultra_cloud_02
+  rotate: false
+  xy: 405, 225
+  size: 327, 192
+  orig: 328, 194
+  offset: 1, 1
+  index: -1
+ultra_fx
+  rotate: false
+  xy: 1, 52
+  size: 403, 414
+  orig: 405, 416
+  offset: 1, 1
+  index: -1
+ultra_light_01
+  rotate: false
+  xy: 1, 772
+  size: 532, 304
+  orig: 532, 304
+  offset: 0, 0
+  index: -1
+ultra_light_02
+  rotate: false
+  xy: 1, 467
+  size: 532, 304
+  orig: 532, 304
+  offset: 0, 0
+  index: -1
+ultra_light_03
+  rotate: false
+  xy: 534, 716
+  size: 475, 360
+  orig: 475, 363
+  offset: 0, 1
+  index: -1
+ultra_light_04
+  rotate: false
+  xy: 534, 418
+  size: 475, 297
+  orig: 475, 300
+  offset: 0, 2
+  index: -1
+ultra_shadow
+  rotate: true
+  xy: 822, 34
+  size: 201, 159
+  orig: 203, 159
+  offset: 1, 0
+  index: -1

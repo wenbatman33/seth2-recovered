@@ -1,0 +1,34 @@
+
+F_scarf_D.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Scarf-1
+  rotate: true
+  xy: 469, 2
+  size: 118, 119
+  orig: 118, 119
+  offset: 0, 0
+  index: -1
+Scarf-2
+  rotate: false
+  xy: 2, 17
+  size: 156, 103
+  orig: 156, 103
+  offset: 0, 0
+  index: -1
+Scarf-3
+  rotate: false
+  xy: 300, 62
+  size: 167, 58
+  orig: 167, 58
+  offset: 0, 0
+  index: -1
+Scarf-4
+  rotate: false
+  xy: 160, 20
+  size: 138, 100
+  orig: 138, 100
+  offset: 0, 0
+  index: -1

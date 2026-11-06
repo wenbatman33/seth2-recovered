@@ -1,0 +1,48 @@
+
+w_super_bg.png
+size: 1072,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+super_cloud
+  rotate: false
+  xy: 1, 1
+  size: 241, 144
+  orig: 242, 145
+  offset: 0, 1
+  index: -1
+super_fx
+  rotate: true
+  xy: 1, 146
+  size: 403, 414
+  orig: 405, 416
+  offset: 1, 1
+  index: -1
+super_light_01
+  rotate: false
+  xy: 416, 278
+  size: 475, 271
+  orig: 475, 271
+  offset: 0, 0
+  index: -1
+super_light_02
+  rotate: false
+  xy: 416, 6
+  size: 475, 271
+  orig: 475, 271
+  offset: 0, 0
+  index: -1
+super_stick_01
+  rotate: true
+  xy: 892, 165
+  size: 195, 171
+  orig: 233, 203
+  offset: 38, 32
+  index: -1
+super_stick_02
+  rotate: true
+  xy: 892, 361
+  size: 188, 176
+  orig: 216, 203
+  offset: 1, 26
+  index: -1

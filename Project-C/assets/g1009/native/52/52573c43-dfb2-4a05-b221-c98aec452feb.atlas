@@ -1,0 +1,125 @@
+
+transition.png
+size: 1808,720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Interior
+  rotate: true
+  xy: 1, 79
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+door_1_a
+  rotate: true
+  xy: 610, 1
+  size: 213, 388
+  orig: 213, 388
+  offset: 0, 0
+  index: -1
+door_1_b
+  rotate: false
+  xy: 1259, 251
+  size: 26, 468
+  orig: 26, 468
+  offset: 0, 0
+  index: -1
+door_1_handle_a_1
+  rotate: true
+  xy: 410, 94
+  size: 31, 30
+  orig: 33, 35
+  offset: 0, 4
+  index: -1
+door_1_handle_a_2
+  rotate: true
+  xy: 512, 160
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+door_1_handle_b_1
+  rotate: false
+  xy: 1259, 218
+  size: 41, 32
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+door_1_handle_b_2
+  rotate: true
+  xy: 169, 9
+  size: 13, 52
+  orig: 13, 53
+  offset: 0, 1
+  index: -1
+door_2_a
+  rotate: true
+  xy: 999, 1
+  size: 213, 387
+  orig: 213, 387
+  offset: 0, 0
+  index: -1
+door_2_b
+  rotate: true
+  xy: 362, 88
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+door_2_c
+  rotate: true
+  xy: 1, 9
+  size: 13, 167
+  orig: 13, 167
+  offset: 0, 0
+  index: -1
+door_sha
+  rotate: false
+  xy: 1387, 669
+  size: 328, 50
+  orig: 328, 50
+  offset: 0, 0
+  index: -1
+inn_2
+  rotate: false
+  xy: 362, 215
+  size: 896, 504
+  orig: 896, 504
+  offset: 0, 0
+  index: -1
+inn_3
+  rotate: true
+  xy: 1387, 49
+  size: 306, 287
+  orig: 306, 287
+  offset: 0, 0
+  index: -1
+light_a
+  rotate: false
+  xy: 1597, 465
+  size: 208, 203
+  orig: 208, 203
+  offset: 0, 0
+  index: -1
+light_b
+  rotate: false
+  xy: 1286, 356
+  size: 310, 312
+  orig: 310, 312
+  offset: 0, 0
+  index: -1
+light_c
+  rotate: true
+  xy: 1, 23
+  size: 55, 608
+  orig: 55, 608
+  offset: 0, 0
+  index: -1
+light_d
+  rotate: false
+  xy: 362, 126
+  size: 149, 88
+  orig: 149, 88
+  offset: 0, 0
+  index: -1

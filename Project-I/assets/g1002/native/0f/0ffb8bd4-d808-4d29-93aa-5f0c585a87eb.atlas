@@ -1,0 +1,118 @@
+
+bonus_item_presslight.png
+size: 1336,1512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_center
+  rotate: false
+  xy: 1, 863
+  size: 652, 647
+  orig: 678, 666
+  offset: 0, 0
+  index: -1
+fx_circle_in
+  rotate: false
+  xy: 346, 253
+  size: 285, 285
+  orig: 285, 285
+  offset: 0, 0
+  index: -1
+fx_circle_key
+  rotate: false
+  xy: 1156, 409
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+fx_circle_out
+  rotate: false
+  xy: 654, 362
+  size: 501, 501
+  orig: 501, 501
+  offset: 0, 0
+  index: -1
+fx_light_1
+  rotate: true
+  xy: 1, 608
+  size: 254, 337
+  orig: 254, 337
+  offset: 0, 0
+  index: -1
+fx_light_10
+  rotate: true
+  xy: 632, 8
+  size: 353, 194
+  orig: 353, 194
+  offset: 0, 0
+  index: -1
+fx_light_2
+  rotate: false
+  xy: 827, 51
+  size: 216, 310
+  orig: 216, 310
+  offset: 0, 0
+  index: -1
+fx_light_3
+  rotate: true
+  xy: 346, 539
+  size: 323, 290
+  orig: 323, 290
+  offset: 0, 0
+  index: -1
+fx_light_4
+  rotate: true
+  xy: 1, 385
+  size: 222, 310
+  orig: 222, 310
+  offset: 0, 0
+  index: -1
+fx_light_5
+  rotate: true
+  xy: 1, 8
+  size: 353, 344
+  orig: 353, 344
+  offset: 0, 0
+  index: -1
+fx_light_6
+  rotate: true
+  xy: 1301, 831
+  size: 339, 30
+  orig: 339, 30
+  offset: 0, 0
+  index: -1
+fx_light_7
+  rotate: true
+  xy: 1156, 525
+  size: 338, 121
+  orig: 338, 121
+  offset: 0, 0
+  index: -1
+fx_light_8
+  rotate: false
+  xy: 1044, 127
+  size: 258, 234
+  orig: 258, 234
+  offset: 0, 0
+  index: -1
+fx_light_9
+  rotate: true
+  xy: 1301, 1171
+  size: 339, 32
+  orig: 339, 32
+  offset: 0, 0
+  index: -1
+fx_light_bk
+  rotate: false
+  xy: 654, 864
+  size: 646, 646
+  orig: 646, 646
+  offset: 0, 0
+  index: -1
+fx_main_light
+  rotate: false
+  xy: 346, 1
+  size: 251, 251
+  orig: 410, 413
+  offset: 126, 37
+  index: -1

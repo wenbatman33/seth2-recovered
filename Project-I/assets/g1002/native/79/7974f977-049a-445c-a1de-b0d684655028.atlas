@@ -1,0 +1,41 @@
+
+bonus_transform_amount.png
+size: 336,100
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_nolv_circle
+  rotate: false
+  xy: 94, 11
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+fx_nolv_diffuse
+  rotate: false
+  xy: 1, 5
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+fx_nolv_light
+  rotate: false
+  xy: 280, 23
+  size: 52, 74
+  orig: 52, 74
+  offset: 0, 0
+  index: -1
+fx_nolv_line
+  rotate: true
+  xy: 181, 1
+  size: 21, 100
+  orig: 21, 100
+  offset: 0, 0
+  index: -1
+fx_nolv_spot
+  rotate: true
+  xy: 181, 25
+  size: 72, 98
+  orig: 72, 98
+  offset: 0, 0
+  index: -1

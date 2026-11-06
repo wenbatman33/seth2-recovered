@@ -1,0 +1,292 @@
+
+chaA_main-703b47c1-4d41-40d1-a63d-364aba486afe.png
+size: 1952,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_arm_L1
+  rotate: true
+  xy: 1684, 90
+  size: 139, 77
+  orig: 139, 77
+  offset: 0, 0
+  index: -1
+B_arm_L2
+  rotate: false
+  xy: 1800, 22
+  size: 73, 102
+  orig: 73, 102
+  offset: 0, 0
+  index: -1
+B_arm_R1
+  rotate: false
+  xy: 1156, 7
+  size: 126, 105
+  orig: 126, 105
+  offset: 0, 0
+  index: -1
+B_arm_R2
+  rotate: true
+  xy: 477, 8
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+B_arm_R3
+  rotate: false
+  xy: 1, 8
+  size: 109, 53
+  orig: 109, 53
+  offset: 0, 0
+  index: -1
+B_belt
+  rotate: false
+  xy: 360, 7
+  size: 63, 54
+  orig: 63, 54
+  offset: 0, 0
+  index: -1
+B_body
+  rotate: true
+  xy: 1470, 2
+  size: 218, 213
+  orig: 218, 213
+  offset: 0, 0
+  index: -1
+B_body2
+  rotate: true
+  xy: 1684, 9
+  size: 80, 115
+  orig: 80, 115
+  offset: 0, 0
+  index: -1
+B_cloak_A
+  rotate: false
+  xy: 486, 85
+  size: 386, 309
+  orig: 386, 309
+  offset: 0, 0
+  index: -1
+B_cloak_B
+  rotate: false
+  xy: 1, 62
+  size: 484, 332
+  orig: 484, 332
+  offset: 0, 0
+  index: -1
+B_hand_L
+  rotate: true
+  xy: 424, 6
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+B_hand_R
+  rotate: false
+  xy: 111, 8
+  size: 86, 53
+  orig: 86, 53
+  offset: 0, 0
+  index: -1
+B_hand_R2
+  rotate: false
+  xy: 529, 26
+  size: 75, 35
+  orig: 75, 35
+  offset: 0, 0
+  index: -1
+B_neck
+  rotate: true
+  xy: 1409, 87
+  size: 47, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+B_shoulder_L
+  rotate: true
+  xy: 1762, 125
+  size: 98, 81
+  orig: 98, 81
+  offset: 0, 0
+  index: -1
+B_shoulder_L2
+  rotate: false
+  xy: 1409, 47
+  size: 56, 39
+  orig: 58, 41
+  offset: 1, 1
+  index: -1
+B_shoulder_R
+  rotate: false
+  xy: 1206, 125
+  size: 125, 95
+  orig: 125, 95
+  offset: 0, 0
+  index: -1
+B_shoulder_R2
+  rotate: false
+  xy: 1409, 16
+  size: 51, 30
+  orig: 51, 30
+  offset: 0, 0
+  index: -1
+B_stick_A
+  rotate: false
+  xy: 745, 1
+  size: 137, 83
+  orig: 137, 83
+  offset: 0, 0
+  index: -1
+B_stick_B
+  rotate: false
+  xy: 1206, 221
+  size: 324, 173
+  orig: 324, 173
+  offset: 0, 0
+  index: -1
+C_feather_L
+  rotate: true
+  xy: 1283, 1
+  size: 123, 125
+  orig: 123, 125
+  offset: 0, 0
+  index: -1
+C_feather_L2
+  rotate: false
+  xy: 1024, 6
+  size: 131, 106
+  orig: 131, 106
+  offset: 0, 0
+  index: -1
+C_feather_R
+  rotate: true
+  xy: 1814, 313
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+C_feather_R2
+  rotate: true
+  xy: 1844, 138
+  size: 85, 76
+  orig: 85, 77
+  offset: 0, 0
+  index: -1
+C_fur
+  rotate: false
+  xy: 575, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+H_eyelid
+  rotate: false
+  xy: 529, 2
+  size: 45, 23
+  orig: 45, 23
+  offset: 0, 0
+  index: -1
+H_hair
+  rotate: true
+  xy: 515, 62
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+H_head
+  rotate: true
+  xy: 1814, 224
+  size: 88, 122
+  orig: 88, 123
+  offset: 0, 0
+  index: -1
+H_mouth
+  rotate: false
+  xy: 486, 63
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+H_teeth_down
+  rotate: false
+  xy: 569, 66
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+H_teeth_up
+  rotate: false
+  xy: 540, 68
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+L_cloth
+  rotate: true
+  xy: 605, 1
+  size: 83, 139
+  orig: 83, 139
+  offset: 0, 0
+  index: -1
+L_leg_L1
+  rotate: false
+  xy: 1332, 135
+  size: 137, 85
+  orig: 137, 85
+  offset: 0, 0
+  index: -1
+L_leg_L2
+  rotate: true
+  xy: 1531, 230
+  size: 164, 282
+  orig: 164, 282
+  offset: 0, 0
+  index: -1
+L_leg_L3
+  rotate: false
+  xy: 280, 9
+  size: 79, 52
+  orig: 81, 54
+  offset: 1, 1
+  index: -1
+L_leg_R1
+  rotate: false
+  xy: 883, 9
+  size: 140, 103
+  orig: 140, 103
+  offset: 0, 0
+  index: -1
+L_leg_R2
+  rotate: true
+  xy: 873, 113
+  size: 281, 332
+  orig: 372, 332
+  offset: 0, 0
+  index: -1
+L_leg_R3
+  rotate: false
+  xy: 198, 7
+  size: 81, 54
+  orig: 81, 54
+  offset: 0, 0
+  index: -1
+
+chaA_main.jpg
+size: 428,420
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gosting
+  rotate: true
+  xy: 1, 45
+  size: 371, 424
+  orig: 371, 424
+  offset: 0, 0
+  index: -1
+sweeplight
+  rotate: false
+  xy: 1, 1
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
