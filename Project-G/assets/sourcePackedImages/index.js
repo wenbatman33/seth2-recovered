@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/sourcePackedImages", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/sourcePackedImages",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/sourcePackedImages', 'chunks:///_virtual/sourcePackedImages'); 

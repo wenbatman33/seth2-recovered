@@ -1,7 +1,7 @@
 {
   "CocosEngine": "3.8.8",
   "engine": {
-    "debug": true,
+    "debug": false,
     "platform": "web-desktop",
     "customLayers": [],
     "sortingLayers": [],
@@ -52,7 +52,8 @@
       "resources",
       "main",
       "g1009",
-      "slotFramework"
+      "slotFramework",
+      "sourcePackedImages"
     ],
     "downloadMaxConcurrency": 15
   },

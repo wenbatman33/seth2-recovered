@@ -1,0 +1,285 @@
+
+symbol_13.png
+size: 236,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JACKPOT
+  rotate: true
+  xy: 128, 17
+  size: 135, 55
+  orig: 137, 57
+  offset: 1, 1
+  index: -1
+board
+  rotate: true
+  xy: 184, 95
+  size: 57, 49
+  orig: 57, 49
+  offset: 0, 0
+  index: -1
+flower frame
+  rotate: false
+  xy: 1, 193
+  size: 142, 90
+  orig: 144, 92
+  offset: 1, 1
+  index: -1
+flowers
+  rotate: true
+  xy: 144, 153
+  size: 130, 81
+  orig: 132, 83
+  offset: 1, 1
+  index: -1
+frame
+  rotate: false
+  xy: 1, 88
+  size: 121, 104
+  orig: 123, 106
+  offset: 1, 1
+  index: -1
+object
+  rotate: false
+  xy: 1, 1
+  size: 126, 86
+  orig: 128, 88
+  offset: 1, 1
+  index: -1
+
+symbol_13_fx.jpg
+size: 284,176
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JACKPOT_01
+  rotate: true
+  xy: 200, 1
+  size: 3, 7
+  orig: 5, 9
+  offset: 1, 1
+  index: -1
+JACKPOT_02
+  rotate: false
+  xy: 268, 61
+  size: 5, 12
+  orig: 7, 14
+  offset: 1, 1
+  index: -1
+JACKPOT_03
+  rotate: true
+  xy: 258, 39
+  size: 7, 15
+  orig: 9, 17
+  offset: 1, 1
+  index: -1
+JACKPOT_04
+  rotate: false
+  xy: 258, 47
+  size: 9, 22
+  orig: 11, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_05
+  rotate: false
+  xy: 265, 89
+  size: 10, 27
+  orig: 12, 29
+  offset: 1, 1
+  index: -1
+JACKPOT_06
+  rotate: true
+  xy: 229, 2
+  size: 11, 28
+  orig: 13, 30
+  offset: 1, 1
+  index: -1
+JACKPOT_07
+  rotate: true
+  xy: 122, 4
+  size: 17, 28
+  orig: 19, 30
+  offset: 1, 1
+  index: -1
+JACKPOT_08
+  rotate: true
+  xy: 94, 2
+  size: 19, 27
+  orig: 21, 29
+  offset: 1, 1
+  index: -1
+JACKPOT_09
+  rotate: false
+  xy: 242, 89
+  size: 22, 22
+  orig: 24, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_10
+  rotate: false
+  xy: 229, 14
+  size: 24, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+JACKPOT_11
+  rotate: true
+  xy: 200, 5
+  size: 29, 28
+  orig: 31, 30
+  offset: 1, 1
+  index: -1
+JACKPOT_12
+  rotate: true
+  xy: 200, 35
+  size: 32, 28
+  orig: 34, 30
+  offset: 1, 1
+  index: -1
+JACKPOT_13
+  rotate: true
+  xy: 247, 140
+  size: 35, 28
+  orig: 37, 30
+  offset: 1, 1
+  index: -1
+JACKPOT_14
+  rotate: true
+  xy: 218, 139
+  size: 36, 28
+  orig: 38, 30
+  offset: 1, 1
+  index: -1
+JACKPOT_15
+  rotate: false
+  xy: 218, 112
+  size: 34, 26
+  orig: 36, 28
+  offset: 1, 1
+  index: -1
+JACKPOT_16
+  rotate: false
+  xy: 1, 2
+  size: 32, 19
+  orig: 34, 21
+  offset: 1, 1
+  index: -1
+JACKPOT_17
+  rotate: false
+  xy: 34, 2
+  size: 30, 19
+  orig: 32, 21
+  offset: 1, 1
+  index: -1
+JACKPOT_18
+  rotate: false
+  xy: 65, 2
+  size: 28, 19
+  orig: 30, 21
+  offset: 1, 1
+  index: -1
+JACKPOT_19
+  rotate: false
+  xy: 151, 2
+  size: 25, 19
+  orig: 27, 21
+  offset: 1, 1
+  index: -1
+JACKPOT_20
+  rotate: false
+  xy: 242, 70
+  size: 23, 18
+  orig: 25, 20
+  offset: 1, 1
+  index: -1
+JACKPOT_21
+  rotate: true
+  xy: 254, 15
+  size: 23, 22
+  orig: 25, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_22
+  rotate: true
+  xy: 177, 1
+  size: 21, 22
+  orig: 23, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_23
+  rotate: false
+  xy: 253, 117
+  size: 17, 22
+  orig: 19, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_24
+  rotate: true
+  xy: 258, 1
+  size: 13, 22
+  orig: 15, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_25
+  rotate: false
+  xy: 271, 117
+  size: 11, 22
+  orig: 13, 24
+  offset: 1, 1
+  index: -1
+JACKPOT_26
+  rotate: false
+  xy: 266, 74
+  size: 7, 14
+  orig: 9, 16
+  offset: 1, 1
+  index: -1
+JACKPOT_27
+  rotate: true
+  xy: 208, 1
+  size: 3, 5
+  orig: 5, 7
+  offset: 1, 1
+  index: -1
+bow_twist
+  rotate: false
+  xy: 1, 22
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+glow_77
+  rotate: true
+  xy: 155, 111
+  size: 64, 62
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+particular
+  rotate: false
+  xy: 155, 23
+  size: 44, 42
+  orig: 50, 50
+  offset: 4, 3
+  index: -1
+particular_1
+  rotate: false
+  xy: 155, 66
+  size: 43, 44
+  orig: 50, 50
+  offset: 4, 2
+  index: -1
+particular_2
+  rotate: false
+  xy: 199, 68
+  size: 42, 42
+  orig: 50, 50
+  offset: 4, 3
+  index: -1
+spark_7
+  rotate: false
+  xy: 229, 39
+  size: 28, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1

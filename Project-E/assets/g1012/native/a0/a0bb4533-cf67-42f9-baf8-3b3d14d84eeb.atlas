@@ -1,0 +1,125 @@
+
+F_bg.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pillar_01
+  rotate: false
+  xy: 653, 94
+  size: 649, 416
+  orig: 649, 416
+  offset: 0, 0
+  index: -1
+Pillar_02
+  rotate: false
+  xy: 1304, 280
+  size: 649, 230
+  orig: 649, 232
+  offset: 0, 1
+  index: -1
+bg_01
+  rotate: false
+  xy: 1304, 57
+  size: 649, 221
+  orig: 649, 237
+  offset: 0, 16
+  index: -1
+bg_02
+  rotate: false
+  xy: 2, 26
+  size: 649, 484
+  orig: 649, 484
+  offset: 0, 0
+  index: -1
+candle_fire_001
+  rotate: false
+  xy: 1955, 232
+  size: 28, 43
+  orig: 36, 48
+  offset: 6, 0
+  index: -1
+candle_fire_002
+  rotate: false
+  xy: 1955, 277
+  size: 28, 44
+  orig: 36, 48
+  offset: 6, 0
+  index: -1
+candle_fire_003
+  rotate: false
+  xy: 1955, 417
+  size: 30, 45
+  orig: 36, 48
+  offset: 5, 0
+  index: -1
+candle_fire_004
+  rotate: false
+  xy: 1988, 465
+  size: 30, 45
+  orig: 36, 48
+  offset: 5, 0
+  index: -1
+candle_fire_005
+  rotate: false
+  xy: 685, 47
+  size: 30, 45
+  orig: 36, 48
+  offset: 5, 0
+  index: -1
+candle_fire_006
+  rotate: false
+  xy: 1955, 370
+  size: 30, 45
+  orig: 36, 48
+  offset: 5, 0
+  index: -1
+candle_fire_007
+  rotate: false
+  xy: 1955, 464
+  size: 31, 46
+  orig: 36, 48
+  offset: 5, 0
+  index: -1
+candle_fire_008
+  rotate: true
+  xy: 717, 63
+  size: 29, 46
+  orig: 36, 48
+  offset: 6, 0
+  index: -1
+candle_fire_009
+  rotate: false
+  xy: 653, 46
+  size: 30, 46
+  orig: 36, 48
+  offset: 6, 0
+  index: -1
+candle_fire_010
+  rotate: false
+  xy: 1955, 323
+  size: 29, 45
+  orig: 36, 48
+  offset: 7, 0
+  index: -1
+candle_fire_011
+  rotate: true
+  xy: 765, 63
+  size: 29, 44
+  orig: 36, 48
+  offset: 6, 0
+  index: -1
+candle_fire_012
+  rotate: true
+  xy: 811, 63
+  size: 29, 43
+  orig: 36, 48
+  offset: 6, 0
+  index: -1
+candle_fire_013
+  rotate: false
+  xy: 653, 2
+  size: 28, 42
+  orig: 36, 48
+  offset: 6, 0
+  index: -1

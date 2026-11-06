@@ -1,0 +1,230 @@
+
+win_board.png
+size: 416,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_small/coin_small_0000
+  rotate: false
+  xy: 184, 111
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0002
+  rotate: false
+  xy: 313, 240
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0004
+  rotate: false
+  xy: 184, 60
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0006
+  rotate: false
+  xy: 235, 111
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0008
+  rotate: false
+  xy: 313, 189
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0010
+  rotate: false
+  xy: 184, 9
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0012
+  rotate: false
+  xy: 235, 60
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0014
+  rotate: false
+  xy: 235, 9
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0016
+  rotate: false
+  xy: 364, 240
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0018
+  rotate: false
+  xy: 364, 189
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0020
+  rotate: false
+  xy: 286, 111
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0022
+  rotate: false
+  xy: 286, 60
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0024
+  rotate: false
+  xy: 286, 9
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0026
+  rotate: false
+  xy: 337, 138
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_small/coin_small_0028
+  rotate: false
+  xy: 337, 87
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+flares_llight_0000
+  rotate: true
+  xy: 1, 262
+  size: 760, 150
+  orig: 760, 150
+  offset: 0, 0
+  index: -1
+particle_432
+  rotate: false
+  xy: 184, 162
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0000
+  rotate: true
+  xy: 1, 1
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0001
+  rotate: false
+  xy: 152, 962
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0002
+  rotate: true
+  xy: 62, 1
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0003
+  rotate: false
+  xy: 152, 901
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0004
+  rotate: false
+  xy: 152, 840
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0005
+  rotate: false
+  xy: 152, 779
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0006
+  rotate: false
+  xy: 152, 718
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0007
+  rotate: false
+  xy: 152, 657
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0008
+  rotate: false
+  xy: 152, 596
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0009
+  rotate: false
+  xy: 152, 535
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0010
+  rotate: false
+  xy: 152, 474
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0011
+  rotate: false
+  xy: 152, 413
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0012
+  rotate: false
+  xy: 152, 352
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0013
+  rotate: false
+  xy: 152, 291
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1
+texture_half/texture_half_0014
+  rotate: true
+  xy: 123, 1
+  size: 260, 60
+  orig: 260, 60
+  offset: 0, 0
+  index: -1

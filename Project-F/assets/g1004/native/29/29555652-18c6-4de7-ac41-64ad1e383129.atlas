@@ -1,0 +1,236 @@
+
+spin.png
+size: 564,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_board
+  rotate: false
+  xy: 1, 23
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+btn_spin_disabled05
+  rotate: false
+  xy: 271, 376
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+btn_spin_hover05
+  rotate: false
+  xy: 366, 376
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+btn_spin_normal05
+  rotate: false
+  xy: 461, 376
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+btn_spin_pressed05
+  rotate: false
+  xy: 1, 287
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_12
+  rotate: true
+  xy: 1, 387
+  size: 83, 85
+  orig: 83, 85
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_13
+  rotate: true
+  xy: 87, 383
+  size: 87, 89
+  orig: 87, 89
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_14
+  rotate: true
+  xy: 177, 379
+  size: 91, 93
+  orig: 93, 93
+  offset: 1, 0
+  index: -1
+spin_ink/ink_01_15
+  rotate: true
+  xy: 97, 275
+  size: 103, 104
+  orig: 103, 104
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_16
+  rotate: false
+  xy: 202, 265
+  size: 111, 110
+  orig: 111, 110
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_17
+  rotate: false
+  xy: 314, 258
+  size: 120, 117
+  orig: 120, 117
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_18
+  rotate: false
+  xy: 435, 256
+  size: 126, 119
+  orig: 126, 120
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_19
+  rotate: false
+  xy: 1, 152
+  size: 128, 122
+  orig: 128, 122
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_20
+  rotate: false
+  xy: 130, 142
+  size: 130, 122
+  orig: 130, 122
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_21
+  rotate: false
+  xy: 261, 134
+  size: 132, 123
+  orig: 132, 124
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_22
+  rotate: false
+  xy: 394, 129
+  size: 140, 126
+  orig: 140, 126
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_23
+  rotate: false
+  xy: 271, 1
+  size: 140, 127
+  orig: 140, 127
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_24
+  rotate: false
+  xy: 412, 1
+  size: 140, 127
+  orig: 140, 127
+  offset: 0, 0
+  index: -1
+spin_ink/ink_01_25
+  rotate: false
+  xy: 130, 7
+  size: 140, 126
+  orig: 140, 127
+  offset: 0, 1
+  index: -1
+
+spin_fx.jpg
+size: 528,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_line
+  rotate: false
+  xy: 427, 103
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+fx_nolv_spot
+  rotate: false
+  xy: 283, 8
+  size: 143, 195
+  orig: 143, 195
+  offset: 0, 0
+  index: -1
+fx_spotlight
+  rotate: false
+  xy: 1, 24
+  size: 281, 179
+  orig: 290, 192
+  offset: 3, 0
+  index: -1
+spin_sweep_01
+  rotate: true
+  xy: 83, 2
+  size: 6, 15
+  orig: 8, 17
+  offset: 1, 1
+  index: -1
+spin_sweep_02
+  rotate: true
+  xy: 117, 9
+  size: 14, 32
+  orig: 16, 34
+  offset: 1, 1
+  index: -1
+spin_sweep_03
+  rotate: true
+  xy: 1, 1
+  size: 22, 40
+  orig: 24, 42
+  offset: 1, 1
+  index: -1
+spin_sweep_04
+  rotate: false
+  xy: 461, 57
+  size: 30, 45
+  orig: 32, 47
+  offset: 1, 1
+  index: -1
+spin_sweep_05
+  rotate: false
+  xy: 427, 55
+  size: 33, 47
+  orig: 35, 49
+  offset: 1, 1
+  index: -1
+spin_sweep_06
+  rotate: false
+  xy: 427, 7
+  size: 33, 47
+  orig: 35, 49
+  offset: 1, 1
+  index: -1
+spin_sweep_07
+  rotate: false
+  xy: 461, 11
+  size: 29, 45
+  orig: 31, 47
+  offset: 1, 1
+  index: -1
+spin_sweep_08
+  rotate: true
+  xy: 42, 1
+  size: 22, 40
+  orig: 24, 42
+  offset: 1, 1
+  index: -1
+spin_sweep_09
+  rotate: true
+  xy: 83, 9
+  size: 14, 33
+  orig: 16, 35
+  offset: 1, 1
+  index: -1
+spin_sweep_10
+  rotate: true
+  xy: 99, 2
+  size: 6, 15
+  orig: 8, 17
+  offset: 1, 1
+  index: -1

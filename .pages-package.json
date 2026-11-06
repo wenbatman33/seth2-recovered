@@ -4,44 +4,59 @@
     {
       "project": "Project-A",
       "bundle": "g1005",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "ebd4e9f6c0dcfe188cddfc0970ce269751cfb98139d3d23e907c5a0f5f2b87f3"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "191b0c71df8bb42b34cd3171d4cff66bfc7fd10f08816eb33e0e820d2e25ef72"
     },
     {
       "project": "Project-B",
       "bundle": "g1007",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "3d8d8f7fccea528eec4ca19ea33813c3941925f1ebdbd1329fd49a6b747aa287"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "2abeff72f2743260dff254b3c49556cfd3ccaed93cfed1a691a399b0ecb3680e"
     },
     {
       "project": "Project-C",
       "bundle": "g1009",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "dea8272a42e1a4e4847472e3521a2af6cfb94b39a7c7be51bc879a3878cfd9b7"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "d8b26d2b5fd0180d91168dfb1c43b09d75af90dd0053485730919a9d6fd38dfd"
     },
     {
       "project": "Project-D",
       "bundle": "g1001",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "1270b723c68b34d9566717de2f394d2df2a0e18ae5432d68b6b37866be665177"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "b69b04e58c4c0689f0d9359aae941a3572c96725aad94e94c999db49ca8dd092"
+    },
+    {
+      "project": "Project-E",
+      "bundle": "g1012",
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "27d37359ec14d059d3752aac4c70515a8c50e488300e69101fe6d2531fa7dbba"
+    },
+    {
+      "project": "Project-F",
+      "bundle": "g1004",
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "ab0121f52796df8ec99c0461b95648850992cecf87aa76d625e4b8f93f23c1af"
     },
     {
       "project": "Project-G",
       "bundle": "g1008",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "5b159afe8b2f55317e018dce65b71f1e63fb58d4ab8d6db3bdd3315e0e5403bd"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "40ce5c5b0753236d09a9dbedb7521ed855ff9ef4476d70566d2149a333eca5a8"
     },
     {
       "project": "Project-H",
       "bundle": "g1011",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "60bf0381619d6d3f6e3982ca92f61381882c899fc6ac1df4b254625448ae85ca"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "5f0fcdbf5fa8079f24d7b1058729fac8208efb84d5e5008fe77c9195c41dd037"
     },
     {
       "project": "Project-I",
       "bundle": "g1002",
-      "applicationSha256": "dd4694cbcd68799b9902d5d2b192a29081c2dd6baba8eb7d8cd0675d23116dcb",
-      "settingsSha256": "cc1ae262dd32ee786d72409b4573c20aa3d3ac385521160d961e079c763b566d"
+      "applicationSha256": "d4331b382bc5ba8e3627b08920980f78f46710706170ea3f280d6e35c77aba87",
+      "settingsSha256": "dee94fa580d0d925de0ba2545e619688e8e8ac2a551ce5c1b112f28f7f72cd7f"
     }
-  ]
+  ],
+  "sourceCommit": "e5682a831ef85177e4fda1e11189ece9a4c221da",
+  "release": "nine-game-startup-optimization",
+  "preparedAt": "2026-11-06T11:32:09.762635+00:00"
 }

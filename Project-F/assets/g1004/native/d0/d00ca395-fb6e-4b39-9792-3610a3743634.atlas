@@ -1,0 +1,41 @@
+
+w_win_bg.png
+size: 752,516
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_bonus
+  rotate: true
+  xy: 362, 1
+  size: 236, 225
+  orig: 239, 225
+  offset: 0, 0
+  index: -1
+win_light_03
+  rotate: true
+  xy: 575, 238
+  size: 274, 176
+  orig: 274, 176
+  offset: 0, 0
+  index: -1
+win_light_04
+  rotate: true
+  xy: 362, 238
+  size: 274, 212
+  orig: 274, 212
+  offset: 0, 0
+  index: -1
+win_light_06
+  rotate: false
+  xy: 1, 30
+  size: 360, 482
+  orig: 360, 482
+  offset: 0, 0
+  index: -1
+win_light_05
+  rotate: false
+  xy: 1, 30
+  size: 360, 482
+  orig: 360, 482
+  offset: 0, 0
+  index: -1

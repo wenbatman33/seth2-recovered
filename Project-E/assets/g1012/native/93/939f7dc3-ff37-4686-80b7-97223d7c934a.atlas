@@ -1,0 +1,160 @@
+
+W_Jackpot.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JP_C
+  rotate: true
+  xy: 1781, 684
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+JP_Game
+  rotate: true
+  xy: 730, 57
+  size: 150, 115
+  orig: 150, 115
+  offset: 0, 0
+  index: -1
+JP_JP-1
+  rotate: false
+  xy: 1431, 219
+  size: 514, 215
+  orig: 514, 215
+  offset: 0, 0
+  index: -1
+JP_JP-2
+  rotate: false
+  xy: 1537, 802
+  size: 508, 216
+  orig: 508, 216
+  offset: 0, 0
+  index: -1
+JP_K
+  rotate: false
+  xy: 730, 16
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: -1
+JP_L
+  rotate: false
+  xy: 1527, 480
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+JP_Lobby
+  rotate: true
+  xy: 730, 209
+  size: 158, 126
+  orig: 158, 126
+  offset: 0, 0
+  index: -1
+JP_O-1
+  rotate: false
+  xy: 1917, 721
+  size: 65, 79
+  orig: 65, 79
+  offset: 0, 0
+  index: -1
+JP_O-2
+  rotate: false
+  xy: 1781, 721
+  size: 66, 79
+  orig: 66, 79
+  offset: 0, 0
+  index: -1
+JP_O-3
+  rotate: false
+  xy: 1849, 721
+  size: 66, 79
+  orig: 66, 79
+  offset: 0, 0
+  index: -1
+JP_O-4
+  rotate: false
+  xy: 1527, 600
+  size: 66, 77
+  orig: 66, 77
+  offset: 0, 0
+  index: -1
+JP_O-5
+  rotate: false
+  xy: 1527, 521
+  size: 66, 77
+  orig: 66, 77
+  offset: 0, 0
+  index: -1
+JP_U
+  rotate: false
+  xy: 1984, 760
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+JP_Whiteboard
+  rotate: false
+  xy: 888, 210
+  size: 541, 224
+  orig: 541, 224
+  offset: 0, 0
+  index: -1
+JP_Y
+  rotate: false
+  xy: 1595, 639
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+JP_board
+  rotate: false
+  xy: 888, 436
+  size: 637, 287
+  orig: 637, 287
+  offset: 0, 0
+  index: -1
+JP_boardshadow-1
+  rotate: false
+  xy: 2, 2
+  size: 726, 365
+  orig: 726, 365
+  offset: 0, 0
+  index: -1
+JP_effectlight-1
+  rotate: false
+  xy: 858, 342
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+JP_effectlight-2
+  rotate: false
+  xy: 2, 369
+  size: 884, 649
+  orig: 884, 649
+  offset: 0, 0
+  index: -1
+JP_light-1
+  rotate: false
+  xy: 888, 725
+  size: 647, 293
+  orig: 647, 293
+  offset: 0, 0
+  index: -1
+JP_star-1
+  rotate: false
+  xy: 1537, 679
+  size: 134, 121
+  orig: 134, 121
+  offset: 0, 0
+  index: -1
+SUPER_ray-01
+  rotate: false
+  xy: 1673, 684
+  size: 106, 116
+  orig: 106, 116
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+A_symbol_04.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF_light-02
+  rotate: false
+  xy: 2, 76
+  size: 168, 172
+  orig: 168, 172
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 172, 84
+  size: 128, 164
+  orig: 132, 164
+  offset: 0, 0
+  index: -1
+cross
+  rotate: false
+  xy: 973, 155
+  size: 43, 93
+  orig: 43, 93
+  offset: 0, 0
+  index: -1
+eyes_L
+  rotate: false
+  xy: 740, 156
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+eyes_R
+  rotate: false
+  xy: 302, 98
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 445, 86
+  size: 72, 97
+  orig: 73, 97
+  offset: 0, 0
+  index: -1
+hair-01
+  rotate: false
+  xy: 873, 163
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+hair-02
+  rotate: false
+  xy: 302, 120
+  size: 141, 128
+  orig: 148, 128
+  offset: 7, 0
+  index: -1
+lefthand-01
+  rotate: true
+  xy: 445, 160
+  size: 88, 165
+  orig: 93, 167
+  offset: 4, 2
+  index: -1
+lefthand-02
+  rotate: true
+  xy: 740, 178
+  size: 70, 131
+  orig: 70, 131
+  offset: 0, 0
+  index: -1
+righthand-01
+  rotate: true
+  xy: 2, 2
+  size: 72, 159
+  orig: 73, 159
+  offset: 0, 0
+  index: -1
+righthand-02
+  rotate: true
+  xy: 612, 152
+  size: 96, 126
+  orig: 96, 126
+  offset: 0, 0
+  index: -1

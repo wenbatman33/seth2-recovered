@@ -1,0 +1,48 @@
+
+times_light.png
+size: 748,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_high
+  rotate: true
+  xy: 484, 157
+  size: 234, 251
+  orig: 250, 255
+  offset: 8, 2
+  index: -1
+shine_star
+  rotate: false
+  xy: 667, 80
+  size: 77, 76
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+spot_1
+  rotate: true
+  xy: 667, 40
+  size: 39, 46
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+spot_2
+  rotate: true
+  xy: 1, 31
+  size: 360, 482
+  orig: 360, 482
+  offset: 0, 0
+  index: -1
+spot_3
+  rotate: false
+  xy: 1, 12
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+upgrade_mn_000
+  rotate: false
+  xy: 484, 1
+  size: 182, 155
+  orig: 182, 205
+  offset: 0, 27
+  index: -1

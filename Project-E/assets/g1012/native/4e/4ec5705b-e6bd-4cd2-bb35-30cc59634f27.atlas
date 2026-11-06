@@ -1,0 +1,55 @@
+
+T_board.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 847
+  size: 648, 1152
+  orig: 648, 1152
+  offset: 0, 0
+  index: -1
+BG_light-02
+  rotate: false
+  xy: 2, 2
+  size: 506, 843
+  orig: 506, 843
+  offset: 0, 0
+  index: -1
+EF_light-02
+  rotate: false
+  xy: 811, 1309
+  size: 168, 172
+  orig: 168, 172
+  offset: 0, 0
+  index: -1
+out_FREE GAME
+  rotate: true
+  xy: 652, 858
+  size: 623, 157
+  orig: 624, 157
+  offset: 1, 0
+  index: -1
+out_bg
+  rotate: false
+  xy: 652, 1483
+  size: 557, 516
+  orig: 581, 525
+  offset: 12, 9
+  index: -1
+out_btn
+  rotate: false
+  xy: 1211, 1782
+  size: 282, 217
+  orig: 284, 217
+  offset: 1, 0
+  index: -1
+out_freegame_mask
+  rotate: true
+  xy: 510, 241
+  size: 604, 139
+  orig: 604, 139
+  offset: 0, 0
+  index: -1

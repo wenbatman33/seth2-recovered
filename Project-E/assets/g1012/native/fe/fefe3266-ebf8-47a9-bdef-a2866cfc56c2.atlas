@@ -1,0 +1,111 @@
+
+A_symbol_03.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF_light
+  rotate: false
+  xy: 2, 197
+  size: 314, 313
+  orig: 314, 313
+  offset: 0, 0
+  index: -1
+GunExplosion-01_001
+  rotate: false
+  xy: 273, 132
+  size: 30, 63
+  orig: 163, 214
+  offset: 59, 39
+  index: -1
+GunExplosion-01_002
+  rotate: true
+  xy: 2, 2
+  size: 43, 87
+  orig: 163, 214
+  offset: 53, 40
+  index: -1
+GunExplosion-01_003
+  rotate: false
+  xy: 507, 138
+  size: 53, 105
+  orig: 163, 214
+  offset: 47, 39
+  index: -1
+GunExplosion-01_004
+  rotate: true
+  xy: 273, 28
+  size: 78, 119
+  orig: 163, 214
+  offset: 40, 43
+  index: -1
+GunExplosion-01_005
+  rotate: false
+  xy: 921, 166
+  size: 89, 137
+  orig: 163, 214
+  offset: 34, 44
+  index: -1
+GunExplosion-01_006
+  rotate: false
+  xy: 823, 160
+  size: 96, 142
+  orig: 163, 214
+  offset: 32, 45
+  index: -1
+GunExplosion-01_007
+  rotate: true
+  xy: 873, 305
+  size: 100, 143
+  orig: 163, 214
+  offset: 31, 46
+  index: -1
+clothes-01
+  rotate: true
+  xy: 873, 407
+  size: 103, 149
+  orig: 104, 149
+  offset: 1, 0
+  index: -1
+clothes-02
+  rotate: false
+  xy: 2, 47
+  size: 269, 148
+  orig: 269, 148
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 585, 136
+  size: 166, 236
+  orig: 175, 236
+  offset: 0, 0
+  index: -1
+hair-01
+  rotate: false
+  xy: 318, 108
+  size: 187, 135
+  orig: 187, 135
+  offset: 0, 0
+  index: -1
+hair-02
+  rotate: false
+  xy: 823, 30
+  size: 138, 128
+  orig: 138, 128
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: false
+  xy: 318, 245
+  size: 265, 265
+  orig: 271, 268
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: false
+  xy: 585, 304
+  size: 286, 206
+  orig: 286, 206
+  offset: 0, 0
+  index: -1

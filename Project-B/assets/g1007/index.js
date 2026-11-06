@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/g1007", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/g1007",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/g1007', 'chunks:///_virtual/g1007'); 

@@ -1,0 +1,20 @@
+
+A_symbol_08.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Wooden pile-01
+  rotate: true
+  xy: 122, 18
+  size: 104, 121
+  orig: 104, 121
+  offset: 0, 0
+  index: -1
+Wooden pile-02
+  rotate: false
+  xy: 2, 2
+  size: 118, 120
+  orig: 118, 120
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+W_notification.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MEGA_ray-01
+  rotate: false
+  xy: 472, 58
+  size: 288, 228
+  orig: 288, 228
+  offset: 0, 0
+  index: -1
+message_BG
+  rotate: false
+  xy: 2, 288
+  size: 468, 142
+  orig: 468, 142
+  offset: 0, 0
+  index: -1
+message_light-1
+  rotate: false
+  xy: 2, 144
+  size: 468, 142
+  orig: 468, 142
+  offset: 0, 0
+  index: -1
+message_light-2
+  rotate: false
+  xy: 472, 288
+  size: 468, 142
+  orig: 468, 142
+  offset: 0, 0
+  index: -1
+message_light-3
+  rotate: false
+  xy: 2, 2
+  size: 466, 140
+  orig: 466, 140
+  offset: 0, 0
+  index: -1

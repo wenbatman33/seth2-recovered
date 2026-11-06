@@ -1,0 +1,13 @@
+
+A_button_B.png
+size: 316, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+btn_bat
+  rotate: false
+  xy: 2, 2
+  size: 310, 252
+  orig: 310, 252
+  offset: 0, 0
+  index: -1

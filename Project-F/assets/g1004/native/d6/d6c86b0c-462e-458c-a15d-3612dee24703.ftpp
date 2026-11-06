@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/atlas",
+  "images": [
+    {
+      "name": "gold_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/gold_2.png",
+      "folder": ""
+    },
+    {
+      "name": "gold_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/gold_3.png",
+      "folder": ""
+    },
+    {
+      "name": "gold_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/gold_4.png",
+      "folder": ""
+    },
+    {
+      "name": "silver_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/silver_2.png",
+      "folder": ""
+    },
+    {
+      "name": "silver_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/silver_3.png",
+      "folder": ""
+    },
+    {
+      "name": "silver_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/silver_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_01.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_01.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_01_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_01_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_01_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_01_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_01_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_01_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_02.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_02.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_02_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_02_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_02_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_02_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_02_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_02_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_03.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_03.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_03_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_03_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_03_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_03_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_03_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_03_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_04.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_04.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_05.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_05.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_06.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_06.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_07.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_07.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_08.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_08.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_09.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_09.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_10.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_10.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_11.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_11.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_12.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_12.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_13.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_13.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_14.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_14.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg04_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg04_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg04_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg04_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg04_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg04_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg04_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg04_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg05_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg05_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg05_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg05_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg05_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg05_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg05_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg05_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg06_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg06_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg06_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg06_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg06_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg06_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg06_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg06_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg07_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg07_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg07_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg07_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg07_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg07_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg07_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg07_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg08_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg08_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg08_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg08_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg08_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg08_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg08_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg08_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg09_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg09_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg09_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg09_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg09_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg09_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg09_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg09_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg10_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg10_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg10_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg10_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg10_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg10_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg10_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg10_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg11_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg11_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg11_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg11_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg11_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg11_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg11_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg11_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg12_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg12_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg12_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg12_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg12_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg12_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg12_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg12_4.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg_1.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg_1.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg_2.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg_2.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg_3.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg_3.png",
+      "folder": ""
+    },
+    {
+      "name": "symbol_bg_4.png",
+      "path": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/texture/symbolsBlur/symbol_bg_4.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "symbolsBlur",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "cocos2d",
+    "fileName": "pack-result",
+    "savePath": "/Users/shumake/Documents/code/riversense/cocos/misa-cocos-g1004/bundles/bundles/g1004/assets/atlas",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}

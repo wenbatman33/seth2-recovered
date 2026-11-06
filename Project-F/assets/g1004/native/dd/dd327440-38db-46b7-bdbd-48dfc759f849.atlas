@@ -1,0 +1,377 @@
+
+frame_transfer.png
+size: 904,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ring_001
+  rotate: false
+  xy: 716, 175
+  size: 123, 123
+  orig: 128, 128
+  offset: 3, 2
+  index: -1
+Ring_002
+  rotate: false
+  xy: 611, 40
+  size: 123, 123
+  orig: 128, 128
+  offset: 3, 2
+  index: -1
+explode_coin/explode_coin_0001
+  rotate: false
+  xy: 831, 312
+  size: 8, 8
+  orig: 109, 125
+  offset: 50, 71
+  index: -1
+explode_coin/explode_coin_0003
+  rotate: false
+  xy: 257, 336
+  size: 17, 23
+  orig: 109, 125
+  offset: 44, 68
+  index: -1
+explode_coin/explode_coin_0005
+  rotate: false
+  xy: 687, 767
+  size: 40, 40
+  orig: 109, 125
+  offset: 32, 60
+  index: -1
+explode_coin/explode_coin_0007
+  rotate: false
+  xy: 840, 266
+  size: 63, 54
+  orig: 109, 125
+  offset: 20, 52
+  index: -1
+explode_coin/explode_coin_0009
+  rotate: true
+  xy: 829, 74
+  size: 79, 67
+  orig: 109, 125
+  offset: 11, 43
+  index: -1
+explode_coin/explode_coin_0011
+  rotate: true
+  xy: 779, 301
+  size: 87, 51
+  orig: 109, 125
+  offset: 7, 38
+  index: -1
+explode_coin/explode_coin_0013
+  rotate: false
+  xy: 818, 17
+  size: 78, 54
+  orig: 109, 125
+  offset: 18, 35
+  index: -1
+explode_coin/explode_coin_0015
+  rotate: false
+  xy: 735, 14
+  size: 82, 57
+  orig: 109, 125
+  offset: 16, 33
+  index: -1
+explode_coin/explode_coin_0017
+  rotate: true
+  xy: 841, 560
+  size: 80, 59
+  orig: 109, 125
+  offset: 14, 31
+  index: -1
+explode_coin/explode_coin_0019
+  rotate: true
+  xy: 840, 181
+  size: 84, 61
+  orig: 109, 125
+  offset: 13, 29
+  index: -1
+explode_coin/explode_coin_0021
+  rotate: false
+  xy: 366, 3
+  size: 88, 64
+  orig: 109, 125
+  offset: 12, 26
+  index: -1
+explode_coin/explode_coin_0023
+  rotate: false
+  xy: 276, 1
+  size: 89, 66
+  orig: 109, 125
+  offset: 13, 24
+  index: -1
+explode_coin/explode_coin_0025
+  rotate: true
+  xy: 841, 641
+  size: 94, 62
+  orig: 109, 125
+  offset: 11, 28
+  index: -1
+explode_coin/explode_coin_0027
+  rotate: true
+  xy: 831, 321
+  size: 98, 64
+  orig: 109, 125
+  offset: 9, 26
+  index: -1
+explode_coin/explode_coin_0029
+  rotate: false
+  xy: 455, 13
+  size: 102, 32
+  orig: 109, 125
+  offset: 7, 58
+  index: -1
+explode_coin/explode_coin_0031
+  rotate: false
+  xy: 840, 154
+  size: 63, 26
+  orig: 109, 125
+  offset: 5, 57
+  index: -1
+explode_coin/explode_coin_0033
+  rotate: false
+  xy: 611, 12
+  size: 67, 27
+  orig: 109, 125
+  offset: 3, 56
+  index: -1
+explode_coin/explode_coin_0034
+  rotate: false
+  xy: 820, 407
+  size: 10, 12
+  orig: 109, 125
+  offset: 60, 56
+  index: -1
+explode_petal/explode_petal_0001
+  rotate: true
+  xy: 558, 19
+  size: 26, 52
+  orig: 218, 250
+  offset: 73, 135
+  index: -1
+explode_petal/explode_petal_0003
+  rotate: true
+  xy: 832, 504
+  size: 55, 65
+  orig: 218, 250
+  offset: 69, 124
+  index: -1
+explode_petal/explode_petal_0005
+  rotate: true
+  xy: 820, 420
+  size: 76, 83
+  orig: 218, 250
+  offset: 54, 106
+  index: -1
+explode_petal/explode_petal_0007
+  rotate: false
+  xy: 735, 72
+  size: 93, 102
+  orig: 218, 250
+  offset: 42, 89
+  index: -1
+explode_petal/explode_petal_0009
+  rotate: true
+  xy: 687, 389
+  size: 107, 132
+  orig: 218, 250
+  offset: 32, 69
+  index: -1
+explode_petal/explode_petal_0011
+  rotate: true
+  xy: 456, 46
+  size: 117, 154
+  orig: 218, 250
+  offset: 27, 54
+  index: -1
+explode_petal/explode_petal_0013
+  rotate: false
+  xy: 1, 1
+  size: 126, 169
+  orig: 218, 250
+  offset: 24, 43
+  index: -1
+explode_petal/explode_petal_0015
+  rotate: false
+  xy: 120, 175
+  size: 136, 184
+  orig: 218, 250
+  offset: 21, 32
+  index: -1
+explode_petal/explode_petal_0017
+  rotate: true
+  xy: 488, 432
+  size: 144, 198
+  orig: 218, 250
+  offset: 20, 20
+  index: -1
+explode_petal/explode_petal_0019
+  rotate: false
+  xy: 120, 360
+  size: 154, 211
+  orig: 218, 250
+  offset: 18, 10
+  index: -1
+explode_petal/explode_petal_0021
+  rotate: true
+  xy: 459, 766
+  size: 146, 227
+  orig: 218, 250
+  offset: 33, 0
+  index: -1
+explode_petal/explode_petal_0023
+  rotate: true
+  xy: 277, 449
+  size: 154, 210
+  orig: 218, 250
+  offset: 32, 21
+  index: -1
+explode_petal/explode_petal_0025
+  rotate: true
+  xy: 298, 604
+  size: 161, 221
+  orig: 218, 250
+  offset: 31, 14
+  index: -1
+explode_petal/explode_petal_0027
+  rotate: false
+  xy: 520, 577
+  size: 167, 188
+  orig: 218, 250
+  offset: 30, 50
+  index: -1
+explode_petal/explode_petal_0029
+  rotate: true
+  xy: 257, 207
+  size: 122, 199
+  orig: 218, 250
+  offset: 37, 42
+  index: -1
+explode_petal/explode_petal_0031
+  rotate: true
+  xy: 628, 172
+  size: 125, 87
+  orig: 218, 250
+  offset: 35, 34
+  index: -1
+explode_petal/explode_petal_0033
+  rotate: false
+  xy: 651, 299
+  size: 127, 89
+  orig: 218, 250
+  offset: 34, 25
+  index: -1
+explode_petal/explode_petal_0034
+  rotate: false
+  xy: 147, 572
+  size: 129, 89
+  orig: 218, 250
+  offset: 33, 21
+  index: -1
+frame_glow 3_0000
+  rotate: false
+  xy: 147, 662
+  size: 150, 369
+  orig: 218, 400
+  offset: 35, 14
+  index: -1
+frame_glow 4_0000
+  rotate: false
+  xy: 1, 572
+  size: 145, 459
+  orig: 218, 500
+  offset: 37, 19
+  index: -1
+frame_glow_2_0000
+  rotate: false
+  xy: 298, 766
+  size: 160, 265
+  orig: 218, 300
+  offset: 30, 17
+  index: -1
+frame_gold_glow_2_0000
+  rotate: true
+  xy: 275, 330
+  size: 118, 200
+  orig: 118, 200
+  offset: 0, 0
+  index: -1
+frame_gold_glow_3_0000
+  rotate: true
+  xy: 459, 913
+  size: 118, 300
+  orig: 118, 300
+  offset: 0, 0
+  index: -1
+frame_gold_glow_4_0000
+  rotate: false
+  xy: 1, 171
+  size: 118, 400
+  orig: 118, 400
+  offset: 0, 0
+  index: -1
+particle/01
+  rotate: false
+  xy: 688, 608
+  size: 152, 127
+  orig: 200, 200
+  offset: 24, 42
+  index: -1
+particle/03
+  rotate: false
+  xy: 457, 164
+  size: 170, 133
+  orig: 200, 200
+  offset: 12, 44
+  index: -1
+particle/05
+  rotate: false
+  xy: 476, 298
+  size: 174, 133
+  orig: 200, 200
+  offset: 9, 45
+  index: -1
+particle/07
+  rotate: false
+  xy: 276, 68
+  size: 179, 138
+  orig: 200, 200
+  offset: 4, 41
+  index: -1
+particle/09
+  rotate: true
+  xy: 760, 848
+  size: 183, 143
+  orig: 200, 200
+  offset: 2, 36
+  index: -1
+particle/11
+  rotate: true
+  xy: 128, 2
+  size: 172, 147
+  orig: 200, 200
+  offset: 7, 30
+  index: -1
+particle/13
+  rotate: true
+  xy: 753, 736
+  size: 111, 146
+  orig: 200, 200
+  offset: 55, 25
+  index: -1
+particle/15
+  rotate: true
+  xy: 688, 497
+  size: 110, 143
+  orig: 200, 200
+  offset: 53, 20
+  index: -1
+particle/17
+  rotate: true
+  xy: 687, 808
+  size: 104, 65
+  orig: 200, 200
+  offset: 52, 21
+  index: -1

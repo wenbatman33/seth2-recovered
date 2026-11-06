@@ -1,0 +1,279 @@
+
+F_character.png
+size: 2020, 1140
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Blood_Burst_01_001
+  rotate: true
+  xy: 1664, 246
+  size: 40, 174
+  orig: 180, 180
+  offset: 72, 1
+  index: -1
+Blood_Burst_01_002
+  rotate: false
+  xy: 1922, 957
+  size: 89, 180
+  orig: 180, 180
+  offset: 45, 0
+  index: -1
+Blood_Burst_01_003
+  rotate: false
+  xy: 1922, 775
+  size: 89, 112
+  orig: 180, 180
+  offset: 38, 0
+  index: -1
+Blood_Burst_01_004
+  rotate: false
+  xy: 1856, 266
+  size: 132, 125
+  orig: 180, 180
+  offset: 37, 0
+  index: -1
+Blood_Burst_01_005
+  rotate: false
+  xy: 1521, 114
+  size: 132, 126
+  orig: 180, 180
+  offset: 38, 0
+  index: -1
+Blood_Burst_01_006
+  rotate: false
+  xy: 1856, 393
+  size: 97, 133
+  orig: 180, 180
+  offset: 37, 3
+  index: -1
+Blood_Burst_01_007
+  rotate: true
+  xy: 1511, 25
+  size: 87, 128
+  orig: 180, 180
+  offset: 38, 5
+  index: -1
+Blood_Burst_01_008
+  rotate: false
+  xy: 1655, 114
+  size: 87, 126
+  orig: 180, 180
+  offset: 37, 7
+  index: -1
+Blood_Burst_01_009
+  rotate: true
+  xy: 1641, 15
+  size: 97, 117
+  orig: 180, 180
+  offset: 37, 7
+  index: -1
+Blood_Burst_01_010
+  rotate: true
+  xy: 478, 12
+  size: 107, 128
+  orig: 180, 180
+  offset: 38, 9
+  index: -1
+Blood_Burst_01_011
+  rotate: true
+  xy: 1744, 125
+  size: 119, 97
+  orig: 180, 180
+  offset: 37, 24
+  index: -1
+Blood_Burst_01_012
+  rotate: true
+  xy: 1760, 25
+  size: 98, 82
+  orig: 180, 180
+  offset: 38, 15
+  index: -1
+Blood_Burst_01_013
+  rotate: true
+  xy: 1947, 682
+  size: 91, 67
+  orig: 180, 180
+  offset: 39, 21
+  index: -1
+Blood_Burst_01_014
+  rotate: true
+  xy: 1938, 161
+  size: 103, 76
+  orig: 180, 180
+  offset: 42, 28
+  index: -1
+Blood_Burst_01_015
+  rotate: false
+  xy: 1922, 889
+  size: 96, 66
+  orig: 180, 180
+  offset: 50, 36
+  index: -1
+Blood_Spatter_02
+  rotate: true
+  xy: 618, 754
+  size: 44, 40
+  orig: 44, 40
+  offset: 0, 0
+  index: -1
+EF_light
+  rotate: false
+  xy: 1843, 170
+  size: 93, 94
+  orig: 120, 120
+  offset: 14, 13
+  index: -1
+hit_L
+  rotate: true
+  xy: 618, 519
+  size: 232, 466
+  orig: 232, 466
+  offset: 0, 0
+  index: -1
+hit_R
+  rotate: false
+  xy: 1654, 770
+  size: 266, 367
+  orig: 266, 367
+  offset: 0, 0
+  index: -1
+hit_body-01
+  rotate: true
+  xy: 1161, 749
+  size: 388, 491
+  orig: 389, 492
+  offset: 1, 0
+  index: -1
+hit_body-02
+  rotate: false
+  xy: 2, 2
+  size: 474, 453
+  orig: 475, 453
+  offset: 0, 0
+  index: -1
+hit_body-03
+  rotate: false
+  xy: 621, 263
+  size: 282, 254
+  orig: 282, 254
+  offset: 0, 0
+  index: -1
+hit_head-01
+  rotate: false
+  xy: 905, 208
+  size: 204, 309
+  orig: 205, 309
+  offset: 0, 0
+  index: -1
+hit_head-02
+  rotate: false
+  xy: 1111, 213
+  size: 204, 305
+  orig: 205, 305
+  offset: 0, 0
+  index: -1
+hurt_L
+  rotate: false
+  xy: 1317, 219
+  size: 202, 299
+  orig: 202, 299
+  offset: 0, 0
+  index: -1
+hurt_R
+  rotate: true
+  xy: 1086, 520
+  size: 227, 381
+  orig: 227, 381
+  offset: 0, 0
+  index: -1
+hurt_body-01
+  rotate: false
+  xy: 621, 55
+  size: 259, 206
+  orig: 259, 206
+  offset: 0, 0
+  index: -1
+hurt_body-02
+  rotate: true
+  xy: 1521, 242
+  size: 312, 141
+  orig: 312, 142
+  offset: 0, 0
+  index: -1
+hurt_body-03
+  rotate: false
+  xy: 2, 457
+  size: 614, 341
+  orig: 614, 341
+  offset: 0, 0
+  index: -1
+hurt_head
+  rotate: true
+  xy: 882, 17
+  size: 189, 235
+  orig: 189, 236
+  offset: 0, 1
+  index: -1
+light
+  rotate: false
+  xy: 1359, 67
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light_02
+  rotate: false
+  xy: 1359, 26
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+normal_body-01
+  rotate: false
+  xy: 1709, 528
+  size: 236, 240
+  orig: 236, 240
+  offset: 0, 0
+  index: -1
+normal_body-02
+  rotate: true
+  xy: 478, 121
+  size: 334, 141
+  orig: 337, 143
+  offset: 0, 1
+  index: -1
+normal_body-03
+  rotate: false
+  xy: 2, 800
+  size: 658, 337
+  orig: 663, 337
+  offset: 0, 0
+  index: -1
+normal_hand
+  rotate: false
+  xy: 662, 753
+  size: 497, 384
+  orig: 497, 385
+  offset: 0, 0
+  index: -1
+normal_head-01
+  rotate: false
+  xy: 1664, 288
+  size: 190, 238
+  orig: 191, 239
+  offset: 0, 1
+  index: -1
+normal_head-02
+  rotate: true
+  xy: 1119, 21
+  size: 190, 238
+  orig: 191, 239
+  offset: 0, 1
+  index: -1
+normal_head-03
+  rotate: true
+  xy: 1469, 556
+  size: 191, 238
+  orig: 191, 239
+  offset: 0, 1
+  index: -1

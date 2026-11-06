@@ -1,0 +1,68 @@
+
+w_ultra_bg-ae215928-f41b-4068-b3e3-f5de7c593796.png
+size: 392,300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ultra_cloud_01
+  rotate: true
+  xy: 1, 207
+  size: 89, 334
+  orig: 89, 334
+  offset: 0, 0
+  index: -1
+ultra_cloud_02
+  rotate: true
+  xy: 221, 88
+  size: 118, 142
+  orig: 118, 142
+  offset: 0, 0
+  index: -1
+ultra_cloud_03
+  rotate: true
+  xy: 1, 1
+  size: 67, 234
+  orig: 67, 234
+  offset: 0, 0
+  index: -1
+ultra_cloud_04
+  rotate: true
+  xy: 236, 11
+  size: 76, 119
+  orig: 76, 119
+  offset: 0, 0
+  index: -1
+ultra_flower
+  rotate: false
+  xy: 1, 69
+  size: 219, 137
+  orig: 219, 137
+  offset: 0, 0
+  index: -1
+ultra_shadow
+  rotate: true
+  xy: 336, 228
+  size: 68, 53
+  orig: 68, 53
+  offset: 0, 0
+  index: -1
+
+w_ultra_bg.jpg
+size: 208,108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ultra_base
+  rotate: false
+  xy: 1, 1
+  size: 168, 104
+  orig: 168, 104
+  offset: 0, 0
+  index: -1
+ultra_fx
+  rotate: false
+  xy: 170, 65
+  size: 36, 40
+  orig: 36, 42
+  offset: 0, 1
+  index: -1

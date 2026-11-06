@@ -1,0 +1,27 @@
+
+w_big_bg.jpg
+size: 452,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_fx_01
+  rotate: true
+  xy: 380, 45
+  size: 92, 70
+  orig: 92, 70
+  offset: 0, 0
+  index: -1
+big_fx_02
+  rotate: true
+  xy: 240, 2
+  size: 135, 139
+  orig: 135, 139
+  offset: 0, 0
+  index: -1
+big_light_01
+  rotate: false
+  xy: 1, 1
+  size: 238, 136
+  orig: 238, 136
+  offset: 0, 0
+  index: -1

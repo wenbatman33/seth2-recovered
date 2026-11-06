@@ -1,0 +1,160 @@
+
+top_wild_4.png
+size: 436,1044
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cloud_L
+  rotate: true
+  xy: 353, 409
+  size: 152, 35
+  orig: 154, 37
+  offset: 1, 1
+  index: -1
+Cloud_R
+  rotate: true
+  xy: 389, 461
+  size: 100, 37
+  orig: 102, 39
+  offset: 1, 1
+  index: -1
+Mountain_L
+  rotate: false
+  xy: 159, 860
+  size: 136, 59
+  orig: 138, 61
+  offset: 1, 1
+  index: -1
+Mountain_L02
+  rotate: false
+  xy: 1, 1
+  size: 214, 88
+  orig: 216, 90
+  offset: 1, 1
+  index: -1
+Mountain_R01
+  rotate: false
+  xy: 1, 163
+  size: 179, 53
+  orig: 181, 55
+  offset: 1, 1
+  index: -1
+Mountain_R02
+  rotate: false
+  xy: 1, 217
+  size: 184, 83
+  orig: 186, 85
+  offset: 1, 1
+  index: -1
+S_04
+  rotate: false
+  xy: 296, 860
+  size: 136, 59
+  orig: 138, 61
+  offset: 1, 1
+  index: -1
+S_05
+  rotate: false
+  xy: 216, 1
+  size: 214, 88
+  orig: 216, 90
+  offset: 1, 1
+  index: -1
+S_06
+  rotate: false
+  xy: 1, 109
+  size: 179, 53
+  orig: 181, 55
+  offset: 1, 1
+  index: -1
+S_07
+  rotate: true
+  xy: 390, 360
+  size: 100, 37
+  orig: 102, 39
+  offset: 1, 1
+  index: -1
+S_08
+  rotate: true
+  xy: 186, 116
+  size: 184, 83
+  orig: 186, 85
+  offset: 1, 1
+  index: -1
+Scroll
+  rotate: true
+  xy: 1, 345
+  size: 511, 136
+  orig: 513, 138
+  offset: 1, 1
+  index: -1
+Scroll_L
+  rotate: true
+  xy: 253, 348
+  size: 39, 136
+  orig: 41, 138
+  offset: 1, 1
+  index: -1
+Scroll_M
+  rotate: true
+  xy: 253, 388
+  size: 471, 99
+  orig: 473, 101
+  offset: 1, 1
+  index: -1
+Scroll_R
+  rotate: false
+  xy: 270, 164
+  size: 39, 136
+  orig: 41, 138
+  offset: 1, 1
+  index: -1
+Shadow_01
+  rotate: false
+  xy: 159, 920
+  size: 270, 122
+  orig: 272, 124
+  offset: 1, 1
+  index: -1
+Shadow_02
+  rotate: false
+  xy: 353, 711
+  size: 56, 148
+  orig: 58, 150
+  offset: 1, 1
+  index: -1
+Shadow_03
+  rotate: false
+  xy: 353, 562
+  size: 56, 148
+  orig: 58, 150
+  offset: 1, 1
+  index: -1
+Shadow_06
+  rotate: true
+  xy: 138, 371
+  size: 485, 114
+  orig: 487, 116
+  offset: 1, 1
+  index: -1
+decorate
+  rotate: false
+  xy: 1, 301
+  size: 316, 43
+  orig: 316, 43
+  offset: 0, 0
+  index: -1
+fx_high
+  rotate: true
+  xy: 1, 857
+  size: 185, 157
+  orig: 185, 157
+  offset: 0, 0
+  index: -1
+wild
+  rotate: true
+  xy: 318, 90
+  size: 257, 109
+  orig: 259, 111
+  offset: 1, 1
+  index: -1

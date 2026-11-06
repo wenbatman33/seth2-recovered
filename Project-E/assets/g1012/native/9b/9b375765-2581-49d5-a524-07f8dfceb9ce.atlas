@@ -1,0 +1,27 @@
+
+F_btnbg.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_bg-01
+  rotate: false
+  xy: 1091, 225
+  size: 649, 210
+  orig: 649, 210
+  offset: 0, 0
+  index: -1
+btn_bg-02
+  rotate: false
+  xy: 2, 5
+  size: 649, 430
+  orig: 649, 430
+  offset: 0, 0
+  index: -1
+light_red
+  rotate: false
+  xy: 653, 2
+  size: 436, 433
+  orig: 436, 433
+  offset: 0, 0
+  index: -1
