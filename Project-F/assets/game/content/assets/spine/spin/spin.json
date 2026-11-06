@@ -1,0 +1,890 @@
+{
+  "skeleton": {
+    "hash": "VukJx1TGAUiufoidjzb+mp2/SOI",
+    "spine": "3.8.99",
+    "x": -197.6,
+    "y": -170.18,
+    "width": 375.2,
+    "height": 340.36,
+    "images": "../rebirth/spin/image/spin_image/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root",
+      "scaleX": 1.34,
+      "scaleY": 1.34
+    },
+    {
+      "name": "line",
+      "parent": "root"
+    },
+    {
+      "name": "fx_nova_1",
+      "parent": "root"
+    },
+    {
+      "name": "fx_nova_2",
+      "parent": "root"
+    },
+    {
+      "name": "ink",
+      "parent": "root",
+      "scaleX": 2,
+      "scaleY": 2
+    },
+    {
+      "name": "sweep_add",
+      "parent": "root",
+      "x": -3.28,
+      "y": 3.03,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  ],
+  "slots": [
+    {
+      "name": "ink",
+      "bone": "ink",
+      "attachment": "spin_ink/ink_01_23"
+    },
+    {
+      "name": "btn_board",
+      "bone": "root",
+      "attachment": "btn_board"
+    },
+    {
+      "name": "fx_spotlight_add",
+      "bone": "fx_nova_2",
+      "attachment": "fx_spotlight",
+      "blend": "additive"
+    },
+    {
+      "name": "fx_nolv_spot_add",
+      "bone": "fx_nova_1",
+      "attachment": "fx_nolv_spot",
+      "blend": "additive"
+    },
+    {
+      "name": "btn_spin_disabled",
+      "bone": "root",
+      "attachment": "btn_spin_disabled05"
+    },
+    {
+      "name": "btn_spin_normal",
+      "bone": "root"
+    },
+    {
+      "name": "btn_spin_hover",
+      "bone": "root",
+      "attachment": "btn_spin_hover05"
+    },
+    {
+      "name": "btn_spin_pressed",
+      "bone": "root",
+      "attachment": "btn_spin_pressed05"
+    },
+    {
+      "name": "btn_line_add",
+      "bone": "line",
+      "attachment": "btn_line",
+      "blend": "additive"
+    },
+    {
+      "name": "spin_sweep_add",
+      "bone": "sweep_add",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "btn_board": {
+          "btn_board": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "btn_line_add": {
+          "btn_line": {
+            "scaleX": 1.35,
+            "scaleY": 1.35,
+            "width": 100,
+            "height": 100
+          }
+        },
+        "btn_spin_disabled": {
+          "btn_spin_disabled05": {
+            "width": 94,
+            "height": 94
+          }
+        },
+        "btn_spin_hover": {
+          "btn_spin_hover05": {
+            "width": 94,
+            "height": 94
+          }
+        },
+        "btn_spin_normal": {
+          "btn_spin_normal05": {
+            "width": 94,
+            "height": 94
+          }
+        },
+        "btn_spin_pressed": {
+          "btn_spin_pressed05": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 95,
+            "height": 95
+          }
+        },
+        "fx_nolv_spot_add": {
+          "fx_nolv_spot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 143,
+            "height": 195
+          }
+        },
+        "fx_spotlight_add": {
+          "fx_spotlight": {
+            "y": 0.5,
+            "scaleX": 3,
+            "scaleY": 3,
+            "width": 290,
+            "height": 192
+          }
+        },
+        "ink": {
+          "spin_ink/ink_01_12": {
+            "width": 83,
+            "height": 85
+          },
+          "spin_ink/ink_01_13": {
+            "width": 87,
+            "height": 89
+          },
+          "spin_ink/ink_01_14": {
+            "width": 93,
+            "height": 93
+          },
+          "spin_ink/ink_01_15": {
+            "width": 103,
+            "height": 104
+          },
+          "spin_ink/ink_01_16": {
+            "width": 111,
+            "height": 110
+          },
+          "spin_ink/ink_01_17": {
+            "width": 120,
+            "height": 117
+          },
+          "spin_ink/ink_01_18": {
+            "width": 126,
+            "height": 120
+          },
+          "spin_ink/ink_01_19": {
+            "width": 128,
+            "height": 122
+          },
+          "spin_ink/ink_01_20": {
+            "width": 130,
+            "height": 122
+          },
+          "spin_ink/ink_01_21": {
+            "width": 132,
+            "height": 124
+          },
+          "spin_ink/ink_01_22": {
+            "x": -3.73,
+            "width": 140,
+            "height": 126
+          },
+          "spin_ink/ink_01_23": {
+            "x": -3.73,
+            "width": 140,
+            "height": 127
+          },
+          "spin_ink/ink_01_24": {
+            "x": -3.73,
+            "width": 140,
+            "height": 127
+          },
+          "spin_ink/ink_01_25": {
+            "x": -3.73,
+            "width": 140,
+            "height": 127
+          }
+        },
+        "spin_sweep_add": {
+          "spin_sweep_01": {
+            "x": -19.2,
+            "y": 5.08,
+            "width": 8,
+            "height": 17
+          },
+          "spin_sweep_02": {
+            "x": -15.21,
+            "y": 3.97,
+            "width": 16,
+            "height": 34
+          },
+          "spin_sweep_03": {
+            "x": -11.47,
+            "y": 1.85,
+            "width": 24,
+            "height": 42
+          },
+          "spin_sweep_04": {
+            "x": -6.97,
+            "y": -0.77,
+            "width": 32,
+            "height": 47
+          },
+          "spin_sweep_05": {
+            "x": -0.84,
+            "y": -1.9,
+            "width": 35,
+            "height": 49
+          },
+          "spin_sweep_06": {
+            "x": 4.64,
+            "y": -1.65,
+            "width": 35,
+            "height": 49
+          },
+          "spin_sweep_07": {
+            "x": 10.38,
+            "y": -2.52,
+            "width": 31,
+            "height": 47
+          },
+          "spin_sweep_08": {
+            "x": 13.88,
+            "y": -5.01,
+            "width": 24,
+            "height": 42
+          },
+          "spin_sweep_09": {
+            "x": 18.25,
+            "y": -7.26,
+            "width": 16,
+            "height": 35
+          },
+          "spin_sweep_10": {
+            "x": 23,
+            "y": -8.87,
+            "width": 8,
+            "height": 17
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "disabled": {
+      "slots": {
+        "btn_line_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_hover": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_normal": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_pressed": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_nolv_spot_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_spotlight_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ink": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      }
+    },
+    "hover": {
+      "slots": {
+        "btn_line_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_disabled": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_hover": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_normal": {
+          "attachment": [
+            {
+              "name": "btn_spin_normal05"
+            }
+          ]
+        },
+        "btn_spin_pressed": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_nolv_spot_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_spotlight_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ink": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      }
+    },
+    "normal": {
+      "slots": {
+        "btn_line_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_disabled": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_hover": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_normal": {
+          "color": [
+            {
+              "time": 2,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "btn_spin_normal05"
+            }
+          ]
+        },
+        "btn_spin_pressed": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_nolv_spot_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_spotlight_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ink": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "spin_sweep_add": {
+          "color": [
+            {
+              "color": "67ff0000",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "67ff0000",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5333,
+              "color": "67ff0045",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7333,
+              "color": "67ff0000",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "color": "67ff0000",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.1333,
+              "color": "67ff0045",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3333,
+              "color": "67ff0000"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3333,
+              "name": "spin_sweep_01"
+            },
+            {
+              "time": 0.3667,
+              "name": "spin_sweep_02"
+            },
+            {
+              "time": 0.4,
+              "name": "spin_sweep_03"
+            },
+            {
+              "time": 0.4333,
+              "name": "spin_sweep_04"
+            },
+            {
+              "time": 0.5,
+              "name": "spin_sweep_05"
+            },
+            {
+              "time": 0.5333,
+              "name": "spin_sweep_06"
+            },
+            {
+              "time": 0.5667,
+              "name": "spin_sweep_07"
+            },
+            {
+              "time": 0.6,
+              "name": "spin_sweep_08"
+            },
+            {
+              "time": 0.6667,
+              "name": "spin_sweep_09"
+            },
+            {
+              "time": 0.7,
+              "name": "spin_sweep_10"
+            },
+            {
+              "time": 0.7333,
+              "name": null
+            },
+            {
+              "time": 0.9333,
+              "name": "spin_sweep_01"
+            },
+            {
+              "time": 0.9667,
+              "name": "spin_sweep_02"
+            },
+            {
+              "time": 1,
+              "name": "spin_sweep_03"
+            },
+            {
+              "time": 1.0667,
+              "name": "spin_sweep_04"
+            },
+            {
+              "time": 1.1,
+              "name": "spin_sweep_05"
+            },
+            {
+              "time": 1.1333,
+              "name": "spin_sweep_06"
+            },
+            {
+              "time": 1.1667,
+              "name": "spin_sweep_07"
+            },
+            {
+              "time": 1.2333,
+              "name": "spin_sweep_08"
+            },
+            {
+              "time": 1.2667,
+              "name": "spin_sweep_09"
+            },
+            {
+              "time": 1.3,
+              "name": "spin_sweep_10"
+            },
+            {
+              "time": 1.3333,
+              "name": null
+            }
+          ]
+        }
+      }
+    },
+    "press": {
+      "slots": {
+        "btn_line_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_disabled": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_hover": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_normal": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_nolv_spot_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_spotlight_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ink": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      }
+    },
+    "released": {
+      "slots": {
+        "btn_line_add": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_disabled": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_hover": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "btn_spin_normal": {
+          "attachment": [
+            {
+              "name": "btn_spin_normal05"
+            }
+          ]
+        },
+        "btn_spin_pressed": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_nolv_spot_add": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_spotlight_add": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ink": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff7d",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff7d",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "spin_ink/ink_01_12"
+            },
+            {
+              "time": 0.1667,
+              "name": "spin_ink/ink_01_13"
+            },
+            {
+              "time": 0.2,
+              "name": "spin_ink/ink_01_14"
+            },
+            {
+              "time": 0.2333,
+              "name": "spin_ink/ink_01_15"
+            },
+            {
+              "time": 0.2667,
+              "name": "spin_ink/ink_01_16"
+            },
+            {
+              "time": 0.3,
+              "name": "spin_ink/ink_01_17"
+            },
+            {
+              "time": 0.3333,
+              "name": "spin_ink/ink_01_18"
+            },
+            {
+              "time": 0.3667,
+              "name": "spin_ink/ink_01_19"
+            },
+            {
+              "time": 0.4,
+              "name": "spin_ink/ink_01_20"
+            },
+            {
+              "time": 0.4333,
+              "name": "spin_ink/ink_01_21"
+            },
+            {
+              "time": 0.4667,
+              "name": "spin_ink/ink_01_22"
+            },
+            {
+              "time": 0.5,
+              "name": "spin_ink/ink_01_23"
+            },
+            {
+              "time": 0.5333,
+              "name": "spin_ink/ink_01_24"
+            },
+            {
+              "time": 0.5667,
+              "name": "spin_ink/ink_01_25"
+            },
+            {
+              "time": 1,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "line": {
+          "scale": [
+            {
+              "curve": 0.351,
+              "c2": 0.4,
+              "c3": 0.757
+            },
+            {
+              "time": 0.5333,
+              "x": 1.8,
+              "y": 1.8
+            }
+          ]
+        },
+        "fx_nova_1": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        },
+        "fx_nova_2": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 0.3333,
+              "x": 0.5,
+              "y": 0.5
+            }
+          ]
+        },
+        "ink": {
+          "scale": [
+            {
+              "time": 0.5667,
+              "curve": 0.615,
+              "c4": 0.7
+            },
+            {
+              "time": 0.8667,
+              "x": 0.1,
+              "y": 0.1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

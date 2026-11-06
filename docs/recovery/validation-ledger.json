@@ -1,0 +1,286 @@
+{
+  "observedAt": "2026-11-06T08:32:42.251345+00:00",
+  "status": "local validation in progress; no remote publication",
+  "offlineAggregate": {
+    "file": "docs/recovery/offline-test-report.json",
+    "sha256": "a667a5f05e7e54120b851f3c8303ec46fcc046db1e6bbaaff78f78387ef3874b",
+    "testFiles": 42,
+    "failures": 0
+  },
+  "boundaries": [
+    "All backend rules and distributions are owned local simulations; original server/RNG/RTP are unknown.",
+    "Offline consumer/callback tests and successful builds do not establish rendering, input, audio or complete gameplay acceptance.",
+    "Historical GUI checks remain historical when source changes; current GUI evidence is recorded separately."
+  ],
+  "projects": [
+    {
+      "project": "Project-C",
+      "offline": {
+        "status": "passed",
+        "testFiles": 5,
+        "failures": 0,
+        "backendSourceDigest": "92f31d4f21e24d52db7dffcf97549c34451ede12c7dd735bc1c50902cd5c43f2"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 767,
+        "uniqueFrameRecords": 781,
+        "atlases": 1,
+        "unresolved": 0,
+        "manifestSha256": "7ac120dfe91f2aa067a5d11ab3a78f77f67e83852b241ce361a97c800e28ff9d",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "historical limited gameplay passed; latest source revision needs a fresh GUI run",
+        "observed": [
+          "desktop ordinary loss and multiplier settlement",
+          "phone original landscape fit",
+          "phone purchase200 /15 free rounds settled"
+        ],
+        "pending": [
+          "latest alias/menu/audio revision",
+          "special feature presentation",
+          "final advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer"
+      },
+      "completeAcceptance": false
+    },
+    {
+      "project": "Project-D",
+      "offline": {
+        "status": "passed",
+        "testFiles": 4,
+        "failures": 0,
+        "backendSourceDigest": "b4ab257c7714adacff431f96965285392743f009f0bae92bd125e3e8b1dc3204"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 923,
+        "uniqueFrameRecords": 937,
+        "atlases": 1,
+        "unresolved": 0,
+        "manifestSha256": "b400a981dca1d4d17c16df1ee9ebc143db05df248501ea3a0258892310fcf810",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "historical limited gameplay passed; latest source revision needs a fresh GUI run",
+        "observed": [
+          "desktop multiplier settled10000->9999->10019",
+          "portrait purchase100 entered native free rounds",
+          "persisted free-round resume avoided second debit and settled award4.5"
+        ],
+        "pending": [
+          "latest JP/chest/alias/menu/audio revision",
+          "final advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer",
+        "latestOfficialBuildReportedSuccess": true,
+        "latestOfficialBuildObservation": "parent reported latest D official build succeeded before interim preview; fresh GUI flow outcome not supplied here"
+      },
+      "completeAcceptance": false
+    },
+    {
+      "project": "Project-E",
+      "offline": {
+        "status": "passed",
+        "testFiles": 9,
+        "failures": 0,
+        "backendSourceDigest": "812c19d518fb3b655860b20fac5d12ce249af71bb1e12c8818ca3c350416856a"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 663,
+        "uniqueFrameRecords": 676,
+        "atlases": 1,
+        "unresolved": 0,
+        "manifestSha256": "8f747523bbbc1d57c18159db66cea5f37d6337c2075bcbcdb4ef6c6982a352e1",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "latest official build reached main; first gameplay round in progress",
+        "reportedBuildLocalTime": "15:15:20",
+        "observed": [
+          "Latest native sprites and castle background displayed; prior opaque texture404 no longer reproduced",
+          "No real TypeError or404 during latest main initialization"
+        ],
+        "blockingObservation": "intro96%; opaque source Texture2D references returned404, including1428e0364@6c48a",
+        "pending": [
+          "first spin settlement and special workflows",
+          "audio/input/phone and final advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer"
+      },
+      "completeAcceptance": false
+    },
+    {
+      "project": "Project-F",
+      "offline": {
+        "status": "passed",
+        "testFiles": 7,
+        "failures": 0,
+        "backendSourceDigest": "5d3dfb85634f84b6900dbd7e4c063dc01dbf84cfba8bf02cf2e74b9d4f98764a"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 1135,
+        "uniqueFrameRecords": 1148,
+        "atlases": 3,
+        "unresolved": 0,
+        "manifestSha256": "e33b2045da05cb29bdf059b8994c12eff30636a03b86b3d18b1c46641c77d16b",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "native-base ordinary cascade passed; corrected owned bank and source-proven resume fix await official rebuild",
+        "reportedBuildLocalTime": "15:35:33",
+        "observed": [
+          "intro and main displayed",
+          "BGM32.052s loop and SFX observed",
+          "Latest actual compiled base retains original GameSlotRoller class/fileId and symbolPrefab; six GameView controller target contracts and dark-node bindings verified by --built fixture3 checks",
+          "Actual latest main initializes six roller components; previous null isFreeGame/initData errors no longer reproduced",
+          "Native-base official build15:35:33: six-stage silver/gold/wild animations,32400WAYS and original SUPERWIN83 popup worked; closeSpin once9999->10082",
+          "That operation exposed native displayed bank10 vs owned legacy bank7. Exact own generator corrected to native-rate-bank-v2 and native consumer oracle5 checks passed; original frontend unchanged."
+        ],
+        "blockingObservation": "first silver-gold spin did not finish; actual build pruned six mounted roller components and produced null references",
+        "localRepair": "six original component/node backlinks restored in GameView.prefab; original metaUUID/fileIds retained",
+        "repairVerification": "source fixture passes; actual compiled component retention and gameplay pending",
+        "pending": [
+          "Official final F build with native-rate-bank-v2 and native-rate-resume-v1",
+          "Actual fresh round and mid-FG reload with original collection animations and matching visible bank",
+          "Remaining gameplay and advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer",
+        "blockers": []
+      },
+      "completeAcceptance": false
+    },
+    {
+      "project": "Project-G",
+      "offline": {
+        "status": "passed",
+        "testFiles": 5,
+        "failures": 0,
+        "backendSourceDigest": "341f3a5dcbe538948d38d63be9660f6b820cff771951b1b9a6adf570098fc7f3"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 581,
+        "uniqueFrameRecords": 595,
+        "atlases": 1,
+        "unresolved": 0,
+        "manifestSha256": "42c3d0fcf44c62059aaab0e56cf729898ddd0765fe056b734f1b2eface2a02cf",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "latest official desktop multiplier/JP and fresh phone purchased-FG/resume/settlement passed; remaining QA pending",
+        "reportedBuildLocalTime": "15:55:32",
+        "compiledBackendCasesReported": 13,
+        "observed": [
+          "intro/main displayed",
+          "multiplier settled10000->9999->10019",
+          "BGM54.909s loop and SFX observed",
+          "native history showed project-local operation,stake1,net19",
+          "native settings showed100/100",
+          "source asset aliases all ready; no observed TypeError/404/rect warnings",
+          "native MINI popup displayed100; count-skip and close completed; one closeSpin credited9999->10099,status200",
+          "Phone buy100 debited once to9900; reload and original confirmation retained balance and pending16 stages, but zero-award intro stalled before native FG popup",
+          "Latest official build compiled owned backend13 cases passed (parent observation)",
+          "Old phone g-fg-phone-01 same operation resumed balance9900; original wrapper confirmed; four-scatter barrier advanced to original flame transition and eventually main",
+          "Native closeSpin once0award left balance9900 unchanged; no real console errors and multiple native BGM loops observed",
+          "Fresh phone buy100: balance9900->9800, native14 FREEGAMES counter visible at390px width",
+          "Mid-FG reload restored same project-g-local-2 operation with24stages, award7.8 and balance9800 unchanged; original main returned, closeSpin once9800->9807.8 and win7.80; no real TypeError or404"
+        ],
+        "pending": [
+          "Remaining native special workflows and final advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer",
+        "currentCheck": "phone390x844 native landscape fit /purchase free rounds",
+        "blockers": []
+      },
+      "completeAcceptance": false
+    },
+    {
+      "project": "Project-H",
+      "offline": {
+        "status": "passed",
+        "testFiles": 4,
+        "failures": 0,
+        "backendSourceDigest": "116f3815595df061fbe5e9e111074eca6792f7eee76b34a1c36b3e8dd5705bc7"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 655,
+        "uniqueFrameRecords": 668,
+        "atlases": 1,
+        "unresolved": 0,
+        "manifestSha256": "6a6a03fe392fe3982f5c1b5ab39c7bf438235f061bd50102044e610e9e7a1a3e",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "desktop expanded-wild and phone free-sticky/resume passed; remaining bonus/menu checks pending",
+        "observed": [
+          "Desktop native tall expanded wild and colored win lines displayed; closeSpin10000->9999->10003.5 award4.5",
+          "BGM21.8906seconds looping and SFX observed; no real console errors",
+          "Phone390x844 natural free-sticky entry10FG: two native tall sticky-wild columns,4/10 cumulative6.53",
+          "Mid-FG reload showed original confirmation and same project-h-local-1 pending11 stages; balance9999 unchanged, resumed7/10 cumulative29.36",
+          "Native free summary returned main; closeSpin once9999->10086.77 award87.77; no extra debit or error"
+        ],
+        "knownScopeLimit": "purchase definition hidden because original purchase popup is absent; own bonuses and ordinary/free rules have offline consumer tests",
+        "pending": [
+          "Remaining native bonus workflows and menus",
+          "Latest JP source notification/display fix official rebuild",
+          "Final advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer",
+        "reportedBuildLocalTime": "15:19:39"
+      },
+      "completeAcceptance": false
+    },
+    {
+      "project": "Project-I",
+      "offline": {
+        "status": "passed",
+        "testFiles": 8,
+        "failures": 0,
+        "backendSourceDigest": "e503de6d87dd6e59c190985c07c283d22dcae4824dcca5eb981ff8cfc69890c9"
+      },
+      "sourceAssetOracle": {
+        "status": "passed",
+        "framePaths": 787,
+        "uniqueFrameRecords": 801,
+        "atlases": 1,
+        "unresolved": 0,
+        "manifestSha256": "306547741902917b8dc04f78eb4d89d45810afc47362229877c48d3265d2cc50",
+        "scope": "source identity/geometry and true raster-to-current-Creator mapping; separate from runtime bridge /GUI",
+        "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
+      },
+      "gui": {
+        "status": "desktop transformation and native four-material elixir/gamble resume/collect passed; remaining QA pending",
+        "observed": [
+          "Native original intro/main displayed",
+          "Two-stage transformation round settled10000->9999->9999.3 award0.3",
+          "BGM36.3637seconds looping plus SFX; no real console errors",
+          "Native BuyFeature popup shows two cards (FG100/fullCombo100); a third minigame-purchase card is absent",
+          "Original elixir mini-game: four distinct feather/lotus/tooth/dragon selections each produced native continuation spin status200 with balance9999 unchanged",
+          "Native gamble view displayed26x/rest3/max208x before reload",
+          "Elixir gamble reload restored original intro/wrapper/bonus-start confirmation, same operation/balance9999 and26x/rest3 without extra debit",
+          "Chose native No/collect: original prize26x/26.00 confirmed, closeSpin once credited9999->10025; main returned original3BONUS symbols and no real errors"
+        ],
+        "pending": [
+          "Remaining native bonus callbacks and phone/resume",
+          "Latest higher-JP display source fix official rebuild",
+          "Final advertised homepage routes"
+        ],
+        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer",
+        "reportedBuildLocalTime": "15:26:56"
+      },
+      "completeAcceptance": false
+    }
+  ]
+}

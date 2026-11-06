@@ -1,0 +1,115 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "PurpleTimesMoving",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PurpleTimesMoving",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_id": "6e084485-0552-5d0d-a645-efed82dc5ae8"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 5
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "3078d821-8823-5b60-a34e-92b1e04157be"
+  },
+  {
+    "__type__": "cc.ParticleSystem2D",
+    "_dstBlendFactor": 1,
+    "emissionRate": 500,
+    "life": 0.6,
+    "lifeVar": 0.3,
+    "angle": 360,
+    "angleVar": 360,
+    "startSize": 100,
+    "endSize": 30,
+    "emitterMode": 1,
+    "speed": 20,
+    "speedVar": 0,
+    "tangentialAccel": -92.11000061035156,
+    "tangentialAccelVar": 65.79000091552734,
+    "radialAccel": -550,
+    "radialAccelVar": 65.79000091552734,
+    "_custom": true,
+    "_totalParticles": 999,
+    "__prefab": {
+      "__id__": 6
+    },
+    "posVar": {
+      "__type__": "cc.Vec2",
+      "x": 9,
+      "y": 0
+    },
+    "gravity": {
+      "__type__": "cc.Vec2",
+      "x": 0.25,
+      "y": 0.8600000143051147
+    },
+    "_startColor": {
+      "__type__": "cc.Color",
+      "r": 27,
+      "g": 245,
+      "b": 255,
+      "a": 163
+    },
+    "_endColor": {
+      "__type__": "cc.Color",
+      "r": 19,
+      "g": 99,
+      "b": 173,
+      "a": 214
+    },
+    "_file": {
+      "__uuid__": "6532d433-4e79-49d6-b61d-6c17847d3114"
+    },
+    "_spriteFrame": {
+      "__uuid__": "05e47b5d-6896-43a6-83e9-3367059b3b11@f9941"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "403e7083-9d67-5697-9dfa-d3fb7cf14590"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "23BHuubZNDe6GEoOF1JIKz",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "63Zy4amzdIG49CgT/zh8jM"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "bcyx7a61xGa6k+RT3QwDBe"
+  }
+]

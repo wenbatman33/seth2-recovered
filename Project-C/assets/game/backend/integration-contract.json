@@ -1,0 +1,112 @@
+{
+  "project": "Project-C",
+  "status": "game hooks installed in Project-C and offline method/callback contracts validated; GUI acceptance pending",
+  "bootstrap": {
+    "install": "installLocalBackend(GameServiceBase, {search: location.search}) before the first service instance/connect",
+    "runtimeGlobal": "ProjectCCreatorLocalBackend",
+    "prototypeMarker": "__projectCLocalTransport",
+    "wallet": "project-c.creator.local-backend.v1",
+    "qaWallet": "?reaDebug=1&reaTestWallet=<slug>",
+    "developmentMute": "?reaDevelopmentMute=1; absent flag preserves ordinary sound",
+    "identity": {
+      "gameId": "g1009",
+      "gn": "tiger-princess"
+    },
+    "boundary": "ProjectCLocalRuntimeBoundary displays 本機模擬後端",
+    "warning": "Do not copy original launch tokens/socket credentials or initialize a live provider socket before installation."
+  },
+  "verifiedConsumerContract": {
+    "initial": "GameSender.initial reads response.engine.definition and gameState[], platform/player/settings; actual C ParseResponse, GameData, StakeModel and GameConfigModel executed successfully",
+    "normalSpin": "GameSender.spin parses State[]; currentView 0..N-1, totalViews N; every generated feature stage passed original GameData parsing",
+    "purchase": "GameSender.buyFeature reads engine.gameState.spinId from an OBJECT acknowledgment; following spin({spinId}) returns the SAME generated State[] without debit",
+    "close": "GameSender.closeSpin reads platform balance; repeated close returns original settlement without crediting twice",
+    "notify": "C GameService.addSocketListeners expects {type:jackpotUpdate,data:{jp-mini,jp-minor,jp-major,jp-grand}}; transport emits before initial callback",
+    "wallet": "Saved states require Project-C/g1009/tiger-princess identity; external namespace rejected before getItem"
+  },
+  "requiredHooks": [
+    {
+      "target": "g1009 GameData.setNewInitData / ParseResponse.parseNewInit",
+      "reason": "Original parseNewInit always resets currSpinIndex=0; original setNewInitData does not understand persisted localResumeIndex. The fixture deliberately reproduces cursor 0 despite response index 2.",
+      "guard": "response.localBackend===true && response.isResuming",
+      "change": "Validate localResumeIndex integer 0 <= index < engine.gameState.length; assign currSpinIndex before original setNewInitData. After original parsing, parseNewTimesSymbols(currSpinData) and parseLockTimesSymbol() for local resumed feature state. Do not call Project-A-only parseFullCombo: C does not implement it.",
+      "status": "installed in Project-C game scripts"
+    },
+    {
+      "target": "g1009 GameData.setNextSpinData",
+      "guard": "Only for an operation initialized/spun from localBackend===true",
+      "change": "Run original method first, then ProjectCCreatorLocalBackend.markStage(data.spinId,currSpinData.currentView). Persist no debit or settlement here; backend validates monotonic progress.",
+      "status": "installed in Project-C game scripts"
+    },
+    {
+      "target": "g1009 CreateNewSpinCompleteFlowCmd.createFlow",
+      "reason": "Native normal terminal close presents JP; feature intro/continuation/summary routes bypass that close flow.",
+      "guard": "stage.localJpBeforeContinuation===true; exclude terminal ordinary close",
+      "change": "Use provided LocalJackpotContinuation.continueAfterLocalJackpot with real SHOW_JP_WIN then SHOW_JP completion callbacks; resume the original createFlow only after both native callbacks. Do not use timers or synthesize completion.",
+      "status": "installed in Project-C game scripts"
+    },
+    {
+      "target": "g1009 JackpotView.showJp",
+      "reason": "Captured C showJp reads totalWinnings as JP popup amount, but local stages explicitly include jpWinnings.",
+      "guard": "stage.localRules===true",
+      "change": "Use jackpotPresentationAmounts(stage): popup=jpWinnings, trophy=totalWinnings, reel=totalWinnings for spin or roundWinnings otherwise. Preserve original nonlocal path. Do not change recorded totalWinnings to force a display.",
+      "status": "installed in Project-C game scripts"
+    },
+    {
+      "target": "g1009 CreateNewSpinCompleteFlowCmd.nextSpinFlow",
+      "reason": "Original code retriggers on 3+ normal/golden scatter art; local golden rule eligibility and 100 cap are stricter. An unawarded trigger can wait for a native callback that does not fire.",
+      "guard": "stage.localRules===true",
+      "change": "Queue SHOW_SCATTER_WIN/INCREASE_FG_REMAINING only for action===freeSpin and positive integer localExtraFreeRounds; otherwise continue the original next-spin flow. Preserve normal nonlocal condition.",
+      "status": "installed in Project-C game scripts"
+    },
+    {
+      "target": "g1009 CreateNewSpinFlowCmd.getAfterBuyFeatureBalance",
+      "reason": "Static contract analysis found original preview reads definition.buyFeature[0] regardless of selection. Actual local debit correctly uses featureIndex 0/1/2 at 200/500/2000.",
+      "guard": "local backend active",
+      "change": "Preview the selected feature rate rather than always entry[0]; backend balance remains authoritative.",
+      "status": "installed in Project-C game scripts"
+    }
+  ],
+  "notIncluded": [
+    "No A/B, shared/main or bootstrap changes in this hook task",
+    "No GUI, Creator build, rendering, input or sound-playback acceptance"
+  ],
+  "unsupported": [
+    "original RNG/RTP and probabilities",
+    "original replay/history/table/ranking services"
+  ],
+  "tests": {
+    "command": "node --experimental-vm-modules .cache/rea-new-games/Project-C/backend-staging/test-backend.mjs",
+    "passed": 12,
+    "usesCapturedModules": [
+      "C GameSender",
+      "C GameData",
+      "C ParseResponse",
+      "C GameSymbolID",
+      "C GameConfigModel",
+      "C StakeModel",
+      "C DefinitionModel",
+      "C PlatformModel",
+      "C InitialModel",
+      "C GameStateModel",
+      "C GameService notify listener"
+    ],
+    "replacedInTests": [
+      "engine cc lifecycle and Vec3",
+      "BaseModel storage/lifecycle",
+      "transport callback delivery",
+      "unrelated replay and UI services"
+    ],
+    "installedGameHookTests": 9
+  },
+  "installationReport": "Project-C/game-simulation-hooks-report.json",
+  "mysteryChest": {
+    "status": "new self-authored simulated probability and award, not original provider RNG/RTP",
+    "config": "new LocalGameBackend({mysteryChest:{probability:0.01,multipliers:[1,2,5,10],weights:[60,25,12,3]}})",
+    "eligibility": "exactly one genuinely zero-award ordinary terminal stage, no jackpot or free trigger and no purchase",
+    "wireContract": "noWinReward = roundWinnings = totalWinnings = local reward; stored in generated pending operation; only closeSpin credits award",
+    "debug": "?reaDebug=1&reaTestWallet=chest-qa&reaScenario=mystery-chest&reaDevelopmentMute=1",
+    "nativeClient": "GameLogic SHOW_TREASURE_VIEW opens original TreasuresView; showTreasureWin receives original event.complete; close flow sends closeSpin after that callback",
+    "simultaneousAwards": "No bonus layered over ordinary/feature/JP awards; no user wallet migration",
+    "runtimeAnimationVerified": false
+  }
+}

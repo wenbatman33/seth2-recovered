@@ -1,0 +1,1254 @@
+{
+  "skeleton": {
+    "hash": "P8ydkToU7v92xXr55gB9fe5qNLw",
+    "spine": "3.7.94",
+    "width": 178.36,
+    "height": 163.28
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "lotus",
+      "parent": "root",
+      "x": 263.26,
+      "y": 310.74,
+      "scaleX": 0.52,
+      "scaleY": 0.52
+    },
+    {
+      "name": "lotus1",
+      "parent": "lotus",
+      "x": -24.47,
+      "y": -47.2
+    },
+    {
+      "name": "lotus2",
+      "parent": "lotus",
+      "x": 45.63,
+      "y": -46.29
+    },
+    {
+      "name": "lotus3",
+      "parent": "lotus",
+      "x": -97.33,
+      "y": -7.37
+    },
+    {
+      "name": "lotus4",
+      "parent": "lotus",
+      "x": 116.4,
+      "y": -1
+    },
+    {
+      "name": "lotus5",
+      "parent": "lotus",
+      "x": -69.73,
+      "y": -63.98
+    },
+    {
+      "name": "lotus6",
+      "parent": "lotus",
+      "x": 8.83,
+      "y": -76.01
+    },
+    {
+      "name": "lotus7",
+      "parent": "lotus",
+      "x": 92.33,
+      "y": -55.49
+    },
+    {
+      "name": "lotus8",
+      "parent": "lotus",
+      "x": -61.24,
+      "y": 43.59
+    },
+    {
+      "name": "lotus9",
+      "parent": "lotus",
+      "x": 71.1,
+      "y": 28.02
+    },
+    {
+      "name": "lotus10",
+      "parent": "lotus",
+      "x": 5.29,
+      "y": 84.63
+    },
+    {
+      "name": "lotus11",
+      "parent": "lotus",
+      "x": -98.74,
+      "y": 58.45
+    },
+    {
+      "name": "lotus12",
+      "parent": "lotus",
+      "x": 134.8,
+      "y": 73.31
+    },
+    {
+      "name": "lotus13",
+      "parent": "lotus",
+      "x": 7.41,
+      "y": 153.99
+    },
+    {
+      "name": "lotuslight",
+      "parent": "root",
+      "x": 263.99,
+      "y": 310.88,
+      "scaleX": 1.5,
+      "scaleY": 1.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "25",
+      "bone": "lotus6",
+      "attachment": "25"
+    },
+    {
+      "name": "24",
+      "bone": "lotus",
+      "attachment": "24"
+    },
+    {
+      "name": "23",
+      "bone": "lotus",
+      "attachment": "23"
+    },
+    {
+      "name": "22",
+      "bone": "lotus5",
+      "attachment": "22"
+    },
+    {
+      "name": "21",
+      "bone": "lotus7",
+      "attachment": "21"
+    },
+    {
+      "name": "20",
+      "bone": "lotus6",
+      "attachment": "20"
+    },
+    {
+      "name": "19",
+      "bone": "lotus12",
+      "attachment": "19"
+    },
+    {
+      "name": "18",
+      "bone": "lotus4",
+      "attachment": "18"
+    },
+    {
+      "name": "17",
+      "bone": "lotus11",
+      "attachment": "17"
+    },
+    {
+      "name": "16",
+      "bone": "lotus3",
+      "attachment": "16"
+    },
+    {
+      "name": "15",
+      "bone": "lotus13",
+      "attachment": "15"
+    },
+    {
+      "name": "14",
+      "bone": "lotus8",
+      "attachment": "14"
+    },
+    {
+      "name": "13",
+      "bone": "lotus8",
+      "attachment": "13"
+    },
+    {
+      "name": "12",
+      "bone": "lotus",
+      "attachment": "12"
+    },
+    {
+      "name": "11",
+      "bone": "lotus",
+      "attachment": "11"
+    },
+    {
+      "name": "10",
+      "bone": "lotus",
+      "attachment": "10"
+    },
+    {
+      "name": "9",
+      "bone": "lotus10",
+      "attachment": "9"
+    },
+    {
+      "name": "8",
+      "bone": "lotus",
+      "attachment": "8"
+    },
+    {
+      "name": "7",
+      "bone": "lotus10",
+      "attachment": "7"
+    },
+    {
+      "name": "6",
+      "bone": "lotus9",
+      "attachment": "6"
+    },
+    {
+      "name": "5",
+      "bone": "lotus",
+      "attachment": "5"
+    },
+    {
+      "name": "4",
+      "bone": "lotus9",
+      "attachment": "4"
+    },
+    {
+      "name": "3",
+      "bone": "lotus",
+      "attachment": "3"
+    },
+    {
+      "name": "2",
+      "bone": "lotus2",
+      "attachment": "2"
+    },
+    {
+      "name": "1",
+      "bone": "lotus1",
+      "attachment": "1"
+    },
+    {
+      "name": "lotuslight",
+      "bone": "lotuslight",
+      "blend": "additive"
+    },
+    {
+      "name": "circle",
+      "bone": "root",
+      "blend": "screen"
+    }
+  ],
+  "skins": {
+    "default": {
+      "1": {
+        "1": {
+          "x": -0.53,
+          "y": 13.7,
+          "width": 88,
+          "height": 77
+        }
+      },
+      "2": {
+        "2": {
+          "x": 10.37,
+          "y": 12.29,
+          "width": 80,
+          "height": 74
+        }
+      },
+      "3": {
+        "3": {
+          "x": 5.5,
+          "y": -1,
+          "width": 105,
+          "height": 134
+        }
+      },
+      "4": {
+        "4": {
+          "x": -6.1,
+          "y": -12.02,
+          "width": 62,
+          "height": 146
+        }
+      },
+      "5": {
+        "5": {
+          "x": -42,
+          "y": 38,
+          "width": 36,
+          "height": 98
+        }
+      },
+      "6": {
+        "6": {
+          "x": -19.6,
+          "y": 5.48,
+          "width": 35,
+          "height": 99
+        }
+      },
+      "7": {
+        "7": {
+          "x": 0.71,
+          "y": -32.63,
+          "width": 62,
+          "height": 54
+        }
+      },
+      "8": {
+        "8": {
+          "x": 5.5,
+          "y": 54.5,
+          "width": 81,
+          "height": 89
+        }
+      },
+      "9": {
+        "9": {
+          "x": -0.29,
+          "y": -14.13,
+          "width": 78,
+          "height": 89
+        }
+      },
+      "10": {
+        "10": {
+          "x": 47.5,
+          "y": 65.5,
+          "width": 51,
+          "height": 95
+        }
+      },
+      "11": {
+        "11": {
+          "x": -29,
+          "y": 72,
+          "width": 42,
+          "height": 72
+        }
+      },
+      "12": {
+        "12": {
+          "x": 42,
+          "y": 83.5,
+          "width": 74,
+          "height": 109
+        }
+      },
+      "13": {
+        "13": {
+          "x": 3.24,
+          "y": 11.41,
+          "width": 36,
+          "height": 114
+        }
+      },
+      "14": {
+        "14": {
+          "x": 40.24,
+          "y": 38.91,
+          "width": 74,
+          "height": 109
+        }
+      },
+      "15": {
+        "15": {
+          "x": -0.41,
+          "y": -78.49,
+          "width": 88,
+          "height": 175
+        }
+      },
+      "16": {
+        "16": {
+          "x": 11.83,
+          "y": 27.37,
+          "width": 87,
+          "height": 126
+        }
+      },
+      "17": {
+        "17": {
+          "x": -4.76,
+          "y": -59.95,
+          "width": 139,
+          "height": 123
+        }
+      },
+      "18": {
+        "18": {
+          "x": -3.4,
+          "y": 17,
+          "width": 100,
+          "height": 114
+        }
+      },
+      "19": {
+        "19": {
+          "x": -48.8,
+          "y": -4.31,
+          "width": 68,
+          "height": 120
+        }
+      },
+      "20": {
+        "20": {
+          "x": -0.33,
+          "y": -24.49,
+          "width": 105,
+          "height": 97
+        }
+      },
+      "21": {
+        "21": {
+          "x": 11.17,
+          "y": -0.51,
+          "width": 133,
+          "height": 80
+        }
+      },
+      "22": {
+        "22": {
+          "x": -22.27,
+          "y": 7.98,
+          "width": 142,
+          "height": 80
+        }
+      },
+      "23": {
+        "23": {
+          "x": -59,
+          "y": 68,
+          "width": 84,
+          "height": 124
+        }
+      },
+      "24": {
+        "24": {
+          "x": -3,
+          "y": 17.5,
+          "width": 216,
+          "height": 199
+        }
+      },
+      "25": {
+        "25": {
+          "x": 0.17,
+          "y": -20.49,
+          "width": 282,
+          "height": 109
+        }
+      },
+      "circle": {
+        "circle": {
+          "type": "mesh",
+          "hull": 8,
+          "uvs": [
+            1,
+            1,
+            0.5,
+            1,
+            0,
+            1,
+            0,
+            0.5,
+            0,
+            0,
+            0.5,
+            0,
+            1,
+            0,
+            1,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "triangles": [
+            0,
+            7,
+            1,
+            1,
+            7,
+            8,
+            7,
+            6,
+            8,
+            8,
+            6,
+            5,
+            1,
+            8,
+            2,
+            2,
+            8,
+            3,
+            8,
+            5,
+            3,
+            3,
+            5,
+            4
+          ],
+          "vertices": [
+            292.76,
+            277.61,
+            267.76,
+            277.61,
+            242.76,
+            277.61,
+            242.76,
+            302.61,
+            242.76,
+            327.61,
+            267.76,
+            327.61,
+            292.76,
+            327.61,
+            292.76,
+            302.61,
+            267.76,
+            302.61
+          ]
+        }
+      },
+      "lotuslight": {
+        "lotuslight_001": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_002": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_003": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_004": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_005": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_006": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_007": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_008": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_009": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_010": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_011": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_012": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_013": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_014": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_015": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_016": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_017": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_018": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_019": {
+          "width": 500,
+          "height": 400
+        },
+        "lotuslight_020": {
+          "width": 500,
+          "height": 400
+        }
+      }
+    }
+  },
+  "animations": {
+    "collect": {
+      "slots": {
+        "circle": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff86"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "circle"
+            }
+          ]
+        },
+        "lotuslight": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "lotuslight_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "lotuslight_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "lotuslight_003"
+            },
+            {
+              "time": 0.1,
+              "name": "lotuslight_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "lotuslight_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "lotuslight_006"
+            },
+            {
+              "time": 0.2333,
+              "name": "lotuslight_007"
+            },
+            {
+              "time": 0.2667,
+              "name": "lotuslight_008"
+            },
+            {
+              "time": 0.3,
+              "name": "lotuslight_009"
+            },
+            {
+              "time": 0.3333,
+              "name": "lotuslight_010"
+            },
+            {
+              "time": 0.3667,
+              "name": "lotuslight_011"
+            },
+            {
+              "time": 0.4,
+              "name": "lotuslight_012"
+            },
+            {
+              "time": 0.4333,
+              "name": "lotuslight_013"
+            },
+            {
+              "time": 0.4667,
+              "name": "lotuslight_014"
+            },
+            {
+              "time": 0.5,
+              "name": "lotuslight_015"
+            },
+            {
+              "time": 0.5333,
+              "name": "lotuslight_016"
+            },
+            {
+              "time": 0.5667,
+              "name": "lotuslight_017"
+            },
+            {
+              "time": 0.6,
+              "name": "lotuslight_018"
+            },
+            {
+              "time": 0.6667,
+              "name": "lotuslight_019"
+            },
+            {
+              "time": 0.7,
+              "name": "lotuslight_020"
+            },
+            {
+              "time": 0.7333,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "lotus13": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 5.48,
+              "y": 7.16
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus12": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": -8.76
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 45.34,
+              "y": 13.75
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus11": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": 9.31
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": -72.51,
+              "y": 2.76
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus10": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": -1.42,
+              "y": 27.1
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus9": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": -8.03
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 24.98,
+              "y": 47.13
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus8": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": 12.44
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": -30.06,
+              "y": 30.67
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus7": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": -22.58
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 45.08,
+              "y": -6.58
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus6": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 4.64,
+              "y": -18.34
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus5": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": 10.67
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": -29.79,
+              "y": -18.54
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": -10.95
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 43.32,
+              "y": -3.11
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2333,
+              "angle": 8.05
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": -40.88,
+              "y": 45.7
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": 3.54,
+              "y": 9.91
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2333,
+              "x": -11.32,
+              "y": 11.32
+            },
+            {
+              "time": 0.7333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lotus": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2333,
+              "x": 1.13,
+              "y": 1.13,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "circle": {
+            "circle": [
+              {
+                "time": 0,
+                "vertices": [
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603
+                ]
+              },
+              {
+                "time": 0.1,
+                "vertices": [
+                  23.8804,
+                  17.3501,
+                  -1.7359,
+                  17.3501,
+                  -27.35223,
+                  17.3501,
+                  -27.35223,
+                  42.9664,
+                  -27.35223,
+                  68.58273,
+                  -1.7359,
+                  68.58273,
+                  23.8804,
+                  68.58273,
+                  23.8804,
+                  42.9664,
+                  -1.7359,
+                  42.9664
+                ],
+                "curve": [
+                  0.937,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "vertices": [
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603,
+                  -1.73602,
+                  42.96603
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "loop": {}
+  }
+}

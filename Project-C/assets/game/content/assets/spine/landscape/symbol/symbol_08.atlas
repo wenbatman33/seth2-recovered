@@ -1,0 +1,48 @@
+
+symbol_08.png
+size: 228,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s8_a
+  rotate: false
+  xy: 187, 35
+  size: 37, 52
+  orig: 41, 53
+  offset: 1, 1
+  index: -1
+s8_b
+  rotate: false
+  xy: 139, 1
+  size: 37, 39
+  orig: 39, 41
+  offset: 0, 2
+  index: -1
+s8_c
+  rotate: true
+  xy: 80, 3
+  size: 29, 58
+  orig: 31, 59
+  offset: 0, 1
+  index: -1
+s8_d
+  rotate: false
+  xy: 80, 33
+  size: 58, 54
+  orig: 58, 55
+  offset: 0, 1
+  index: -1
+s8_e
+  rotate: false
+  xy: 139, 41
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+s8_e_2
+  rotate: false
+  xy: 1, 11
+  size: 78, 76
+  orig: 78, 77
+  offset: 0, 1
+  index: -1

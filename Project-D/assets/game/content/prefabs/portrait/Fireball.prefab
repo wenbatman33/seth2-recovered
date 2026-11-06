@@ -1,0 +1,86 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "Fireball",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Fireball",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_id": "ffecc51a-3a38-5124-af8f-c8a596572891"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1280,
+      "height": 1050.3
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.45278124999999997,
+      "y": 0.24890031419594405
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "3f64bfea-734d-5442-9f3f-27a813603540"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "loop": false,
+    "_preCacheMode": 0,
+    "_premultipliedAlpha": false,
+    "defaultSkin": "default",
+    "defaultAnimation": "fireball_blue",
+    "__prefab": {
+      "__id__": 6
+    },
+    "_skeletonData": {
+      "__uuid__": "ab394656-f813-4fff-9371-ad1c7a4e060b"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "6f228758-b592-5230-92c2-44debc71f66f"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "d5yivQe49P6K7FuYe92Ewe",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c6R7OIQIBAaa56XA68ff6D"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "1aiQnFNK5CCos6Ceraf5Fg"
+  }
+]

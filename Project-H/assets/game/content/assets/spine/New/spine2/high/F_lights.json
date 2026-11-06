@@ -1,0 +1,587 @@
+{
+  "skeleton": {
+    "hash": "uTj5VLdJwB+c8T4rtZXeNzbwN1k",
+    "spine": "3.8.57"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "freegamelightslake",
+      "parent": "root",
+      "x": -268.66,
+      "y": 590.3,
+      "scaleX": 2.5,
+      "scaleY": 2.5
+    },
+    {
+      "name": "freegamelightslake2",
+      "parent": "root",
+      "x": 268.66,
+      "y": 590.3,
+      "scaleX": -2.5,
+      "scaleY": 2.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "freegamelightslake",
+      "bone": "freegamelightslake",
+      "color": "ffffff9f",
+      "blend": "additive"
+    },
+    {
+      "name": "freegamelightslake2",
+      "bone": "freegamelightslake2",
+      "color": "ffffffb8",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "freegamelightslake": {
+          "freegamelightslake_001": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_002": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_003": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_004": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_005": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_006": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_007": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_008": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_009": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_010": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_011": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_012": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_013": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_014": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_015": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_016": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_017": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_018": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_019": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_020": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_021": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_022": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_023": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_024": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_025": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_026": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_027": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_028": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_029": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_030": {
+            "width": 224,
+            "height": 296
+          }
+        },
+        "freegamelightslake2": {
+          "freegamelightslake_001": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_002": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_003": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_004": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_005": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_006": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_007": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_008": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_009": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_010": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_011": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_012": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_013": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_014": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_015": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_016": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_017": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_018": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_019": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_020": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_021": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_022": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_023": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_024": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_025": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_026": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_027": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_028": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_029": {
+            "width": 224,
+            "height": 296
+          },
+          "freegamelightslake_030": {
+            "width": 224,
+            "height": 296
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "function": {
+      "slots": {
+        "freegamelightslake2": {
+          "attachment": [
+            {
+              "name": "freegamelightslake_001"
+            },
+            {
+              "time": 0.0667,
+              "name": "freegamelightslake_002"
+            },
+            {
+              "time": 0.1333,
+              "name": "freegamelightslake_003"
+            },
+            {
+              "time": 0.2,
+              "name": "freegamelightslake_004"
+            },
+            {
+              "time": 0.2667,
+              "name": "freegamelightslake_005"
+            },
+            {
+              "time": 0.3333,
+              "name": "freegamelightslake_006"
+            },
+            {
+              "time": 0.4333,
+              "name": "freegamelightslake_007"
+            },
+            {
+              "time": 0.5,
+              "name": "freegamelightslake_008"
+            },
+            {
+              "time": 0.5667,
+              "name": "freegamelightslake_009"
+            },
+            {
+              "time": 0.6333,
+              "name": "freegamelightslake_010"
+            },
+            {
+              "time": 0.7,
+              "name": "freegamelightslake_011"
+            },
+            {
+              "time": 0.7667,
+              "name": "freegamelightslake_012"
+            },
+            {
+              "time": 0.8333,
+              "name": "freegamelightslake_013"
+            },
+            {
+              "time": 0.9,
+              "name": "freegamelightslake_014"
+            },
+            {
+              "time": 0.9667,
+              "name": "freegamelightslake_015"
+            },
+            {
+              "time": 1.0333,
+              "name": "freegamelightslake_016"
+            },
+            {
+              "time": 1.1,
+              "name": "freegamelightslake_017"
+            },
+            {
+              "time": 1.1667,
+              "name": "freegamelightslake_018"
+            },
+            {
+              "time": 1.2667,
+              "name": "freegamelightslake_019"
+            },
+            {
+              "time": 1.3333,
+              "name": "freegamelightslake_020"
+            },
+            {
+              "time": 1.4,
+              "name": "freegamelightslake_021"
+            },
+            {
+              "time": 1.4667,
+              "name": "freegamelightslake_022"
+            },
+            {
+              "time": 1.5333,
+              "name": "freegamelightslake_023"
+            },
+            {
+              "time": 1.6,
+              "name": "freegamelightslake_024"
+            },
+            {
+              "time": 1.6667,
+              "name": "freegamelightslake_025"
+            },
+            {
+              "time": 1.7333,
+              "name": "freegamelightslake_026"
+            },
+            {
+              "time": 1.8,
+              "name": "freegamelightslake_027"
+            },
+            {
+              "time": 1.8667,
+              "name": "freegamelightslake_028"
+            },
+            {
+              "time": 1.9333,
+              "name": "freegamelightslake_029"
+            },
+            {
+              "time": 2,
+              "name": "freegamelightslake_030"
+            }
+          ]
+        },
+        "freegamelightslake": {
+          "attachment": [
+            {
+              "name": "freegamelightslake_015"
+            },
+            {
+              "time": 0.0667,
+              "name": "freegamelightslake_016"
+            },
+            {
+              "time": 0.1333,
+              "name": "freegamelightslake_017"
+            },
+            {
+              "time": 0.2,
+              "name": "freegamelightslake_018"
+            },
+            {
+              "time": 0.2667,
+              "name": "freegamelightslake_019"
+            },
+            {
+              "time": 0.3333,
+              "name": "freegamelightslake_020"
+            },
+            {
+              "time": 0.4,
+              "name": "freegamelightslake_021"
+            },
+            {
+              "time": 0.4667,
+              "name": "freegamelightslake_022"
+            },
+            {
+              "time": 0.5333,
+              "name": "freegamelightslake_023"
+            },
+            {
+              "time": 0.6,
+              "name": "freegamelightslake_024"
+            },
+            {
+              "time": 0.6667,
+              "name": "freegamelightslake_025"
+            },
+            {
+              "time": 0.7333,
+              "name": "freegamelightslake_026"
+            },
+            {
+              "time": 0.8,
+              "name": "freegamelightslake_027"
+            },
+            {
+              "time": 0.8667,
+              "name": "freegamelightslake_028"
+            },
+            {
+              "time": 0.9333,
+              "name": "freegamelightslake_029"
+            },
+            {
+              "time": 1,
+              "name": "freegamelightslake_030"
+            },
+            {
+              "time": 1.0667,
+              "name": "freegamelightslake_001"
+            },
+            {
+              "time": 1.1333,
+              "name": "freegamelightslake_002"
+            },
+            {
+              "time": 1.2,
+              "name": "freegamelightslake_003"
+            },
+            {
+              "time": 1.2667,
+              "name": "freegamelightslake_004"
+            },
+            {
+              "time": 1.3333,
+              "name": "freegamelightslake_005"
+            },
+            {
+              "time": 1.4,
+              "name": "freegamelightslake_006"
+            },
+            {
+              "time": 1.4667,
+              "name": "freegamelightslake_007"
+            },
+            {
+              "time": 1.5333,
+              "name": "freegamelightslake_008"
+            },
+            {
+              "time": 1.6,
+              "name": "freegamelightslake_009"
+            },
+            {
+              "time": 1.6667,
+              "name": "freegamelightslake_010"
+            },
+            {
+              "time": 1.7333,
+              "name": "freegamelightslake_011"
+            },
+            {
+              "time": 1.8,
+              "name": "freegamelightslake_012"
+            },
+            {
+              "time": 1.8667,
+              "name": "freegamelightslake_013"
+            },
+            {
+              "time": 1.9333,
+              "name": "freegamelightslake_014"
+            },
+            {
+              "time": 2,
+              "name": "freegamelightslake_015"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "freegamelightslake": {
+          "translate": [
+            {
+              "x": -32.16,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "x": -63.86,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2,
+              "x": -32.16
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.924,
+              "y": 1.151
+            }
+          ]
+        },
+        "freegamelightslake2": {
+          "translate": [
+            {
+              "x": 140.01
+            }
+          ],
+          "scale": [
+            {
+              "y": 1.208
+            }
+          ]
+        }
+      }
+    }
+  }
+}

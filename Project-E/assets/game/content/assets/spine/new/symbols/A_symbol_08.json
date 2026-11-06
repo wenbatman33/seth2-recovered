@@ -1,0 +1,106 @@
+{
+  "skeleton": {
+    "hash": "GJdZkyaiSOYFc1k8xyRzLsVnqnU",
+    "spine": "3.8.57",
+    "x": -98.24,
+    "y": -109.89,
+    "width": 200,
+    "height": 214
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "Wooden pile-01",
+      "parent": "root",
+      "x": 8.92,
+      "y": 23.58
+    },
+    {
+      "name": "Wooden pile-02",
+      "parent": "root",
+      "x": 82.71,
+      "y": -72.26
+    }
+  ],
+  "slots": [
+    {
+      "name": "Wooden pile-02",
+      "bone": "Wooden pile-02",
+      "attachment": "Wooden pile-02"
+    },
+    {
+      "name": "Wooden pile-01",
+      "bone": "Wooden pile-01",
+      "attachment": "Wooden pile-01"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Wooden pile-01": {
+          "Wooden pile-01": {
+            "x": -20.66,
+            "y": -32.97,
+            "width": 173,
+            "height": 201
+          }
+        },
+        "Wooden pile-02": {
+          "Wooden pile-02": {
+            "x": -79.45,
+            "y": 76.37,
+            "width": 197,
+            "height": 200
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "win": {
+      "bones": {
+        "Wooden pile-01": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 31.15,
+              "y": 34.41,
+              "curve": 0.75,
+              "c2": -0.53,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        },
+        "Wooden pile-02": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "angle": -18.42,
+              "curve": 0.786,
+              "c2": -0.26,
+              "c3": 0.241,
+              "c4": 1.15
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

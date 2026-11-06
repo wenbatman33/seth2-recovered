@@ -1,0 +1,76 @@
+
+JP_icon_loop.png
+size: 376,540
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 176, 224
+  size: 147, 157
+  orig: 149, 159
+  offset: 1, 1
+  index: -1
+grand
+  rotate: false
+  xy: 1, 359
+  size: 174, 180
+  orig: 176, 182
+  offset: 1, 1
+  index: -1
+grand_light
+  rotate: true
+  xy: 168, 114
+  size: 109, 110
+  orig: 111, 112
+  offset: 1, 1
+  index: -1
+major
+  rotate: false
+  xy: 1, 191
+  size: 166, 167
+  orig: 168, 169
+  offset: 1, 1
+  index: -1
+major_light
+  rotate: false
+  xy: 265, 21
+  size: 92, 92
+  orig: 94, 94
+  offset: 1, 1
+  index: -1
+mini
+  rotate: false
+  xy: 1, 31
+  size: 159, 159
+  orig: 161, 161
+  offset: 1, 1
+  index: -1
+mini_light
+  rotate: false
+  xy: 279, 127
+  size: 96, 96
+  orig: 98, 98
+  offset: 1, 1
+  index: -1
+minor
+  rotate: false
+  xy: 176, 372
+  size: 162, 167
+  orig: 164, 169
+  offset: 1, 1
+  index: -1
+minor_light
+  rotate: true
+  xy: 161, 12
+  size: 101, 103
+  orig: 103, 105
+  offset: 1, 1
+  index: -1
+sparkle
+  rotate: false
+  xy: 1, 1
+  size: 28, 29
+  orig: 30, 31
+  offset: 1, 1
+  index: -1

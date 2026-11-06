@@ -1,0 +1,20 @@
+{
+  "project": "Project-F",
+  "status": "offline frontend-contract and independent rules tests pass; installation/GUI QA pending",
+  "passed": 16,
+  "rootProjectModified": false,
+  "creatorRuntimeVerified": false,
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "filesSha256": {
+    "DisplayedPaytable.ts": "2fcb5366400ea293ed1aae0304a1ecd074cb5387a2190262511988c8b8ae9227",
+    "InstallGameDataCompatibility.ts": "5faad40a0dde8129085a97b35bf40b1e77570eb04b18679dc62437edb401bc52",
+    "InstallLocalBackend.ts": "6ee9d626073737e394a972ff73f6f56a6a295d16bcee98de7ae8ac34d6f55317",
+    "InstallStateMachineCompatibility.ts": "9683b0c4d66b0e890b9dde8066333da7016a0d82817781dccfb6dc485d597ab7",
+    "LocalGameBackend.ts": "7c820bef210950d10e3e2dd8314901af842328a33b7f1cfd43b167d6ef5ba0fc",
+    "WaysRules.ts": "9993a30903a425b6b1fbb1e574ab6422390f1bae9ce8e3cb0ae9d66ddb2bc050",
+    "integration-contract.json": "da4a1fcf8cd5a5cc30db1be1721c5c9b28fefdd051e0e514d8138e05b2ed457d",
+    "rules-provenance.json": "799d6ce80af9b0e9143a0add21ac9487ccadeff1912f2acce49f1085f3db00bf",
+    "test-backend.mjs": "f728a096158fb148ecb626f251506cb3b5e402b779f190ea648682246df429fa"
+  }
+}

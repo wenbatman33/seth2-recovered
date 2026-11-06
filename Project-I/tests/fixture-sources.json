@@ -1,0 +1,74 @@
+[
+  {
+    "file": "tests/fixtures/GameSender.ts",
+    "source": "assets/game/scripts/g1002-GameSender.ts",
+    "sourceSha256": "46f20d1f7ce03d1a2ba1bf6e42cc1772815fa82ca00fb4b4544c1ceabada0219",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/RecordViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-RecordViewBase.ts",
+    "sourceSha256": "b228d4c9ffa8947a71b2495e0168eefad78c661103186f42f2340238c6f1ec6c",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/RecordViewItem.ts",
+    "source": "assets/shared/scripts/slotFramework-RecordViewItem.ts",
+    "sourceSha256": "0a31d82761bf7497e2d8fa19e7a197891c12df9fea2c1955469b2887ff784419",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/HistoryViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-HistoryViewBase.ts",
+    "sourceSha256": "e9bbe64206c29d85c9b139d27f1a065f2669984bc4975eafc78b93183f926def",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/RankingViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-RankingViewBase.ts",
+    "sourceSha256": "e6de566918d65ee262d1c8f615e9f4dd265dff10c6c99d542d4a7cee6a45069f",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/AvatarViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-AvatarViewBase.ts",
+    "sourceSha256": "6f6ffa6aa4002aeac9ae4b183e0e2b89a27d1534dc50e23b97e85b11f43636e6",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/SlotTableViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-SlotTableViewBase.ts",
+    "sourceSha256": "5f6f549226590f85af3216018870a209c6df2033922b14a146ab201136b4c0ec",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/original/I-g1002-GameData.ts.js",
+    "captureModule": "I-g1002-GameData.ts.js",
+    "sha256": "e6858d90df1cd3d5c8d43960c98505fc05d92b1fe22b9751928fee7417436f25",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/I-g1002-ParseResponse.ts.js",
+    "captureModule": "I-g1002-ParseResponse.ts.js",
+    "sha256": "bcf2194c41753b1c4b1ebe9af138881784009ae842cb93378b222dfadef5de41",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/I-g1002-GameState.ts.js",
+    "captureModule": "I-g1002-GameState.ts.js",
+    "sha256": "3af4c39d2339febe84ed18f565866ec089c9d3213970e255701df534b0390574",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/I-g1002-GameSender.ts.js",
+    "captureModule": "I-g1002-GameSender.ts.js",
+    "sha256": "a1e972394ae2ab3f0fafbc87cbfcec0b7f0c8db705c72fdba72b8be710a35486",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/BabelHelpers.system.js",
+    "captureModule": "chunks:///_virtual/rollupPluginModLoBabelHelpers.js",
+    "sha256": "f528c98145953e06dfb3affd1724dd13fdc643dde5a21e0127642d1b93bb67bf",
+    "sourceKind": "public named System.register helper module"
+  }
+]

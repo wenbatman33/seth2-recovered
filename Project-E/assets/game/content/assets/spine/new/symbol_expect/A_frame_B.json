@@ -1,0 +1,209 @@
+{
+  "skeleton": {
+    "hash": "wMQH3ZQ5V3HWA8BMt3R6u6OM2d8",
+    "spine": "3.7.94",
+    "width": 720,
+    "height": 1280
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone",
+      "parent": "root",
+      "y": -101
+    },
+    {
+      "name": "A_frame_B",
+      "parent": "root",
+      "y": -12,
+      "scaleX": 0.7,
+      "scaleY": 0.6
+    }
+  ],
+  "slots": [
+    {
+      "name": "MG",
+      "bone": "root"
+    },
+    {
+      "name": "A_ui_frame_03",
+      "bone": "bone"
+    },
+    {
+      "name": "spin_showcase",
+      "bone": "root"
+    },
+    {
+      "name": "A_frame_B_001",
+      "bone": "A_frame_B"
+    },
+    {
+      "name": "frame",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {
+      "A_frame_B_001": {
+        "A_frame_B_001": {
+          "width": 576,
+          "height": 1048
+        },
+        "A_frame_B_002": {
+          "width": 576,
+          "height": 1048
+        },
+        "A_frame_B_003": {
+          "x": 1.5,
+          "y": -6.5,
+          "width": 575,
+          "height": 1061
+        },
+        "A_frame_B_004": {
+          "x": 1.5,
+          "y": -6.5,
+          "width": 575,
+          "height": 1061
+        },
+        "A_frame_B_005": {
+          "y": -9.5,
+          "width": 578,
+          "height": 1067
+        },
+        "A_frame_B_006": {
+          "y": -14.5,
+          "width": 576,
+          "height": 1077
+        },
+        "A_frame_B_007": {
+          "x": 1.5,
+          "y": -7.5,
+          "width": 575,
+          "height": 1063
+        },
+        "A_frame_B_008": {
+          "x": 1.5,
+          "y": -9.5,
+          "width": 575,
+          "height": 1067
+        },
+        "A_frame_B_009": {
+          "x": 1,
+          "y": -9.5,
+          "width": 578,
+          "height": 1067
+        },
+        "A_frame_B_010": {
+          "x": 1,
+          "y": -6,
+          "width": 578,
+          "height": 1060
+        },
+        "A_frame_B_011": {
+          "x": 1,
+          "y": -7.5,
+          "width": 578,
+          "height": 1063
+        },
+        "A_frame_B_012": {
+          "x": 1,
+          "y": -9.5,
+          "width": 578,
+          "height": 1067
+        },
+        "A_frame_B_013": {
+          "x": 1,
+          "y": -13,
+          "width": 578,
+          "height": 1074
+        },
+        "A_frame_B_014": {
+          "y": -19,
+          "width": 576,
+          "height": 1086
+        },
+        "A_frame_B_015": {
+          "y": 4.5,
+          "width": 576,
+          "height": 1039
+        }
+      }
+    }
+  },
+  "animations": {
+    "expect": {
+      "slots": {
+        "A_frame_B_001": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "A_frame_B_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "A_frame_B_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "A_frame_B_003"
+            },
+            {
+              "time": 0.1,
+              "name": "A_frame_B_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "A_frame_B_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "A_frame_B_006"
+            },
+            {
+              "time": 0.2,
+              "name": "A_frame_B_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "A_frame_B_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "A_frame_B_009"
+            },
+            {
+              "time": 0.3,
+              "name": "A_frame_B_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "A_frame_B_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "A_frame_B_012"
+            },
+            {
+              "time": 0.4,
+              "name": "A_frame_B_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "A_frame_B_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "A_frame_B_015"
+            },
+            {
+              "time": 0.5,
+              "name": "A_frame_B_001"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

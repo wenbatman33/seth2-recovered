@@ -1,0 +1,195 @@
+
+chest_falling.png
+size: 1728,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 971, 105
+  size: 158, 158
+  orig: 160, 160
+  offset: 1, 1
+  index: -1
+02
+  rotate: false
+  xy: 811, 85
+  size: 159, 178
+  orig: 161, 180
+  offset: 1, 1
+  index: -1
+02_light
+  rotate: true
+  xy: 236, 17
+  size: 246, 224
+  orig: 248, 226
+  offset: 1, 1
+  index: -1
+03
+  rotate: false
+  xy: 642, 74
+  size: 168, 189
+  orig: 170, 191
+  offset: 1, 1
+  index: -1
+03_light
+  rotate: true
+  xy: 1, 11
+  size: 252, 234
+  orig: 254, 236
+  offset: 1, 1
+  index: -1
+04
+  rotate: false
+  xy: 461, 73
+  size: 180, 190
+  orig: 180, 190
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 1387, 22
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+particle_01
+  rotate: true
+  xy: 789, 2
+  size: 71, 103
+  orig: 73, 105
+  offset: 1, 1
+  index: -1
+particle_02
+  rotate: true
+  xy: 461, 1
+  size: 71, 104
+  orig: 73, 106
+  offset: 1, 1
+  index: -1
+particle_03
+  rotate: false
+  xy: 1608, 7
+  size: 80, 104
+  orig: 82, 106
+  offset: 1, 1
+  index: -1
+particle_04
+  rotate: false
+  xy: 1493, 12
+  size: 82, 95
+  orig: 84, 97
+  offset: 1, 1
+  index: -1
+particle_05
+  rotate: true
+  xy: 1387, 100
+  size: 83, 105
+  orig: 85, 107
+  offset: 1, 1
+  index: -1
+particle_06
+  rotate: false
+  xy: 1298, 155
+  size: 84, 108
+  orig: 86, 110
+  offset: 1, 1
+  index: -1
+particle_07
+  rotate: false
+  xy: 1218, 39
+  size: 85, 110
+  orig: 87, 112
+  offset: 1, 1
+  index: -1
+particle_08
+  rotate: false
+  xy: 1213, 150
+  size: 84, 113
+  orig: 86, 115
+  offset: 1, 1
+  index: -1
+particle_09
+  rotate: false
+  xy: 1133, 27
+  size: 84, 116
+  orig: 86, 118
+  offset: 1, 1
+  index: -1
+particle_10
+  rotate: true
+  xy: 1014, 21
+  size: 83, 118
+  orig: 85, 120
+  offset: 1, 1
+  index: -1
+particle_11
+  rotate: false
+  xy: 1130, 144
+  size: 82, 119
+  orig: 84, 121
+  offset: 1, 1
+  index: -1
+particle_12
+  rotate: true
+  xy: 893, 2
+  size: 82, 120
+  orig: 84, 122
+  offset: 1, 1
+  index: -1
+particle_13
+  rotate: false
+  xy: 1304, 45
+  size: 82, 109
+  orig: 84, 111
+  offset: 1, 1
+  index: -1
+particle_14
+  rotate: true
+  xy: 1497, 183
+  size: 80, 111
+  orig: 82, 113
+  offset: 1, 1
+  index: -1
+particle_15
+  rotate: true
+  xy: 1383, 184
+  size: 79, 113
+  orig: 81, 115
+  offset: 1, 1
+  index: -1
+particle_16
+  rotate: true
+  xy: 1609, 112
+  size: 75, 114
+  orig: 77, 116
+  offset: 1, 1
+  index: -1
+particle_17
+  rotate: true
+  xy: 1609, 188
+  size: 75, 115
+  orig: 77, 117
+  offset: 1, 1
+  index: -1
+particle_18
+  rotate: true
+  xy: 1493, 108
+  size: 74, 114
+  orig: 76, 116
+  offset: 1, 1
+  index: -1
+particle_19
+  rotate: true
+  xy: 673, 1
+  size: 72, 115
+  orig: 74, 117
+  offset: 1, 1
+  index: -1
+particle_20
+  rotate: true
+  xy: 566, 3
+  size: 69, 106
+  orig: 71, 108
+  offset: 1, 1
+  index: -1

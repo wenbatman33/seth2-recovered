@@ -1,0 +1,27 @@
+{
+  "id": "project-e",
+  "title": "Project-E",
+  "projectId": "project-e",
+  "project": "Project-E",
+  "bundle": "g1012",
+  "gn": "new-vampire-hunter",
+  "gt": "slot-pick-one-of-three-1",
+  "buildDirectory": "build/web",
+  "previewPort": 8185,
+  "scenes": {
+    "portrait": {
+      "url": "db://assets/scenes/mainPortrait.scene",
+      "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+    }
+  },
+  "defaultMode": "portrait",
+  "status": "awaiting-official-build-and-gameplay-validation",
+  "backend": "owned-local-simulation",
+  "layoutEvidence": {
+    "originalGameLayouts": [
+      "portrait"
+    ],
+    "desktop": "original portrait interface fitted to desktop viewport",
+    "noGeneratedLandscapeAssets": true
+  }
+}

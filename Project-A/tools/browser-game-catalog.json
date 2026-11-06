@@ -36,5 +36,187 @@
     },
     "defaultMode": "landscape",
     "project": "Project-B"
+  },
+  {
+    "id": "project-c",
+    "title": "Project-C",
+    "projectId": "project-c",
+    "project": "Project-C",
+    "bundle": "g1009",
+    "gn": "tiger-princess",
+    "gt": "slot-erase-any-times-2",
+    "buildDirectory": "build/web",
+    "previewPort": 8183,
+    "scenes": {
+      "landscape": {
+        "url": "db://assets/scenes/main.scene",
+        "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+      }
+    },
+    "defaultMode": "landscape",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation",
+    "layoutEvidence": {
+      "supportedGameLayout": "landscape",
+      "mobile": "original-landscape-fit",
+      "reason": "Original game bundle has no portrait asset paths; mainPortrait is a shared wrapper scene"
+    }
+  },
+  {
+    "id": "project-d",
+    "title": "Project-D",
+    "projectId": "project-d",
+    "project": "Project-D",
+    "bundle": "g1001",
+    "gn": "egyptian-mythology",
+    "gt": "slot-erase-any-times-1",
+    "buildDirectory": "build/web",
+    "previewPort": 8184,
+    "scenes": {
+      "landscape": {
+        "url": "db://assets/scenes/main.scene",
+        "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+      },
+      "portrait": {
+        "url": "db://assets/scenes/mainPortrait.scene",
+        "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+      }
+    },
+    "defaultMode": "landscape",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation"
+  },
+  {
+    "id": "project-e",
+    "title": "Project-E",
+    "projectId": "project-e",
+    "project": "Project-E",
+    "bundle": "g1012",
+    "gn": "new-vampire-hunter",
+    "gt": "slot-pick-one-of-three-1",
+    "buildDirectory": "build/web",
+    "previewPort": 8185,
+    "scenes": {
+      "portrait": {
+        "url": "db://assets/scenes/mainPortrait.scene",
+        "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+      }
+    },
+    "defaultMode": "portrait",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation",
+    "layoutEvidence": {
+      "originalGameLayouts": [
+        "portrait"
+      ],
+      "desktop": "original portrait interface fitted to desktop viewport",
+      "noGeneratedLandscapeAssets": true
+    }
+  },
+  {
+    "id": "project-f",
+    "title": "Project-F",
+    "projectId": "project-f",
+    "project": "Project-F",
+    "bundle": "g1004",
+    "gn": "wuxia-caishen",
+    "gt": "slot-erase-link-times-1",
+    "buildDirectory": "build/web",
+    "previewPort": 8186,
+    "scenes": {
+      "portrait": {
+        "url": "db://assets/scenes/mainPortrait.scene",
+        "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+      }
+    },
+    "defaultMode": "portrait",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation",
+    "layoutEvidence": {
+      "originalGameLayouts": [
+        "portrait"
+      ],
+      "desktop": "original portrait interface fitted to desktop viewport",
+      "noGeneratedLandscapeAssets": true
+    }
+  },
+  {
+    "id": "project-g",
+    "title": "Project-G",
+    "projectId": "project-g",
+    "project": "Project-G",
+    "bundle": "g1008",
+    "gn": "scarlet-three-kingdoms",
+    "gt": "slot-erase-any-times-1",
+    "buildDirectory": "build/web",
+    "previewPort": 8187,
+    "scenes": {
+      "landscape": {
+        "url": "db://assets/scenes/main.scene",
+        "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+      }
+    },
+    "defaultMode": "landscape",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation",
+    "layoutEvidence": {
+      "supportedGameLayout": "landscape",
+      "mobile": "original-landscape-fit",
+      "reason": "Original game bundle has no portrait asset paths; mainPortrait is a shared wrapper scene"
+    }
+  },
+  {
+    "id": "project-h",
+    "title": "Project-H",
+    "projectId": "project-h",
+    "project": "Project-H",
+    "bundle": "g1011",
+    "gn": "new-jinlian",
+    "gt": "slot-expanding-wild-1",
+    "buildDirectory": "build/web",
+    "previewPort": 8188,
+    "scenes": {
+      "portrait": {
+        "url": "db://assets/scenes/mainPortrait.scene",
+        "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+      }
+    },
+    "defaultMode": "portrait",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation",
+    "layoutEvidence": {
+      "originalGameLayouts": [
+        "portrait"
+      ],
+      "desktop": "original portrait interface fitted to desktop viewport",
+      "noGeneratedLandscapeAssets": true
+    }
+  },
+  {
+    "id": "project-i",
+    "title": "Project-I",
+    "projectId": "project-i",
+    "project": "Project-I",
+    "bundle": "g1002",
+    "gn": "son-go-ku",
+    "gt": "slot-erase-link-times-2",
+    "buildDirectory": "build/web",
+    "previewPort": 8189,
+    "scenes": {
+      "portrait": {
+        "url": "db://assets/scenes/mainPortrait.scene",
+        "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+      }
+    },
+    "defaultMode": "portrait",
+    "status": "awaiting-official-build-and-gameplay-validation",
+    "backend": "owned-local-simulation",
+    "layoutEvidence": {
+      "originalGameLayouts": [
+        "portrait"
+      ],
+      "desktop": "original portrait interface fitted to desktop viewport",
+      "noGeneratedLandscapeAssets": true
+    }
   }
 ]

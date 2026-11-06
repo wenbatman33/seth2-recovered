@@ -1,0 +1,96 @@
+{
+  "project": "Project-H",
+  "observedAt": "2026-11-06T05:55:13.623800+00:00",
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "ui": [
+    {
+      "nativeClass": "JackpotGameView",
+      "path": "Project-H/assets/game/content/prefabs/jackpotGame/JackpotGameView.prefab",
+      "sha256": "39ad3463fc4d143a998eaf76092c6a8903d184c8b341302e67d4c69469dc311f",
+      "sourceCompressedUuid": "e2869bgwh1NmJeVoa496QGz",
+      "serializedComponentFound": true,
+      "nativeItems": 12
+    },
+    {
+      "nativeClass": "HeavenlyTreasuresView",
+      "path": "Project-H/assets/game/content/prefabs/HeavenlyTreasures.prefab",
+      "sha256": "6f2770808e2634e6001072aa11b40683efcc53722a7e98bb010225d7e2bc5f39",
+      "sourceCompressedUuid": "83647DjqZlKZblUZfws6H/5",
+      "serializedComponentFound": true,
+      "nativeItems": null
+    },
+    {
+      "nativeClass": "LuckyWealthView",
+      "path": "Project-H/assets/game/content/prefabs/LuckyWealthView.prefab",
+      "sha256": "4d7cb52b010e7568cc4bca1dcb45d472275bb85691e28335abbc9e914507b02b",
+      "sourceCompressedUuid": "d6d2abI7WpGmJJucCnb5vEJ",
+      "serializedComponentFound": false,
+      "nativeItems": null,
+      "nativeAttachPath": "main-UIManager._addComponent: getComponent(type) || addComponent(type); original native inject-decorated node paths are present",
+      "status": "original prefab present; class dynamically attached by original UIManager"
+    }
+  ],
+  "wire": {
+    "opening": "owned local first close returns localBonusOpening then H native existing START_* state event; original live sender had no bonus routing",
+    "jpGame": {
+      "action": "collect",
+      "actionValue": "integer0..11 from currentTarget.name",
+      "finish": "first three matching own-deck categories",
+      "fields": [
+        "pickPositions[].position",
+        "pickPositions[].category",
+        "totalWinnings"
+      ],
+      "nativeCallbacks": [
+        "JackpotGameView.onOpenItemPosition",
+        "GameSender.sendJackpotGameSelectPosition",
+        "JackpotGameView.removeAllTween",
+        "BonusStates.JP_GAME_CLOSE"
+      ]
+    },
+    "fortuneLanding": {
+      "actions": [
+        "collect",
+        "finish"
+      ],
+      "collect": "exact issued token + actionValue amount; current native onTouchItem uses bonusList[index]",
+      "fields": [
+        "actionOptions[].token",
+        "actionOptions[].amount",
+        "collectValues",
+        "totalWinnings"
+      ],
+      "nativeCallbacks": [
+        "HeavenlyTreasuresView.onTouchItem",
+        "GameSender.sendFortuneLandingCollectReq",
+        "BonusStates.DROP_TREASURE_CLOSE",
+        "GameSender.sendFortuneLandingFinishReq"
+      ],
+      "resume": "remaining boxes + previously collected score; zero remaining goes directly native finish state"
+    },
+    "luckyWealth": {
+      "fields": [
+        "prize",
+        "totalWinnings"
+      ],
+      "nativeCallbacks": [
+        "LuckyWealthView.completeClick",
+        "BonusStates.LUCKY_WEALTH_CLOSE"
+      ],
+      "settlement": "native closeSpin only"
+    }
+  },
+  "unavailable": [
+    "original BuyFeatureView prefab; public definition.buyFeature=[] and local event guard",
+    "elixirFurnace mapping",
+    "original server pools/probability/RTP"
+  ],
+  "validation": {
+    "ordinaryFixtures": 19,
+    "bonusFixtures": 15,
+    "sourceCallbackExecution": true,
+    "browser": false,
+    "officialBuild": false
+  }
+}

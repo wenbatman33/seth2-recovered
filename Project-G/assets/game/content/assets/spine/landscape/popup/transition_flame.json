@@ -1,0 +1,4981 @@
+{
+  "skeleton": {
+    "hash": "zefbl3hrMSfA0bYajdftkosFU5I",
+    "spine": "3.7.94",
+    "width": 1280.65,
+    "height": 720.32
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "board_B",
+      "parent": "root"
+    },
+    {
+      "name": "board_A",
+      "parent": "board_B"
+    },
+    {
+      "name": "board",
+      "parent": "board_A"
+    },
+    {
+      "name": "arrow_A",
+      "parent": "root",
+      "length": 112.14,
+      "rotation": 156.42,
+      "x": -308.79,
+      "y": 189.91
+    },
+    {
+      "name": "bone2",
+      "parent": "arrow_A",
+      "length": 112.14,
+      "x": 112.14
+    },
+    {
+      "name": "arrow_C",
+      "parent": "root",
+      "length": 47.92,
+      "rotation": 136.88,
+      "x": -149.32,
+      "y": 226.15
+    },
+    {
+      "name": "arrow_C2",
+      "parent": "arrow_C",
+      "length": 47.92,
+      "x": 47.92
+    },
+    {
+      "name": "arrow_B",
+      "parent": "root",
+      "length": 86.39,
+      "rotation": -158.63,
+      "x": 234.28,
+      "y": 178.2,
+      "scaleX": -1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "arrow_B2",
+      "parent": "arrow_B",
+      "length": 86.39,
+      "x": 86.39
+    },
+    {
+      "name": "chain_up_L",
+      "parent": "board",
+      "length": 406.29,
+      "rotation": 154.42,
+      "x": -312.98,
+      "y": 250.53
+    },
+    {
+      "name": "chain_up_L2",
+      "parent": "root",
+      "x": -678.04,
+      "y": 425.93
+    },
+    {
+      "name": "chain_up_R",
+      "parent": "board",
+      "length": 392.93,
+      "rotation": 25.36,
+      "x": 320.16,
+      "y": 254.81
+    },
+    {
+      "name": "chain_up_R2",
+      "parent": "root",
+      "x": 673.81,
+      "y": 423.08
+    },
+    {
+      "name": "chain_down_L",
+      "parent": "board",
+      "length": 406.47,
+      "rotation": -148.48,
+      "x": -321.54,
+      "y": -245.71
+    },
+    {
+      "name": "cjain_down_L",
+      "parent": "root",
+      "x": -671.61,
+      "y": -459.22
+    },
+    {
+      "name": "chain_down_R",
+      "parent": "board",
+      "length": 398.08,
+      "rotation": -31.02,
+      "x": 319.66,
+      "y": -247.86
+    },
+    {
+      "name": "chain_chain_R",
+      "parent": "root",
+      "x": 659.56,
+      "y": -453.04
+    },
+    {
+      "name": "title",
+      "parent": "board",
+      "x": 0.5,
+      "y": 74
+    },
+    {
+      "name": "frame_light",
+      "parent": "board",
+      "x": 1.16
+    },
+    {
+      "name": "lightsweep",
+      "parent": "board",
+      "rotation": -25.83,
+      "x": 317.45,
+      "y": 330.78,
+      "scaleX": 7.434,
+      "scaleY": 21.384
+    },
+    {
+      "name": "glow",
+      "parent": "root",
+      "rotation": 67.24,
+      "x": -403.53,
+      "y": 316.29,
+      "scaleX": 3.95,
+      "scaleY": 3.95
+    },
+    {
+      "name": "glow2",
+      "parent": "root",
+      "rotation": 113.91,
+      "x": 400.73,
+      "y": 316.29,
+      "scaleX": 3.954,
+      "scaleY": 3.954
+    },
+    {
+      "name": "glow3",
+      "parent": "root",
+      "rotation": 130.52,
+      "x": -410.89,
+      "y": -302.37,
+      "scaleX": 3.95,
+      "scaleY": 3.95
+    },
+    {
+      "name": "glow4",
+      "parent": "root",
+      "rotation": 58.53,
+      "x": 419.88,
+      "y": -302.37,
+      "scaleX": 3.95,
+      "scaleY": 3.95
+    },
+    {
+      "name": "glow5",
+      "parent": "root",
+      "rotation": 89.45,
+      "x": -318.99,
+      "y": -240.54,
+      "scaleX": 3.16,
+      "scaleY": 28.758
+    },
+    {
+      "name": "light",
+      "parent": "board",
+      "x": 214.93,
+      "y": 281.5
+    },
+    {
+      "name": "light2",
+      "parent": "board",
+      "x": -277.29,
+      "y": 281.5
+    },
+    {
+      "name": "burning",
+      "parent": "board",
+      "y": -10,
+      "scaleX": 3.33,
+      "scaleY": 3.33
+    },
+    {
+      "name": "burning2",
+      "parent": "board",
+      "scaleX": 3.33,
+      "scaleY": 3.33
+    },
+    {
+      "name": "arrow_C3",
+      "parent": "board",
+      "length": 47.92,
+      "rotation": 170.29,
+      "x": -92.84,
+      "y": -151.98,
+      "scaleX": 1.47,
+      "scaleY": 1.47
+    },
+    {
+      "name": "arrow_C4",
+      "parent": "arrow_C3",
+      "length": 47.92,
+      "x": 47.92
+    },
+    {
+      "name": "arrow_A2",
+      "parent": "board",
+      "length": 112.14,
+      "rotation": 156.42,
+      "x": -308.79,
+      "y": 189.91
+    },
+    {
+      "name": "bone3",
+      "parent": "arrow_A2",
+      "length": 112.14,
+      "x": 112.14
+    },
+    {
+      "name": "arrow_B3",
+      "parent": "board",
+      "length": 86.39,
+      "rotation": -158.63,
+      "x": 234.28,
+      "y": 178.2,
+      "scaleX": -1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "arrow_B4",
+      "parent": "arrow_B3",
+      "length": 86.39,
+      "x": 86.39
+    },
+    {
+      "name": "fireaball",
+      "parent": "arrow_A2",
+      "rotation": -11.41,
+      "x": -66.76,
+      "y": -1.11,
+      "scaleX": 2.452,
+      "scaleY": 2.452
+    },
+    {
+      "name": "fireaball2",
+      "parent": "arrow_A",
+      "rotation": -11.41,
+      "x": -66.76,
+      "y": -1.11,
+      "scaleX": 2.452,
+      "scaleY": 2.452
+    },
+    {
+      "name": "fireaball3",
+      "parent": "arrow_B",
+      "rotation": -6.12,
+      "x": -38.35,
+      "y": -4.79,
+      "scaleX": 1.671,
+      "scaleY": 1.671
+    },
+    {
+      "name": "fireaball4",
+      "parent": "arrow_B3",
+      "rotation": -6.12,
+      "x": -38.35,
+      "y": -4.79,
+      "scaleX": 1.671,
+      "scaleY": 1.671
+    },
+    {
+      "name": "fireaball5",
+      "parent": "arrow_C",
+      "rotation": 8.13,
+      "x": 29.09,
+      "y": 112.07,
+      "scaleX": 2.452,
+      "scaleY": 2.452
+    },
+    {
+      "name": "fireaball6",
+      "parent": "arrow_C3",
+      "rotation": -25.28,
+      "x": 139.76,
+      "y": -194.32,
+      "scaleX": 2.452,
+      "scaleY": 2.452
+    },
+    {
+      "name": "fireA",
+      "parent": "board",
+      "x": 913.31,
+      "y": -406.88
+    },
+    {
+      "name": "fireB",
+      "parent": "board",
+      "x": 783.08,
+      "y": -410.87
+    },
+    {
+      "name": "fireA2",
+      "parent": "board",
+      "x": 913.31,
+      "y": -406.88
+    },
+    {
+      "name": "fireB2",
+      "parent": "board",
+      "x": 783.08,
+      "y": -410.87
+    },
+    {
+      "name": "fireB3",
+      "parent": "board",
+      "x": 783.08,
+      "y": -410.87
+    },
+    {
+      "name": "fireA3",
+      "parent": "board",
+      "x": 913.31,
+      "y": -406.88
+    },
+    {
+      "name": "fire",
+      "parent": "board",
+      "x": -4.54,
+      "y": -236.08
+    },
+    {
+      "name": "fire2",
+      "parent": "root",
+      "x": -4.54,
+      "y": -236.08
+    },
+    {
+      "name": "fire3",
+      "parent": "root",
+      "x": -4.54,
+      "y": -236.08
+    },
+    {
+      "name": "fire4",
+      "parent": "board",
+      "x": -4.54,
+      "y": -236.08
+    },
+    {
+      "name": "flame",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "mask",
+      "bone": "root",
+      "attachment": "mask"
+    },
+    {
+      "name": "bg_X",
+      "bone": "root"
+    },
+    {
+      "name": "black",
+      "bone": "root",
+      "attachment": "black"
+    },
+    {
+      "name": "fire_11",
+      "bone": "fire2",
+      "blend": "additive"
+    },
+    {
+      "name": "fire_12",
+      "bone": "fire3",
+      "blend": "additive"
+    },
+    {
+      "name": "fire_13",
+      "bone": "fire4",
+      "blend": "additive"
+    },
+    {
+      "name": "down_light",
+      "bone": "root",
+      "attachment": "down_light",
+      "blend": "additive"
+    },
+    {
+      "name": "frame_light",
+      "bone": "frame_light",
+      "attachment": "frame_light",
+      "blend": "additive"
+    },
+    {
+      "name": "chain_down_R2",
+      "bone": "board",
+      "attachment": "chain_down_R2"
+    },
+    {
+      "name": "chain_down_L2",
+      "bone": "board",
+      "attachment": "chain_down_L2"
+    },
+    {
+      "name": "chain_up_R2",
+      "bone": "board",
+      "attachment": "chain_up_R2"
+    },
+    {
+      "name": "chain_up_L2",
+      "bone": "board",
+      "attachment": "chain_up_L2"
+    },
+    {
+      "name": "board",
+      "bone": "board",
+      "attachment": "board"
+    },
+    {
+      "name": "burning_01",
+      "bone": "burning"
+    },
+    {
+      "name": "burning_1",
+      "bone": "burning2",
+      "blend": "additive"
+    },
+    {
+      "name": "chain_down_R",
+      "bone": "chain_down_R",
+      "attachment": "chain_down_R"
+    },
+    {
+      "name": "chain_down_L",
+      "bone": "chain_down_L",
+      "attachment": "chain_down_L"
+    },
+    {
+      "name": "chain_up_R",
+      "bone": "chain_up_R",
+      "attachment": "chain_up_R"
+    },
+    {
+      "name": "chain_up_L",
+      "bone": "chain_up_L",
+      "attachment": "chain_up_L"
+    },
+    {
+      "name": "arrow_C",
+      "bone": "arrow_C"
+    },
+    {
+      "name": "arrow_C2",
+      "bone": "arrow_C3"
+    },
+    {
+      "name": "arrow_B",
+      "bone": "arrow_B"
+    },
+    {
+      "name": "arrow_B2",
+      "bone": "arrow_B3"
+    },
+    {
+      "name": "arrow_A",
+      "bone": "arrow_A"
+    },
+    {
+      "name": "arrow_A2",
+      "bone": "arrow_A2"
+    },
+    {
+      "name": "fireA_01",
+      "bone": "fireA",
+      "blend": "additive"
+    },
+    {
+      "name": "fireA_2",
+      "bone": "fireA3",
+      "blend": "additive"
+    },
+    {
+      "name": "fireA_1",
+      "bone": "fireA2",
+      "blend": "additive"
+    },
+    {
+      "name": "fireB_01",
+      "bone": "fireB",
+      "blend": "additive"
+    },
+    {
+      "name": "fireB_1",
+      "bone": "fireB2",
+      "blend": "additive"
+    },
+    {
+      "name": "fireB_2",
+      "bone": "fireB3",
+      "blend": "additive"
+    },
+    {
+      "name": "fire_10",
+      "bone": "fire",
+      "blend": "additive"
+    },
+    {
+      "name": "UI",
+      "bone": "board"
+    },
+    {
+      "name": "title",
+      "bone": "title"
+    },
+    {
+      "name": "glow",
+      "bone": "glow",
+      "color": "ff4c0063",
+      "blend": "additive"
+    },
+    {
+      "name": "glow3",
+      "bone": "glow3",
+      "color": "ff4c0063",
+      "blend": "additive"
+    },
+    {
+      "name": "glow5",
+      "bone": "glow5",
+      "color": "ff4c0063",
+      "blend": "additive"
+    },
+    {
+      "name": "glow4",
+      "bone": "glow4",
+      "color": "ff4c0063",
+      "blend": "additive"
+    },
+    {
+      "name": "glow2",
+      "bone": "glow2",
+      "color": "ff4c0063",
+      "blend": "additive"
+    },
+    {
+      "name": "light",
+      "bone": "light",
+      "blend": "additive"
+    },
+    {
+      "name": "light2",
+      "bone": "light2",
+      "blend": "additive"
+    },
+    {
+      "name": "fireball_01",
+      "bone": "fireaball",
+      "blend": "additive"
+    },
+    {
+      "name": "fireball_1",
+      "bone": "fireaball2",
+      "blend": "additive"
+    },
+    {
+      "name": "fireball_4",
+      "bone": "fireaball5",
+      "blend": "additive"
+    },
+    {
+      "name": "fireball_5",
+      "bone": "fireaball6",
+      "blend": "additive"
+    },
+    {
+      "name": "fireball_2",
+      "bone": "fireaball3",
+      "blend": "additive"
+    },
+    {
+      "name": "fireball_3",
+      "bone": "fireaball4",
+      "blend": "additive"
+    },
+    {
+      "name": "board_mask",
+      "bone": "board",
+      "attachment": "board_mask"
+    },
+    {
+      "name": "lightsweep",
+      "bone": "lightsweep",
+      "color": "ffb8623d",
+      "blend": "additive"
+    },
+    {
+      "name": "flame_00",
+      "bone": "flame"
+    }
+  ],
+  "ik": [
+    {
+      "name": "chain_chain_R",
+      "order": 3,
+      "target": "chain_chain_R",
+      "compress": true,
+      "stretch": true,
+      "bones": [
+        "chain_down_R"
+      ]
+    },
+    {
+      "name": "chain_down_L",
+      "order": 2,
+      "target": "cjain_down_L",
+      "compress": true,
+      "stretch": true,
+      "bones": [
+        "chain_down_L"
+      ]
+    },
+    {
+      "name": "chain_up_L",
+      "order": 0,
+      "target": "chain_up_L2",
+      "compress": true,
+      "stretch": true,
+      "bones": [
+        "chain_up_L"
+      ]
+    },
+    {
+      "name": "chain_up_R",
+      "order": 1,
+      "target": "chain_up_R2",
+      "compress": true,
+      "stretch": true,
+      "bones": [
+        "chain_up_R"
+      ]
+    }
+  ],
+  "skins": {
+    "default": {
+      "arrow_A": {
+        "arrow_A": {
+          "x": 105.46,
+          "y": -8.62,
+          "rotation": -156.42,
+          "width": 274,
+          "height": 136
+        },
+        "arrow_A_motion": {
+          "x": 105.46,
+          "y": -8.62,
+          "rotation": -156.42,
+          "width": 327,
+          "height": 166
+        }
+      },
+      "arrow_A2": {
+        "arrow_A": {
+          "x": 105.46,
+          "y": -8.62,
+          "rotation": -156.42,
+          "width": 274,
+          "height": 136
+        },
+        "arrow_A_motion": {
+          "x": 105.46,
+          "y": -8.62,
+          "rotation": -156.42,
+          "width": 327,
+          "height": 166
+        }
+      },
+      "arrow_B": {
+        "arrow_B": {
+          "x": 88.66,
+          "y": 5.58,
+          "rotation": 158.63,
+          "width": 207,
+          "height": 105
+        },
+        "arrow_B_motion": {
+          "x": 88.66,
+          "y": 5.58,
+          "rotation": 158.63,
+          "width": 243,
+          "height": 123
+        }
+      },
+      "arrow_B2": {
+        "arrow_B": {
+          "x": 88.66,
+          "y": 5.58,
+          "rotation": 158.63,
+          "width": 207,
+          "height": 105
+        }
+      },
+      "arrow_C": {
+        "arrow_C": {
+          "x": 44.53,
+          "y": -1.94,
+          "rotation": -136.88,
+          "width": 119,
+          "height": 110
+        },
+        "arrow_C_motion": {
+          "x": 44.53,
+          "y": -1.94,
+          "rotation": -136.88,
+          "width": 135,
+          "height": 128
+        }
+      },
+      "arrow_C2": {
+        "arrow_C": {
+          "x": 44.53,
+          "y": -1.94,
+          "rotation": -136.88,
+          "width": 119,
+          "height": 110
+        }
+      },
+      "bg_X": {
+        "bg2_X": {
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "black": {
+        "black": {
+          "scaleX": 20.144,
+          "scaleY": 20.144,
+          "width": 66,
+          "height": 38
+        }
+      },
+      "board": {
+        "board": {
+          "y": 8.5,
+          "width": 722,
+          "height": 575
+        }
+      },
+      "board_mask": {
+        "board_mask": {
+          "type": "clipping",
+          "end": "lightsweep",
+          "vertexCount": 18,
+          "vertices": [
+            -359.63,
+            177.3,
+            -359.84,
+            294.02,
+            -251.64,
+            292.75,
+            -233.38,
+            276.9,
+            233.92,
+            276.9,
+            252.28,
+            292.43,
+            359.24,
+            293.49,
+            359.73,
+            176.23,
+            347.81,
+            164.79,
+            349.46,
+            -90.34,
+            317.31,
+            -90.47,
+            316.97,
+            185.91,
+            260.26,
+            246.14,
+            -260.04,
+            247,
+            -309.69,
+            194.39,
+            -310.87,
+            -90.42,
+            -347.75,
+            -90.43,
+            -347.11,
+            163.2
+          ]
+        }
+      },
+      "burning_01": {
+        "burning_01": {
+          "x": -24.5,
+          "y": -46.5,
+          "width": 11,
+          "height": 19
+        },
+        "burning_02": {
+          "x": -24.5,
+          "y": -46,
+          "width": 15,
+          "height": 24
+        },
+        "burning_04": {
+          "x": -1,
+          "y": -19,
+          "width": 72,
+          "height": 82
+        },
+        "burning_05": {
+          "x": -1,
+          "y": -16.5,
+          "width": 74,
+          "height": 89
+        },
+        "burning_07": {
+          "x": -1,
+          "y": -14,
+          "width": 80,
+          "height": 96
+        },
+        "burning_08": {
+          "y": -14,
+          "width": 84,
+          "height": 98
+        },
+        "burning_10": {
+          "x": -1,
+          "y": -14,
+          "width": 92,
+          "height": 100
+        },
+        "burning_11": {
+          "x": -1.5,
+          "y": -14,
+          "width": 95,
+          "height": 102
+        },
+        "burning_13": {
+          "x": -8.5,
+          "y": 4,
+          "width": 111,
+          "height": 146
+        },
+        "burning_14": {
+          "x": -8,
+          "y": 4.5,
+          "width": 116,
+          "height": 147
+        },
+        "burning_16": {
+          "x": 3,
+          "y": 4,
+          "width": 146,
+          "height": 148
+        },
+        "burning_17": {
+          "x": 2,
+          "y": 4,
+          "width": 148,
+          "height": 148
+        },
+        "burning_19": {
+          "x": 4,
+          "y": 4,
+          "width": 160,
+          "height": 148
+        },
+        "burning_20": {
+          "x": 8.5,
+          "y": 4,
+          "width": 169,
+          "height": 148
+        },
+        "burning_22": {
+          "x": 8.5,
+          "y": 4,
+          "width": 173,
+          "height": 148
+        },
+        "burning_23": {
+          "x": 8,
+          "y": 4,
+          "width": 176,
+          "height": 148
+        },
+        "burning_25": {
+          "x": 7.5,
+          "y": 4,
+          "width": 177,
+          "height": 148
+        },
+        "burning_26": {
+          "x": 6,
+          "y": 4,
+          "width": 180,
+          "height": 148
+        },
+        "burning_28": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_29": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_31": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_32": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_34": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_35": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_37": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_38": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_40": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_41": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_43": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_44": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_46": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_47": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_49": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_50": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_52": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_53": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_55": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        },
+        "burning_56": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        },
+        "burning_58": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        },
+        "burning_59": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        }
+      },
+      "burning_1": {
+        "burning_01": {
+          "x": -24.5,
+          "y": -46.5,
+          "width": 11,
+          "height": 19
+        },
+        "burning_02": {
+          "x": -24.5,
+          "y": -46,
+          "width": 15,
+          "height": 24
+        },
+        "burning_04": {
+          "x": -1,
+          "y": -19,
+          "width": 72,
+          "height": 82
+        },
+        "burning_05": {
+          "x": -1,
+          "y": -16.5,
+          "width": 74,
+          "height": 89
+        },
+        "burning_07": {
+          "x": -1,
+          "y": -14,
+          "width": 80,
+          "height": 96
+        },
+        "burning_08": {
+          "y": -14,
+          "width": 84,
+          "height": 98
+        },
+        "burning_10": {
+          "x": -1,
+          "y": -14,
+          "width": 92,
+          "height": 100
+        },
+        "burning_11": {
+          "x": -1.5,
+          "y": -14,
+          "width": 95,
+          "height": 102
+        },
+        "burning_13": {
+          "x": -8.5,
+          "y": 4,
+          "width": 111,
+          "height": 146
+        },
+        "burning_14": {
+          "x": -8,
+          "y": 4.5,
+          "width": 116,
+          "height": 147
+        },
+        "burning_16": {
+          "x": 3,
+          "y": 4,
+          "width": 146,
+          "height": 148
+        },
+        "burning_17": {
+          "x": 2,
+          "y": 4,
+          "width": 148,
+          "height": 148
+        },
+        "burning_19": {
+          "x": 4,
+          "y": 4,
+          "width": 160,
+          "height": 148
+        },
+        "burning_20": {
+          "x": 8.5,
+          "y": 4,
+          "width": 169,
+          "height": 148
+        },
+        "burning_22": {
+          "x": 8.5,
+          "y": 4,
+          "width": 173,
+          "height": 148
+        },
+        "burning_23": {
+          "x": 8,
+          "y": 4,
+          "width": 176,
+          "height": 148
+        },
+        "burning_25": {
+          "x": 7.5,
+          "y": 4,
+          "width": 177,
+          "height": 148
+        },
+        "burning_26": {
+          "x": 6,
+          "y": 4,
+          "width": 180,
+          "height": 148
+        },
+        "burning_28": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_29": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_31": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_32": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_34": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_35": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_37": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_38": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_40": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_41": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_43": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_44": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_46": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_47": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_49": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_50": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_52": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_53": {
+          "x": 0.5,
+          "y": 4,
+          "width": 191,
+          "height": 148
+        },
+        "burning_55": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        },
+        "burning_56": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        },
+        "burning_58": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        },
+        "burning_59": {
+          "x": 0.5,
+          "y": 3.5,
+          "width": 191,
+          "height": 149
+        }
+      },
+      "chain_down_L": {
+        "chain_down_L": {
+          "x": 198.82,
+          "y": 1.01,
+          "rotation": 148.48,
+          "width": 351,
+          "height": 223
+        }
+      },
+      "chain_down_L2": {
+        "chain_down_L2": {
+          "x": -365,
+          "y": -254,
+          "width": 128,
+          "height": 72
+        }
+      },
+      "chain_down_R": {
+        "chain_down_R": {
+          "x": 199.13,
+          "y": -0.59,
+          "rotation": 31.02,
+          "width": 350,
+          "height": 222
+        }
+      },
+      "chain_down_R2": {
+        "chain_down_R2": {
+          "x": 364.5,
+          "y": -254,
+          "width": 127,
+          "height": 72
+        }
+      },
+      "chain_up_L": {
+        "chain_up_L": {
+          "x": 203.28,
+          "y": -0.79,
+          "rotation": -154.42,
+          "width": 368,
+          "height": 190
+        }
+      },
+      "chain_up_L2": {
+        "chain_up_L2": {
+          "x": -354,
+          "y": 276.5,
+          "width": 106,
+          "height": 83
+        }
+      },
+      "chain_up_R": {
+        "chain_up_R": {
+          "x": 193.59,
+          "y": 1.42,
+          "rotation": -25.36,
+          "width": 367,
+          "height": 190
+        }
+      },
+      "chain_up_R2": {
+        "chain_up_R2": {
+          "x": 353.5,
+          "y": 275,
+          "width": 105,
+          "height": 84
+        }
+      },
+      "down_light": {
+        "down_light": {
+          "x": 6.77,
+          "y": -201.16,
+          "scaleX": 41.435,
+          "scaleY": 1.267,
+          "width": 35,
+          "height": 261
+        }
+      },
+      "fireA_01": {
+        "fireA_01": {
+          "x": 3.69,
+          "y": 13.38,
+          "width": 86,
+          "height": 91
+        },
+        "fireA_02": {
+          "x": 5.69,
+          "y": 18.88,
+          "width": 92,
+          "height": 104
+        },
+        "fireA_03": {
+          "x": 11.69,
+          "y": 23.88,
+          "width": 96,
+          "height": 114
+        },
+        "fireA_04": {
+          "x": 12.69,
+          "y": 40.88,
+          "width": 118,
+          "height": 146
+        },
+        "fireA_05": {
+          "x": 14.19,
+          "y": 42.88,
+          "width": 121,
+          "height": 150
+        },
+        "fireA_06": {
+          "x": 14.69,
+          "y": 43.88,
+          "width": 122,
+          "height": 152
+        },
+        "fireA_07": {
+          "x": 14.19,
+          "y": 42.88,
+          "width": 121,
+          "height": 150
+        },
+        "fireA_08": {
+          "x": 14.69,
+          "y": 41.88,
+          "width": 122,
+          "height": 150
+        },
+        "fireA_09": {
+          "x": 14.69,
+          "y": 41.38,
+          "width": 122,
+          "height": 149
+        },
+        "fireA_10": {
+          "x": 14.69,
+          "y": 40.88,
+          "width": 122,
+          "height": 148
+        },
+        "fireA_11": {
+          "x": 14.69,
+          "y": 41.88,
+          "width": 122,
+          "height": 148
+        },
+        "fireA_12": {
+          "x": 15.19,
+          "y": 42.88,
+          "width": 123,
+          "height": 150
+        },
+        "fireA_13": {
+          "x": 16.19,
+          "y": 43.38,
+          "width": 125,
+          "height": 151
+        },
+        "fireA_14": {
+          "x": 16.19,
+          "y": 43.88,
+          "width": 125,
+          "height": 152
+        },
+        "fireA_15": {
+          "x": 15.19,
+          "y": 43.38,
+          "width": 123,
+          "height": 151
+        },
+        "fireA_16": {
+          "x": 14.19,
+          "y": 40.88,
+          "width": 121,
+          "height": 146
+        },
+        "fireA_17": {
+          "x": 12.19,
+          "y": 40.88,
+          "width": 119,
+          "height": 148
+        },
+        "fireA_18": {
+          "x": 12.69,
+          "y": 41.38,
+          "width": 120,
+          "height": 149
+        },
+        "fireA_19": {
+          "x": 12.69,
+          "y": 39.38,
+          "width": 118,
+          "height": 145
+        },
+        "fireA_20": {
+          "x": 13.69,
+          "y": 39.88,
+          "width": 120,
+          "height": 146
+        },
+        "fireA_21": {
+          "x": 13.69,
+          "y": 40.38,
+          "width": 120,
+          "height": 145
+        },
+        "fireA_22": {
+          "x": 12.69,
+          "y": 38.88,
+          "width": 118,
+          "height": 142
+        },
+        "fireA_23": {
+          "x": 13.69,
+          "y": 41.38,
+          "width": 120,
+          "height": 147
+        },
+        "fireA_24": {
+          "x": 13.69,
+          "y": 42.38,
+          "width": 122,
+          "height": 149
+        },
+        "fireA_25": {
+          "x": 9.19,
+          "y": 36.88,
+          "width": 113,
+          "height": 140
+        },
+        "fireA_26": {
+          "x": 8.69,
+          "y": 36.38,
+          "width": 112,
+          "height": 139
+        },
+        "fireA_27": {
+          "x": 8.69,
+          "y": 37.38,
+          "width": 112,
+          "height": 139
+        },
+        "fireA_28": {
+          "x": 9.19,
+          "y": 38.88,
+          "width": 113,
+          "height": 142
+        },
+        "fireA_29": {
+          "x": 9.69,
+          "y": 38.88,
+          "width": 114,
+          "height": 142
+        },
+        "fireA_30": {
+          "x": 9.19,
+          "y": 37.88,
+          "width": 113,
+          "height": 142
+        }
+      },
+      "fireA_1": {
+        "fireA_01": {
+          "x": 3.69,
+          "y": 13.38,
+          "width": 86,
+          "height": 91
+        },
+        "fireA_02": {
+          "x": 5.69,
+          "y": 18.88,
+          "width": 92,
+          "height": 104
+        },
+        "fireA_03": {
+          "x": 11.69,
+          "y": 23.88,
+          "width": 96,
+          "height": 114
+        },
+        "fireA_04": {
+          "x": 12.69,
+          "y": 40.88,
+          "width": 118,
+          "height": 146
+        },
+        "fireA_05": {
+          "x": 14.19,
+          "y": 42.88,
+          "width": 121,
+          "height": 150
+        },
+        "fireA_06": {
+          "x": 14.69,
+          "y": 43.88,
+          "width": 122,
+          "height": 152
+        },
+        "fireA_07": {
+          "x": 14.19,
+          "y": 42.88,
+          "width": 121,
+          "height": 150
+        },
+        "fireA_08": {
+          "x": 14.69,
+          "y": 41.88,
+          "width": 122,
+          "height": 150
+        },
+        "fireA_09": {
+          "x": 14.69,
+          "y": 41.38,
+          "width": 122,
+          "height": 149
+        },
+        "fireA_10": {
+          "x": 14.69,
+          "y": 40.88,
+          "width": 122,
+          "height": 148
+        },
+        "fireA_11": {
+          "x": 14.69,
+          "y": 41.88,
+          "width": 122,
+          "height": 148
+        },
+        "fireA_12": {
+          "x": 15.19,
+          "y": 42.88,
+          "width": 123,
+          "height": 150
+        },
+        "fireA_13": {
+          "x": 16.19,
+          "y": 43.38,
+          "width": 125,
+          "height": 151
+        },
+        "fireA_14": {
+          "x": 16.19,
+          "y": 43.88,
+          "width": 125,
+          "height": 152
+        },
+        "fireA_15": {
+          "x": 15.19,
+          "y": 43.38,
+          "width": 123,
+          "height": 151
+        },
+        "fireA_16": {
+          "x": 14.19,
+          "y": 40.88,
+          "width": 121,
+          "height": 146
+        },
+        "fireA_17": {
+          "x": 12.19,
+          "y": 40.88,
+          "width": 119,
+          "height": 148
+        },
+        "fireA_18": {
+          "x": 12.69,
+          "y": 41.38,
+          "width": 120,
+          "height": 149
+        },
+        "fireA_19": {
+          "x": 12.69,
+          "y": 39.38,
+          "width": 118,
+          "height": 145
+        },
+        "fireA_20": {
+          "x": 13.69,
+          "y": 39.88,
+          "width": 120,
+          "height": 146
+        },
+        "fireA_21": {
+          "x": 13.69,
+          "y": 40.38,
+          "width": 120,
+          "height": 145
+        },
+        "fireA_22": {
+          "x": 12.69,
+          "y": 38.88,
+          "width": 118,
+          "height": 142
+        },
+        "fireA_23": {
+          "x": 13.69,
+          "y": 41.38,
+          "width": 120,
+          "height": 147
+        },
+        "fireA_24": {
+          "x": 13.69,
+          "y": 42.38,
+          "width": 122,
+          "height": 149
+        },
+        "fireA_25": {
+          "x": 9.19,
+          "y": 36.88,
+          "width": 113,
+          "height": 140
+        },
+        "fireA_26": {
+          "x": 8.69,
+          "y": 36.38,
+          "width": 112,
+          "height": 139
+        },
+        "fireA_27": {
+          "x": 8.69,
+          "y": 37.38,
+          "width": 112,
+          "height": 139
+        },
+        "fireA_28": {
+          "x": 9.19,
+          "y": 38.88,
+          "width": 113,
+          "height": 142
+        },
+        "fireA_29": {
+          "x": 9.69,
+          "y": 38.88,
+          "width": 114,
+          "height": 142
+        },
+        "fireA_30": {
+          "x": 9.19,
+          "y": 37.88,
+          "width": 113,
+          "height": 142
+        }
+      },
+      "fireA_2": {
+        "fireA_01": {
+          "x": 3.69,
+          "y": 13.38,
+          "width": 86,
+          "height": 91
+        },
+        "fireA_02": {
+          "x": 5.69,
+          "y": 18.88,
+          "width": 92,
+          "height": 104
+        },
+        "fireA_03": {
+          "x": 11.69,
+          "y": 23.88,
+          "width": 96,
+          "height": 114
+        },
+        "fireA_04": {
+          "x": 12.69,
+          "y": 40.88,
+          "width": 118,
+          "height": 146
+        },
+        "fireA_05": {
+          "x": 14.19,
+          "y": 42.88,
+          "width": 121,
+          "height": 150
+        },
+        "fireA_06": {
+          "x": 14.69,
+          "y": 43.88,
+          "width": 122,
+          "height": 152
+        },
+        "fireA_07": {
+          "x": 14.19,
+          "y": 42.88,
+          "width": 121,
+          "height": 150
+        },
+        "fireA_08": {
+          "x": 14.69,
+          "y": 41.88,
+          "width": 122,
+          "height": 150
+        },
+        "fireA_09": {
+          "x": 14.69,
+          "y": 41.38,
+          "width": 122,
+          "height": 149
+        },
+        "fireA_10": {
+          "x": 14.69,
+          "y": 40.88,
+          "width": 122,
+          "height": 148
+        },
+        "fireA_11": {
+          "x": 14.69,
+          "y": 41.88,
+          "width": 122,
+          "height": 148
+        },
+        "fireA_12": {
+          "x": 15.19,
+          "y": 42.88,
+          "width": 123,
+          "height": 150
+        },
+        "fireA_13": {
+          "x": 16.19,
+          "y": 43.38,
+          "width": 125,
+          "height": 151
+        },
+        "fireA_14": {
+          "x": 16.19,
+          "y": 43.88,
+          "width": 125,
+          "height": 152
+        },
+        "fireA_15": {
+          "x": 15.19,
+          "y": 43.38,
+          "width": 123,
+          "height": 151
+        },
+        "fireA_16": {
+          "x": 14.19,
+          "y": 40.88,
+          "width": 121,
+          "height": 146
+        },
+        "fireA_17": {
+          "x": 12.19,
+          "y": 40.88,
+          "width": 119,
+          "height": 148
+        },
+        "fireA_18": {
+          "x": 12.69,
+          "y": 41.38,
+          "width": 120,
+          "height": 149
+        },
+        "fireA_19": {
+          "x": 12.69,
+          "y": 39.38,
+          "width": 118,
+          "height": 145
+        },
+        "fireA_20": {
+          "x": 13.69,
+          "y": 39.88,
+          "width": 120,
+          "height": 146
+        },
+        "fireA_21": {
+          "x": 13.69,
+          "y": 40.38,
+          "width": 120,
+          "height": 145
+        },
+        "fireA_22": {
+          "x": 12.69,
+          "y": 38.88,
+          "width": 118,
+          "height": 142
+        },
+        "fireA_23": {
+          "x": 13.69,
+          "y": 41.38,
+          "width": 120,
+          "height": 147
+        },
+        "fireA_24": {
+          "x": 13.69,
+          "y": 42.38,
+          "width": 122,
+          "height": 149
+        },
+        "fireA_25": {
+          "x": 9.19,
+          "y": 36.88,
+          "width": 113,
+          "height": 140
+        },
+        "fireA_26": {
+          "x": 8.69,
+          "y": 36.38,
+          "width": 112,
+          "height": 139
+        },
+        "fireA_27": {
+          "x": 8.69,
+          "y": 37.38,
+          "width": 112,
+          "height": 139
+        },
+        "fireA_28": {
+          "x": 9.19,
+          "y": 38.88,
+          "width": 113,
+          "height": 142
+        },
+        "fireA_29": {
+          "x": 9.69,
+          "y": 38.88,
+          "width": 114,
+          "height": 142
+        },
+        "fireA_30": {
+          "x": 9.19,
+          "y": 37.88,
+          "width": 113,
+          "height": 142
+        }
+      },
+      "fireB_01": {
+        "fireB_01": {
+          "x": 1.42,
+          "y": 11.37,
+          "width": 127,
+          "height": 101
+        },
+        "fireB_02": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_03": {
+          "x": 1.42,
+          "y": 12.37,
+          "width": 129,
+          "height": 105
+        },
+        "fireB_04": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 130,
+          "height": 105
+        },
+        "fireB_05": {
+          "x": 2.42,
+          "y": 12.37,
+          "width": 129,
+          "height": 105
+        },
+        "fireB_06": {
+          "x": 2.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 106
+        },
+        "fireB_07": {
+          "x": 2.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_08": {
+          "x": 1.92,
+          "y": 11.87,
+          "width": 128,
+          "height": 102
+        },
+        "fireB_09": {
+          "x": 1.42,
+          "y": 11.37,
+          "width": 127,
+          "height": 101
+        },
+        "fireB_10": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_11": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_12": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_13": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_14": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_15": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_16": {
+          "x": 1.92,
+          "y": 11.87,
+          "width": 128,
+          "height": 104
+        },
+        "fireB_17": {
+          "x": 1.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_18": {
+          "x": 0.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_19": {
+          "x": 0.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_20": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_21": {
+          "x": 1.42,
+          "y": 12.37,
+          "width": 127,
+          "height": 103
+        },
+        "fireB_22": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_23": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_24": {
+          "x": 1.92,
+          "y": 12.87,
+          "width": 128,
+          "height": 104
+        },
+        "fireB_25": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 105
+        },
+        "fireB_26": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 105
+        },
+        "fireB_27": {
+          "x": 0.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_28": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_29": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_30": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 101
+        }
+      },
+      "fireB_1": {
+        "fireB_01": {
+          "x": 1.42,
+          "y": 11.37,
+          "width": 127,
+          "height": 101
+        },
+        "fireB_02": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_03": {
+          "x": 1.42,
+          "y": 12.37,
+          "width": 129,
+          "height": 105
+        },
+        "fireB_04": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 130,
+          "height": 105
+        },
+        "fireB_05": {
+          "x": 2.42,
+          "y": 12.37,
+          "width": 129,
+          "height": 105
+        },
+        "fireB_06": {
+          "x": 2.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 106
+        },
+        "fireB_07": {
+          "x": 2.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_08": {
+          "x": 1.92,
+          "y": 11.87,
+          "width": 128,
+          "height": 102
+        },
+        "fireB_09": {
+          "x": 1.42,
+          "y": 11.37,
+          "width": 127,
+          "height": 101
+        },
+        "fireB_10": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_11": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_12": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_13": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_14": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_15": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_16": {
+          "x": 1.92,
+          "y": 11.87,
+          "width": 128,
+          "height": 104
+        },
+        "fireB_17": {
+          "x": 1.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_18": {
+          "x": 0.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_19": {
+          "x": 0.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_20": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_21": {
+          "x": 1.42,
+          "y": 12.37,
+          "width": 127,
+          "height": 103
+        },
+        "fireB_22": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_23": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_24": {
+          "x": 1.92,
+          "y": 12.87,
+          "width": 128,
+          "height": 104
+        },
+        "fireB_25": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 105
+        },
+        "fireB_26": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 105
+        },
+        "fireB_27": {
+          "x": 0.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_28": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_29": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_30": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 101
+        }
+      },
+      "fireB_2": {
+        "fireB_01": {
+          "x": 1.42,
+          "y": 11.37,
+          "width": 127,
+          "height": 101
+        },
+        "fireB_02": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_03": {
+          "x": 1.42,
+          "y": 12.37,
+          "width": 129,
+          "height": 105
+        },
+        "fireB_04": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 130,
+          "height": 105
+        },
+        "fireB_05": {
+          "x": 2.42,
+          "y": 12.37,
+          "width": 129,
+          "height": 105
+        },
+        "fireB_06": {
+          "x": 2.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 106
+        },
+        "fireB_07": {
+          "x": 2.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_08": {
+          "x": 1.92,
+          "y": 11.87,
+          "width": 128,
+          "height": 102
+        },
+        "fireB_09": {
+          "x": 1.42,
+          "y": 11.37,
+          "width": 127,
+          "height": 101
+        },
+        "fireB_10": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_11": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_12": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_13": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_14": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_15": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_16": {
+          "x": 1.92,
+          "y": 11.87,
+          "width": 128,
+          "height": 104
+        },
+        "fireB_17": {
+          "x": 1.42,
+          "y": 12.87,
+          "width": 129,
+          "height": 104
+        },
+        "fireB_18": {
+          "x": 0.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_19": {
+          "x": 0.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_20": {
+          "x": 1.42,
+          "y": 11.87,
+          "width": 127,
+          "height": 102
+        },
+        "fireB_21": {
+          "x": 1.42,
+          "y": 12.37,
+          "width": 127,
+          "height": 103
+        },
+        "fireB_22": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_23": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 103
+        },
+        "fireB_24": {
+          "x": 1.92,
+          "y": 12.87,
+          "width": 128,
+          "height": 104
+        },
+        "fireB_25": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 105
+        },
+        "fireB_26": {
+          "x": 1.92,
+          "y": 12.37,
+          "width": 128,
+          "height": 105
+        },
+        "fireB_27": {
+          "x": 0.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_28": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_29": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 103
+        },
+        "fireB_30": {
+          "x": 1.92,
+          "y": 11.37,
+          "width": 126,
+          "height": 101
+        }
+      },
+      "fire_10": {
+        "fire_10": {
+          "x": -7.35,
+          "y": 3.42,
+          "width": 593,
+          "height": 104
+        },
+        "fire_11": {
+          "x": 2.15,
+          "y": 11.92,
+          "width": 628,
+          "height": 131
+        },
+        "fire_12": {
+          "x": -1.35,
+          "y": 16.42,
+          "width": 627,
+          "height": 146
+        },
+        "fire_13": {
+          "x": -0.85,
+          "y": 21.42,
+          "width": 652,
+          "height": 158
+        },
+        "fire_14": {
+          "x": -6.85,
+          "y": 20.92,
+          "width": 662,
+          "height": 177
+        },
+        "fire_15": {
+          "x": -12.85,
+          "y": 28.42,
+          "width": 696,
+          "height": 188
+        },
+        "fire_16": {
+          "x": -1.35,
+          "y": 43.42,
+          "width": 699,
+          "height": 224
+        },
+        "fire_17": {
+          "x": 0.15,
+          "y": 47.42,
+          "width": 736,
+          "height": 232
+        },
+        "fire_18": {
+          "x": -6.35,
+          "y": 44.92,
+          "width": 733,
+          "height": 235
+        },
+        "fire_19": {
+          "x": -3.85,
+          "y": 49.42,
+          "width": 742,
+          "height": 214
+        },
+        "fire_20": {
+          "x": -7.85,
+          "y": 42.92,
+          "width": 776,
+          "height": 249
+        },
+        "fire_21": {
+          "x": -9.35,
+          "y": 49.42,
+          "width": 799,
+          "height": 244
+        },
+        "fire_22": {
+          "x": -5.35,
+          "y": 46.92,
+          "width": 823,
+          "height": 251
+        },
+        "fire_23": {
+          "x": -5.85,
+          "y": 51.92,
+          "width": 822,
+          "height": 247
+        },
+        "fire_24": {
+          "x": -14.35,
+          "y": 56.42,
+          "width": 817,
+          "height": 248
+        },
+        "fire_25": {
+          "x": -8.85,
+          "y": 56.42,
+          "width": 824,
+          "height": 226
+        },
+        "fire_26": {
+          "x": -15.85,
+          "y": 61.92,
+          "width": 824,
+          "height": 257
+        },
+        "fire_27": {
+          "x": -2.85,
+          "y": 73.92,
+          "width": 850,
+          "height": 365
+        },
+        "fire_28": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_29": {
+          "x": -2.85,
+          "y": 80.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_30": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_31": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 380
+        },
+        "fire_32": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_33": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 379
+        },
+        "fire_34": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_35": {
+          "x": -2.85,
+          "y": 82.92,
+          "width": 850,
+          "height": 381
+        },
+        "fire_36": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_37": {
+          "x": -2.35,
+          "y": 78.42,
+          "width": 849,
+          "height": 372
+        },
+        "fire_38": {
+          "x": -1.35,
+          "y": 81.42,
+          "width": 847,
+          "height": 376
+        },
+        "fire_39": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 376
+        },
+        "fire_40": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 375
+        },
+        "fire_41": {
+          "x": -2.85,
+          "y": 78.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_42": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 367
+        },
+        "fire_43": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 368
+        },
+        "fire_44": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 371
+        },
+        "fire_45": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_46": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_47": {
+          "x": -0.35,
+          "y": 75.92,
+          "width": 845,
+          "height": 369
+        },
+        "fire_48": {
+          "x": 1.15,
+          "y": 78.42,
+          "width": 842,
+          "height": 372
+        },
+        "fire_49": {
+          "x": 2.65,
+          "y": 79.92,
+          "width": 839,
+          "height": 373
+        },
+        "fire_50": {
+          "x": 4.15,
+          "y": 78.92,
+          "width": 836,
+          "height": 373
+        },
+        "fire_51": {
+          "x": 3.65,
+          "y": 75.92,
+          "width": 837,
+          "height": 369
+        },
+        "fire_52": {
+          "x": 1.15,
+          "y": 75.42,
+          "width": 842,
+          "height": 368
+        },
+        "fire_53": {
+          "x": -1.85,
+          "y": 75.42,
+          "width": 848,
+          "height": 368
+        },
+        "fire_54": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_55": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_56": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_57": {
+          "x": -2.85,
+          "y": 77.42,
+          "width": 850,
+          "height": 372
+        },
+        "fire_58": {
+          "x": -2.85,
+          "y": 79.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_59": {
+          "x": -2.85,
+          "y": 82.42,
+          "width": 850,
+          "height": 382
+        },
+        "fire_60": {
+          "x": -2.35,
+          "y": 80.92,
+          "width": 849,
+          "height": 379
+        }
+      },
+      "fire_11": {
+        "fire_10": {
+          "x": -7.35,
+          "y": 3.42,
+          "width": 593,
+          "height": 104
+        },
+        "fire_11": {
+          "x": 2.15,
+          "y": 11.92,
+          "width": 628,
+          "height": 131
+        },
+        "fire_12": {
+          "x": -1.35,
+          "y": 16.42,
+          "width": 627,
+          "height": 146
+        },
+        "fire_13": {
+          "x": -0.85,
+          "y": 21.42,
+          "width": 652,
+          "height": 158
+        },
+        "fire_14": {
+          "x": -6.85,
+          "y": 20.92,
+          "width": 662,
+          "height": 177
+        },
+        "fire_15": {
+          "x": -12.85,
+          "y": 28.42,
+          "width": 696,
+          "height": 188
+        },
+        "fire_16": {
+          "x": -1.35,
+          "y": 43.42,
+          "width": 699,
+          "height": 224
+        },
+        "fire_17": {
+          "x": 0.15,
+          "y": 47.42,
+          "width": 736,
+          "height": 232
+        },
+        "fire_18": {
+          "x": -6.35,
+          "y": 44.92,
+          "width": 733,
+          "height": 235
+        },
+        "fire_19": {
+          "x": -3.85,
+          "y": 49.42,
+          "width": 742,
+          "height": 214
+        },
+        "fire_20": {
+          "x": -7.85,
+          "y": 42.92,
+          "width": 776,
+          "height": 249
+        },
+        "fire_21": {
+          "x": -9.35,
+          "y": 49.42,
+          "width": 799,
+          "height": 244
+        },
+        "fire_22": {
+          "x": -5.35,
+          "y": 46.92,
+          "width": 823,
+          "height": 251
+        },
+        "fire_23": {
+          "x": -5.85,
+          "y": 51.92,
+          "width": 822,
+          "height": 247
+        },
+        "fire_24": {
+          "x": -14.35,
+          "y": 56.42,
+          "width": 817,
+          "height": 248
+        },
+        "fire_25": {
+          "x": -8.85,
+          "y": 56.42,
+          "width": 824,
+          "height": 226
+        },
+        "fire_26": {
+          "x": -15.85,
+          "y": 61.92,
+          "width": 824,
+          "height": 257
+        },
+        "fire_27": {
+          "x": -2.85,
+          "y": 73.92,
+          "width": 850,
+          "height": 365
+        },
+        "fire_28": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_29": {
+          "x": -2.85,
+          "y": 80.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_30": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_31": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 380
+        },
+        "fire_32": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_33": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 379
+        },
+        "fire_34": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_35": {
+          "x": -2.85,
+          "y": 82.92,
+          "width": 850,
+          "height": 381
+        },
+        "fire_36": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_37": {
+          "x": -2.35,
+          "y": 78.42,
+          "width": 849,
+          "height": 372
+        },
+        "fire_38": {
+          "x": -1.35,
+          "y": 81.42,
+          "width": 847,
+          "height": 376
+        },
+        "fire_39": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 376
+        },
+        "fire_40": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 375
+        },
+        "fire_41": {
+          "x": -2.85,
+          "y": 78.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_42": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 367
+        },
+        "fire_43": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 368
+        },
+        "fire_44": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 371
+        },
+        "fire_45": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_46": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_47": {
+          "x": -0.35,
+          "y": 75.92,
+          "width": 845,
+          "height": 369
+        },
+        "fire_48": {
+          "x": 1.15,
+          "y": 78.42,
+          "width": 842,
+          "height": 372
+        },
+        "fire_49": {
+          "x": 2.65,
+          "y": 79.92,
+          "width": 839,
+          "height": 373
+        },
+        "fire_50": {
+          "x": 4.15,
+          "y": 78.92,
+          "width": 836,
+          "height": 373
+        },
+        "fire_51": {
+          "x": 3.65,
+          "y": 75.92,
+          "width": 837,
+          "height": 369
+        },
+        "fire_52": {
+          "x": 1.15,
+          "y": 75.42,
+          "width": 842,
+          "height": 368
+        },
+        "fire_53": {
+          "x": -1.85,
+          "y": 75.42,
+          "width": 848,
+          "height": 368
+        },
+        "fire_54": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_55": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_56": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_57": {
+          "x": -2.85,
+          "y": 77.42,
+          "width": 850,
+          "height": 372
+        },
+        "fire_58": {
+          "x": -2.85,
+          "y": 79.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_59": {
+          "x": -2.85,
+          "y": 82.42,
+          "width": 850,
+          "height": 382
+        },
+        "fire_60": {
+          "x": -2.35,
+          "y": 80.92,
+          "width": 849,
+          "height": 379
+        }
+      },
+      "fire_12": {
+        "fire_10": {
+          "x": -7.35,
+          "y": 3.42,
+          "width": 593,
+          "height": 104
+        },
+        "fire_11": {
+          "x": 2.15,
+          "y": 11.92,
+          "width": 628,
+          "height": 131
+        },
+        "fire_12": {
+          "x": -1.35,
+          "y": 16.42,
+          "width": 627,
+          "height": 146
+        },
+        "fire_13": {
+          "x": -0.85,
+          "y": 21.42,
+          "width": 652,
+          "height": 158
+        },
+        "fire_14": {
+          "x": -6.85,
+          "y": 20.92,
+          "width": 662,
+          "height": 177
+        },
+        "fire_15": {
+          "x": -12.85,
+          "y": 28.42,
+          "width": 696,
+          "height": 188
+        },
+        "fire_16": {
+          "x": -1.35,
+          "y": 43.42,
+          "width": 699,
+          "height": 224
+        },
+        "fire_17": {
+          "x": 0.15,
+          "y": 47.42,
+          "width": 736,
+          "height": 232
+        },
+        "fire_18": {
+          "x": -6.35,
+          "y": 44.92,
+          "width": 733,
+          "height": 235
+        },
+        "fire_19": {
+          "x": -3.85,
+          "y": 49.42,
+          "width": 742,
+          "height": 214
+        },
+        "fire_20": {
+          "x": -7.85,
+          "y": 42.92,
+          "width": 776,
+          "height": 249
+        },
+        "fire_21": {
+          "x": -9.35,
+          "y": 49.42,
+          "width": 799,
+          "height": 244
+        },
+        "fire_22": {
+          "x": -5.35,
+          "y": 46.92,
+          "width": 823,
+          "height": 251
+        },
+        "fire_23": {
+          "x": -5.85,
+          "y": 51.92,
+          "width": 822,
+          "height": 247
+        },
+        "fire_24": {
+          "x": -14.35,
+          "y": 56.42,
+          "width": 817,
+          "height": 248
+        },
+        "fire_25": {
+          "x": -8.85,
+          "y": 56.42,
+          "width": 824,
+          "height": 226
+        },
+        "fire_26": {
+          "x": -15.85,
+          "y": 61.92,
+          "width": 824,
+          "height": 257
+        },
+        "fire_27": {
+          "x": -2.85,
+          "y": 73.92,
+          "width": 850,
+          "height": 365
+        },
+        "fire_28": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_29": {
+          "x": -2.85,
+          "y": 80.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_30": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_31": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 380
+        },
+        "fire_32": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_33": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 379
+        },
+        "fire_34": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_35": {
+          "x": -2.85,
+          "y": 82.92,
+          "width": 850,
+          "height": 381
+        },
+        "fire_36": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_37": {
+          "x": -2.35,
+          "y": 78.42,
+          "width": 849,
+          "height": 372
+        },
+        "fire_38": {
+          "x": -1.35,
+          "y": 81.42,
+          "width": 847,
+          "height": 376
+        },
+        "fire_39": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 376
+        },
+        "fire_40": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 375
+        },
+        "fire_41": {
+          "x": -2.85,
+          "y": 78.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_42": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 367
+        },
+        "fire_43": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 368
+        },
+        "fire_44": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 371
+        },
+        "fire_45": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_46": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_47": {
+          "x": -0.35,
+          "y": 75.92,
+          "width": 845,
+          "height": 369
+        },
+        "fire_48": {
+          "x": 1.15,
+          "y": 78.42,
+          "width": 842,
+          "height": 372
+        },
+        "fire_49": {
+          "x": 2.65,
+          "y": 79.92,
+          "width": 839,
+          "height": 373
+        },
+        "fire_50": {
+          "x": 4.15,
+          "y": 78.92,
+          "width": 836,
+          "height": 373
+        },
+        "fire_51": {
+          "x": 3.65,
+          "y": 75.92,
+          "width": 837,
+          "height": 369
+        },
+        "fire_52": {
+          "x": 1.15,
+          "y": 75.42,
+          "width": 842,
+          "height": 368
+        },
+        "fire_53": {
+          "x": -1.85,
+          "y": 75.42,
+          "width": 848,
+          "height": 368
+        },
+        "fire_54": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_55": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_56": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_57": {
+          "x": -2.85,
+          "y": 77.42,
+          "width": 850,
+          "height": 372
+        },
+        "fire_58": {
+          "x": -2.85,
+          "y": 79.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_59": {
+          "x": -2.85,
+          "y": 82.42,
+          "width": 850,
+          "height": 382
+        },
+        "fire_60": {
+          "x": -2.35,
+          "y": 80.92,
+          "width": 849,
+          "height": 379
+        }
+      },
+      "fire_13": {
+        "fire_10": {
+          "x": -7.35,
+          "y": 3.42,
+          "width": 593,
+          "height": 104
+        },
+        "fire_11": {
+          "x": 2.15,
+          "y": 11.92,
+          "width": 628,
+          "height": 131
+        },
+        "fire_12": {
+          "x": -1.35,
+          "y": 16.42,
+          "width": 627,
+          "height": 146
+        },
+        "fire_13": {
+          "x": -0.85,
+          "y": 21.42,
+          "width": 652,
+          "height": 158
+        },
+        "fire_14": {
+          "x": -6.85,
+          "y": 20.92,
+          "width": 662,
+          "height": 177
+        },
+        "fire_15": {
+          "x": -12.85,
+          "y": 28.42,
+          "width": 696,
+          "height": 188
+        },
+        "fire_16": {
+          "x": -1.35,
+          "y": 43.42,
+          "width": 699,
+          "height": 224
+        },
+        "fire_17": {
+          "x": 0.15,
+          "y": 47.42,
+          "width": 736,
+          "height": 232
+        },
+        "fire_18": {
+          "x": -6.35,
+          "y": 44.92,
+          "width": 733,
+          "height": 235
+        },
+        "fire_19": {
+          "x": -3.85,
+          "y": 49.42,
+          "width": 742,
+          "height": 214
+        },
+        "fire_20": {
+          "x": -7.85,
+          "y": 42.92,
+          "width": 776,
+          "height": 249
+        },
+        "fire_21": {
+          "x": -9.35,
+          "y": 49.42,
+          "width": 799,
+          "height": 244
+        },
+        "fire_22": {
+          "x": -5.35,
+          "y": 46.92,
+          "width": 823,
+          "height": 251
+        },
+        "fire_23": {
+          "x": -5.85,
+          "y": 51.92,
+          "width": 822,
+          "height": 247
+        },
+        "fire_24": {
+          "x": -14.35,
+          "y": 56.42,
+          "width": 817,
+          "height": 248
+        },
+        "fire_25": {
+          "x": -8.85,
+          "y": 56.42,
+          "width": 824,
+          "height": 226
+        },
+        "fire_26": {
+          "x": -15.85,
+          "y": 61.92,
+          "width": 824,
+          "height": 257
+        },
+        "fire_27": {
+          "x": -2.85,
+          "y": 73.92,
+          "width": 850,
+          "height": 365
+        },
+        "fire_28": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_29": {
+          "x": -2.85,
+          "y": 80.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_30": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_31": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 380
+        },
+        "fire_32": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 380
+        },
+        "fire_33": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 379
+        },
+        "fire_34": {
+          "x": -2.85,
+          "y": 81.42,
+          "width": 850,
+          "height": 378
+        },
+        "fire_35": {
+          "x": -2.85,
+          "y": 82.92,
+          "width": 850,
+          "height": 381
+        },
+        "fire_36": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_37": {
+          "x": -2.35,
+          "y": 78.42,
+          "width": 849,
+          "height": 372
+        },
+        "fire_38": {
+          "x": -1.35,
+          "y": 81.42,
+          "width": 847,
+          "height": 376
+        },
+        "fire_39": {
+          "x": -2.35,
+          "y": 81.42,
+          "width": 849,
+          "height": 376
+        },
+        "fire_40": {
+          "x": -2.85,
+          "y": 80.92,
+          "width": 850,
+          "height": 375
+        },
+        "fire_41": {
+          "x": -2.85,
+          "y": 78.42,
+          "width": 850,
+          "height": 370
+        },
+        "fire_42": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 367
+        },
+        "fire_43": {
+          "x": -2.85,
+          "y": 76.42,
+          "width": 850,
+          "height": 368
+        },
+        "fire_44": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 371
+        },
+        "fire_45": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_46": {
+          "x": -2.85,
+          "y": 76.92,
+          "width": 850,
+          "height": 369
+        },
+        "fire_47": {
+          "x": -0.35,
+          "y": 75.92,
+          "width": 845,
+          "height": 369
+        },
+        "fire_48": {
+          "x": 1.15,
+          "y": 78.42,
+          "width": 842,
+          "height": 372
+        },
+        "fire_49": {
+          "x": 2.65,
+          "y": 79.92,
+          "width": 839,
+          "height": 373
+        },
+        "fire_50": {
+          "x": 4.15,
+          "y": 78.92,
+          "width": 836,
+          "height": 373
+        },
+        "fire_51": {
+          "x": 3.65,
+          "y": 75.92,
+          "width": 837,
+          "height": 369
+        },
+        "fire_52": {
+          "x": 1.15,
+          "y": 75.42,
+          "width": 842,
+          "height": 368
+        },
+        "fire_53": {
+          "x": -1.85,
+          "y": 75.42,
+          "width": 848,
+          "height": 368
+        },
+        "fire_54": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_55": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_56": {
+          "x": -2.85,
+          "y": 77.92,
+          "width": 850,
+          "height": 373
+        },
+        "fire_57": {
+          "x": -2.85,
+          "y": 77.42,
+          "width": 850,
+          "height": 372
+        },
+        "fire_58": {
+          "x": -2.85,
+          "y": 79.92,
+          "width": 850,
+          "height": 377
+        },
+        "fire_59": {
+          "x": -2.85,
+          "y": 82.42,
+          "width": 850,
+          "height": 382
+        },
+        "fire_60": {
+          "x": -2.35,
+          "y": 80.92,
+          "width": 849,
+          "height": 379
+        }
+      },
+      "fireball_01": {
+        "fireball_01": {
+          "x": 94.14,
+          "y": 26.65,
+          "width": 230,
+          "height": 142
+        },
+        "fireball_02": {
+          "x": 96.14,
+          "y": 25.65,
+          "width": 232,
+          "height": 142
+        },
+        "fireball_03": {
+          "x": 96.64,
+          "y": 28.65,
+          "width": 231,
+          "height": 140
+        }
+      },
+      "fireball_1": {
+        "fireball_01": {
+          "x": 94.14,
+          "y": 26.65,
+          "width": 230,
+          "height": 142
+        },
+        "fireball_02": {
+          "x": 96.14,
+          "y": 25.65,
+          "width": 232,
+          "height": 142
+        },
+        "fireball_03": {
+          "x": 96.64,
+          "y": 28.65,
+          "width": 231,
+          "height": 140
+        }
+      },
+      "fireball_2": {
+        "fireball_01": {
+          "x": 94.14,
+          "y": 26.65,
+          "width": 230,
+          "height": 142
+        },
+        "fireball_02": {
+          "x": 96.14,
+          "y": 25.65,
+          "width": 232,
+          "height": 142
+        },
+        "fireball_03": {
+          "x": 96.64,
+          "y": 28.65,
+          "width": 231,
+          "height": 140
+        }
+      },
+      "fireball_3": {
+        "fireball_01": {
+          "x": 94.14,
+          "y": 26.65,
+          "width": 230,
+          "height": 142
+        },
+        "fireball_02": {
+          "x": 96.14,
+          "y": 25.65,
+          "width": 232,
+          "height": 142
+        },
+        "fireball_03": {
+          "x": 96.64,
+          "y": 28.65,
+          "width": 231,
+          "height": 140
+        }
+      },
+      "fireball_4": {
+        "fireball_01": {
+          "x": 94.14,
+          "y": 26.65,
+          "width": 230,
+          "height": 142
+        },
+        "fireball_02": {
+          "x": 96.14,
+          "y": 25.65,
+          "width": 232,
+          "height": 142
+        },
+        "fireball_03": {
+          "x": 96.64,
+          "y": 28.65,
+          "width": 231,
+          "height": 140
+        }
+      },
+      "fireball_5": {
+        "fireball_01": {
+          "x": 94.14,
+          "y": 26.65,
+          "width": 230,
+          "height": 142
+        },
+        "fireball_02": {
+          "x": 96.14,
+          "y": 25.65,
+          "width": 232,
+          "height": 142
+        },
+        "fireball_03": {
+          "x": 96.64,
+          "y": 28.65,
+          "width": 231,
+          "height": 140
+        }
+      },
+      "flame_00": {
+        "flame_00": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_01": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_02": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_03": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_04": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_05": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_06": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_07": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_08": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_09": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_10": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_11": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_12": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_13": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_14": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_15": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_16": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_17": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_18": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_19": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_20": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_21": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_22": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_23": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_24": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_25": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_26": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_27": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_28": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_29": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_30": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_31": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_32": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_33": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_34": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_35": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_36": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_37": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_38": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_39": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_40": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_41": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_42": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_43": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_44": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_45": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_46": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_47": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_48": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_49": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_50": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_51": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_52": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_53": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_54": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_55": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_56": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_57": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_58": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_59": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_60": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_61": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_62": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_63": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_64": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_65": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_66": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_67": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_68": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_69": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_70": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_71": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_72": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_73": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_74": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_75": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_76": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_77": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_78": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_79": {
+          "width": 451,
+          "height": 255
+        },
+        "flame_80": {
+          "width": 451,
+          "height": 255
+        }
+      },
+      "frame_light": {
+        "frame_light": {
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 444,
+          "height": 370
+        }
+      },
+      "glow": {
+        "glow": {
+          "width": 39,
+          "height": 45
+        }
+      },
+      "glow2": {
+        "glow": {
+          "width": 39,
+          "height": 45
+        }
+      },
+      "glow3": {
+        "glow": {
+          "width": 39,
+          "height": 45
+        }
+      },
+      "glow4": {
+        "glow": {
+          "width": 39,
+          "height": 45
+        }
+      },
+      "glow5": {
+        "glow": {
+          "width": 39,
+          "height": 45
+        }
+      },
+      "light": {
+        "light": {
+          "width": 268,
+          "height": 74
+        }
+      },
+      "light2": {
+        "light": {
+          "width": 268,
+          "height": 74
+        }
+      },
+      "lightsweep": {
+        "lightsweep": {
+          "type": "mesh",
+          "hull": 12,
+          "uvs": [
+            1,
+            1,
+            0.66667,
+            1,
+            0.33333,
+            1,
+            0,
+            1,
+            0,
+            0.66667,
+            0,
+            0.33333,
+            0,
+            0,
+            0.33333,
+            0,
+            0.66667,
+            0,
+            1,
+            0,
+            1,
+            0.33333,
+            1,
+            0.66667,
+            0.66667,
+            0.66667,
+            0.33333,
+            0.66667,
+            0.66667,
+            0.33333,
+            0.33333,
+            0.33333
+          ],
+          "triangles": [
+            0,
+            11,
+            1,
+            1,
+            11,
+            12,
+            11,
+            10,
+            12,
+            12,
+            10,
+            14,
+            10,
+            9,
+            14,
+            14,
+            9,
+            8,
+            1,
+            12,
+            2,
+            2,
+            12,
+            13,
+            12,
+            14,
+            13,
+            13,
+            14,
+            15,
+            14,
+            8,
+            15,
+            15,
+            8,
+            7,
+            2,
+            13,
+            3,
+            3,
+            13,
+            4,
+            13,
+            15,
+            4,
+            4,
+            15,
+            5,
+            15,
+            7,
+            5,
+            5,
+            7,
+            6
+          ],
+          "vertices": [
+            19,
+            -20.5,
+            6.33,
+            -20.5,
+            -6.33,
+            -20.5,
+            -19,
+            -20.5,
+            -19,
+            -6.83,
+            -19,
+            6.83,
+            -19,
+            20.5,
+            -6.33,
+            20.5,
+            6.33,
+            20.5,
+            19,
+            20.5,
+            19,
+            6.83,
+            19,
+            -6.83,
+            6.33,
+            -6.83,
+            -6.33,
+            -6.83,
+            6.33,
+            6.83,
+            -6.33,
+            6.83
+          ]
+        }
+      },
+      "mask": {
+        "mask": {
+          "type": "clipping",
+          "end": "fireball_3",
+          "vertexCount": 4,
+          "vertices": [
+            -640.03,
+            -359.91,
+            -640.24,
+            360.13,
+            639.95,
+            360.2,
+            640.42,
+            -360.12
+          ]
+        }
+      }
+    }
+  },
+  "events": {
+    "transition": {}
+  },
+  "animations": {
+    "flame": {
+      "slots": {
+        "UI": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "bg_X": {
+          "attachment": [
+            {
+              "time": 1.8333,
+              "name": "bg2_X"
+            }
+          ]
+        },
+        "black": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "board": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "board_mask": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_down_L": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_down_L2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_down_R": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_down_R2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_up_L": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_up_L2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_up_R": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "chain_up_R2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "down_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff56"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "fireball_1": {
+          "attachment": [
+            {
+              "time": 0.3667,
+              "name": "fireball_01"
+            },
+            {
+              "time": 0.4,
+              "name": "fireball_02"
+            },
+            {
+              "time": 0.4333,
+              "name": null
+            }
+          ]
+        },
+        "fireball_2": {
+          "attachment": [
+            {
+              "time": 0.4,
+              "name": "fireball_01"
+            },
+            {
+              "time": 0.4333,
+              "name": "fireball_02"
+            },
+            {
+              "time": 0.4667,
+              "name": "fireball_03"
+            },
+            {
+              "time": 0.5,
+              "name": "fireball_01"
+            },
+            {
+              "time": 0.5333,
+              "name": "fireball_02"
+            },
+            {
+              "time": 0.5667,
+              "name": "fireball_03"
+            },
+            {
+              "time": 0.6,
+              "name": null
+            }
+          ]
+        },
+        "flame_00": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "flame_01"
+            },
+            {
+              "time": 0.0667,
+              "name": "flame_02"
+            },
+            {
+              "time": 0.1,
+              "name": "flame_03"
+            },
+            {
+              "time": 0.1333,
+              "name": "flame_04"
+            },
+            {
+              "time": 0.1667,
+              "name": "flame_05"
+            },
+            {
+              "time": 0.2,
+              "name": "flame_06"
+            },
+            {
+              "time": 0.2333,
+              "name": "flame_07"
+            },
+            {
+              "time": 0.2667,
+              "name": "flame_08"
+            },
+            {
+              "time": 0.3,
+              "name": "flame_09"
+            },
+            {
+              "time": 0.3333,
+              "name": "flame_10"
+            },
+            {
+              "time": 0.3667,
+              "name": "flame_11"
+            },
+            {
+              "time": 0.4,
+              "name": "flame_12"
+            },
+            {
+              "time": 0.4333,
+              "name": "flame_13"
+            },
+            {
+              "time": 0.4667,
+              "name": "flame_14"
+            },
+            {
+              "time": 0.5,
+              "name": "flame_15"
+            },
+            {
+              "time": 0.5333,
+              "name": "flame_16"
+            },
+            {
+              "time": 0.5667,
+              "name": "flame_17"
+            },
+            {
+              "time": 0.6,
+              "name": "flame_18"
+            },
+            {
+              "time": 0.6333,
+              "name": "flame_19"
+            },
+            {
+              "time": 0.6667,
+              "name": "flame_20"
+            },
+            {
+              "time": 0.7,
+              "name": "flame_21"
+            },
+            {
+              "time": 0.7333,
+              "name": "flame_22"
+            },
+            {
+              "time": 0.7667,
+              "name": "flame_23"
+            },
+            {
+              "time": 0.8,
+              "name": "flame_24"
+            },
+            {
+              "time": 0.8333,
+              "name": "flame_25"
+            },
+            {
+              "time": 0.8667,
+              "name": "flame_26"
+            },
+            {
+              "time": 0.9,
+              "name": "flame_27"
+            },
+            {
+              "time": 0.9333,
+              "name": "flame_28"
+            },
+            {
+              "time": 0.9667,
+              "name": "flame_29"
+            },
+            {
+              "time": 1,
+              "name": "flame_30"
+            },
+            {
+              "time": 1.0333,
+              "name": "flame_31"
+            },
+            {
+              "time": 1.0667,
+              "name": "flame_32"
+            },
+            {
+              "time": 1.1,
+              "name": "flame_33"
+            },
+            {
+              "time": 1.1333,
+              "name": "flame_34"
+            },
+            {
+              "time": 1.1667,
+              "name": "flame_35"
+            },
+            {
+              "time": 1.2,
+              "name": "flame_36"
+            },
+            {
+              "time": 1.2333,
+              "name": "flame_37"
+            },
+            {
+              "time": 1.2667,
+              "name": "flame_38"
+            },
+            {
+              "time": 1.3,
+              "name": "flame_39"
+            },
+            {
+              "time": 1.3333,
+              "name": "flame_40"
+            },
+            {
+              "time": 1.3667,
+              "name": "flame_41"
+            },
+            {
+              "time": 1.4,
+              "name": "flame_42"
+            },
+            {
+              "time": 1.4333,
+              "name": "flame_43"
+            },
+            {
+              "time": 1.4667,
+              "name": "flame_44"
+            },
+            {
+              "time": 1.5,
+              "name": "flame_45"
+            },
+            {
+              "time": 1.5333,
+              "name": "flame_46"
+            },
+            {
+              "time": 1.5667,
+              "name": "flame_47"
+            },
+            {
+              "time": 1.6,
+              "name": "flame_48"
+            },
+            {
+              "time": 1.6333,
+              "name": "flame_49"
+            },
+            {
+              "time": 1.6667,
+              "name": "flame_50"
+            },
+            {
+              "time": 1.7,
+              "name": "flame_51"
+            },
+            {
+              "time": 1.7333,
+              "name": "flame_52"
+            },
+            {
+              "time": 1.7667,
+              "name": "flame_53"
+            },
+            {
+              "time": 1.8,
+              "name": "flame_54"
+            },
+            {
+              "time": 1.8333,
+              "name": "flame_55"
+            },
+            {
+              "time": 1.8667,
+              "name": "flame_56"
+            },
+            {
+              "time": 1.9,
+              "name": "flame_57"
+            },
+            {
+              "time": 1.9333,
+              "name": "flame_58"
+            },
+            {
+              "time": 1.9667,
+              "name": "flame_59"
+            },
+            {
+              "time": 2,
+              "name": "flame_60"
+            },
+            {
+              "time": 2.0333,
+              "name": "flame_61"
+            },
+            {
+              "time": 2.0667,
+              "name": "flame_62"
+            },
+            {
+              "time": 2.1,
+              "name": "flame_63"
+            },
+            {
+              "time": 2.1333,
+              "name": "flame_64"
+            },
+            {
+              "time": 2.1667,
+              "name": "flame_65"
+            },
+            {
+              "time": 2.2,
+              "name": "flame_66"
+            },
+            {
+              "time": 2.2333,
+              "name": "flame_67"
+            },
+            {
+              "time": 2.2667,
+              "name": "flame_68"
+            },
+            {
+              "time": 2.3,
+              "name": "flame_69"
+            },
+            {
+              "time": 2.3333,
+              "name": "flame_70"
+            },
+            {
+              "time": 2.3667,
+              "name": "flame_71"
+            },
+            {
+              "time": 2.4,
+              "name": "flame_72"
+            },
+            {
+              "time": 2.4333,
+              "name": "flame_73"
+            },
+            {
+              "time": 2.4667,
+              "name": "flame_74"
+            },
+            {
+              "time": 2.5,
+              "name": "flame_75"
+            },
+            {
+              "time": 2.5333,
+              "name": "flame_76"
+            },
+            {
+              "time": 2.5667,
+              "name": "flame_77"
+            },
+            {
+              "time": 2.6,
+              "name": "flame_78"
+            },
+            {
+              "time": 2.6333,
+              "name": "flame_79"
+            },
+            {
+              "time": 2.6667,
+              "name": "flame_80"
+            }
+          ]
+        },
+        "frame_light": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "title": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "fireaball2": {
+          "rotate": [
+            {
+              "time": 0.3667,
+              "angle": -0.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3667,
+              "x": -16.94,
+              "y": -5.95
+            }
+          ]
+        },
+        "fireaball3": {
+          "rotate": [
+            {
+              "time": 0.4,
+              "angle": -5.08
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.4,
+              "x": 13.06,
+              "y": 6.72
+            }
+          ]
+        },
+        "fireaball5": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -24.7
+            },
+            {
+              "time": 0.2,
+              "angle": -18.91
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -46.85,
+              "y": -111.71
+            },
+            {
+              "time": 0.2,
+              "x": -41.01,
+              "y": -133.03
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.415,
+              "y": 0.415
+            }
+          ]
+        },
+        "flame": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 2.891,
+              "y": 2.891
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 1.6667,
+          "name": "transition"
+        }
+      ]
+    }
+  }
+}

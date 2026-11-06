@@ -1,0 +1,871 @@
+{
+  "skeleton": {
+    "hash": "jb4faGz30Gea53l01aV62+FXBNs",
+    "spine": "3.8.99",
+    "x": -469,
+    "y": -381.63,
+    "width": 950,
+    "height": 1015.77,
+    "images": "./images/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/孫行者/win"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -360,
+      "y": 670
+    },
+    {
+      "name": "mega_light",
+      "parent": "root",
+      "x": 360,
+      "y": -543.85
+    },
+    {
+      "name": "f",
+      "parent": "mega_light"
+    },
+    {
+      "name": "01_1",
+      "parent": "f"
+    },
+    {
+      "name": "b",
+      "parent": "mega_light"
+    },
+    {
+      "name": "01_2",
+      "parent": "b"
+    },
+    {
+      "name": "02_1",
+      "parent": "f"
+    },
+    {
+      "name": "02_2",
+      "parent": "b"
+    },
+    {
+      "name": "mega_fx_03",
+      "parent": "mega_light",
+      "y": -40.18
+    },
+    {
+      "name": "mega_build",
+      "parent": "root",
+      "x": 360,
+      "y": -626.74
+    },
+    {
+      "name": "mega_build_part",
+      "parent": "mega_build",
+      "x": -360,
+      "y": 626.74
+    },
+    {
+      "name": "up",
+      "parent": "mega_build_part",
+      "x": 359.25,
+      "y": -288.52
+    },
+    {
+      "name": "mid",
+      "parent": "mega_build_part",
+      "x": 359.25,
+      "y": -382.39
+    },
+    {
+      "name": "down",
+      "parent": "mega_build_part",
+      "x": 359.25,
+      "y": -494.53
+    },
+    {
+      "name": "mega_build_light",
+      "parent": "mega_build",
+      "y": 180.96
+    }
+  ],
+  "slots": [
+    {
+      "name": "mega_fx_03",
+      "bone": "mega_fx_03",
+      "attachment": "mega_fx_03"
+    },
+    {
+      "name": "mega_fx_04",
+      "bone": "root",
+      "attachment": "mega_fx_04"
+    },
+    {
+      "name": "mega_light_04",
+      "bone": "01_2",
+      "attachment": "mega_light_04",
+      "blend": "additive"
+    },
+    {
+      "name": "mega_light_03",
+      "bone": "02_2",
+      "attachment": "mega_light_03",
+      "blend": "additive"
+    },
+    {
+      "name": "mega_fx_02",
+      "bone": "root",
+      "attachment": "mega_fx_02"
+    },
+    {
+      "name": "mega_fx_01",
+      "bone": "root",
+      "attachment": "mega_fx_01"
+    },
+    {
+      "name": "mega_build_light",
+      "bone": "mega_build_light",
+      "attachment": "mega_build_light"
+    },
+    {
+      "name": "mega_build",
+      "bone": "mega_build",
+      "attachment": "mega_build"
+    },
+    {
+      "name": "mega_build_u",
+      "bone": "up",
+      "attachment": "mega_build_u"
+    },
+    {
+      "name": "mega_build_m",
+      "bone": "mid",
+      "attachment": "mega_build_m"
+    },
+    {
+      "name": "mega_build_d",
+      "bone": "down",
+      "attachment": "mega_build_d"
+    },
+    {
+      "name": "mega_light_02",
+      "bone": "01_1",
+      "attachment": "mega_light_02",
+      "blend": "additive"
+    },
+    {
+      "name": "mega_light_01",
+      "bone": "02_1",
+      "attachment": "mega_light_01",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "mega_build": {
+          "mega_build": {
+            "y": 188.74,
+            "width": 386,
+            "height": 406
+          }
+        },
+        "mega_build_d": {
+          "mega_build_d": {
+            "width": 384,
+            "height": 290
+          }
+        },
+        "mega_build_light": {
+          "mega_build_light": {
+            "y": 7.13,
+            "width": 454,
+            "height": 478
+          }
+        },
+        "mega_build_m": {
+          "mega_build_m": {
+            "width": 304,
+            "height": 110
+          }
+        },
+        "mega_build_u": {
+          "mega_build_u": {
+            "y": 0.5,
+            "width": 200,
+            "height": 103
+          }
+        },
+        "mega_fx_01": {
+          "mega_fx_01": {
+            "x": 355,
+            "y": -545.5,
+            "width": 430,
+            "height": 285
+          }
+        },
+        "mega_fx_02": {
+          "mega_fx_02": {
+            "x": 356.5,
+            "y": -590.5,
+            "width": 575,
+            "height": 591
+          }
+        },
+        "mega_fx_03": {
+          "mega_fx_03": {
+            "x": 1.5,
+            "y": -51.47,
+            "width": 809,
+            "height": 831
+          }
+        },
+        "mega_fx_04": {
+          "mega_fx_04": {
+            "x": 359,
+            "y": -572,
+            "width": 604,
+            "height": 400
+          }
+        },
+        "mega_light_01": {
+          "mega_light_01": {
+            "x": -0.5,
+            "y": 173.45,
+            "width": 675,
+            "height": 386
+          }
+        },
+        "mega_light_02": {
+          "mega_light_02": {
+            "x": 0.5,
+            "y": -173.47,
+            "width": 675,
+            "height": 386
+          }
+        },
+        "mega_light_03": {
+          "mega_light_03": {
+            "x": 6,
+            "y": 236.99,
+            "width": 950,
+            "height": 542
+          }
+        },
+        "mega_light_04": {
+          "mega_light_04": {
+            "x": 6,
+            "y": -236.78,
+            "width": 950,
+            "height": 542
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "mega_build": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_build_light": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff7d",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_fx_01": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_fx_02": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_fx_03": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_fx_04": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_light_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_light_02": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_light_03": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_light_04": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_1": {
+          "scale": [
+            {
+              "time": 0.4667,
+              "x": -0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "time": 0.4667,
+              "x": -0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "mega_fx_03": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 0.8333
+            }
+          ]
+        },
+        "down": {
+          "translate": [
+            {
+              "y": -22.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "y": 16.67
+            },
+            {
+              "time": 0.2667
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 1.2,
+              "y": 1.3
+            },
+            {
+              "time": 0.2667
+            }
+          ]
+        },
+        "mid": {
+          "translate": [
+            {
+              "y": -111.35,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": -111.35,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "y": 17.55
+            },
+            {
+              "time": 0.4333
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.1,
+              "y": 0.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "y": 1.4
+            },
+            {
+              "time": 0.4333
+            }
+          ]
+        },
+        "up": {
+          "translate": [
+            {
+              "y": -228.88
+            },
+            {
+              "time": 0.3333,
+              "y": -111.35,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "y": 13.57
+            },
+            {
+              "time": 0.6,
+              "y": -1.48
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.1,
+              "y": 0.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "y": 1.3
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "mega_build_light": {
+          "scale": [
+            {
+              "time": 0.4,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8333,
+              "x": 2.5,
+              "y": 2.5
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "mega_build": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_build_light": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff96",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_fx_04": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_light_01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_light_02": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_light_03": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mega_light_04": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_1": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "mega_build": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "mega_fx_03": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4333,
+              "x": 0.8,
+              "y": 0.8,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "x": 0.8,
+              "y": 0.8,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "up": {
+          "translate": [
+            {
+              "y": -1.48
+            }
+          ]
+        },
+        "mega_build_light": {
+          "scale": [
+            {
+              "time": 0.1667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.03,
+              "y": 1.03,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8333
+            }
+          ]
+        }
+      }
+    }
+  }
+}

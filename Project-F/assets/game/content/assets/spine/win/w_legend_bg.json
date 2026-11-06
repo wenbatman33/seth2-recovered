@@ -1,0 +1,1683 @@
+{
+  "skeleton": {
+    "hash": "9QEhqZb4iWlZsWYBQIUbsiEkids",
+    "spine": "3.8.99",
+    "x": -475,
+    "y": -565,
+    "width": 962.94,
+    "height": 1327.75,
+    "images": "./image/legendwin/legend_image/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/孫行者/win"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -360,
+      "y": 670
+    },
+    {
+      "name": "fx",
+      "parent": "root",
+      "x": 360,
+      "y": -537.33
+    },
+    {
+      "name": "legend_light",
+      "parent": "root",
+      "x": 373.21,
+      "y": -554.17
+    },
+    {
+      "name": "m",
+      "parent": "legend_light"
+    },
+    {
+      "name": "01_0",
+      "parent": "m",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "f",
+      "parent": "legend_light"
+    },
+    {
+      "name": "01_1",
+      "parent": "f",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "02_1",
+      "parent": "f",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "02_0",
+      "parent": "m",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "b",
+      "parent": "legend_light"
+    },
+    {
+      "name": "01_2",
+      "parent": "b",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "02_2",
+      "parent": "b",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "cloud",
+      "parent": "root",
+      "x": 359.75,
+      "y": -669.92
+    },
+    {
+      "name": "cloud_1",
+      "parent": "cloud",
+      "x": -356.59,
+      "y": 9.49
+    },
+    {
+      "name": "cloud_2",
+      "parent": "cloud",
+      "x": -357.64,
+      "y": 87.56
+    },
+    {
+      "name": "cloud_3",
+      "parent": "cloud",
+      "x": -356.59,
+      "y": 213.11
+    },
+    {
+      "name": "cloud_4",
+      "parent": "cloud",
+      "x": 355.53,
+      "y": 10.55
+    },
+    {
+      "name": "cloud_5",
+      "parent": "cloud",
+      "x": 356.59,
+      "y": 105.5
+    },
+    {
+      "name": "cloud_6",
+      "parent": "cloud",
+      "x": 356.59,
+      "y": 221.55
+    },
+    {
+      "name": "fx_cloud",
+      "parent": "cloud",
+      "y": 248.5
+    },
+    {
+      "name": "center",
+      "parent": "root"
+    },
+    {
+      "name": "spot_1",
+      "parent": "root",
+      "x": 206.92,
+      "y": -287.08
+    },
+    {
+      "name": "spot_2",
+      "parent": "root",
+      "x": 545.69,
+      "y": -414.53
+    },
+    {
+      "name": "main",
+      "parent": "center",
+      "x": 362.17,
+      "y": -387.12
+    },
+    {
+      "name": "fx_c",
+      "parent": "main"
+    }
+  ],
+  "slots": [
+    {
+      "name": "Legend_fx_06_add",
+      "bone": "fx",
+      "attachment": "Legend_fx_06",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_05_add",
+      "bone": "fx",
+      "attachment": "Legend_fx_05",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_04_add",
+      "bone": "fx",
+      "attachment": "Legend_fx_04",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_03_add",
+      "bone": "fx",
+      "attachment": "Legend_fx_03",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_02_add",
+      "bone": "fx",
+      "attachment": "Legend_fx_02",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_01_add",
+      "bone": "fx",
+      "attachment": "Legend_fx_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_4_add",
+      "bone": "02_1",
+      "attachment": "Legend_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_3_add",
+      "bone": "02_2",
+      "attachment": "Legend_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_cloud_06",
+      "bone": "cloud_6",
+      "attachment": "Legend_cloud_06"
+    },
+    {
+      "name": "Legend_cloud_03",
+      "bone": "cloud_3",
+      "attachment": "Legend_cloud_03"
+    },
+    {
+      "name": "Legend_cloud_05",
+      "bone": "cloud_5",
+      "attachment": "Legend_cloud_05"
+    },
+    {
+      "name": "Legend_cloud_02",
+      "bone": "cloud_2",
+      "attachment": "Legend_cloud_02"
+    },
+    {
+      "name": "Legend_cloud_04",
+      "bone": "cloud_4",
+      "attachment": "Legend_cloud_04"
+    },
+    {
+      "name": "Legend_cloud_01",
+      "bone": "cloud_1",
+      "attachment": "Legend_cloud_01"
+    },
+    {
+      "name": "Legend_fx_cloud_add",
+      "bone": "fx_cloud",
+      "attachment": "Legend_fx_cloud",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_palace_light_2_add",
+      "bone": "02_0",
+      "attachment": "Legend_palace_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_palace_light_1_add",
+      "bone": "01_0",
+      "attachment": "Legend_palace_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_2_add",
+      "bone": "01_1",
+      "attachment": "Legend_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_1_add",
+      "bone": "01_2",
+      "attachment": "Legend_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "legend_bk_light_add",
+      "bone": "main",
+      "attachment": "legend_bk_light",
+      "blend": "additive"
+    },
+    {
+      "name": "legend_c",
+      "bone": "main",
+      "attachment": "legend_c"
+    },
+    {
+      "name": "legend_c_add",
+      "bone": "main",
+      "attachment": "legend_c_fx",
+      "blend": "additive"
+    },
+    {
+      "name": "legend_c_fx_add",
+      "bone": "fx_c",
+      "attachment": "legend_c_fx",
+      "blend": "additive"
+    },
+    {
+      "name": "legend_circle_add",
+      "bone": "main",
+      "attachment": "legend_circlefx",
+      "blend": "additive"
+    },
+    {
+      "name": "legend_spot_l_add",
+      "bone": "spot_1",
+      "attachment": "legend_spot",
+      "blend": "additive"
+    },
+    {
+      "name": "legend_spot_r_add",
+      "bone": "spot_2",
+      "attachment": "legend_spot",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Legend_cloud_01": {
+          "Legend_cloud_01": {
+            "x": 175.46,
+            "y": 41.96,
+            "width": 360,
+            "height": 187
+          }
+        },
+        "Legend_cloud_02": {
+          "Legend_cloud_02": {
+            "x": 176.29,
+            "y": 63.46,
+            "width": 359,
+            "height": 189
+          }
+        },
+        "Legend_cloud_03": {
+          "Legend_cloud_03": {
+            "x": 138.88,
+            "y": 47.29,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 144,
+            "height": 69
+          }
+        },
+        "Legend_cloud_04": {
+          "Legend_cloud_04": {
+            "x": -147.93,
+            "y": 10.86,
+            "width": 309,
+            "height": 166
+          }
+        },
+        "Legend_cloud_05": {
+          "Legend_cloud_05": {
+            "x": -134.17,
+            "y": 57.11,
+            "width": 280,
+            "height": 180
+          }
+        },
+        "Legend_cloud_06": {
+          "Legend_cloud_06": {
+            "x": -152.76,
+            "y": 24.57,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 159,
+            "height": 105
+          }
+        },
+        "Legend_fx_01_add": {
+          "Legend_fx_01": {
+            "y": -29.67,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 72,
+            "height": 34
+          }
+        },
+        "Legend_fx_02_add": {
+          "Legend_fx_02": {
+            "x": 2.5,
+            "y": -28.17,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 60,
+            "height": 65
+          }
+        },
+        "Legend_fx_03_add": {
+          "Legend_fx_03": {
+            "y": -65.67,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 42,
+            "height": 53
+          }
+        },
+        "Legend_fx_04_add": {
+          "Legend_fx_04": {
+            "y": -8.67,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 38,
+            "height": 45
+          }
+        },
+        "Legend_fx_05_add": {
+          "Legend_fx_05": {
+            "x": 0.5,
+            "y": -99.67,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 46,
+            "height": 63
+          }
+        },
+        "Legend_fx_06_add": {
+          "Legend_fx_06": {
+            "y": -102.67,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 90,
+            "height": 119
+          }
+        },
+        "Legend_fx_cloud_add": {
+          "Legend_fx_cloud": {
+            "y": 0.5,
+            "width": 60,
+            "height": 72
+          }
+        },
+        "Legend_light_1_add": {
+          "Legend_light_01": {
+            "x": -6.94,
+            "y": 290.02,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 475,
+            "height": 305
+          }
+        },
+        "Legend_light_2_add": {
+          "Legend_light_01": {
+            "x": -6.94,
+            "y": 290.02,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 475,
+            "height": 305
+          }
+        },
+        "Legend_light_3_add": {
+          "Legend_light_01": {
+            "x": -5.54,
+            "y": -320.13,
+            "scaleX": 2,
+            "scaleY": 2,
+            "rotation": 180,
+            "width": 475,
+            "height": 305
+          }
+        },
+        "Legend_light_4_add": {
+          "Legend_light_01": {
+            "x": -5.54,
+            "y": -320.13,
+            "scaleX": 2,
+            "scaleY": 2,
+            "rotation": 180,
+            "width": 475,
+            "height": 305
+          }
+        },
+        "Legend_palace_light_1_add": {
+          "Legend_palace_light_01": {
+            "x": -12.94,
+            "y": -299.98,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 475,
+            "height": 363
+          }
+        },
+        "Legend_palace_light_2_add": {
+          "Legend_palace_light_01": {
+            "y": 283.27,
+            "scaleX": 2,
+            "scaleY": 2,
+            "rotation": 180,
+            "width": 475,
+            "height": 363
+          }
+        },
+        "legend_bk_light_add": {
+          "legend_bk_light": {
+            "x": 20.98,
+            "y": 2.92,
+            "width": 708,
+            "height": 416
+          }
+        },
+        "legend_c": {
+          "legend_c": {
+            "x": -0.04,
+            "y": -0.98,
+            "width": 445,
+            "height": 444
+          }
+        },
+        "legend_c_add": {
+          "legend_c_fx": {
+            "x": -0.04,
+            "y": -0.98,
+            "scaleX": 20,
+            "scaleY": 20,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "legend_c_fx_add": {
+          "legend_c_fx": {
+            "x": -0.04,
+            "y": -0.98,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "legend_circle_add": {
+          "legend_circlefx": {
+            "x": -0.54,
+            "y": -0.98,
+            "scaleX": 10,
+            "scaleY": 10,
+            "width": 40,
+            "height": 40
+          }
+        },
+        "legend_spot_l_add": {
+          "legend_spot": {
+            "x": -4.59,
+            "y": 10.61,
+            "width": 80,
+            "height": 80
+          }
+        },
+        "legend_spot_r_add": {
+          "legend_spot": {
+            "x": -3.78,
+            "y": 10.78,
+            "width": 80,
+            "height": 80
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "Legend_fx_01_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_02_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff46"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_03_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_04_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_05_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_06_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff1f"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_cloud_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff95"
+            }
+          ]
+        },
+        "Legend_light_1_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_light_2_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_3_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_light_4_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_light_1_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_light_2_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "legend_bk_light_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff4f"
+            }
+          ]
+        },
+        "legend_c_add": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "legend_c_fx_add": {
+          "color": [
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "legend_circle_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "legend_spot_l_add": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "legend_spot_r_add": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_2": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01_1": {
+          "scale": [
+            {
+              "time": 0.4667,
+              "x": -0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "time": 0.4667,
+              "x": -0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01_0": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_0": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "main": {
+          "rotate": [
+            {},
+            {
+              "time": 0.0667,
+              "angle": 72
+            },
+            {
+              "time": 0.1333,
+              "angle": 144
+            },
+            {
+              "time": 0.2,
+              "angle": -144
+            },
+            {
+              "time": 0.2333,
+              "angle": -72
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.3,
+              "angle": 72
+            },
+            {
+              "time": 0.3333,
+              "angle": 144
+            },
+            {
+              "time": 0.3667,
+              "angle": -144
+            },
+            {
+              "time": 0.4,
+              "angle": -72,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5333
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.01,
+              "y": 0.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.2667,
+              "x": 1.1,
+              "y": 1.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4
+            }
+          ]
+        },
+        "cloud_6": {
+          "translate": [
+            {
+              "x": 264.4,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": 264.4,
+              "curve": 0.383,
+              "c3": 0.62
+            },
+            {
+              "time": 0.8667
+            }
+          ]
+        },
+        "cloud_5": {
+          "translate": [
+            {
+              "x": 353.78,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "x": 353.78,
+              "curve": 0.383,
+              "c3": 0.62
+            },
+            {
+              "time": 0.9333
+            }
+          ]
+        },
+        "cloud_4": {
+          "translate": [
+            {
+              "x": 312.82,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "x": 312.82,
+              "curve": 0.383,
+              "c3": 0.62
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "cloud_3": {
+          "translate": [
+            {
+              "x": -291.7,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": -291.7,
+              "curve": 0.383,
+              "c3": 0.62
+            },
+            {
+              "time": 0.8667
+            }
+          ]
+        },
+        "cloud_2": {
+          "translate": [
+            {
+              "x": -404.77,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "x": -404.77,
+              "curve": 0.383,
+              "c3": 0.62
+            },
+            {
+              "time": 0.9333
+            }
+          ]
+        },
+        "cloud_1": {
+          "translate": [
+            {
+              "x": -345.66,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "x": -345.66,
+              "curve": 0.383,
+              "c3": 0.62
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "fx_c": {
+          "scale": [
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.5333,
+              "x": 1.2,
+              "y": 1.2
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "Legend_fx_01_add": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_02_add": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff81"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_04_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff6d"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_06_add": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff4a",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_cloud_add": {
+          "color": [
+            {
+              "color": "ffffff95"
+            }
+          ]
+        },
+        "Legend_light_1_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_light_2_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_3_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_light_4_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_light_1_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_light_2_add": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "legend_bk_light_add": {
+          "color": [
+            {
+              "color": "ffffff4f"
+            }
+          ]
+        },
+        "legend_c_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff3c"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "legend_c_fx_add": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "legend_spot_l_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "legend_spot_r_add": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_0": {
+          "scale": [
+            {},
+            {
+              "time": 0.4333,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.5667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01_1": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_0": {
+          "scale": [
+            {},
+            {
+              "time": 0.4333,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.5667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "spot_1": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 23.71,
+              "y": 27.43
+            },
+            {
+              "time": 0.2,
+              "x": 9.45,
+              "y": 14.72
+            },
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.4667,
+              "x": -11.91,
+              "y": -19.55
+            },
+            {
+              "time": 0.6,
+              "x": -18.6,
+              "y": -42.32
+            }
+          ]
+        },
+        "spot_2": {
+          "translate": [
+            {},
+            {
+              "time": 0.2667,
+              "x": -6.48,
+              "y": -30.48
+            },
+            {
+              "time": 0.4,
+              "x": -2.37,
+              "y": -15.24
+            },
+            {
+              "time": 0.5333
+            },
+            {
+              "time": 0.6667,
+              "x": 2.74,
+              "y": 25.16
+            },
+            {
+              "time": 0.8,
+              "x": 0.64,
+              "y": 50.32
+            }
+          ]
+        },
+        "cloud_6": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 19.42,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "cloud_5": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 9.55,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ],
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "cloud_4": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "cloud_3": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": -19.29,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "cloud_2": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": -9.43,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ],
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "cloud_1": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "project-d",
+  "title": "Project-D",
+  "projectId": "project-d",
+  "project": "Project-D",
+  "bundle": "g1001",
+  "gn": "egyptian-mythology",
+  "gt": "slot-erase-any-times-1",
+  "buildDirectory": "build/web",
+  "previewPort": 8184,
+  "scenes": {
+    "landscape": {
+      "url": "db://assets/scenes/main.scene",
+      "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+    },
+    "portrait": {
+      "url": "db://assets/scenes/mainPortrait.scene",
+      "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+    }
+  },
+  "defaultMode": "landscape",
+  "status": "awaiting-official-build-and-gameplay-validation",
+  "backend": "owned-local-simulation"
+}

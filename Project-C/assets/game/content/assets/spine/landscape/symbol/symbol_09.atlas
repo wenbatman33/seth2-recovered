@@ -1,0 +1,41 @@
+
+symbol_09.png
+size: 204,76
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s9_a_a
+  rotate: false
+  xy: 113, 19
+  size: 32, 54
+  orig: 32, 55
+  offset: 0, 1
+  index: -1
+s9_a_b
+  rotate: true
+  xy: 146, 41
+  size: 32, 54
+  orig: 32, 55
+  offset: 0, 1
+  index: -1
+s9_b_2
+  rotate: false
+  xy: 67, 19
+  size: 45, 54
+  orig: 48, 55
+  offset: 1, 1
+  index: -1
+s9_c
+  rotate: true
+  xy: 146, 1
+  size: 39, 43
+  orig: 40, 44
+  offset: 0, 1
+  index: -1
+s9_c_2
+  rotate: false
+  xy: 1, 1
+  size: 65, 72
+  orig: 66, 73
+  offset: 0, 1
+  index: -1

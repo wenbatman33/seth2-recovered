@@ -1,0 +1,175 @@
+{
+  "skeleton": {
+    "hash": "0dX8V9/Ucq70RtumIOV4oeSHuBY",
+    "spine": "3.7.94",
+    "width": 1080,
+    "height": 1920
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "A_frame_B",
+      "parent": "root",
+      "scaleX": 1.027
+    }
+  ],
+  "slots": [
+    {
+      "name": "MG",
+      "bone": "root"
+    },
+    {
+      "name": "A_ui_frame_03",
+      "bone": "root"
+    },
+    {
+      "name": "A_frame_B_001",
+      "bone": "A_frame_B",
+      "attachment": "A_frame_B_003",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "A_frame_B_001": {
+        "A_frame_B_001": {
+          "width": 277,
+          "height": 1070
+        },
+        "A_frame_B_002": {
+          "width": 277,
+          "height": 1070
+        },
+        "A_frame_B_003": {
+          "width": 277,
+          "height": 1060
+        },
+        "A_frame_B_004": {
+          "width": 285,
+          "height": 1060
+        },
+        "A_frame_B_005": {
+          "width": 269,
+          "height": 1048
+        },
+        "A_frame_B_006": {
+          "width": 281,
+          "height": 1070
+        },
+        "A_frame_B_007": {
+          "width": 289,
+          "height": 1060
+        },
+        "A_frame_B_008": {
+          "width": 277,
+          "height": 1070
+        },
+        "A_frame_B_009": {
+          "width": 285,
+          "height": 1070
+        },
+        "A_frame_B_010": {
+          "x": 0.5,
+          "width": 296,
+          "height": 1070
+        },
+        "A_frame_B_011": {
+          "width": 289,
+          "height": 1070
+        },
+        "A_frame_B_012": {
+          "width": 289,
+          "height": 1070
+        },
+        "A_frame_B_013": {
+          "width": 289,
+          "height": 1070
+        },
+        "A_frame_B_014": {
+          "width": 281,
+          "height": 1064
+        },
+        "A_frame_B_015": {
+          "width": 293,
+          "height": 1054
+        }
+      }
+    }
+  },
+  "animations": {
+    "expect": {
+      "slots": {
+        "A_frame_B_001": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "A_frame_B_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "A_frame_B_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "A_frame_B_003"
+            },
+            {
+              "time": 0.1,
+              "name": "A_frame_B_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "A_frame_B_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "A_frame_B_006"
+            },
+            {
+              "time": 0.2,
+              "name": "A_frame_B_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "A_frame_B_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "A_frame_B_009"
+            },
+            {
+              "time": 0.3,
+              "name": "A_frame_B_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "A_frame_B_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "A_frame_B_012"
+            },
+            {
+              "time": 0.4,
+              "name": "A_frame_B_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "A_frame_B_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "A_frame_B_015"
+            },
+            {
+              "time": 0.5,
+              "name": "A_frame_B_001"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

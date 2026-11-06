@@ -1,0 +1,36 @@
+{
+  "project": "Project-C",
+  "status": "installed game hooks and local backend contracts pass; Creator runtime QA pending",
+  "testsPassed": 21,
+  "originalCapturedParserTests": 12,
+  "installedGameHookTests": 9,
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "creatorRuntimeVerified": false,
+  "backendFiles": [
+    "DisplayedPaytable.ts",
+    "FeatureDefinitions.ts",
+    "FeatureRules.ts",
+    "InstallLocalBackend.ts",
+    "JackpotRules.ts",
+    "LocalGameBackend.ts",
+    "LocalJackpotContinuation.ts",
+    "OrdinaryRules.ts"
+  ],
+  "sha256": {
+    "DisplayedPaytable.ts": "bd1a4b7870affb73fff0f5eba8c6e98f49e97d67ef41ea2dc89c6cc21fd880e2",
+    "FeatureDefinitions.ts": "eb9783c74903a390328bd49c06517142719b0b4f41c4786a53a0c48497eec985",
+    "FeatureRules.ts": "e69304154216da56fa846ecc7816db89b38a73981ee6f7e0e1931332b7e08427",
+    "InstallLocalBackend.ts": "cb1b8ad5a4ed980eb906c68a7e56176bfee058e6bffdcbcfa0e8faa063744681",
+    "JackpotRules.ts": "e337e3e4f3fe7c4be6a931a404f82962ec4a801a9eec5b4ae5037fa1da3e4ba7",
+    "LocalGameBackend.ts": "d7ebabf8b1167d03066917fd013a9f33ddd4da557d4544e0ec26aaed441e7cac",
+    "LocalJackpotContinuation.ts": "cddb5bfe05956655850de543ec8698eb1a0d6d07303218ac6954e7c96ef59474",
+    "OrdinaryRules.ts": "e2293c263675bc8c9ee6cdc39d26b9f07bc07f7360b2c27742b38517270d791a",
+    "apply-game-hooks.mjs": "8c371b8e6674da826fd796139e3489fa5bdf0d640414cdc7ed9219749317c87e",
+    "game-simulation-hooks-report.json": "a3cd78ce2f6eca7029c12f9cc8402c8fb3e1d8234ce5fc6a9b77f448582c2d16",
+    "integration-contract.json": "048a0bc149f365e2fd5cf2e463a18c44755ec6ee83a7988d858862aa611fb1f4",
+    "rules-provenance.json": "c4db9bc416afe1a8f53b7cc6fac0035bf377435e66561c56da94f8b5b6c411f6",
+    "test-backend.mjs": "a94552c6bcfeceea12fd891de9d9fd0be82c54e96eb994f07d889a0eb556a01b",
+    "test-game-hooks.mjs": "0de8bf3febf2c1f07004c36f42e009462a88ca8e4edcbe09d7f6bd3bacff81e2"
+  }
+}

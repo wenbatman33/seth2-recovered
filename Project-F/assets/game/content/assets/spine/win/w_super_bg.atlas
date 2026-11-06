@@ -1,0 +1,33 @@
+
+w_super_bg-778f3ba4-2eb4-436f-8345-31d648866230.png
+size: 96,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+super_lu_1
+  rotate: false
+  xy: 1, 1
+  size: 93, 132
+  orig: 93, 132
+  offset: 0, 0
+  index: -1
+
+w_super_bg.jpg
+size: 344,240
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+super_fx
+  rotate: false
+  xy: 1, 31
+  size: 203, 208
+  orig: 203, 208
+  offset: 0, 0
+  index: -1
+super_light_01
+  rotate: true
+  xy: 205, 1
+  size: 238, 136
+  orig: 238, 136
+  offset: 0, 0
+  index: -1

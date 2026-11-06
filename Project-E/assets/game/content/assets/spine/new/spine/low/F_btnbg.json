@@ -1,0 +1,119 @@
+{
+  "skeleton": {
+    "hash": "2rZefNWdvGKBpSGGhet3vpnjEWE",
+    "spine": "3.8.57",
+    "x": -541,
+    "y": -1262.51,
+    "width": 1082,
+    "height": 1017.51
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "light_red",
+      "parent": "root",
+      "y": -757.25,
+      "scaleX": 1.3996,
+      "scaleY": 1.3996
+    },
+    {
+      "name": "light_red2",
+      "parent": "root",
+      "y": -757.25,
+      "scaleX": 0.8033,
+      "scaleY": 0.8033
+    }
+  ],
+  "slots": [
+    {
+      "name": "btn_bg-02",
+      "bone": "root",
+      "attachment": "btn_bg-02"
+    },
+    {
+      "name": "light_red",
+      "bone": "light_red",
+      "attachment": "light_red",
+      "blend": "additive"
+    },
+    {
+      "name": "light_red2",
+      "bone": "light_red2",
+      "color": "54a008ff",
+      "attachment": "light_red",
+      "blend": "multiply"
+    },
+    {
+      "name": "btn_bg-01",
+      "bone": "root",
+      "attachment": "btn_bg-01"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "light_red2": {
+          "light_red": {
+            "x": 0.5,
+            "width": 727,
+            "height": 722
+          }
+        },
+        "btn_bg-01": {
+          "btn_bg-01": {
+            "y": -786,
+            "width": 1082,
+            "height": 350
+          }
+        },
+        "btn_bg-02": {
+          "btn_bg-02": {
+            "y": -603,
+            "width": 1082,
+            "height": 716
+          }
+        },
+        "light_red": {
+          "light_red": {
+            "x": 0.5,
+            "width": 727,
+            "height": 722
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "loop": {
+      "bones": {
+        "light_red": {
+          "rotate": [
+            {},
+            {
+              "time": 2,
+              "angle": 180
+            },
+            {
+              "time": 3.9667
+            }
+          ]
+        },
+        "light_red2": {
+          "rotate": [
+            {},
+            {
+              "time": 2,
+              "angle": 180
+            },
+            {
+              "time": 3.9667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

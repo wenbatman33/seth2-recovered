@@ -1,0 +1,61 @@
+
+frame_level.png
+size: 184,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_s1_s
+  rotate: true
+  xy: 1, 38
+  size: 77, 57
+  orig: 77, 57
+  offset: 0, 0
+  index: -1
+3_s2_s
+  rotate: false
+  xy: 124, 1
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+3_s3_s
+  rotate: true
+  xy: 1, 1
+  size: 36, 51
+  orig: 36, 51
+  offset: 0, 0
+  index: -1
+f_lv1
+  rotate: false
+  xy: 124, 58
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+f_lv2
+  rotate: false
+  xy: 59, 51
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+font
+  rotate: false
+  xy: 59, 1
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+
+frame_level_fx.jpg
+size: 92,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+f_lv3
+  rotate: false
+  xy: 1, 1
+  size: 90, 86
+  orig: 90, 86
+  offset: 0, 0
+  index: -1

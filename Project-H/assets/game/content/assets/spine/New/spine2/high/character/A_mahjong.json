@@ -1,0 +1,5709 @@
+{
+  "skeleton": {
+    "hash": "z1MV3v5aQTn5Vsz4l6rb42QyUPo",
+    "spine": "3.8.57",
+    "x": -322.69,
+    "y": 291,
+    "width": 668,
+    "height": 267
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone",
+      "parent": "root",
+      "x": -97.68
+    },
+    {
+      "name": "Mahjong_all",
+      "parent": "bone",
+      "x": 97.69,
+      "y": 302.62
+    },
+    {
+      "name": "M_Mahjong",
+      "parent": "Mahjong_all",
+      "x": 11.93,
+      "y": 263.24
+    },
+    {
+      "name": "R_Mahjong",
+      "parent": "Mahjong_all",
+      "x": -225.06,
+      "y": 199.56
+    },
+    {
+      "name": "Mahjong-1",
+      "parent": "M_Mahjong",
+      "x": -120.7,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-2",
+      "parent": "M_Mahjong",
+      "x": -100.92,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-3",
+      "parent": "M_Mahjong",
+      "x": -82.38,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-4",
+      "parent": "M_Mahjong",
+      "x": -61.78,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-5",
+      "parent": "M_Mahjong",
+      "x": -42.01,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-6",
+      "parent": "M_Mahjong",
+      "x": -23.47,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-7",
+      "parent": "M_Mahjong",
+      "x": -0.4,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-8",
+      "parent": "M_Mahjong",
+      "x": 19.38,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-9",
+      "parent": "M_Mahjong",
+      "x": 39.98,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-10",
+      "parent": "M_Mahjong",
+      "x": 61.4,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-11",
+      "parent": "M_Mahjong",
+      "x": 81.59,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-12",
+      "parent": "M_Mahjong",
+      "x": 101.37,
+      "y": -29.43
+    },
+    {
+      "name": "Mahjong-13",
+      "parent": "M_Mahjong",
+      "x": 124.44,
+      "y": -29.43
+    },
+    {
+      "name": "R_Mahjong-1",
+      "parent": "R_Mahjong",
+      "x": -59.53,
+      "y": -164.64
+    },
+    {
+      "name": "R_Mahjong-2",
+      "parent": "R_Mahjong",
+      "x": -43.78,
+      "y": -144.67
+    },
+    {
+      "name": "R_Mahjong-3",
+      "parent": "R_Mahjong",
+      "x": -30.19,
+      "y": -122.08
+    },
+    {
+      "name": "R_Mahjong-4",
+      "parent": "R_Mahjong",
+      "x": -17.25,
+      "y": -107.85
+    },
+    {
+      "name": "R_Mahjong-5",
+      "parent": "R_Mahjong",
+      "x": 31.17,
+      "y": -42.64
+    },
+    {
+      "name": "R_Mahjong-6",
+      "parent": "R_Mahjong",
+      "x": 19.66,
+      "y": -59.27
+    },
+    {
+      "name": "R_Mahjong-7",
+      "parent": "R_Mahjong",
+      "x": 7.51,
+      "y": -75.64
+    },
+    {
+      "name": "R_Mahjong-8",
+      "parent": "R_Mahjong",
+      "x": -2.51,
+      "y": -89.87
+    },
+    {
+      "name": "R_Mahjong-9",
+      "parent": "R_Mahjong",
+      "x": 42.9,
+      "y": -28.69
+    },
+    {
+      "name": "R_Mahjong-10",
+      "parent": "R_Mahjong",
+      "x": 51.48,
+      "y": -15.41
+    },
+    {
+      "name": "R_Mahjong-11",
+      "parent": "R_Mahjong",
+      "x": 62.2,
+      "y": 0.48
+    },
+    {
+      "name": "R_Mahjong-12",
+      "parent": "R_Mahjong",
+      "x": 71.32,
+      "y": 14.72
+    },
+    {
+      "name": "L_Mahjong",
+      "parent": "Mahjong_all",
+      "x": 247.85,
+      "y": 199.56,
+      "scaleX": -1
+    },
+    {
+      "name": "R_Mahjong-13",
+      "parent": "L_Mahjong",
+      "x": -59.53,
+      "y": -164.64
+    },
+    {
+      "name": "R_Mahjong-14",
+      "parent": "L_Mahjong",
+      "x": -43.78,
+      "y": -144.67
+    },
+    {
+      "name": "R_Mahjong-15",
+      "parent": "L_Mahjong",
+      "x": -30.19,
+      "y": -122.08
+    },
+    {
+      "name": "R_Mahjong-16",
+      "parent": "L_Mahjong",
+      "x": -17.25,
+      "y": -107.85
+    },
+    {
+      "name": "R_Mahjong-17",
+      "parent": "L_Mahjong",
+      "x": 31.17,
+      "y": -42.64
+    },
+    {
+      "name": "R_Mahjong-18",
+      "parent": "L_Mahjong",
+      "x": 19.66,
+      "y": -59.27
+    },
+    {
+      "name": "R_Mahjong-19",
+      "parent": "L_Mahjong",
+      "x": 7.51,
+      "y": -75.64
+    },
+    {
+      "name": "R_Mahjong-20",
+      "parent": "L_Mahjong",
+      "x": -2.51,
+      "y": -89.87
+    },
+    {
+      "name": "R_Mahjong-21",
+      "parent": "L_Mahjong",
+      "x": 42.9,
+      "y": -28.69
+    },
+    {
+      "name": "R_Mahjong-22",
+      "parent": "L_Mahjong",
+      "x": 51.48,
+      "y": -15.41
+    },
+    {
+      "name": "R_Mahjong-23",
+      "parent": "L_Mahjong",
+      "x": 62.2,
+      "y": 0.48
+    },
+    {
+      "name": "R_Mahjong-24",
+      "parent": "L_Mahjong",
+      "x": 71.32,
+      "y": 14.72
+    }
+  ],
+  "slots": [
+    {
+      "name": "Mahjong-at-table-2",
+      "bone": "Mahjong_all",
+      "attachment": "Mahjong-at-table-2"
+    },
+    {
+      "name": "Mahjong-at-table-1",
+      "bone": "Mahjong_all",
+      "attachment": "Mahjong-at-table-1"
+    },
+    {
+      "name": "L_Mahjong-at-table",
+      "bone": "Mahjong_all"
+    },
+    {
+      "name": "R_Mahjong-12",
+      "bone": "R_Mahjong-12",
+      "attachment": "R_Mahjong-12"
+    },
+    {
+      "name": "R_Mahjong-24",
+      "bone": "R_Mahjong-24",
+      "attachment": "R_Mahjong-12"
+    },
+    {
+      "name": "R_Mahjong-11",
+      "bone": "R_Mahjong-11",
+      "attachment": "R_Mahjong-11"
+    },
+    {
+      "name": "R_Mahjong-23",
+      "bone": "R_Mahjong-23",
+      "attachment": "R_Mahjong-11"
+    },
+    {
+      "name": "R_Mahjong-10",
+      "bone": "R_Mahjong-10",
+      "attachment": "R_Mahjong-10"
+    },
+    {
+      "name": "R_Mahjong-22",
+      "bone": "R_Mahjong-22",
+      "attachment": "R_Mahjong-10"
+    },
+    {
+      "name": "R_Mahjong-9",
+      "bone": "R_Mahjong-9",
+      "attachment": "R_Mahjong-9"
+    },
+    {
+      "name": "R_Mahjong-21",
+      "bone": "R_Mahjong-21",
+      "attachment": "R_Mahjong-9"
+    },
+    {
+      "name": "R_Mahjong-8",
+      "bone": "R_Mahjong-8",
+      "attachment": "R_Mahjong-8"
+    },
+    {
+      "name": "R_Mahjong-20",
+      "bone": "R_Mahjong-20",
+      "attachment": "R_Mahjong-8"
+    },
+    {
+      "name": "R_Mahjong-7",
+      "bone": "R_Mahjong-7",
+      "attachment": "R_Mahjong-7"
+    },
+    {
+      "name": "R_Mahjong-19",
+      "bone": "R_Mahjong-19",
+      "attachment": "R_Mahjong-7"
+    },
+    {
+      "name": "R_Mahjong-6",
+      "bone": "R_Mahjong-6",
+      "attachment": "R_Mahjong-6"
+    },
+    {
+      "name": "R_Mahjong-18",
+      "bone": "R_Mahjong-18",
+      "attachment": "R_Mahjong-6"
+    },
+    {
+      "name": "R_Mahjong-5",
+      "bone": "R_Mahjong-5",
+      "attachment": "R_Mahjong-5"
+    },
+    {
+      "name": "R_Mahjong-17",
+      "bone": "R_Mahjong-17",
+      "attachment": "R_Mahjong-5"
+    },
+    {
+      "name": "R_Mahjong-4",
+      "bone": "R_Mahjong-4",
+      "attachment": "R_Mahjong-4"
+    },
+    {
+      "name": "R_Mahjong-16",
+      "bone": "R_Mahjong-16",
+      "attachment": "R_Mahjong-4"
+    },
+    {
+      "name": "R_Mahjong-3",
+      "bone": "R_Mahjong-3",
+      "attachment": "R_Mahjong-3"
+    },
+    {
+      "name": "R_Mahjong-15",
+      "bone": "R_Mahjong-15",
+      "attachment": "R_Mahjong-3"
+    },
+    {
+      "name": "R_Mahjong-2",
+      "bone": "R_Mahjong-2",
+      "attachment": "R_Mahjong-2"
+    },
+    {
+      "name": "R_Mahjong-14",
+      "bone": "R_Mahjong-14",
+      "attachment": "R_Mahjong-2"
+    },
+    {
+      "name": "R_Mahjong-1",
+      "bone": "R_Mahjong-1",
+      "attachment": "R_Mahjong-1"
+    },
+    {
+      "name": "R_Mahjong-13",
+      "bone": "R_Mahjong-13",
+      "attachment": "R_Mahjong-1"
+    },
+    {
+      "name": "Mahjong-1",
+      "bone": "Mahjong-1",
+      "attachment": "Mahjong-1"
+    },
+    {
+      "name": "Mahjong-2",
+      "bone": "Mahjong-2",
+      "attachment": "Mahjong-2"
+    },
+    {
+      "name": "Mahjong-3",
+      "bone": "Mahjong-3",
+      "attachment": "Mahjong-3"
+    },
+    {
+      "name": "Mahjong-4",
+      "bone": "Mahjong-4",
+      "attachment": "Mahjong-4"
+    },
+    {
+      "name": "Mahjong-5",
+      "bone": "Mahjong-5",
+      "attachment": "Mahjong-5"
+    },
+    {
+      "name": "Mahjong-6",
+      "bone": "Mahjong-6",
+      "attachment": "Mahjong-6"
+    },
+    {
+      "name": "Mahjong-7",
+      "bone": "Mahjong-7",
+      "attachment": "Mahjong-7"
+    },
+    {
+      "name": "Mahjong-8",
+      "bone": "Mahjong-8",
+      "attachment": "Mahjong-8"
+    },
+    {
+      "name": "Mahjong-9",
+      "bone": "Mahjong-9",
+      "attachment": "Mahjong-9"
+    },
+    {
+      "name": "Mahjong-10",
+      "bone": "Mahjong-10",
+      "attachment": "Mahjong-10"
+    },
+    {
+      "name": "Mahjong-11",
+      "bone": "Mahjong-11",
+      "attachment": "Mahjong-11"
+    },
+    {
+      "name": "Mahjong-13",
+      "bone": "Mahjong-13",
+      "attachment": "Mahjong-13"
+    },
+    {
+      "name": "Mahjong-12",
+      "bone": "Mahjong-12",
+      "attachment": "Mahjong-12"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "R_Mahjong-16": {
+          "R_Mahjong-4": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              6.63,
+              -15.33,
+              -30.37,
+              -15.33,
+              -30.37,
+              44.67,
+              6.63,
+              44.67
+            ]
+          }
+        },
+        "L_Mahjong-at-table": {
+          "L_Mahjong-at-table": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              344.31,
+              11.38,
+              174.32,
+              11.38,
+              174.31,
+              240.38,
+              344.31,
+              240.38
+            ]
+          }
+        },
+        "R_Mahjong-13": {
+          "R_Mahjong-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              6.91,
+              -23.54,
+              -37.09,
+              -23.54,
+              -37.09,
+              46.46,
+              6.91,
+              46.46
+            ]
+          }
+        },
+        "R_Mahjong-20": {
+          "R_Mahjong-8": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              35.89,
+              24.69,
+              1.89,
+              24.69,
+              1.89,
+              83.69,
+              35.89,
+              83.69
+            ]
+          }
+        },
+        "R_Mahjong-21": {
+          "R_Mahjong-9": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1.48,
+              -15.49,
+              -32.52,
+              -15.49,
+              -32.52,
+              35.51,
+              1.48,
+              35.51
+            ]
+          }
+        },
+        "R_Mahjong-22": {
+          "R_Mahjong-10": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              3.9,
+              -15.77,
+              -25.1,
+              -15.77,
+              -25.1,
+              34.23,
+              3.9,
+              34.23
+            ]
+          }
+        },
+        "R_Mahjong-23": {
+          "R_Mahjong-11": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              3.18,
+              -20.66,
+              -29.82,
+              -20.66,
+              -29.82,
+              30.34,
+              3.18,
+              30.34
+            ]
+          }
+        },
+        "R_Mahjong-24": {
+          "R_Mahjong-12": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              2.06,
+              -24.9,
+              -28.94,
+              -24.9,
+              -28.94,
+              26.1,
+              2.06,
+              26.1
+            ]
+          }
+        },
+        "Mahjong-10": {
+          "Mahjong-10": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              10.98,
+              -23.44,
+              -15.02,
+              -23.44,
+              -15.02,
+              20.56,
+              10.98,
+              20.56
+            ]
+          }
+        },
+        "R_Mahjong-19": {
+          "R_Mahjong-7": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              15.87,
+              0.46,
+              -18.13,
+              0.46,
+              -18.13,
+              54.46,
+              15.87,
+              54.46
+            ]
+          }
+        },
+        "R_Mahjong-1": {
+          "R_Mahjong-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              6.91,
+              -23.54,
+              -37.09,
+              -23.54,
+              -37.09,
+              46.46,
+              6.91,
+              46.46
+            ]
+          }
+        },
+        "Mahjong-at-table-1": {
+          "Mahjong-at-table-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              344.31,
+              2.38,
+              -266.69,
+              2.38,
+              -266.68,
+              216.38,
+              344.31,
+              216.38
+            ]
+          }
+        },
+        "Mahjong-at-table-2": {
+          "Mahjong-at-table-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              345.31,
+              -11.62,
+              -322.69,
+              -11.62,
+              -322.68,
+              233.38,
+              345.31,
+              233.38
+            ]
+          }
+        },
+        "R_Mahjong-18": {
+          "R_Mahjong-6": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -8.28,
+              -29.91,
+              -42.28,
+              -29.91,
+              -42.28,
+              26.09,
+              -8.28,
+              26.09
+            ]
+          }
+        },
+        "Mahjong-2": {
+          "Mahjong-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              14.31,
+              -18.44,
+              -13.69,
+              -18.44,
+              -13.69,
+              20.56,
+              14.31,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-3": {
+          "Mahjong-3": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              14.77,
+              -17.44,
+              -12.23,
+              -17.44,
+              -12.23,
+              20.56,
+              14.77,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-4": {
+          "Mahjong-4": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              15.17,
+              -17.44,
+              -12.83,
+              -17.44,
+              -12.83,
+              20.56,
+              15.17,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-5": {
+          "Mahjong-5": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              12.39,
+              -17.44,
+              -11.61,
+              -17.44,
+              -11.61,
+              20.56,
+              12.39,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-6": {
+          "Mahjong-6": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              13.85,
+              -17.44,
+              -10.15,
+              -17.44,
+              -10.15,
+              20.56,
+              13.85,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-7": {
+          "Mahjong-7": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              11.78,
+              -17.44,
+              -13.22,
+              -17.44,
+              -13.22,
+              20.56,
+              11.78,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-8": {
+          "Mahjong-8": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              11,
+              -17.44,
+              -12,
+              -17.44,
+              -12,
+              20.56,
+              11,
+              20.56
+            ]
+          }
+        },
+        "R_Mahjong-15": {
+          "R_Mahjong-3": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              5.57,
+              -25.1,
+              -31.43,
+              -25.1,
+              -31.43,
+              42.9,
+              5.57,
+              42.9
+            ]
+          }
+        },
+        "Mahjong-1": {
+          "Mahjong-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              13.08,
+              -17.44,
+              -24.92,
+              -17.44,
+              -24.92,
+              20.56,
+              13.08,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-11": {
+          "Mahjong-11": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              13.79,
+              -17.44,
+              -14.21,
+              -17.44,
+              -14.21,
+              20.56,
+              13.79,
+              20.56
+            ]
+          }
+        },
+        "R_Mahjong-10": {
+          "R_Mahjong-10": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              3.9,
+              -15.77,
+              -25.1,
+              -15.77,
+              -25.1,
+              34.23,
+              3.9,
+              34.23
+            ]
+          }
+        },
+        "R_Mahjong-11": {
+          "R_Mahjong-11": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              3.18,
+              -20.66,
+              -29.82,
+              -20.66,
+              -29.82,
+              30.34,
+              3.18,
+              30.34
+            ]
+          }
+        },
+        "R_Mahjong-12": {
+          "R_Mahjong-12": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              2.06,
+              -24.9,
+              -28.94,
+              -24.9,
+              -28.94,
+              26.1,
+              2.06,
+              26.1
+            ]
+          }
+        },
+        "R_Mahjong-2": {
+          "R_Mahjong-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              4.15,
+              -19.51,
+              -34.85,
+              -19.51,
+              -34.85,
+              47.49,
+              4.15,
+              47.49
+            ]
+          }
+        },
+        "R_Mahjong-3": {
+          "R_Mahjong-3": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              5.57,
+              -25.1,
+              -31.43,
+              -25.1,
+              -31.43,
+              42.9,
+              5.57,
+              42.9
+            ]
+          }
+        },
+        "R_Mahjong-4": {
+          "R_Mahjong-4": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              6.63,
+              -15.33,
+              -30.37,
+              -15.33,
+              -30.37,
+              44.67,
+              6.63,
+              44.67
+            ]
+          }
+        },
+        "R_Mahjong-5": {
+          "R_Mahjong-5": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -29.79,
+              -68.54,
+              -66.79,
+              -68.54,
+              -66.79,
+              -4.54,
+              -29.79,
+              -4.54
+            ]
+          }
+        },
+        "R_Mahjong-6": {
+          "R_Mahjong-6": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -8.28,
+              -29.91,
+              -42.28,
+              -29.91,
+              -42.28,
+              26.09,
+              -8.28,
+              26.09
+            ]
+          }
+        },
+        "R_Mahjong-7": {
+          "R_Mahjong-7": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              15.87,
+              0.46,
+              -18.13,
+              0.46,
+              -18.13,
+              54.46,
+              15.87,
+              54.46
+            ]
+          }
+        },
+        "R_Mahjong-8": {
+          "R_Mahjong-8": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              35.89,
+              24.69,
+              1.89,
+              24.69,
+              1.89,
+              83.69,
+              35.89,
+              83.69
+            ]
+          }
+        },
+        "R_Mahjong-9": {
+          "R_Mahjong-9": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1.48,
+              -15.49,
+              -32.52,
+              -15.49,
+              -32.52,
+              35.51,
+              1.48,
+              35.51
+            ]
+          }
+        },
+        "R_Mahjong-14": {
+          "R_Mahjong-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              4.15,
+              -19.51,
+              -34.85,
+              -19.51,
+              -34.85,
+              47.49,
+              4.15,
+              47.49
+            ]
+          }
+        },
+        "Mahjong-9": {
+          "Mahjong-9": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              10.4,
+              -17.44,
+              -13.6,
+              -17.44,
+              -13.6,
+              20.56,
+              10.4,
+              20.56
+            ]
+          }
+        },
+        "Mahjong-13": {
+          "Mahjong-13": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              10.94,
+              -17.44,
+              -17.06,
+              -17.44,
+              -17.06,
+              21.56,
+              10.94,
+              21.56
+            ]
+          }
+        },
+        "Mahjong-12": {
+          "Mahjong-12": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              15.02,
+              -17.44,
+              -11.98,
+              -17.44,
+              -11.98,
+              20.56,
+              15.02,
+              20.56
+            ]
+          }
+        },
+        "R_Mahjong-17": {
+          "R_Mahjong-5": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -29.79,
+              -68.54,
+              -66.79,
+              -68.54,
+              -66.79,
+              -4.54,
+              -29.79,
+              -4.54
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "fevertime": {
+      "bones": {
+        "R_Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.4,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "y": 20.01
+            },
+            {
+              "time": 0.7667
+            }
+          ]
+        },
+        "R_Mahjong-11": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "R_Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "R_Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.3,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.4667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "y": 20.01
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "R_Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667
+            },
+            {
+              "time": 0.6667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 20.01
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "R_Mahjong-6": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 20.01
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "R_Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "R_Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.4,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "y": 20.01
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "R_Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667
+            },
+            {
+              "time": 0.6667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 20.01
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "R_Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01
+            },
+            {
+              "time": 0.9
+            }
+          ]
+        },
+        "R_Mahjong-1": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "Mahjong-13": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 7.24
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667
+            },
+            {
+              "time": 0.8,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9,
+              "y": 7.24
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "Mahjong-11": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.2667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 7.24
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667
+            },
+            {
+              "time": 0.6667,
+              "y": 15.47,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 15.47
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 7.24
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 7.24
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667
+            },
+            {
+              "time": 0.7,
+              "y": 16.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 16.5
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "Mahjong-6": {
+          "translate": [
+            {},
+            {
+              "time": 0.1,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "y": 7.24
+            },
+            {
+              "time": 0.4
+            }
+          ]
+        },
+        "Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.3,
+              "y": 13.41,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "y": 13.41
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.6667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 7.24
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.4667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "y": 7.24
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4667,
+              "y": 14.44,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 14.44
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-1": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 7.24
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "bone": {
+          "translate": [
+            {},
+            {
+              "time": 0.2667,
+              "y": -25.27
+            },
+            {
+              "time": 0.5,
+              "y": 16.24
+            },
+            {
+              "time": 0.8,
+              "y": -14.44
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "R_Mahjong-13": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "R_Mahjong-14": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01
+            },
+            {
+              "time": 0.9
+            }
+          ]
+        },
+        "R_Mahjong-15": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667
+            },
+            {
+              "time": 0.6667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 20.01
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "R_Mahjong-16": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.4,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "y": 20.01
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "R_Mahjong-17": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "R_Mahjong-18": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 20.01
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "R_Mahjong-19": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667
+            },
+            {
+              "time": 0.6667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 20.01
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "R_Mahjong-20": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.4667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "y": 20.01
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "R_Mahjong-21": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.3,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-22": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "R_Mahjong-23": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "R_Mahjong-24": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.4,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "y": 20.01
+            },
+            {
+              "time": 0.7667
+            }
+          ]
+        }
+      }
+    },
+    "loop_A": {
+      "bones": {
+        "R_Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6333
+            },
+            {
+              "time": 3.7667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.9,
+              "y": 20.01
+            },
+            {
+              "time": 4
+            }
+          ]
+        },
+        "R_Mahjong-11": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333
+            },
+            {
+              "time": 3.4667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5667,
+              "y": 20.01
+            },
+            {
+              "time": 3.7
+            }
+          ]
+        },
+        "R_Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0333
+            },
+            {
+              "time": 3.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2667,
+              "y": 20.01
+            },
+            {
+              "time": 3.4
+            }
+          ]
+        },
+        "R_Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7
+            },
+            {
+              "time": 2.8333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9667,
+              "y": 20.01
+            },
+            {
+              "time": 3.1
+            }
+          ]
+        },
+        "R_Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4
+            },
+            {
+              "time": 2.5333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6667,
+              "y": 20.01
+            },
+            {
+              "time": 2.7667
+            }
+          ]
+        },
+        "R_Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0333
+            },
+            {
+              "time": 2.1667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3,
+              "y": 20.01
+            },
+            {
+              "time": 2.4
+            }
+          ]
+        },
+        "R_Mahjong-6": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667
+            },
+            {
+              "time": 1.8,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9,
+              "y": 20.01
+            },
+            {
+              "time": 2.0333
+            }
+          ]
+        },
+        "R_Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667
+            },
+            {
+              "time": 1.4667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6,
+              "y": 20.01
+            },
+            {
+              "time": 1.7333
+            }
+          ]
+        },
+        "R_Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1
+            },
+            {
+              "time": 1.1,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2333,
+              "y": 20.01
+            },
+            {
+              "time": 1.3667
+            }
+          ]
+        },
+        "R_Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667
+            },
+            {
+              "time": 0.8,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "y": 20.01
+            },
+            {
+              "time": 1.0333
+            }
+          ]
+        },
+        "R_Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-1": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "Mahjong-13": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "y": 7.24
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333
+            },
+            {
+              "time": 1.0667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "y": 7.24
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        },
+        "Mahjong-11": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5333
+            },
+            {
+              "time": 1.6333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7667,
+              "y": 7.24
+            },
+            {
+              "time": 1.8667
+            }
+          ]
+        },
+        "Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1
+            },
+            {
+              "time": 2.2333,
+              "y": 15.47,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3667,
+              "y": 15.47
+            },
+            {
+              "time": 2.4667
+            }
+          ]
+        },
+        "Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7667
+            },
+            {
+              "time": 2.8667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "y": 7.24
+            },
+            {
+              "time": 3.1
+            }
+          ]
+        },
+        "Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6333
+            },
+            {
+              "time": 3.7667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.8667,
+              "y": 7.24
+            },
+            {
+              "time": 4
+            }
+          ]
+        },
+        "Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333
+            },
+            {
+              "time": 3.4667,
+              "y": 16.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6,
+              "y": 16.5
+            },
+            {
+              "time": 3.7
+            }
+          ]
+        },
+        "Mahjong-6": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0667
+            },
+            {
+              "time": 3.1667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3,
+              "y": 7.24
+            },
+            {
+              "time": 3.4
+            }
+          ]
+        },
+        "Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4667
+            },
+            {
+              "time": 2.6,
+              "y": 13.41,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7,
+              "y": 13.41
+            },
+            {
+              "time": 2.8333
+            }
+          ]
+        },
+        "Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8333
+            },
+            {
+              "time": 1.9333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0667,
+              "y": 7.24
+            },
+            {
+              "time": 2.1667
+            }
+          ]
+        },
+        "Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2333
+            },
+            {
+              "time": 1.3667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4667,
+              "y": 7.24
+            },
+            {
+              "time": 1.6
+            }
+          ]
+        },
+        "Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333
+            },
+            {
+              "time": 0.7667,
+              "y": 14.44,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 14.44
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "Mahjong-1": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 7.24
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "R_Mahjong-13": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "R_Mahjong-14": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-15": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667
+            },
+            {
+              "time": 0.8,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "y": 20.01
+            },
+            {
+              "time": 1.0333
+            }
+          ]
+        },
+        "R_Mahjong-16": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1
+            },
+            {
+              "time": 1.1,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2333,
+              "y": 20.01
+            },
+            {
+              "time": 1.3667
+            }
+          ]
+        },
+        "R_Mahjong-17": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667
+            },
+            {
+              "time": 1.4667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6,
+              "y": 20.01
+            },
+            {
+              "time": 1.7333
+            }
+          ]
+        },
+        "R_Mahjong-18": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667
+            },
+            {
+              "time": 1.8,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9,
+              "y": 20.01
+            },
+            {
+              "time": 2.0333
+            }
+          ]
+        },
+        "R_Mahjong-19": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0333
+            },
+            {
+              "time": 2.1667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3,
+              "y": 20.01
+            },
+            {
+              "time": 2.4
+            }
+          ]
+        },
+        "R_Mahjong-20": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4
+            },
+            {
+              "time": 2.5333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6667,
+              "y": 20.01
+            },
+            {
+              "time": 2.7667
+            }
+          ]
+        },
+        "R_Mahjong-21": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7
+            },
+            {
+              "time": 2.8333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9667,
+              "y": 20.01
+            },
+            {
+              "time": 3.1
+            }
+          ]
+        },
+        "R_Mahjong-22": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0333
+            },
+            {
+              "time": 3.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2667,
+              "y": 20.01
+            },
+            {
+              "time": 3.4
+            }
+          ]
+        },
+        "R_Mahjong-23": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333
+            },
+            {
+              "time": 3.4667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5667,
+              "y": 20.01
+            },
+            {
+              "time": 3.7
+            }
+          ]
+        },
+        "R_Mahjong-24": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6333
+            },
+            {
+              "time": 3.7667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.9,
+              "y": 20.01
+            },
+            {
+              "time": 4
+            }
+          ]
+        }
+      }
+    },
+    "loop_B": {
+      "bones": {
+        "R_Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.2333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3333
+            }
+          ]
+        },
+        "R_Mahjong-11": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.1333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.2333
+            }
+          ]
+        },
+        "R_Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.0667,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.1333
+            }
+          ]
+        },
+        "R_Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.0667
+            }
+          ]
+        },
+        "R_Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8667,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "R_Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7667,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8667
+            }
+          ]
+        },
+        "R_Mahjong-6": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7667
+            }
+          ]
+        },
+        "R_Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "R_Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "R_Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        },
+        "R_Mahjong-1": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.2
+            }
+          ]
+        },
+        "Mahjong-1": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.4667
+            }
+          ]
+        },
+        "Mahjong-2": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.4667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.5667
+            }
+          ]
+        },
+        "Mahjong-3": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.5667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.6667
+            }
+          ]
+        },
+        "Mahjong-4": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.6667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.7667
+            }
+          ]
+        },
+        "Mahjong-5": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.7667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.8667
+            }
+          ]
+        },
+        "Mahjong-6": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.8667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.9667
+            }
+          ]
+        },
+        "Mahjong-7": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.9667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.0667
+            }
+          ]
+        },
+        "Mahjong-8": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.0667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.1667
+            }
+          ]
+        },
+        "Mahjong-9": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.1667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.2667
+            }
+          ]
+        },
+        "Mahjong-10": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.2667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.3667
+            }
+          ]
+        },
+        "Mahjong-11": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.3667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.4667
+            }
+          ]
+        },
+        "Mahjong-12": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.4667,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.5667
+            }
+          ]
+        },
+        "Mahjong-13": {
+          "translate": [
+            {
+              "time": 1.2667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.6,
+              "y": 13.27,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.7
+            }
+          ]
+        },
+        "R_Mahjong-13": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.8,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.9,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 4
+            }
+          ]
+        },
+        "R_Mahjong-14": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.7333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.8
+            }
+          ]
+        },
+        "R_Mahjong-15": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.6,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.7
+            }
+          ]
+        },
+        "R_Mahjong-16": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.4333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.5333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.6333
+            }
+          ]
+        },
+        "R_Mahjong-17": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.4333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.5333
+            }
+          ]
+        },
+        "R_Mahjong-18": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.3333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.4
+            }
+          ]
+        },
+        "R_Mahjong-19": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.2,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.3333
+            }
+          ]
+        },
+        "R_Mahjong-20": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.1333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.2333
+            }
+          ]
+        },
+        "R_Mahjong-21": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.0333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.1333
+            }
+          ]
+        },
+        "R_Mahjong-22": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.9333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3
+            }
+          ]
+        },
+        "R_Mahjong-23": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.8333,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.9333
+            }
+          ]
+        },
+        "R_Mahjong-24": {
+          "translate": [
+            {
+              "time": 2.6667,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.7667,
+              "y": 20.01,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.8667
+            }
+          ]
+        }
+      }
+    },
+    "tease": {
+      "bones": {
+        "R_Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 20.01
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "R_Mahjong-11": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "R_Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "R_Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": 20.01
+            },
+            {
+              "time": 0.4667
+            }
+          ]
+        },
+        "R_Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "R_Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-6": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333
+            },
+            {
+              "time": 0.1667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01
+            },
+            {
+              "time": 0.4
+            }
+          ]
+        },
+        "R_Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "R_Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 20.01
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "R_Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "R_Mahjong-1": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "Mahjong-13": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.2,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": 7.24
+            },
+            {
+              "time": 0.4333
+            }
+          ]
+        },
+        "Mahjong-12": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333
+            },
+            {
+              "time": 0.5333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "y": 7.24
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-11": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.1667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "y": 7.24
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "Mahjong-10": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 15.47,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 15.47
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-9": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.2667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 7.24
+            },
+            {
+              "time": 0.4333
+            }
+          ]
+        },
+        "Mahjong-8": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.2333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": 7.24
+            },
+            {
+              "time": 0.4667
+            }
+          ]
+        },
+        "Mahjong-7": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667
+            },
+            {
+              "time": 0.4667,
+              "y": 16.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 16.5
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "Mahjong-6": {
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 7.24
+            },
+            {
+              "time": 0.2667
+            }
+          ]
+        },
+        "Mahjong-5": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2,
+              "y": 13.41,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "y": 13.41
+            },
+            {
+              "time": 0.4333
+            }
+          ]
+        },
+        "Mahjong-4": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.4333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 7.24
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-3": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 7.24
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "Mahjong-2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.3,
+              "y": 14.44,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 14.44
+            },
+            {
+              "time": 0.4333
+            }
+          ]
+        },
+        "Mahjong-1": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 7.24,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 7.24
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "bone": {
+          "translate": [
+            {},
+            {
+              "time": 0.1667,
+              "y": -25.27
+            },
+            {
+              "time": 0.3333,
+              "y": 16.24
+            },
+            {
+              "time": 0.5333,
+              "y": -14.44
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-13": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "R_Mahjong-14": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "R_Mahjong-15": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-16": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 20.01
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "R_Mahjong-17": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "R_Mahjong-18": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333
+            },
+            {
+              "time": 0.1667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01
+            },
+            {
+              "time": 0.4
+            }
+          ]
+        },
+        "R_Mahjong-19": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 20.01
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "R_Mahjong-20": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "y": 20.01
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "R_Mahjong-21": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": 20.01
+            },
+            {
+              "time": 0.4667
+            }
+          ]
+        },
+        "R_Mahjong-22": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            },
+            {
+              "time": 0.3667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 20.01
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "R_Mahjong-23": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "y": 20.01
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "R_Mahjong-24": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.2667,
+              "y": 20.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "y": 20.01
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        }
+      }
+    },
+    "win_A": {
+      "bones": {
+        "R_Mahjong-20": {
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 40.35,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 40.35
+            },
+            {
+              "time": 1.1667
+            }
+          ]
+        }
+      }
+    },
+    "win_B": {
+      "bones": {
+        "R_Mahjong-4": {
+          "translate": [
+            {},
+            {
+              "time": 0.1667,
+              "y": 35.51,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 35.51
+            },
+            {
+              "time": 1.1667
+            }
+          ]
+        }
+      }
+    },
+    "win_C": {
+      "bones": {
+        "Mahjong-6": {
+          "translate": [
+            {},
+            {
+              "time": 0.1667,
+              "y": 18.17,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 18.17
+            },
+            {
+              "time": 1.1667
+            }
+          ]
+        },
+        "Mahjong-7": {
+          "translate": [
+            {},
+            {
+              "time": 0.2667,
+              "y": 29.52,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 29.52
+            },
+            {
+              "time": 1.1667
+            }
+          ]
+        },
+        "Mahjong-8": {
+          "translate": [
+            {},
+            {
+              "time": 0.5333,
+              "y": 42.39,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 42.39
+            },
+            {
+              "time": 1.1667
+            }
+          ]
+        },
+        "Mahjong-9": {
+          "translate": [
+            {},
+            {
+              "time": 0.5333,
+              "y": 18.17,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 18.17
+            },
+            {
+              "time": 1.1667
+            }
+          ]
+        }
+      }
+    },
+    "win_D": {
+      "bones": {
+        "Mahjong-1": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "y": 4.43,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": 4.43
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "Mahjong-2": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.1,
+              "y": 7.97,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "y": 7.97
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "Mahjong-3": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.1333,
+              "y": 15.05,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "y": 15.05
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "Mahjong-4": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 25.67,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "y": 25.67
+            },
+            {
+              "time": 0.7333
+            }
+          ]
+        },
+        "Mahjong-5": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.2333,
+              "y": 33.63,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "y": 33.63
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "Mahjong-6": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.2667,
+              "y": 42.48,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "y": 42.48
+            },
+            {
+              "time": 0.8667
+            }
+          ]
+        },
+        "Mahjong-7": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.3,
+              "y": 56.64,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "y": 56.64
+            },
+            {
+              "time": 0.9333
+            }
+          ]
+        },
+        "Mahjong-8": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.3333,
+              "y": 42.48,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "y": 42.48
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "Mahjong-9": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.3667,
+              "y": 33.63,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8,
+              "y": 33.63
+            },
+            {
+              "time": 1.0667
+            }
+          ]
+        },
+        "Mahjong-10": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.4333,
+              "y": 25.67,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "y": 25.67
+            },
+            {
+              "time": 1.1333
+            }
+          ]
+        },
+        "Mahjong-11": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.5,
+              "y": 15.05,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9,
+              "y": 15.05
+            },
+            {
+              "time": 1.2
+            }
+          ]
+        },
+        "Mahjong-12": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.5667,
+              "y": 7.97,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9667,
+              "y": 7.97
+            },
+            {
+              "time": 1.2667
+            }
+          ]
+        },
+        "Mahjong-13": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.6333,
+              "y": 4.43,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 4.43
+            },
+            {
+              "time": 1.3333
+            }
+          ]
+        },
+        "L_Mahjong": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "y": 10.37,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5667,
+              "y": 12.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "R_Mahjong": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "y": 10.37,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5667,
+              "y": 12.1,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "R_Mahjong-4": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-5": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-11": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-2": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-16": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-17": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-23": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "R_Mahjong-18": {
+          "translate": [
+            {},
+            {
+              "time": 0.2,
+              "y": 11.95
+            },
+            {
+              "time": 0.3333,
+              "y": 2.99
+            },
+            {
+              "time": 0.5,
+              "y": 17.93
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        }
+      }
+    }
+  }
+}

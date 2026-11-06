@@ -1,0 +1,58 @@
+{
+  "project": "Project-F",
+  "mathRevision": "native-rate-bank-v2",
+  "status": "owned generator corrected and source-consumer fixtures passed; official rebuild/GUI pending",
+  "sourceEvidence": {
+    "file": "tests/fixtures/extracted/g1004/00019-GameSlotController-3340c955bd35.js",
+    "sha256": "e6202b97392458bada4cc1c8e3d5003f015f784839a5f209ad99dba669193d6b",
+    "actualMethodsExecuted": [
+      "showWinRateFlow",
+      "getAllRateSymbols",
+      "playRateSymbolToCenter"
+    ]
+  },
+  "correction": [
+    "Ordinary native bank starts0; free-game bank starts2.",
+    "Collect every newly dropped logical female token once on ordinary winning stages and every FG stage, regardless of winning membership; main zero-win terminal skips collection; preserve surviving collected-token identity.",
+    "In-place silver-to-gold transformation does not create a newly dropped rate2 marker, matching original controller upgrade code.",
+    "Separate native display bank from self-authored effective payout max(1,bank); expose localPayoutMultiplier and localMathRevision.",
+    "No original frontend labels, animation callbacks or amounts are forced."
+  ],
+  "focusedFixture": {
+    "file": "tests/test-native-rate-bank.mjs",
+    "passed": 5,
+    "regression": "Five native eligible tokens (only three in winning positions) produce10; prior own winning-only1+3*2 produced7."
+  },
+  "legacyWalletCompatibility": {
+    "storageSchemaVersionUnchanged": 1,
+    "storageKeyUnchanged": true,
+    "pendingStagesRedrawn": false,
+    "pendingAwardRecalculated": false,
+    "policy": "Existing persisted operations resume their exact stored stages and stored award; close credit remains idempotent. Only newly generated operations receive v2 fields and corrected bank."
+  },
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "guiVerified": false,
+  "sourceSha256": {
+    "assets/game/backend/WaysRules.ts": "5e018ad8c430b515bdbb2aefc633d29f4c0abd1c14004a5657f0da43ad2c26d6",
+    "assets/game/backend/DisplayedPaytable.ts": "cce1233940b3e1f1a0a540890218e2074c14a586ff71f74746f489c2ec7c2cbc",
+    "assets/game/backend/InstallGameDataCompatibility.ts": "08d26d30308439c3eff86ff8294bc66add4181b10b7501d151117710c00a964b",
+    "assets/game/backend/InstallStateMachineCompatibility.ts": "d861513870f3b331133e42bba41df0334ef7ec5b1972c5e8c82b75bbb4769264",
+    "assets/game/backend/InstallNativeRateCompatibility.ts": "f0045cdde2fe28f042aad521b26bbebbcce00b95ba4b5fa596d96d480f483c11",
+    "assets/game/scripts/g1004-GameSlotController.ts": "551995230e298d0dd1d148b4d3c99e55d8992f7838858f1614f29e53d6a302ea"
+  },
+  "compiledHarness": "tools/recovery/check-built-backend.mjs now requires mathRevision native-rate-bank-v2, even native bank and separated effective payout on actual built stages",
+  "compiledVerified": false,
+  "staleArtifactRegression": {
+    "officialBuildLocalTime": "15:35:33",
+    "command": "nice -n 15 node tools/recovery/check-built-backend.mjs Project-F",
+    "exitCode": 1,
+    "expectedFailure": "ordinary: compiled rate bank is stale; undefined != native-rate-bank-v2",
+    "meaning": "The harness rejects the prior built mathematics; new source fixture success is not substituted for a rebuilt-artifact check."
+  },
+  "resumeVisualBankRisk": {
+    "status": "proven by original native callbacks and corrected locally; official rebuild/GUI pending",
+    "report": "native-rate-resume-report.json",
+    "sourceConsumerChecks": 8
+  }
+}

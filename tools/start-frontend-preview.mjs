@@ -21,6 +21,6 @@ if (!await ours()) {
   for (let attempt = 0; attempt < 40; attempt++) { if (await ours()) { ready = true; break; } await new Promise(resolve => setTimeout(resolve, 100)); }
   if (!ready) throw Error('Preview service unavailable; inspect ' + logs + '. No unrelated service was stopped.');
 }
-console.log((development ? '靜音開發預覽：' : '兩款遊戲本機入口：') + base + '/');
+console.log((development ? '靜音開發預覽：' : loadGames().length+' 款遊戲本機入口：') + base + '/');
 
 if(process.argv.includes('--open')&&process.platform==='darwin')spawn('open',[base+'/'],{stdio:'ignore'}).unref();

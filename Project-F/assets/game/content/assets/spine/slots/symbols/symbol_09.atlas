@@ -1,0 +1,48 @@
+
+symbol_09.png
+size: 1068,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_09
+  rotate: false
+  xy: 1005, 49
+  size: 60, 70
+  orig: 60, 70
+  offset: 0, 0
+  index: -1
+symbol_09_shadow
+  rotate: false
+  xy: 1005, 8
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+symbol_bg09_1
+  rotate: true
+  xy: 904, 1
+  size: 118, 100
+  orig: 118, 100
+  offset: 0, 0
+  index: -1
+symbol_bg09_2
+  rotate: true
+  xy: 703, 1
+  size: 118, 200
+  orig: 118, 200
+  offset: 0, 0
+  index: -1
+symbol_bg09_3
+  rotate: true
+  xy: 402, 1
+  size: 118, 300
+  orig: 118, 300
+  offset: 0, 0
+  index: -1
+symbol_bg09_4
+  rotate: true
+  xy: 1, 1
+  size: 118, 400
+  orig: 118, 400
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,68 @@
+{
+  "observedAt": "2026-11-06T07:09:32.465668+00:00",
+  "scope": "read-only source/UI initializer contract review; no new game source edits",
+  "projects": [
+    {
+      "project": "Project-E",
+      "actualConsumerTests": [
+        "tests/test-progress.mjs",
+        "tests/test-fever.mjs"
+      ],
+      "coveredInterfaces": [
+        "setInitData/setSpinData persisted cursor",
+        "original chosen free factor and native resume state",
+        "both native LuckyMoment flag spellings",
+        "actual transform Spine callbacks through win/close"
+      ],
+      "newBlockingShapeBugProven": false,
+      "remainingGUIBlocker": "opaque Texture2D404 already observed by parent; asset repair in progress",
+      "prefabOwnershipAudit": {
+        "customComponents": 734,
+        "missingOwnerBacklinks": 0
+      }
+    },
+    {
+      "project": "Project-H",
+      "actualConsumerTests": [
+        "tests/test-bonus.mjs"
+      ],
+      "coveredInterfaces": [
+        "JP12pick positions/category/prize and native sender callbacks",
+        "fortune issued token+amount/actionOptions/collectValues/finish",
+        "partially collected and empty-option reload",
+        "lucky prize native intro/end/close",
+        "own pool bar amounts"
+      ],
+      "newBlockingShapeBugProven": false,
+      "knownIntentionalLimit": "original purchase popup absent; public buyFeature hidden",
+      "prefabOwnershipAudit": {
+        "customComponents": 737,
+        "missingOwnerBacklinks": 0
+      }
+    },
+    {
+      "project": "Project-I",
+      "actualConsumerTests": [
+        "tests/test-bonus.mjs",
+        "tests/test-material-selection.mjs",
+        "tests/test-progress.mjs",
+        "tests/test-transport.mjs"
+      ],
+      "coveredInterfaces": [
+        "four distinct purify materials and parser transition to gamble",
+        "native spinner/PushGame neighboring result list",
+        "JP/fortune/lucky callbacks and replay protection",
+        "bonus/free resume and transport action identity"
+      ],
+      "newBlockingShapeBugProven": false,
+      "prefabOwnershipAudit": {
+        "customComponents": 744,
+        "missingOwnerBacklinks": 0
+      }
+    }
+  ],
+  "limitations": [
+    "Actual engine initialization/assets, rendering and live input may still reveal bugs absent from source fixtures.",
+    "Only F mounted-component loss has actual compiled evidence; no broader prefab mutations were performed."
+  ]
+}

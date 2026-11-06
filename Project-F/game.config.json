@@ -1,0 +1,27 @@
+{
+  "id": "project-f",
+  "title": "Project-F",
+  "projectId": "project-f",
+  "project": "Project-F",
+  "bundle": "g1004",
+  "gn": "wuxia-caishen",
+  "gt": "slot-erase-link-times-1",
+  "buildDirectory": "build/web",
+  "previewPort": 8186,
+  "scenes": {
+    "portrait": {
+      "url": "db://assets/scenes/mainPortrait.scene",
+      "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+    }
+  },
+  "defaultMode": "portrait",
+  "status": "awaiting-official-build-and-gameplay-validation",
+  "backend": "owned-local-simulation",
+  "layoutEvidence": {
+    "originalGameLayouts": [
+      "portrait"
+    ],
+    "desktop": "original portrait interface fitted to desktop viewport",
+    "noGeneratedLandscapeAssets": true
+  }
+}

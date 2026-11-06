@@ -1,0 +1,1220 @@
+{
+  "skeleton": {
+    "hash": "sOXOu1CK69WaYLs9OqJeC2appRI",
+    "spine": "3.7.94",
+    "width": 1282.17,
+    "height": 715
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "btn",
+      "parent": "root"
+    },
+    {
+      "name": "pattern",
+      "parent": "root",
+      "y": 1
+    },
+    {
+      "name": "energy",
+      "parent": "btn"
+    },
+    {
+      "name": "explode",
+      "parent": "btn",
+      "x": 0.1,
+      "y": -0.44,
+      "scaleX": 2.5,
+      "scaleY": 2.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "btn_normal",
+      "bone": "btn",
+      "attachment": "btn_normal"
+    },
+    {
+      "name": "energy_00",
+      "bone": "energy",
+      "blend": "additive"
+    },
+    {
+      "name": "patternP_glow",
+      "bone": "pattern",
+      "blend": "additive"
+    },
+    {
+      "name": "pattern",
+      "bone": "pattern"
+    },
+    {
+      "name": "explode_06",
+      "bone": "explode",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "btn_normal": {
+        "btn_disabled": {
+          "x": -0.5,
+          "width": 177,
+          "height": 178
+        },
+        "btn_hover": {
+          "x": -0.5,
+          "width": 177,
+          "height": 178
+        },
+        "btn_normal": {
+          "width": 178,
+          "height": 178
+        },
+        "btn_pressed": {
+          "width": 178,
+          "height": 178
+        }
+      },
+      "energy_00": {
+        "energy_00": {
+          "x": -0.31,
+          "y": 1.27,
+          "width": 111,
+          "height": 111
+        },
+        "energy_02": {
+          "x": -0.31,
+          "y": 0.77,
+          "width": 113,
+          "height": 110
+        },
+        "energy_04": {
+          "x": 0.19,
+          "y": 0.77,
+          "width": 114,
+          "height": 112
+        },
+        "energy_06": {
+          "x": -0.31,
+          "y": 0.77,
+          "width": 115,
+          "height": 112
+        },
+        "energy_08": {
+          "x": 0.19,
+          "y": 2.77,
+          "width": 114,
+          "height": 108
+        },
+        "energy_10": {
+          "x": 0.69,
+          "y": 3.27,
+          "width": 115,
+          "height": 107
+        },
+        "energy_12": {
+          "x": 0.19,
+          "y": 2.77,
+          "width": 114,
+          "height": 106
+        },
+        "energy_14": {
+          "x": 1.19,
+          "y": 2.27,
+          "width": 112,
+          "height": 105
+        },
+        "energy_16": {
+          "x": 1.19,
+          "y": 3.77,
+          "width": 112,
+          "height": 108
+        },
+        "energy_18": {
+          "x": 1.19,
+          "y": 4.27,
+          "width": 110,
+          "height": 111
+        },
+        "energy_20": {
+          "x": 2.69,
+          "y": 4.27,
+          "width": 109,
+          "height": 111
+        },
+        "energy_22": {
+          "x": 2.69,
+          "y": 4.27,
+          "width": 109,
+          "height": 113
+        },
+        "energy_24": {
+          "x": 2.69,
+          "y": 5.27,
+          "width": 109,
+          "height": 111
+        },
+        "energy_26": {
+          "x": 1.19,
+          "y": 5.27,
+          "width": 112,
+          "height": 111
+        },
+        "energy_28": {
+          "x": 0.69,
+          "y": 3.27,
+          "width": 113,
+          "height": 115
+        },
+        "energy_30": {
+          "x": 1.69,
+          "y": 2.77,
+          "width": 113,
+          "height": 114
+        },
+        "energy_32": {
+          "x": 2.19,
+          "y": 3.27,
+          "width": 112,
+          "height": 115
+        },
+        "energy_34": {
+          "x": 0.69,
+          "y": 3.27,
+          "width": 115,
+          "height": 113
+        },
+        "energy_36": {
+          "x": 0.69,
+          "y": 2.77,
+          "width": 115,
+          "height": 110
+        },
+        "energy_38": {
+          "x": 0.19,
+          "y": 2.27,
+          "width": 116,
+          "height": 111
+        },
+        "energy_40": {
+          "x": -0.81,
+          "y": 2.77,
+          "width": 116,
+          "height": 112
+        },
+        "energy_42": {
+          "x": -0.81,
+          "y": 3.27,
+          "width": 116,
+          "height": 111
+        },
+        "energy_44": {
+          "x": -1.31,
+          "y": 4.77,
+          "width": 113,
+          "height": 110
+        },
+        "energy_46": {
+          "x": -0.81,
+          "y": 5.77,
+          "width": 114,
+          "height": 110
+        },
+        "energy_48": {
+          "x": -0.31,
+          "y": 6.27,
+          "width": 115,
+          "height": 109
+        },
+        "energy_50": {
+          "x": -0.31,
+          "y": 4.77,
+          "width": 115,
+          "height": 112
+        },
+        "energy_52": {
+          "x": 0.19,
+          "y": 6.27,
+          "width": 116,
+          "height": 109
+        },
+        "energy_54": {
+          "x": 0.19,
+          "y": 5.77,
+          "width": 116,
+          "height": 108
+        },
+        "energy_56": {
+          "x": -0.31,
+          "y": 2.77,
+          "width": 115,
+          "height": 114
+        },
+        "energy_58": {
+          "x": 0.69,
+          "y": 2.27,
+          "width": 115,
+          "height": 115
+        },
+        "energy_60": {
+          "x": 0.69,
+          "y": 3.27,
+          "width": 115,
+          "height": 115
+        },
+        "energy_62": {
+          "x": 1.69,
+          "y": 1.77,
+          "width": 115,
+          "height": 108
+        }
+      },
+      "explode_06": {
+        "explode_06": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_07": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_08": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_09": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_10": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_11": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_12": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_13": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_14": {
+          "x": -2.17,
+          "y": 1.69,
+          "width": 96,
+          "height": 96
+        },
+        "explode_15": {
+          "x": -2.17,
+          "y": 2.19,
+          "width": 96,
+          "height": 97
+        },
+        "explode_16": {
+          "x": -2.17,
+          "y": 3.19,
+          "width": 96,
+          "height": 99
+        },
+        "explode_17": {
+          "x": -2.17,
+          "y": 3.69,
+          "width": 96,
+          "height": 100
+        },
+        "explode_18": {
+          "x": -2.17,
+          "y": 4.19,
+          "width": 96,
+          "height": 101
+        },
+        "explode_19": {
+          "x": -2.17,
+          "y": 4.19,
+          "width": 96,
+          "height": 101
+        },
+        "explode_20": {
+          "x": -1.67,
+          "y": 5.19,
+          "width": 97,
+          "height": 103
+        },
+        "explode_21": {
+          "x": -1.17,
+          "y": 4.69,
+          "width": 98,
+          "height": 102
+        },
+        "explode_22": {
+          "x": -1.17,
+          "y": 4.69,
+          "width": 100,
+          "height": 104
+        },
+        "explode_23": {
+          "x": -1.67,
+          "y": 4.19,
+          "width": 101,
+          "height": 105
+        },
+        "explode_24": {
+          "x": -1.67,
+          "y": 3.69,
+          "width": 103,
+          "height": 106
+        },
+        "explode_25": {
+          "x": -1.67,
+          "y": 3.69,
+          "width": 103,
+          "height": 106
+        },
+        "explode_26": {
+          "x": -1.67,
+          "y": 3.69,
+          "width": 105,
+          "height": 108
+        },
+        "explode_27": {
+          "x": -2.17,
+          "y": 3.69,
+          "width": 106,
+          "height": 108
+        },
+        "explode_28": {
+          "x": -2.67,
+          "y": 3.19,
+          "width": 107,
+          "height": 109
+        },
+        "explode_29": {
+          "x": -2.67,
+          "y": 2.69,
+          "width": 107,
+          "height": 110
+        },
+        "explode_30": {
+          "x": -2.67,
+          "y": 2.19,
+          "width": 107,
+          "height": 111
+        },
+        "explode_31": {
+          "x": -2.67,
+          "y": 2.19,
+          "width": 107,
+          "height": 111
+        },
+        "explode_32": {
+          "x": -2.67,
+          "y": 1.69,
+          "width": 109,
+          "height": 112
+        },
+        "explode_33": {
+          "x": -3.17,
+          "y": 2.19,
+          "width": 110,
+          "height": 111
+        },
+        "explode_34": {
+          "x": -3.17,
+          "y": 1.69,
+          "width": 110,
+          "height": 112
+        },
+        "explode_35": {
+          "x": -3.67,
+          "y": 1.69,
+          "width": 109,
+          "height": 112
+        },
+        "explode_36": {
+          "x": -3.67,
+          "y": 2.19,
+          "width": 109,
+          "height": 113
+        },
+        "explode_37": {
+          "x": -3.67,
+          "y": 2.19,
+          "width": 109,
+          "height": 113
+        },
+        "explode_38": {
+          "x": -3.17,
+          "y": 2.19,
+          "width": 110,
+          "height": 113
+        },
+        "explode_39": {
+          "x": -2.17,
+          "y": 2.19,
+          "width": 110,
+          "height": 113
+        },
+        "explode_40": {
+          "x": -2.17,
+          "y": 2.69,
+          "width": 110,
+          "height": 112
+        },
+        "explode_41": {
+          "x": -1.67,
+          "y": 1.69,
+          "width": 111,
+          "height": 112
+        },
+        "explode_42": {
+          "x": -1.67,
+          "y": 2.19,
+          "width": 111,
+          "height": 113
+        }
+      },
+      "pattern": {
+        "pattern": {
+          "width": 230,
+          "height": 230
+        }
+      },
+      "patternP_glow": {
+        "patternP_glow": {
+          "width": 256,
+          "height": 256
+        }
+      }
+    }
+  },
+  "animations": {
+    "disabled": {
+      "slots": {
+        "btn_normal": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "btn_disabled"
+            }
+          ]
+        }
+      }
+    },
+    "hover": {
+      "slots": {
+        "btn_normal": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "btn_hover"
+            }
+          ]
+        },
+        "energy_00": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ff831f70"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "energy_00"
+            },
+            {
+              "time": 0.0333,
+              "name": "energy_02"
+            },
+            {
+              "time": 0.0667,
+              "name": "energy_04"
+            },
+            {
+              "time": 0.1,
+              "name": "energy_06"
+            },
+            {
+              "time": 0.1333,
+              "name": "energy_08"
+            },
+            {
+              "time": 0.1667,
+              "name": "energy_10"
+            },
+            {
+              "time": 0.2,
+              "name": "energy_12"
+            },
+            {
+              "time": 0.2333,
+              "name": "energy_14"
+            },
+            {
+              "time": 0.2667,
+              "name": "energy_16"
+            },
+            {
+              "time": 0.3,
+              "name": "energy_18"
+            },
+            {
+              "time": 0.3333,
+              "name": "energy_20"
+            },
+            {
+              "time": 0.3667,
+              "name": "energy_22"
+            },
+            {
+              "time": 0.4,
+              "name": "energy_24"
+            },
+            {
+              "time": 0.4333,
+              "name": "energy_26"
+            },
+            {
+              "time": 0.4667,
+              "name": "energy_28"
+            },
+            {
+              "time": 0.5,
+              "name": "energy_30"
+            },
+            {
+              "time": 0.5333,
+              "name": "energy_32"
+            },
+            {
+              "time": 0.5667,
+              "name": "energy_34"
+            },
+            {
+              "time": 0.6,
+              "name": "energy_36"
+            },
+            {
+              "time": 0.6333,
+              "name": "energy_38"
+            },
+            {
+              "time": 0.6667,
+              "name": "energy_40"
+            },
+            {
+              "time": 0.7,
+              "name": "energy_42"
+            },
+            {
+              "time": 0.7333,
+              "name": "energy_44"
+            },
+            {
+              "time": 0.7667,
+              "name": "energy_46"
+            },
+            {
+              "time": 0.8,
+              "name": "energy_48"
+            },
+            {
+              "time": 0.8333,
+              "name": "energy_50"
+            },
+            {
+              "time": 0.8667,
+              "name": "energy_52"
+            },
+            {
+              "time": 0.9,
+              "name": "energy_54"
+            },
+            {
+              "time": 0.9333,
+              "name": "energy_56"
+            },
+            {
+              "time": 0.9667,
+              "name": "energy_58"
+            },
+            {
+              "time": 1,
+              "name": "energy_60"
+            },
+            {
+              "time": 1.0333,
+              "name": "energy_62"
+            }
+          ]
+        }
+      }
+    },
+    "normal": {
+      "slots": {
+        "energy_00": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ff831f70"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "energy_00"
+            },
+            {
+              "time": 0.0333,
+              "name": "energy_02"
+            },
+            {
+              "time": 0.0667,
+              "name": "energy_04"
+            },
+            {
+              "time": 0.1,
+              "name": "energy_06"
+            },
+            {
+              "time": 0.1333,
+              "name": "energy_08"
+            },
+            {
+              "time": 0.1667,
+              "name": "energy_10"
+            },
+            {
+              "time": 0.2,
+              "name": "energy_12"
+            },
+            {
+              "time": 0.2333,
+              "name": "energy_14"
+            },
+            {
+              "time": 0.2667,
+              "name": "energy_16"
+            },
+            {
+              "time": 0.3,
+              "name": "energy_18"
+            },
+            {
+              "time": 0.3333,
+              "name": "energy_20"
+            },
+            {
+              "time": 0.3667,
+              "name": "energy_22"
+            },
+            {
+              "time": 0.4,
+              "name": "energy_24"
+            },
+            {
+              "time": 0.4333,
+              "name": "energy_26"
+            },
+            {
+              "time": 0.4667,
+              "name": "energy_28"
+            },
+            {
+              "time": 0.5,
+              "name": "energy_30"
+            },
+            {
+              "time": 0.5333,
+              "name": "energy_32"
+            },
+            {
+              "time": 0.5667,
+              "name": "energy_34"
+            },
+            {
+              "time": 0.6,
+              "name": "energy_36"
+            },
+            {
+              "time": 0.6333,
+              "name": "energy_38"
+            },
+            {
+              "time": 0.6667,
+              "name": "energy_40"
+            },
+            {
+              "time": 0.7,
+              "name": "energy_42"
+            },
+            {
+              "time": 0.7333,
+              "name": "energy_44"
+            },
+            {
+              "time": 0.7667,
+              "name": "energy_46"
+            },
+            {
+              "time": 0.8,
+              "name": "energy_48"
+            },
+            {
+              "time": 0.8333,
+              "name": "energy_50"
+            },
+            {
+              "time": 0.8667,
+              "name": "energy_52"
+            },
+            {
+              "time": 0.9,
+              "name": "energy_54"
+            },
+            {
+              "time": 0.9333,
+              "name": "energy_56"
+            },
+            {
+              "time": 0.9667,
+              "name": "energy_58"
+            },
+            {
+              "time": 1,
+              "name": "energy_60"
+            },
+            {
+              "time": 1.0333,
+              "name": "energy_62"
+            }
+          ]
+        }
+      }
+    },
+    "pressed": {
+      "slots": {
+        "btn_normal": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "btn_pressed"
+            }
+          ]
+        },
+        "energy_00": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ff831f70"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "energy_00"
+            }
+          ]
+        }
+      }
+    },
+    "released": {
+      "slots": {
+        "energy_00": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ff821eff"
+            },
+            {
+              "time": 0.5,
+              "color": "ff821e00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "energy_00"
+            },
+            {
+              "time": 0.0333,
+              "name": "energy_02"
+            },
+            {
+              "time": 0.0667,
+              "name": "energy_04"
+            },
+            {
+              "time": 0.1,
+              "name": "energy_06"
+            },
+            {
+              "time": 0.1333,
+              "name": "energy_08"
+            },
+            {
+              "time": 0.1667,
+              "name": "energy_10"
+            },
+            {
+              "time": 0.2,
+              "name": "energy_12"
+            },
+            {
+              "time": 0.2333,
+              "name": "energy_14"
+            },
+            {
+              "time": 0.2667,
+              "name": "energy_16"
+            },
+            {
+              "time": 0.3,
+              "name": "energy_18"
+            },
+            {
+              "time": 0.3333,
+              "name": "energy_20"
+            },
+            {
+              "time": 0.3667,
+              "name": "energy_22"
+            },
+            {
+              "time": 0.4,
+              "name": "energy_24"
+            },
+            {
+              "time": 0.4333,
+              "name": "energy_26"
+            },
+            {
+              "time": 0.4667,
+              "name": "energy_28"
+            },
+            {
+              "time": 0.5,
+              "name": "energy_30"
+            },
+            {
+              "time": 0.5333,
+              "name": "energy_32"
+            },
+            {
+              "time": 0.5667,
+              "name": "energy_34"
+            },
+            {
+              "time": 0.6,
+              "name": "energy_36"
+            },
+            {
+              "time": 0.6333,
+              "name": "energy_38"
+            },
+            {
+              "time": 0.6667,
+              "name": "energy_40"
+            },
+            {
+              "time": 0.7,
+              "name": "energy_42"
+            },
+            {
+              "time": 0.7333,
+              "name": "energy_44"
+            },
+            {
+              "time": 0.7667,
+              "name": "energy_46"
+            },
+            {
+              "time": 0.8,
+              "name": "energy_48"
+            },
+            {
+              "time": 0.8333,
+              "name": "energy_50"
+            },
+            {
+              "time": 0.8667,
+              "name": "energy_52"
+            },
+            {
+              "time": 0.9,
+              "name": "energy_54"
+            },
+            {
+              "time": 0.9333,
+              "name": "energy_56"
+            },
+            {
+              "time": 0.9667,
+              "name": "energy_58"
+            },
+            {
+              "time": 1,
+              "name": "energy_60"
+            },
+            {
+              "time": 1.0333,
+              "name": "energy_62"
+            }
+          ]
+        },
+        "explode_06": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffce6700"
+            },
+            {
+              "time": 0.2,
+              "color": "ffbc5fff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffbc5fff"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffbc5f00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "explode_15"
+            },
+            {
+              "time": 0.1,
+              "name": "explode_16"
+            },
+            {
+              "time": 0.1333,
+              "name": "explode_17"
+            },
+            {
+              "time": 0.1667,
+              "name": "explode_18"
+            },
+            {
+              "time": 0.2,
+              "name": "explode_19"
+            },
+            {
+              "time": 0.2333,
+              "name": "explode_20"
+            },
+            {
+              "time": 0.2667,
+              "name": "explode_21"
+            },
+            {
+              "time": 0.3,
+              "name": "explode_22"
+            },
+            {
+              "time": 0.3333,
+              "name": "explode_23"
+            },
+            {
+              "time": 0.3667,
+              "name": "explode_24"
+            },
+            {
+              "time": 0.4,
+              "name": "explode_25"
+            },
+            {
+              "time": 0.4333,
+              "name": "explode_26"
+            },
+            {
+              "time": 0.4667,
+              "name": "explode_27"
+            },
+            {
+              "time": 0.5,
+              "name": "explode_28"
+            },
+            {
+              "time": 0.5333,
+              "name": "explode_29"
+            },
+            {
+              "time": 0.5667,
+              "name": "explode_30"
+            },
+            {
+              "time": 0.6,
+              "name": "explode_31"
+            },
+            {
+              "time": 0.6333,
+              "name": "explode_32"
+            },
+            {
+              "time": 0.6667,
+              "name": "explode_33"
+            },
+            {
+              "time": 0.7,
+              "name": "explode_34"
+            },
+            {
+              "time": 0.7333,
+              "name": "explode_35"
+            },
+            {
+              "time": 0.7667,
+              "name": "explode_36"
+            },
+            {
+              "time": 0.8,
+              "name": "explode_37"
+            },
+            {
+              "time": 0.8333,
+              "name": "explode_38"
+            },
+            {
+              "time": 0.8667,
+              "name": "explode_39"
+            },
+            {
+              "time": 0.9,
+              "name": "explode_40"
+            },
+            {
+              "time": 0.9333,
+              "name": "explode_41"
+            }
+          ]
+        },
+        "pattern": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.418,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "pattern"
+            }
+          ]
+        },
+        "patternP_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.418,
+                1
+              ]
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "patternP_glow"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "pattern": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.112,
+              "y": 0.112,
+              "curve": [
+                0,
+                1,
+                0.537,
+                0.93
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1.047,
+              "y": 1.047
+            }
+          ]
+        },
+        "explode": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 4.73,
+              "y": -7.83
+            }
+          ]
+        }
+      }
+    }
+  }
+}

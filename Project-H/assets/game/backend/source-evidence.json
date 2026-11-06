@@ -1,0 +1,314 @@
+{
+  "project": "Project-H",
+  "observedAt": "2026-11-06T05:32:49.586797+00:00",
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "imagesAndSafeMockHashes": [
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_01.png",
+      "sha256": "439c9aa34f39759b5582913b5d8be7fb074e507de7788639524ee53220ea1b96",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_02.png",
+      "sha256": "a8237896e5ed15656058c90a6836cb66b4a7db9d8650c2b54e162f3e59cb9cec",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_03.png",
+      "sha256": "edcb900a03eff06d9bd7cb15e16458bb30195b4d37c261f1b35a6d912d229b5d",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_04.png",
+      "sha256": "dcb5b2fe110a8b588aa68ec959dc6aafdb99a669c2ca91ceef9aa082948db3fe",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_05.png",
+      "sha256": "de951629674a0e05f4b16700701275921fe213dd26bd9193cf5bd67c960634f4",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_06.png",
+      "sha256": "2acb7e8da95b59545c644e447c005504dff637aed2de6f9cf35154141dff5ce0",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/locale/en/rules_07.png",
+      "sha256": "74a046b4ae4538148a863ef66f18a3026398ece4d5d86e313078381c6144d5aa",
+      "evidence": "actually viewed; visual transcription"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_01.png",
+      "sha256": "635d107848d8d65fdc687bfc93b0de689d996f07958a199f59d7ba7c236c0dea",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_02.png",
+      "sha256": "9a1b5c19c19b8c3d143d712382c1e8a77d61cbdc56bf380351b0cb6383ec0700",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_03.png",
+      "sha256": "d0d5ea2765dfbadcd8a97d5e1c6e85dc2c0697c2cb4dc13abcea4b7e12a8b9ce",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_04.png",
+      "sha256": "01c70eee779d93853d3baac8075725f767059e17974ffb9d3f2f1168eb9d18ab",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_05.png",
+      "sha256": "bf78bbc5a88640e4752bd6bff8ce748d4d3a909f0a8a519c84ded9da41666cab",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_06.png",
+      "sha256": "66413450e725a16448f830cfb5805370130cfc757bd0c13a4dfd08d2080b13ec",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_07.png",
+      "sha256": "6c08925f4852d167c9325325fc956db943b8c5f807923538e2b3f96d1611c1b6",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_08.png",
+      "sha256": "c03f15f69a826abfb8bfe43e05473bc334bb0ccdb1ab268a8f1f920ce2b36dfa",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_09.png",
+      "sha256": "70ec35aeca27059ca6e9d488073eb4672bbe4bb580476bc2f672160d746ea79f",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/assets/texture/symbols/symbol_10.png",
+      "sha256": "255f55f8ae96c75c9f10d42302464d896c32033d00fccc9830319aafad8ba393",
+      "evidence": "actually viewed symbol identity"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/debug/mock/initialData.json",
+      "sha256": "72e3199e712b8a321fe495ce441347e97bb28adb8ff9f42fd19ef2ac8785502f",
+      "evidence": "static developer mock; only selected engine fields inspected; credentials not copied"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/debug/mock/normalSpin.json",
+      "sha256": "f95de488a7d63d4122022942cc6eb44294cc12b14507ec5004ca95c53232ffe1",
+      "evidence": "static developer mock; only selected engine fields inspected; credentials not copied"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/debug/mock/freeSpin.json",
+      "sha256": "898d8ff78622359d721ed02933012ecac40765efe4006533ae1e97167b148c15",
+      "evidence": "static developer mock; only selected engine fields inspected; credentials not copied"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/debug/mock/freeSpinRetrigger.json",
+      "sha256": "0495aa0d84f6ec3fee2adbe782e777873c38f281ec72f8c6652e84639c2c608b",
+      "evidence": "static developer mock; only selected engine fields inspected; credentials not copied"
+    },
+    {
+      "path": ".cache/rea-new-games/Project-H/staged-assets-01/assets/game/content/debug/mock/fullCombo.json",
+      "sha256": "875c018d4ea4dd5e334645ab3afb49d2623ffbf82bf5988907046e360894e35e",
+      "evidence": "static developer mock; only selected engine fields inspected; credentials not copied"
+    }
+  ],
+  "moduleRanges": [
+    {
+      "id": "chunks:///_virtual/BonusStates.ts",
+      "start": 10823,
+      "end": 13912,
+      "byteStart": 10823,
+      "byteEnd": 13932,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-BonusStates.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/FGStates.ts",
+      "start": 43780,
+      "end": 55347,
+      "byteStart": 43864,
+      "byteEnd": 55455,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-FGStates.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/GameConfigModel.ts",
+      "start": 68228,
+      "end": 77062,
+      "byteStart": 68364,
+      "byteEnd": 77202,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-GameConfigModel.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/GameData.ts",
+      "start": 77065,
+      "end": 90098,
+      "byteStart": 77205,
+      "byteEnd": 90246,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-GameData.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/GameSender.ts",
+      "start": 146006,
+      "end": 158398,
+      "byteStart": 146172,
+      "byteEnd": 158592,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-GameSender.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/GameState.ts",
+      "start": 161702,
+      "end": 163306,
+      "byteStart": 161896,
+      "byteEnd": 163500,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-GameState.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/MGStates.ts",
+      "start": 231477,
+      "end": 243048,
+      "byteStart": 231981,
+      "byteEnd": 243560,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-MGStates.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/StateFactory.ts",
+      "start": 257230,
+      "end": 257811,
+      "byteStart": 257810,
+      "byteEnd": 258391,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-StateFactory.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/GameReelsController.ts",
+      "start": 127425,
+      "end": 146003,
+      "byteStart": 127591,
+      "byteEnd": 146169,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-GameReelsController.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/BuyFeatureView.ts",
+      "start": 13915,
+      "end": 23856,
+      "byteStart": 13935,
+      "byteEnd": 23876,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-BuyFeatureView.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/StakeModel.ts",
+      "start": 399185,
+      "end": 403485,
+      "byteStart": 405122,
+      "byteEnd": 409422,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/slotFramework/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-slotFramework-StakeModel.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/JackpotGameView.ts",
+      "start": 201761,
+      "end": 213298,
+      "byteStart": 202265,
+      "byteEnd": 213802,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-JackpotGameView.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/types.ts",
+      "start": 270063,
+      "end": 270761,
+      "byteStart": 270677,
+      "byteEnd": 271375,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-types.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/GameLogic.ts",
+      "start": 109080,
+      "end": 127422,
+      "byteStart": 109234,
+      "byteEnd": 127588,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-GameLogic.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/HeavenlyTreasuresView.ts",
+      "start": 191642,
+      "end": 201758,
+      "byteStart": 192146,
+      "byteEnd": 202262,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-HeavenlyTreasuresView.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/JpBarView.ts",
+      "start": 219857,
+      "end": 226321,
+      "byteStart": 220361,
+      "byteEnd": 226825,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-JpBarView.ts.js"
+    },
+    {
+      "id": "chunks:///_virtual/LuckyWealthView.ts",
+      "start": 226324,
+      "end": 231474,
+      "byteStart": 226828,
+      "byteEnd": 231978,
+      "file": ".cache/rea-new-games/Project-H/capture/assets/g1011/index.js",
+      "formattedFile": ".cache/rea-new-games/contracts-static/H-g1011-LuckyWealthView.ts.js"
+    }
+  ],
+  "conflicts": [
+    "Original GameView prefab all five SingleReelSetting midCount4 and viewed rules03/04 show forty4x5 lines; old enum says3rows and debug initialData only twenty3row lines",
+    "Debug fullCombo at stake2 shows line7.5 with odds150, supporting per-line unit2/40; debug normalSpin uses arbitrary stress-test math",
+    "Scatter debug examples20/160 at stake2 conflict; own simulator uses displayed80 times per-line stake and labels assumption",
+    "Debug initialData freeGame rate100; buyFullCombo price/index and complete purchase prefab not in captured g1011 config"
+  ],
+  "bonusUIPrefabs": [
+    {
+      "nativeClass": "JackpotGameView",
+      "path": "Project-H/assets/game/content/prefabs/jackpotGame/JackpotGameView.prefab",
+      "sha256": "39ad3463fc4d143a998eaf76092c6a8903d184c8b341302e67d4c69469dc311f",
+      "sourceCompressedUuid": "e2869bgwh1NmJeVoa496QGz",
+      "serializedComponentFound": true,
+      "nativeItems": 12
+    },
+    {
+      "nativeClass": "HeavenlyTreasuresView",
+      "path": "Project-H/assets/game/content/prefabs/HeavenlyTreasures.prefab",
+      "sha256": "6f2770808e2634e6001072aa11b40683efcc53722a7e98bb010225d7e2bc5f39",
+      "sourceCompressedUuid": "83647DjqZlKZblUZfws6H/5",
+      "serializedComponentFound": true,
+      "nativeItems": null
+    },
+    {
+      "nativeClass": "LuckyWealthView",
+      "path": "Project-H/assets/game/content/prefabs/LuckyWealthView.prefab",
+      "sha256": "4d7cb52b010e7568cc4bca1dcb45d472275bb85691e28335abbc9e914507b02b",
+      "sourceCompressedUuid": "d6d2abI7WpGmJJucCnb5vEJ",
+      "serializedComponentFound": false,
+      "nativeItems": null,
+      "nativeAttachPath": "main-UIManager._addComponent: getComponent(type) || addComponent(type); original native inject-decorated node paths are present",
+      "status": "original prefab present; class dynamically attached by original UIManager"
+    }
+  ],
+  "ownBonusStatus": {
+    "nativeContractConfirmed": true,
+    "sourceCallbackFixtures": 15,
+    "browserVerified": false,
+    "originalProbabilityRestored": false,
+    "originalPoolsRestored": false
+  }
+}

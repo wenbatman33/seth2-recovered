@@ -1,0 +1,42 @@
+{
+  "project": "Project-F",
+  "purpose": "offline actual frontend consumer fixtures; no game engine or UI execution",
+  "modules": [
+    {
+      "module": "chunks/rollupPluginModLoBabelHelpers",
+      "file": "fixtures/extracted/chunks/00001-rollupPluginModLoBabelHelpers-b477504e0354.js",
+      "sha256": "f528c98145953e06dfb3affd1724dd13fdc643dde5a21e0127642d1b93bb67bf",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1004/GameData",
+      "file": "fixtures/extracted/g1004/00010-GameData-bc80f9b0e331.js",
+      "sha256": "f77bb3d9bbb0d74fbfcce8152868fa8ce71bd236f96a09dcc518c24c3b2d9e87",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1004/GameSender",
+      "file": "fixtures/extracted/g1004/00017-GameSender-ebce738d8f22.js",
+      "sha256": "5954f01bd3912e19670c939645ef923c83e745b1bdc445b31c5ca5db3e9dff04",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1004/GameState",
+      "file": "fixtures/extracted/g1004/00023-GameState-8ec19c0c4a16.js",
+      "sha256": "9c76a316a8a61941bf3c5bf4e867b7773f42e5066bb2a5da827bb4b096b31ad3",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1004/types",
+      "file": "fixtures/extracted/g1004/00042-types-b23c5581eba6.js",
+      "sha256": "b2d766e1bd96c2cec4e3d332b1a28e653c94764a04e070cb16c96d2059be66d8",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/StakeModel",
+      "file": "fixtures/extracted/slotFramework/00095-StakeModel-a87c04948b69.js",
+      "sha256": "3afca05f936e1f2b409429ac9f7c378b922e8f37604e572bbb2ff889f1d48e96",
+      "source": "inertly captured public client module; no production responses"
+    }
+  ]
+}

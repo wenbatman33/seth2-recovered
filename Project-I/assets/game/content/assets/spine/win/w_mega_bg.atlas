@@ -1,0 +1,97 @@
+
+w_mega_bg.png
+size: 1868,496
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mega_build
+  rotate: true
+  xy: 1652, 157
+  size: 193, 203
+  orig: 193, 203
+  offset: 0, 0
+  index: -1
+mega_build_d
+  rotate: false
+  xy: 1617, 11
+  size: 192, 145
+  orig: 192, 145
+  offset: 0, 0
+  index: -1
+mega_build_light
+  rotate: true
+  xy: 1083, 1
+  size: 219, 230
+  orig: 227, 239
+  offset: 4, 4
+  index: -1
+mega_build_m
+  rotate: false
+  xy: 1, 23
+  size: 152, 54
+  orig: 152, 55
+  offset: 0, 1
+  index: -1
+mega_build_u
+  rotate: false
+  xy: 154, 25
+  size: 100, 52
+  orig: 100, 52
+  offset: 0, 0
+  index: -1
+mega_fx_01
+  rotate: false
+  xy: 1652, 351
+  size: 215, 141
+  orig: 215, 143
+  offset: 0, 1
+  index: -1
+mega_fx_02
+  rotate: true
+  xy: 1357, 206
+  size: 286, 294
+  orig: 288, 296
+  offset: 1, 1
+  index: -1
+mega_fx_03
+  rotate: false
+  xy: 1, 78
+  size: 403, 414
+  orig: 405, 416
+  offset: 1, 1
+  index: -1
+mega_fx_04
+  rotate: false
+  xy: 1314, 5
+  size: 302, 200
+  orig: 302, 200
+  offset: 0, 0
+  index: -1
+mega_light_01
+  rotate: false
+  xy: 405, 27
+  size: 338, 193
+  orig: 338, 193
+  offset: 0, 0
+  index: -1
+mega_light_02
+  rotate: false
+  xy: 744, 27
+  size: 338, 193
+  orig: 338, 193
+  offset: 0, 0
+  index: -1
+mega_light_03
+  rotate: false
+  xy: 405, 221
+  size: 475, 271
+  orig: 475, 271
+  offset: 0, 0
+  index: -1
+mega_light_04
+  rotate: false
+  xy: 881, 221
+  size: 475, 271
+  orig: 475, 271
+  offset: 0, 0
+  index: -1

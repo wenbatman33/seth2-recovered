@@ -1,0 +1,1228 @@
+{
+  "skeleton": {
+    "hash": "UzCcSQxtFKxGaGhORkqdXnhosFc",
+    "spine": "3.8.99",
+    "x": -641.5,
+    "y": -647,
+    "width": 1282,
+    "height": 722,
+    "images": "./images/",
+    "audio": "D:/Slot/暴風戰神/win_board"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "wing",
+      "parent": "root"
+    },
+    {
+      "name": "base",
+      "parent": "root"
+    },
+    {
+      "name": "base_light",
+      "parent": "base"
+    },
+    {
+      "name": "light",
+      "parent": "base",
+      "x": 0.5,
+      "y": 2.88
+    },
+    {
+      "name": "base_shadow",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_X",
+      "bone": "root"
+    },
+    {
+      "name": "bg_X",
+      "bone": "root"
+    },
+    {
+      "name": "wing_light_fg_00",
+      "bone": "wing"
+    },
+    {
+      "name": "wing_light_00",
+      "bone": "wing",
+      "attachment": "wing_light_00"
+    },
+    {
+      "name": "base_shadow",
+      "bone": "base_shadow",
+      "color": "0000004c",
+      "attachment": "base"
+    },
+    {
+      "name": "base",
+      "bone": "base",
+      "attachment": "base"
+    },
+    {
+      "name": "base_light_01",
+      "bone": "base_light",
+      "blend": "additive"
+    },
+    {
+      "name": "light",
+      "bone": "light",
+      "blend": "additive"
+    },
+    {
+      "name": "score_X",
+      "bone": "base"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "base": {
+          "base": {
+            "y": 1.5,
+            "width": 477,
+            "height": 69
+          },
+          "base_fg": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 479,
+            "height": 71
+          }
+        },
+        "base_light_01": {
+          "base_light_01": {
+            "x": -212,
+            "y": 12.5,
+            "width": 51,
+            "height": 47
+          },
+          "base_light_02": {
+            "x": -199,
+            "y": 5,
+            "width": 77,
+            "height": 62
+          },
+          "base_light_03": {
+            "x": -182.5,
+            "y": 1.5,
+            "width": 110,
+            "height": 69
+          },
+          "base_light_04": {
+            "x": -161.5,
+            "y": 1.5,
+            "width": 152,
+            "height": 69
+          },
+          "base_light_05": {
+            "x": -140,
+            "y": 1.5,
+            "width": 195,
+            "height": 69
+          },
+          "base_light_06": {
+            "x": -119,
+            "y": 1.5,
+            "width": 237,
+            "height": 69
+          },
+          "base_light_07": {
+            "x": -97.5,
+            "y": 1.5,
+            "width": 278,
+            "height": 69
+          },
+          "base_light_08": {
+            "x": -72,
+            "y": 1.5,
+            "width": 313,
+            "height": 69
+          },
+          "base_light_09": {
+            "x": -51,
+            "y": 1.5,
+            "width": 355,
+            "height": 69
+          },
+          "base_light_10": {
+            "x": -21,
+            "y": 1.5,
+            "width": 381,
+            "height": 69
+          },
+          "base_light_11": {
+            "x": 20,
+            "y": 1.5,
+            "width": 381,
+            "height": 69
+          },
+          "base_light_12": {
+            "x": 49,
+            "y": 1.5,
+            "width": 359,
+            "height": 69
+          },
+          "base_light_13": {
+            "x": 62,
+            "y": 1.5,
+            "width": 333,
+            "height": 69
+          },
+          "base_light_14": {
+            "x": 74.5,
+            "y": 1.5,
+            "width": 308,
+            "height": 69
+          },
+          "base_light_15": {
+            "x": 87.5,
+            "y": 1.5,
+            "width": 282,
+            "height": 69
+          },
+          "base_light_16": {
+            "x": 100.5,
+            "y": 1.5,
+            "width": 256,
+            "height": 69
+          },
+          "base_light_17": {
+            "x": 113.5,
+            "y": 1.5,
+            "width": 230,
+            "height": 69
+          },
+          "base_light_18": {
+            "x": 130,
+            "y": 1.5,
+            "width": 211,
+            "height": 69
+          },
+          "base_light_19": {
+            "x": 144.5,
+            "y": 1.5,
+            "width": 188,
+            "height": 69
+          },
+          "base_light_20": {
+            "x": 157.5,
+            "y": 1.5,
+            "width": 162,
+            "height": 69
+          },
+          "base_light_21": {
+            "x": 170.5,
+            "y": 1.5,
+            "width": 136,
+            "height": 69
+          },
+          "base_light_22": {
+            "x": 183.5,
+            "y": 1.5,
+            "width": 110,
+            "height": 69
+          },
+          "base_light_23": {
+            "x": 196.5,
+            "width": 84,
+            "height": 66
+          },
+          "base_light_24": {
+            "x": 209,
+            "y": -5.5,
+            "width": 59,
+            "height": 55
+          },
+          "base_light_25": {
+            "x": 222,
+            "y": -16,
+            "width": 33,
+            "height": 34
+          }
+        },
+        "base_shadow": {
+          "base": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 477,
+            "height": 69
+          }
+        },
+        "light": {
+          "light": {
+            "width": 455,
+            "height": 53
+          }
+        },
+        "wing_light_00": {
+          "wing_light_00": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_01": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_02": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_03": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_04": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_05": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_06": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_07": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_08": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_09": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_10": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_11": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_12": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_13": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_14": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_26": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_27": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_28": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_29": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_30": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_31": {
+            "width": 613,
+            "height": 56
+          },
+          "wing_light_32": {
+            "width": 613,
+            "height": 56
+          }
+        },
+        "wing_light_fg_00": {
+          "wing_light_fg_00": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_01": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_02": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_03": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_04": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_05": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_06": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_07": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_08": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_09": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_10": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_11": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_12": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_13": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_14": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_26": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_27": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_28": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_29": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_30": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_31": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          },
+          "wing_light_fg_32": {
+            "x": 0.5,
+            "width": 611,
+            "height": 54
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "fg_idle": {
+      "slots": {
+        "base": {
+          "attachment": [
+            {
+              "name": "base_fg"
+            }
+          ]
+        },
+        "base_light_01": {
+          "attachment": [
+            {
+              "name": "base_light_01"
+            }
+          ]
+        },
+        "base_shadow": {
+          "color": [
+            {
+              "color": "000000a4"
+            }
+          ]
+        },
+        "bg_X": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "light": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "light"
+            }
+          ]
+        },
+        "wing_light_00": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "wing_light_fg_00": {
+          "attachment": [
+            {
+              "name": "wing_light_fg_00"
+            }
+          ]
+        }
+      }
+    },
+    "fg_win": {
+      "slots": {
+        "base": {
+          "attachment": [
+            {
+              "name": "base_fg"
+            }
+          ]
+        },
+        "base_light_01": {
+          "attachment": [
+            {
+              "name": "base_light_01"
+            },
+            {
+              "time": 0.0333,
+              "name": "base_light_02"
+            },
+            {
+              "time": 0.0667,
+              "name": "base_light_03"
+            },
+            {
+              "time": 0.1,
+              "name": "base_light_04"
+            },
+            {
+              "time": 0.1333,
+              "name": "base_light_05"
+            },
+            {
+              "time": 0.1667,
+              "name": "base_light_06"
+            },
+            {
+              "time": 0.2,
+              "name": "base_light_07"
+            },
+            {
+              "time": 0.2333,
+              "name": "base_light_08"
+            },
+            {
+              "time": 0.2667,
+              "name": "base_light_09"
+            },
+            {
+              "time": 0.3,
+              "name": "base_light_10"
+            },
+            {
+              "time": 0.3333,
+              "name": "base_light_11"
+            },
+            {
+              "time": 0.3667,
+              "name": "base_light_12"
+            },
+            {
+              "time": 0.4,
+              "name": "base_light_13"
+            },
+            {
+              "time": 0.4333,
+              "name": "base_light_14"
+            },
+            {
+              "time": 0.4667,
+              "name": "base_light_15"
+            },
+            {
+              "time": 0.5,
+              "name": "base_light_16"
+            },
+            {
+              "time": 0.5333,
+              "name": "base_light_17"
+            },
+            {
+              "time": 0.5667,
+              "name": "base_light_18"
+            },
+            {
+              "time": 0.6,
+              "name": "base_light_19"
+            },
+            {
+              "time": 0.6333,
+              "name": "base_light_20"
+            },
+            {
+              "time": 0.6667,
+              "name": "base_light_21"
+            },
+            {
+              "time": 0.7,
+              "name": "base_light_22"
+            },
+            {
+              "time": 0.7333,
+              "name": "base_light_23"
+            },
+            {
+              "time": 0.7667,
+              "name": "base_light_24"
+            },
+            {
+              "time": 0.8,
+              "name": "base_light_25"
+            },
+            {
+              "time": 0.8333,
+              "name": null
+            }
+          ]
+        },
+        "base_shadow": {
+          "color": [
+            {
+              "color": "000000a4",
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "color": "00000052",
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "000000a4"
+            }
+          ]
+        },
+        "bg_X": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "light": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffa3",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "light"
+            }
+          ]
+        },
+        "wing_light_00": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "wing_light_fg_00": {
+          "attachment": [
+            {
+              "name": "wing_light_fg_00"
+            },
+            {
+              "time": 0.0333,
+              "name": "wing_light_fg_01"
+            },
+            {
+              "time": 0.0667,
+              "name": "wing_light_fg_02"
+            },
+            {
+              "time": 0.1,
+              "name": "wing_light_fg_03"
+            },
+            {
+              "time": 0.1333,
+              "name": "wing_light_fg_04"
+            },
+            {
+              "time": 0.1667,
+              "name": "wing_light_fg_05"
+            },
+            {
+              "time": 0.2,
+              "name": "wing_light_fg_06"
+            },
+            {
+              "time": 0.2333,
+              "name": "wing_light_fg_07"
+            },
+            {
+              "time": 0.2667,
+              "name": "wing_light_fg_08"
+            },
+            {
+              "time": 0.3,
+              "name": "wing_light_fg_09"
+            },
+            {
+              "time": 0.3333,
+              "name": "wing_light_fg_10"
+            },
+            {
+              "time": 0.3667,
+              "name": "wing_light_fg_11"
+            },
+            {
+              "time": 0.4,
+              "name": "wing_light_fg_12"
+            },
+            {
+              "time": 0.4333,
+              "name": "wing_light_fg_13"
+            },
+            {
+              "time": 0.4667,
+              "name": "wing_light_fg_14"
+            },
+            {
+              "time": 0.6667,
+              "name": "wing_light_fg_26"
+            },
+            {
+              "time": 0.7,
+              "name": "wing_light_fg_27"
+            },
+            {
+              "time": 0.7333,
+              "name": "wing_light_fg_28"
+            },
+            {
+              "time": 0.7667,
+              "name": "wing_light_fg_29"
+            },
+            {
+              "time": 0.8,
+              "name": "wing_light_fg_30"
+            },
+            {
+              "time": 0.8333,
+              "name": "wing_light_fg_31"
+            },
+            {
+              "time": 0.8667,
+              "name": "wing_light_fg_32"
+            },
+            {
+              "time": 0.9,
+              "name": "wing_light_fg_00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "base": {
+          "scale": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "x": 1.06,
+              "y": 1.06,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "wing": {
+          "scale": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1333,
+              "x": 1.035,
+              "y": 1.035,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "base_shadow": {
+          "translate": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "y": -2.98,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "x": 1.084,
+              "y": 1.084,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        }
+      }
+    },
+    "mg_idle": {
+      "slots": {
+        "base_light_01": {
+          "attachment": [
+            {
+              "name": "base_light_01"
+            }
+          ]
+        },
+        "base_shadow": {
+          "color": [
+            {
+              "color": "000000a4"
+            }
+          ]
+        },
+        "light": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "light"
+            }
+          ]
+        }
+      }
+    },
+    "mg_win": {
+      "slots": {
+        "base_light_01": {
+          "attachment": [
+            {
+              "name": "base_light_01"
+            },
+            {
+              "time": 0.0333,
+              "name": "base_light_02"
+            },
+            {
+              "time": 0.0667,
+              "name": "base_light_03"
+            },
+            {
+              "time": 0.1,
+              "name": "base_light_04"
+            },
+            {
+              "time": 0.1333,
+              "name": "base_light_05"
+            },
+            {
+              "time": 0.1667,
+              "name": "base_light_06"
+            },
+            {
+              "time": 0.2,
+              "name": "base_light_07"
+            },
+            {
+              "time": 0.2333,
+              "name": "base_light_08"
+            },
+            {
+              "time": 0.2667,
+              "name": "base_light_09"
+            },
+            {
+              "time": 0.3,
+              "name": "base_light_10"
+            },
+            {
+              "time": 0.3333,
+              "name": "base_light_11"
+            },
+            {
+              "time": 0.3667,
+              "name": "base_light_12"
+            },
+            {
+              "time": 0.4,
+              "name": "base_light_13"
+            },
+            {
+              "time": 0.4333,
+              "name": "base_light_14"
+            },
+            {
+              "time": 0.4667,
+              "name": "base_light_15"
+            },
+            {
+              "time": 0.5,
+              "name": "base_light_16"
+            },
+            {
+              "time": 0.5333,
+              "name": "base_light_17"
+            },
+            {
+              "time": 0.5667,
+              "name": "base_light_18"
+            },
+            {
+              "time": 0.6,
+              "name": "base_light_19"
+            },
+            {
+              "time": 0.6333,
+              "name": "base_light_20"
+            },
+            {
+              "time": 0.6667,
+              "name": "base_light_21"
+            },
+            {
+              "time": 0.7,
+              "name": "base_light_22"
+            },
+            {
+              "time": 0.7333,
+              "name": "base_light_23"
+            },
+            {
+              "time": 0.7667,
+              "name": "base_light_24"
+            },
+            {
+              "time": 0.8,
+              "name": "base_light_25"
+            },
+            {
+              "time": 0.8333,
+              "name": null
+            }
+          ]
+        },
+        "base_shadow": {
+          "color": [
+            {
+              "color": "000000a4",
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "color": "00000052",
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "000000a4"
+            }
+          ]
+        },
+        "light": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffa3",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "light"
+            }
+          ]
+        },
+        "wing_light_00": {
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "wing_light_01"
+            },
+            {
+              "time": 0.0667,
+              "name": "wing_light_02"
+            },
+            {
+              "time": 0.1,
+              "name": "wing_light_03"
+            },
+            {
+              "time": 0.1333,
+              "name": "wing_light_04"
+            },
+            {
+              "time": 0.1667,
+              "name": "wing_light_05"
+            },
+            {
+              "time": 0.2,
+              "name": "wing_light_06"
+            },
+            {
+              "time": 0.2333,
+              "name": "wing_light_07"
+            },
+            {
+              "time": 0.2667,
+              "name": "wing_light_08"
+            },
+            {
+              "time": 0.3,
+              "name": "wing_light_09"
+            },
+            {
+              "time": 0.3333,
+              "name": "wing_light_10"
+            },
+            {
+              "time": 0.3667,
+              "name": "wing_light_11"
+            },
+            {
+              "time": 0.4,
+              "name": "wing_light_12"
+            },
+            {
+              "time": 0.4333,
+              "name": "wing_light_13"
+            },
+            {
+              "time": 0.4667,
+              "name": "wing_light_14"
+            },
+            {
+              "time": 0.6667,
+              "name": "wing_light_26"
+            },
+            {
+              "time": 0.7,
+              "name": "wing_light_27"
+            },
+            {
+              "time": 0.7333,
+              "name": "wing_light_28"
+            },
+            {
+              "time": 0.7667,
+              "name": "wing_light_29"
+            },
+            {
+              "time": 0.8,
+              "name": "wing_light_30"
+            },
+            {
+              "time": 0.8333,
+              "name": "wing_light_31"
+            },
+            {
+              "time": 0.8667,
+              "name": "wing_light_32"
+            },
+            {
+              "time": 0.9,
+              "name": "wing_light_00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "base": {
+          "scale": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "x": 1.06,
+              "y": 1.06,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "wing": {
+          "scale": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1333,
+              "x": 1.035,
+              "y": 1.035,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "base_shadow": {
+          "translate": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "y": -2.98,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1,
+              "x": 1.084,
+              "y": 1.084,
+              "curve": 0.446,
+              "c2": -0.24,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+
+title_light.png
+size: 724,312
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_A
+  rotate: false
+  xy: 1, 1
+  size: 401, 189
+  orig: 401, 189
+  offset: 0, 0
+  index: -1
+cloud_B
+  rotate: false
+  xy: 403, 70
+  size: 264, 120
+  orig: 264, 120
+  offset: 0, 0
+  index: -1
+roof
+  rotate: false
+  xy: 1, 191
+  size: 720, 119
+  orig: 720, 119
+  offset: 0, 0
+  index: -1
+
+title_light-62692e6d-11c3-4dca-9f59-5ad13a891c6d.jpg
+size: 624,352
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shine
+  rotate: false
+  xy: 1, 1
+  size: 440, 348
+  orig: 440, 348
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 442, 44
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+sparkle_A
+  rotate: false
+  xy: 442, 161
+  size: 179, 188
+  orig: 179, 188
+  offset: 0, 0
+  index: -1
+sparkle_B
+  rotate: false
+  xy: 442, 75
+  size: 110, 85
+  orig: 110, 85
+  offset: 0, 0
+  index: -1

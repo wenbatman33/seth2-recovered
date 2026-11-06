@@ -1,0 +1,27 @@
+{
+  "id": "project-h",
+  "title": "Project-H",
+  "projectId": "project-h",
+  "project": "Project-H",
+  "bundle": "g1011",
+  "gn": "new-jinlian",
+  "gt": "slot-expanding-wild-1",
+  "buildDirectory": "build/web",
+  "previewPort": 8188,
+  "scenes": {
+    "portrait": {
+      "url": "db://assets/scenes/mainPortrait.scene",
+      "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+    }
+  },
+  "defaultMode": "portrait",
+  "status": "awaiting-official-build-and-gameplay-validation",
+  "backend": "owned-local-simulation",
+  "layoutEvidence": {
+    "originalGameLayouts": [
+      "portrait"
+    ],
+    "desktop": "original portrait interface fitted to desktop viewport",
+    "noGeneratedLandscapeAssets": true
+  }
+}

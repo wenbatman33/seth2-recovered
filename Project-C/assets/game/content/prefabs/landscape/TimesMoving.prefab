@@ -1,0 +1,115 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "TimesMoving",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "TimesMoving",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -45.004,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "f73f3158-f4a1-551a-92ce-98888606c304"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 5
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "c3d67a39-e52c-5907-b79c-abfeef746dba"
+  },
+  {
+    "__type__": "cc.ParticleSystem2D",
+    "_dstBlendFactor": 1,
+    "emissionRate": 125,
+    "life": 0.8,
+    "lifeVar": 0.4,
+    "angle": 0,
+    "angleVar": 0,
+    "startSize": 25,
+    "startSizeVar": 16,
+    "endSize": 3,
+    "startSpin": 151,
+    "startSpinVar": 157,
+    "endSpin": 23,
+    "speed": 0,
+    "speedVar": 0,
+    "tangentialAccel": 0,
+    "_totalParticles": 100,
+    "__prefab": {
+      "__id__": 6
+    },
+    "posVar": {
+      "__type__": "cc.Vec2",
+      "x": 5,
+      "y": 5
+    },
+    "_startColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 204,
+      "b": 102,
+      "a": 86
+    },
+    "_endColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 127,
+      "b": 102,
+      "a": 255
+    },
+    "_file": {
+      "__uuid__": "3fc97926-a9fa-4e2f-b5e2-2a0b6d74151b"
+    },
+    "_spriteFrame": {
+      "__uuid__": "98f96e27-9fef-413f-8245-a878a709edd2@f9941"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "13111e06-e21c-594b-98e4-3d8a5ba5171c"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "23BHuubZNDe6GEoOF1JIKz",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "63Zy4amzdIG49CgT/zh8jM"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c21SUAgkNOMZi5qi5CV1VN"
+  }
+]

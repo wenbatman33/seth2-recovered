@@ -1,0 +1,146 @@
+
+w_win.png
+size: 1332,152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light/light_00
+  rotate: true
+  xy: 1, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_01
+  rotate: true
+  xy: 81, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_02
+  rotate: true
+  xy: 161, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_03
+  rotate: true
+  xy: 241, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_04
+  rotate: true
+  xy: 321, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_05
+  rotate: true
+  xy: 401, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_06
+  rotate: true
+  xy: 481, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_07
+  rotate: true
+  xy: 561, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_08
+  rotate: true
+  xy: 641, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_09
+  rotate: true
+  xy: 721, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_10
+  rotate: true
+  xy: 801, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_11
+  rotate: true
+  xy: 881, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_12
+  rotate: true
+  xy: 961, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_13
+  rotate: true
+  xy: 1041, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+light/light_14
+  rotate: true
+  xy: 1121, 1
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+win_bonus_i
+  rotate: true
+  xy: 1201, 5
+  size: 29, 78
+  orig: 29, 78
+  offset: 0, 0
+  index: -1
+win_bonus_n
+  rotate: false
+  xy: 1281, 72
+  size: 50, 78
+  orig: 50, 78
+  offset: 0, 0
+  index: -1
+win_bonus_w
+  rotate: true
+  xy: 1201, 80
+  size: 70, 79
+  orig: 70, 79
+  offset: 0, 0
+  index: -1
+win_light_01
+  rotate: true
+  xy: 1280, 32
+  size: 39, 46
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+win_light_02
+  rotate: true
+  xy: 1201, 35
+  size: 44, 52
+  orig: 44, 53
+  offset: 0, 1
+  index: -1

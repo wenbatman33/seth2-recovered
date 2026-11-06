@@ -1,0 +1,45 @@
+{
+  "project": "Project-D",
+  "passed": 9,
+  "checks": [
+    "each source art count2..5 maps to its actual JP tier, real symbols and native close queue",
+    "JP operation persists pool state and only close credits its award exactly once",
+    "free JP and entry JP wait for genuine symbol and popup callbacks then resume exactly once",
+    "foreign and ordinary terminal routing remains original",
+    "native JP popup and quick-stop distinguish JP prize, accumulated trophy and current free round",
+    "self-defined chest configuration, eligible board, persistence, no extra debit and credit once",
+    "zero probabilities disable both features; probability-one chest excludes winning/free/purchase boards",
+    "original async GameLogic opens native TreasuresView and its own completion triggers settlement",
+    "notify pool shape is delivered to source service listener before the initial response callback"
+  ],
+  "sourceRulesViewed": [
+    "rules_06.png JP count2..5",
+    "rules_07.png zero-win chest"
+  ],
+  "ownedSimulation": {
+    "jackpotPoolSeedContributionWeightsFrequency": true,
+    "mysteryChestProbabilityAndAwardDistribution": true,
+    "originalRngRestored": false,
+    "originalRtpRestored": false
+  },
+  "nativeMethodsExecuted": [
+    "SymbolView.playJpWin",
+    "CreateNewSpinCompleteFlowCmd.createFlow",
+    "CreateNewCloseSpinFlowCmd.createFlow",
+    "JackpotView.showJp",
+    "JackpotView.showJpResult",
+    "GameLogic SHOW_TREASURE_VIEW async handler",
+    "TreasuresView.showTreasureWin",
+    "TreasuresView.playCoinSprayAndRunScore"
+  ],
+  "guiVerified": false,
+  "rootInstalled": true,
+  "sourceSha256": {
+    "assets/game/scripts/g1001-CreateNewCloseSpinFlowCmd.ts": "988dc0f0efafb76122ad4135b588c0275f455eae9298563839f83f845decf3cd",
+    "assets/game/scripts/g1001-SymbolView.ts": "d2353dbb11004d2887bf86990701313a723b8b2ac171ecea42de470f11508581",
+    "assets/game/scripts/g1001-CreateNewSpinCompleteFlowCmd.ts": "fe44c457f61987faec629778bece4da46c3b8569e299266d06a2fee86f87b009",
+    "assets/game/scripts/g1001-JackpotView.ts": "fe8aac23e32617464d8b58e6646882ab4b84027f8f904306dc7d4fd5584da498",
+    "assets/game/scripts/g1001-TreasuresView.ts": "f09e63ac61a74110b7def411a0f676ea731a39d9ddc612f82f9ea2947aa243bb",
+    "assets/game/scripts/g1001-GameLogic.ts": "0d4bba271ae802c5ff939ecaec56824b2c7a394d120b61783a02731564baf0a2"
+  }
+}

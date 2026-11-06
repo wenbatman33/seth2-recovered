@@ -1,0 +1,122 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "PurpleTimesMoving",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PurpleTimesMoving",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -45.004,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "7ec4a292-1922-5dfb-b4c9-cb97b8bddeaa"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 5
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "7eaa3f9e-d077-5f51-b643-2ba306bc7b22"
+  },
+  {
+    "__type__": "cc.ParticleSystem2D",
+    "_dstBlendFactor": 1,
+    "emissionRate": 125,
+    "life": 0.8,
+    "lifeVar": 0.4,
+    "angle": 0,
+    "angleVar": 0,
+    "startSize": 39,
+    "startSizeVar": 16,
+    "endSize": 3,
+    "startSpin": 151,
+    "startSpinVar": 157,
+    "endSpin": 23,
+    "speed": 0,
+    "speedVar": 0,
+    "tangentialAccel": 0,
+    "_totalParticles": 100,
+    "__prefab": {
+      "__id__": 6
+    },
+    "posVar": {
+      "__type__": "cc.Vec2",
+      "x": 5,
+      "y": 5
+    },
+    "_startColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 51,
+      "b": 102,
+      "a": 255
+    },
+    "_startColorVar": {
+      "__type__": "cc.Color",
+      "r": 51,
+      "g": 51,
+      "b": 51,
+      "a": 127
+    },
+    "_endColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 51,
+      "b": 51,
+      "a": 255
+    },
+    "_file": {
+      "__uuid__": "e93f8f52-37b6-4bea-bcc8-3411f224662f"
+    },
+    "_spriteFrame": {
+      "__uuid__": "a9d0e348-5427-486f-bcd9-5a40ce1df46f@f9941"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "24a8ffb5-2f96-56b1-868a-d7c5d489351d"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "23BHuubZNDe6GEoOF1JIKz",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "63Zy4amzdIG49CgT/zh8jM"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c21SUAgkNOMZi5qi5CV1VN"
+  }
+]

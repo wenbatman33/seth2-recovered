@@ -1,0 +1,20 @@
+
+JP_scroll.png
+size: 552,532
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+scroll
+  rotate: false
+  xy: 1, 1
+  size: 505, 39
+  orig: 505, 39
+  offset: 0, 0
+  index: -1
+scroll_main
+  rotate: true
+  xy: 1, 41
+  size: 487, 548
+  orig: 488, 549
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,1522 @@
+{
+  "skeleton": {
+    "hash": "6s0ulstbeFUGTsh+g8drPfcL4o0",
+    "spine": "3.8.99",
+    "x": -627,
+    "y": -574,
+    "width": 1308,
+    "height": 1285,
+    "images": "./images/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/孫行者/win"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -360,
+      "y": 670
+    },
+    {
+      "name": "clould_02",
+      "parent": "root",
+      "x": 360,
+      "y": -374.33
+    },
+    {
+      "name": "clould_03",
+      "parent": "root",
+      "x": 360,
+      "y": -374.33
+    },
+    {
+      "name": "clould_01",
+      "parent": "root",
+      "x": 344.52,
+      "y": -357.3
+    },
+    {
+      "name": "01",
+      "parent": "clould_01",
+      "rotation": 10,
+      "x": 113.39,
+      "y": -417.92
+    },
+    {
+      "name": "02",
+      "parent": "clould_02",
+      "rotation": 40,
+      "x": 462.46,
+      "y": -188.7
+    },
+    {
+      "name": "03",
+      "parent": "clould_03",
+      "rotation": -30,
+      "x": -389.58,
+      "y": -276.63
+    },
+    {
+      "name": "fx",
+      "parent": "root",
+      "x": 360,
+      "y": -537.33
+    },
+    {
+      "name": "legend_light",
+      "parent": "root",
+      "x": 373.21,
+      "y": -554.17
+    },
+    {
+      "name": "m",
+      "parent": "legend_light"
+    },
+    {
+      "name": "01_0",
+      "parent": "m",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "f",
+      "parent": "legend_light"
+    },
+    {
+      "name": "01_1",
+      "parent": "f",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "02_1",
+      "parent": "f",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "02_0",
+      "parent": "m",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "legend_build",
+      "parent": "root",
+      "x": 360,
+      "y": -517.19
+    },
+    {
+      "name": "main",
+      "parent": "legend_build"
+    },
+    {
+      "name": "backbuild",
+      "parent": "legend_build"
+    },
+    {
+      "name": "frontline",
+      "parent": "legend_build"
+    },
+    {
+      "name": "b",
+      "parent": "legend_light"
+    },
+    {
+      "name": "01_2",
+      "parent": "b",
+      "x": -0.26,
+      "y": 0.65
+    },
+    {
+      "name": "02_2",
+      "parent": "b",
+      "x": -0.26,
+      "y": 0.65
+    }
+  ],
+  "slots": [
+    {
+      "name": "Legend_palace_bk",
+      "bone": "backbuild"
+    },
+    {
+      "name": "Legend_palace_light_02",
+      "bone": "02_0",
+      "attachment": "Legend_palace_light_02",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_palace_light_01",
+      "bone": "01_0",
+      "attachment": "Legend_palace_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_01",
+      "bone": "01_1",
+      "attachment": "Legend_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_1",
+      "bone": "01_2",
+      "attachment": "Legend_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_palace_01",
+      "bone": "main",
+      "attachment": "Legend_palace_01"
+    },
+    {
+      "name": "Legend_palace_fx_01",
+      "bone": "frontline"
+    },
+    {
+      "name": "Legend_bk_cloud_03",
+      "bone": "03",
+      "attachment": "Legend_bk_cloud_03"
+    },
+    {
+      "name": "Legend_bk_cloud_02",
+      "bone": "02",
+      "attachment": "Legend_bk_cloud_02"
+    },
+    {
+      "name": "Legend_bk_cloud_01",
+      "bone": "01",
+      "attachment": "Legend_bk_cloud_01"
+    },
+    {
+      "name": "Legend_fx_06",
+      "bone": "fx",
+      "attachment": "Legend_fx_06",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_05",
+      "bone": "fx",
+      "attachment": "Legend_fx_05",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_04",
+      "bone": "fx",
+      "attachment": "Legend_fx_04",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_03",
+      "bone": "fx",
+      "attachment": "Legend_fx_03"
+    },
+    {
+      "name": "Legend_fx_02",
+      "bone": "fx",
+      "attachment": "Legend_fx_02",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_fx_01",
+      "bone": "fx",
+      "attachment": "Legend_fx_01"
+    },
+    {
+      "name": "Legend_light_02",
+      "bone": "02_1",
+      "attachment": "Legend_light_02",
+      "blend": "additive"
+    },
+    {
+      "name": "Legend_light_2",
+      "bone": "02_2",
+      "attachment": "Legend_light_02",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Legend_bk_cloud_01": {
+          "Legend_bk_cloud_01": {
+            "x": 8.96,
+            "y": 30.13,
+            "rotation": -10,
+            "width": 537,
+            "height": 186
+          }
+        },
+        "Legend_bk_cloud_02": {
+          "Legend_bk_cloud_02": {
+            "x": -34.87,
+            "y": 103.06,
+            "rotation": -40,
+            "width": 623,
+            "height": 511
+          }
+        },
+        "Legend_bk_cloud_03": {
+          "Legend_bk_cloud_03": {
+            "x": -4.8,
+            "y": 137.48,
+            "rotation": 30,
+            "width": 604,
+            "height": 467
+          }
+        },
+        "Legend_fx_01": {
+          "Legend_fx_01": {
+            "y": -29.67,
+            "width": 722,
+            "height": 336
+          }
+        },
+        "Legend_fx_02": {
+          "Legend_fx_02": {
+            "x": 2.5,
+            "y": -28.17,
+            "width": 593,
+            "height": 643
+          }
+        },
+        "Legend_fx_03": {
+          "Legend_fx_03": {
+            "y": -65.67,
+            "width": 418,
+            "height": 530
+          }
+        },
+        "Legend_fx_04": {
+          "Legend_fx_04": {
+            "y": -8.67,
+            "width": 384,
+            "height": 454
+          }
+        },
+        "Legend_fx_05": {
+          "Legend_fx_05": {
+            "x": 0.5,
+            "y": -99.67,
+            "width": 467,
+            "height": 636
+          }
+        },
+        "Legend_fx_06": {
+          "Legend_fx_06": {
+            "y": -102.67,
+            "width": 914,
+            "height": 1208
+          }
+        },
+        "Legend_light_01": {
+          "Legend_light_01": {
+            "x": -6.94,
+            "y": 290.02,
+            "width": 950,
+            "height": 609
+          }
+        },
+        "Legend_light_1": {
+          "Legend_light_01": {
+            "x": -6.94,
+            "y": 290.02,
+            "width": 950,
+            "height": 609
+          }
+        },
+        "Legend_light_02": {
+          "Legend_light_02": {
+            "x": -6.94,
+            "y": -319.98,
+            "width": 950,
+            "height": 737
+          }
+        },
+        "Legend_light_2": {
+          "Legend_light_02": {
+            "x": -6.94,
+            "y": -319.98,
+            "width": 950,
+            "height": 737
+          }
+        },
+        "Legend_palace_01": {
+          "Legend_palace_01": {
+            "x": 0.5,
+            "y": 194.19,
+            "width": 777,
+            "height": 442
+          }
+        },
+        "Legend_palace_bk": {
+          "Legend_palace_bk": {
+            "x": -16,
+            "y": 146.69,
+            "width": 882,
+            "height": 469
+          }
+        },
+        "Legend_palace_fx_01": {
+          "Legend_palace_fx_01": {
+            "x": 0.5,
+            "y": 184.69,
+            "width": 703,
+            "height": 373
+          }
+        },
+        "Legend_palace_light_01": {
+          "Legend_palace_light_01": {
+            "x": -12.94,
+            "y": -299.98,
+            "width": 950,
+            "height": 725
+          }
+        },
+        "Legend_palace_light_02": {
+          "Legend_palace_light_02": {
+            "x": -6.94,
+            "y": 295.02,
+            "width": 950,
+            "height": 599
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "Legend_bk_cloud_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_bk_cloud_02": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_bk_cloud_03": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_02": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff46"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_03": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_04": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_05": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_06": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff1f"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_1": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_light_02": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_2": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_palace_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_bk": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Legend_palace_bk"
+            }
+          ]
+        },
+        "Legend_palace_fx_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff",
+              "curve": 0.74,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Legend_palace_fx_01"
+            }
+          ]
+        },
+        "Legend_palace_light_01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_light_02": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "frontline": {
+          "translate": [
+            {
+              "y": 7.19
+            }
+          ]
+        },
+        "backbuild": {
+          "translate": [
+            {
+              "x": 14.9
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1333,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.3,
+              "y": 1.3
+            }
+          ]
+        },
+        "01": {
+          "scale": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3333,
+              "x": 1.1,
+              "y": 0.9
+            },
+            {
+              "time": 0.5333,
+              "x": 0.9,
+              "y": 1.2
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "02": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.1,
+              "y": 0.9
+            },
+            {
+              "time": 0.4333,
+              "x": 0.9,
+              "y": 1.2
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "03": {
+          "scale": [
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2333,
+              "x": 1.1,
+              "y": 0.9
+            },
+            {
+              "time": 0.4333,
+              "x": 0.9,
+              "y": 1.2
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "clould_01": {
+          "rotate": [
+            {
+              "angle": 60,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {
+              "x": 1.3,
+              "y": 1.3,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "clould_02": {
+          "rotate": [
+            {
+              "angle": 60,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.2333,
+              "angle": -5
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "clould_03": {
+          "rotate": [
+            {
+              "angle": -45,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "angle": -45,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01_1": {
+          "scale": [
+            {
+              "time": 0.4667,
+              "x": -0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "time": 0.4667,
+              "x": -0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01_0": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_0": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "Legend_bk_cloud_01": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff8b",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_bk_cloud_02": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff8b",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_bk_cloud_03": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff8b",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_01": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_02": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff81"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_04": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff6d"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_fx_06": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff4a",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_1": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_light_02": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_light_2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Legend_palace_01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_bk": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff3b",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Legend_palace_bk"
+            }
+          ]
+        },
+        "Legend_palace_fx_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffe1",
+              "curve": 1,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Legend_palace_fx_01"
+            }
+          ]
+        },
+        "Legend_palace_light_01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "Legend_palace_light_02": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_0": {
+          "scale": [
+            {},
+            {
+              "time": 0.4333,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.5667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.05
+            },
+            {
+              "time": 0.6667,
+              "x": 0.95,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.05
+            },
+            {
+              "time": 0.6667,
+              "x": 0.95,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "03": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.05
+            },
+            {
+              "time": 0.6667,
+              "x": 0.95,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "clould_01": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "angle": -2,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "clould_02": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "angle": -1.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "clould_03": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "angle": 1.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "frontline": {
+          "translate": [
+            {
+              "x": 0.86,
+              "y": 8.58
+            }
+          ]
+        },
+        "01_1": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "backbuild": {
+          "translate": [
+            {
+              "x": 14.1
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1667,
+              "curve": 0.381,
+              "c2": 0.55,
+              "c3": 0.742
+            },
+            {
+              "time": 1,
+              "x": 1.2,
+              "y": 1.2
+            }
+          ]
+        },
+        "02_0": {
+          "scale": [
+            {},
+            {
+              "time": 0.4333,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.5667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

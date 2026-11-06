@@ -1,0 +1,30 @@
+{
+  "project": "Project-D",
+  "purpose": "offline actual frontend consumer fixtures; no game engine, launch credentials or production responses",
+  "modules": [
+    {
+      "module": "g1001/GameData",
+      "file": "fixtures/contracts-static/D-g1001-GameData.ts.js",
+      "sha256": "d0f682ca670e8d3d457b316d199de8b840199f3ba7af71b2e6ee1be60583d10b",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1001/ParseResponse",
+      "file": "fixtures/contracts-static/D-g1001-ParseResponse.ts.js",
+      "sha256": "2dbcef24e0fe72edf4acaf1a8e6db9512168f9f0e83a2be4df6f4da50fa1d6f8",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1001/GameSender",
+      "file": "fixtures/contracts-static/D-g1001-GameSender.ts.js",
+      "sha256": "2e5500a90f2684df9d726eeab9540d44afc67ebf80b9bf6255dc35ed41ecca85",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "chunks/rollupPluginModLoBabelHelpers",
+      "file": "fixtures/extracted/chunks/00001-rollupPluginModLoBabelHelpers-b477504e0354.js",
+      "sha256": "f528c98145953e06dfb3affd1724dd13fdc643dde5a21e0127642d1b93bb67bf",
+      "source": "inertly captured public client module; no production responses"
+    }
+  ]
+}

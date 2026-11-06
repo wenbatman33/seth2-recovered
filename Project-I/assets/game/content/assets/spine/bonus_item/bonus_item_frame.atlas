@@ -1,0 +1,48 @@
+
+bonus_item_frame.png
+size: 1912,1760
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonus_frame_center
+  rotate: false
+  xy: 1011, 1
+  size: 647, 633
+  orig: 961, 634
+  offset: 157, 0
+  index: -1
+bonus_frame_circle
+  rotate: false
+  xy: 442, 635
+  size: 1122, 1122
+  orig: 1122, 1122
+  offset: 0, 0
+  index: -1
+bonus_frame_radiation_1
+  rotate: true
+  xy: 1, 30
+  size: 552, 1009
+  orig: 554, 1009
+  offset: 1, 0
+  index: -1
+bonus_frame_radiation_2
+  rotate: false
+  xy: 1565, 640
+  size: 203, 1117
+  orig: 206, 1117
+  offset: 3, 0
+  index: -1
+bonus_frame_radiation_3
+  rotate: false
+  xy: 1, 583
+  size: 440, 1174
+  orig: 440, 1174
+  offset: 0, 0
+  index: -1
+fx_main_light
+  rotate: false
+  xy: 1659, 388
+  size: 251, 251
+  orig: 410, 413
+  offset: 126, 37
+  index: -1

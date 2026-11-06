@@ -1,0 +1,131 @@
+[
+  {
+    "file": "tests/fixtures/GameSender.ts",
+    "source": "assets/game/scripts/g1012-GameSender.ts",
+    "sourceSha256": "3a745de6bd291d2d3fda5163d072caf2a9f184b2563a2e03062cc9f0edaf342f",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/RecordViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-RecordViewBase.ts",
+    "sourceSha256": "b228d4c9ffa8947a71b2495e0168eefad78c661103186f42f2340238c6f1ec6c",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/RecordViewItem.ts",
+    "source": "assets/shared/scripts/slotFramework-RecordViewItem.ts",
+    "sourceSha256": "0a31d82761bf7497e2d8fa19e7a197891c12df9fea2c1955469b2887ff784419",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/HistoryViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-HistoryViewBase.ts",
+    "sourceSha256": "e9bbe64206c29d85c9b139d27f1a065f2669984bc4975eafc78b93183f926def",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/RankingViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-RankingViewBase.ts",
+    "sourceSha256": "e6de566918d65ee262d1c8f615e9f4dd265dff10c6c99d542d4a7cee6a45069f",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/AvatarViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-AvatarViewBase.ts",
+    "sourceSha256": "6f6ffa6aa4002aeac9ae4b183e0e2b89a27d1534dc50e23b97e85b11f43636e6",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/SlotTableViewBase.ts",
+    "source": "assets/shared/scripts/slotFramework-SlotTableViewBase.ts",
+    "sourceSha256": "5f6f549226590f85af3216018870a209c6df2033922b14a146ab201136b4c0ec",
+    "publicRuntimeSource": true
+  },
+  {
+    "file": "tests/fixtures/original/E-g1012-GameState.ts.js",
+    "captureModule": "E-g1012-GameState.ts.js",
+    "sha256": "e7ca8ebb80d84235be35e56711d281f822ad86d042067e8332e640fcdaa532dc",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/E-g1012-ParseResponse.ts.js",
+    "captureModule": "E-g1012-ParseResponse.ts.js",
+    "sha256": "64e681de583b77d0b6269978b8a17179c10de2134c66c68e136ab5dbdbe16b66",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/E-g1012-GameData.ts.js",
+    "captureModule": "E-g1012-GameData.ts.js",
+    "sha256": "a9ffdaa49838594f313b7d0a5e87ae47a55730619dbd66c417fd9d86a268793e",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/E-g1012-GameSender.ts.js",
+    "captureModule": "E-g1012-GameSender.ts.js",
+    "sha256": "1132c6fd7d79a78488e4d6e40518e6dfe94c5e81d26e190d7c85fecebd94f73c",
+    "sourceKind": "public named System.register module; no launch/session JSON"
+  },
+  {
+    "file": "tests/fixtures/original/BabelHelpers.system.js",
+    "captureModule": "chunks:///_virtual/rollupPluginModLoBabelHelpers.js",
+    "sha256": "f528c98145953e06dfb3affd1724dd13fdc643dde5a21e0127642d1b93bb67bf",
+    "sourceKind": "public named System.register helper module"
+  },
+  {
+    "file": "tests/fixtures/original/E-main-fsm.ts.js",
+    "captureModule": "chunks:///_virtual/fsm.ts",
+    "sha256": "04c1ced731e726a9f120ad7a5a6e8d0009c3aed6ef09eeeba65764ca6dd7be5b",
+    "sourceKind": "public System.register module"
+  },
+  {
+    "file": "tests/fixtures/original/E-main-validate.ts.js",
+    "captureModule": "chunks:///_virtual/validate.ts",
+    "sha256": "e63c6d288f42341245cb5b69ccab6cdbc16db33ebef90520d9b6481236a9a69f",
+    "sourceKind": "public System.register module"
+  },
+  {
+    "file": "tests/fixtures/Fever-GameLogic.ts",
+    "source": "assets/game/scripts/g1012-GameLogic.ts",
+    "sha256": "45ed98aee8dc8506e99dbe5ffcfb79df1cad31bc3f18fc77ef24970b6c1e7613",
+    "sourceKind": "public recovered runtime module"
+  },
+  {
+    "file": "tests/fixtures/Fever-BackgroundView.ts",
+    "source": "assets/game/scripts/g1012-BackgroundView.ts",
+    "sha256": "b84888c57eca7d5e270a87f2d661e99a4d6dc9cbb688b3bfa9defe6d743469cf",
+    "sourceKind": "public recovered runtime module"
+  },
+  {
+    "file": "tests/fixtures/Fever-GameSymbol.ts",
+    "source": "assets/game/scripts/g1012-GameSymbol.ts",
+    "sha256": "012071e073c8067a73a7a67251de92473cf3a8f28d0869f850b6dbd8a438f0e6",
+    "sourceKind": "public recovered runtime module"
+  },
+  {
+    "file": "tests/fixtures/Fever-GameReelsController.ts",
+    "source": "assets/game/scripts/g1012-GameReelsController.ts",
+    "sha256": "e0884585e6982efa0c3cad2cc01154bbc0c13a5aa5a40c13110d0e3d7ee8bed4",
+    "sourceKind": "public recovered runtime module"
+  },
+  {
+    "file": "tests/fixtures/Native-BigwinView.ts",
+    "source": "assets/game/scripts/g1012-BigwinView.ts",
+    "sha256": "387a3fa5b101430c032ca4f78fe6416418b40e8e05544723ac9d0831111ff163",
+    "originalSourceSha256": "95d31da317e49f13c90d07ac5763787122828160f96d1f87e5e4e3665644e6d1",
+    "sourceKind": "public recovered runtime module"
+  },
+  {
+    "file": "tests/fixtures/Native-FreeGameAlertView.ts",
+    "source": "assets/game/scripts/g1012-FreeGameAlertView.ts",
+    "sha256": "993a34813ae2d30c4ac2a0375db7705be0a545769d6fa582a1add73ac04132a3",
+    "originalSourceSha256": "4ce80e2a5e65744103d516eb36bceafb305b4d6968b098d333480a42ea299a2b",
+    "sourceKind": "public recovered runtime module"
+  },
+  {
+    "file": "tests/fixtures/Creator388-SkeletonLifecycle.js",
+    "source": "Creator3.8.8 engine/cocos/spine/skeleton.ts#__preload,findAnimation",
+    "sourceSha256": "2e86383e7e7dfb93bc40ec1d7e44c6bb2bebc8a3e95c100ad16620bd24114329",
+    "sha256": "78062bd7f099d516427c43148d092ef4938ac4b218a40ab1c81610efe0577a2d",
+    "sourceKind": "installed official engine public method bodies; TypeScript annotations removed only"
+  }
+]

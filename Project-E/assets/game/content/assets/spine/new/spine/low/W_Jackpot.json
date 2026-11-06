@@ -1,0 +1,3012 @@
+{
+  "skeleton": {
+    "hash": "FPSGMTedK6JFdSbpKx3WycWspO8",
+    "spine": "3.8.57",
+    "x": -988,
+    "y": -251.1,
+    "width": 1958.83,
+    "height": 1082
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "JP_star-1",
+      "parent": "root",
+      "x": 457.02,
+      "y": 413.85
+    },
+    {
+      "name": "JP_L",
+      "parent": "root",
+      "x": -247.97,
+      "y": 111.71
+    },
+    {
+      "name": "JP_U",
+      "parent": "root",
+      "x": -118.49,
+      "y": 104.16
+    },
+    {
+      "name": "JP_C",
+      "parent": "root",
+      "x": -1.95,
+      "y": 117.11
+    },
+    {
+      "name": "JP_K",
+      "parent": "root",
+      "x": 121.05,
+      "y": 112.79
+    },
+    {
+      "name": "JP_Y",
+      "parent": "root",
+      "x": 233.27,
+      "y": 107.39
+    },
+    {
+      "name": "Jackpot",
+      "parent": "root",
+      "x": -6.27,
+      "y": 285.43
+    },
+    {
+      "name": "JP_Lobby&game",
+      "parent": "root",
+      "x": -457.7,
+      "y": 359.05
+    }
+  ],
+  "slots": [
+    {
+      "name": "JP_effectlight-2",
+      "bone": "root",
+      "attachment": "JP_effectlight-2"
+    },
+    {
+      "name": "JP_effectlight-3",
+      "bone": "root",
+      "attachment": "JP_effectlight-2",
+      "blend": "additive"
+    },
+    {
+      "name": "JP_boardshadow-1",
+      "bone": "root",
+      "attachment": "JP_boardshadow-1"
+    },
+    {
+      "name": "JP_board",
+      "bone": "root",
+      "attachment": "JP_board"
+    },
+    {
+      "name": "JP_Whiteboard",
+      "bone": "root",
+      "attachment": "JP_Whiteboard"
+    },
+    {
+      "name": "JP_light-1",
+      "bone": "root",
+      "attachment": "JP_light-1",
+      "blend": "screen"
+    },
+    {
+      "name": "JP_light-2",
+      "bone": "root",
+      "color": "ffffff82",
+      "attachment": "JP_light-1",
+      "blend": "additive"
+    },
+    {
+      "name": "JP_star-1",
+      "bone": "root",
+      "attachment": "JP_star-1"
+    },
+    {
+      "name": "JP_JP-2",
+      "bone": "root",
+      "attachment": "JP_JP-2"
+    },
+    {
+      "name": "JP_JP-1",
+      "bone": "root",
+      "attachment": "JP_JP-1"
+    },
+    {
+      "name": "JP_O-5",
+      "bone": "root",
+      "attachment": "JP_O-5"
+    },
+    {
+      "name": "JP_Y",
+      "bone": "root",
+      "attachment": "JP_Y"
+    },
+    {
+      "name": "JP_O-4",
+      "bone": "root",
+      "attachment": "JP_O-4"
+    },
+    {
+      "name": "JP_K",
+      "bone": "root",
+      "attachment": "JP_K"
+    },
+    {
+      "name": "JP_O-3",
+      "bone": "root",
+      "attachment": "JP_O-3"
+    },
+    {
+      "name": "JP_C",
+      "bone": "root",
+      "attachment": "JP_C"
+    },
+    {
+      "name": "JP_O-2",
+      "bone": "root",
+      "attachment": "JP_O-2"
+    },
+    {
+      "name": "JP_U",
+      "bone": "root",
+      "attachment": "JP_U"
+    },
+    {
+      "name": "JP_O-1",
+      "bone": "root",
+      "attachment": "JP_O-1"
+    },
+    {
+      "name": "JP_L",
+      "bone": "root",
+      "attachment": "JP_L"
+    },
+    {
+      "name": "JP_effectlight-1",
+      "bone": "root",
+      "attachment": "JP_effectlight-1",
+      "blend": "screen"
+    },
+    {
+      "name": "JP_Game",
+      "bone": "root",
+      "attachment": "JP_Game"
+    },
+    {
+      "name": "JP_Lobby",
+      "bone": "root",
+      "attachment": "JP_Lobby"
+    },
+    {
+      "name": "star_path",
+      "bone": "root",
+      "attachment": "star_path"
+    },
+    {
+      "name": "game_path",
+      "bone": "root",
+      "attachment": "game_path"
+    },
+    {
+      "name": "SUPER_ray-01",
+      "bone": "root",
+      "attachment": "SUPER_ray-01",
+      "blend": "additive"
+    }
+  ],
+  "path": [
+    {
+      "name": "game_path",
+      "order": 1,
+      "target": "game_path",
+      "rotateMix": 0,
+      "bones": [
+        "JP_Lobby&game"
+      ]
+    },
+    {
+      "name": "star_path",
+      "target": "star_path",
+      "bones": [
+        "JP_star-1"
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "JP_light-1": {
+          "JP_light-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              539.48,
+              15.9,
+              -539.52,
+              15.9,
+              -539.52,
+              504.9,
+              539.48,
+              504.9
+            ]
+          }
+        },
+        "JP_light-2": {
+          "JP_light-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              539.48,
+              15.9,
+              -539.52,
+              15.9,
+              -539.52,
+              504.9,
+              539.48,
+              504.9
+            ]
+          }
+        },
+        "JP_JP-1": {
+          "JP_JP-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              7,
+              434.75,
+              -145.53,
+              1,
+              1,
+              7,
+              -422.25,
+              -145.53,
+              1,
+              1,
+              7,
+              -422.25,
+              212.47,
+              1,
+              1,
+              7,
+              434.75,
+              212.47,
+              1
+            ]
+          }
+        },
+        "JP_JP-2": {
+          "JP_JP-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              7,
+              429.75,
+              -167.53,
+              1,
+              1,
+              7,
+              -416.25,
+              -167.53,
+              1,
+              1,
+              7,
+              -416.25,
+              192.47,
+              1,
+              1,
+              7,
+              429.75,
+              192.47,
+              1
+            ]
+          }
+        },
+        "JP_Lobby": {
+          "JP_Lobby": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              8,
+              114.19,
+              -104.14,
+              1,
+              1,
+              8,
+              -149.81,
+              -104.14,
+              1,
+              1,
+              8,
+              -149.81,
+              105.86,
+              1,
+              1,
+              8,
+              114.19,
+              105.86,
+              1
+            ]
+          }
+        },
+        "JP_K": {
+          "JP_K": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              5,
+              35.43,
+              -34.89,
+              1,
+              1,
+              5,
+              -37.57,
+              -34.89,
+              1,
+              1,
+              5,
+              -37.57,
+              30.11,
+              1,
+              1,
+              5,
+              35.43,
+              30.11,
+              1
+            ]
+          }
+        },
+        "JP_star-1": {
+          "JP_star-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              1,
+              111.47,
+              -99.94,
+              1,
+              1,
+              1,
+              -112.53,
+              -99.94,
+              1,
+              1,
+              1,
+              -112.53,
+              102.06,
+              1,
+              1,
+              1,
+              111.47,
+              102.06,
+              1
+            ]
+          }
+        },
+        "JP_effectlight-1": {
+          "JP_effectlight-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              21.4,
+              236.7,
+              -20.6,
+              236.7,
+              -20.6,
+              277.7,
+              21.4,
+              277.7
+            ]
+          }
+        },
+        "JP_effectlight-2": {
+          "JP_effectlight-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              727.48,
+              -251.1,
+              -745.52,
+              -251.1,
+              -745.52,
+              830.9,
+              727.48,
+              830.9
+            ]
+          }
+        },
+        "JP_effectlight-3": {
+          "JP_effectlight-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              727.48,
+              -251.1,
+              -745.52,
+              -251.1,
+              -745.52,
+              830.9,
+              727.48,
+              830.9
+            ]
+          }
+        },
+        "JP_L": {
+          "JP_L": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              2,
+              33.45,
+              -34.81,
+              1,
+              1,
+              2,
+              -19.55,
+              -34.81,
+              1,
+              1,
+              2,
+              -19.55,
+              30.19,
+              1,
+              1,
+              2,
+              33.45,
+              30.19,
+              1
+            ]
+          }
+        },
+        "game_path": {
+          "game_path": {
+            "type": "path",
+            "vertexCount": 6,
+            "lengths": [
+              398.32,
+              657.35
+            ],
+            "vertices": [
+              -205.5,
+              277.41,
+              -315.75,
+              433.16,
+              -465.3,
+              644.44,
+              -626.95,
+              434.42,
+              -449.72,
+              363.31,
+              -272.49,
+              292.2
+            ]
+          }
+        },
+        "JP_Whiteboard": {
+          "JP_Whiteboard": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              451.48,
+              73.9,
+              -450.52,
+              73.9,
+              -450.52,
+              447.9,
+              451.48,
+              447.9
+            ]
+          }
+        },
+        "JP_U": {
+          "JP_U": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              3,
+              32.97,
+              -29.25,
+              1,
+              1,
+              3,
+              -31.03,
+              -29.25,
+              1,
+              1,
+              3,
+              -31.03,
+              37.75,
+              1,
+              1,
+              3,
+              32.97,
+              37.75,
+              1
+            ]
+          }
+        },
+        "JP_Y": {
+          "JP_Y": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              6,
+              42.22,
+              -29.49,
+              1,
+              1,
+              6,
+              -20.78,
+              -29.49,
+              1,
+              1,
+              6,
+              -20.78,
+              34.51,
+              1,
+              1,
+              6,
+              42.22,
+              34.51,
+              1
+            ]
+          }
+        },
+        "SUPER_ray-01": {
+          "SUPER_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              970.83,
+              32.12,
+              -988,
+              32.12,
+              -988,
+              484.62,
+              970.83,
+              484.62
+            ]
+          }
+        },
+        "JP_Game": {
+          "JP_Game": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              8,
+              102.19,
+              -98.14,
+              1,
+              1,
+              8,
+              -147.81,
+              -98.14,
+              1,
+              1,
+              8,
+              -147.81,
+              92.86,
+              1,
+              1,
+              8,
+              102.19,
+              92.86,
+              1
+            ]
+          }
+        },
+        "JP_board": {
+          "JP_board": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              530.48,
+              12.9,
+              -531.52,
+              12.9,
+              -531.52,
+              490.9,
+              530.48,
+              490.9
+            ]
+          }
+        },
+        "JP_boardshadow-1": {
+          "JP_boardshadow-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              604.48,
+              -59.1,
+              -605.52,
+              -59.1,
+              -605.52,
+              548.9,
+              604.48,
+              548.9
+            ]
+          }
+        },
+        "star_path": {
+          "star_path": {
+            "type": "path",
+            "vertexCount": 6,
+            "lengths": [
+              1168.85,
+              2302.04
+            ],
+            "vertices": [
+              -429.57,
+              -257.43,
+              -354.76,
+              19.66,
+              -194.86,
+              611.95,
+              618.41,
+              691.6,
+              472.19,
+              412.14,
+              313.68,
+              109.17
+            ]
+          }
+        },
+        "JP_C": {
+          "JP_C": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              4,
+              30.44,
+              -41.2,
+              1,
+              1,
+              4,
+              -27.56,
+              -41.2,
+              1,
+              1,
+              4,
+              -27.56,
+              25.8,
+              1,
+              1,
+              4,
+              30.44,
+              25.8,
+              1
+            ]
+          }
+        },
+        "JP_O-1": {
+          "JP_O-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              2,
+              61.45,
+              -78.81,
+              1,
+              1,
+              2,
+              -47.55,
+              -78.81,
+              1,
+              1,
+              2,
+              -47.55,
+              53.19,
+              1,
+              1,
+              2,
+              61.45,
+              53.19,
+              1
+            ]
+          }
+        },
+        "JP_O-2": {
+          "JP_O-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              3,
+              52.97,
+              -70.25,
+              1,
+              1,
+              3,
+              -57.03,
+              -70.25,
+              1,
+              1,
+              3,
+              -57.03,
+              60.75,
+              1,
+              1,
+              3,
+              52.97,
+              60.75,
+              1
+            ]
+          }
+        },
+        "JP_O-3": {
+          "JP_O-3": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              4,
+              57.44,
+              -83.2,
+              1,
+              1,
+              4,
+              -52.56,
+              -83.2,
+              1,
+              1,
+              4,
+              -52.56,
+              47.8,
+              1,
+              1,
+              4,
+              57.44,
+              47.8,
+              1
+            ]
+          }
+        },
+        "JP_O-4": {
+          "JP_O-4": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              5,
+              54.43,
+              -77.89,
+              1,
+              1,
+              5,
+              -55.57,
+              -77.89,
+              1,
+              1,
+              5,
+              -55.57,
+              51.11,
+              1,
+              1,
+              5,
+              54.43,
+              51.11,
+              1
+            ]
+          }
+        },
+        "JP_O-5": {
+          "JP_O-5": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1,
+              6,
+              62.22,
+              -72.49,
+              1,
+              1,
+              6,
+              -47.78,
+              -72.49,
+              1,
+              1,
+              6,
+              -47.78,
+              56.51,
+              1,
+              1,
+              6,
+              62.22,
+              56.51,
+              1
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "Game_win": {
+      "slots": {
+        "JP_light-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.7333,
+              "name": "JP_light-1"
+            }
+          ]
+        },
+        "JP_L": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.1667,
+              "name": "JP_L"
+            }
+          ]
+        },
+        "JP_O-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.1667,
+              "name": "JP_O-1"
+            }
+          ]
+        },
+        "SUPER_ray-01": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.4333,
+              "name": "SUPER_ray-01"
+            }
+          ]
+        },
+        "JP_Y": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.4333,
+              "name": "JP_Y"
+            }
+          ]
+        },
+        "JP_board": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_board"
+            }
+          ]
+        },
+        "JP_O-4": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3667,
+              "name": "JP_O-4"
+            }
+          ]
+        },
+        "JP_effectlight-3": {
+          "color": [
+            {
+              "color": "ffffff06",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff06",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "JP_boardshadow-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5,
+              "name": "JP_boardshadow-1"
+            }
+          ]
+        },
+        "JP_star-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "JP_star-1"
+            }
+          ]
+        },
+        "JP_Lobby": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "JP_O-3": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3,
+              "name": "JP_O-3"
+            }
+          ]
+        },
+        "JP_Game": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_Game"
+            }
+          ]
+        },
+        "JP_effectlight-2": {
+          "color": [
+            {
+              "color": "ffffff06",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff06"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "JP_U": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_U"
+            }
+          ]
+        },
+        "JP_O-2": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_O-2"
+            }
+          ]
+        },
+        "JP_light-2": {
+          "color": [
+            {
+              "time": 0.7333,
+              "color": "ffffff81"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.7333,
+              "name": "JP_light-1"
+            }
+          ]
+        },
+        "JP_effectlight-1": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "0394ffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "0293ff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5333,
+              "name": "JP_effectlight-1"
+            }
+          ]
+        },
+        "JP_Whiteboard": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5,
+              "name": "JP_Whiteboard"
+            }
+          ]
+        },
+        "JP_C": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3,
+              "name": "JP_C"
+            }
+          ]
+        },
+        "JP_O-5": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.4333,
+              "name": "JP_O-5"
+            }
+          ]
+        },
+        "JP_K": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3667,
+              "name": "JP_K"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Jackpot": {
+          "rotate": [
+            {
+              "angle": 140.62,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.176,
+              "y": 0.176,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 0.855,
+              "y": 0.855,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "JP_star-1": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "JP_Y": {
+          "scale": [
+            {
+              "time": 0.4333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7667
+            }
+          ]
+        },
+        "JP_U": {
+          "scale": [
+            {
+              "time": 0.2333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "JP_Lobby&game": {
+          "rotate": [
+            {
+              "time": 0.2333,
+              "angle": -36.95
+            },
+            {
+              "time": 0.3333,
+              "angle": -37.95
+            },
+            {
+              "time": 0.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.2333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.52,
+              "y": 1.52,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "JP_L": {
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "JP_K": {
+          "scale": [
+            {
+              "time": 0.3667,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5333,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "JP_C": {
+          "scale": [
+            {
+              "time": 0.3,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4667,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        }
+      },
+      "path": {
+        "game_path": {
+          "position": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.6667,
+              "position": 1
+            }
+          ],
+          "mix": [
+            {
+              "time": 0.1667,
+              "rotateMix": 0.6
+            },
+            {
+              "time": 0.8333,
+              "rotateMix": 0
+            }
+          ]
+        },
+        "star_path": {
+          "position": [
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.8333,
+              "position": 1
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "JP_L": {
+            "JP_L": [
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  23.99292,
+                  -29.42531,
+                  -23.99292,
+                  -29.42531,
+                  -23.99295,
+                  29.42526,
+                  23.99294,
+                  29.42526
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "SUPER_ray-01": {
+            "SUPER_ray-01": [
+              {
+                "time": 0.5,
+                "vertices": [
+                  -701.2627,
+                  0,
+                  701.2627,
+                  0,
+                  701.2627,
+                  0,
+                  -701.2627
+                ]
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  280.50378,
+                  -161.99529,
+                  -280.50378,
+                  -161.99529,
+                  -280.50378,
+                  161.9953,
+                  280.50378,
+                  161.9953
+                ]
+              }
+            ]
+          },
+          "JP_Y": {
+            "JP_Y": [
+              {
+                "time": 0.4333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  51.69957,
+                  -52.52037,
+                  -51.69978,
+                  -52.52037,
+                  -51.69977,
+                  52.52028,
+                  51.69957,
+                  52.52028
+                ]
+              },
+              {
+                "time": 0.9333
+              }
+            ]
+          },
+          "JP_board": {
+            "JP_board": [
+              {
+                "time": 0.2333,
+                "vertices": [
+                  -350.0729,
+                  157.56577,
+                  350.0729,
+                  157.56577,
+                  350.0729,
+                  -157.5658,
+                  -350.0729,
+                  -157.5658
+                ]
+              },
+              {
+                "time": 0.5,
+                "vertices": [
+                  60.99341,
+                  -27.45273,
+                  -60.99341,
+                  -27.45273,
+                  -60.99341,
+                  27.45276,
+                  60.99341,
+                  27.45276
+                ]
+              },
+              {
+                "time": 0.7333,
+                "vertices": [
+                  -7.58893,
+                  3.41579,
+                  7.58893,
+                  3.41579,
+                  7.58893,
+                  -3.41577,
+                  -7.58893,
+                  -3.41577
+                ]
+              }
+            ]
+          },
+          "JP_effectlight-3": {
+            "JP_effectlight-2": [
+              {
+                "time": 0.5,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -224.9491,
+                  165.23755,
+                  224.94904,
+                  165.23755,
+                  224.94904,
+                  -165.23767,
+                  -224.9491,
+                  -165.23767
+                ]
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  502.51666,
+                  -369.12637,
+                  -502.51678,
+                  -369.12637,
+                  -502.51678,
+                  369.12634,
+                  502.51666,
+                  369.12634
+                ]
+              }
+            ]
+          },
+          "game_path": {
+            "game_path": [
+              {
+                "time": 0.1667,
+                "vertices": [
+                  39.28532,
+                  -45.02553,
+                  0,
+                  0,
+                  91.99995,
+                  -134.00003,
+                  50.00012,
+                  118.00003,
+                  0,
+                  0,
+                  -70.63273,
+                  -87.33195
+                ]
+              },
+              {
+                "time": 0.3667,
+                "vertices": [
+                  -197.18965,
+                  -79.00616,
+                  0,
+                  0,
+                  213.63399,
+                  -38.28812,
+                  -11.81378,
+                  297.46,
+                  0,
+                  0,
+                  -90.07742,
+                  -98.80524
+                ]
+              }
+            ]
+          },
+          "JP_K": {
+            "JP_K": [
+              {
+                "time": 0.3667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  50.11023,
+                  -44.61873,
+                  -50.11029,
+                  -44.61873,
+                  -50.11028,
+                  44.61869,
+                  50.11026,
+                  44.61869
+                ]
+              },
+              {
+                "time": 0.8667
+              }
+            ]
+          },
+          "JP_effectlight-2": {
+            "JP_effectlight-2": [
+              {
+                "time": 0.3333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -425.62445,
+                  312.64465,
+                  425.6244,
+                  312.64465,
+                  425.6244,
+                  -312.64478,
+                  -425.62445,
+                  -312.64478
+                ]
+              },
+              {
+                "time": 0.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  163.49042,
+                  -120.0928,
+                  -163.49042,
+                  -120.0928,
+                  -163.49042,
+                  120.09277,
+                  163.49042,
+                  120.09277
+                ]
+              }
+            ]
+          },
+          "JP_effectlight-1": {
+            "JP_effectlight-1": [
+              {
+                "time": 0.5,
+                "vertices": [
+                  239.68237,
+                  -233.9756,
+                  -239.68237,
+                  -233.9756,
+                  -239.68237,
+                  233.9758,
+                  239.68237,
+                  233.9758
+                ]
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  331.50577,
+                  -323.6128,
+                  -331.50583,
+                  -323.6128,
+                  -331.50583,
+                  323.61295,
+                  331.50577,
+                  323.61295
+                ]
+              }
+            ]
+          },
+          "JP_C": {
+            "JP_C": [
+              {
+                "time": 0.3,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  43.80367,
+                  -50.60079,
+                  -43.80367,
+                  -50.60079,
+                  -43.80366,
+                  50.60078,
+                  43.80366,
+                  50.60078
+                ]
+              },
+              {
+                "time": 0.8
+              }
+            ]
+          },
+          "JP_U": {
+            "JP_U": [
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  51.02041,
+                  -53.41198,
+                  -51.02042,
+                  -53.41198,
+                  -51.02042,
+                  53.41197,
+                  51.02042,
+                  53.41197
+                ]
+              },
+              {
+                "time": 0.7333
+              }
+            ]
+          }
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 0.3333,
+          "offsets": [
+            {
+              "slot": "JP_star-1",
+              "offset": 18
+            }
+          ]
+        },
+        {
+          "time": 0.8333
+        }
+      ]
+    },
+    "Lobby_win": {
+      "slots": {
+        "JP_light-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.7333,
+              "name": "JP_light-1"
+            }
+          ]
+        },
+        "JP_L": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.1667,
+              "name": "JP_L"
+            }
+          ]
+        },
+        "JP_O-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.1667,
+              "name": "JP_O-1"
+            }
+          ]
+        },
+        "SUPER_ray-01": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.4333,
+              "name": "SUPER_ray-01"
+            }
+          ]
+        },
+        "JP_Y": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.4333,
+              "name": "JP_Y"
+            }
+          ]
+        },
+        "JP_board": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_board"
+            }
+          ]
+        },
+        "JP_O-4": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3667,
+              "name": "JP_O-4"
+            }
+          ]
+        },
+        "JP_effectlight-3": {
+          "color": [
+            {
+              "color": "ffffff06",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff06",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "JP_boardshadow-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5,
+              "name": "JP_boardshadow-1"
+            }
+          ]
+        },
+        "JP_star-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "JP_star-1"
+            }
+          ]
+        },
+        "JP_Lobby": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_Lobby"
+            }
+          ]
+        },
+        "JP_O-3": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3,
+              "name": "JP_O-3"
+            }
+          ]
+        },
+        "JP_Game": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "JP_effectlight-2": {
+          "color": [
+            {
+              "color": "ffffff06",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff06"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "JP_U": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_U"
+            }
+          ]
+        },
+        "JP_O-2": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.2333,
+              "name": "JP_O-2"
+            }
+          ]
+        },
+        "JP_light-2": {
+          "color": [
+            {
+              "time": 0.7333,
+              "color": "ffffff81"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.7333,
+              "name": "JP_light-1"
+            }
+          ]
+        },
+        "JP_effectlight-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.7333,
+              "name": "JP_effectlight-1"
+            }
+          ]
+        },
+        "JP_Whiteboard": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5,
+              "name": "JP_Whiteboard"
+            }
+          ]
+        },
+        "JP_C": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3,
+              "name": "JP_C"
+            }
+          ]
+        },
+        "JP_O-5": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.4333,
+              "name": "JP_O-5"
+            }
+          ]
+        },
+        "JP_K": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3667,
+              "name": "JP_K"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Jackpot": {
+          "rotate": [
+            {
+              "angle": 140.62,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.176,
+              "y": 0.176,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 0.855,
+              "y": 0.855,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "JP_star-1": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "JP_Y": {
+          "scale": [
+            {
+              "time": 0.4333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7667
+            }
+          ]
+        },
+        "JP_U": {
+          "scale": [
+            {
+              "time": 0.2333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5667
+            }
+          ]
+        },
+        "JP_Lobby&game": {
+          "rotate": [
+            {
+              "time": 0.2333,
+              "angle": -36.95
+            },
+            {
+              "time": 0.3333,
+              "angle": -37.95
+            },
+            {
+              "time": 0.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.2333,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 1.52,
+              "y": 1.52,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "JP_L": {
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "JP_K": {
+          "scale": [
+            {
+              "time": 0.3667,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5333,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "JP_C": {
+          "scale": [
+            {
+              "time": 0.3,
+              "x": 0.302,
+              "y": 0.302,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4667,
+              "x": 1.142,
+              "y": 1.142,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        }
+      },
+      "path": {
+        "game_path": {
+          "position": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.6667,
+              "position": 1
+            }
+          ],
+          "mix": [
+            {
+              "time": 0.1667,
+              "rotateMix": 0.6
+            },
+            {
+              "time": 0.8333,
+              "rotateMix": 0
+            }
+          ]
+        },
+        "star_path": {
+          "position": [
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.8333,
+              "position": 1
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "JP_L": {
+            "JP_L": [
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  23.99292,
+                  -29.42531,
+                  -23.99292,
+                  -29.42531,
+                  -23.99295,
+                  29.42526,
+                  23.99294,
+                  29.42526
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "SUPER_ray-01": {
+            "SUPER_ray-01": [
+              {
+                "time": 0.5,
+                "vertices": [
+                  -701.2627,
+                  0,
+                  701.2627,
+                  0,
+                  701.2627,
+                  0,
+                  -701.2627
+                ]
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  280.50378,
+                  -161.99529,
+                  -280.50378,
+                  -161.99529,
+                  -280.50378,
+                  161.9953,
+                  280.50378,
+                  161.9953
+                ]
+              }
+            ]
+          },
+          "JP_Y": {
+            "JP_Y": [
+              {
+                "time": 0.4333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  51.69957,
+                  -52.52037,
+                  -51.69978,
+                  -52.52037,
+                  -51.69977,
+                  52.52028,
+                  51.69957,
+                  52.52028
+                ]
+              },
+              {
+                "time": 0.9333
+              }
+            ]
+          },
+          "JP_board": {
+            "JP_board": [
+              {
+                "time": 0.2333,
+                "vertices": [
+                  -350.0729,
+                  157.56577,
+                  350.0729,
+                  157.56577,
+                  350.0729,
+                  -157.5658,
+                  -350.0729,
+                  -157.5658
+                ]
+              },
+              {
+                "time": 0.5,
+                "vertices": [
+                  60.99341,
+                  -27.45273,
+                  -60.99341,
+                  -27.45273,
+                  -60.99341,
+                  27.45276,
+                  60.99341,
+                  27.45276
+                ]
+              },
+              {
+                "time": 0.7333,
+                "vertices": [
+                  -7.58893,
+                  3.41579,
+                  7.58893,
+                  3.41579,
+                  7.58893,
+                  -3.41577,
+                  -7.58893,
+                  -3.41577
+                ]
+              }
+            ]
+          },
+          "JP_effectlight-3": {
+            "JP_effectlight-2": [
+              {
+                "time": 0.5,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -224.9491,
+                  165.23755,
+                  224.94904,
+                  165.23755,
+                  224.94904,
+                  -165.23767,
+                  -224.9491,
+                  -165.23767
+                ]
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  502.51666,
+                  -369.12637,
+                  -502.51678,
+                  -369.12637,
+                  -502.51678,
+                  369.12634,
+                  502.51666,
+                  369.12634
+                ]
+              }
+            ]
+          },
+          "game_path": {
+            "game_path": [
+              {
+                "time": 0.1667,
+                "vertices": [
+                  39.28532,
+                  -45.02553,
+                  0,
+                  0,
+                  91.99995,
+                  -134.00003,
+                  50.00012,
+                  118.00003,
+                  0,
+                  0,
+                  -70.63273,
+                  -87.33195
+                ]
+              },
+              {
+                "time": 0.3667,
+                "vertices": [
+                  -197.18965,
+                  -79.00616,
+                  0,
+                  0,
+                  213.63399,
+                  -38.28812,
+                  -11.81378,
+                  297.46,
+                  0,
+                  0,
+                  -90.07742,
+                  -98.80524
+                ]
+              }
+            ]
+          },
+          "JP_K": {
+            "JP_K": [
+              {
+                "time": 0.3667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  50.11023,
+                  -44.61873,
+                  -50.11029,
+                  -44.61873,
+                  -50.11028,
+                  44.61869,
+                  50.11026,
+                  44.61869
+                ]
+              },
+              {
+                "time": 0.8667
+              }
+            ]
+          },
+          "JP_effectlight-2": {
+            "JP_effectlight-2": [
+              {
+                "time": 0.3333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -425.62445,
+                  312.64465,
+                  425.6244,
+                  312.64465,
+                  425.6244,
+                  -312.64478,
+                  -425.62445,
+                  -312.64478
+                ]
+              },
+              {
+                "time": 0.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  163.49042,
+                  -120.0928,
+                  -163.49042,
+                  -120.0928,
+                  -163.49042,
+                  120.09277,
+                  163.49042,
+                  120.09277
+                ]
+              }
+            ]
+          },
+          "JP_C": {
+            "JP_C": [
+              {
+                "time": 0.3,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  43.80367,
+                  -50.60079,
+                  -43.80367,
+                  -50.60079,
+                  -43.80366,
+                  50.60078,
+                  43.80366,
+                  50.60078
+                ]
+              },
+              {
+                "time": 0.8
+              }
+            ]
+          },
+          "JP_U": {
+            "JP_U": [
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  51.02041,
+                  -53.41198,
+                  -51.02042,
+                  -53.41198,
+                  -51.02042,
+                  53.41197,
+                  51.02042,
+                  53.41197
+                ]
+              },
+              {
+                "time": 0.7333
+              }
+            ]
+          }
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 0.3333,
+          "offsets": [
+            {
+              "slot": "JP_star-1",
+              "offset": 18
+            }
+          ]
+        },
+        {
+          "time": 0.8333
+        }
+      ]
+    }
+  }
+}

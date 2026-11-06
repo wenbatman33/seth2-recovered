@@ -1,0 +1,41 @@
+{
+  "project": "Project-H",
+  "scope": "actual consumer methods; test loader extracts methods inertly; owned menu guard tracked separately",
+  "files": [
+    {
+      "file": "fixtures/GameSender.ts",
+      "sha256": "bf07a338d9d8d228c5fa6fdafaf5af01f20c6efb81617bd25a21781c40c42dc3",
+      "source": "assets/game/scripts/g1011-GameSender.ts"
+    },
+    {
+      "file": "fixtures/AvatarViewBase.ts",
+      "sha256": "1ff3341a226aa9fc4bc5cf3b7ca179b635951a50e22d31deef707906382ed116",
+      "source": "assets/shared/scripts/slotFramework-AvatarViewBase.ts"
+    },
+    {
+      "file": "fixtures/HistoryViewBase.ts",
+      "sha256": "e9bbe64206c29d85c9b139d27f1a065f2669984bc4975eafc78b93183f926def",
+      "source": "assets/shared/scripts/slotFramework-HistoryViewBase.ts"
+    },
+    {
+      "file": "fixtures/RankingViewBase.ts",
+      "sha256": "e6de566918d65ee262d1c8f615e9f4dd265dff10c6c99d542d4a7cee6a45069f",
+      "source": "assets/shared/scripts/slotFramework-RankingViewBase.ts"
+    },
+    {
+      "file": "fixtures/RecordViewBase.ts",
+      "sha256": "b228d4c9ffa8947a71b2495e0168eefad78c661103186f42f2340238c6f1ec6c",
+      "source": "assets/shared/scripts/slotFramework-RecordViewBase.ts"
+    },
+    {
+      "file": "fixtures/RecordViewItem.ts",
+      "sha256": "0a31d82761bf7497e2d8fa19e7a197891c12df9fea2c1955469b2887ff784419",
+      "source": "assets/shared/scripts/slotFramework-RecordViewItem.ts"
+    },
+    {
+      "file": "fixtures/SlotTableViewBase.ts",
+      "sha256": "5f6f549226590f85af3216018870a209c6df2033922b14a146ab201136b4c0ec",
+      "source": "assets/shared/scripts/slotFramework-SlotTableViewBase.ts"
+    }
+  ]
+}

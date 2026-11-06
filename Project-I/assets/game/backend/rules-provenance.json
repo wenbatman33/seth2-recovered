@@ -1,0 +1,99 @@
+{
+  "status": "Own simulation; source frontend art and literal debug definitions are separate from production server evidence",
+  "displayedRules": {
+    "paylines": 20,
+    "rows": 3,
+    "columns": 5,
+    "formula": "totalBet / 20 * odds * currentTimes",
+    "cascadeMultiplier": {
+      "start": 1,
+      "max": 5
+    },
+    "freeGame": {
+      "scatter": 3,
+      "rounds": 10,
+      "retrigger": 10,
+      "maxRounds": 100
+    },
+    "buyFreeGameRate": 100
+  },
+  "evidence": [
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_01.png",
+      "sha256": "ea642a9df6b1c4e9bc8290f480ad77baf5937427566a306125a4b290a4f08ed0",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_02.png",
+      "sha256": "7877827a863b5adf48b5b02e1b0d26afcb7b6478800a9ab4645a55ce8fcde545",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_03.png",
+      "sha256": "44ceb5f222ea7db1c6f28e29f1e05a49430ccecf074f7c65aaf091ed78decfb0",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_04.png",
+      "sha256": "6b0ac503ff1f5c8461c5596b2f4d1ba017e915e5b57f90a1045146c5c5f036de",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_05.png",
+      "sha256": "53a2483feaf5f14b01a50eb3aa37f3a55c9f1878840ab8235850665629d8cce2",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_06.png",
+      "sha256": "2c3a4a71caa3e63909bb7f0f0463c3b9680b0d7b039e5764e55ca61816dc8fff",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_07.png",
+      "sha256": "c8bb092b74c4854004d9d85e9a35e4b43a8249226213cc1fa2d32f1147cb08a3",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_08.png",
+      "sha256": "16f1bb32e2f53a4585e6f1ce229163703239a122af21693ce91ecbab20870a80",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_09.png",
+      "sha256": "d7d55e75c246c3be97e7a0fc53dc6a341c3af79f39b507a3eefb77aaab620038",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_10.png",
+      "sha256": "c1fae920abdb0c2ea1c051b888bd6ce40b30af19fd19f95f40ac05368e273824",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_11.png",
+      "sha256": "9b8afd33b308e59b8158c6dfcd482f2cd6e84d5f1270e624c18e74cb05de5b2c",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_12.png",
+      "sha256": "890d0b5ad0afd484f99cd64535fb38b5ecf1e0bb955d25111b846ed79c65c009",
+      "observation": "view_image inspected original raster; no generated replacement"
+    },
+    {
+      "file": "Project-I/assets/game/content/assets/texture/locale/en/rules_13.png",
+      "sha256": "705ec593aad091584b28efd8d3391d40f2a6c59c8777ccef329bf19cdaba3889",
+      "observation": "view_image inspected original raster; no generated replacement"
+    }
+  ],
+  "stateContract": {
+    "winningPositions": "row-major 0..14, checked actual parserWinSymbols/getReelAndIndex",
+    "columns": 5,
+    "rows": 3,
+    "source": "GameView.prefab five SingleReelSetting.midCount=3"
+  },
+  "unknown": [
+    "original RNG/RTP",
+    "independent weights and frequencies",
+    "bonus award distributions",
+    "purchase rates except visible freeGame100"
+  ]
+}

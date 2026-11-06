@@ -1,0 +1,47 @@
+{
+  "project": "Project-C",
+  "status": "offline callbacks audited; two local presentation/callback refinements fixed",
+  "passedChecks": 6,
+  "checks": [
+    "native scatter callbacks complete once for ordinary200 and golden500 introductions",
+    "ordinary free-spin golden scatter completes once; native TaskQueue also guards repeated completions",
+    "native JP symbol callbacks accept every locally generated count2..5 and complete exactly once",
+    "golden500 finish and super2000 finish queue exactly one native close with real final state",
+    "golden500 native summary popup waits for Spine and native finish click before its flow completion",
+    "persisted terminal multiplier restores previous-win presentation without another debit"
+  ],
+  "findings": [
+    {
+      "id": "C-CALLBACK-01",
+      "severity": "P2",
+      "status": "fixed and regression tested with installed source methods",
+      "file": "assets/game/scripts/g1009-SymbolView.ts",
+      "method": "playScatterWin",
+      "historicalBehavior": "ordinary FG stage isGoldenFg=false plus at least one golden scatter calls complete from final spine callback and golden2.5s tween; native TaskQueue ignores second completion with warning",
+      "historicalImpact": "callback warning/music side effects; no evidence of duplicate debit or duplicate flow completion because actual TaskQueue guard was verified",
+      "appliedLocalFix": "For stage.localRules===true, wrap the supplied completion callback once before existing animation branches. Retain original nonlocal semantics."
+    },
+    {
+      "id": "C-RESUME-01",
+      "severity": "P2",
+      "status": "fixed and regression tested with installed GameData and original resume method",
+      "file": "assets/game/scripts/g1009-GameData.ts",
+      "method": "setNewInitData",
+      "historicalBehavior": "for localResumeIndex>0, original setPreSpinData captures current stage; resume ShowWinFlow requires previous winning stage to select SHOW_TIMES_MOVING on the terminal multiplier board",
+      "historicalImpact": "owed cash remains persisted and no debit repeats, but native multiplier/score presentation is skipped on terminal-stage reload",
+      "appliedLocalFix": "After original local-resume initialization, set preSpinData to a deep clone of newGameState[localResumeIndex-1] when index>0, before rebuilding native lock/newTimes parsing. Keep index0 and nonlocal behavior."
+    }
+  ],
+  "rootSourceModifiedByAudit": false,
+  "localFixesPresent": true,
+  "creatorRuntimeVerified": false,
+  "priorHookAndChestTests": "test-game-hooks.mjs:9pass, including native mystery chest open/complete/close and persistence",
+  "sourceSha256": {
+    "assets/game/scripts/g1009-SymbolView.ts": "e2e0030bfef41ae8e678e0a68e29f50cfdb5acd7282a970f956ad90246b3593d",
+    "assets/shared/scripts/main-TaskQueue.ts": "b8acd21405fc0d81fdb395c699d12a2dd1bcb1bb834bc3dd408f9b43cb6cb178",
+    "assets/game/scripts/g1009-CreateNewSpinCompleteFlowCmd.ts": "0714d8a6df09e18ace619f0b2298884383be2a5f6389d8d2822970d0f4c79a34",
+    "assets/game/scripts/g1009-FreeGameAlertView.ts": "5a2c9830a4799f84cb8b009ed05f241a0fd1279193d93a1f9b873ef794d36568",
+    "assets/game/scripts/g1009-GameData.ts": "d2f3c49f4d056a8376741c53f173a93adc4be876bc0c579db84c869a9880c1d0",
+    "assets/game/scripts/g1009-CreateNewResumeFlowCmd.ts": "924638bdc922692284957f00ac0bd6c7dba778f55c73c5b1b59833e71f412488"
+  }
+}

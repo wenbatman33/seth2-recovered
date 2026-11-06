@@ -1,0 +1,52 @@
+{
+  "project": "Project-F",
+  "assetUuid": "bab2baa1-04c5-4ecd-986d-715ef72bcaeb",
+  "source": {
+    "file": "g1004/import/0b/0b11b7bcb.json",
+    "sha256": "47dc374efdbc0cf7c20567e66e5f6c1d08a31d7dff919370397071fae20c6afc"
+  },
+  "mounts": [
+    {
+      "componentType": "c1f157z1PtHnpEAlOgFFSS6",
+      "componentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "90UQjH6QBCZoDWtpstWStG",
+      "symbolPrefabUuid": "f4e1586c-e844-409e-aead-528b8b7c66b4"
+    },
+    {
+      "componentType": "c1f157z1PtHnpEAlOgFFSS6",
+      "componentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "b3vKsxB4tJx688NpezKmaq",
+      "symbolPrefabUuid": "f4e1586c-e844-409e-aead-528b8b7c66b4"
+    },
+    {
+      "componentType": "c1f157z1PtHnpEAlOgFFSS6",
+      "componentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "a6QKBNwWJNUpf5ayZg0sUN",
+      "symbolPrefabUuid": "f4e1586c-e844-409e-aead-528b8b7c66b4"
+    },
+    {
+      "componentType": "c1f157z1PtHnpEAlOgFFSS6",
+      "componentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "f5xoJXQqhEX4m6/OsUXZma",
+      "symbolPrefabUuid": "f4e1586c-e844-409e-aead-528b8b7c66b4"
+    },
+    {
+      "componentType": "c1f157z1PtHnpEAlOgFFSS6",
+      "componentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "ecARrK+xxOvYAfyNvovTXQ",
+      "symbolPrefabUuid": "f4e1586c-e844-409e-aead-528b8b7c66b4"
+    },
+    {
+      "componentType": "c1f157z1PtHnpEAlOgFFSS6",
+      "componentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "e28hVyJDlOKppdz/C8po5d",
+      "symbolPrefabUuid": "f4e1586c-e844-409e-aead-528b8b7c66b4"
+    }
+  ]
+}

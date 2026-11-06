@@ -1,0 +1,94 @@
+{
+  "name": "Project-I",
+  "platform": "web-desktop",
+  "buildPath": "project://build",
+  "debug": true,
+  "buildMode": "normal",
+  "mangleProperties": false,
+  "md5Cache": false,
+  "skipCompressTexture": true,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "includeModules": {
+      "gfx-webgl2": "on",
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting"
+    },
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    }
+  },
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [
+    {
+      "name": "main",
+      "root": "",
+      "output": true
+    },
+    {
+      "name": "internal",
+      "root": "",
+      "output": true
+    },
+    {
+      "name": "resources",
+      "root": "db://assets/resources",
+      "uuid": "8a17779f-84bc-48ae-ae44-2d96701a0811",
+      "output": true
+    },
+    {
+      "name": "slotFramework",
+      "root": "db://assets/shared/framework",
+      "uuid": "5c7ec328-f4d4-4f12-8196-34fd71c1dc29",
+      "output": true
+    },
+    {
+      "name": "g1002",
+      "root": "db://assets/game/content",
+      "uuid": "bd0a3f8f-a7c8-41dd-821b-7ca5477b6b75",
+      "output": true
+    },
+    {
+      "name": "sourcePackedImages",
+      "root": "db://assets/shared/images",
+      "uuid": "5e3b3596-65fb-4aa9-a487-c820c02c4f58",
+      "output": true
+    }
+  ],
+  "inlineEnum": true,
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0",
+  "outputName": "web",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/mainPortrait.scene",
+      "uuid": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "binGroupConfig": {
+    "threshold": 16,
+    "enable": false
+  },
+  "packages": {
+    "web-desktop": {
+      "useWebGPU": false,
+      "resolution": {
+        "designWidth": 720,
+        "designHeight": 1280
+      },
+      "__version__": "1.0.1"
+    }
+  },
+  "__version__": "1.3.9"
+}

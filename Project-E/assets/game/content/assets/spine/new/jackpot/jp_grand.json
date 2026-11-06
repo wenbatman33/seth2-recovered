@@ -1,0 +1,305 @@
+{
+  "skeleton": {
+    "hash": "f/34J//ju90",
+    "spine": "3.8-from-4.0-from-4.1.23",
+    "x": -815.78,
+    "y": -158.17,
+    "width": 1337.78,
+    "height": 542,
+    "images": "./images/w_jp/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/暴風戰神/Spine/win/win/./images"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -906,
+      "y": 570
+    },
+    {
+      "name": "grand",
+      "parent": "root",
+      "x": 959.33,
+      "y": -525.01
+    }
+  ],
+  "slots": [
+    {
+      "name": "Grand",
+      "bone": "grand",
+      "attachment": "Grand"
+    },
+    {
+      "name": "win_spark02",
+      "bone": "grand",
+      "attachment": "total_spark_01",
+      "blend": "additive"
+    },
+    {
+      "name": "win_spark01",
+      "bone": "grand",
+      "attachment": "total_light02",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Grand": {
+          "Grand": {
+            "x": -0.33,
+            "y": 138.01,
+            "width": 938,
+            "height": 254
+          }
+        },
+        "win_spark01": {
+          "total_light01": {
+            "x": 542.97,
+            "y": 236.65,
+            "width": 2565,
+            "height": 412
+          },
+          "total_light02": {
+            "x": -206.61,
+            "y": 67.84,
+            "width": 1325,
+            "height": 542
+          }
+        },
+        "win_spark02": {
+          "total_spark_01": {
+            "x": 262.29,
+            "y": 141.66,
+            "width": 177,
+            "height": 228
+          },
+          "total_spark_02": {
+            "x": 393.8,
+            "y": 225.94,
+            "width": 176,
+            "height": 229
+          },
+          "total_spark_03": {
+            "x": 287.18,
+            "y": 68.04,
+            "width": 176,
+            "height": 228
+          },
+          "total_spark_04": {
+            "x": 252.97,
+            "y": 177.54,
+            "width": 177,
+            "height": 228
+          },
+          "total_spark_05": {
+            "x": 53.17,
+            "y": 154.15,
+            "width": 121,
+            "height": 141
+          },
+          "total_spark_06": {
+            "x": -203.02,
+            "y": 150.35,
+            "width": 121,
+            "height": 140
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "win_spark01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.7,
+              "name": "total_light01"
+            }
+          ]
+        },
+        "win_spark02": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "total_spark_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "total_spark_03"
+            },
+            {
+              "time": 0.5,
+              "name": "total_spark_04"
+            },
+            {
+              "time": 0.6667,
+              "name": "total_spark_05"
+            },
+            {
+              "time": 0.8333,
+              "name": "total_spark_06"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "grand": {
+          "scale": [
+            {
+              "x": 0.01,
+              "y": 0.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.01,
+              "y": 0.01
+            },
+            {
+              "time": 0.4,
+              "x": 2,
+              "y": 2
+            },
+            {
+              "time": 0.5,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.6,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "win_spark01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "root": {
+          "scale": [
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

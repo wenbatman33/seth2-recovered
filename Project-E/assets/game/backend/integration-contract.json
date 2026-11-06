@@ -1,0 +1,65 @@
+{
+  "project": "Project-E",
+  "status": "staged only; no root/client/bootstrap/GUI/registry changes",
+  "bootstrap": {
+    "install": "installLocalBackend(GameServiceBase,{search:location.search}) before first service init/connect; then installProgressHooks(original GameData class,runtime).",
+    "runtimeGlobal": "globalProjectE",
+    "prototypeMarker": "__projectETransport",
+    "wallet": "project-e.local-simulation.v1",
+    "qaWallet": "?reaDebug=1&reaTestWallet=<slug>&reaScenario=<win|lose|free|free-4|free-5|free-retrigger|jackpot-mini|jackpot-minor|jackpot-major|jackpot-grand>",
+    "quiet": "reaDevelopmentMute=1 changes response sound flags only; persisted normal sound preferences remain untouched",
+    "identity": {
+      "bundle": "g1012",
+      "gn": "new-vampire-hunter",
+      "gt": "slot-pick-one-of-three-1"
+    },
+    "notify": "Transport delivers original {type:jackpotUpdate,data:{jp-mini,jp-minor,jp-major,jp-grand}} before callback to actual registered notify listeners."
+  },
+  "requiredHooks": [
+    {
+      "target": "GameData setInitData/setSpinData/setNextSpinData",
+      "implementation": "ProgressHooks.ts export installProgressHooks(GameData,runtime)",
+      "guard": "response.localBackend===true; no changes to original nonlocal parsing",
+      "reason": "Actual E parser resets index0 on initial, ignoring localResumeIndex. Hook restores exact persisted state/transpose/winSymbols/game type and marks native stage advances. Backend refuses early FG settlement until the final native stage."
+    },
+    {
+      "target": "JackpotView.showJp",
+      "guard": "currentState.localRules===true && Number.isFinite(currentState.jpWinnings)",
+      "reason": "Original popup reads totalWinnings; local JP stage may contain ordinary line winnings plus jackpot. Popup must use jpWinnings while trophy UPDATE_TOTAL_WINNINGS retains totalWinnings.",
+      "change": "Use jpWinnings only for local popup count target. Keep the overall trophy amount sourced from currentState.totalWinnings. Preserve ordinary source behavior for nonlocal rounds."
+    },
+    {
+      "target": "Main Application / GameConfigModel bootstrap order",
+      "reason": "Must install independent runtime before first services or App-dependent singleton constructor. Do not execute captured debug STATIC sender paths.",
+      "change": "Use the parent integration tool; no modifications supplied to root source here."
+    }
+  ],
+  "nativeContract": {
+    "rows": 4,
+    "columns": 5,
+    "lines": 40,
+    "selection": "selectFgMultiple is server-chosen trigger state, not an event/request; UI chosen card only reveals that value.",
+    "purchase": "Only self-defined local featureIndex0/freeGame is enabled. Original GameSender.buyFeature gets engine.gameState as an object {spinId}; subsequent GameSender.spin({spinId}) receives the exact already generated State[]. No second debit.",
+    "close": "Original MG_CLOSE_SPIN_STATE/FG_CLOSE_SPIN_STATE callback chain settles once; repeating close does not recredit.",
+    "resume": "initial returns full pending chain plus localResumeIndex; supplied progress hook restores actual original parser position."
+  },
+  "validation": {
+    "tests": "node --experimental-vm-modules .cache/rea-new-games/Project-E/backend-staging/test-backend.mjs",
+    "passed": 14,
+    "actualCapturedModules": [
+      "E GameData",
+      "E ParseResponse",
+      "E GameSender"
+    ],
+    "gui": false,
+    "browser": false,
+    "gameplay": false,
+    "renderer": false
+  },
+  "notClaimed": [
+    "original server restoration",
+    "original RNG or RTP",
+    "complete lucky-moment/bonus restoration",
+    "visual/audio/input/animation acceptance"
+  ]
+}

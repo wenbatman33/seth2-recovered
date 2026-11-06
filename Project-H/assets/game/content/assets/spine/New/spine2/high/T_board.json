@@ -1,0 +1,661 @@
+{
+  "skeleton": {
+    "hash": "aoq/RRxkyk+kG8c9jodhrR9jIig",
+    "spine": "3.8.57",
+    "x": -519,
+    "y": -510,
+    "width": 1047,
+    "height": 1016
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "FREE GAME",
+      "parent": "root",
+      "y": 372.76
+    },
+    {
+      "name": "board-1",
+      "parent": "root"
+    },
+    {
+      "name": "board-2",
+      "parent": "root"
+    },
+    {
+      "name": "lotuslight",
+      "parent": "root",
+      "scaleX": 3,
+      "scaleY": 3
+    }
+  ],
+  "slots": [
+    {
+      "name": "board-2",
+      "bone": "board-2",
+      "attachment": "board-2"
+    },
+    {
+      "name": "board-3",
+      "bone": "board-2",
+      "blend": "screen"
+    },
+    {
+      "name": "board-1",
+      "bone": "board-1",
+      "attachment": "board-1"
+    },
+    {
+      "name": "board-4",
+      "bone": "board-1",
+      "blend": "additive"
+    },
+    {
+      "name": "light_01",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "FREE GAME_shadow",
+      "bone": "FREE GAME",
+      "attachment": "FREE GAME_shadow"
+    },
+    {
+      "name": "FREE GAME",
+      "bone": "FREE GAME",
+      "blend": "additive"
+    },
+    {
+      "name": "lotuslight",
+      "bone": "lotuslight",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "lotuslight": {
+          "lotuslight_008": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_009": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_010": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_011": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_012": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_013": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_014": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_015": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_016": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_017": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_018": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_019": {
+            "width": 500,
+            "height": 400
+          },
+          "lotuslight_020": {
+            "width": 500,
+            "height": 400
+          }
+        },
+        "board-1": {
+          "board-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              457,
+              -341,
+              -467,
+              -341,
+              -467,
+              358,
+              457,
+              358
+            ]
+          }
+        },
+        "board-2": {
+          "board-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              489,
+              -510,
+              -499,
+              -510,
+              -499,
+              378,
+              489,
+              378
+            ]
+          }
+        },
+        "board-3": {
+          "board-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              489,
+              -510,
+              -499,
+              -510,
+              -499,
+              378,
+              489,
+              378
+            ]
+          }
+        },
+        "board-4": {
+          "board-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              457,
+              -341,
+              -467,
+              -341,
+              -467,
+              358,
+              457,
+              358
+            ]
+          }
+        },
+        "FREE GAME_shadow": {
+          "FREE GAME_shadow": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              528,
+              -149.76,
+              -519,
+              -149.76,
+              -519,
+              133.24,
+              528,
+              133.24
+            ]
+          }
+        },
+        "FREE GAME": {
+          "FREE GAME": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              518,
+              -150.76,
+              -525,
+              -150.76,
+              -525,
+              134.24,
+              518,
+              134.24
+            ]
+          }
+        },
+        "light_01": {
+          "light_01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              37.42,
+              -61,
+              -74.58,
+              -61,
+              -74.58,
+              62,
+              37.42,
+              62
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "T_transitions_in": {
+      "slots": {
+        "FREE GAME": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "FREE GAME"
+            }
+          ]
+        },
+        "light_01": {
+          "color": [
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "light_01"
+            }
+          ]
+        },
+        "lotuslight": {
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "lotuslight_008"
+            },
+            {
+              "time": 0.1667,
+              "name": "lotuslight_009"
+            },
+            {
+              "time": 0.2,
+              "name": "lotuslight_010"
+            },
+            {
+              "time": 0.2333,
+              "name": "lotuslight_011"
+            },
+            {
+              "time": 0.2667,
+              "name": "lotuslight_012"
+            },
+            {
+              "time": 0.3,
+              "name": "lotuslight_013"
+            },
+            {
+              "time": 0.3333,
+              "name": "lotuslight_014"
+            },
+            {
+              "time": 0.3667,
+              "name": "lotuslight_015"
+            },
+            {
+              "time": 0.4,
+              "name": "lotuslight_016"
+            },
+            {
+              "time": 0.4333,
+              "name": "lotuslight_017"
+            },
+            {
+              "time": 0.4667,
+              "name": "lotuslight_018"
+            },
+            {
+              "time": 0.5,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "board-2": {
+          "translate": [
+            {
+              "time": 0.1667
+            }
+          ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c3": 0.134,
+              "c4": 1.41
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "board-1": {
+          "translate": [
+            {
+              "time": 0.1667
+            }
+          ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c3": 0.134,
+              "c4": 1.41
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "FREE GAME": {
+          "translate": [
+            {
+              "y": -359.68,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": -359.68
+            },
+            {
+              "time": 0.5
+            }
+          ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": 0.468,
+              "c3": 0.708,
+              "c4": 0.45
+            },
+            {
+              "time": 0.1667,
+              "x": 1.249,
+              "y": 1.396,
+              "curve": 0.126,
+              "c2": 0.59,
+              "c3": 0.298,
+              "c4": 1.42
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "lotuslight": {
+          "scale": [
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.5,
+              "x": 1.873,
+              "y": 1.873
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "light_01": {
+            "light_01": [
+              {
+                "time": 0.1667,
+                "vertices": [
+                  341.54675,
+                  -324.7425,
+                  -333.3833,
+                  -384.5411,
+                  -399.05487,
+                  356.67657,
+                  275.87518,
+                  416.4752
+                ]
+              },
+              {
+                "time": 0.5,
+                "vertices": [
+                  794.1148,
+                  -797.777,
+                  -806.3155,
+                  -927.9041,
+                  -949.2227,
+                  829.71106,
+                  651.2076,
+                  959.8382
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "T_transitions_loop": {
+      "slots": {
+        "FREE GAME": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff3f"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "FREE GAME"
+            }
+          ]
+        },
+        "board-3": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "board-2"
+            }
+          ]
+        },
+        "board-4": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "board-1"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

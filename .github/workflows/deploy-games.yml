@@ -24,10 +24,23 @@ jobs:
           path: site
       - name: Verify required runtime files
         run: |
-          test -s site/Project-A/src/settings.json
-          test -s site/Project-B/src/settings.json
           test -f site/.nojekyll
           test -s site/index.html
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('site')
+          manifest = json.loads((root / '.pages-package.json').read_text())
+          assert manifest['format'] == 1 and manifest['projects']
+          for project in manifest['projects']:
+              directory = root / project['project']
+              assert directory.parent == root and directory.name.startswith('Project-')
+              for name in ['index.html', 'frontend-launch.js', f"assets/{project['bundle']}/config.json"]:
+                  assert (directory / name).stat().st_size > 0, str(directory / name)
+              for name, field in [('application.js', 'applicationSha256'), ('src/settings.json', 'settingsSha256')]:
+                  assert hashlib.sha256((directory / name).read_bytes()).hexdigest() == project[field], str(directory / name)
+          print(f"Verified {len(manifest['projects'])} packaged game builds")
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

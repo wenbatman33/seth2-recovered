@@ -1,0 +1,30 @@
+{
+  "releaseType": "interim-preview",
+  "homepageProjects": 9,
+  "enabledProjects": [
+    "Project-A",
+    "Project-B",
+    "Project-C",
+    "Project-D",
+    "Project-G",
+    "Project-H",
+    "Project-I"
+  ],
+  "disabledProjects": {
+    "Project-E": "Final transform animation GUI build and browser validation pending",
+    "Project-F": "Final native rate bank and mid-free-game resume GUI build and browser validation pending"
+  },
+  "staticFiles": 19768,
+  "staticBytes": 739863784,
+  "verification": {
+    "rootNpmTest": "passed",
+    "portableNewProjectTestFiles": 42,
+    "portableNewProjectFailures": 0,
+    "compiledProjectD": "13 owned backend scenarios passed",
+    "projectDDesktop": "Latest official GUI build entered native free games after zero-win transition"
+  },
+  "limitations": [
+    "Newly enabled projects remain test previews; full original gameplay fidelity is not asserted.",
+    "Owned local simulated backend; original RNG, RTP and server not recovered."
+  ]
+}

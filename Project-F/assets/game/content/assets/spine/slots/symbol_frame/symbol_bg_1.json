@@ -1,0 +1,40 @@
+{
+  "skeleton": {
+    "hash": "Lh5QOp/ShhAawlJ3Os/ltqrajqs",
+    "spine": "3.8.99",
+    "x": -59,
+    "y": -50,
+    "width": 118,
+    "height": 100,
+    "images": "../rebirth/symbol_bg/symbol_bg_image/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/武俠/symbol"
+  },
+  "bones": [
+    {
+      "name": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "board",
+      "bone": "root",
+      "attachment": "sb_01/symbol_bg_01"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "board": {
+          "sb_01/symbol_bg_01": {
+            "width": 118,
+            "height": 100
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "normal": {}
+  }
+}

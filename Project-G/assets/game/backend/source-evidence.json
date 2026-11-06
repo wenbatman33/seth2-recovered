@@ -1,0 +1,316 @@
+{
+  "project": "Project-G",
+  "gn": "scarlet-three-kingdoms",
+  "gameId": "g1008",
+  "generatedAt": "2026-11-06T05:08:51.311Z",
+  "sourceRuleImagesAndSymbols": [
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_01.png",
+      "sha256": "5bcbfd3e953fc0750c7780ea26169e93e735716e4887ebc50f2159ed16d356a3",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_02.png",
+      "sha256": "badbd075107104a25ffcc956e54ef652f187e2f4e67776b8987c769a4fc67af5",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_03.png",
+      "sha256": "a1336eed6255919ee5534c460cfd2118afc08ebfbba5e50aba16774c2a1c82c9",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_04.png",
+      "sha256": "37ff0fa826f3a7359f511fead3d64e14c39b44abd1371cbf01015ab3b8a13bc8",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_05.png",
+      "sha256": "5e0a0ee695c5fcbb815872d4340204b0fceaf7f51f3cd6a251d6cd15104f49b5",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_06.png",
+      "sha256": "693c38c87e9fcb71103bafeab899c7b445e88e2d074db15ebba044fd68bd1a80",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/locale/landscape/en/rules_07.png",
+      "sha256": "0b8fd71328dd03f7a147a02323a82da7a76a0eadc10a9b6104ff5b6fea52136d",
+      "status": "view_image / independently visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_01.png",
+      "symbol": 1,
+      "sha256": "c8f490d0a5c535030afd969dee4cf8f2276c9d095d201d3ac3127f38cab708fc",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_02.png",
+      "symbol": 2,
+      "sha256": "ebb908959000218c867a008fb56d6e48d170c73c8650d2861d0826f8a43ca550",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_03.png",
+      "symbol": 3,
+      "sha256": "b0a4b0c4e8486c17cbd66cc1ad3e5482c84d357113b80fcc4c969f648e199c83",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_04.png",
+      "symbol": 4,
+      "sha256": "25067321dd3e9a7bee388b7425351121678575c606c4e1061c408b0501a139ad",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_05.png",
+      "symbol": 5,
+      "sha256": "87eeaea22c40d48a5d39841c8b350a9c3e5f774c89b39d482f3f5e9105d548ef",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_06.png",
+      "symbol": 6,
+      "sha256": "fb282ca8d59bc690e4c479eb2ad92c7b1b91848ca257f380fe6b529de9c66a24",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_07.png",
+      "symbol": 7,
+      "sha256": "506a6a465439f5902d757b2d9a4d7211f572b94bd4cd193e4daf63bf3af3d11d",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_08.png",
+      "symbol": 8,
+      "sha256": "d42659e4268fff0a8efb2ef874f8cc0412af31255f86f1433bbd2dd3977739b3",
+      "status": "view_image numeric artwork mapping verified"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-G/staged-assets-02/assets/game/content/assets/texture/symbols/landscape/symbol_09.png",
+      "symbol": 9,
+      "sha256": "e1207dd757980af510f73a9fc2c109877cf1f359ad8a5a073fddf4887141fb57",
+      "status": "view_image numeric artwork mapping verified"
+    }
+  ],
+  "sourceModules": [
+    {
+      "id": "chunks:///_virtual/GameConfigModel.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        90755,
+        97550
+      ],
+      "byteRange": [
+        90807,
+        97602
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/GameData.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        97553,
+        107073
+      ],
+      "byteRange": [
+        97605,
+        107165
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/GameSender.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        139287,
+        150592
+      ],
+      "byteRange": [
+        139525,
+        150894
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/GameSymbolID.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        152856,
+        155564
+      ],
+      "byteRange": [
+        153158,
+        155866
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/ParseResponse.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        183844,
+        187759
+      ],
+      "byteRange": [
+        184148,
+        188091
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/Symbol.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        304780,
+        312383
+      ],
+      "byteRange": [
+        305124,
+        312727
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/SymbolView.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        312386,
+        325404
+      ],
+      "byteRange": [
+        312730,
+        325754
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/CreateNewSpinCompleteFlowCmd.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        35056,
+        39569
+      ],
+      "byteRange": [
+        35056,
+        39569
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/CreateNewSpinFlowCmd.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        39572,
+        44925
+      ],
+      "byteRange": [
+        39572,
+        44959
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/CreateNewStopSpinFlowCmd.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        44928,
+        48241
+      ],
+      "byteRange": [
+        44962,
+        48275
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/EffectsView.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/g1008/index.js",
+      "bundleSha256": "521ccbf5f88e2f058d612e0bea6582c4a17eeb4473c23ed30cbe21318b705cfa",
+      "charRange": [
+        68143,
+        73632
+      ],
+      "byteRange": [
+        68177,
+        73666
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/DefinitionModel.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/slotFramework/index.js",
+      "bundleSha256": "a81d75672ed3f49a631f8895e0fae9d426ef82fbc4d693d0cb32422985bb54dd",
+      "charRange": [
+        39172,
+        39942
+      ],
+      "byteRange": [
+        39232,
+        40002
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/SettingsModel.ts",
+      "file": ".cache/rea-new-games/Project-G/capture/assets/slotFramework/index.js",
+      "bundleSha256": "a81d75672ed3f49a631f8895e0fae9d426ef82fbc4d693d0cb32422985bb54dd",
+      "charRange": [
+        237724,
+        239584
+      ],
+      "byteRange": [
+        238263,
+        240123
+      ]
+    }
+  ],
+  "actualConfigSettingsVerified": {
+    "configDirectReads": [
+      "platform.player.settings.advancedSettings.turbo",
+      "definition.autoConfirmTime",
+      "definition.autoSpinInterval",
+      "engine.definition.prizeAutoNextDelay"
+    ],
+    "sharedSettingsReads": [
+      "advancedSettings.notify",
+      "advancedSettings.sounds.backgroundVolume",
+      "advancedSettings.sounds.effectVolume",
+      "advancedSettings.turbo",
+      "autoPlay.stopOnJackpot",
+      "stakeIndex",
+      "ratioIndex"
+    ],
+    "assetPathsPreserved": [
+      "assets/texture/symbols/landscape",
+      "assets/texture/symbolsBlur/landscape",
+      "assets/music/bgm",
+      "assets/music/btm"
+    ]
+  },
+  "wallet": "project-g.local-simulation.v1",
+  "global": "globalProjectG",
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "validation": {
+    "status": "22 isolated checks passed",
+    "command": "node --experimental-vm-modules .cache/rea-new-games/Project-G/backend-staging/fixture-test.mjs",
+    "actualCapturedModulesExecuted": [
+      "GameData.ts",
+      "ParseResponse.ts",
+      "GameSender.ts",
+      "GameConfigModel.ts",
+      "SettingsModel.ts"
+    ],
+    "browser": false,
+    "engine": false
+  },
+  "unknown": [
+    "original RNG/RTP/event probabilities",
+    "G exact upgrade ladder despite visible6->8->15 example",
+    "cent/scatter multiplication conventions",
+    "JP pools/awards",
+    "mystery chest rewards"
+  ],
+  "nextRequired": "Native G browser/Creator end-to-end integration and acceptance"
+}

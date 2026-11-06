@@ -1,0 +1,305 @@
+{
+  "skeleton": {
+    "hash": "cPUOvOWUvjQG3M4lFmyqOBqSLLs",
+    "spine": "3.8.99",
+    "x": -59,
+    "y": -151,
+    "width": 118,
+    "height": 302,
+    "images": "../rebirth/symbol_bg/symbol_bg_image/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/武俠/symbol"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  ],
+  "slots": [
+    {
+      "name": "board",
+      "bone": "root",
+      "attachment": "symbol_bg_03"
+    },
+    {
+      "name": "symbol_bg_03",
+      "bone": "root",
+      "attachment": "symbol_bg_03",
+      "blend": "additive"
+    },
+    {
+      "name": "sb_03/upgrade_bg_3",
+      "bone": "root",
+      "attachment": "upgrade_bg_3"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "board": {
+          "sb_03/sb_03_01": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_05": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_09": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_13": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_17": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_21": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_25": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_29": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_33": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_37": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_41": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_45": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_49": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_53": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_57": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_61": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_65": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_69": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_73": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_77": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_81": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_85": {
+            "width": 60,
+            "height": 151
+          },
+          "sb_03/sb_03_89": {
+            "width": 60,
+            "height": 151
+          },
+          "symbol_bg_03": {
+            "width": 59,
+            "height": 150
+          }
+        },
+        "sb_03/upgrade_bg_3": {
+          "upgrade_bg_3": {
+            "width": 59,
+            "height": 151
+          }
+        },
+        "symbol_bg_03": {
+          "symbol_bg_03": {
+            "width": 59,
+            "height": 150
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "lv_up": {
+      "slots": {
+        "board": {
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "sb_03/sb_03_01"
+            },
+            {
+              "time": 0.0667,
+              "name": "sb_03/sb_03_05"
+            },
+            {
+              "time": 0.1,
+              "name": "sb_03/sb_03_09"
+            },
+            {
+              "time": 0.1333,
+              "name": "sb_03/sb_03_13"
+            },
+            {
+              "time": 0.1667,
+              "name": "sb_03/sb_03_17"
+            },
+            {
+              "time": 0.2,
+              "name": "sb_03/sb_03_21"
+            },
+            {
+              "time": 0.2333,
+              "name": "sb_03/sb_03_25"
+            },
+            {
+              "time": 0.2667,
+              "name": "sb_03/sb_03_29"
+            },
+            {
+              "time": 0.3,
+              "name": "sb_03/sb_03_33"
+            },
+            {
+              "time": 0.3333,
+              "name": "sb_03/sb_03_37"
+            },
+            {
+              "time": 0.3667,
+              "name": "sb_03/sb_03_41"
+            },
+            {
+              "time": 0.4,
+              "name": "sb_03/sb_03_45"
+            },
+            {
+              "time": 0.4333,
+              "name": "sb_03/sb_03_49"
+            },
+            {
+              "time": 0.4667,
+              "name": "sb_03/sb_03_53"
+            },
+            {
+              "time": 0.5,
+              "name": "sb_03/sb_03_57"
+            },
+            {
+              "time": 0.5333,
+              "name": "sb_03/sb_03_61"
+            },
+            {
+              "time": 0.5667,
+              "name": "sb_03/sb_03_65"
+            },
+            {
+              "time": 0.6,
+              "name": "sb_03/sb_03_69"
+            },
+            {
+              "time": 0.6333,
+              "name": "sb_03/sb_03_73"
+            },
+            {
+              "time": 0.6667,
+              "name": "sb_03/sb_03_77"
+            },
+            {
+              "time": 0.7,
+              "name": "sb_03/sb_03_81"
+            },
+            {
+              "time": 0.7333,
+              "name": "sb_03/sb_03_85"
+            },
+            {
+              "time": 0.7667,
+              "name": "sb_03/sb_03_89"
+            },
+            {
+              "time": 1.5,
+              "name": "sb_03/sb_03_89"
+            }
+          ]
+        },
+        "sb_03/upgrade_bg_3": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "symbol_bg_03": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    },
+    "normal": {
+      "slots": {
+        "board": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "symbol_bg_03": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

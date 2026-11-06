@@ -1,0 +1,9 @@
+{
+  "name": "recovered-frontends-build",
+  "title": "Recovered frontend launch configuration",
+  "package_version": 2,
+  "version": "1.0.0",
+  "editor": ">=3.8.8",
+  "description": "Applies the local game identity and responsive launcher after official GUI builds.",
+  "contributions": { "builder": "./builder.js" }
+}

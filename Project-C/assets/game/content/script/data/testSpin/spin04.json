@@ -1,0 +1,837 @@
+{
+  "eventName": "initial",
+  "status": 200,
+  "message": "ok",
+  "token": "fafdcb46605641b9951f18b7ebb7410d",
+  "engine": {
+    "spinId": "693a5d1a33709f157fbf234a",
+    "buyFeatureType": "",
+    "definition": {
+      "bigPrizeDelay": 1,
+      "digital": 2,
+      "isDemo": false,
+      "autoConfirmTime": 0,
+      "autoSpinInterval": 0.15,
+      "extraFgRounds": 5,
+      "prizeAutoNextDelay": 10,
+      "smallPrizeDelay": 0.5,
+      "symbolDefs": [
+        {
+          "symbol": 1,
+          "displayName": "S1"
+        },
+        {
+          "displayName": "S2",
+          "symbol": 2
+        },
+        {
+          "symbol": 3,
+          "displayName": "S3"
+        },
+        {
+          "symbol": 4,
+          "displayName": "S4"
+        },
+        {
+          "symbol": 5,
+          "displayName": "S5"
+        },
+        {
+          "displayName": "S6",
+          "symbol": 6
+        },
+        {
+          "displayName": "S7",
+          "symbol": 7
+        },
+        {
+          "symbol": 8,
+          "displayName": "S8"
+        },
+        {
+          "displayName": "S9",
+          "symbol": 9
+        },
+        {
+          "displayName": "T1",
+          "symbol": 10
+        },
+        {
+          "symbol": 11,
+          "displayName": "T2"
+        },
+        {
+          "symbol": 12,
+          "displayName": "T3"
+        },
+        {
+          "displayName": "T4",
+          "symbol": 13
+        },
+        {
+          "symbol": 14,
+          "displayName": "JP"
+        },
+        {
+          "symbol": 15,
+          "displayName": "SCATTER"
+        }
+      ],
+      "oddsList": {
+        "1": {
+          "8": 200,
+          "9": 200,
+          "10": 500,
+          "11": 500,
+          "12": 1000
+        },
+        "2": {
+          "8": 50,
+          "9": 50,
+          "10": 200,
+          "11": 200,
+          "12": 500
+        },
+        "3": {
+          "8": 40,
+          "9": 40,
+          "10": 100,
+          "11": 100,
+          "12": 300
+        },
+        "4": {
+          "8": 30,
+          "9": 30,
+          "10": 40,
+          "11": 40,
+          "12": 240
+        },
+        "5": {
+          "8": 20,
+          "9": 20,
+          "10": 30,
+          "11": 30,
+          "12": 200
+        },
+        "6": {
+          "8": 16,
+          "9": 16,
+          "10": 24,
+          "11": 24,
+          "12": 160
+        },
+        "7": {
+          "8": 10,
+          "9": 10,
+          "10": 20,
+          "11": 20,
+          "12": 100
+        },
+        "8": {
+          "8": 8,
+          "9": 8,
+          "10": 18,
+          "11": 18,
+          "12": 80
+        },
+        "9": {
+          "8": 5,
+          "9": 5,
+          "10": 15,
+          "11": 15,
+          "12": 40
+        },
+        "15": {
+          "4": 60,
+          "5": 100,
+          "6": 2000
+        }
+      },
+      "buyFeature": [
+        {
+          "feature": "freeGame",
+          "featureRate": 200,
+          "featureIndex": 0
+        }
+      ],
+      "winOddsTypes": {
+        "win": 20,
+        "bigWin": 20,
+        "superWin": 50,
+        "megaWin": 100,
+        "ultraWin": 300,
+        "legendaryWin": 1000
+      },
+      "winlineDefs": [
+        {
+          "order": "0",
+          "line": []
+        },
+        {
+          "order": "1",
+          "line": []
+        },
+        {
+          "order": "2",
+          "line": []
+        },
+        {
+          "order": "3",
+          "line": []
+        },
+        {
+          "order": "4",
+          "line": []
+        },
+        {
+          "order": "5",
+          "line": []
+        },
+        {
+          "order": "6",
+          "line": []
+        },
+        {
+          "order": "7",
+          "line": []
+        },
+        {
+          "order": "8",
+          "line": []
+        },
+        {
+          "order": "9",
+          "line": []
+        },
+        {
+          "order": "10",
+          "line": []
+        },
+        {
+          "order": "11",
+          "line": []
+        },
+        {
+          "order": "12",
+          "line": []
+        },
+        {
+          "order": "13",
+          "line": []
+        },
+        {
+          "order": "14",
+          "line": []
+        },
+        {
+          "order": "15",
+          "line": []
+        },
+        {
+          "order": "16",
+          "line": []
+        },
+        {
+          "order": "17",
+          "line": []
+        },
+        {
+          "order": "18",
+          "line": []
+        },
+        {
+          "order": "19",
+          "line": []
+        }
+      ]
+    },
+    "gameState": [
+      {
+        "isGoldenFg": false,
+        "roundWinnings": 0,
+        "totalWinnings": 57721.1,
+        "totalStake": 2000,
+        "isJp": "",
+        "currentTimes": -1,
+        "action": "spin",
+        "maleTotemLevel": 0,
+        "totalViews": 1,
+        "noWinReward": 57721.1,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 0,
+        "currentView": 0,
+        "startFreeGame": false,
+        "newTimesSymbols": [],
+        "posTransform": [],
+        "winSymbols": [],
+        "timesUpgrade": [],
+        "view": [
+          [
+            7,
+            3,
+            7,
+            5,
+            3,
+            6
+          ],
+          [
+            9,
+            3,
+            7,
+            5,
+            6,
+            6
+          ],
+          [
+            9,
+            6,
+            5,
+            2,
+            6,
+            5
+          ],
+          [
+            2,
+            6,
+            5,
+            2,
+            2,
+            5
+          ],
+          [
+            2,
+            7,
+            9,
+            9,
+            2,
+            2
+          ]
+        ],
+        "timesSymbols": [],
+        "splitList": []
+      }
+    ]
+  },
+  "platform": {
+    "jackpotOn": true,
+    "disableRotate": false,
+    "theme": "",
+    "gemSystem": 0,
+    "betRecordUrl": "https://betrecord-web.godeedev.com",
+    "hideUserInfo": false,
+    "backend": "golang",
+    "slotRankOn": true,
+    "slotTablesOn": true,
+    "slotTableUpdated": 1,
+    "game": {
+      "stakeList": null,
+      "stakeKeyCounts": 0,
+      "stakeValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ratioValues": [
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ]
+    },
+    "player": {
+      "name": "stressyakultea12345678",
+      "uid": 805954,
+      "avatar": "15",
+      "avatarUrl": "https://play.godeedev.com/avatars/15.png",
+      "clientSettings": null,
+      "displayName": "Yaku",
+      "displayNameBlockTime": null,
+      "nameDisplayOn": true,
+      "balance": {
+        "currency": "TWD",
+        "amount": 695455820.26,
+        "gemAmount": 0
+      },
+      "settings": {
+        "stakeIndex": 9,
+        "ratioIndex": 12,
+        "advancedSettings": {
+          "turbo": false,
+          "notify": true,
+          "sounds": {
+            "effect": true,
+            "backgroundVolume": 0,
+            "effectVolume": 0,
+            "background": true
+          }
+        },
+        "autoPlay": {
+          "stopOnWinMultiplierValue": 20,
+          "stopOnWinMultiplier": true,
+          "stopOnJackpot": true,
+          "stopOnBalance": false,
+          "stopOnFreeSpin": false,
+          "numberOfPlays": [
+            10,
+            50,
+            100,
+            200,
+            500,
+            -1
+          ]
+        }
+      }
+    },
+    "table": {
+      "number": 7,
+      "roomId": 378864,
+      "status": "Full",
+      "detail": {
+        "dayWin": 126435.39,
+        "dayBet": 366461,
+        "hourWin": 126037.2,
+        "hourBet": 366017,
+        "todayWin": 126000,
+        "todayBet": 366000,
+        "mgCounts": [
+          184,
+          15,
+          20,
+          25,
+          316,
+          0,
+          0,
+          0
+        ]
+      },
+      "lock": {
+        "expiredDef": 3600,
+        "resetDef": 86400,
+        "time": 0,
+        "count": 0,
+        "roomId": null
+      }
+    },
+    "tables": [
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378862,
+        "status": "Empty",
+        "number": 1,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 67.68,
+        "bet": 346.4000000000001,
+        "roomId": 378877,
+        "status": "Empty",
+        "number": 2,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 455.09999999999934,
+        "bet": 530.3999999999997,
+        "roomId": 378859,
+        "status": "Empty",
+        "number": 3,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0.75,
+        "bet": 1,
+        "roomId": 378878,
+        "status": "Empty",
+        "number": 4,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 243585.51,
+        "bet": 280280,
+        "roomId": 378856,
+        "status": "Empty",
+        "number": 5,
+        "today": {
+          "win": 243500,
+          "bet": 280000
+        }
+      },
+      {
+        "win": 1265259.25,
+        "bet": 1284252,
+        "roomId": 378861,
+        "status": "Empty",
+        "number": 6,
+        "today": {
+          "win": 1265259.25,
+          "bet": 1284251
+        }
+      },
+      {
+        "win": 126037.2,
+        "bet": 366017,
+        "roomId": 378864,
+        "status": "Full",
+        "number": 7,
+        "today": {
+          "win": 126000,
+          "bet": 366000
+        },
+        "user": {
+          "userId": 805954,
+          "username": "stressyakultea12345678",
+          "operatorId": 106
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378867,
+        "status": "Empty",
+        "number": 8,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 13.9,
+        "bet": 80,
+        "roomId": 378860,
+        "status": "Empty",
+        "number": 9,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 158.9,
+        "bet": 133,
+        "roomId": 378871,
+        "status": "Empty",
+        "number": 10,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 172800,
+        "bet": 400000,
+        "roomId": 378882,
+        "status": "Empty",
+        "number": 11,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0.9,
+        "bet": 7,
+        "roomId": 378855,
+        "status": "Empty",
+        "number": 12,
+        "today": {
+          "win": 0.9,
+          "bet": 7
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378880,
+        "status": "Empty",
+        "number": 13,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378854,
+        "status": "Empty",
+        "number": 14,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 252.79999999999993,
+        "bet": 127.80000000000052,
+        "roomId": 378857,
+        "status": "Empty",
+        "number": 15,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 2.65,
+        "bet": 5,
+        "roomId": 378876,
+        "status": "Empty",
+        "number": 16,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 7,
+        "roomId": 378879,
+        "status": "Empty",
+        "number": 17,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378863,
+        "status": "Empty",
+        "number": 18,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 4,
+        "roomId": 378858,
+        "status": "Empty",
+        "number": 19,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 2.5,
+        "bet": 7,
+        "roomId": 378881,
+        "status": "Empty",
+        "number": 20,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 10.95,
+        "bet": 4,
+        "roomId": 378883,
+        "status": "Empty",
+        "number": 21,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 3,
+        "roomId": 378872,
+        "status": "Empty",
+        "number": 22,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 14.32,
+        "bet": 80,
+        "roomId": 378865,
+        "status": "Empty",
+        "number": 23,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 126.6,
+        "bet": 204,
+        "roomId": 378873,
+        "status": "Empty",
+        "number": 24,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 10.25,
+        "bet": 19,
+        "roomId": 378868,
+        "status": "Empty",
+        "number": 25,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378869,
+        "status": "Empty",
+        "number": 26,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378874,
+        "status": "Empty",
+        "number": 27,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 2,
+        "bet": 1,
+        "roomId": 378870,
+        "status": "Empty",
+        "number": 28,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 0,
+        "bet": 0,
+        "roomId": 378866,
+        "status": "Empty",
+        "number": 29,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      },
+      {
+        "win": 4.66,
+        "bet": 80,
+        "roomId": 378875,
+        "status": "Empty",
+        "number": 30,
+        "today": {
+          "win": 0,
+          "bet": 0
+        }
+      }
+    ],
+    "tableMeta": {
+      "currentPage": 1,
+      "tablePerPage": 500,
+      "totalPages": 1,
+      "totalTableCount": 30
+    },
+    "avatars": [
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5",
+      "a6",
+      "a7",
+      "a8",
+      "a9",
+      "a10",
+      "a11",
+      "a12",
+      "a13",
+      "a14",
+      "a15",
+      "a16",
+      "a17",
+      "a18",
+      "a19",
+      "a20",
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+}

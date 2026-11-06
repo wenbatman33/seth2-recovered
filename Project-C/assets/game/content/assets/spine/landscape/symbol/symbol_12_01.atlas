@@ -1,0 +1,118 @@
+
+symbol_12_01.png
+size: 264,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g_multiple_ball_b
+  rotate: false
+  xy: 1, 65
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+g_multiple_ring_2
+  rotate: true
+  xy: 145, 280
+  size: 122, 107
+  orig: 124, 124
+  offset: 1, 9
+  index: -1
+g_multiple_ring_bg_sd
+  rotate: false
+  xy: 145, 403
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+g_multiple_ring_inlg_b
+  rotate: true
+  xy: 248, 37
+  size: 59, 13
+  orig: 61, 14
+  offset: 1, 0
+  index: -1
+g_multiple_ring_insd
+  rotate: false
+  xy: 118, 1
+  size: 103, 72
+  orig: 106, 73
+  offset: 1, 1
+  index: -1
+g_multiple_ring_lg_b
+  rotate: false
+  xy: 1, 155
+  size: 95, 86
+  orig: 96, 87
+  offset: 1, 1
+  index: -1
+g_multiple_tail
+  rotate: false
+  xy: 1, 9
+  size: 116, 55
+  orig: 117, 60
+  offset: 1, 1
+  index: -1
+g_multiple_tail_bg_sd
+  rotate: false
+  xy: 91, 74
+  size: 123, 50
+  orig: 124, 50
+  offset: 0, 0
+  index: -1
+g_multiple_tail_lg_b
+  rotate: false
+  xy: 133, 131
+  size: 85, 27
+  orig: 85, 28
+  offset: 0, 0
+  index: -1
+jp_light
+  rotate: true
+  xy: 215, 97
+  size: 33, 41
+  orig: 35, 42
+  offset: 1, 1
+  index: -1
+light_a
+  rotate: false
+  xy: 1, 382
+  size: 143, 139
+  orig: 143, 139
+  offset: 0, 0
+  index: -1
+light_c
+  rotate: false
+  xy: 1, 242
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+light_d
+  rotate: false
+  xy: 141, 159
+  size: 122, 120
+  orig: 122, 120
+  offset: 0, 0
+  index: -1
+multiple_m
+  rotate: false
+  xy: 97, 125
+  size: 35, 116
+  orig: 35, 116
+  offset: 0, 0
+  index: -1
+s4_shine
+  rotate: true
+  xy: 222, 1
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+s_multiple_tail__sd
+  rotate: true
+  xy: 222, 30
+  size: 66, 25
+  orig: 67, 26
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,41 @@
+
+bonus_item_spots.png
+size: 316,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_spark01
+  rotate: false
+  xy: 235, 38
+  size: 79, 91
+  orig: 80, 93
+  offset: 1, 1
+  index: -1
+fx_spark02
+  rotate: true
+  xy: 1, 1
+  size: 128, 152
+  orig: 128, 170
+  offset: 0, 1
+  index: -1
+fx_spark04
+  rotate: false
+  xy: 154, 36
+  size: 80, 93
+  orig: 81, 95
+  offset: 0, 1
+  index: -1
+fx_spark05
+  rotate: true
+  xy: 235, 1
+  size: 36, 39
+  orig: 36, 41
+  offset: 0, 1
+  index: -1
+fx_spark06
+  rotate: true
+  xy: 235, 1
+  size: 36, 39
+  orig: 36, 41
+  offset: 0, 1
+  index: -1

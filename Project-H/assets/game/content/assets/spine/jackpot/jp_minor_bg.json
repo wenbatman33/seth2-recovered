@@ -1,0 +1,376 @@
+{
+  "skeleton": {
+    "hash": "Mk+vdzu26LM",
+    "spine": "3.8-from-4.0-from-4.1.23",
+    "x": -887.42,
+    "y": -501.51,
+    "width": 1875,
+    "height": 1088,
+    "images": "./images/w_jp/",
+    "audio": "./images/"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -906,
+      "y": 570
+    },
+    {
+      "name": "jp_light01",
+      "parent": "root",
+      "x": 955.58,
+      "y": -527.51
+    },
+    {
+      "name": "jp_light02",
+      "parent": "root",
+      "x": 955.58,
+      "y": -527.51
+    },
+    {
+      "name": "jp_light01-1",
+      "parent": "jp_light01"
+    },
+    {
+      "name": "jp_light01-2",
+      "parent": "jp_light01"
+    },
+    {
+      "name": "jp_light01-3",
+      "parent": "jp_light01"
+    }
+  ],
+  "slots": [
+    {
+      "name": "jp_light02",
+      "bone": "jp_light02",
+      "attachment": "jp_light02"
+    },
+    {
+      "name": "jp_light01-3",
+      "bone": "jp_light01-3",
+      "attachment": "jp_light01"
+    },
+    {
+      "name": "jp_light01-2",
+      "bone": "jp_light01-2",
+      "attachment": "jp_light01"
+    },
+    {
+      "name": "jp_light01-1",
+      "bone": "jp_light01-1",
+      "attachment": "jp_light01"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "jp_light01-1": {
+          "jp_light01": {
+            "x": 0.5,
+            "width": 1875,
+            "height": 1088
+          }
+        },
+        "jp_light01-2": {
+          "jp_light01": {
+            "x": 0.5,
+            "width": 1875,
+            "height": 1088
+          }
+        },
+        "jp_light01-3": {
+          "jp_light01": {
+            "x": 0.5,
+            "width": 1875,
+            "height": 1088
+          }
+        },
+        "jp_light02": {
+          "jp_light02": {
+            "x": 4.42,
+            "y": 17.01,
+            "width": 1644,
+            "height": 1023
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "jp_light01-1": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "jp_light01-2": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "jp_light01-3": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "jp_light02": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "jp_light01-1": {
+          "scale": [
+            {
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "jp_light01-2": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "jp_light01-3": {
+          "scale": [
+            {
+              "x": 0.75,
+              "y": 0.75
+            },
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.6667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1,
+              "x": 0.75,
+              "y": 0.75
+            }
+          ]
+        },
+        "jp_light01": {
+          "scale": [
+            {
+              "x": 0.01,
+              "y": 0.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        },
+        "jp_light02": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.025
+            },
+            {
+              "time": 0.3333,
+              "x": 0.8,
+              "y": 0.05
+            },
+            {
+              "time": 0.5667,
+              "y": 0.03
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "jp_light01-1": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "jp_light01-2": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "jp_light01-3": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "jp_light01-1": {
+          "scale": [
+            {
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "jp_light01-2": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "jp_light01-3": {
+          "scale": [
+            {
+              "x": 0.75,
+              "y": 0.75
+            },
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.6667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1,
+              "x": 0.75,
+              "y": 0.75
+            }
+          ]
+        },
+        "jp_light01": {
+          "scale": [
+            {
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        }
+      }
+    }
+  }
+}

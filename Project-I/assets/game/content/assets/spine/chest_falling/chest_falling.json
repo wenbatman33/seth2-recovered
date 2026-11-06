@@ -1,0 +1,588 @@
+{
+  "skeleton": {
+    "hash": "2g4H7GftBiXQz6muTFXXyPRyK48",
+    "spine": "3.8.99",
+    "x": -86,
+    "y": -98.96,
+    "width": 160,
+    "height": 160
+  },
+  "bones": [
+    {
+      "name": "root",
+      "y": 2.04
+    },
+    {
+      "name": "chest",
+      "parent": "root",
+      "y": -72.2
+    },
+    {
+      "name": "02_light",
+      "parent": "chest",
+      "x": -7.18,
+      "y": 63.28
+    },
+    {
+      "name": "03_light",
+      "parent": "chest",
+      "y": 72.2
+    },
+    {
+      "name": "circle",
+      "parent": "chest",
+      "x": 4.26,
+      "y": 72.7
+    },
+    {
+      "name": "circle2",
+      "parent": "chest",
+      "x": 4.26,
+      "y": 72.7,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "particle",
+      "parent": "root",
+      "y": -2.04,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  ],
+  "slots": [
+    {
+      "name": "01",
+      "bone": "chest",
+      "attachment": "01"
+    },
+    {
+      "name": "02_light",
+      "bone": "02_light",
+      "blend": "additive"
+    },
+    {
+      "name": "03_light",
+      "bone": "03_light",
+      "blend": "additive"
+    },
+    {
+      "name": "circle",
+      "bone": "circle",
+      "color": "ffad29ff",
+      "blend": "additive"
+    },
+    {
+      "name": "circle2",
+      "bone": "circle2",
+      "color": "ffad29ff",
+      "blend": "additive"
+    },
+    {
+      "name": "particle_01",
+      "bone": "particle",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "01": {
+          "01": {
+            "x": -6,
+            "y": 51.2,
+            "width": 160,
+            "height": 160
+          },
+          "02": {
+            "x": -4.5,
+            "y": 61.2,
+            "width": 161,
+            "height": 180
+          },
+          "03": {
+            "y": 66.7,
+            "width": 170,
+            "height": 191
+          },
+          "04": {
+            "x": 6,
+            "y": 67.2,
+            "width": 180,
+            "height": 190
+          }
+        },
+        "02_light": {
+          "02_light": {
+            "x": 8.18,
+            "y": 4.92,
+            "width": 248,
+            "height": 226
+          }
+        },
+        "03_light": {
+          "03_light": {
+            "width": 254,
+            "height": 236
+          }
+        },
+        "circle": {
+          "circle": {
+            "width": 77,
+            "height": 77
+          }
+        },
+        "circle2": {
+          "circle": {
+            "width": 77,
+            "height": 77
+          }
+        },
+        "particle_01": {
+          "particle_01": {
+            "x": 8.5,
+            "y": 8.54,
+            "width": 73,
+            "height": 105
+          },
+          "particle_02": {
+            "x": 8.5,
+            "y": 11.04,
+            "width": 73,
+            "height": 106
+          },
+          "particle_03": {
+            "x": 3,
+            "y": 12.04,
+            "width": 82,
+            "height": 106
+          },
+          "particle_04": {
+            "x": 2,
+            "y": -5.46,
+            "width": 84,
+            "height": 97
+          },
+          "particle_05": {
+            "x": 0.5,
+            "y": -8.46,
+            "width": 85,
+            "height": 107
+          },
+          "particle_06": {
+            "y": -6.96,
+            "width": 86,
+            "height": 110
+          },
+          "particle_07": {
+            "x": -0.5,
+            "y": -4.96,
+            "width": 87,
+            "height": 112
+          },
+          "particle_08": {
+            "x": -1,
+            "y": -3.46,
+            "width": 86,
+            "height": 115
+          },
+          "particle_09": {
+            "x": -1,
+            "y": -1.96,
+            "width": 86,
+            "height": 118
+          },
+          "particle_10": {
+            "x": -0.5,
+            "y": -0.96,
+            "width": 85,
+            "height": 120
+          },
+          "particle_11": {
+            "x": -1,
+            "y": 0.54,
+            "width": 84,
+            "height": 121
+          },
+          "particle_12": {
+            "x": -1,
+            "y": 2.04,
+            "width": 84,
+            "height": 122
+          },
+          "particle_13": {
+            "x": -1,
+            "y": -2.46,
+            "width": 84,
+            "height": 111
+          },
+          "particle_14": {
+            "x": -1,
+            "y": -1.46,
+            "width": 82,
+            "height": 113
+          },
+          "particle_15": {
+            "x": -1.5,
+            "y": 0.54,
+            "width": 81,
+            "height": 115
+          },
+          "particle_16": {
+            "x": -3.5,
+            "y": 2.04,
+            "width": 77,
+            "height": 116
+          },
+          "particle_17": {
+            "x": -3.5,
+            "y": 3.54,
+            "width": 77,
+            "height": 117
+          },
+          "particle_18": {
+            "x": -3,
+            "y": 5.04,
+            "width": 76,
+            "height": 116
+          },
+          "particle_19": {
+            "x": -2,
+            "y": 5.54,
+            "width": 74,
+            "height": 117
+          },
+          "particle_20": {
+            "x": -0.5,
+            "y": 3.04,
+            "width": 71,
+            "height": 108
+          }
+        }
+      }
+    }
+  ],
+  "events": {
+    "score": {}
+  },
+  "animations": {
+    "normal": {},
+    "open": {
+      "slots": {
+        "01": {
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "02"
+            },
+            {
+              "time": 0.1,
+              "name": "03"
+            },
+            {
+              "time": 0.1333,
+              "name": "04"
+            }
+          ]
+        },
+        "02_light": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "02_light"
+            }
+          ]
+        },
+        "03_light": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": 0.073,
+              "c2": 0.47,
+              "c3": 0.855,
+              "c4": 0.79
+            },
+            {
+              "time": 1.0667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1,
+              "name": "03_light"
+            }
+          ]
+        },
+        "circle": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffdca6ff",
+              "curve": 0,
+              "c2": 0.81,
+              "c3": 0.85,
+              "c4": 0.79
+            },
+            {
+              "time": 0.3667,
+              "color": "ffad2800"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "circle"
+            }
+          ]
+        },
+        "circle2": {
+          "color": [
+            {
+              "time": 0.1333,
+              "color": "ffcba6ff",
+              "curve": 0,
+              "c2": 0.81,
+              "c3": 0.85,
+              "c4": 0.79
+            },
+            {
+              "time": 0.4333,
+              "color": "ff822700"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "circle"
+            }
+          ]
+        },
+        "particle_01": {
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "particle_01"
+            },
+            {
+              "time": 0.1,
+              "name": "particle_02"
+            },
+            {
+              "time": 0.1333,
+              "name": "particle_03"
+            },
+            {
+              "time": 0.1667,
+              "name": "particle_04"
+            },
+            {
+              "time": 0.2,
+              "name": "particle_05"
+            },
+            {
+              "time": 0.2333,
+              "name": "particle_06"
+            },
+            {
+              "time": 0.2667,
+              "name": "particle_07"
+            },
+            {
+              "time": 0.3,
+              "name": "particle_08"
+            },
+            {
+              "time": 0.3333,
+              "name": "particle_09"
+            },
+            {
+              "time": 0.3667,
+              "name": "particle_10"
+            },
+            {
+              "time": 0.4,
+              "name": "particle_11"
+            },
+            {
+              "time": 0.4333,
+              "name": "particle_12"
+            },
+            {
+              "time": 0.4667,
+              "name": "particle_13"
+            },
+            {
+              "time": 0.5,
+              "name": "particle_14"
+            },
+            {
+              "time": 0.5333,
+              "name": "particle_15"
+            },
+            {
+              "time": 0.5667,
+              "name": "particle_16"
+            },
+            {
+              "time": 0.6,
+              "name": "particle_17"
+            },
+            {
+              "time": 0.6333,
+              "name": "particle_18"
+            },
+            {
+              "time": 0.6667,
+              "name": "particle_19"
+            },
+            {
+              "time": 0.7,
+              "name": "particle_20"
+            },
+            {
+              "time": 0.7333,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "chest": {
+          "translate": [
+            {
+              "time": 0.0333
+            },
+            {
+              "time": 0.1,
+              "y": 15.64
+            },
+            {
+              "time": 0.1333
+            }
+          ],
+          "scale": [
+            {},
+            {
+              "time": 0.0333,
+              "x": 1.012,
+              "y": 0.939
+            },
+            {
+              "time": 0.1,
+              "x": 0.957,
+              "y": 1.044
+            },
+            {
+              "time": 0.1333
+            }
+          ]
+        },
+        "02_light": {
+          "scale": [
+            {
+              "time": 0.0333,
+              "x": 0.551,
+              "y": 0.551,
+              "curve": 0,
+              "c2": 0.88,
+              "c3": 0.517,
+              "c4": 0.95
+            },
+            {
+              "time": 0.1,
+              "x": 1.352,
+              "y": 1.352
+            }
+          ]
+        },
+        "03_light": {
+          "scale": [
+            {
+              "time": 0.1,
+              "curve": 0,
+              "c2": 0.72,
+              "c3": 0.87,
+              "c4": 0.82
+            },
+            {
+              "time": 0.2,
+              "x": 1.345,
+              "y": 1.345,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8,
+              "x": 0.897,
+              "y": 0.897
+            }
+          ]
+        },
+        "circle": {
+          "scale": [
+            {
+              "time": 0.0667,
+              "curve": 0,
+              "c2": 0.81,
+              "c3": 0.85,
+              "c4": 0.79
+            },
+            {
+              "time": 0.3667,
+              "x": 3.719,
+              "y": 3.719
+            }
+          ]
+        },
+        "circle2": {
+          "scale": [
+            {
+              "time": 0.1333,
+              "curve": 0,
+              "c2": 0.81,
+              "c3": 0.85,
+              "c4": 0.79
+            },
+            {
+              "time": 0.4333,
+              "x": 3.719,
+              "y": 3.719
+            }
+          ]
+        },
+        "particle": {
+          "translate": [
+            {
+              "time": 0.0333,
+              "x": 5.71,
+              "y": 45.15
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 0.1,
+          "name": "score"
+        }
+      ]
+    }
+  }
+}

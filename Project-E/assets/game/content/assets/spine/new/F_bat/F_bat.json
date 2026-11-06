@@ -1,0 +1,920 @@
+{
+  "skeleton": {
+    "hash": "AmL0RFci7CCqa4xmg4WVjm2mBKY",
+    "spine": "3.7.94",
+    "width": 0,
+    "height": 0
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "batin",
+      "parent": "root",
+      "y": 610.7,
+      "scaleX": 3.5,
+      "scaleY": 3.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "batin",
+      "bone": "batin"
+    },
+    {
+      "name": "batin2",
+      "bone": "batin",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "batin": {
+        "batin_001": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_002": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_003": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_004": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_005": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_006": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_007": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_008": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_009": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_010": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_011": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_012": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_013": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_014": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_015": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_016": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_017": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_018": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_019": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_020": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_021": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_022": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_023": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_024": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_025": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_026": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_027": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_028": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_029": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_030": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_031": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_032": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_033": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_034": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_035": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_036": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_037": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_038": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_039": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_040": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_041": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_042": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_043": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_044": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_045": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_046": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_047": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_048": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_049": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_050": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_051": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_052": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_053": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_054": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_055": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_056": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_057": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_058": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_059": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_060": {
+          "width": 350,
+          "height": 300
+        }
+      },
+      "batin2": {
+        "batin_001": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_002": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_003": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_004": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_005": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_006": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_007": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_008": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_009": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_010": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_011": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_012": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_013": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_014": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_015": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_016": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_017": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_018": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_019": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_020": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_021": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_022": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_023": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_024": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_025": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_026": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_027": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_028": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_029": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_030": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_031": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_032": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_033": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_034": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_035": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_036": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_037": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_038": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_039": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_040": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_041": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_042": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_043": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_044": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_045": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_046": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_047": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_048": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_049": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_050": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_051": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_052": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_053": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_054": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_055": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_056": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_057": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_058": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_059": {
+          "width": 350,
+          "height": 300
+        },
+        "batin_060": {
+          "width": 350,
+          "height": 300
+        }
+      }
+    }
+  },
+  "animations": {
+    "transitions_in&out": {
+      "slots": {
+        "batin": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "batin_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "batin_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "batin_003"
+            },
+            {
+              "time": 0.1,
+              "name": "batin_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "batin_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "batin_006"
+            },
+            {
+              "time": 0.2,
+              "name": "batin_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "batin_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "batin_009"
+            },
+            {
+              "time": 0.3,
+              "name": "batin_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "batin_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "batin_012"
+            },
+            {
+              "time": 0.4,
+              "name": "batin_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "batin_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "batin_015"
+            },
+            {
+              "time": 0.5,
+              "name": "batin_016"
+            },
+            {
+              "time": 0.5333,
+              "name": "batin_017"
+            },
+            {
+              "time": 0.5667,
+              "name": "batin_018"
+            },
+            {
+              "time": 0.6,
+              "name": "batin_019"
+            },
+            {
+              "time": 0.6333,
+              "name": "batin_020"
+            },
+            {
+              "time": 0.6667,
+              "name": "batin_021"
+            },
+            {
+              "time": 0.7,
+              "name": "batin_022"
+            },
+            {
+              "time": 0.7333,
+              "name": "batin_023"
+            },
+            {
+              "time": 0.7667,
+              "name": "batin_024"
+            },
+            {
+              "time": 0.8,
+              "name": "batin_025"
+            },
+            {
+              "time": 0.8333,
+              "name": "batin_026"
+            },
+            {
+              "time": 0.8667,
+              "name": "batin_027"
+            },
+            {
+              "time": 0.9,
+              "name": "batin_028"
+            },
+            {
+              "time": 0.9333,
+              "name": "batin_029"
+            },
+            {
+              "time": 0.9667,
+              "name": "batin_030"
+            },
+            {
+              "time": 1,
+              "name": "batin_031"
+            },
+            {
+              "time": 1.0333,
+              "name": "batin_032"
+            },
+            {
+              "time": 1.0667,
+              "name": "batin_033"
+            },
+            {
+              "time": 1.1,
+              "name": "batin_034"
+            },
+            {
+              "time": 1.1333,
+              "name": "batin_035"
+            },
+            {
+              "time": 1.1667,
+              "name": "batin_036"
+            },
+            {
+              "time": 1.2,
+              "name": "batin_037"
+            },
+            {
+              "time": 1.2333,
+              "name": "batin_038"
+            },
+            {
+              "time": 1.2667,
+              "name": "batin_039"
+            },
+            {
+              "time": 1.3,
+              "name": "batin_040"
+            },
+            {
+              "time": 1.3333,
+              "name": "batin_041"
+            },
+            {
+              "time": 1.3667,
+              "name": "batin_042"
+            },
+            {
+              "time": 1.4,
+              "name": "batin_043"
+            },
+            {
+              "time": 1.4333,
+              "name": "batin_044"
+            },
+            {
+              "time": 1.4667,
+              "name": "batin_045"
+            },
+            {
+              "time": 1.5,
+              "name": "batin_046"
+            },
+            {
+              "time": 1.5333,
+              "name": "batin_047"
+            },
+            {
+              "time": 1.5667,
+              "name": "batin_048"
+            },
+            {
+              "time": 1.6,
+              "name": "batin_049"
+            },
+            {
+              "time": 1.6333,
+              "name": "batin_050"
+            },
+            {
+              "time": 1.6667,
+              "name": "batin_051"
+            },
+            {
+              "time": 1.7,
+              "name": "batin_052"
+            },
+            {
+              "time": 1.7333,
+              "name": "batin_053"
+            },
+            {
+              "time": 1.7667,
+              "name": "batin_054"
+            },
+            {
+              "time": 1.8,
+              "name": "batin_055"
+            },
+            {
+              "time": 1.8333,
+              "name": "batin_056"
+            },
+            {
+              "time": 1.8667,
+              "name": "batin_057"
+            },
+            {
+              "time": 1.9,
+              "name": "batin_058"
+            },
+            {
+              "time": 1.9333,
+              "name": "batin_059"
+            },
+            {
+              "time": 1.9667,
+              "name": null
+            }
+          ]
+        },
+        "batin2": {
+          "attachment": [
+            {
+              "time": 1,
+              "name": "batin_031"
+            },
+            {
+              "time": 1.0333,
+              "name": "batin_032"
+            },
+            {
+              "time": 1.0667,
+              "name": "batin_033"
+            },
+            {
+              "time": 1.1,
+              "name": "batin_034"
+            },
+            {
+              "time": 1.1333,
+              "name": "batin_035"
+            },
+            {
+              "time": 1.1667,
+              "name": "batin_036"
+            },
+            {
+              "time": 1.2,
+              "name": "batin_037"
+            },
+            {
+              "time": 1.2333,
+              "name": "batin_038"
+            },
+            {
+              "time": 1.2667,
+              "name": "batin_039"
+            },
+            {
+              "time": 1.3,
+              "name": "batin_040"
+            },
+            {
+              "time": 1.3333,
+              "name": "batin_041"
+            },
+            {
+              "time": 1.3667,
+              "name": "batin_042"
+            },
+            {
+              "time": 1.4,
+              "name": "batin_043"
+            },
+            {
+              "time": 1.4333,
+              "name": "batin_044"
+            },
+            {
+              "time": 1.4667,
+              "name": "batin_045"
+            },
+            {
+              "time": 1.5,
+              "name": "batin_046"
+            },
+            {
+              "time": 1.5333,
+              "name": "batin_047"
+            },
+            {
+              "time": 1.5667,
+              "name": "batin_048"
+            },
+            {
+              "time": 1.6,
+              "name": "batin_049"
+            },
+            {
+              "time": 1.6333,
+              "name": "batin_050"
+            },
+            {
+              "time": 1.6667,
+              "name": "batin_051"
+            },
+            {
+              "time": 1.7,
+              "name": "batin_052"
+            },
+            {
+              "time": 1.7333,
+              "name": "batin_053"
+            },
+            {
+              "time": 1.7667,
+              "name": "batin_054"
+            },
+            {
+              "time": 1.8,
+              "name": "batin_055"
+            },
+            {
+              "time": 1.8333,
+              "name": "batin_056"
+            },
+            {
+              "time": 1.8667,
+              "name": "batin_057"
+            },
+            {
+              "time": 1.9,
+              "name": "batin_058"
+            },
+            {
+              "time": 1.9333,
+              "name": "batin_059"
+            },
+            {
+              "time": 1.9667,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "batin": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.307,
+              "y": 0.307
+            },
+            {
+              "time": 0.2333,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.9667,
+              "x": 1.358,
+              "y": 1.358
+            }
+          ]
+        }
+      }
+    }
+  }
+}

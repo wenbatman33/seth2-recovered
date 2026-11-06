@@ -1,0 +1,102 @@
+[
+  {
+    "normal": {
+      "firstDamping": false,
+      "firstDampingTime": 0.08,
+      "firstDampingAmplitude": 0.5,
+      "firstDampingDelay": 0.1,
+      "lastDamping": true,
+      "lastDampingTime": 0.1,
+      "lastDampingAmplitude": 0.22
+    },
+    "turbo": {
+      "firstDamping": true,
+      "firstDampingTime": 0.18,
+      "firstDampingAmplitude": 0.3,
+      "firstDampingDelay": 0,
+      "lastDamping": true,
+      "lastDampingTime": 0.3,
+      "lastDampingAmplitude": 0.4
+    }
+  },
+  {
+    "normal": {
+      "firstDamping": false,
+      "firstDampingTime": 0.08,
+      "firstDampingAmplitude": 0.5,
+      "firstDampingDelay": 0.1,
+      "lastDamping": true,
+      "lastDampingTime": 0.1,
+      "lastDampingAmplitude": 0.22
+    },
+    "turbo": {
+      "firstDamping": true,
+      "firstDampingTime": 0.18,
+      "firstDampingAmplitude": 0.3,
+      "firstDampingDelay": 0,
+      "lastDamping": true,
+      "lastDampingTime": 0.3,
+      "lastDampingAmplitude": 0.4
+    }
+  },
+  {
+    "normal": {
+      "firstDamping": false,
+      "firstDampingTime": 0.08,
+      "firstDampingAmplitude": 0.5,
+      "firstDampingDelay": 0.1,
+      "lastDamping": true,
+      "lastDampingTime": 0.1,
+      "lastDampingAmplitude": 0.22
+    },
+    "turbo": {
+      "firstDamping": true,
+      "firstDampingTime": 0.18,
+      "firstDampingAmplitude": 0.3,
+      "firstDampingDelay": 0,
+      "lastDamping": true,
+      "lastDampingTime": 0.3,
+      "lastDampingAmplitude": 0.4
+    }
+  },
+  {
+    "normal": {
+      "firstDamping": false,
+      "firstDampingTime": 0.08,
+      "firstDampingAmplitude": 0.5,
+      "firstDampingDelay": 0.1,
+      "lastDamping": true,
+      "lastDampingTime": 0.1,
+      "lastDampingAmplitude": 0.22
+    },
+    "turbo": {
+      "firstDamping": true,
+      "firstDampingTime": 0.18,
+      "firstDampingAmplitude": 0.3,
+      "firstDampingDelay": 0,
+      "lastDamping": true,
+      "lastDampingTime": 0.3,
+      "lastDampingAmplitude": 0.4
+    }
+  },
+  {
+    "normal": {
+      "firstDamping": false,
+      "firstDampingTime": 0.08,
+      "firstDampingAmplitude": 0.5,
+      "firstDampingDelay": 0.1,
+      "lastDamping": true,
+      "lastDampingTime": 0.1,
+      "lastDampingAmplitude": 0.22
+    },
+    "turbo": {
+      "firstDamping": true,
+      "firstDampingTime": 0.18,
+      "firstDampingAmplitude": 0.3,
+      "firstDampingDelay": 0,
+      "lastDamping": true,
+      "lastDampingTime": 0.3,
+      "lastDampingAmplitude": 0.4
+    }
+  }
+]

@@ -1,0 +1,139 @@
+
+bonus_transition_01.png
+size: 1672,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_circle
+  rotate: false
+  xy: 1415, 15
+  size: 253, 253
+  orig: 253, 253
+  offset: 0, 0
+  index: -1
+board
+  rotate: true
+  xy: 572, 173
+  size: 360, 188
+  orig: 360, 188
+  offset: 0, 0
+  index: -1
+light_01
+  rotate: true
+  xy: 1026, 177
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+light_02
+  rotate: true
+  xy: 1026, 177
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+light_03
+  rotate: true
+  xy: 1026, 177
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+light_04
+  rotate: true
+  xy: 1449, 288
+  size: 245, 44
+  orig: 245, 44
+  offset: 0, 0
+  index: -1
+light_06
+  rotate: true
+  xy: 1, 173
+  size: 360, 570
+  orig: 360, 572
+  offset: 0, 2
+  index: -1
+t_bonus
+  rotate: false
+  xy: 761, 175
+  size: 264, 93
+  orig: 264, 93
+  offset: 0, 0
+  index: -1
+t_game
+  rotate: true
+  xy: 1494, 323
+  size: 210, 87
+  orig: 210, 87
+  offset: 0, 0
+  index: -1
+wk_light/wl_01
+  rotate: false
+  xy: 1, 1
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_02
+  rotate: false
+  xy: 266, 1
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_03
+  rotate: false
+  xy: 531, 1
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_04
+  rotate: true
+  xy: 761, 269
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_05
+  rotate: true
+  xy: 933, 269
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_06
+  rotate: false
+  xy: 796, 3
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_07
+  rotate: true
+  xy: 1071, 4
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_08
+  rotate: true
+  xy: 1105, 269
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_09
+  rotate: true
+  xy: 1243, 4
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1
+wk_light/wl_10
+  rotate: true
+  xy: 1277, 269
+  size: 264, 171
+  orig: 271, 271
+  offset: 4, 42
+  index: -1

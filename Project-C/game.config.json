@@ -1,0 +1,25 @@
+{
+  "id": "project-c",
+  "title": "Project-C",
+  "projectId": "project-c",
+  "project": "Project-C",
+  "bundle": "g1009",
+  "gn": "tiger-princess",
+  "gt": "slot-erase-any-times-2",
+  "buildDirectory": "build/web",
+  "previewPort": 8183,
+  "scenes": {
+    "landscape": {
+      "url": "db://assets/scenes/main.scene",
+      "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+    }
+  },
+  "defaultMode": "landscape",
+  "status": "awaiting-official-build-and-gameplay-validation",
+  "backend": "owned-local-simulation",
+  "layoutEvidence": {
+    "supportedGameLayout": "landscape",
+    "mobile": "original-landscape-fit",
+    "reason": "Original game bundle has no portrait asset paths; mainPortrait is a shared wrapper scene"
+  }
+}

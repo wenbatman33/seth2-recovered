@@ -1,0 +1,120 @@
+{
+  "project": "Project-G",
+  "passed": 9,
+  "checks": [
+    "each source art count2..5 maps to its actual JP tier, real symbols and native close queue",
+    "JP operation persists pool state and only close credits its award exactly once",
+    "free JP and entry JP wait for genuine symbol and popup callbacks then resume exactly once",
+    "foreign and ordinary terminal routing remains original",
+    "native JP popup and quick-stop distinguish JP prize, accumulated trophy and current free round",
+    "self-defined chest configuration, eligible board, persistence, no extra debit and credit once",
+    "zero probabilities disable both features; probability-one chest excludes winning/free/purchase boards",
+    "original async GameLogic opens native TreasuresView and its own completion triggers settlement",
+    "notify pool shape is delivered to source service listener before the initial response callback"
+  ],
+  "sourceRulesViewed": [
+    "rules_06.png JP count2..5",
+    "rules_07.png zero-win chest"
+  ],
+  "ownedSimulation": {
+    "jackpotPoolSeedContributionWeightsFrequency": true,
+    "mysteryChestProbabilityAndAwardDistribution": true,
+    "originalRngRestored": false,
+    "originalRtpRestored": false
+  },
+  "nativeMethodsExecuted": [
+    "SymbolView.playJpWin",
+    "CreateNewSpinCompleteFlowCmd.createFlow",
+    "CreateNewCloseSpinFlowCmd.createFlow",
+    "JackpotView.showJp",
+    "JackpotView.showJpResult",
+    "GameLogic SHOW_TREASURE_VIEW async handler",
+    "TreasuresView.showTreasureWin",
+    "TreasuresView.playCoinSprayAndRunScore"
+  ],
+  "guiVerified": false,
+  "rootInstalled": true,
+  "sourceSha256": {
+    "assets/game/scripts/g1008-CreateNewCloseSpinFlowCmd.ts": "5d10707d76ec386535b31e93dc3b18fa6d4fd3ce4d4013cfd2d56258368e2a33",
+    "assets/game/scripts/g1008-SymbolView.ts": "57bddb58c33cf80d71fab124f33d457f69d70a1d9a5ef5f9182981caf85f0b4a",
+    "assets/game/scripts/g1008-CreateNewSpinCompleteFlowCmd.ts": "a4e44bc36cc98176b2cca43c3a99a95897e3d7f9f20d25e09a946cce34e5b5b5",
+    "assets/game/scripts/g1008-JackpotView.ts": "fa24492219963b3b132c7706ec274cd580ee4d8cc0c106ee1e56ca35f48559f5",
+    "assets/game/scripts/g1008-TreasuresView.ts": "41b785d0448808a9dff55c71221adf08f5afbc26275e64b1b03ba1d2877c25ba",
+    "assets/game/scripts/g1008-GameLogic.ts": "b9bfdf0bd1d9a473ea422315358e82b87977805b26c280360bafbc49014c2897"
+  },
+  "installed": [
+    {
+      "path": "assets/game/backend/DisplayedRules.ts",
+      "sha256": "e443d087bfd4929d380f96c914b79f3a4221e533bce07e146f3b225fbb5e849b",
+      "metaUuid": "809d7fc1-aba1-4ba8-9e5a-129560d3113e",
+      "originalMetaPreserved": true
+    },
+    {
+      "path": "assets/game/backend/LocalGameBackend.ts",
+      "sha256": "0dc674e060da36b80c93f21fc47a38fdfb95403cb48af1f6d11e2e014a3be221",
+      "metaUuid": "4f0226c8-0db4-465e-b207-9c732b13e055",
+      "originalMetaPreserved": true
+    },
+    {
+      "path": "assets/game/backend/InstallLocalBackend.ts",
+      "sha256": "ce7c3e43a48bbcf3931e960d4acf058d45bdef026f53e21c9db5ed0bf5ca00dd",
+      "metaUuid": "25d7c1f4-cac1-4146-8205-d85e26a752e2",
+      "originalMetaPreserved": true
+    },
+    {
+      "path": "assets/game/backend/JackpotRules.ts",
+      "sha256": "3e8a8c5af99db1946a7dca428839506605a39e81550b7f78ccaeb624b9afd1b9",
+      "metaUuid": "68056d18-e301-4c64-b06b-63ca2fa7c884",
+      "originalMetaPreserved": false
+    },
+    {
+      "path": "assets/game/backend/SpecialRewards.ts",
+      "sha256": "440664e1d8ed22e38873c58a70233e0939c55fefe4972ff27c92a8446c3203eb",
+      "metaUuid": "f4e9c6f4-b3fc-4d82-8f96-0f964afec13f",
+      "originalMetaPreserved": false
+    },
+    {
+      "path": "assets/game/backend/LocalJackpotContinuation.ts",
+      "sha256": "cddb5bfe05956655850de543ec8698eb1a0d6d07303218ac6954e7c96ef59474",
+      "metaUuid": "a79beb9e-dc35-4965-92a5-309bf8eefc36",
+      "originalMetaPreserved": false
+    },
+    {
+      "path": "assets/game/scripts/g1008-CreateNewSpinCompleteFlowCmd.ts",
+      "sha256": "a4e44bc36cc98176b2cca43c3a99a95897e3d7f9f20d25e09a946cce34e5b5b5",
+      "metaUuid": "7f1ca061-c517-4f95-a728-cadaf0565809",
+      "originalMetaPreserved": true
+    },
+    {
+      "path": "assets/game/scripts/g1008-JackpotView.ts",
+      "sha256": "fa24492219963b3b132c7706ec274cd580ee4d8cc0c106ee1e56ca35f48559f5",
+      "metaUuid": "35a8ffda-0885-4955-9756-850150189e04",
+      "originalMetaPreserved": true
+    }
+  ],
+  "artEvidence": [
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_06.png",
+      "sha256": "b4fd8b54845c9d6231878c8dacccb35da1f489c12067c4feb60baceaaed6e7fd",
+      "viewed": true
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_07.png",
+      "sha256": "d7a3b98a8bfff415f108f27592b4eb5959b7baf3501147e8230217e8ea11fbb9",
+      "viewed": true
+    }
+  ],
+  "parserChecks": 23,
+  "sourceStable": true,
+  "buildRequired": true,
+  "sourceMethodsReplaced": 2,
+  "newOwnedMetaCount": 3,
+  "existingMetasPreserved": true,
+  "readmeNotice": "Original RNG/RTP and distributions remain unknown; this implementation generates configurable own rewards.",
+  "reproducibleTests": {
+    "backend": "Project-G/tests/test-backend.mjs",
+    "special": "Project-G/tests/test-special-rewards.mjs",
+    "fixtureSha256": "Project-G/tests/fixtures/source-manifest.json",
+    "requiresCache": false
+  }
+}

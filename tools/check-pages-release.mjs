@@ -12,7 +12,7 @@ function files(root,prefix=''){
 }
 export function checkPagesRelease(site,gitDirectory){
   const expected=files(site).sort();
-  const tracked=execFileSync('git',['--git-dir='+resolve(gitDirectory),'--work-tree='+resolve(site),'ls-files','-z'],{encoding:'utf8'}).split('\0').filter(Boolean).sort();
+  const tracked=execFileSync('git',['--git-dir='+resolve(gitDirectory),'--work-tree='+resolve(site),'ls-files','-z'],{encoding:'utf8',maxBuffer:64*1024*1024}).split('\0').filter(Boolean).sort();
   const trackedSet=new Set(tracked),expectedSet=new Set(expected);
   const missing=expected.filter(name=>!trackedSet.has(name)),extra=tracked.filter(name=>!expectedSet.has(name));
   if(missing.length||extra.length)throw Error('Static release differs from the packaged site. Missing: '+missing.join(', ')+'; extra: '+extra.join(', '));

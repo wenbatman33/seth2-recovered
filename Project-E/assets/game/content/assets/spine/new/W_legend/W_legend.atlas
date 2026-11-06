@@ -1,0 +1,293 @@
+
+W_legend.png
+size: 2683, 1064
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+legend_a_font
+  rotate: true
+  xy: 2013, 435
+  size: 162, 245
+  orig: 170, 253
+  offset: 4, 4
+  index: -1
+legend_d_font
+  rotate: false
+  xy: 2013, 827
+  size: 159, 235
+  orig: 165, 241
+  offset: 3, 3
+  index: -1
+legend_darken
+  rotate: true
+  xy: 1643, 390
+  size: 672, 368
+  orig: 720, 404
+  offset: 24, 18
+  index: -1
+legend_e2_font
+  rotate: true
+  xy: 2, 3
+  size: 172, 238
+  orig: 179, 245
+  offset: 4, 3
+  index: -1
+legend_e_font
+  rotate: false
+  xy: 2525, 362
+  size: 147, 235
+  orig: 153, 241
+  offset: 3, 3
+  index: -1
+legend_g_font
+  rotate: true
+  xy: 2236, 216
+  size: 147, 234
+  orig: 153, 241
+  offset: 3, 3
+  index: -1
+legend_glow01
+  rotate: false
+  xy: 1837, 5
+  size: 397, 383
+  orig: 399, 386
+  offset: 1, 2
+  index: -1
+legend_glow02
+  rotate: false
+  xy: 2236, 599
+  size: 397, 383
+  orig: 399, 386
+  offset: 1, 2
+  index: -1
+legend_glow03
+  rotate: true
+  xy: 924, 341
+  size: 721, 334
+  orig: 725, 339
+  offset: 0, 3
+  index: -1
+legend_l_font
+  rotate: true
+  xy: 552, 14
+  size: 195, 241
+  orig: 202, 248
+  offset: 4, 4
+  index: -1
+legend_n_font
+  rotate: false
+  xy: 2013, 599
+  size: 140, 226
+  orig: 146, 233
+  offset: 3, 4
+  index: -1
+legend_neon01
+  rotate: true
+  xy: 1260, 362
+  size: 700, 381
+  orig: 708, 387
+  offset: 4, 3
+  index: -1
+legend_neon02
+  rotate: true
+  xy: 447, 211
+  size: 851, 475
+  orig: 859, 483
+  offset: 4, 4
+  index: -1
+legend_neon03
+  rotate: true
+  xy: 2, 177
+  size: 885, 443
+  orig: 885, 443
+  offset: 0, 0
+  index: -1
+legend_r_font
+  rotate: false
+  xy: 2472, 128
+  size: 158, 232
+  orig: 164, 240
+  offset: 3, 4
+  index: -1
+legend_spark01
+  rotate: true
+  xy: 2174, 945
+  size: 54, 55
+  orig: 67, 58
+  offset: 7, 2
+  index: -1
+legend_spark02
+  rotate: true
+  xy: 2174, 945
+  size: 54, 55
+  orig: 67, 58
+  offset: 7, 2
+  index: -1
+legend_spark03
+  rotate: true
+  xy: 447, 182
+  size: 27, 25
+  orig: 34, 30
+  offset: 4, 3
+  index: -1
+legend_spark04
+  rotate: true
+  xy: 447, 182
+  size: 27, 25
+  orig: 34, 30
+  offset: 4, 3
+  index: -1
+legend_spark07
+  rotate: true
+  xy: 447, 182
+  size: 27, 25
+  orig: 34, 30
+  offset: 4, 3
+  index: -1
+legend_spark05
+  rotate: false
+  xy: 2174, 1001
+  size: 60, 61
+  orig: 75, 65
+  offset: 8, 3
+  index: -1
+legend_spark06
+  rotate: true
+  xy: 2635, 937
+  size: 45, 46
+  orig: 56, 49
+  offset: 6, 2
+  index: -1
+legend_spark08
+  rotate: false
+  xy: 1052, 15
+  size: 369, 324
+  orig: 391, 410
+  offset: 12, 43
+  index: -1
+legend_spark_01
+  rotate: false
+  xy: 1052, 15
+  size: 369, 324
+  orig: 391, 410
+  offset: 12, 43
+  index: -1
+legend_spark09
+  rotate: false
+  xy: 1423, 12
+  size: 412, 348
+  orig: 450, 468
+  offset: 18, 60
+  index: -1
+legend_spark11
+  rotate: false
+  xy: 924, 213
+  size: 126, 126
+  orig: 130, 130
+  offset: 2, 2
+  index: -1
+legend_spark12
+  rotate: false
+  xy: 2359, 121
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+legend_spark13
+  rotate: false
+  xy: 2359, 121
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+legend_spark_02
+  rotate: false
+  xy: 2260, 365
+  size: 263, 232
+  orig: 300, 309
+  offset: 18, 39
+  index: -1
+legend_spark_03
+  rotate: false
+  xy: 2174, 896
+  size: 47, 47
+  orig: 58, 50
+  offset: 6, 2
+  index: -1
+legend_spark_04
+  rotate: false
+  xy: 2174, 896
+  size: 47, 47
+  orig: 58, 50
+  offset: 6, 2
+  index: -1
+legend_spark_05
+  rotate: false
+  xy: 2174, 896
+  size: 47, 47
+  orig: 58, 50
+  offset: 6, 2
+  index: -1
+legend_spark_06
+  rotate: false
+  xy: 2174, 896
+  size: 47, 47
+  orig: 58, 50
+  offset: 6, 2
+  index: -1
+legend_spark_07
+  rotate: false
+  xy: 2174, 896
+  size: 47, 47
+  orig: 58, 50
+  offset: 6, 2
+  index: -1
+legend_spark_08
+  rotate: true
+  xy: 2155, 745
+  size: 80, 79
+  orig: 98, 84
+  offset: 9, 4
+  index: -1
+legend_spark_09
+  rotate: false
+  xy: 2236, 2
+  size: 121, 124
+  orig: 127, 151
+  offset: 5, 13
+  index: -1
+legend_spark_10
+  rotate: false
+  xy: 2359, 31
+  size: 88, 88
+  orig: 93, 108
+  offset: 4, 10
+  index: -1
+legend_spark_11
+  rotate: true
+  xy: 2236, 129
+  size: 85, 87
+  orig: 96, 109
+  offset: 8, 10
+  index: -1
+legend_spotlit
+  rotate: false
+  xy: 2236, 984
+  size: 434, 78
+  orig: 448, 88
+  offset: 7, 5
+  index: -1
+legend_win_font
+  rotate: false
+  xy: 242, 7
+  size: 308, 168
+  orig: 316, 175
+  offset: 4, 4
+  index: -1
+legend_y_font
+  rotate: true
+  xy: 795, 23
+  size: 186, 240
+  orig: 194, 248
+  offset: 4, 4
+  index: -1

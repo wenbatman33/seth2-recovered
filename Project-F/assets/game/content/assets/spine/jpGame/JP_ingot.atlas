@@ -1,0 +1,111 @@
+
+JP_ingot.png
+size: 1278,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 417, 157
+  size: 293, 314
+  orig: 295, 316
+  offset: 1, 1
+  index: -1
+ingot_00
+  rotate: false
+  xy: 417, 1
+  size: 208, 155
+  orig: 208, 155
+  offset: 0, 0
+  index: -1
+ingot_01
+  rotate: false
+  xy: 711, 316
+  size: 201, 155
+  orig: 201, 155
+  offset: 0, 0
+  index: -1
+ingot_02
+  rotate: false
+  xy: 1115, 316
+  size: 162, 155
+  orig: 162, 155
+  offset: 0, 0
+  index: -1
+ingot_03
+  rotate: false
+  xy: 1095, 160
+  size: 162, 155
+  orig: 162, 155
+  offset: 0, 0
+  index: -1
+ingot_04
+  rotate: false
+  xy: 711, 160
+  size: 201, 155
+  orig: 201, 155
+  offset: 0, 0
+  index: -1
+ingot_05
+  rotate: false
+  xy: 626, 1
+  size: 208, 155
+  orig: 208, 155
+  offset: 0, 0
+  index: -1
+ingot_06
+  rotate: false
+  xy: 913, 160
+  size: 181, 155
+  orig: 181, 155
+  offset: 0, 0
+  index: -1
+ingot_07
+  rotate: false
+  xy: 1016, 4
+  size: 162, 155
+  orig: 162, 155
+  offset: 0, 0
+  index: -1
+ingot_08
+  rotate: false
+  xy: 835, 4
+  size: 180, 155
+  orig: 180, 155
+  offset: 0, 0
+  index: -1
+ingot_09
+  rotate: false
+  xy: 913, 316
+  size: 201, 155
+  orig: 201, 155
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1179, 69
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+light_B
+  rotate: false
+  xy: 1, 9
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 1, 62
+  size: 415, 409
+  orig: 417, 411
+  offset: 1, 1
+  index: -1
+sparkle
+  rotate: false
+  xy: 1179, 39
+  size: 28, 29
+  orig: 30, 31
+  offset: 1, 1
+  index: -1

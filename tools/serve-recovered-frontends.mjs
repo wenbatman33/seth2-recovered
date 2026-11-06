@@ -1,24 +1,28 @@
 import { createServer, get } from 'node:http';
-import { createReadStream, statSync } from 'node:fs';
+import { createReadStream, statSync, readFileSync } from 'node:fs';
 import { dirname, resolve, extname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {loadGames} from './project-registry.mjs';
 const project = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const port = Number(process.argv[2] || 8174);
 const development = process.argv.includes('--development');
-const games = Object.fromEntries(loadGames().map(g=>[g.id,g]));
+const listedGames=loadGames();
+// The same folder links work on the local preview and the packaged static site.
+// Original neutral route IDs remain accepted for existing bookmarks.
+const games=Object.fromEntries(listedGames.flatMap(g=>[[g.id,g],[g.folder,g]]));
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.json': 'application/json', '.css': 'text/css', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.mp3': 'audio/mpeg', '.ogg': 'audio/ogg', '.wav': 'audio/wav', '.wasm': 'application/wasm', '.ttf': 'font/ttf', '.woff': 'font/woff' };
-function catalogPage(){return `<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>本機遊戲集合</title><style>body{margin:0;padding:32px;background:#101318;color:#eee;font:18px system-ui}main{max-width:600px;margin:auto}a{display:block;padding:20px;margin:20px 0;color:#ffe1a0;border:1px solid #695b3c;border-radius:8px;text-decoration:none}small{color:#bbb}</style><main><h1>本機遊戲集合</h1><small>原始客戶端素材 · 自有模擬後端</small>${loadGames().map(g=>g.available?`<a href="/${g.id}/?gn=${g.gn}&l=zh-tw${development?'&reaDevelopmentMute=1':''}">${g.displayTitle}</a>`:`<p>${g.displayTitle}：尚未建置</p>`).join('')}</main></html>`;}
+function catalogPage(){return readFileSync(resolve(project,'index.html'),'utf8');}
 const server = createServer((request, response) => {
   const url = new URL(request.url, `http://127.0.0.1:${port}`);
   if (!['GET', 'HEAD'].includes(request.method)) { response.writeHead(405).end(); return; }
-  if (url.pathname === '/__recovered_health') { response.setHeader('Content-Type','application/json'); response.end(JSON.stringify({ project, catalogVersion:2, games:Object.keys(games), development })); return; }
+  if (url.pathname === '/__recovered_health') { response.setHeader('Content-Type','application/json'); response.end(JSON.stringify({ project, catalogVersion:2, games:listedGames.map(g=>g.id), development })); return; }
   if (url.pathname === '/') { response.setHeader('Content-Type','text/html; charset=utf-8'); response.end(request.method === 'HEAD' ? '' : catalogPage()); return; }
   try {
     const [key, ...parts] = decodeURIComponent(url.pathname).split('/').filter(Boolean), game = games[key];
     if (!game) throw Error('Unknown game');
-    if (!parts.length && (!url.pathname.endsWith('/') || !url.searchParams.has('gn'))) {
+    if (!parts.length && (!url.pathname.endsWith('/') || !url.searchParams.has('gn') || development && !url.searchParams.has('reaDevelopmentMute'))) {
       url.pathname = `/${key}/`; url.searchParams.set('gn',game.gn);
+      if(development)url.searchParams.set('reaDevelopmentMute','1');
       response.writeHead(302, { Location: url.pathname + url.search }).end(); return;
     }
     const root = game.root, path = resolve(root, parts.join('/') || 'index.html');

@@ -1,0 +1,188 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "ChestFalling",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "ChestFalling",
+    "_layer": 33554432,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -82,
+      "y": 198.95999999999998,
+      "z": 0
+    },
+    "_id": "e40a63af-1514-5e60-98ed-7df9383cd915"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bonus",
+    "_layer": 33554432,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      }
+    ],
+    "_prefab": {
+      "__id__": 9
+    },
+    "_id": "18a0cfa5-d7cb-5e48-8801-ae1114e86a73"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 10
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 160
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5375,
+      "y": 0.6184999999999999
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "e5da3be0-62c6-557f-9b72-a1ad67d3afbd"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_preCacheMode": 0,
+    "_premultipliedAlpha": false,
+    "defaultSkin": "default",
+    "defaultAnimation": "normal",
+    "__prefab": {
+      "__id__": 11
+    },
+    "_skeletonData": {
+      "__uuid__": "5b49c9af-85e3-49fd-87cb-331e8ce57b93"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "d4a0c3fb-7e84-518e-a618-01fc492374b1"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "f0DOVtmJRJWbiVpFge0Wru",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 12
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100.67,
+      "height": 44
+    },
+    "node": {
+      "__id__": 2
+    },
+    "_id": "a0cee52e-768a-5f17-85e7-813ddbc59283"
+  },
+  {
+    "__type__": "cc.Label",
+    "_string": "999",
+    "_actualFontSize": 44,
+    "_fontSize": 44,
+    "_lineHeight": 44,
+    "_isSystemFontUsed": false,
+    "_spacingX": 2,
+    "__prefab": {
+      "__id__": 13
+    },
+    "_font": {
+      "__uuid__": "ef47b7a9-e3ef-419b-8396-5ab2af910f93"
+    },
+    "node": {
+      "__id__": 2
+    },
+    "_id": "7af7adea-fb99-592b-af84-8371c5275fd7"
+  },
+  {
+    "__type__": "cc.UIOpacity",
+    "__prefab": {
+      "__id__": 14
+    },
+    "node": {
+      "__id__": 2
+    },
+    "_id": "7d0c6bef-d004-5552-bb00-13053bf4ae5b"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "e5nZvhZsdBjJEzUUlpePer",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "348jPB1qlHV6mjlqvaNDY1"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "f4Tk7UsqNKGb1NB1KjWOVw"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "69Lin6pXlFWbdduKYfxl14"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "49EUqacBFBsZ7b7780w4Fx"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "91QglrwBlOM5Ys9D+eyEhD"
+  }
+]

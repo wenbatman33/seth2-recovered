@@ -1,0 +1,14 @@
+{
+  "name": "project-e",
+  "uuid": "3d4172a8-7a7f-466c-9bfd-d0e0f2c5a42a",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent recovered frontend sources; gameplay validation pending",
+  "scripts": {
+    "preview": "node tools/start-preview.cjs",
+    "preview:dev": "node tools/start-preview.cjs --development"
+  }
+}

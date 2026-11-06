@@ -1,0 +1,4962 @@
+{
+  "skeleton": {
+    "hash": "GgUek5Gb3E83VC4uGAhmJw/vb9U",
+    "spine": "3.8.57",
+    "x": -775.7,
+    "y": -396.36,
+    "width": 1578.8,
+    "height": 1249.89
+  },
+  "bones": [
+    {
+      "name": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "MEGAWIN_ray-01",
+      "bone": "root",
+      "attachment": "MEGAWIN_ray-01"
+    },
+    {
+      "name": "M_A",
+      "bone": "root",
+      "attachment": "M_A"
+    },
+    {
+      "name": "M_G",
+      "bone": "root",
+      "attachment": "M_G"
+    },
+    {
+      "name": "M_E",
+      "bone": "root",
+      "attachment": "M_E"
+    },
+    {
+      "name": "M_M",
+      "bone": "root",
+      "attachment": "M_M"
+    },
+    {
+      "name": "MEGAWIN_ray-1",
+      "bone": "root",
+      "attachment": "MEGAWIN_ray-01",
+      "blend": "screen"
+    },
+    {
+      "name": "M_N",
+      "bone": "root",
+      "attachment": "M_N"
+    },
+    {
+      "name": "M_I",
+      "bone": "root",
+      "attachment": "M_I"
+    },
+    {
+      "name": "M_W",
+      "bone": "root",
+      "attachment": "M_W"
+    },
+    {
+      "name": "S_N",
+      "bone": "root",
+      "attachment": "S_N"
+    },
+    {
+      "name": "S_I",
+      "bone": "root",
+      "attachment": "S_I"
+    },
+    {
+      "name": "S_W",
+      "bone": "root",
+      "attachment": "S_W"
+    },
+    {
+      "name": "S_R",
+      "bone": "root",
+      "attachment": "S_R"
+    },
+    {
+      "name": "S_E",
+      "bone": "root",
+      "attachment": "S_E"
+    },
+    {
+      "name": "S_P",
+      "bone": "root",
+      "attachment": "S_P"
+    },
+    {
+      "name": "S_U",
+      "bone": "root",
+      "attachment": "S_U"
+    },
+    {
+      "name": "S_S",
+      "bone": "root",
+      "attachment": "S_S"
+    },
+    {
+      "name": "S_+color",
+      "bone": "root",
+      "attachment": "S_+color",
+      "blend": "additive"
+    },
+    {
+      "name": "S_+color2",
+      "bone": "root",
+      "attachment": "S_+color",
+      "blend": "additive"
+    },
+    {
+      "name": "MEGA_ray-05",
+      "bone": "root",
+      "attachment": "MEGA_ray-05",
+      "blend": "screen"
+    },
+    {
+      "name": "MEGA_ray-04",
+      "bone": "root",
+      "attachment": "MEGA_ray-04",
+      "blend": "additive"
+    },
+    {
+      "name": "MEGA_ray-03",
+      "bone": "root",
+      "attachment": "MEGA_ray-03",
+      "blend": "screen"
+    },
+    {
+      "name": "MEGA_ray-02",
+      "bone": "root",
+      "attachment": "MEGA_ray-02",
+      "blend": "additive"
+    },
+    {
+      "name": "MEGA_ray-01",
+      "bone": "root",
+      "attachment": "MEGA_ray-01",
+      "blend": "additive"
+    },
+    {
+      "name": "MEGA_ray-1",
+      "bone": "root",
+      "attachment": "MEGA_ray-01",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-01",
+      "bone": "root",
+      "attachment": "SUPER_ray-01",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-02",
+      "bone": "root",
+      "attachment": "SUPER_ray-02",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-6",
+      "bone": "root",
+      "attachment": "SUPER_ray-02",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-2",
+      "bone": "root",
+      "attachment": "SUPER_ray-02",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-03",
+      "bone": "root",
+      "attachment": "SUPER_ray-03",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-3",
+      "bone": "root",
+      "attachment": "SUPER_ray-03",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-4",
+      "bone": "root",
+      "attachment": "SUPER_ray-03",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-04",
+      "bone": "root",
+      "attachment": "SUPER_ray-04",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-7",
+      "bone": "root",
+      "attachment": "SUPER_ray-04",
+      "blend": "additive"
+    },
+    {
+      "name": "SUPER_ray-5",
+      "bone": "root",
+      "attachment": "SUPER_ray-04",
+      "blend": "additive"
+    },
+    {
+      "name": "BIGWIN_ray-01",
+      "bone": "root",
+      "attachment": "BIGWIN_ray-01"
+    },
+    {
+      "name": "BIGWIN_ray-1",
+      "bone": "root",
+      "attachment": "BIGWIN_ray-01",
+      "blend": "additive"
+    },
+    {
+      "name": "BIGWIN_ray-02",
+      "bone": "root",
+      "attachment": "BIGWIN_ray-02"
+    },
+    {
+      "name": "BIGWIN_ray-2",
+      "bone": "root",
+      "attachment": "BIGWIN_ray-02",
+      "blend": "additive"
+    },
+    {
+      "name": "N",
+      "bone": "root",
+      "attachment": "N"
+    },
+    {
+      "name": "I-2",
+      "bone": "root",
+      "attachment": "I-2"
+    },
+    {
+      "name": "W",
+      "bone": "root",
+      "attachment": "W"
+    },
+    {
+      "name": "G",
+      "bone": "root",
+      "attachment": "G"
+    },
+    {
+      "name": "I-1",
+      "bone": "root",
+      "attachment": "I-1"
+    },
+    {
+      "name": "B",
+      "bone": "root",
+      "attachment": "B"
+    },
+    {
+      "name": "Big_ray-01",
+      "bone": "root",
+      "attachment": "Big_ray-01",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-010",
+      "bone": "root",
+      "attachment": "Big_ray-010",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-02",
+      "bone": "root",
+      "attachment": "Big_ray-02",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-03",
+      "bone": "root",
+      "attachment": "Big_ray-03",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-04",
+      "bone": "root",
+      "attachment": "Big_ray-04",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-05",
+      "bone": "root",
+      "attachment": "Big_ray-05",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-06",
+      "bone": "root",
+      "attachment": "Big_ray-06",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-07",
+      "bone": "root",
+      "attachment": "Big_ray-07",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-7",
+      "bone": "root",
+      "attachment": "Big_ray-07",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-08",
+      "bone": "root",
+      "attachment": "Big_ray-08",
+      "blend": "additive"
+    },
+    {
+      "name": "Big_ray-09",
+      "bone": "root",
+      "attachment": "Big_ray-09",
+      "blend": "additive"
+    },
+    {
+      "name": "WIN",
+      "bone": "root",
+      "attachment": "BIGWIN_ray-02"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "S_+color": {
+          "S_+color": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              478,
+              190.1,
+              -477,
+              190.1,
+              -477,
+              489.1,
+              478,
+              489.1
+            ]
+          }
+        },
+        "BIGWIN_ray-02": {
+          "BIGWIN_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              539.69,
+              72.84,
+              -44.31,
+              72.84,
+              -44.31,
+              338.84,
+              539.69,
+              338.84
+            ]
+          }
+        },
+        "SUPER_ray-2": {
+          "SUPER_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              407.69,
+              78.95,
+              93.69,
+              78.95,
+              93.69,
+              327.95,
+              407.69,
+              327.95
+            ]
+          }
+        },
+        "BIGWIN_ray-01": {
+          "BIGWIN_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              2.98,
+              68.44,
+              -545.02,
+              68.44,
+              -545.02,
+              343.44,
+              2.98,
+              343.44
+            ]
+          }
+        },
+        "SUPER_ray-02": {
+          "SUPER_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -58.49,
+              -54.59,
+              -372.49,
+              -54.59,
+              -372.49,
+              194.41,
+              -58.49,
+              194.41
+            ]
+          }
+        },
+        "BIGWIN_ray-1": {
+          "BIGWIN_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              2.98,
+              68.44,
+              -545.02,
+              68.44,
+              -545.02,
+              343.44,
+              2.98,
+              343.44
+            ]
+          }
+        },
+        "BIGWIN_ray-2": {
+          "BIGWIN_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              539.69,
+              72.84,
+              -44.31,
+              72.84,
+              -44.31,
+              338.84,
+              539.69,
+              338.84
+            ]
+          }
+        },
+        "I-1": {
+          "I-1": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -191.66,
+              113.8,
+              -330.66,
+              113.8,
+              -330.66,
+              293.8,
+              -191.66,
+              293.8
+            ]
+          }
+        },
+        "S_+color2": {
+          "S_+color": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              478,
+              190.1,
+              -477,
+              190.1,
+              -477,
+              489.1,
+              478,
+              489.1
+            ]
+          }
+        },
+        "I-2": {
+          "I-2": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              325.87,
+              113.35,
+              186.87,
+              113.35,
+              186.87,
+              292.35,
+              325.87,
+              292.35
+            ]
+          }
+        },
+        "W": {
+          "W": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              263.63,
+              101.89,
+              -19.37,
+              101.89,
+              -19.37,
+              308.89,
+              263.63,
+              308.89
+            ]
+          }
+        },
+        "S_W": {
+          "S_W": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              1.92,
+              8.43,
+              -296.08,
+              8.43,
+              -296.08,
+              245.43,
+              1.92,
+              245.43
+            ]
+          }
+        },
+        "WIN": {
+          "BIGWIN_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              292,
+              68.81,
+              -292,
+              68.81,
+              -292,
+              334.81,
+              292,
+              334.81
+            ]
+          }
+        },
+        "MEGA_ray-1": {
+          "MEGA_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              253.7,
+              -66.72,
+              -226.3,
+              -66.72,
+              -226.3,
+              313.28,
+              253.7,
+              313.28
+            ]
+          }
+        },
+        "B": {
+          "B": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -284.75,
+              95.17,
+              -519.75,
+              95.17,
+              -519.75,
+              316.17,
+              -284.75,
+              316.17
+            ]
+          }
+        },
+        "Big_ray-01": {
+          "Big_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -309.76,
+              140.74,
+              -597.76,
+              140.74,
+              -597.76,
+              331.74,
+              -309.76,
+              331.74
+            ]
+          }
+        },
+        "Big_ray-02": {
+          "Big_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              109.63,
+              144.72,
+              -56.37,
+              144.72,
+              -56.37,
+              254.72,
+              109.63,
+              254.72
+            ]
+          }
+        },
+        "Big_ray-03": {
+          "Big_ray-03": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -48.98,
+              151.05,
+              -181.98,
+              151.05,
+              -181.98,
+              284.05,
+              -48.98,
+              284.05
+            ]
+          }
+        },
+        "Big_ray-04": {
+          "Big_ray-04": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              476.64,
+              185.25,
+              343.64,
+              185.25,
+              343.64,
+              318.25,
+              476.64,
+              318.25
+            ]
+          }
+        },
+        "G": {
+          "G": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -22.51,
+              97.05,
+              -245.51,
+              97.05,
+              -245.51,
+              312.05,
+              -22.51,
+              312.05
+            ]
+          }
+        },
+        "Big_ray-06": {
+          "Big_ray-06": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -263,
+              100.56,
+              -396,
+              100.56,
+              -396,
+              233.56,
+              -263,
+              233.56
+            ]
+          }
+        },
+        "Big_ray-07": {
+          "Big_ray-07": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              243.12,
+              36.86,
+              -265.02,
+              36.86,
+              -265.02,
+              371.21,
+              243.12,
+              371.21
+            ]
+          }
+        },
+        "Big_ray-08": {
+          "Big_ray-08": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              67,
+              146.36,
+              -66,
+              146.36,
+              -66,
+              279.36,
+              67,
+              279.36
+            ]
+          }
+        },
+        "Big_ray-09": {
+          "Big_ray-09": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              525.61,
+              141.98,
+              181.61,
+              141.98,
+              181.61,
+              367.98,
+              525.61,
+              367.98
+            ]
+          }
+        },
+        "MEGAWIN_ray-01": {
+          "MEGAWIN_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              464.7,
+              126.28,
+              -427.3,
+              126.28,
+              -427.3,
+              514.28,
+              464.7,
+              514.28
+            ]
+          }
+        },
+        "Big_ray-010": {
+          "Big_ray-010": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              47.22,
+              136.99,
+              -85.78,
+              136.99,
+              -85.78,
+              269.99,
+              47.22,
+              269.99
+            ]
+          }
+        },
+        "N": {
+          "N": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              514.01,
+              99.8,
+              267.01,
+              99.8,
+              267.01,
+              311.8,
+              514.01,
+              311.8
+            ]
+          }
+        },
+        "M_A": {
+          "M_A": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              440.7,
+              253.28,
+              241.7,
+              253.28,
+              241.7,
+              475.28,
+              440.7,
+              475.28
+            ]
+          }
+        },
+        "M_E": {
+          "M_E": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              137.7,
+              219.28,
+              -107.3,
+              219.28,
+              -107.3,
+              488.28,
+              137.7,
+              488.28
+            ]
+          }
+        },
+        "M_G": {
+          "M_G": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              303.7,
+              242.28,
+              97.7,
+              242.28,
+              97.7,
+              486.28,
+              303.7,
+              486.28
+            ]
+          }
+        },
+        "M_I": {
+          "M_I": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              108.7,
+              21.28,
+              -81.3,
+              21.28,
+              -81.3,
+              237.28,
+              108.7,
+              237.28
+            ]
+          }
+        },
+        "Big_ray-05": {
+          "Big_ray-05": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              234.6,
+              71.41,
+              101.6,
+              71.41,
+              101.6,
+              204.41,
+              234.6,
+              204.41
+            ]
+          }
+        },
+        "M_M": {
+          "M_M": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -35.3,
+              152.28,
+              -402.3,
+              152.28,
+              -402.3,
+              484.28,
+              -35.3,
+              484.28
+            ]
+          }
+        },
+        "M_N": {
+          "M_N": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              345.7,
+              23.28,
+              34.7,
+              23.28,
+              34.7,
+              249.28,
+              345.7,
+              249.28
+            ]
+          }
+        },
+        "S_I": {
+          "S_I": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              108.33,
+              31.82,
+              -36.67,
+              31.82,
+              -36.67,
+              244.82,
+              108.33,
+              244.82
+            ]
+          }
+        },
+        "MEGAWIN_ray-1": {
+          "MEGAWIN_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              464.7,
+              126.28,
+              -427.3,
+              126.28,
+              -427.3,
+              514.28,
+              464.7,
+              514.28
+            ]
+          }
+        },
+        "S_N": {
+          "S_N": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              306.77,
+              21.5,
+              77.77,
+              21.5,
+              77.77,
+              241.5,
+              306.77,
+              241.5
+            ]
+          }
+        },
+        "S_P": {
+          "S_P": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              111.36,
+              254.92,
+              -89.64,
+              254.92,
+              -89.64,
+              483.92,
+              111.36,
+              483.92
+            ]
+          }
+        },
+        "M_W": {
+          "M_W": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -12.3,
+              6.28,
+              -273.3,
+              6.28,
+              -273.3,
+              223.28,
+              -12.3,
+              223.28
+            ]
+          }
+        },
+        "S_R": {
+          "S_R": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              488.47,
+              186.05,
+              224.47,
+              186.05,
+              224.47,
+              493.05,
+              488.47,
+              493.05
+            ]
+          }
+        },
+        "S_E": {
+          "S_E": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              290.39,
+              246.4,
+              72.39,
+              246.4,
+              72.39,
+              482.4,
+              290.39,
+              482.4
+            ]
+          }
+        },
+        "SUPER_ray-01": {
+          "SUPER_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              198.82,
+              121.56,
+              21.82,
+              121.56,
+              21.82,
+              314.56,
+              198.82,
+              314.56
+            ]
+          }
+        },
+        "S_U": {
+          "S_U": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -75.52,
+              235.46,
+              -296.52,
+              235.46,
+              -296.52,
+              475.46,
+              -75.52,
+              475.46
+            ]
+          }
+        },
+        "SUPER_ray-03": {
+          "SUPER_ray-03": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -361.02,
+              324.76,
+              -561.02,
+              324.76,
+              -561.02,
+              524.76,
+              -361.02,
+              524.76
+            ]
+          }
+        },
+        "SUPER_ray-04": {
+          "SUPER_ray-04": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -238.75,
+              24.84,
+              -552.75,
+              24.84,
+              -552.75,
+              369.84,
+              -238.75,
+              369.84
+            ]
+          }
+        },
+        "SUPER_ray-3": {
+          "SUPER_ray-03": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              467.19,
+              385.18,
+              373.75,
+              385.18,
+              373.75,
+              478.61,
+              467.19,
+              478.61
+            ]
+          }
+        },
+        "SUPER_ray-4": {
+          "SUPER_ray-03": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              364.58,
+              194.32,
+              230.17,
+              194.32,
+              230.17,
+              328.73,
+              364.58,
+              328.73
+            ]
+          }
+        },
+        "SUPER_ray-5": {
+          "SUPER_ray-04": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              198.29,
+              203.3,
+              -115.71,
+              203.3,
+              -115.71,
+              548.3,
+              198.29,
+              548.3
+            ]
+          }
+        },
+        "SUPER_ray-6": {
+          "SUPER_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              536.97,
+              -125.71,
+              -533.34,
+              -125.71,
+              -533.34,
+              723.04,
+              536.97,
+              723.04
+            ]
+          }
+        },
+        "SUPER_ray-7": {
+          "SUPER_ray-04": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              597.05,
+              188.02,
+              283.05,
+              188.02,
+              283.05,
+              533.02,
+              597.05,
+              533.02
+            ]
+          }
+        },
+        "MEGA_ray-01": {
+          "MEGA_ray-01": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              803.11,
+              -396.36,
+              -775.7,
+              -396.36,
+              -775.7,
+              853.52,
+              803.11,
+              853.52
+            ]
+          }
+        },
+        "MEGA_ray-02": {
+          "MEGA_ray-02": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              636.7,
+              140.28,
+              156.7,
+              140.28,
+              156.7,
+              520.28,
+              636.7,
+              520.28
+            ]
+          }
+        },
+        "MEGA_ray-03": {
+          "MEGA_ray-03": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -163.3,
+              197.28,
+              -497.3,
+              197.28,
+              -497.3,
+              462.28,
+              -163.3,
+              462.28
+            ]
+          }
+        },
+        "MEGA_ray-04": {
+          "MEGA_ray-04": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -12.3,
+              240.28,
+              -239.3,
+              240.28,
+              -239.3,
+              420.28,
+              -12.3,
+              420.28
+            ]
+          }
+        },
+        "MEGA_ray-05": {
+          "MEGA_ray-05": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              333.7,
+              234.28,
+              106.7,
+              234.28,
+              106.7,
+              414.28,
+              333.7,
+              414.28
+            ]
+          }
+        },
+        "S_S": {
+          "S_S": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -236.56,
+              170.38,
+              -489.56,
+              170.38,
+              -489.56,
+              483.38,
+              -236.56,
+              483.38
+            ]
+          }
+        },
+        "Big_ray-7": {
+          "Big_ray-07": {
+            "type": "mesh",
+            "hull": 4,
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              436.66,
+              -148.84,
+              -458.57,
+              -148.84,
+              -458.57,
+              556.91,
+              436.66,
+              556.91
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "W_bigwin": {
+      "slots": {
+        "Big_ray-08": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-08"
+            }
+          ]
+        },
+        "S_E": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-4": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-5": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_+color": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_G": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-01"
+            }
+          ]
+        },
+        "Big_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-02"
+            }
+          ]
+        },
+        "BIGWIN_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "BIGWIN_ray-02"
+            }
+          ]
+        },
+        "WIN": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_A": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_S": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_R": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_I": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-04"
+            }
+          ]
+        },
+        "MEGA_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-07": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-07"
+            }
+          ]
+        },
+        "BIGWIN_ray-1": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "BIGWIN_ray-01"
+            }
+          ]
+        },
+        "M_N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-010": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-010"
+            }
+          ]
+        },
+        "MEGA_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-6": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "BIGWIN_ray-01"
+            }
+          ]
+        },
+        "S_N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-7": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-07"
+            }
+          ]
+        },
+        "Big_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-05"
+            }
+          ]
+        },
+        "Big_ray-06": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-06"
+            }
+          ]
+        },
+        "MEGAWIN_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-03"
+            }
+          ]
+        },
+        "BIGWIN_ray-2": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "BIGWIN_ray-02"
+            }
+          ]
+        },
+        "M_M": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_+color2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_P": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-3": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_E": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_U": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-09": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.3333,
+              "name": "Big_ray-09"
+            }
+          ]
+        },
+        "SUPER_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_I": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "W": {
+            "W": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  896.50824,
+                  -2.12861,
+                  776.76874,
+                  -2.12861,
+                  776.76874,
+                  2.12863,
+                  896.50824,
+                  2.12863
+                ]
+              },
+              {
+                "time": 0.1333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -23.11402,
+                  0,
+                  -23.11402,
+                  0,
+                  -23.11402,
+                  0,
+                  -23.11402
+                ]
+              },
+              {
+                "time": 0.3333
+              }
+            ]
+          },
+          "I-1": {
+            "I-1": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -611.58887,
+                  0,
+                  -611.58887,
+                  0,
+                  -611.58887,
+                  0,
+                  -611.58887
+                ]
+              },
+              {
+                "time": 0.2
+              }
+            ]
+          },
+          "N": {
+            "N": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  477.11694,
+                  0,
+                  477.11694,
+                  0,
+                  477.11694,
+                  0,
+                  477.11694
+                ]
+              },
+              {
+                "time": 0.3333
+              }
+            ]
+          },
+          "BIGWIN_ray-1": {
+            "BIGWIN_ray-01": [
+              {
+                "time": 0.3333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  38.6555,
+                  -19.82252,
+                  -40.3598,
+                  -19.82252,
+                  -40.3598,
+                  19.82932,
+                  38.6555,
+                  19.82932
+                ]
+              }
+            ]
+          },
+          "G": {
+            "G": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -705.97797,
+                  0,
+                  -705.97797,
+                  0,
+                  -705.97797,
+                  0,
+                  -705.97797
+                ]
+              },
+              {
+                "time": 0.1333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  54.48294,
+                  0,
+                  54.48294,
+                  0,
+                  54.48294,
+                  0,
+                  54.48294
+                ]
+              },
+              {
+                "time": 0.3333
+              }
+            ]
+          },
+          "BIGWIN_ray-01": {
+            "BIGWIN_ray-01": [
+              {
+                "time": 0.3333
+              }
+            ]
+          },
+          "BIGWIN_ray-2": {
+            "BIGWIN_ray-02": [
+              {
+                "time": 0.3333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  47.02197,
+                  -19.18783,
+                  -37.18403,
+                  -19.18783,
+                  -37.18403,
+                  19.16632,
+                  47.02197,
+                  19.16632
+                ]
+              }
+            ]
+          },
+          "I-2": {
+            "I-2": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  563.748,
+                  0,
+                  563.748,
+                  0,
+                  563.748,
+                  0,
+                  563.748
+                ]
+              },
+              {
+                "time": 0.2
+              }
+            ]
+          },
+          "B": {
+            "B": [
+              {
+                "curve": 0.245,
+                "c3": 0.711,
+                "c4": 0.83,
+                "vertices": [
+                  -448.97192,
+                  -10.66071,
+                  -605.37494,
+                  -10.66071,
+                  -605.37494,
+                  10.66074,
+                  -448.97192,
+                  10.66074
+                ]
+              },
+              {
+                "time": 0.3,
+                "curve": 0.36,
+                "c2": 0.64,
+                "c3": 0.695,
+                "vertices": [
+                  -19.10519,
+                  -0.45365,
+                  -80.24353,
+                  -0.45365,
+                  -80.24353,
+                  0.45365,
+                  -19.10519,
+                  0.45365
+                ]
+              },
+              {
+                "time": 0.3333
+              }
+            ]
+          }
+        }
+      }
+    },
+    "W_megawin": {
+      "slots": {
+        "Big_ray-08": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_E": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-4": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-5": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "I-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "B": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "WIN": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "I-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_S": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_R": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGA_ray-05"
+            }
+          ]
+        },
+        "N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_U": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-07": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "G": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-010": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGA_ray-01"
+            }
+          ]
+        },
+        "SUPER_ray-6": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-06": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-1": {
+          "color": [
+            {
+              "time": 0.5667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGAWIN_ray-01"
+            }
+          ]
+        },
+        "BIGWIN_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_P": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-3": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGA_ray-02"
+            }
+          ]
+        },
+        "MEGA_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGA_ray-04"
+            }
+          ]
+        },
+        "S_+color2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGA_ray-03"
+            }
+          ]
+        },
+        "MEGA_ray-01": {
+          "color": [
+            {
+              "time": 0.5667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGA_ray-01"
+            }
+          ]
+        },
+        "SUPER_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-09": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_I": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.5667,
+              "name": "MEGAWIN_ray-01"
+            }
+          ]
+        },
+        "S_+color": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "M_G": {
+            "M_G": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -875.1999,
+                  -120.77502,
+                  -669.1999,
+                  -120.77502,
+                  -669.1999,
+                  -364.77502,
+                  -875.1999,
+                  -364.77502
+                ]
+              },
+              {
+                "time": 0.3667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  113.32004,
+                  -6.65971,
+                  -40.19505,
+                  -47.60966,
+                  -40.19505,
+                  47.60971,
+                  113.32004,
+                  88.55966
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "M_N": {
+            "M_N": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  218.8999,
+                  113,
+                  529.8999,
+                  113,
+                  529.8999,
+                  -113,
+                  218.8999,
+                  -113
+                ]
+              },
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  154.54987,
+                  -15.69989,
+                  465.54987,
+                  -15.69989,
+                  465.54987,
+                  -241.69989,
+                  154.54987,
+                  -241.69989
+                ]
+              },
+              {
+                "time": 0.6667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  41.18732,
+                  -29.93034,
+                  -41.18733,
+                  -29.93034,
+                  -41.18733,
+                  29.93034,
+                  41.18732,
+                  29.93034
+                ]
+              },
+              {
+                "time": 0.7667
+              }
+            ]
+          },
+          "M_A": {
+            "M_A": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -898.02466,
+                  -149.3252,
+                  -699.02466,
+                  -149.3252,
+                  -699.02466,
+                  -371.3252,
+                  -898.02466,
+                  -371.3252
+                ]
+              },
+              {
+                "time": 0.4667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  105.98856,
+                  18.81015,
+                  16.86136,
+                  18.81015,
+                  16.86136,
+                  -18.81018,
+                  105.98856,
+                  -18.81018
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "M_I": {
+            "M_I": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  343.74994,
+                  108,
+                  533.75,
+                  108,
+                  533.75,
+                  -108,
+                  343.74994,
+                  -108
+                ]
+              },
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  343.74994,
+                  -20.69983,
+                  533.75,
+                  -20.69983,
+                  533.75,
+                  -236.69983,
+                  343.74994,
+                  -236.69983
+                ]
+              },
+              {
+                "time": 0.5667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -13.89375,
+                  15.795,
+                  13.89375,
+                  15.795,
+                  13.89375,
+                  -15.795,
+                  -13.89375,
+                  -15.795
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "M_M": {
+            "M_M": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -771.425,
+                  -41.67505,
+                  -404.425,
+                  -41.67505,
+                  -404.425,
+                  -373.67505,
+                  -771.425,
+                  -373.67505
+                ]
+              },
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  209.329,
+                  -25.29631,
+                  38.99643,
+                  -25.29631,
+                  38.99643,
+                  62.64056,
+                  209.329,
+                  62.64056
+                ]
+              },
+              {
+                "time": 0.5
+              }
+            ]
+          },
+          "MEGAWIN_ray-01": {
+            "MEGAWIN_ray-01": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667
+              }
+            ]
+          },
+          "M_W": {
+            "M_W": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  398.92484,
+                  108.5,
+                  659.9248,
+                  108.5,
+                  659.9248,
+                  -108.5,
+                  398.92484,
+                  -108.5
+                ]
+              },
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  469.12488,
+                  -8.49994,
+                  730.1248,
+                  -8.49994,
+                  730.1248,
+                  -225.49994,
+                  469.12488,
+                  -225.49994
+                ]
+              },
+              {
+                "time": 0.4667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  68.70844,
+                  -57.1254,
+                  -68.70844,
+                  -57.1254,
+                  -68.70844,
+                  57.12541,
+                  68.70844,
+                  57.12541
+                ]
+              },
+              {
+                "time": 0.5667
+              }
+            ]
+          },
+          "MEGAWIN_ray-1": {
+            "MEGAWIN_ray-01": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667
+              },
+              {
+                "time": 0.9667,
+                "vertices": [
+                  78.27267,
+                  -34.04684,
+                  -78.27261,
+                  -34.04684,
+                  -78.27261,
+                  34.04688,
+                  78.27267,
+                  34.04688
+                ]
+              }
+            ]
+          },
+          "M_E": {
+            "M_E": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -836.19995,
+                  -93.6499,
+                  -591.2,
+                  -93.6499,
+                  -591.2,
+                  -362.6499,
+                  -836.19995,
+                  -362.6499
+                ]
+              },
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -32.44658,
+                  35.62503,
+                  32.44658,
+                  35.62503,
+                  32.44658,
+                  -35.62503,
+                  -32.44658,
+                  -35.62503
+                ]
+              },
+              {
+                "time": 0.4667
+              }
+            ]
+          }
+        }
+      }
+    },
+    "W_superwin": {
+      "slots": {
+        "Big_ray-08": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-4": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-03"
+            }
+          ]
+        },
+        "SUPER_ray-5": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-04"
+            }
+          ]
+        },
+        "SUPER_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-01"
+            }
+          ]
+        },
+        "I-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_G": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-04"
+            }
+          ]
+        },
+        "I-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_+color": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6,
+              "name": "S_+color"
+            }
+          ]
+        },
+        "MEGA_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_I": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-07": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "G": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-010": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-6": {
+          "color": [
+            {
+              "time": 0.6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-02"
+            }
+          ]
+        },
+        "SUPER_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-02"
+            }
+          ]
+        },
+        "SUPER_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-04"
+            }
+          ]
+        },
+        "Big_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-06": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_M": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-3": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-03"
+            }
+          ]
+        },
+        "M_N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_E": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-02"
+            }
+          ]
+        },
+        "MEGA_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "B": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6667,
+              "name": "SUPER_ray-03"
+            }
+          ]
+        },
+        "M_A": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-09": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "WIN": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_+color2": {
+          "color": [
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "name": null
+            },
+            {
+              "time": 0.6,
+              "name": "S_+color"
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "S_R": {
+            "S_R": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -489.4497,
+                  -185.7997,
+                  -225.44969,
+                  -185.7997,
+                  -225.44969,
+                  -492.79974,
+                  -489.4497,
+                  -492.79974
+                ]
+              },
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  56.68427,
+                  -51.97666,
+                  26.38219,
+                  -51.97666,
+                  26.38219,
+                  -16.73898,
+                  56.68427,
+                  -16.73898
+                ]
+              },
+              {
+                "time": 0.4333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -121.9044,
+                  25.73376,
+                  -56.08672,
+                  25.73376,
+                  -56.08672,
+                  -50.80429,
+                  -121.9044,
+                  -50.80429
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "S_U": {
+            "S_U": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  74.42613,
+                  -232.70894,
+                  295.42612,
+                  -232.70894,
+                  295.42612,
+                  -472.709,
+                  74.42613,
+                  -472.709
+                ]
+              },
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -8.11304,
+                  -44.91614,
+                  -33.47955,
+                  -44.91614,
+                  -33.47955,
+                  -17.36884,
+                  -8.11304,
+                  -17.36884
+                ]
+              },
+              {
+                "time": 0.3333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  18.67865,
+                  13.9621,
+                  73.77608,
+                  13.9621,
+                  73.77608,
+                  -45.87225,
+                  18.67865,
+                  -45.87225
+                ]
+              },
+              {
+                "time": 0.5
+              }
+            ]
+          },
+          "S_E": {
+            "S_E": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -262.8731,
+                  -247.43054,
+                  -44.87309,
+                  -247.43054,
+                  -71.8091,
+                  -483.4306,
+                  -262.8731,
+                  -483.4306
+                ]
+              },
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  49.82767,
+                  -45.76556,
+                  24.80548,
+                  -45.76556,
+                  9.79161,
+                  -18.67737,
+                  49.82767,
+                  -18.67737
+                ]
+              },
+              {
+                "time": 0.4,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -66.29376,
+                  10.40814,
+                  -11.94428,
+                  10.40814,
+                  -17.83047,
+                  -48.42896,
+                  -66.29376,
+                  -48.42896
+                ]
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "S_I": {
+            "S_I": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -103.6433,
+                  212.45177,
+                  41.3567,
+                  212.45177,
+                  41.3567,
+                  -0.54828,
+                  -103.6433,
+                  -0.54828
+                ]
+              },
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  16.21006,
+                  -14.01836,
+                  -0.43314,
+                  -14.01836,
+                  -0.43314,
+                  10.42994,
+                  16.21006,
+                  10.42994
+                ]
+              },
+              {
+                "time": 0.4,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -25.89365,
+                  59.63446,
+                  10.25624,
+                  59.63446,
+                  10.25624,
+                  6.5315,
+                  -25.89365,
+                  6.5315
+                ]
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "S_N": {
+            "S_N": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -277.5496,
+                  221.70573,
+                  -48.54958,
+                  221.70573,
+                  -48.54958,
+                  1.70569,
+                  -277.5496,
+                  1.70569
+                ]
+              },
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  52.6593,
+                  -15.79977,
+                  26.37453,
+                  -15.79977,
+                  26.37453,
+                  9.45197,
+                  52.6593,
+                  9.45197
+                ]
+              },
+              {
+                "time": 0.4333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -70.00529,
+                  61.9745,
+                  -12.9134,
+                  61.9745,
+                  -12.9134,
+                  7.12638,
+                  -70.00529,
+                  7.12638
+                ]
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "S_P": {
+            "S_P": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -110.58697,
+                  -254.13077,
+                  90.41303,
+                  -254.13077,
+                  90.41303,
+                  -483.13086,
+                  -110.58697,
+                  -483.13086
+                ]
+              },
+              {
+                "time": 0.2333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  14.37503,
+                  -43.77063,
+                  -8.69588,
+                  -43.77063,
+                  -8.69588,
+                  -17.4859,
+                  14.37503,
+                  -17.4859
+                ]
+              },
+              {
+                "time": 0.3667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -27.50423,
+                  8.68157,
+                  22.607,
+                  8.68157,
+                  22.607,
+                  -48.41034,
+                  -27.50423,
+                  -48.41034
+                ]
+              },
+              {
+                "time": 0.5667
+              }
+            ]
+          },
+          "S_S": {
+            "S_S": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  234.64833,
+                  -163.82262,
+                  487.64835,
+                  -163.82262,
+                  487.64835,
+                  -476.8223,
+                  234.64833,
+                  -476.8223
+                ]
+              },
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -27.05849,
+                  -50.26438,
+                  -56.09802,
+                  -50.26438,
+                  -56.09802,
+                  -14.33801,
+                  -27.05849,
+                  -14.33801
+                ]
+              },
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  58.64902,
+                  31.01893,
+                  121.72433,
+                  31.01893,
+                  121.72433,
+                  -47.01488,
+                  58.64902,
+                  -47.01488
+                ]
+              },
+              {
+                "time": 0.3667
+              }
+            ]
+          },
+          "S_W": {
+            "S_W": [
+              {
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -25.91593,
+                  234.06085,
+                  272.08408,
+                  234.06085,
+                  272.08408,
+                  -2.93918,
+                  -25.91593,
+                  -2.93918
+                ]
+              },
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -11.9898,
+                  -17.69978,
+                  -46.19443,
+                  -17.69978,
+                  -46.19443,
+                  9.50323,
+                  -11.9898,
+                  9.50323
+                ]
+              },
+              {
+                "time": 0.3333,
+                "curve": 0.25,
+                "c3": 0.75,
+                "vertices": [
+                  -5.63255,
+                  65.07682,
+                  68.66169,
+                  65.07682,
+                  68.66169,
+                  5.99045,
+                  -5.63255,
+                  5.99045
+                ]
+              },
+              {
+                "time": 0.5333
+              }
+            ]
+          }
+        }
+      }
+    },
+    "W_win": {
+      "slots": {
+        "SUPER_ray-4": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_A": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "B": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-06": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-07": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_I": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-6": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_N": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_M": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "I-2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-3": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-010": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_+color2": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "I-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "WIN": {
+          "attachment": [
+            {
+              "name": "BIGWIN_ray-02"
+            }
+          ]
+        },
+        "Big_ray-08": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-5": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-7": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_E": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-05": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "G": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_R": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "SUPER_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGAWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_U": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_E": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_I": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_+color": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-02": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_P": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "BIGWIN_ray-1": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "M_G": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_S": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-04": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "MEGA_ray-01": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Big_ray-09": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "S_W": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "root": {
+          "translate": [
+            {
+              "y": 167.17,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "y": 16.72
+            },
+            {
+              "time": 0.9667
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.392,
+              "y": 0.22,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "x": 0.931,
+              "y": 0.931
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

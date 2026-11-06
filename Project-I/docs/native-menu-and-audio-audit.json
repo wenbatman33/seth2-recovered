@@ -1,0 +1,98 @@
+{
+  "bundle": "g1002",
+  "sourceFiles": {
+    "sender": {
+      "file": "Project-I/assets/game/scripts/g1002-GameSender.ts",
+      "sha256": "46f20d1f7ce03d1a2ba1bf6e42cc1772815fa82ca00fb4b4544c1ceabada0219"
+    },
+    "menu": {
+      "file": "Project-I/assets/shared/scripts/slotFramework-MenuController.ts",
+      "sha256": "411148071e762c45425b5738d31bd238c531cdd70cb4bd2f0f52706f7517f04d"
+    },
+    "spinBarP": {
+      "file": "Project-I/assets/shared/scripts/slotFramework-SpinBarPController.ts",
+      "sha256": "a47044f2cc9e9882eeba2460d445be907e8836c803fafeb48d74131cad3606df"
+    },
+    "avatar": {
+      "file": "Project-I/assets/shared/scripts/slotFramework-AvatarViewBase.ts",
+      "sha256": "fcc3b8f894ee90a68bac914400dd5761060f22e3666fe1999191b04596e317a7"
+    },
+    "record": {
+      "file": "Project-I/assets/shared/scripts/slotFramework-RecordViewBase.ts",
+      "sha256": "b228d4c9ffa8947a71b2495e0168eefad78c661103186f42f2340238c6f1ec6c"
+    },
+    "history": {
+      "file": "Project-I/assets/shared/scripts/slotFramework-HistoryViewBase.ts",
+      "sha256": "e9bbe64206c29d85c9b139d27f1a065f2669984bc4975eafc78b93183f926def"
+    },
+    "ranking": {
+      "file": "Project-I/assets/shared/scripts/slotFramework-RankingViewBase.ts",
+      "sha256": "e6de566918d65ee262d1c8f615e9f4dd265dff10c6c99d542d4a7cee6a45069f"
+    },
+    "audioConfig": {
+      "file": "Project-I/assets/game/scripts/g1002-GameConfigModel.ts",
+      "sha256": "61ded643a2890f137ab863fc732c8aaf377812024520e201ba530995c0bb2d09"
+    }
+  },
+  "nativeRequests": [
+    {
+      "name": "getBetRecords",
+      "present": true
+    },
+    {
+      "name": "getHistoryRecords",
+      "present": true
+    },
+    {
+      "name": "getSlotTablePage",
+      "present": true
+    },
+    {
+      "name": "getSlotTableDetail",
+      "present": true
+    },
+    {
+      "name": "updateAvatar",
+      "present": true
+    },
+    {
+      "name": "updateDisplayName",
+      "present": true
+    },
+    {
+      "name": "getSlotBetRanksList",
+      "present": true
+    }
+  ],
+  "contracts": {
+    "record": "getBetRecords -> data:Array of {endTime,id,name,totalStake,profit,hasFree,isFeature}",
+    "history": "getUserReport -> content.list:Array of {name,bet,win,profit,betCount}",
+    "table": "getSlotTables/getSlotTableDetail -> data.tables[0],data.lock:{time,resetDef,expiredDef},data.detail:{dayWin,dayBet,hourWin,hourBet,mgCounts[3]} and platform.tableMeta",
+    "avatar": "platform.avatars ids -> AvatarViewBase.avatarMap.get(current).node; updateAvatar -> data.avatarId/avatarUrl",
+    "nickname": "updateDisplayName -> status400 error else accepted; response must persist local profile",
+    "ranking": "slotRankOn controls native button; slotBetranks(action:list) -> data.list and rankKey"
+  },
+  "reachability": {
+    "recordVisibleUnlessXinStarDemo": true,
+    "tableButtonUsesTableProperty": true,
+    "rankButtonUsesSlotRankOn": true,
+    "avatarEmptyMapUnsafeWithoutHook": true,
+    "recordsWrongBeforeMetadata": true,
+    "tableIsPresentWhileDisabled": true,
+    "metadataAdapterInstalled": true
+  },
+  "audio": {
+    "files": 116,
+    "constantCount": 101,
+    "constantsWithFiles": 100,
+    "missingConstants": [
+      {
+        "name": "SYMBOL_WIN",
+        "url": "assets/music/btm/btm_symbol_01_win",
+        "files": []
+      }
+    ],
+    "sourceSettings": "GameView.initAudio uses SettingsModel.backgroundVolume/effectVolume; default1. spinId URL silences replay only. Development mute is explicit reaDevelopmentMute=1.",
+    "replayMuteInGameView": true
+  }
+}

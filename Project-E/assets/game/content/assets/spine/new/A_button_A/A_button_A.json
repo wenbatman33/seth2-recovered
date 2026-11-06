@@ -1,0 +1,307 @@
+{
+  "skeleton": {
+    "hash": "KtSo+1fpfhCKa42KEi9vPgm90us",
+    "spine": "3.7.94",
+    "width": 0,
+    "height": 0
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "btn_light_001",
+      "parent": "root",
+      "y": -714.33
+    }
+  ],
+  "slots": [
+    {
+      "name": "btn_light_001",
+      "bone": "btn_light_001",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "btn_light_001": {
+        "btn_light_001": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_002": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_003": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_004": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_005": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_006": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_007": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_008": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_009": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_010": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_011": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_012": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_013": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_014": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_015": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_016": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_017": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_018": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_019": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_020": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_021": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_022": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_023": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_024": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_025": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_026": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_027": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_028": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_029": {
+          "width": 500,
+          "height": 500
+        },
+        "btn_light_030": {
+          "width": 500,
+          "height": 500
+        }
+      }
+    }
+  },
+  "animations": {
+    "start": {
+      "slots": {
+        "btn_light_001": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "btn_light_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "btn_light_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "btn_light_003"
+            },
+            {
+              "time": 0.1,
+              "name": "btn_light_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "btn_light_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "btn_light_006"
+            },
+            {
+              "time": 0.2,
+              "name": "btn_light_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "btn_light_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "btn_light_009"
+            },
+            {
+              "time": 0.3,
+              "name": "btn_light_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "btn_light_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "btn_light_012"
+            },
+            {
+              "time": 0.4,
+              "name": "btn_light_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "btn_light_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "btn_light_015"
+            },
+            {
+              "time": 0.5,
+              "name": "btn_light_016"
+            },
+            {
+              "time": 0.5333,
+              "name": "btn_light_017"
+            },
+            {
+              "time": 0.5667,
+              "name": "btn_light_018"
+            },
+            {
+              "time": 0.6,
+              "name": "btn_light_019"
+            },
+            {
+              "time": 0.6333,
+              "name": "btn_light_020"
+            },
+            {
+              "time": 0.6667,
+              "name": "btn_light_021"
+            },
+            {
+              "time": 0.7,
+              "name": "btn_light_022"
+            },
+            {
+              "time": 0.7333,
+              "name": "btn_light_023"
+            },
+            {
+              "time": 0.7667,
+              "name": "btn_light_024"
+            },
+            {
+              "time": 0.8,
+              "name": "btn_light_025"
+            },
+            {
+              "time": 0.8333,
+              "name": "btn_light_026"
+            },
+            {
+              "time": 0.8667,
+              "name": "btn_light_027"
+            },
+            {
+              "time": 0.9,
+              "name": "btn_light_028"
+            },
+            {
+              "time": 0.9333,
+              "name": "btn_light_029"
+            },
+            {
+              "time": 0.9667,
+              "name": "btn_light_030"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "btn_light_001": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6667,
+              "x": 1.113,
+              "y": 1.113
+            }
+          ]
+        }
+      }
+    }
+  }
+}

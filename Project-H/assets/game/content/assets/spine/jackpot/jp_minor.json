@@ -1,0 +1,100 @@
+{
+  "skeleton": {
+    "hash": "HkX0XouuoTQ",
+    "spine": "3.8-from-4.0-from-4.1.23",
+    "x": -348.78,
+    "y": 48.62,
+    "width": 853,
+    "height": 253,
+    "images": "./images/w_jp/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/暴風戰神/Spine/win/win/./images"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -906,
+      "y": 570
+    },
+    {
+      "name": "mini",
+      "parent": "root",
+      "x": 983.22,
+      "y": -534.85
+    }
+  ],
+  "slots": [
+    {
+      "name": "Mini",
+      "bone": "mini",
+      "attachment": "Minor"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Mini": {
+          "Minor": {
+            "x": 0.5,
+            "y": 139.97,
+            "width": 853,
+            "height": 253
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "bones": {
+        "mini": {
+          "scale": [
+            {
+              "x": 0.01,
+              "y": 0.01,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.01,
+              "y": 0.01
+            },
+            {
+              "time": 0.4,
+              "x": 2,
+              "y": 2
+            },
+            {
+              "time": 0.5,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.5667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "bones": {
+        "mini": {
+          "scale": [
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

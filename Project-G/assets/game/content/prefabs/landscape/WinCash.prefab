@@ -1,0 +1,83 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "WinCash",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "WinCash",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_id": "a3a7f70c-e443-5cc2-9188-ec367f035aab"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 125,
+      "height": 18
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "eaf1cb12-66c0-598e-aa48-c97b07008bfb"
+  },
+  {
+    "__type__": "cc.Label",
+    "_string": "0",
+    "_actualFontSize": 12,
+    "_fontSize": 12,
+    "_lineHeight": 18,
+    "_overflow": 2,
+    "_enableWrapText": false,
+    "_isSystemFontUsed": false,
+    "__prefab": {
+      "__id__": 6
+    },
+    "_font": {
+      "__uuid__": "044cc855-ad4d-4279-b67b-46b56076c3bc"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "7a5a0559-9f3b-58d5-b38f-337877c899e3"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "3c3FKbeBBDnZJwItNpCeCj",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "abHU4Y7Z1KdrYQ/PBZU0Sy"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "09s5etKVxP0bcEkdJwbBF/"
+  }
+]

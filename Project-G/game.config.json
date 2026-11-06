@@ -1,0 +1,25 @@
+{
+  "id": "project-g",
+  "title": "Project-G",
+  "projectId": "project-g",
+  "project": "Project-G",
+  "bundle": "g1008",
+  "gn": "scarlet-three-kingdoms",
+  "gt": "slot-erase-any-times-1",
+  "buildDirectory": "build/web",
+  "previewPort": 8187,
+  "scenes": {
+    "landscape": {
+      "url": "db://assets/scenes/main.scene",
+      "uuid": "98fa17d8-70db-4b60-aae0-288a6e364e15"
+    }
+  },
+  "defaultMode": "landscape",
+  "status": "awaiting-official-build-and-gameplay-validation",
+  "backend": "owned-local-simulation",
+  "layoutEvidence": {
+    "supportedGameLayout": "landscape",
+    "mobile": "original-landscape-fit",
+    "reason": "Original game bundle has no portrait asset paths; mainPortrait is a shared wrapper scene"
+  }
+}

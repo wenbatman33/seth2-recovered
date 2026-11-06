@@ -1,0 +1,2 @@
+import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';import path from 'node:path';
+const here=path.dirname(fileURLToPath(import.meta.url));for(const file of ["test-backend.mjs", "test-bonus.mjs", "test-progress.mjs", "test-transport.mjs", "test-material-selection.mjs", "test-menu-metadata.mjs", "test-jackpot-display.mjs"]){const result=spawnSync(process.execPath,['--experimental-vm-modules',path.join(here,file)],{stdio:'inherit'});if(result.status!==0)process.exit(result.status||1);}

@@ -1,0 +1,82 @@
+{
+  "project": "Project-E",
+  "status": "official GUI build and fresh winning native callback chain verified; broader feature/viewport acceptance remains separate",
+  "originalDefinitionSource": "assets/game/scripts/g1012-GameSender.ts#getInitialResponse",
+  "originalConsumerSources": [
+    "assets/game/scripts/g1012-GameData.ts#parseWinOddsTypes,setBigWinReach",
+    "assets/game/scripts/g1012-BigwinView.ts#showBigwin,runScore,directShowResult,removeAllTween"
+  ],
+  "sourceWinOddsTypes": {
+    "win": 20,
+    "bigWin": 20,
+    "superWin": 50,
+    "megaWin": 100,
+    "ultraWin": 500,
+    "legendaryWin": 2000
+  },
+  "cause": "Missing source win classification slot shifted every animation level down one. A 20 to <50x win selected level0; native showBigwin requires truthy level, so it neither starts the score animation nor sends SHOW_BIG_WIN_END.",
+  "correction": "Owned definition preserves all six positive source thresholds, including the two20 entries. Source FSM, animations, score callbacks and settlement remain original.",
+  "fixture": "tests/test-native-win-completion.mjs",
+  "checksPassed": 3,
+  "multipliersExercised": [
+    20,
+    31.25,
+    50,
+    100,
+    500,
+    2000
+  ],
+  "sourceCallbackCompletion": "Native runScore -> directShowResult -> removeAllTween sends SHOW_BIG_WIN_END and closes once at each original animation level.",
+  "fixtureControlsTweenCallbacks": true,
+  "timerFallbackAdded": false,
+  "originalRngRestored": false,
+  "diagnostics": {
+    "optIn": "reaDebug=1",
+    "element": "ProjectELocalRuntimeBoundary",
+    "dataset": [
+      "requests",
+      "nativeState",
+      "nativeStates",
+      "summaryStage"
+    ],
+    "requestLimit": 100,
+    "nativeCallLimit": 160,
+    "privatePayloadIncluded": false
+  },
+  "guiVerification": {
+    "observedBy": "root official Creator/browser verification",
+    "officialBuild": "2026-11-06 15:41:56 Asia/Taipei",
+    "wallet": "e-ui-03",
+    "freshRound": true,
+    "initialBalance": 10000,
+    "balanceAfterDebit": 9998,
+    "award": 62.5,
+    "bigwinReach": {
+      "level": 1,
+      "reachRate": 20
+    },
+    "observedNativeChain": [
+      "MG_BIG_WIN_STATE",
+      "GameEvent:SHOW_BIG_WIN_END",
+      "MG_CLOSE_SPIN_STATE",
+      "PARSER_CLOSE_SPIN_COMPLETED",
+      "MG_WAIT_SPIN_STATE"
+    ],
+    "closeSpinCount": 1,
+    "balanceAfterCredit": 10060.5,
+    "runtimeErrors": 0,
+    "finalMainViewShowsWon": 62.5,
+    "intermediatePopupScreenshotCaptured": false,
+    "evidenceScope": "Actual bounded DOM native method/callback audit and wallet transitions, plus final main view; no claim of intermediate popup screenshot."
+  },
+  "savedRoundVerification": {
+    "wallet": "e-ui-02",
+    "balanceBeforeClose": 9998,
+    "award": 62.5,
+    "balanceAfterClose": 10060.5,
+    "closeSpinCount": 1,
+    "pendingCleared": true,
+    "finalNativeState": "MG_WAIT_SPIN_STATE",
+    "runtimeErrors": 0
+  }
+}

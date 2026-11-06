@@ -1,0 +1,118 @@
+
+w_legend_bg.png
+size: 1984,904
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Legend_bk_cloud_01
+  rotate: true
+  xy: 1887, 636
+  size: 267, 92
+  orig: 269, 93
+  offset: 1, 0
+  index: -1
+Legend_bk_cloud_02
+  rotate: false
+  xy: 1015, 52
+  size: 310, 254
+  orig: 312, 256
+  offset: 1, 1
+  index: -1
+Legend_bk_cloud_03
+  rotate: false
+  xy: 712, 2
+  size: 302, 232
+  orig: 302, 234
+  offset: 0, 1
+  index: -1
+Legend_fx_01
+  rotate: false
+  xy: 1411, 432
+  size: 361, 165
+  orig: 361, 168
+  offset: 0, 2
+  index: -1
+Legend_fx_02
+  rotate: true
+  xy: 1, 1
+  size: 297, 322
+  orig: 297, 322
+  offset: 0, 0
+  index: -1
+Legend_fx_03
+  rotate: false
+  xy: 1773, 350
+  size: 209, 247
+  orig: 209, 265
+  offset: 0, 9
+  index: -1
+Legend_fx_04
+  rotate: false
+  xy: 1635, 17
+  size: 192, 227
+  orig: 192, 227
+  offset: 0, 0
+  index: -1
+Legend_fx_05
+  rotate: true
+  xy: 1326, 16
+  size: 228, 308
+  orig: 234, 318
+  offset: 3, 5
+  index: -1
+Legend_fx_06
+  rotate: false
+  xy: 1, 299
+  size: 457, 604
+  orig: 457, 604
+  offset: 0, 0
+  index: -1
+Legend_light_01
+  rotate: false
+  xy: 1411, 598
+  size: 475, 305
+  orig: 475, 305
+  offset: 0, 0
+  index: -1
+Legend_light_02
+  rotate: false
+  xy: 459, 534
+  size: 475, 369
+  orig: 475, 369
+  offset: 0, 0
+  index: -1
+Legend_palace_01
+  rotate: false
+  xy: 324, 13
+  size: 387, 221
+  orig: 389, 221
+  offset: 1, 0
+  index: -1
+Legend_palace_bk
+  rotate: false
+  xy: 935, 307
+  size: 441, 234
+  orig: 441, 235
+  offset: 0, 1
+  index: -1
+Legend_palace_fx_01
+  rotate: false
+  xy: 1377, 245
+  size: 352, 186
+  orig: 352, 187
+  offset: 0, 1
+  index: -1
+Legend_palace_light_01
+  rotate: false
+  xy: 935, 542
+  size: 475, 361
+  orig: 475, 363
+  offset: 0, 1
+  index: -1
+Legend_palace_light_02
+  rotate: false
+  xy: 459, 235
+  size: 475, 298
+  orig: 475, 300
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,5597 @@
+{
+  "project": "Project-F",
+  "scope": "only original source mappings needed by serialized missing static references; not runtime/GPU prewarm list",
+  "sourceManifestSha256": "e33b2045da05cb29bdf059b8994c12eff30636a03b86b3d18b1c46641c77d16b",
+  "sourceConfigs": [
+    {
+      "bundle": "g1004",
+      "path": "assets/g1004/config.json",
+      "sha256": "f6d9b128e56882f0088107322b1aaafa168b195bdfe462007eb6d2d730f34abe"
+    },
+    {
+      "bundle": "internal",
+      "path": "assets/internal/config.json",
+      "sha256": "f0424f18cf0f75852f033900082d290e73edd7d9ba928c1d2b91e0eaed670a98"
+    },
+    {
+      "bundle": "main",
+      "path": "assets/main/config.json",
+      "sha256": "d7c6a9eda40a03df922a1b00435ecb9233664d9e9a84684dc0b2b4ed2ca95787"
+    },
+    {
+      "bundle": "resources",
+      "path": "assets/resources/config.json",
+      "sha256": "85e84dc88bc1cf13acd56167efd4aab249ebb12b3b4b9fd4f5c944b2c5cb136e"
+    },
+    {
+      "bundle": "slotFramework",
+      "path": "assets/slotFramework/config.json",
+      "sha256": "153ad7ba8f0d933f40f7cdc7ec9a046f0679cec4f740fb8f02b1e2e84d4904fc"
+    }
+  ],
+  "frames": [
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_record_hover/spriteFrame",
+      "uuid": "007d1c1d-28e3-4529-8695-6808219789cf@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_hover",
+        "rect": {
+          "x": 951,
+          "y": 711,
+          "width": 54,
+          "height": 52
+        },
+        "offset": {
+          "x": 2,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 2
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/font_win_01/spriteFrame",
+      "uuid": "02353545-b5f4-49c0-b7f4-79f12b2362de@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "font_win_01",
+        "rect": {
+          "x": 199,
+          "y": 979,
+          "width": 172,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 172,
+          "height": 30
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 9
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_buy_hover/spriteFrame",
+      "uuid": "032fd384-d53c-4b46-a829-a32a56d513af@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "btn_buy_hover",
+        "rect": {
+          "x": 770,
+          "y": 935,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 13
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/feature_font/spriteFrame",
+      "uuid": "12aeb3a0-fc9d-4f36-a4d4-9311d4b6f473@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "feature_font",
+        "rect": {
+          "x": 938,
+          "y": 3,
+          "width": 350,
+          "height": 62
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 350,
+          "height": 62
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 253
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/fg_board_02/spriteFrame",
+      "uuid": "167a4951-85fe-47dc-beb1-b4c7affe45f9@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "fg_board_02",
+        "rect": {
+          "x": 3,
+          "y": 652,
+          "width": 327,
+          "height": 204
+        },
+        "offset": {
+          "x": 0.5,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 328,
+          "height": 204
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 278
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_ranking_hover/spriteFrame",
+      "uuid": "1ae4a5f7-4f64-4a03-9f37-88139487d9e9@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_ranking_hover",
+        "rect": {
+          "x": 951,
+          "y": 652,
+          "width": 58,
+          "height": 53
+        },
+        "offset": {
+          "x": 0,
+          "y": -1.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 304
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/feature_board_font_02/spriteFrame",
+      "uuid": "1f6aa54e-2cc6-456e-8776-ea68620de6c3@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "feature_board_font_02",
+        "rect": {
+          "x": 477,
+          "y": 878,
+          "width": 451,
+          "height": 138
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 451,
+          "height": 138
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 337
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_exit_hover/spriteFrame",
+      "uuid": "238370d4-5d2b-4b1a-af89-30e77cde0428@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_exit_hover",
+        "rect": {
+          "x": 353,
+          "y": 960,
+          "width": 52,
+          "height": 56
+        },
+        "offset": {
+          "x": 4,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 354
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_ranking_pressed/spriteFrame",
+      "uuid": "2756edc3-85a8-4f68-a05f-7ddcab1e02d3@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_ranking_pressed",
+        "rect": {
+          "x": 294,
+          "y": 960,
+          "width": 58,
+          "height": 53
+        },
+        "offset": {
+          "x": 0,
+          "y": -1.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 374
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_setting_pressed/spriteFrame",
+      "uuid": "2aa3e74c-842b-42b6-bf38-bef30a8d3e39@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_setting_pressed",
+        "rect": {
+          "x": 147,
+          "y": 402,
+          "width": 52,
+          "height": 52
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 389
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/mg_btn_normal/spriteFrame",
+      "uuid": "2b11586c-56d1-478b-a565-d469b1d32863@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "mg_btn_normal",
+        "rect": {
+          "x": 934,
+          "y": 878,
+          "width": 111,
+          "height": 57
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 111,
+          "height": 57
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 392
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/l_logo/spriteFrame",
+      "uuid": "367cb214-dab4-42cb-a01e-8d829c89eaaf@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/05/05091da9e.json",
+        "sha256": "ff2fb82efa63a7f61aa479c23d8c8453c63df6a31006aaeed188e3b779fb2511"
+      },
+      "serialized": {
+        "name": "l_logo",
+        "rect": {
+          "x": 614,
+          "y": 3,
+          "width": 498,
+          "height": 257
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 498,
+          "height": 257
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "15091da9e@6c48a",
+      "texture": {
+        "originalUuid": "15091da9e",
+        "imagePath": "assets/shared/images/g1004/15091da9e.png",
+        "imageSha256": "1c1afeb805c7499b98a0dd2fcf70a6ff6e31260b918bdf584d5fcc674034978e",
+        "imageMetaUuid": "90533b84-7a6b-41ce-87eb-8cf3e9cc88f2",
+        "textureUuid": "90533b84-7a6b-41ce-87eb-8cf3e9cc88f2@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/15091da9e/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 460
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_ranking_normal/spriteFrame",
+      "uuid": "38a04a3c-aa42-4133-8a35-83cbde4a2fed@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "btn_ranking_normal",
+        "rect": {
+          "x": 933,
+          "y": 880,
+          "width": 50,
+          "height": 45
+        },
+        "offset": {
+          "x": 0,
+          "y": -0.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 472
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_info_disabled/spriteFrame",
+      "uuid": "39918439-be81-4185-beb9-2db0ebb41f9a@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_disabled",
+        "rect": {
+          "x": 533,
+          "y": 756,
+          "width": 46,
+          "height": 46
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 476
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_exit_normal/spriteFrame",
+      "uuid": "3e5d3382-a687-4b88-992f-68848c1042d7@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_exit_normal",
+        "rect": {
+          "x": 263,
+          "y": 402,
+          "width": 44,
+          "height": 48
+        },
+        "offset": {
+          "x": 4,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 513
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/font_ways/spriteFrame",
+      "uuid": "3f417fd0-5d0c-49e7-837d-c402b5da645a@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "font_ways",
+        "rect": {
+          "x": 377,
+          "y": 979,
+          "width": 93,
+          "height": 36
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 93,
+          "height": 36
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 522
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/feature_board/spriteFrame",
+      "uuid": "42a4d593-7750-4222-97f7-a581973bf0ad@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "feature_board",
+        "rect": {
+          "x": 3,
+          "y": 830,
+          "width": 188,
+          "height": 164
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 188,
+          "height": 164
+        },
+        "rotated": true,
+        "capInsets": [
+          93,
+          0,
+          93,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 553
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_record_pressed/spriteFrame",
+      "uuid": "4393768b-9673-499d-9c0d-a08a324b56ab@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_pressed",
+        "rect": {
+          "x": 213,
+          "y": 647,
+          "width": 54,
+          "height": 52
+        },
+        "offset": {
+          "x": 2,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 562
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_board_03/spriteFrame",
+      "uuid": "4aaf434d-ccbe-4814-a39a-508b5e87d2b9@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_board_03",
+        "rect": {
+          "x": 3,
+          "y": 176,
+          "width": 720,
+          "height": 62
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 62
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 614
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/btn_buy_font_02_normal/spriteFrame",
+      "uuid": "4ce476a9-618c-4f83-aaf1-d90b5a9f659b@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "btn_buy_font_02_normal",
+        "rect": {
+          "x": 972,
+          "y": 897,
+          "width": 74,
+          "height": 34
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 74,
+          "height": 34
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 621
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/intro_text_01/spriteFrame",
+      "uuid": "4d75a8ac-5538-4463-ad5d-fa157be87f36@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/06/06641d5bf.json",
+        "sha256": "4b93435a7d22c3a5e0eba3ca38bef8b1f697ba22e8b53172d6d1a3213f7de15d"
+      },
+      "serialized": {
+        "name": "intro_text_01",
+        "rect": {
+          "x": 990,
+          "y": 416,
+          "width": 495,
+          "height": 31
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 495,
+          "height": 31
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "16641d5bf@6c48a",
+      "texture": {
+        "originalUuid": "16641d5bf",
+        "imagePath": "assets/shared/images/g1004/16641d5bf.png",
+        "imageSha256": "59c94cd10973ac8c15bbea7d8716fba290720f7f778d1177eeed08789d9d32f8",
+        "imageMetaUuid": "40a0b409-b0e0-43d4-9699-c4abc5b97f20",
+        "textureUuid": "40a0b409-b0e0-43d4-9699-c4abc5b97f20@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/16641d5bf/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 624
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_exit_pressed/spriteFrame",
+      "uuid": "5073703a-5d1e-4eee-bd95-ca872cc1d34b@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_exit_pressed",
+        "rect": {
+          "x": 411,
+          "y": 960,
+          "width": 52,
+          "height": 56
+        },
+        "offset": {
+          "x": 4,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 646
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/fg_font_01/spriteFrame",
+      "uuid": "56c14a44-f42e-4090-893e-50ba0ce55b60@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "fg_font_01",
+        "rect": {
+          "x": 875,
+          "y": 443,
+          "width": 247,
+          "height": 131
+        },
+        "offset": {
+          "x": -0.5,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 248,
+          "height": 131
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 676
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_btn_pressed/spriteFrame",
+      "uuid": "57f16df7-e319-45ed-a738-7a19a439ff8f@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "mg_btn_pressed",
+        "rect": {
+          "x": 911,
+          "y": 610,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 682
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/l_font/spriteFrame",
+      "uuid": "5bdf73e5-4b2b-4f3b-91d4-0e6d47b071df@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "l_font",
+        "rect": {
+          "x": 875,
+          "y": 696,
+          "width": 249,
+          "height": 91
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 249,
+          "height": 91
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 708
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_winboard_02/spriteFrame",
+      "uuid": "5c7a064d-b1e9-4f41-8a21-aa88e83b5452@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_winboard_02",
+        "rect": {
+          "x": 213,
+          "y": 756,
+          "width": 260,
+          "height": 75
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 260,
+          "height": 75
+        },
+        "rotated": true,
+        "capInsets": [
+          127,
+          0,
+          127,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 711
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/jp_bar/spriteFrame",
+      "uuid": "5ea19395-6c3e-4a72-b747-d9b1b7a04848@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "jp_bar",
+        "rect": {
+          "x": 3,
+          "y": 872,
+          "width": 718,
+          "height": 101
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 101
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 723
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_info_pressed/spriteFrame",
+      "uuid": "62887957-f9fb-4b43-9b28-2efcc7e963bb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_pressed",
+        "rect": {
+          "x": 469,
+          "y": 960,
+          "width": 54,
+          "height": 54
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 743
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_btn_hover/spriteFrame",
+      "uuid": "670ef207-6ad9-469b-8b45-da3af2584862@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_btn_hover",
+        "rect": {
+          "x": 294,
+          "y": 647,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 773
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_info_normal/spriteFrame",
+      "uuid": "7b026620-724f-4829-a039-673f0551c5d8@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_normal",
+        "rect": {
+          "x": 533,
+          "y": 808,
+          "width": 46,
+          "height": 46
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 862
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_btn_disabled/spriteFrame",
+      "uuid": "8166230c-2842-4d9e-acc3-d3a4230d8b15@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_btn_disabled",
+        "rect": {
+          "x": 294,
+          "y": 739,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 902
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_info_hover/spriteFrame",
+      "uuid": "87a264f9-6b6b-429d-8814-760759685a7b@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_hover",
+        "rect": {
+          "x": 529,
+          "y": 960,
+          "width": 54,
+          "height": 54
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 945
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/feature_board_font/spriteFrame",
+      "uuid": "8ee65400-fabd-4c35-a87e-873cdb89dfab@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "feature_board_font",
+        "rect": {
+          "x": 875,
+          "y": 3,
+          "width": 434,
+          "height": 133
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 434,
+          "height": 133
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 995
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_buy_normal/spriteFrame",
+      "uuid": "9072db16-23bb-44c5-925c-59001898de2c@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_buy_normal",
+        "rect": {
+          "x": 589,
+          "y": 769,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1000
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/t_font/spriteFrame",
+      "uuid": "90961651-d4bd-48d3-9ea6-9e6a354c4ca4@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "t_font",
+        "rect": {
+          "x": 369,
+          "y": 184,
+          "width": 598,
+          "height": 170
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 598,
+          "height": 170
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1001
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_setting_hover/spriteFrame",
+      "uuid": "919c767d-2603-4061-a2d1-8a0eb93e77fb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_setting_hover",
+        "rect": {
+          "x": 205,
+          "y": 402,
+          "width": 52,
+          "height": 52
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1002
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_btn_normal/spriteFrame",
+      "uuid": "977b4eea-dc58-43f8-a3d2-3cecb34705a0@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_btn_normal",
+        "rect": {
+          "x": 294,
+          "y": 831,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1043
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/arrow/spriteFrame",
+      "uuid": "a216c894-0ea0-4f6d-8998-7d1fd8880da4@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "arrow",
+        "rect": {
+          "x": 911,
+          "y": 538,
+          "width": 66,
+          "height": 94
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 66,
+          "height": 94
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1088
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_setting_disabled/spriteFrame",
+      "uuid": "b725447c-e617-4fc2-932a-5df06b6d95bd@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0b/0bf38b746.json",
+        "sha256": "0b936587dbf8f46a4886b47fd0f6b247edc9b52d765ccefea61c104fb8275f96"
+      },
+      "serialized": {
+        "name": "btn_setting_disabled",
+        "rect": {
+          "x": 49,
+          "y": 3,
+          "width": 44,
+          "height": 44
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1bf38b746@6c48a",
+      "texture": {
+        "originalUuid": "1bf38b746",
+        "imagePath": "assets/shared/images/g1004/1bf38b746.png",
+        "imageSha256": "0a107aa021aba3921706f7b94dfff7040f04cb1bae8ed76b942f8a7ef8e41ff6",
+        "imageMetaUuid": "45f97e51-937b-4981-a738-b901002a1602",
+        "textureUuid": "45f97e51-937b-4981-a738-b901002a1602@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1bf38b746/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1233
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/btn_buy_font_01_normal/spriteFrame",
+      "uuid": "ba662514-ade1-4c2b-bc5e-c6ef70a60b5f@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "btn_buy_font_01_normal",
+        "rect": {
+          "x": 972,
+          "y": 813,
+          "width": 78,
+          "height": 34
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 78,
+          "height": 34
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1323
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/mg_board_02/spriteFrame",
+      "uuid": "c64a8cb9-809f-45ca-988d-9f01c7589deb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "mg_board_02",
+        "rect": {
+          "x": 727,
+          "y": 3,
+          "width": 720,
+          "height": 283
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 283
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1415
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_ranking_disabled/spriteFrame",
+      "uuid": "c8a9e1df-5e6b-44ef-a80a-a69f0a6e4bdc@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_ranking_disabled",
+        "rect": {
+          "x": 213,
+          "y": 705,
+          "width": 50,
+          "height": 45
+        },
+        "offset": {
+          "x": 0,
+          "y": -0.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1430
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_buy_disabled/spriteFrame",
+      "uuid": "cb5d462c-3dab-429d-9ce7-ef5f27e4ea3d@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_buy_disabled",
+        "rect": {
+          "x": 679,
+          "y": 769,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1443
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_buy_pressed/spriteFrame",
+      "uuid": "d482a2f6-320f-4d9b-b6e2-32e70733179f@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_buy_pressed",
+        "rect": {
+          "x": 769,
+          "y": 769,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1472
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/t_font_01/spriteFrame",
+      "uuid": "dd634e18-883b-495e-9e15-4110309710ea@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "t_font_01",
+        "rect": {
+          "x": 3,
+          "y": 244,
+          "width": 535,
+          "height": 152
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 535,
+          "height": 152
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1510
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/reel/spriteFrame",
+      "uuid": "dfd2806e-e723-4816-97dc-cbd16ea24811@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "reel",
+        "rect": {
+          "x": 3,
+          "y": 3,
+          "width": 360,
+          "height": 821
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 360,
+          "height": 821
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1529
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_record_normal/spriteFrame",
+      "uuid": "e39528ca-efd6-4c05-9feb-772696b28388@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_normal",
+        "rect": {
+          "x": 533,
+          "y": 860,
+          "width": 46,
+          "height": 44
+        },
+        "offset": {
+          "x": 2,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1550
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_setting_normal/spriteFrame",
+      "uuid": "e6c725dd-85e0-4e8e-b5c9-dd55dd89b6cc@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0b/0bf38b746.json",
+        "sha256": "0b936587dbf8f46a4886b47fd0f6b247edc9b52d765ccefea61c104fb8275f96"
+      },
+      "serialized": {
+        "name": "btn_setting_normal",
+        "rect": {
+          "x": 99,
+          "y": 3,
+          "width": 44,
+          "height": 44
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1bf38b746@6c48a",
+      "texture": {
+        "originalUuid": "1bf38b746",
+        "imagePath": "assets/shared/images/g1004/1bf38b746.png",
+        "imageSha256": "0a107aa021aba3921706f7b94dfff7040f04cb1bae8ed76b942f8a7ef8e41ff6",
+        "imageMetaUuid": "45f97e51-937b-4981-a738-b901002a1602",
+        "textureUuid": "45f97e51-937b-4981-a738-b901002a1602@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1bf38b746/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1577
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/locale/zh-tw/font_winboard_04/spriteFrame",
+      "uuid": "f0594181-bb63-4633-8330-1b2532d360fb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "font_winboard_04",
+        "rect": {
+          "x": 979,
+          "y": 359,
+          "width": 220,
+          "height": 39
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 220,
+          "height": 39
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1640
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/btn_record_disabled/spriteFrame",
+      "uuid": "f47659ec-6d00-4259-9e46-1a25d4603cc5@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_disabled",
+        "rect": {
+          "x": 533,
+          "y": 910,
+          "width": 46,
+          "height": 44
+        },
+        "offset": {
+          "x": 2,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1663
+    },
+    {
+      "bundle": "g1004",
+      "path": "assets/texture/common/intro_text/spriteFrame",
+      "uuid": "f4f726c0-7de7-4666-840c-1741e7e6a887@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "intro_text",
+        "rect": {
+          "x": 3,
+          "y": 3,
+          "width": 720,
+          "height": 167
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 167
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 1667
+    }
+  ],
+  "frameRecords": [
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "367cb214-dab4-42cb-a01e-8d829c89eaaf@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/05/05091da9e.json",
+        "sha256": "ff2fb82efa63a7f61aa479c23d8c8453c63df6a31006aaeed188e3b779fb2511"
+      },
+      "serialized": {
+        "name": "l_logo",
+        "rect": {
+          "x": 614,
+          "y": 3,
+          "width": 498,
+          "height": 257
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 498,
+          "height": 257
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "15091da9e@6c48a",
+      "texture": {
+        "originalUuid": "15091da9e",
+        "imagePath": "assets/shared/images/g1004/15091da9e.png",
+        "imageSha256": "1c1afeb805c7499b98a0dd2fcf70a6ff6e31260b918bdf584d5fcc674034978e",
+        "imageMetaUuid": "90533b84-7a6b-41ce-87eb-8cf3e9cc88f2",
+        "textureUuid": "90533b84-7a6b-41ce-87eb-8cf3e9cc88f2@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/15091da9e/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "4d75a8ac-5538-4463-ad5d-fa157be87f36@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/06/06641d5bf.json",
+        "sha256": "4b93435a7d22c3a5e0eba3ca38bef8b1f697ba22e8b53172d6d1a3213f7de15d"
+      },
+      "serialized": {
+        "name": "intro_text_01",
+        "rect": {
+          "x": 990,
+          "y": 416,
+          "width": 495,
+          "height": 31
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 495,
+          "height": 31
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "16641d5bf@6c48a",
+      "texture": {
+        "originalUuid": "16641d5bf",
+        "imagePath": "assets/shared/images/g1004/16641d5bf.png",
+        "imageSha256": "59c94cd10973ac8c15bbea7d8716fba290720f7f778d1177eeed08789d9d32f8",
+        "imageMetaUuid": "40a0b409-b0e0-43d4-9699-c4abc5b97f20",
+        "textureUuid": "40a0b409-b0e0-43d4-9699-c4abc5b97f20@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/16641d5bf/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "12aeb3a0-fc9d-4f36-a4d4-9311d4b6f473@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "feature_font",
+        "rect": {
+          "x": 938,
+          "y": 3,
+          "width": 350,
+          "height": 62
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 350,
+          "height": 62
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "1f6aa54e-2cc6-456e-8776-ea68620de6c3@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "feature_board_font_02",
+        "rect": {
+          "x": 477,
+          "y": 878,
+          "width": 451,
+          "height": 138
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 451,
+          "height": 138
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "2b11586c-56d1-478b-a565-d469b1d32863@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "mg_btn_normal",
+        "rect": {
+          "x": 934,
+          "y": 878,
+          "width": 111,
+          "height": 57
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 111,
+          "height": 57
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "f0594181-bb63-4633-8330-1b2532d360fb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/08/08b980da0.json",
+        "sha256": "b747475ffc4690d175d4d6766bb76b7656139e69093a50a854b442ee238a3405"
+      },
+      "serialized": {
+        "name": "font_winboard_04",
+        "rect": {
+          "x": 979,
+          "y": 359,
+          "width": 220,
+          "height": 39
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 220,
+          "height": 39
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "18b980da0@6c48a",
+      "texture": {
+        "originalUuid": "18b980da0",
+        "imagePath": "assets/shared/images/g1004/18b980da0.png",
+        "imageSha256": "2f9c92a96732e6c6c145a45bd660de9baae1a766b921a9a94f1ed8eefa555b49",
+        "imageMetaUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85",
+        "textureUuid": "c34c9c59-7faf-4294-90f1-a060626f4a85@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/18b980da0/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "b725447c-e617-4fc2-932a-5df06b6d95bd@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0b/0bf38b746.json",
+        "sha256": "0b936587dbf8f46a4886b47fd0f6b247edc9b52d765ccefea61c104fb8275f96"
+      },
+      "serialized": {
+        "name": "btn_setting_disabled",
+        "rect": {
+          "x": 49,
+          "y": 3,
+          "width": 44,
+          "height": 44
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1bf38b746@6c48a",
+      "texture": {
+        "originalUuid": "1bf38b746",
+        "imagePath": "assets/shared/images/g1004/1bf38b746.png",
+        "imageSha256": "0a107aa021aba3921706f7b94dfff7040f04cb1bae8ed76b942f8a7ef8e41ff6",
+        "imageMetaUuid": "45f97e51-937b-4981-a738-b901002a1602",
+        "textureUuid": "45f97e51-937b-4981-a738-b901002a1602@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1bf38b746/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "e6c725dd-85e0-4e8e-b5c9-dd55dd89b6cc@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0b/0bf38b746.json",
+        "sha256": "0b936587dbf8f46a4886b47fd0f6b247edc9b52d765ccefea61c104fb8275f96"
+      },
+      "serialized": {
+        "name": "btn_setting_normal",
+        "rect": {
+          "x": 99,
+          "y": 3,
+          "width": 44,
+          "height": 44
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1bf38b746@6c48a",
+      "texture": {
+        "originalUuid": "1bf38b746",
+        "imagePath": "assets/shared/images/g1004/1bf38b746.png",
+        "imageSha256": "0a107aa021aba3921706f7b94dfff7040f04cb1bae8ed76b942f8a7ef8e41ff6",
+        "imageMetaUuid": "45f97e51-937b-4981-a738-b901002a1602",
+        "textureUuid": "45f97e51-937b-4981-a738-b901002a1602@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1bf38b746/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "007d1c1d-28e3-4529-8695-6808219789cf@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_hover",
+        "rect": {
+          "x": 951,
+          "y": 711,
+          "width": 54,
+          "height": 52
+        },
+        "offset": {
+          "x": 2,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "167a4951-85fe-47dc-beb1-b4c7affe45f9@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "fg_board_02",
+        "rect": {
+          "x": 3,
+          "y": 652,
+          "width": 327,
+          "height": 204
+        },
+        "offset": {
+          "x": 0.5,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 328,
+          "height": 204
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "1ae4a5f7-4f64-4a03-9f37-88139487d9e9@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_ranking_hover",
+        "rect": {
+          "x": 951,
+          "y": 652,
+          "width": 58,
+          "height": 53
+        },
+        "offset": {
+          "x": 0,
+          "y": -1.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "238370d4-5d2b-4b1a-af89-30e77cde0428@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_exit_hover",
+        "rect": {
+          "x": 353,
+          "y": 960,
+          "width": 52,
+          "height": 56
+        },
+        "offset": {
+          "x": 4,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "2756edc3-85a8-4f68-a05f-7ddcab1e02d3@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_ranking_pressed",
+        "rect": {
+          "x": 294,
+          "y": 960,
+          "width": 58,
+          "height": 53
+        },
+        "offset": {
+          "x": 0,
+          "y": -1.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "2aa3e74c-842b-42b6-bf38-bef30a8d3e39@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_setting_pressed",
+        "rect": {
+          "x": 147,
+          "y": 402,
+          "width": 52,
+          "height": 52
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "39918439-be81-4185-beb9-2db0ebb41f9a@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_disabled",
+        "rect": {
+          "x": 533,
+          "y": 756,
+          "width": 46,
+          "height": 46
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "3e5d3382-a687-4b88-992f-68848c1042d7@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_exit_normal",
+        "rect": {
+          "x": 263,
+          "y": 402,
+          "width": 44,
+          "height": 48
+        },
+        "offset": {
+          "x": 4,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "4393768b-9673-499d-9c0d-a08a324b56ab@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_pressed",
+        "rect": {
+          "x": 213,
+          "y": 647,
+          "width": 54,
+          "height": 52
+        },
+        "offset": {
+          "x": 2,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "4aaf434d-ccbe-4814-a39a-508b5e87d2b9@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_board_03",
+        "rect": {
+          "x": 3,
+          "y": 176,
+          "width": 720,
+          "height": 62
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 62
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "5073703a-5d1e-4eee-bd95-ca872cc1d34b@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_exit_pressed",
+        "rect": {
+          "x": 411,
+          "y": 960,
+          "width": 52,
+          "height": 56
+        },
+        "offset": {
+          "x": 4,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "5c7a064d-b1e9-4f41-8a21-aa88e83b5452@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_winboard_02",
+        "rect": {
+          "x": 213,
+          "y": 756,
+          "width": 260,
+          "height": 75
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 260,
+          "height": 75
+        },
+        "rotated": true,
+        "capInsets": [
+          127,
+          0,
+          127,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "62887957-f9fb-4b43-9b28-2efcc7e963bb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_pressed",
+        "rect": {
+          "x": 469,
+          "y": 960,
+          "width": 54,
+          "height": 54
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "670ef207-6ad9-469b-8b45-da3af2584862@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_btn_hover",
+        "rect": {
+          "x": 294,
+          "y": 647,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "7b026620-724f-4829-a039-673f0551c5d8@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_normal",
+        "rect": {
+          "x": 533,
+          "y": 808,
+          "width": 46,
+          "height": 46
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "8166230c-2842-4d9e-acc3-d3a4230d8b15@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_btn_disabled",
+        "rect": {
+          "x": 294,
+          "y": 739,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "87a264f9-6b6b-429d-8814-760759685a7b@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_info_hover",
+        "rect": {
+          "x": 529,
+          "y": 960,
+          "width": 54,
+          "height": 54
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "9072db16-23bb-44c5-925c-59001898de2c@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_buy_normal",
+        "rect": {
+          "x": 589,
+          "y": 769,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "919c767d-2603-4061-a2d1-8a0eb93e77fb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_setting_hover",
+        "rect": {
+          "x": 205,
+          "y": 402,
+          "width": 52,
+          "height": 52
+        },
+        "offset": {
+          "x": 0,
+          "y": -1
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "977b4eea-dc58-43f8-a3d2-3cecb34705a0@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "mg_btn_normal",
+        "rect": {
+          "x": 294,
+          "y": 831,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "c8a9e1df-5e6b-44ef-a80a-a69f0a6e4bdc@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_ranking_disabled",
+        "rect": {
+          "x": 213,
+          "y": 705,
+          "width": 50,
+          "height": 45
+        },
+        "offset": {
+          "x": 0,
+          "y": -0.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "cb5d462c-3dab-429d-9ce7-ef5f27e4ea3d@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_buy_disabled",
+        "rect": {
+          "x": 679,
+          "y": 769,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "d482a2f6-320f-4d9b-b6e2-32e70733179f@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_buy_pressed",
+        "rect": {
+          "x": 769,
+          "y": 769,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "dd634e18-883b-495e-9e15-4110309710ea@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "t_font_01",
+        "rect": {
+          "x": 3,
+          "y": 244,
+          "width": 535,
+          "height": 152
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 535,
+          "height": 152
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "e39528ca-efd6-4c05-9feb-772696b28388@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_normal",
+        "rect": {
+          "x": 533,
+          "y": 860,
+          "width": 46,
+          "height": 44
+        },
+        "offset": {
+          "x": 2,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "f47659ec-6d00-4259-9e46-1a25d4603cc5@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "btn_record_disabled",
+        "rect": {
+          "x": 533,
+          "y": 910,
+          "width": 46,
+          "height": 44
+        },
+        "offset": {
+          "x": 2,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "f4f726c0-7de7-4666-840c-1741e7e6a887@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c15d9eca.json",
+        "sha256": "6ce15f10a0e65e0db4bc56ae63d6de5ba361902549c33f68662dfd4ef31e99aa"
+      },
+      "serialized": {
+        "name": "intro_text",
+        "rect": {
+          "x": 3,
+          "y": 3,
+          "width": 720,
+          "height": 167
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 167
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c15d9eca@6c48a",
+      "texture": {
+        "originalUuid": "1c15d9eca",
+        "imagePath": "assets/shared/images/g1004/1c15d9eca.png",
+        "imageSha256": "9d19c2a401b8666c044516a9f4b69b280835e1080778fe3c211034c852c18ae0",
+        "imageMetaUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44",
+        "textureUuid": "6f8d8432-fae7-46d2-85fb-b599a7a5ed44@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c15d9eca/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "42a4d593-7750-4222-97f7-a581973bf0ad@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "feature_board",
+        "rect": {
+          "x": 3,
+          "y": 830,
+          "width": 188,
+          "height": 164
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 188,
+          "height": 164
+        },
+        "rotated": true,
+        "capInsets": [
+          93,
+          0,
+          93,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "57f16df7-e319-45ed-a738-7a19a439ff8f@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "mg_btn_pressed",
+        "rect": {
+          "x": 911,
+          "y": 610,
+          "width": 88,
+          "height": 86
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 88,
+          "height": 86
+        },
+        "rotated": false,
+        "capInsets": [
+          43,
+          0,
+          43,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "90961651-d4bd-48d3-9ea6-9e6a354c4ca4@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "t_font",
+        "rect": {
+          "x": 369,
+          "y": 184,
+          "width": 598,
+          "height": 170
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 598,
+          "height": 170
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "a216c894-0ea0-4f6d-8998-7d1fd8880da4@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "arrow",
+        "rect": {
+          "x": 911,
+          "y": 538,
+          "width": 66,
+          "height": 94
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 66,
+          "height": 94
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "dfd2806e-e723-4816-97dc-cbd16ea24811@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0c/0c519b3bd.json",
+        "sha256": "188bf8bae6f437edfdaeeb24579b737fa55d0a74f14c40e67a487a85612cf0e5"
+      },
+      "serialized": {
+        "name": "reel",
+        "rect": {
+          "x": 3,
+          "y": 3,
+          "width": 360,
+          "height": 821
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 360,
+          "height": 821
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1c519b3bd@6c48a",
+      "texture": {
+        "originalUuid": "1c519b3bd",
+        "imagePath": "assets/shared/images/g1004/1c519b3bd.png",
+        "imageSha256": "e5c85f5b60af987ff3d7bf7a8ea81192639f384dd0bc9ec764f9990d9ab0f5aa",
+        "imageMetaUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0",
+        "textureUuid": "1988d7f8-9cd6-4425-8485-1ef1eb8efdd0@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1c519b3bd/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "4ce476a9-618c-4f83-aaf1-d90b5a9f659b@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "btn_buy_font_02_normal",
+        "rect": {
+          "x": 972,
+          "y": 897,
+          "width": 74,
+          "height": 34
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 74,
+          "height": 34
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "56c14a44-f42e-4090-893e-50ba0ce55b60@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "fg_font_01",
+        "rect": {
+          "x": 875,
+          "y": 443,
+          "width": 247,
+          "height": 131
+        },
+        "offset": {
+          "x": -0.5,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 248,
+          "height": 131
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "5bdf73e5-4b2b-4f3b-91d4-0e6d47b071df@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "l_font",
+        "rect": {
+          "x": 875,
+          "y": 696,
+          "width": 249,
+          "height": 91
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 249,
+          "height": 91
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "8ee65400-fabd-4c35-a87e-873cdb89dfab@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "feature_board_font",
+        "rect": {
+          "x": 875,
+          "y": 3,
+          "width": 434,
+          "height": 133
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 434,
+          "height": 133
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "ba662514-ade1-4c2b-bc5e-c6ef70a60b5f@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0e/0e745eb5c.json",
+        "sha256": "5cabaa106878250b071aca9de57f6b9900038f29b823895cd7094b10a2850ec1"
+      },
+      "serialized": {
+        "name": "btn_buy_font_01_normal",
+        "rect": {
+          "x": 972,
+          "y": 813,
+          "width": 78,
+          "height": 34
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 78,
+          "height": 34
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1e745eb5c@6c48a",
+      "texture": {
+        "originalUuid": "1e745eb5c",
+        "imagePath": "assets/shared/images/g1004/1e745eb5c.png",
+        "imageSha256": "d5a21ee423dd86b4c2a34113d56289eac16e0bafe2e955260b879beab860461b",
+        "imageMetaUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b",
+        "textureUuid": "b8baddc6-3316-4082-8f93-aa3bcc7cdb5b@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1e745eb5c/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "02353545-b5f4-49c0-b7f4-79f12b2362de@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "font_win_01",
+        "rect": {
+          "x": 199,
+          "y": 979,
+          "width": 172,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 172,
+          "height": 30
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "032fd384-d53c-4b46-a829-a32a56d513af@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "btn_buy_hover",
+        "rect": {
+          "x": 770,
+          "y": 935,
+          "width": 219,
+          "height": 84
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 219,
+          "height": 84
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "38a04a3c-aa42-4133-8a35-83cbde4a2fed@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "btn_ranking_normal",
+        "rect": {
+          "x": 933,
+          "y": 880,
+          "width": 50,
+          "height": 45
+        },
+        "offset": {
+          "x": 0,
+          "y": -0.5
+        },
+        "originalSize": {
+          "width": 60,
+          "height": 60
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "3f417fd0-5d0c-49e7-837d-c402b5da645a@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "font_ways",
+        "rect": {
+          "x": 377,
+          "y": 979,
+          "width": 93,
+          "height": 36
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 93,
+          "height": 36
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "5ea19395-6c3e-4a72-b747-d9b1b7a04848@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "jp_bar",
+        "rect": {
+          "x": 3,
+          "y": 872,
+          "width": 718,
+          "height": 101
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 101
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    },
+    {
+      "bundle": "g1004",
+      "path": null,
+      "uuid": "c64a8cb9-809f-45ca-988d-9f01c7589deb@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1004/import/0f/0ffdfac5a.json",
+        "sha256": "71b3ce73b5900b1d7a325f443852d60f381e8652beff29c9c33537cc19d8660f"
+      },
+      "serialized": {
+        "name": "mg_board_02",
+        "rect": {
+          "x": 727,
+          "y": 3,
+          "width": 720,
+          "height": 283
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 283
+        },
+        "rotated": true,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1ffdfac5a@6c48a",
+      "texture": {
+        "originalUuid": "1ffdfac5a",
+        "imagePath": "assets/shared/images/g1004/1ffdfac5a.png",
+        "imageSha256": "c50ef7863562b564d79206febccfa4385f84b683514a3e051e1f0ce3e9f60519",
+        "imageMetaUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26",
+        "textureUuid": "04f19faa-bd64-4885-9a11-b1e99b49df26@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1004/1ffdfac5a/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    }
+  ],
+  "textures": [],
+  "images": []
+}

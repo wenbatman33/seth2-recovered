@@ -1,0 +1,106 @@
+{
+  "ver": "1.0.2",
+  "importer": "particle",
+  "imported": true,
+  "uuid": "6532d433-4e79-49d6-b61d-6c17847d3114",
+  "files": [
+    ".json",
+    ".plist"
+  ],
+  "subMetas": {},
+  "userData": {
+    "spriteFrameUuid": "05e47b5d-6896-43a6-83e9-3367059b3b11@f9941",
+    "totalParticles": 300,
+    "life": 0.20000000298023224,
+    "lifeVar": 0.5,
+    "emissionRate": 999.999985098839,
+    "duration": -1,
+    "srcBlendFactor": 2,
+    "dstBlendFactor": 1,
+    "startColor": {
+      "_data": {
+        "0": 216,
+        "1": 128,
+        "2": 59,
+        "3": 163
+      },
+      "r": 27,
+      "g": 245,
+      "b": 255,
+      "a": 163
+    },
+    "startColorVar": {
+      "_data": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "endColor": {
+      "_data": {
+        "0": 165,
+        "1": 0,
+        "2": 0,
+        "3": 214
+      },
+      "r": 19,
+      "g": 99,
+      "b": 173,
+      "a": 214
+    },
+    "endColorVar": {
+      "_data": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "startSize": 3.369999885559082,
+    "startSizeVar": 50,
+    "endSize": 70,
+    "endSizeVar": 20,
+    "positionType": 0,
+    "sourcePos": {
+      "x": 0,
+      "y": 0
+    },
+    "posVar": {
+      "x": 7,
+      "y": 7
+    },
+    "angle": 360,
+    "angleVar": 360,
+    "startSpin": -47.369998931884766,
+    "startSpinVar": 0,
+    "endSpin": -47.369998931884766,
+    "endSpinVar": -142.11000061035156,
+    "emitterMode": 0,
+    "gravity": {
+      "x": 0.25,
+      "y": 0.8600000143051147
+    },
+    "speed": 130,
+    "speedVar": 30,
+    "radialAccel": -550,
+    "radialAccelVar": 65.79000091552734,
+    "tangentialAccel": -92.11000061035156,
+    "tangentialAccelVar": 65.79000091552734,
+    "rotationIsDir": false,
+    "startRadius": 0,
+    "startRadiusVar": 0,
+    "endRadius": 0,
+    "endRadiusVar": 0,
+    "rotatePerS": 0,
+    "rotatePerSVar": 0
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "project": "Project-E",
+  "scope": "only original source mappings needed by serialized missing static references; not runtime/GPU prewarm list",
+  "sourceManifestSha256": "8f747523bbbc1d57c18159db66cea5f37d6337c2075bcbcdb4ef6c6982a352e1",
+  "sourceConfigs": [
+    {
+      "bundle": "g1012",
+      "path": "assets/g1012/config.json",
+      "sha256": "4c8ee7abd51efb1744e6310c38036ce5e3a88dfe9f1f2fc2cb3b7a7551921f7c"
+    },
+    {
+      "bundle": "internal",
+      "path": "assets/internal/config.json",
+      "sha256": "f0424f18cf0f75852f033900082d290e73edd7d9ba928c1d2b91e0eaed670a98"
+    },
+    {
+      "bundle": "main",
+      "path": "assets/main/config.json",
+      "sha256": "c544ca4b4802fa0d6d02affcc3b8b7893a1f2796e1661362728a47c66e6d7d23"
+    },
+    {
+      "bundle": "resources",
+      "path": "assets/resources/config.json",
+      "sha256": "85e84dc88bc1cf13acd56167efd4aab249ebb12b3b4b9fd4f5c944b2c5cb136e"
+    },
+    {
+      "bundle": "slotFramework",
+      "path": "assets/slotFramework/config.json",
+      "sha256": "c5f2ef16697a823a693cfc0e2336de2b5f7443f47d52812bddf1b905fc98a90f"
+    }
+  ],
+  "frames": [
+    {
+      "bundle": "g1012",
+      "path": "assets/texture/common/new/common/A_jp_light/A_jp_light_00001/spriteFrame",
+      "uuid": "43f867bf-43c1-4e2f-bdfc-54f4ed761797@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1012/import/04/0428e0364.json",
+        "sha256": "372cd53ee08656f1cca5bacd779be58f2e18de005bb9debee8018aad1b92a5f9"
+      },
+      "serialized": {
+        "name": "A_jp_light_00001",
+        "rect": {
+          "x": 3,
+          "y": 497,
+          "width": 650,
+          "height": 240
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 650,
+          "height": 250
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1428e0364@6c48a",
+      "texture": {
+        "originalUuid": "1428e0364",
+        "imagePath": "assets/shared/images/g1012/1428e0364.png",
+        "imageSha256": "0801d5fe7f062e2b9ed1ec4504a295eea140772afe0c4c0e671bbcc3c82033b5",
+        "imageMetaUuid": "1428e0364",
+        "textureUuid": "1428e0364@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1012/1428e0364/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      },
+      "sourceIndex": 330
+    }
+  ],
+  "frameRecords": [
+    {
+      "bundle": "g1012",
+      "path": null,
+      "uuid": "43f867bf-43c1-4e2f-bdfc-54f4ed761797@f9941",
+      "type": "cc.SpriteFrame",
+      "source": {
+        "file": "assets/g1012/import/04/0428e0364.json",
+        "sha256": "372cd53ee08656f1cca5bacd779be58f2e18de005bb9debee8018aad1b92a5f9"
+      },
+      "serialized": {
+        "name": "A_jp_light_00001",
+        "rect": {
+          "x": 3,
+          "y": 497,
+          "width": 650,
+          "height": 240
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "originalSize": {
+          "width": 650,
+          "height": 250
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "textureSourceUuid": "1428e0364@6c48a",
+      "texture": {
+        "originalUuid": "1428e0364",
+        "imagePath": "assets/shared/images/g1012/1428e0364.png",
+        "imageSha256": "0801d5fe7f062e2b9ed1ec4504a295eea140772afe0c4c0e671bbcc3c82033b5",
+        "imageMetaUuid": "1428e0364",
+        "textureUuid": "1428e0364@6c48a",
+        "ownerBundle": "sourcePackedImages",
+        "loadPath": "g1012/1428e0364/texture",
+        "requiresInclude": true,
+        "builtin": false,
+        "sourceNativeAvailable": true
+      }
+    }
+  ],
+  "textures": [],
+  "images": []
+}

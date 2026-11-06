@@ -1,0 +1,47 @@
+{
+  "project": "Project-F",
+  "status": "local-only source and original-consumer fixtures pass; official rebuild/GUI pending",
+  "mathRevision": "native-rate-bank-v2",
+  "resumeProvenanceRevision": "native-rate-resume-v1",
+  "proof": [
+    "Actual original initReelView resets0 and free CHANGE_GAME_STYLE resets2. Actual setReelResult recreates rate2 for already-collected surviving females.",
+    "Actual original FG checkAllReelStop explicitly collects no-win markers, proving why cursor-only resume is insufficient.",
+    "Winning resume restores only pre-bank and original marker flags; original win-line collector produces final bank.",
+    "No-win FG resume awaits actual playRateOnlyCollect completion before re-entering original wait/summary route.",
+    "Ordinary zero-win route closes/total-scores without collecting; corrected authored generator follows full native routing."
+  ],
+  "changes": [
+    "Self-authored per-stage bankBefore/bankAfter, logical female/new/collect positions and native route.",
+    "Original controller method bodies unchanged; footer installs local runtime wrapper after original class registration.",
+    "Existing own GameData cursor adapter carries one owned resume context; existing own state adapter waits once and re-enters original START_RESUME event only after true collector completion.",
+    "Only pre-presentation bank and collected flags are restored; no final caption, fake completion timeout, graphics, image changes or original RNG claim."
+  ],
+  "fixtures": {
+    "tests/test-native-rate-resume.mjs": 8,
+    "tests/test-native-rate-bank.mjs": 5,
+    "tests/test-backend.mjs": 16,
+    "portableFiles": 7,
+    "portableFailures": 0
+  },
+  "diagnostics": {
+    "optIn": "reaDebug=1&reaTestWallet=<fresh-name>&reaRateAudit=1",
+    "selector": "#ProjectFNativeRateAudit",
+    "attribute": "data-records",
+    "scope": "hidden own DOM audit; only active local test wallet;16 records x at most34 symbols; native bank/expected stage/marker data, no arbitrary browser-global evaluation"
+  },
+  "existingMetaUuidsPreserved": true,
+  "newOwnMeta": "assets/game/backend/InstallNativeRateCompatibility.ts.meta",
+  "legacyPolicy": "Operations lacking new provenance retain stored stages/award and original presentation path; no wallet/schema/key migration, redraw or recredit.",
+  "sourceSha256": {
+    "assets/game/backend/WaysRules.ts": "5e018ad8c430b515bdbb2aefc633d29f4c0abd1c14004a5657f0da43ad2c26d6",
+    "assets/game/backend/DisplayedPaytable.ts": "cce1233940b3e1f1a0a540890218e2074c14a586ff71f74746f489c2ec7c2cbc",
+    "assets/game/backend/InstallGameDataCompatibility.ts": "08d26d30308439c3eff86ff8294bc66add4181b10b7501d151117710c00a964b",
+    "assets/game/backend/InstallStateMachineCompatibility.ts": "d861513870f3b331133e42bba41df0334ef7ec5b1972c5e8c82b75bbb4769264",
+    "assets/game/backend/InstallNativeRateCompatibility.ts": "f0045cdde2fe28f042aad521b26bbebbcce00b95ba4b5fa596d96d480f483c11",
+    "assets/game/scripts/g1004-GameSlotController.ts": "551995230e298d0dd1d148b4d3c99e55d8992f7838858f1614f29e53d6a302ea"
+  },
+  "compiledVerified": false,
+  "guiVerified": false,
+  "originalRngRestored": false,
+  "originalRtpRestored": false
+}

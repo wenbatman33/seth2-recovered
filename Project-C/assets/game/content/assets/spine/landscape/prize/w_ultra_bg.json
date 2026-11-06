@@ -1,0 +1,5757 @@
+{
+  "skeleton": {
+    "hash": "9Dk3mz1nA5CQ/kkOkUUsOsPz3Hs",
+    "spine": "3.7.94",
+    "width": 3022.86,
+    "height": 1505
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "root2",
+      "parent": "root"
+    },
+    {
+      "name": "5_uw",
+      "parent": "root2"
+    },
+    {
+      "name": "uw_txt",
+      "parent": "5_uw"
+    },
+    {
+      "name": "uw_txtbox",
+      "parent": "5_uw"
+    },
+    {
+      "name": "uw_totem",
+      "parent": "5_uw"
+    },
+    {
+      "name": "uw_light",
+      "parent": "5_uw"
+    },
+    {
+      "name": "uw_light_loop",
+      "parent": "uw_light"
+    },
+    {
+      "name": "uw_light_l1",
+      "parent": "uw_light_loop",
+      "y": 178.64
+    },
+    {
+      "name": "uw_light_l2",
+      "parent": "uw_light_loop",
+      "y": 178.64,
+      "scaleX": -1
+    },
+    {
+      "name": "uw_light_l3",
+      "parent": "uw_light_loop",
+      "y": 178.64
+    },
+    {
+      "name": "uw_light_l4",
+      "parent": "uw_light_loop",
+      "y": 178.64,
+      "scaleX": -1
+    },
+    {
+      "name": "uw_light_l5",
+      "parent": "uw_light_loop",
+      "y": 178.64
+    },
+    {
+      "name": "uw_light_l6",
+      "parent": "uw_light_loop",
+      "y": 178.64,
+      "scaleX": -1
+    },
+    {
+      "name": "uw_light_l7",
+      "parent": "uw_light_loop",
+      "y": 178.64
+    },
+    {
+      "name": "uw_light_l8",
+      "parent": "uw_light_loop",
+      "y": 178.64,
+      "scaleX": -1
+    },
+    {
+      "name": "uw_light_l9",
+      "parent": "uw_light_loop",
+      "y": 178.64
+    },
+    {
+      "name": "uw_light_l10",
+      "parent": "uw_light_loop",
+      "y": 178.64,
+      "scaleX": -1
+    },
+    {
+      "name": "uw_totem_b11",
+      "parent": "uw_totem"
+    },
+    {
+      "name": "uw_totem_b12",
+      "parent": "uw_totem_b11",
+      "length": 498.85,
+      "rotation": 18.57,
+      "x": 308.97,
+      "y": -428.87
+    },
+    {
+      "name": "uw_totem_b13",
+      "parent": "uw_totem_b11",
+      "length": 589.02,
+      "rotation": 17.7,
+      "x": 349.33,
+      "y": -344.38
+    },
+    {
+      "name": "uw_totem_b14",
+      "parent": "uw_totem_b11",
+      "length": 651.8,
+      "rotation": 15.95,
+      "x": 409.85,
+      "y": -238.46
+    },
+    {
+      "name": "uw_totem_b15",
+      "parent": "uw_totem_b11",
+      "length": 788.27,
+      "rotation": 20.52,
+      "x": 453.69,
+      "y": -156.29
+    },
+    {
+      "name": "uw_totem_b16",
+      "parent": "uw_totem",
+      "scaleX": -1
+    },
+    {
+      "name": "uw_totem_b17",
+      "parent": "uw_totem_b16",
+      "length": 498.85,
+      "rotation": 18.57,
+      "x": 308.97,
+      "y": -428.87
+    },
+    {
+      "name": "uw_totem_b18",
+      "parent": "uw_totem_b16",
+      "length": 589.02,
+      "rotation": 17.7,
+      "x": 349.33,
+      "y": -344.38
+    },
+    {
+      "name": "uw_totem_b19",
+      "parent": "uw_totem_b16",
+      "length": 651.8,
+      "rotation": 15.95,
+      "x": 409.85,
+      "y": -238.46
+    },
+    {
+      "name": "uw_totem_b20",
+      "parent": "uw_totem_b16",
+      "length": 788.27,
+      "rotation": 20.52,
+      "x": 453.69,
+      "y": -156.29
+    },
+    {
+      "name": "uw_totem_c",
+      "parent": "uw_totem"
+    },
+    {
+      "name": "uw_totem_a",
+      "parent": "uw_totem"
+    },
+    {
+      "name": "uw_totem_a2",
+      "parent": "uw_totem_a",
+      "length": 389,
+      "rotation": 30.28,
+      "x": 538.85,
+      "y": 109.75
+    },
+    {
+      "name": "uw_totem_ct",
+      "parent": "uw_totem_c"
+    },
+    {
+      "name": "uw_totem_c1",
+      "parent": "uw_totem_ct",
+      "x": 169.09,
+      "y": 406.63
+    },
+    {
+      "name": "uw_totem_c2",
+      "parent": "uw_totem_ct",
+      "x": 378.44,
+      "y": 96.62
+    },
+    {
+      "name": "uw_totem_c0",
+      "parent": "uw_totem_c"
+    },
+    {
+      "name": "uw_totem_a3",
+      "parent": "uw_totem",
+      "scaleX": -1
+    },
+    {
+      "name": "uw_totem_a4",
+      "parent": "uw_totem_a3",
+      "length": 389,
+      "rotation": 30.28,
+      "x": 538.85,
+      "y": 109.75
+    },
+    {
+      "name": "uw_totem_ct2",
+      "parent": "uw_totem_c",
+      "scaleX": -1
+    },
+    {
+      "name": "uw_totem_c3",
+      "parent": "uw_totem_ct2",
+      "x": 169.09,
+      "y": 406.63
+    },
+    {
+      "name": "uw_totem_c4",
+      "parent": "uw_totem_ct2",
+      "x": 378.44,
+      "y": 96.62
+    },
+    {
+      "name": "uw_light_d",
+      "parent": "uw_light",
+      "y": 99.5
+    },
+    {
+      "name": "uw_light_e",
+      "parent": "uw_light",
+      "y": 208.26
+    },
+    {
+      "name": "uw_txtbox_a",
+      "parent": "uw_txtbox",
+      "y": -151.37
+    },
+    {
+      "name": "uw_txtbox_b",
+      "parent": "uw_txtbox",
+      "y": -476.36
+    },
+    {
+      "name": "uw_txtbox_0",
+      "parent": "uw_txtbox",
+      "y": -302.74
+    }
+  ],
+  "slots": [
+    {
+      "name": "uw_light_e",
+      "bone": "uw_light_e",
+      "attachment": "uw_light_e",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_d",
+      "bone": "uw_light_d",
+      "attachment": "uw_light_d",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c",
+      "bone": "uw_light_l1",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c3",
+      "bone": "uw_light_l3",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c5",
+      "bone": "uw_light_l5",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c7",
+      "bone": "uw_light_l7",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c9",
+      "bone": "uw_light_l9",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c2",
+      "bone": "uw_light_l2",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c4",
+      "bone": "uw_light_l4",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c6",
+      "bone": "uw_light_l6",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c8",
+      "bone": "uw_light_l8",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_light_c10",
+      "bone": "uw_light_l10",
+      "color": "ffffff00",
+      "attachment": "uw_light_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_txtbox",
+      "bone": "uw_txtbox_0",
+      "attachment": "uw_txtbox",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_txtbox_b",
+      "bone": "uw_txtbox_b",
+      "attachment": "uw_txtbox_b",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_txtbox_a",
+      "bone": "uw_txtbox_a",
+      "attachment": "uw_txtbox_a",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_a1",
+      "bone": "uw_totem_a2",
+      "attachment": "uw_totem_a1",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_a2",
+      "bone": "uw_totem_a4",
+      "attachment": "uw_totem_a1",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b4",
+      "bone": "uw_totem_b12",
+      "attachment": "uw_totem_b4",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b5",
+      "bone": "uw_totem_b17",
+      "attachment": "uw_totem_b4",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b3",
+      "bone": "uw_totem_b13",
+      "attachment": "uw_totem_b3",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b6",
+      "bone": "uw_totem_b18",
+      "attachment": "uw_totem_b3",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b2",
+      "bone": "uw_totem_b14",
+      "attachment": "uw_totem_b2",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b7",
+      "bone": "uw_totem_b19",
+      "attachment": "uw_totem_b2",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b1",
+      "bone": "uw_totem_b15",
+      "attachment": "uw_totem_b1",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_b8",
+      "bone": "uw_totem_b20",
+      "attachment": "uw_totem_b1",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_c",
+      "bone": "uw_totem_c0",
+      "attachment": "uw_totem_c",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_c2",
+      "bone": "uw_totem_c2",
+      "attachment": "uw_totem_c2",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_c4",
+      "bone": "uw_totem_c4",
+      "attachment": "uw_totem_c2",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_c1",
+      "bone": "uw_totem_c1",
+      "attachment": "uw_totem_c1",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_totem_c3",
+      "bone": "uw_totem_c3",
+      "attachment": "uw_totem_c1",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_txt_b_sd",
+      "bone": "uw_txt",
+      "attachment": "uw_txt_b_sd",
+      "blend": "additive"
+    },
+    {
+      "name": "uw_txt_a_sd",
+      "bone": "uw_txt",
+      "attachment": "uw_txt_a_sd",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "uw_light_c": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c10": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c2": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c3": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c4": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c5": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c6": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c7": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c8": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_c9": {
+        "uw_light_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1147.43,
+            -708.14,
+            -1208.57,
+            -708.14,
+            -1208.57,
+            711.86,
+            1147.43,
+            711.86
+          ]
+        }
+      },
+      "uw_light_d": {
+        "uw_light_d": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1149.43,
+            -703,
+            -1152.57,
+            -703,
+            -1152.57,
+            723,
+            1149.43,
+            723
+          ]
+        }
+      },
+      "uw_light_e": {
+        "uw_light_e": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            767.43,
+            -606.76,
+            -711.57,
+            -606.76,
+            -711.57,
+            414.24,
+            767.43,
+            414.24
+          ]
+        }
+      },
+      "uw_totem_a1": {
+        "uw_totem_a1": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            341.77,
+            -339.98,
+            -124.54,
+            -67.68,
+            94.81,
+            307.96,
+            561.13,
+            35.66
+          ]
+        }
+      },
+      "uw_totem_a2": {
+        "uw_totem_a1": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            341.77,
+            -339.98,
+            -124.54,
+            -67.68,
+            94.81,
+            307.96,
+            561.13,
+            35.66
+          ]
+        }
+      },
+      "uw_totem_b1": {
+        "uw_totem_b1": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            948.49,
+            -483.35,
+            -142.59,
+            -74.98,
+            126.62,
+            644.29,
+            1217.7,
+            235.92
+          ]
+        }
+      },
+      "uw_totem_b2": {
+        "uw_totem_b2": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            826.08,
+            -365.02,
+            -131.6,
+            -91.4,
+            -8.52,
+            339.36,
+            949.15,
+            65.74
+          ]
+        }
+      },
+      "uw_totem_b3": {
+        "uw_totem_b3": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            726.55,
+            -348.48,
+            -116.56,
+            -79.44,
+            4.43,
+            299.72,
+            847.54,
+            30.68
+          ]
+        }
+      },
+      "uw_totem_b4": {
+        "uw_totem_b4": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            539.27,
+            -317.95,
+            -142.28,
+            -88.94,
+            -25.71,
+            258,
+            655.85,
+            28.99
+          ]
+        }
+      },
+      "uw_totem_b5": {
+        "uw_totem_b4": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            539.27,
+            -317.95,
+            -142.28,
+            -88.94,
+            -25.71,
+            258,
+            655.85,
+            28.99
+          ]
+        }
+      },
+      "uw_totem_b6": {
+        "uw_totem_b3": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            726.55,
+            -348.48,
+            -116.56,
+            -79.44,
+            4.43,
+            299.72,
+            847.54,
+            30.68
+          ]
+        }
+      },
+      "uw_totem_b7": {
+        "uw_totem_b2": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            826.08,
+            -365.02,
+            -131.6,
+            -91.4,
+            -8.52,
+            339.36,
+            949.16,
+            65.74
+          ]
+        }
+      },
+      "uw_totem_b8": {
+        "uw_totem_b1": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            948.49,
+            -483.35,
+            -142.59,
+            -74.98,
+            126.62,
+            644.29,
+            1217.7,
+            235.92
+          ]
+        }
+      },
+      "uw_totem_c": {
+        "uw_totem_c": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            439.43,
+            -395.5,
+            -436.57,
+            -395.5,
+            -436.57,
+            295.5,
+            439.43,
+            295.5
+          ]
+        }
+      },
+      "uw_totem_c1": {
+        "uw_totem_c1": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            149.34,
+            -156.12,
+            -123.66,
+            -156.12,
+            -123.66,
+            251.88,
+            149.34,
+            251.88
+          ]
+        }
+      },
+      "uw_totem_c2": {
+        "uw_totem_c2": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            220.98,
+            -171.12,
+            -179.02,
+            -171.12,
+            -179.02,
+            331.88,
+            220.98,
+            331.88
+          ]
+        }
+      },
+      "uw_totem_c3": {
+        "uw_totem_c1": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            149.34,
+            -156.12,
+            -123.66,
+            -156.12,
+            -123.66,
+            251.88,
+            149.34,
+            251.88
+          ]
+        }
+      },
+      "uw_totem_c4": {
+        "uw_totem_c2": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            220.98,
+            -171.12,
+            -179.02,
+            -171.12,
+            -179.02,
+            331.88,
+            220.98,
+            331.88
+          ]
+        }
+      },
+      "uw_txt_a_sd": {
+        "uw_txt_a_sd": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            639.43,
+            24.5,
+            -648.57,
+            24.5,
+            -648.57,
+            506.5,
+            639.43,
+            506.5
+          ]
+        }
+      },
+      "uw_txt_b_sd": {
+        "uw_txt_b_sd": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            419.43,
+            -207.5,
+            -423.57,
+            -207.5,
+            -423.57,
+            205.5,
+            419.43,
+            205.5
+          ]
+        }
+      },
+      "uw_txtbox": {
+        "uw_txtbox": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            884,
+            -174.76,
+            -884,
+            -174.76,
+            -884,
+            153.24,
+            884,
+            153.24
+          ]
+        }
+      },
+      "uw_txtbox_a": {
+        "uw_txtbox_a": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1055.5,
+            -137.13,
+            -1055.5,
+            -137.13,
+            -1055.5,
+            143.87,
+            1055.5,
+            143.87
+          ]
+        }
+      },
+      "uw_txtbox_b": {
+        "uw_txtbox_b": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            1055.5,
+            -138.14,
+            -1055.5,
+            -138.14,
+            -1055.5,
+            142.86,
+            1055.5,
+            142.86
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "in": {
+      "slots": {
+        "uw_light_c": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c2": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c3": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c4": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff51"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff51"
+            }
+          ]
+        },
+        "uw_light_c7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffffa2"
+            }
+          ]
+        },
+        "uw_light_c8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffffa2"
+            }
+          ]
+        },
+        "uw_light_c9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff87"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff87"
+            }
+          ]
+        },
+        "uw_light_c10": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_d": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff5b"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_light_e": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff5b"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_a1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.103,
+                0.22,
+                0.211,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_a2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.103,
+                0.22,
+                0.211,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_b8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_c": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.122,
+                0.4,
+                0.328,
+                0.95
+              ]
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_c1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.122,
+                0.4,
+                0.328,
+                0.95
+              ]
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_c2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.122,
+                0.4,
+                0.328,
+                0.95
+              ]
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_c3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.122,
+                0.4,
+                0.328,
+                0.95
+              ]
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_totem_c4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.122,
+                0.4,
+                0.328,
+                0.95
+              ]
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_txt_a_sd": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_txt_b_sd": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_txtbox": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": [
+                0.149,
+                0.24,
+                0.391,
+                0.91
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_txtbox_a": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00",
+              "curve": [
+                0.149,
+                0.24,
+                0.391,
+                0.91
+              ]
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "uw_txtbox_b": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff00",
+              "curve": [
+                0.149,
+                0.24,
+                0.391,
+                0.91
+              ]
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "uw_totem_b12": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3333,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.75
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.95,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b13": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3667,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.63
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.951,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b14": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.4333,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.51
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.953,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b15": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.4
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.957,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b17": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3333,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.75
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.95,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b18": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3667,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.63
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.951,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b19": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.4333,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.51
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.953,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b20": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "angle": -25.86,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -1.4
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.744,
+              "y": 1,
+              "curve": [
+                0.152,
+                0.43,
+                0.283,
+                0.99
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1.05,
+              "y": 1.05,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.957,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_a2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0.06
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -100.92,
+              "curve": [
+                0.103,
+                0.22,
+                0.211,
+                1
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": [
+                0.103,
+                0.22,
+                0.211,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_light_l9": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.54,
+              "y": 0.54
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 0.54,
+              "y": 0.54
+            }
+          ]
+        },
+        "uw_light_l10": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.8333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.8333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l5": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        },
+        "uw_light_l8": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.78,
+              "y": 0.78
+            },
+            {
+              "time": 0.5,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 0.78,
+              "y": 0.78
+            }
+          ]
+        },
+        "uw_light_l6": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.26,
+              "y": 1.26
+            },
+            {
+              "time": 0.1667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 1.26,
+              "y": 1.26
+            }
+          ]
+        },
+        "uw_light_l7": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.02,
+              "y": 1.02
+            },
+            {
+              "time": 0.3333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 1.02,
+              "y": 1.02
+            }
+          ]
+        },
+        "uw_light_l2": {
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0333,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l3": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.1667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l4": {
+          "scale": [
+            {
+              "time": 0.5,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.3333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_totem_a4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0.06
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -100.92,
+              "curve": [
+                0.103,
+                0.22,
+                0.211,
+                1
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": [
+                0.103,
+                0.22,
+                0.211,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_c2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 5.34,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -14.61,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "uw_totem_c1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 5.34,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -14.61,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "uw_totem_c0": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.409,
+              "y": 1.25
+            },
+            {
+              "time": 0.1,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_ct": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.409,
+              "y": 1.25
+            },
+            {
+              "time": 0.1,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_c3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 5.34,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -14.61,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "uw_totem_c4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 5.34,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -14.61,
+              "curve": [
+                0.429,
+                0.01,
+                0.296,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "uw_totem_ct2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.409,
+              "y": 1.25
+            },
+            {
+              "time": 0.1,
+              "x": 0.95,
+              "y": 0.95
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_light_d": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.1,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.7333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_light_e": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.1,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.7333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_txt": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.3,
+              "y": 0.36
+            },
+            {
+              "time": 0.1,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_txtbox_a": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.296,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0.296,
+              "y": 1,
+              "curve": [
+                0.149,
+                0.24,
+                0.391,
+                0.91
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_txtbox_b": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.296,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "x": 0.296,
+              "y": 1,
+              "curve": [
+                0.149,
+                0.24,
+                0.391,
+                0.91
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "uw_light_c": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.7,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c2": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.8667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c3": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.0333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c4": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.3667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "uw_light_c6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff51"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff51"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 3,
+              "color": "ffffff51"
+            }
+          ]
+        },
+        "uw_light_c7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 1.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.7,
+              "color": "ffffffa2"
+            }
+          ]
+        },
+        "uw_light_c8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.8667,
+              "color": "ffffffa2"
+            }
+          ]
+        },
+        "uw_light_c9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff87"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff87"
+            },
+            {
+              "time": 1.5333,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8333,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2.1667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffff87"
+            }
+          ]
+        },
+        "uw_light_c10": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.7,
+              "color": "ffffffa2",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffffa2"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "uw_light_l1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.8333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 2.3333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l2": {
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 2.5,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l3": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.1667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 2.6667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l4": {
+          "scale": [
+            {
+              "time": 0.5,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.3333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 2.8333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_light_l5": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 3,
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        },
+        "uw_light_l6": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.26,
+              "y": 1.26
+            },
+            {
+              "time": 0.1667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 1.26,
+              "y": 1.26
+            },
+            {
+              "time": 1.6667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 3,
+              "x": 1.26,
+              "y": 1.26
+            }
+          ]
+        },
+        "uw_light_l7": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.02,
+              "y": 1.02
+            },
+            {
+              "time": 0.3333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 1.02,
+              "y": 1.02
+            },
+            {
+              "time": 1.8333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8667,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 3,
+              "x": 1.02,
+              "y": 1.02
+            }
+          ]
+        },
+        "uw_light_l8": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.78,
+              "y": 0.78
+            },
+            {
+              "time": 0.5,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 0.78,
+              "y": 0.78
+            },
+            {
+              "time": 2,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0333,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 3,
+              "x": 0.78,
+              "y": 0.78
+            }
+          ]
+        },
+        "uw_light_l9": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.54,
+              "y": 0.54
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 1.5,
+              "x": 0.54,
+              "y": 0.54
+            },
+            {
+              "time": 2.1667,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 3,
+              "x": 0.54,
+              "y": 0.54
+            }
+          ]
+        },
+        "uw_light_l10": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.8333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "x": 0.3,
+              "y": 0.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 2.3333,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "uw_totem_b12": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.75,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 0,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 3,
+              "angle": -1.75
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.95,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b13": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.63
+            },
+            {
+              "time": 0.1,
+              "angle": -1.75,
+              "curve": [
+                0.439,
+                0,
+                0.583,
+                0.88
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -0.03,
+              "curve": [
+                0.318,
+                0.61,
+                0.65,
+                0.95
+              ]
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -1.63
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.951,
+              "y": 1,
+              "curve": [
+                0.352,
+                0.65,
+                0.687,
+                1
+              ]
+            },
+            {
+              "time": 0.1,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.439,
+                0,
+                0.583,
+                0.88
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.999,
+              "y": 1,
+              "curve": [
+                0.318,
+                0.61,
+                0.65,
+                0.95
+              ]
+            },
+            {
+              "time": 1.6,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.246,
+                0,
+                0.723,
+                0.88
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.951,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b14": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.51
+            },
+            {
+              "time": 0.2,
+              "angle": -1.75,
+              "curve": [
+                0.445,
+                0,
+                0.613,
+                0.78
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -0.06,
+              "curve": [
+                0.304,
+                0.61,
+                0.634,
+                0.97
+              ]
+            },
+            {
+              "time": 1.7,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -1.51
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.953,
+              "y": 1,
+              "curve": [
+                0.366,
+                0.63,
+                0.703,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.445,
+                0,
+                0.613,
+                0.78
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.998,
+              "y": 1,
+              "curve": [
+                0.304,
+                0.61,
+                0.634,
+                0.97
+              ]
+            },
+            {
+              "time": 1.7,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.244,
+                0,
+                0.7,
+                0.79
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.953,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b15": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.4
+            },
+            {
+              "time": 0.3,
+              "angle": -1.75,
+              "curve": [
+                0.45,
+                0,
+                0.641,
+                0.71
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -0.14,
+              "curve": [
+                0.292,
+                0.6,
+                0.618,
+                0.98
+              ]
+            },
+            {
+              "time": 1.8,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -1.4
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.957,
+              "y": 1,
+              "curve": [
+                0.375,
+                0.62,
+                0.716,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.45,
+                0,
+                0.641,
+                0.71
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.996,
+              "y": 1,
+              "curve": [
+                0.292,
+                0.6,
+                0.618,
+                0.98
+              ]
+            },
+            {
+              "time": 1.8,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.243,
+                0,
+                0.68,
+                0.71
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.957,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b17": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.75,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 0,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 3,
+              "angle": -1.75
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.43,
+                0,
+                0.551,
+                0.99
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.95,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b18": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.63
+            },
+            {
+              "time": 0.1,
+              "angle": -1.75,
+              "curve": [
+                0.439,
+                0,
+                0.583,
+                0.88
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -0.03,
+              "curve": [
+                0.318,
+                0.61,
+                0.65,
+                0.95
+              ]
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -1.63
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.951,
+              "y": 1,
+              "curve": [
+                0.352,
+                0.65,
+                0.687,
+                1
+              ]
+            },
+            {
+              "time": 0.1,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.439,
+                0,
+                0.583,
+                0.88
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.999,
+              "y": 1,
+              "curve": [
+                0.318,
+                0.61,
+                0.65,
+                0.95
+              ]
+            },
+            {
+              "time": 1.6,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.246,
+                0,
+                0.723,
+                0.88
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.951,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b19": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.51
+            },
+            {
+              "time": 0.2,
+              "angle": -1.75,
+              "curve": [
+                0.445,
+                0,
+                0.613,
+                0.78
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -0.06,
+              "curve": [
+                0.304,
+                0.61,
+                0.634,
+                0.97
+              ]
+            },
+            {
+              "time": 1.7,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -1.51
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.953,
+              "y": 1,
+              "curve": [
+                0.366,
+                0.63,
+                0.703,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.445,
+                0,
+                0.613,
+                0.78
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.998,
+              "y": 1,
+              "curve": [
+                0.304,
+                0.61,
+                0.634,
+                0.97
+              ]
+            },
+            {
+              "time": 1.7,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.244,
+                0,
+                0.7,
+                0.79
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.953,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_b20": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.4
+            },
+            {
+              "time": 0.3,
+              "angle": -1.75,
+              "curve": [
+                0.45,
+                0,
+                0.641,
+                0.71
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": -0.14,
+              "curve": [
+                0.292,
+                0.6,
+                0.618,
+                0.98
+              ]
+            },
+            {
+              "time": 1.8,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -1.4
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.957,
+              "y": 1,
+              "curve": [
+                0.375,
+                0.62,
+                0.716,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0.95,
+              "y": 1,
+              "curve": [
+                0.45,
+                0,
+                0.641,
+                0.71
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.996,
+              "y": 1,
+              "curve": [
+                0.292,
+                0.6,
+                0.618,
+                0.98
+              ]
+            },
+            {
+              "time": 1.8,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.243,
+                0,
+                0.68,
+                0.71
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.957,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_c2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.14,
+              "curve": [
+                0.308,
+                0.63,
+                0.639,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "angle": 0
+            },
+            {
+              "time": 1.6667,
+              "angle": 4.97,
+              "curve": [
+                0.495,
+                0,
+                0.644,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "angle": 0.14
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -0.15,
+              "y": -0.46,
+              "curve": [
+                0.308,
+                0.63,
+                0.639,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.6667,
+              "x": -5.52,
+              "y": -16.75,
+              "curve": [
+                0.495,
+                0,
+                0.644,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "x": -0.15,
+              "y": -0.46
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.999,
+              "y": 0.999,
+              "curve": [
+                0.308,
+                0.63,
+                0.639,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 0.95,
+              "y": 0.95,
+              "curve": [
+                0.495,
+                0,
+                0.644,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.999,
+              "y": 0.999
+            }
+          ]
+        },
+        "uw_totem_c1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 3.45,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 3,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": -5.52,
+              "y": -4.65,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.95,
+              "y": 0.95,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_c0": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -1.28,
+              "curve": [
+                0.29,
+                0.61,
+                0.613,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.8333,
+              "x": 0,
+              "y": -11.23,
+              "curve": [
+                0.495,
+                0,
+                0.687,
+                0.69
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": -1.28
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.994,
+              "y": 0.994,
+              "curve": [
+                0.29,
+                0.61,
+                0.613,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.8333,
+              "x": 0.95,
+              "y": 0.95,
+              "curve": [
+                0.495,
+                0,
+                0.687,
+                0.69
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.994,
+              "y": 0.994
+            }
+          ]
+        },
+        "uw_totem_a2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.09,
+              "curve": [
+                0.362,
+                0.64,
+                0.698,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "angle": 0
+            },
+            {
+              "time": 1.6667,
+              "angle": 1.79,
+              "curve": [
+                0.245,
+                0,
+                0.707,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "angle": 0.09
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.003,
+              "y": 1,
+              "curve": [
+                0.362,
+                0.64,
+                0.698,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 1.052,
+              "y": 1,
+              "curve": [
+                0.245,
+                0,
+                0.707,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "x": 1.003,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_a4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.09,
+              "curve": [
+                0.362,
+                0.64,
+                0.698,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "angle": 0
+            },
+            {
+              "time": 1.6667,
+              "angle": 1.79,
+              "curve": [
+                0.245,
+                0,
+                0.707,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "angle": 0.09
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.003,
+              "y": 1,
+              "curve": [
+                0.362,
+                0.64,
+                0.698,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 1.052,
+              "y": 1,
+              "curve": [
+                0.245,
+                0,
+                0.707,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "x": 1.003,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_c3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 3.45,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 3,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": -5.52,
+              "y": -4.65,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.95,
+              "y": 0.95,
+              "curve": [
+                0.487,
+                0,
+                0.59,
+                1
+              ]
+            },
+            {
+              "time": 3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "uw_totem_c4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.14,
+              "curve": [
+                0.308,
+                0.63,
+                0.639,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "angle": 0
+            },
+            {
+              "time": 1.6667,
+              "angle": 4.97,
+              "curve": [
+                0.495,
+                0,
+                0.644,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "angle": 0.14
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -0.15,
+              "y": -0.46,
+              "curve": [
+                0.308,
+                0.63,
+                0.639,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.6667,
+              "x": -5.52,
+              "y": -16.75,
+              "curve": [
+                0.495,
+                0,
+                0.644,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "x": -0.15,
+              "y": -0.46
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.999,
+              "y": 0.999,
+              "curve": [
+                0.308,
+                0.63,
+                0.639,
+                0.99
+              ]
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 0.95,
+              "y": 0.95,
+              "curve": [
+                0.495,
+                0,
+                0.644,
+                0.82
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.999,
+              "y": 0.999
+            }
+          ]
+        }
+      }
+    }
+  }
+}

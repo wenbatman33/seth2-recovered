@@ -1,0 +1,55 @@
+
+symbol_02.png
+size: 576,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s2_a_2
+  rotate: false
+  xy: 520, 71
+  size: 54, 52
+  orig: 55, 53
+  offset: 0, 1
+  index: -1
+s2_a_3
+  rotate: true
+  xy: 328, 1
+  size: 20, 36
+  orig: 21, 37
+  offset: 0, 1
+  index: -1
+s2_b
+  rotate: true
+  xy: 328, 22
+  size: 101, 99
+  orig: 102, 100
+  offset: 0, 1
+  index: -1
+s2_bg
+  rotate: true
+  xy: 428, 22
+  size: 101, 91
+  orig: 101, 91
+  offset: 0, 0
+  index: -1
+s2_ef
+  rotate: false
+  xy: 1, 8
+  size: 115, 115
+  orig: 116, 116
+  offset: 0, 1
+  index: -1
+s4_gb_2
+  rotate: true
+  xy: 225, 8
+  size: 115, 102
+  orig: 115, 102
+  offset: 0, 0
+  index: -1
+symbol_ring
+  rotate: true
+  xy: 117, 6
+  size: 117, 107
+  orig: 117, 107
+  offset: 0, 0
+  index: -1

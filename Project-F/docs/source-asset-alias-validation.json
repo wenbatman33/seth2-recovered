@@ -1,0 +1,18 @@
+{
+  "project": "Project-F",
+  "sourcePaths": 2832,
+  "frames": 1148,
+  "atlases": 3,
+  "staticRepairs": 113,
+  "imageMetadataUnchanged": 861,
+  "rootRuntimeSha256": "f6e63e6a76b0050233cb0bf2cbf7459fcdcf4b2f4d4aa4a5a7f66fae984f75cd",
+  "bundleOutput": true,
+  "browserVerified": false,
+  "sourceOraclePassed": true,
+  "runtimeBoundaryFixtureProject": "Project-F",
+  "runtimeBoundaryFixtureChecks": 10,
+  "mockedEngineObjects": true,
+  "opaqueTextureDependencyFixtureProject": "Project-E",
+  "opaqueTextureDependencyFixtureChecks": 5,
+  "creatorFirstImportUuidRemappingHandled": true
+}

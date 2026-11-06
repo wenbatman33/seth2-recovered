@@ -1,0 +1,175 @@
+{
+  "skeleton": {
+    "hash": "AMhtajZ/r1eKrk+e/DsgndloJ98",
+    "spine": "3.7.94",
+    "width": 0,
+    "height": 0
+  },
+  "bones": [
+    {
+      "name": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "btn_batmask",
+      "bone": "root",
+      "color": "ffffffa0",
+      "attachment": "btn_batmask"
+    },
+    {
+      "name": "btn_bat",
+      "bone": "root",
+      "color": "ffffff87",
+      "attachment": "btn_bat",
+      "blend": "additive"
+    },
+    {
+      "name": "btn_bat2",
+      "bone": "root",
+      "color": "ff0c0cff",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "btn_bat": {
+        "btn_bat": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            192.61,
+            -872,
+            -194.39,
+            -872,
+            -194.39,
+            -557,
+            192.61,
+            -557
+          ]
+        }
+      },
+      "btn_bat2": {
+        "btn_bat": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            192.61,
+            -872,
+            -194.39,
+            -872,
+            -194.39,
+            -557,
+            192.61,
+            -557
+          ]
+        }
+      },
+      "btn_batmask": {
+        "btn_batmask": {
+          "type": "clipping",
+          "end": "btn_bat",
+          "vertexCount": 4,
+          "vertices": [
+            -269.29,
+            -883.34,
+            268.6,
+            -883.34,
+            263.18,
+            -1152.28,
+            -267.49,
+            -1154.09
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "loop": {
+      "slots": {
+        "btn_bat2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ff0000a5"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "btn_bat"
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "btn_batmask": {
+            "btn_batmask": [
+              {
+                "time": 0
+              },
+              {
+                "time": 0.9667,
+                "offset": 1,
+                "vertices": [
+                  628.1399,
+                  3e-05,
+                  628.1399,
+                  3e-05,
+                  628.1399,
+                  3e-05,
+                  628.1399
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

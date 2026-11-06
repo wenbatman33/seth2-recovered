@@ -8,11 +8,13 @@ const digest=file=>createHash('sha256').update(readFileSync(file)).digest('hex')
 const readJson=file=>JSON.parse(readFileSync(file,'utf8'));
 
 // Package already verified official GUI builds. This never compiles or regenerates assets.
-export function packagePages(root=collectionRoot,output=join(root,'.cache/pages/site')){
+export function packagePages(root=collectionRoot,output=join(root,'.cache/pages/site'),{preview=false}={}){
   root=resolve(root);output=resolve(output);
   const cache=join(root,'.cache/pages');
   if(!output.startsWith(cache+'/'))throw Error('Pages output must stay inside .cache/pages/');
-  const folders=readJson(join(root,'games.json')).projects;
+  const homepage=readFileSync(join(root,'index.html'),'utf8');
+  const folders=readJson(join(root,'games.json')).projects.filter(folder=>!preview||homepage.includes(`href="./${folder}/"`));
+  if(!folders.length)throw Error('No enabled games to package');
   const catalog=folders.map(folder=>{
     if(!/^[A-Za-z0-9_-]+$/.test(folder))throw Error('Invalid public project directory');
     const game=readJson(join(root,folder,'game.config.json'));
@@ -52,5 +54,5 @@ export function packagePages(root=collectionRoot,output=join(root,'.cache/pages/
   }catch(error){rmSync(staging,{recursive:true,force:true});throw error;}
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){
-  const result=packagePages();console.log('Packaged '+result.manifest.projects.length+' official GUI builds: '+result.output);
+  const result=packagePages(collectionRoot,join(collectionRoot,'.cache/pages/site'),{preview:process.argv.includes('--preview')});console.log('Packaged '+result.manifest.projects.length+' official GUI builds: '+result.output);
 }

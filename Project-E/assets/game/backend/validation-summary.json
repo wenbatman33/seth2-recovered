@@ -1,0 +1,30 @@
+{
+  "status": "offline-contract-tests-passed; browser/GUI/gameplay not verified",
+  "passed": 15,
+  "checks": [
+    "actual four-row prefab and source 40-line table override stale debug constants",
+    "displayed line payouts and bottom-row bitmask8 are retained",
+    "own distribution produces both wins and losses without fixed no-win answers",
+    "debit/pending/cursor/settlement persist atomically and replay never pays twice",
+    "local purchase100x returns original object acknowledgment then the same full FG chain",
+    "FG factors4/6/8, 5/10/15 awards, retrigger and bounded terminal numFreeSpins0",
+    "JACKPOT count2/3/4/5 maps to native isJp tiers and explicit local pool awards",
+    "invalid RNG, exhausted balance, invalid stake and failed storage do not debit",
+    "settings persist and mute response never overwrites normal user sound settings",
+    "original E GameData/ParseResponse accept four rows, bottom row masks and all FG stages",
+    "original E sender accepts initial/spin/close and buy object acknowledgment callbacks",
+    "persisted resume cursor remains explicit; original parser requires a local-only cursor hook",
+    "isolated progress hook restores the exact original parser state and allows terminal settlement",
+    "lazy local transport preserves callbacks and notifies original jackpot pool listener before initial",
+    "DOM diagnostics reflect actual wallet settlement, retry, stage counts and bounded records"
+  ],
+  "capturedModulesExecuted": [
+    "E GameData",
+    "E ParseResponse",
+    "E GameSender"
+  ],
+  "browser": false,
+  "engine": false,
+  "originalRng": false,
+  "originalRtp": false
+}

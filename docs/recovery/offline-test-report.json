@@ -1,0 +1,788 @@
+{
+  "scope": "portable source/backend consumer tests; not UI, audio or original-server acceptance",
+  "projects": [
+    {
+      "project": "Project-C",
+      "tests": [
+        {
+          "file": "Project-C/tests/test-backend.mjs",
+          "sha256": "b6763194a42df51cab4de96098c184a65a6ce7ec188e0429f711a8d8be942f16",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-C",
+            "passed": 12,
+            "originalParserExecuted": true,
+            "creatorRuntimeVerified": false,
+            "originalRngRestored": false,
+            "originalRtpRestored": false,
+            "capturedUnmodifiedConsumerBaseline": true,
+            "installedHooksVerifiedBy": "test-game-hooks.mjs"
+          }
+        },
+        {
+          "file": "Project-C/tests/test-game-hooks.mjs",
+          "sha256": "1e9119e48f39f019625669df0de6fa8710d944ba306e217fb6b6a4004b7a6b42",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-C",
+            "passed": 9,
+            "installedGameMethods": true,
+            "nativeTreasureContractExecuted": true,
+            "guiOrRenderingVerified": false,
+            "originalRngRestored": false,
+            "originalRtpRestored": false
+          }
+        },
+        {
+          "file": "Project-C/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-C",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-C/tests/test-menu-metadata.mjs",
+          "sha256": "f6f3789cbbfd7703c6d21a8327d72e59044368e8d501709eb3178b9bd4e792a4",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-C",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        },
+        {
+          "file": "Project-C/tests/test-special-callbacks.mjs",
+          "sha256": "030d74cef9b47a9589f012da61da587cf21c0a20c5980704aba8a03686d459ca",
+          "exitCode": 0,
+          "summary": {
+            "passed": 6,
+            "findings": [
+              {
+                "id": "C-CALLBACK-01",
+                "severity": "P2"
+              },
+              {
+                "id": "C-RESUME-01",
+                "severity": "P2"
+              }
+            ],
+            "rootSourceModifiedByAudit": false,
+            "localFixesPresent": true
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T07:58:31.963038+00:00",
+      "backendSourceDigest": "92f31d4f21e24d52db7dffcf97549c34451ede12c7dd735bc1c50902cd5c43f2"
+    },
+    {
+      "project": "Project-D",
+      "tests": [
+        {
+          "file": "Project-D/tests/test-backend.mjs",
+          "sha256": "0f63dd976bd6e1a98a0be8d411dc0e0e9ca837ba370ce2298af20ee62526bf54",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-D",
+            "totalParserContractChecks": 22,
+            "specialStagesParsed": true,
+            "engine": false
+          }
+        },
+        {
+          "file": "Project-D/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-D",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-D/tests/test-menu-metadata.mjs",
+          "sha256": "f6f3789cbbfd7703c6d21a8327d72e59044368e8d501709eb3178b9bd4e792a4",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-D",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        },
+        {
+          "file": "Project-D/tests/test-special-rewards.mjs",
+          "sha256": "bdbe1082083bbb31305e2526093dec94eda1541581b421a318a18ad10cd02557",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-D",
+            "passed": 9,
+            "guiVerified": false,
+            "originalRngRestored": false
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T07:58:31.963038+00:00",
+      "backendSourceDigest": "b4ab257c7714adacff431f96965285392743f009f0bae92bd125e3e8b1dc3204"
+    },
+    {
+      "project": "Project-E",
+      "tests": [
+        {
+          "file": "Project-E/tests/test-backend.mjs",
+          "sha256": "16874ec7732e6e4aeb14aa02bd83399fc416a8ef279d7643bdb538ca5c9572bc",
+          "exitCode": 0,
+          "summary": {
+            "status": "offline-contract-tests-passed; browser/GUI/gameplay not verified",
+            "passed": 15,
+            "checks": [
+              "actual four-row prefab and source 40-line table override stale debug constants",
+              "displayed line payouts and bottom-row bitmask8 are retained",
+              "own distribution produces both wins and losses without fixed no-win answers",
+              "debit/pending/cursor/settlement persist atomically and replay never pays twice",
+              "local purchase100x returns original object acknowledgment then the same full FG chain",
+              "FG factors4/6/8, 5/10/15 awards, retrigger and bounded terminal numFreeSpins0",
+              "JACKPOT count2/3/4/5 maps to native isJp tiers and explicit local pool awards",
+              "invalid RNG, exhausted balance, invalid stake and failed storage do not debit",
+              "settings persist and mute response never overwrites normal user sound settings",
+              "original E GameData/ParseResponse accept four rows, bottom row masks and all FG stages",
+              "original E sender accepts initial/spin/close and buy object acknowledgment callbacks",
+              "persisted resume cursor remains explicit; original parser requires a local-only cursor hook",
+              "isolated progress hook restores the exact original parser state and allows terminal settlement",
+              "lazy local transport preserves callbacks and notifies original jackpot pool listener before initial",
+              "DOM diagnostics reflect actual wallet settlement, retry, stage counts and bounded records"
+            ],
+            "capturedModulesExecuted": [
+              "E GameData",
+              "E ParseResponse",
+              "E GameSender"
+            ],
+            "browser": false,
+            "engine": false,
+            "originalRng": false,
+            "originalRtp": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-fever.mjs",
+          "sha256": "5dc16285015cf541de29395ecc28500dbe048998ed87cb4cf36eb5d019f75c7a",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "own fever modes use both native flag spellings and final-board paytable awards",
+              "own Lucky Moment actually increases base-game FG entry while probabilities remain explicit",
+              "original transform/fever assets and actual prefab UUID are present unchanged",
+              "actual source SPIN_RESPONSE enters fevertime using engine.isLuckyMoment and native parser uses luckyMoment",
+              "actual source FSM waits for original Spine callbacks, then wins/closes through native states once",
+              "saved transform and fever flags reload without debit, replay once, then settle once",
+              "nonlocal responses and ordinary rounds retain original FSM routing and no new debits"
+            ],
+            "actualOriginalFSM": true,
+            "actualOriginalParserAndConsumers": true,
+            "originalTransformSpineCallbacksExplicitlyControlledInFixture": true,
+            "browser": false,
+            "engine": false,
+            "originalRng": false,
+            "originalTransformPhaseRecovered": false,
+            "adaptation": "own local bridge between existing native reel-stop and win/close states"
+          }
+        },
+        {
+          "file": "Project-E/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-E",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-jackpot-display.mjs",
+          "sha256": "d00f8fbf9e6226bcbe8e7f9389930ff73b2dd5ec293023bc3100c3899f256a22",
+          "exitCode": 0,
+          "summary": {
+            "passed": 4,
+            "actualOriginalJpBarMethodsExecuted": true,
+            "actualOriginalAsyncHelper": true,
+            "browser": false,
+            "engine": false,
+            "originalPoolsRestored": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-menu-metadata.mjs",
+          "sha256": "9db6b08ab3dbf455dbdfa6c31af592d7dae3f3b5e86001b95128627ac1bcca18",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-E",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-native-fg-selection.mjs",
+          "sha256": "0db28891b12a6ec520314802e06f2ca0036c5cfb352af338cfd0755fc782a12c",
+          "exitCode": 0,
+          "summary": {
+            "passed": 3,
+            "checks": [
+              "native ordinary intro offers ten seconds and ignores owned autoConfirmTime",
+              "native arrows/confirm choose reveal position while response fixes factor4/6/8; no selection request emitted",
+              "two-second forced reveal belongs to original replay path, not ordinary play"
+            ],
+            "actualSourceConsumer": true,
+            "sourceSelectionSeconds": 10,
+            "responsePreselectsFactor": true,
+            "fixtureControlsTimeAndSpineCompletion": true,
+            "gameSourceChanged": false,
+            "manualPointerUiVerified": false,
+            "browser": false,
+            "engine": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-native-win-completion.mjs",
+          "sha256": "fbf284dd4f006fae5531e57ea9a586c77a18b8b65ee8cbd39ffa5607276dbaf8",
+          "exitCode": 0,
+          "summary": {
+            "passed": 3,
+            "checks": [
+              "actual native BigwinView demonstrates old five-slot level-zero deadlock",
+              "owned definition preserves all six source classification slots and positive native thresholds",
+              "actual native win score callbacks reach SHOW_BIG_WIN_END exactly once at every original level"
+            ],
+            "actualSourceClassificationAndBigwinMethods": true,
+            "tweenCallbacksControlledByFixture": true,
+            "noTimerFallback": true,
+            "browser": false,
+            "engine": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-progress.mjs",
+          "sha256": "dedb1be30cfb58f30b83885be5fa9bbc0b8a228a4d82967c2c728e56ddb26e00",
+          "exitCode": 0,
+          "summary": {
+            "passed": 6,
+            "checks": [
+              "actual E parser resets saved cursor before local progress hook",
+              "saved four-row cursor restores native row bitmasks and chosen factor",
+              "actual GET_ALL_STATES enters native FG reel-stop without closing or skipping saved loss",
+              "terminal saved loss reaches native summary without an out-of-bounds advance",
+              "trigger main-game and nonlocal resumes retain original async routing",
+              "opt-in native audit observes real async completion, synchronous errors and bounded transitions without emitting events"
+            ],
+            "actualSource": [
+              "E GameData",
+              "E ParseResponse",
+              "E GameState.GET_ALL_STATES and native states",
+              "original Babel helpers"
+            ],
+            "animationCallbacksSynthesized": false,
+            "browser": false,
+            "engine": false
+          }
+        },
+        {
+          "file": "Project-E/tests/test-source-texture-identities.mjs",
+          "sha256": "5590d164047385e92c478be4bf0ffb4e603ca6cffe7110eb1f60746bd0897275",
+          "exitCode": 0,
+          "summary": {
+            "passed": 5,
+            "actualPixelFilesRead": true,
+            "nativeDependencyMapModel": true,
+            "gpuObjectsShared": true,
+            "engine": false,
+            "browser": false
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T07:58:31.963038+00:00",
+      "backendSourceDigest": "812c19d518fb3b655860b20fac5d12ce249af71bb1e12c8818ca3c350416856a"
+    },
+    {
+      "project": "Project-F",
+      "tests": [
+        {
+          "file": "Project-F/tests/test-backend.mjs",
+          "sha256": "53c274c2ce9fc388c9f08aaac86a26937dd1c1a79c4c78843ecfd47f07444a74",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 16,
+            "sourceParserExecuted": true,
+            "sourceStateTransitionsExecuted": true,
+            "rootProjectModified": false,
+            "creatorRuntimeVerified": false,
+            "originalRngRestored": false,
+            "originalRtpRestored": false
+          }
+        },
+        {
+          "file": "Project-F/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-F/tests/test-menu-metadata.mjs",
+          "sha256": "f6f3789cbbfd7703c6d21a8327d72e59044368e8d501709eb3178b9bd4e792a4",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-F",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        },
+        {
+          "file": "Project-F/tests/test-mounted-components.mjs",
+          "sha256": "aa756d8aa111269367cd0cee4f088384451823ada9847c3cb1de4250d103503d",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 2,
+            "originalRollerInstances": 6,
+            "compiledResolutionContractVerified": false,
+            "actualRuntimeComponentsVerified": false,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-F/tests/test-native-rate-bank.mjs",
+          "sha256": "aab3d27deb3f0b164d73b76e1e85cecba2ca3f6dfbd3f3fedbdc0a6258e71a95",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 5,
+            "originalNativeCallbacksExecuted": true,
+            "originalRngRestored": false,
+            "guiVerified": false,
+            "mathRevision": "native-rate-bank-v2"
+          }
+        },
+        {
+          "file": "Project-F/tests/test-native-rate-resume.mjs",
+          "sha256": "79208a8511412de72ed908cbb4557eb04d29e6f562a5a0f6f41c01c9d75773ff",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 8,
+            "originalInitStyleCollectorExecuted": true,
+            "guiVerified": false,
+            "localOnly": true
+          }
+        },
+        {
+          "file": "Project-F/tests/test-source-asset-aliases.mjs",
+          "sha256": "0e743ce28a28f9323adb1871d181be29187429665f38366285b631101e94bcce",
+          "exitCode": 0,
+          "summary": {
+            "passed": 10,
+            "actualPixelFilesRead": true,
+            "engine": false,
+            "browser": false,
+            "frames": 175,
+            "atlases": 1
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T08:32:42.251345+00:00",
+      "backendSourceDigest": "5d3dfb85634f84b6900dbd7e4c063dc01dbf84cfba8bf02cf2e74b9d4f98764a"
+    },
+    {
+      "project": "Project-G",
+      "tests": [
+        {
+          "file": "Project-G/tests/test-backend.mjs",
+          "sha256": "3e77a3ed54b0fbc38557dceee1c933c19fc28999df9928bac6b7aab32cd5ed07",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-G",
+            "totalParserContractChecks": 23,
+            "specialStagesParsed": true,
+            "engine": false
+          }
+        },
+        {
+          "file": "Project-G/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-G",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-G/tests/test-menu-metadata.mjs",
+          "sha256": "f6f3789cbbfd7703c6d21a8327d72e59044368e8d501709eb3178b9bd4e792a4",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-G",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        },
+        {
+          "file": "Project-G/tests/test-special-rewards.mjs",
+          "sha256": "bdbe1082083bbb31305e2526093dec94eda1541581b421a318a18ad10cd02557",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-G",
+            "passed": 9,
+            "guiVerified": false,
+            "originalRngRestored": false
+          }
+        },
+        {
+          "file": "Project-G/tests/test-zero-total-win-completion.mjs",
+          "sha256": "dc7bf7c209c3e55b8ea9b94aaebb05ba6cb04b091a4d01d1012cae818825aede",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-G",
+            "passed": 4,
+            "nativeCallbacks": true,
+            "guiVerified": false
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T07:58:31.963038+00:00",
+      "backendSourceDigest": "341f3a5dcbe538948d38d63be9660f6b820cff771951b1b9a6adf570098fc7f3"
+    },
+    {
+      "project": "Project-H",
+      "tests": [
+        {
+          "file": "Project-H/tests/test-backend.mjs",
+          "sha256": "a4524e12e0821a509840c9af7b3d405bcd578204bdf5ac1cf595b8b1d003ad70",
+          "exitCode": 0,
+          "summary": {
+            "passed": 19,
+            "actualCapturedModulesExecuted": [
+              "GameData",
+              "GameSender",
+              "StateFactory",
+              "StateId",
+              "MGStates",
+              "FGStates",
+              "BonusStates",
+              "GameState"
+            ],
+            "isolatedReelMethod": "checkAndShowWildReel",
+            "browser": false,
+            "engine": false,
+            "originalRngRestored": false
+          }
+        },
+        {
+          "file": "Project-H/tests/test-bonus.mjs",
+          "sha256": "2d7cceda24d632b86a10750e0991e475305d985350ccef50e61d3c607fb4fcaf",
+          "exitCode": 0,
+          "summary": {
+            "passed": 15,
+            "actualNativeInputMethods": [
+              "JackpotGameView.onOpenItemPosition",
+              "HeavenlyTreasuresView.onTouchItem",
+              "LuckyWealthView.completeClick"
+            ],
+            "actualSenderMethods": [
+              "sendJackpotGameSelectPosition",
+              "sendFortuneLandingCollectReq",
+              "sendFortuneLandingFinishReq"
+            ],
+            "browser": false,
+            "engine": false,
+            "originalRngRestored": false
+          }
+        },
+        {
+          "file": "Project-H/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-H",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-H/tests/test-menu-metadata.mjs",
+          "sha256": "f6f3789cbbfd7703c6d21a8327d72e59044368e8d501709eb3178b9bd4e792a4",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-H",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T07:58:31.963038+00:00",
+      "backendSourceDigest": "116f3815595df061fbe5e9e111074eca6792f7eee76b34a1c36b3e8dd5705bc7"
+    },
+    {
+      "project": "Project-I",
+      "tests": [
+        {
+          "file": "Project-I/tests/test-backend.mjs",
+          "sha256": "01acb255ae514744c4f6f0b0eb3ce0ca6b494aad0bdfcaaf2427d4d44b66dce9",
+          "exitCode": 0,
+          "summary": {
+            "passed": 10,
+            "actualCapturedParserExecuted": true,
+            "browser": false,
+            "originalRngRestored": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-bonus.mjs",
+          "sha256": "bc2448a547d817d0dda5532f7ce19bf23d2ba925b0119199e311ea033606c793",
+          "exitCode": 0,
+          "summary": {
+            "passed": 11,
+            "checks": [
+              "purify4 distinct choices, response caching, clone purity and immutable stake",
+              "gamble win3, lose, collect use incremental exactly-once pending awards",
+              "JP12 ingots, native position picks, repeat, three matching symbols and finish",
+              "fortune collect token/amount verification, missed boxes, finish and duplicate protection",
+              "lucky secret prize has no invented pick action and invalid RNG never mutates input",
+              "actual GameData builds native gamble parser and uses linear modulo5 positions",
+              "actual DropMaterials consumer switches purify\u2192gamble after the fourth response",
+              "actual BonusGameView phase routing and BonusSlotMultipleGame fields accept purify/win/loss shapes",
+              "actual spinner/PushGame consumers accept win and loss result lists without undefined outcome neighbors",
+              "actual JP click consumer emits correct native payload and result consumer sees matching category",
+              "actual Fortune show/click consumers use local amount+token and native sender finishes then closeSpin"
+            ],
+            "actualConsumers": [
+              "GameData",
+              "GameSender",
+              "DropMaterials.collectMaterials",
+              "MultipReelsController.addEvents",
+              "PushGame.checkWinIndex",
+              "JackpotGameView.onOpenItemPosition/showResult",
+              "HeavenlyTreasuresView.show/onTouchItem"
+            ],
+            "rendering": false,
+            "browser": false,
+            "engine": false,
+            "originalRng": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-info-bar-zero-completion.mjs",
+          "sha256": "fb59f1cbdba695207af15f15bf63c5c0b50913d4451d8306af734b7fa2476244",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-I",
+            "passed": 4,
+            "sourceConsumer": true,
+            "localOnly": true,
+            "guiVerified": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-jackpot-display.mjs",
+          "sha256": "1c3a7187512e46088bd8e831c5ed25ae5527e437a28f91d1bd1b03b0485c1c6e",
+          "exitCode": 0,
+          "summary": {
+            "passed": 4,
+            "actualOriginalJpBarMethodsExecuted": true,
+            "browser": false,
+            "originalPoolsRestored": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-material-selection.mjs",
+          "sha256": "f9671a7ee2e4cf06e9c083165a6795eb287df27101d30ee21e12e3e77557f05b",
+          "exitCode": 0,
+          "summary": {
+            "passed": 1,
+            "actualSourceMethods": [
+              "dropItemAnimation",
+              "isEnableDragItems",
+              "reStartSelect",
+              "selectTimeUP"
+            ],
+            "verified": [
+              "four distinct existing material nodes",
+              "chosen nodes remain disabled after native re-enable",
+              "same selected object cannot start another drop",
+              "timeout chooses only remaining material",
+              "gamble phase prevents fifth choice",
+              "nonlocal original behavior remains"
+            ],
+            "assetsModified": false,
+            "animationCallbacksSynthesized": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-menu-metadata.mjs",
+          "sha256": "9db6b08ab3dbf455dbdfa6c31af592d7dae3f3b5e86001b95128627ac1bcca18",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "original sender and native record/history consumers show their empty states",
+              "settled local records have exact native fields, pagination and report totals",
+              "original table sender/consumer accept one genuine local room and zero-bet detail",
+              "global rank button stays disabled while original empty ranking list remains contract-valid",
+              "nickname update persists and actual sender leaves invalid names unchanged",
+              "original empty avatar selector opens/closes without a fabricated portrait or request",
+              "metadata queries and profile updates never alter balance or pending operation"
+            ],
+            "project": "Project-I",
+            "originalAvatarAssetsDownloaded": 0,
+            "originalSourceConsumers": true,
+            "engine": false,
+            "browser": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-progress.mjs",
+          "sha256": "e23117caf41d2566f12b3c4fc251395018eb6921b92e51113a2c3477b6cfd048",
+          "exitCode": 0,
+          "summary": {
+            "passed": 7,
+            "checks": [
+              "actual original parser demonstrates reset0/first-stage MG problem before local hooks",
+              "saved FG index2 restores native linear positions/transforms and parser cannot reset its type",
+              "actual GameLogic first-stage type copy is also guarded for local saved FG only",
+              "actual GET_ALL_STATES wraps resume locally without replacing native states or skipping saved stage",
+              "actual native dragon branch remains available for saved FG without NEXT_SPIN",
+              "saved terminal FG uses original reel-stop\u2192summary transition, without an out-of-range advance",
+              "nonlocal initial data disables persistence and original async resume function remains in control"
+            ],
+            "actualSource": [
+              "GameData",
+              "ParseResponse",
+              "GameState.GET_ALL_STATES and native states",
+              "GameLogic.setGameType",
+              "original Babel async helpers"
+            ],
+            "browser": false,
+            "engine": false,
+            "animationCallbacksSynthesized": false
+          }
+        },
+        {
+          "file": "Project-I/tests/test-transport.mjs",
+          "sha256": "c25bd8824047fda60c947ea69a171af6b2b53efe44d4eb4cd7bc6fc71edaa94a",
+          "exitCode": 0,
+          "summary": {
+            "passed": 1,
+            "actualSender": "I GameSender.sendBonusFurnacePurifyReq/sendBonusGambleReq -> inherited send -> owned service transport",
+            "verified": [
+              "new purify/gamble payloads get different logical ids",
+              "same payload object retry retains id and phase",
+              "explicit operationId/requestId take precedence",
+              "caller payload is not mutated",
+              "retry does not double-award or debit"
+            ],
+            "namespace": "project-i.local-simulation.v1.test.logical-id",
+            "engine": false,
+            "browser": false
+          }
+        }
+      ],
+      "observedAt": "2026-11-06T07:58:31.963038+00:00",
+      "backendSourceDigest": "e503de6d87dd6e59c190985c07c283d22dcae4824dcca5eb981ff8cfc69890c9"
+    }
+  ],
+  "failures": 0,
+  "observedAt": "2026-11-06T08:32:42.251345+00:00",
+  "testFileCount": 42,
+  "execution": "serial nice15; portable source/backend fixtures only",
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "latestUpdate": "Project-F only refreshed after native resume adapter; other snapshots retain observedAt"
+}

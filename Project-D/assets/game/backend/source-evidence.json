@@ -1,0 +1,197 @@
+{
+  "project": "Project-D",
+  "capturedSource": "source-catalog.json Project-D",
+  "generatedAt": "2026-11-06T05:02:06.401Z",
+  "sourceRuleImages": [
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_01.png",
+      "sha256": "97ae6bf58575b2fa78fbdebb370dfae9fb1667f3f07d1573bc3dee49f930bd38",
+      "status": "view_image verified / visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_02.png",
+      "sha256": "0b13e950fdb086bcc59d64c8343d7d4f3c6deb8283e8df030f18a5fcb22189e7",
+      "status": "view_image verified / visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_03.png",
+      "sha256": "7735df736ce86b5f89c4f2918ae62d7ab4cbc9682581c13aec9c97869cae7108",
+      "status": "view_image verified / visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_04.png",
+      "sha256": "a9292597130ef1dc673cf88f420b3f1fa4ab1ea881ea286fb04ea96057d549f8",
+      "status": "view_image verified / visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_05.png",
+      "sha256": "9bdfb355d9dcf860a42356a94461b39f1c9169201615a45a68db6deb7b577afd",
+      "status": "view_image verified / visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_06.png",
+      "sha256": "663ab352ff61a892451041d4a7119c58c9a879009fd3ef54e5093ee3e71cceb5",
+      "status": "view_image verified / visual-transcribed"
+    },
+    {
+      "file": ".cache/rea-new-games/Project-D/staged-assets-01/assets/game/content/assets/texture/locale/landscape/en/rules_07.png",
+      "sha256": "7d84f489740433b883e050066e8d9036d45ceeac807b3644adafb6a0ea8ee775",
+      "status": "view_image verified / visual-transcribed"
+    }
+  ],
+  "sourceModules": [
+    {
+      "id": "chunks:///_virtual/GameData.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        98069,
+        107725
+      ],
+      "byteRange": [
+        98121,
+        107829
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/GameSender.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        139877,
+        149719
+      ],
+      "byteRange": [
+        140127,
+        150033
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/GameSymbolID.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        151975,
+        154528
+      ],
+      "byteRange": [
+        152289,
+        154842
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/ParseResponse.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        182686,
+        186601
+      ],
+      "byteRange": [
+        183002,
+        186945
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/Symbol.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        203393,
+        210737
+      ],
+      "byteRange": [
+        203737,
+        211081
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/SymbolView.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        210740,
+        223649
+      ],
+      "byteRange": [
+        211084,
+        223999
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/CreateNewSpinCompleteFlowCmd.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        37728,
+        42232
+      ],
+      "byteRange": [
+        37728,
+        42232
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/CreateNewSpinFlowCmd.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        42235,
+        47588
+      ],
+      "byteRange": [
+        42235,
+        47622
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/CreateNewStopSpinFlowCmd.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        47591,
+        50905
+      ],
+      "byteRange": [
+        47625,
+        50939
+      ]
+    },
+    {
+      "id": "chunks:///_virtual/EffectsView.ts",
+      "file": ".cache/rea-new-games/Project-D/capture/assets/g1001/index.js",
+      "bundleSha256": "6ff8c3acf98c0b87c919fc639cd16452ea14bf0983d01d6daa855870442fdbf1",
+      "charRange": [
+        70898,
+        75767
+      ],
+      "byteRange": [
+        70932,
+        75801
+      ]
+    }
+  ],
+  "backendClass": "LocalGameBackend",
+  "wallet": "project-d.local-simulation.v1",
+  "global": "globalProjectD",
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "validation": {
+    "status": "21 isolated checks passed",
+    "command": "node --experimental-vm-modules .cache/rea-new-games/Project-D/backend-staging/fixture-test.mjs",
+    "actualCapturedModulesExecuted": [
+      "GameData.ts",
+      "ParseResponse.ts",
+      "GameSender.ts"
+    ],
+    "browser": false,
+    "engine": false
+  },
+  "unsupported": [
+    "original RNG/RTP/distributions",
+    "jackpot pools/awards",
+    "mystery chest amount/distribution",
+    "remote replay/table/rank/account services",
+    "browser/Creator end-to-end acceptance"
+  ]
+}

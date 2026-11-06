@@ -1,0 +1,104 @@
+
+slowmotion.png
+size: 834,561
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fog
+  rotate: false
+  xy: 654, 241
+  size: 180, 320
+  orig: 180, 320
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: true
+  xy: 0, 452
+  size: 109, 554
+  orig: 109, 554
+  offset: 0, 0
+  index: -1
+line
+  rotate: true
+  xy: 654, 0
+  size: 241, 71
+  orig: 241, 71
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_00
+  rotate: false
+  xy: 554, 21
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_01
+  rotate: false
+  xy: 604, 21
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_02
+  rotate: true
+  xy: 0, 402
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_03
+  rotate: true
+  xy: 0, 352
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_04
+  rotate: true
+  xy: 0, 302
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_05
+  rotate: true
+  xy: 0, 252
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_06
+  rotate: true
+  xy: 0, 202
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_07
+  rotate: true
+  xy: 0, 152
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_08
+  rotate: true
+  xy: 0, 102
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_09
+  rotate: true
+  xy: 0, 52
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1
+speed_line/speed_line_10
+  rotate: true
+  xy: 0, 2
+  size: 50, 540
+  orig: 50, 540
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,537 @@
+{
+  "skeleton": {
+    "hash": "SF1n2wpn/Zue4IIZdqLbTT+bS2c",
+    "spine": "3.8.99",
+    "x": -469,
+    "y": -416,
+    "width": 950,
+    "height": 1011,
+    "images": "./images/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/孫行者/win"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -360,
+      "y": 670
+    },
+    {
+      "name": "center",
+      "parent": "root",
+      "x": 360,
+      "y": -670
+    },
+    {
+      "name": "big_light",
+      "parent": "center",
+      "y": 83.19
+    },
+    {
+      "name": "b",
+      "parent": "big_light"
+    },
+    {
+      "name": "01_1",
+      "parent": "b",
+      "y": 0.66
+    },
+    {
+      "name": "02_1",
+      "parent": "b",
+      "y": 0.66
+    },
+    {
+      "name": "f",
+      "parent": "big_light"
+    },
+    {
+      "name": "01_2",
+      "parent": "f",
+      "y": 0.66
+    },
+    {
+      "name": "02_2",
+      "parent": "f",
+      "y": 0.66
+    },
+    {
+      "name": "big_fx_02",
+      "parent": "center",
+      "y": 83.92
+    }
+  ],
+  "slots": [
+    {
+      "name": "big_fx_02",
+      "bone": "big_fx_02",
+      "attachment": "big_fx_02"
+    },
+    {
+      "name": "big_light_02",
+      "bone": "02_1",
+      "attachment": "big_light_02"
+    },
+    {
+      "name": "big_light_2",
+      "bone": "02_2",
+      "attachment": "big_light_02"
+    },
+    {
+      "name": "big_light_01",
+      "bone": "01_1",
+      "attachment": "big_light_01"
+    },
+    {
+      "name": "big_light_1",
+      "bone": "01_2",
+      "attachment": "big_light_01"
+    },
+    {
+      "name": "big_fx_01",
+      "bone": "center",
+      "attachment": "big_fx_01",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "big_fx_01": {
+          "big_fx_01": {
+            "x": 1,
+            "y": 64.5,
+            "width": 552,
+            "height": 417
+          }
+        },
+        "big_fx_02": {
+          "big_fx_02": {
+            "x": 1.5,
+            "y": -49.42,
+            "width": 809,
+            "height": 831
+          }
+        },
+        "big_light_01": {
+          "big_light_01": {
+            "x": 6,
+            "y": -228.85,
+            "width": 950,
+            "height": 542
+          }
+        },
+        "big_light_1": {
+          "big_light_01": {
+            "x": 6,
+            "y": -228.85,
+            "width": 950,
+            "height": 542
+          }
+        },
+        "big_light_02": {
+          "big_light_02": {
+            "x": 6,
+            "y": 240.15,
+            "width": 950,
+            "height": 542
+          }
+        },
+        "big_light_2": {
+          "big_light_02": {
+            "x": 6,
+            "y": 240.15,
+            "width": 950,
+            "height": 542
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "big_fx_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "big_fx_02": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "big_light_01": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "big_light_1": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "big_light_02": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "big_light_2": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_1": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "big_fx_02": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 0.5,
+              "x": 0.1,
+              "y": 0.1
+            },
+            {
+              "time": 0.8333
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {
+              "x": 0.05,
+              "y": 0.05,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.5,
+              "y": 1.5
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.05,
+              "y": 0.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "f": {
+          "scale": [
+            {
+              "x": -1
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "big_fx_01": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "big_light_01": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffb4"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "big_light_1": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff37"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "big_light_02": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffb4"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "big_light_2": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff37"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "01_1": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "02_1": {
+          "scale": [
+            {},
+            {
+              "time": 0.2333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": 0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "01_2": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "02_2": {
+          "scale": [
+            {
+              "x": -1
+            },
+            {
+              "time": 0.2333,
+              "x": -1.05,
+              "y": 1.05
+            },
+            {
+              "time": 0.7667,
+              "x": -0.9,
+              "y": 0.9
+            },
+            {
+              "time": 1,
+              "x": -1
+            }
+          ]
+        },
+        "big_fx_02": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 0.75,
+              "y": 0.75,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

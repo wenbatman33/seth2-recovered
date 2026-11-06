@@ -1,0 +1,257 @@
+{
+  "project": "Project-I",
+  "status": "OWN bonus simulation; offline native consumer fixtures passed; rendering/input/audio not verified",
+  "files": [
+    "BonusRules.ts",
+    "test-bonus.mjs",
+    "bonus-contract.json",
+    "ProgressHooks.ts",
+    "test-progress.mjs"
+  ],
+  "api": {
+    "create": "createBonusState(type,{stake,random,config}) -> {bonusState,awardCents}",
+    "advance": "advanceBonus(bonusState,payload,{stake,random,config}) -> {bonusState,awardCents,replayed?,cachedResponse?}",
+    "stake": "Total locked round bet in currency units; also accepts {totalCents} or {totalStake}. A different continuation stake is rejected.",
+    "config": "Create locks its cloned config in bonusState._local.config. Continuation uses the locked config, not later external overrides. Pass config.spinId=the owned round id; config.id is the token namespace fallback.",
+    "awardCents": "INCREMENTAL pending-round award delta in integer cents, not totalWinnings and not an immediate cash-wallet credit. Wallet must add delta once to pending award and only credit balance at final closeSpin.",
+    "deltaByType": {
+      "elixirFurnace": "0 during purify and nonterminal successful gambles; whole final candidate on collect(gamble,false) or third successful gamble. Loss gives0.",
+      "jpGame": "0 until the third matching category; then the selected local pool award.",
+      "fortuneLanding": "Each previously uncollected token emits that box amount once; finish emits0 and forfeits unopened/missed boxes.",
+      "luckyWealth": "create already returns isFinish=true/prize and the award delta; native game has no further bonus action before closeSpin."
+    },
+    "pure": "No mutation of input state/payload/config, wallet, storage, timers, network or original client. Wallet must persist returned bonusState even when delta is0."
+  },
+  "idempotency": {
+    "ids": "operationId > requestId > localActionId. Purify and gamble(true) require a stable logical id; raw native identical next-step requests are ambiguous.",
+    "transportHook": "Owned transport uses WeakMap keyed by each new original payload object; assign one localActionId per logical invocation and preserve it across same-object retries. New identical-content payloads get a new id. Explicit operationId/requestId take precedence.",
+    "cache": "bonusState._local.responses stores signature and the public response snapshot, excluding _local to avoid recursive growth. Retry returns latest state unchanged, delta0, replayed:true and cachedResponse for the original logical outcome. Never roll wallet state back to an older cached snapshot.",
+    "naturalKeys": "JP is deduplicated by already-opened position; fortune by exact local treasure token, including after finish. Collect/finish repeats never re-award. Transport token rotations are not treated as action changes except fortune where token identifies a specific box.",
+    "conflict": "Reusing a logical id with different action/value/spin contents is rejected."
+  },
+  "nativeFields": {
+    "elixirFurnace": {
+      "initial": [
+        "isBonus:true",
+        "isFinish:false",
+        "bonusType:elixirFurnace",
+        "action:purify",
+        "actionValues:1..8",
+        "purifyValues:[]",
+        "purifyTimes:0",
+        "restOfGamble:3",
+        "biggest"
+      ],
+      "fourthPurify": "action changes to gamble, purifyTimes is ready. No gambleResults until first gamble request, so original BonusGameView opens BonusSlotMultipleGame in the restOfGamble3 intro phase.",
+      "gamble": [
+        "action:gamble",
+        "actionValue:boolean",
+        "gambleTimes:number",
+        "gambleResults:{times,level}[] length19",
+        "restOfGamble decreases3→2→1→0",
+        "purifyTimes",
+        "biggest",
+        "isFinish",
+        "totalWinnings"
+      ],
+      "collect": "Original sender uses action:gamble, actionValue:false (not a fabricated collect request).",
+      "choiceConflict": "rules_07 says four material types. Original UI re-enables all item nodes but does not prove backend acceptance of selecting the same type twice. This simulation requires four distinct types; duplicate logical-id retry is still safe."
+    },
+    "jpGame": {
+      "initial": "pickPositions:[], actionValues0..11, 12 shuffled ingots with three of each native jp-mini/jp-minor/jp-major/jp-grand category",
+      "pick": "action:collect, actionValue=position0..11; response pickPositions appends {position,category}; last winning category and totalWinnings drive original showResult.",
+      "finish": "Three matches set isFinish/prize/totalWinnings; no invented finish request is required by native UI."
+    },
+    "fortuneLanding": {
+      "initial": "actionOptions:[{amount,token}], actionValues:number[], collectValues:[]",
+      "collect": "action:collect, token=that exact locally-issued box token, actionValue=its amount. Any amount/token mismatch is rejected. Uncollected actionOptions remain for resume.",
+      "finish": "action:finish; permits missed boxes; marks isFinish and awards no extra amount."
+    },
+    "luckyWealth": "bonusType:luckyWealth, prize:number; original GameState passes {win:prize} to LuckyWealthView and settles on closeSpin."
+  },
+  "entry": {
+    "minimum": "One valid ordinary engine.gameState trigger stage is sufficient when no ordinary winning presentation chain precedes it. engine.bonusState is separate, never appended as a pseudo-gameState lacking view.",
+    "elixir": "Provide at least three BONUS10 in view plus isBonus:true in engine.bonusState. MG_SPIN_TO_STOP→MG_SHOW_ALL_WIN→SHOW_BONUS_WIN→BG_INTRO_ELIXIR_FURNACE_STATE.",
+    "other": "JP/Fortune/Lucky are dispatched from MG_CLOSE_SPIN_STATE by bonusType after the ordinary chain completes. Preserve every original ordinary erase/result stage when there are ordinary wins.",
+    "stages": "Mini-game request/response actions update engine.bonusState without resetting engine.gameState or native currentSpinIndex.",
+    "board": "Original I Prefab five reels midCount3: view3x5. GameData winSymbols uses linear0..14 positions with reel=position%5,row=floor(position/5), not per-reel bitmasks."
+  },
+  "closing": {
+    "elixir": "Native BonusGameView completion emits BONUS_ELIXIR_FURNACE_END → MG_CLOSE_SPIN_STATE → closeSpin.",
+    "jpGame": "Native JACKPOT_GAME_PICK_END → JP_GAME_CLOSE_STATE → closeSpin.",
+    "fortuneLanding": "HEAVENLY_TREASURES_RESULT_END → DROP_TREASURE_CLOSE_STATE. Actual GameSender.sendFortuneLandingFinishReq sends spin(action:finish), then itself sends closeSpin and emits DROP_TREASURE_RESULT_RESP.",
+    "luckyWealth": "LUCKY_WEALTH_END → LUCKY_WEALTH_CLOSE_STATE → closeSpin.",
+    "walletGuard": "Do not complete pending bonus cash twice. Elixir/JP need isFinish; Fortune must process finish before close; Lucky is immediately completed but cash still waits for native close."
+  },
+  "selfDefined": [
+    "Material multipliers [2,3,4,5,8,10,12,20] and summation rule",
+    "Three optional gamble attempts, own60% success distribution and2x successful refinement growth; result-list visual values/levels are own configuration",
+    "Equal shuffle of three entries per jackpot category and fixed local pool amounts200/1000/10000/100000",
+    "Twelve Fortune boxes with uniform own multiplier choices .5/1/2/3/5/10 and owned local tokens",
+    "Lucky prize multiplier choices5/10/20/50",
+    "Cent rounding and all hidden probabilities; none claim original RNG/RTP"
+  ],
+  "unknown": [
+    "Original RNG/RTP/selection and trigger distributions",
+    "Original material payout formula and gamble success/odds distribution",
+    "Original JP hidden deck/pool update policies",
+    "Original Fortune drop distributions/timing outcomes and secret prize distribution"
+  ],
+  "sources": [
+    {
+      "file": ".cache/rea-new-games/Project-I/staged-assets-01/assets/game/content/assets/texture/locale/zh-tw/rules_06.png",
+      "sha256": "c5947d2e0562a234ec022107464adffde7b68b4c95092fe466d814979ca28714",
+      "observed": "Fortune Landing: clicked falling boxes award their amount; boxes missed before reaching bottom award nothing."
+    },
+    {
+      "file": ".cache/rea-new-games/Project-I/staged-assets-01/assets/game/content/assets/texture/locale/zh-tw/rules_07.png",
+      "sha256": "d4b0771ab54f3409140a2fe6f2f7b61a40e80d70061588d44012396ec141398a",
+      "observed": "Three BONUS10 trigger elixir; choose four of eight materials, then risk continuation or collect."
+    },
+    {
+      "file": ".cache/rea-new-games/Project-I/staged-assets-01/assets/game/content/assets/texture/locale/zh-tw/rules_08.png",
+      "sha256": "ba95f97d6c9d36db6830c5c6cafe54e5ee2d48b9d2730b162f7281312476dde3",
+      "observed": "Lucky Wealth random secret prize; falling coins display the fixed award."
+    },
+    {
+      "file": ".cache/rea-new-games/Project-I/staged-assets-01/assets/game/content/assets/texture/locale/zh-tw/rules_09.png",
+      "sha256": "b84952a60cee1963b30d8598f2e7deddc3954baa6b60c3313d9fcfeea1eb7bab",
+      "observed": "Twelve ingots; first three matching jackpot symbols award that category."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-GameData.ts.js",
+      "sha256": "e6858d90df1cd3d5c8d43960c98505fc05d92b1fe22b9751928fee7417436f25",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-GameSender.ts.js",
+      "sha256": "a1e972394ae2ab3f0fafbc87cbfcec0b7f0c8db705c72fdba72b8be710a35486",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-BonusGameView.ts.js",
+      "sha256": "70c1cbc578b9c191d8617d9cdc041b93beb16e57e2981cd2dd08ea2a4510a692",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-BonusSlotMultipleGame.ts.js",
+      "sha256": "21cd39fa45d4cc3af91d684e0f0f27f90cccb9355538bdb7e9fdabaff40326ff",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-PushGame.ts.js",
+      "sha256": "79183f7396c225b909d13764a13da5f8281ef4e36fc4ae16ad6a26213a274ee5",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-JackpotGameView.ts.js",
+      "sha256": "8438c4749836e95dd703a2d10cbc964d273c28f628e3a0cb3dac54347aeedbe7",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-HeavenlyTreasuresView.ts.js",
+      "sha256": "349aafd0eced8c4088a8d63089c2e1441114c5cf4eb211956c71b3043c5433d3",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-DropMaterials.ts.js",
+      "sha256": "6595f489fb75ce57da002c87cb54233a3fc1f587c82e8749109d9be7217d43f4",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-MultipReelsController.ts.js",
+      "sha256": "7f6147c683076a787be6dc3b6064a6b9441d07f879a3fe9baffad0f126b9c475",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-LuckyWealthView.ts.js",
+      "sha256": "c81c2b87a0c89a3afca350ae41277faaddf37803d0cc927ce2f946fa67564a89",
+      "method": "Targeted source-field inspection; isolated original sync consumer method fixtures, no engine/rendering."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-ParseResponse.ts.js",
+      "sha256": "bcf2194c41753b1c4b1ebe9af138881784009ae842cb93378b222dfadef5de41",
+      "method": "Original source used in saved-cursor/type/native-state fixture."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-GameState.ts.js",
+      "sha256": "3af4c39d2339febe84ed18f565866ec089c9d3213970e255701df534b0390574",
+      "method": "Original source used in saved-cursor/type/native-state fixture."
+    },
+    {
+      "file": ".cache/rea-new-games/contracts-static/I-g1002-GameLogic.ts.js",
+      "sha256": "39854fe8006a8abac45366d560ba72edb0f7c4f6f0177deb035098182c6f18e7",
+      "method": "Original source used in saved-cursor/type/native-state fixture."
+    }
+  ],
+  "tests": {
+    "command": "nice -n 15 node --experimental-vm-modules .cache/rea-new-games/Project-I/backend-staging/test-bonus.mjs",
+    "passed": 11,
+    "originalModules": [
+      "GameData",
+      "GameSender"
+    ],
+    "originalMethods": [
+      "DropMaterials.collectMaterials",
+      "BonusGameView.onShowGameStageOne",
+      "BonusSlotMultipleGame.reset",
+      "MultipReelsController.addEvents",
+      "PushGame.checkWinIndex",
+      "JackpotGameView.onOpenItemPosition/showResult",
+      "HeavenlyTreasuresView.show/onTouchItem"
+    ],
+    "stubbed": [
+      "engine/model imports",
+      "decorator/renderer lifecycle not evaluated",
+      "tweens are inert and do not synthesize completion callbacks",
+      "UI node accessors on method host objects"
+    ],
+    "rendering": false,
+    "browser": false,
+    "engine": false
+  },
+  "untouched": [
+    "I Rules.ts and LocalGameBackend.ts",
+    "all root projects",
+    "bootstrap/registry",
+    "Creator/GUI",
+    "remote repository"
+  ],
+  "progressHooks": {
+    "status": "staged only; no root project modified",
+    "install": "installProgressHooks(GameData,runtime,{ParseResponse,GameLogic}); installStateHooks(GameState,{GameEvent,SlotFrameworkEvent,dispatch,GameConfigModel,EBGM,ESpinStatus});",
+    "separateExports": [
+      "installParseHooks(ParseResponse)",
+      "installGameLogicHooks(GameLogic)"
+    ],
+    "runtime": "Defaults to globalThis.globalProjectI; requires runtime.markStage(spinId,currentView) returning status200.",
+    "model": "Original GameData parsing runs first; local saved index restores parser.currentSpinIndex/currentGameState, five native reel arrays of length3, original linear-position winSymbols, currentViewWin and transformInfo. Stage progress persists after original next-stage parsing.",
+    "type": "Both original ParseResponse.setGameType and GameLogic.setGameType use engine.gameState[0] and can overwrite saved FG with MG. Local resumed responses instead retain the restored current stage action; nonlocal calls remain original.",
+    "states": "GET_ALL_STATES decorates only existing native MG_WAIT_RESUME_STATE.transitionTo once per instance. On local saved freeSpin START_RESUME, update original FG style/music/times and START_SCROLL, then enter the original FG_SPIN_TO_STOP_STATE or native DRAGON_STATE when dragonLevel is present.",
+    "noSkip": "Never emit CHANGE_FG_SPIN_TO_STOP_STATE or NEXT_SPIN during resume. Original GameLogic treats that event as advance, which would skip the saved stage. Normal subsequent source advances still run and persist.",
+    "music": "Original I EBGM field is FREEGAME (H uses a different key); hook also accepts FREE_GAME for explicit compatible namespaces.",
+    "boundary": "No replacement states/game loop, wallet change, timer, fake completion callback or source asset regeneration. Exact partially played animation time is not persisted; current original phase is replayed from its saved stage.",
+    "tests": {
+      "command": "nice -n 15 node --experimental-vm-modules .cache/rea-new-games/Project-I/backend-staging/test-progress.mjs",
+      "passed": 7,
+      "actualSource": [
+        "GameData",
+        "ParseResponse",
+        "GameState.GET_ALL_STATES and original native states",
+        "GameLogic.setGameType",
+        "original captured Babel async helpers"
+      ],
+      "cases": [
+        "saved FG index2 is not reset to0",
+        "original parser/logic first-stage MG override is guarded",
+        "resume re-enters current reel-stop stage without NEXT_SPIN",
+        "native dragon branch preserves saved index",
+        "saved terminal FG reaches original summary without advancing past end",
+        "nonlocal calls retain original async resume path"
+      ],
+      "browser": false,
+      "engine": false,
+      "callbacksSynthesized": false
+    }
+  }
+}

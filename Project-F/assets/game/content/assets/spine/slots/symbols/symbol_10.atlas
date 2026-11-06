@@ -1,0 +1,48 @@
+
+symbol_10.png
+size: 1072,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_10
+  rotate: false
+  xy: 1005, 46
+  size: 65, 73
+  orig: 65, 73
+  offset: 0, 0
+  index: -1
+symbol_10_shadow
+  rotate: false
+  xy: 1005, 3
+  size: 38, 42
+  orig: 38, 42
+  offset: 0, 0
+  index: -1
+symbol_bg10_1
+  rotate: true
+  xy: 904, 1
+  size: 118, 100
+  orig: 118, 100
+  offset: 0, 0
+  index: -1
+symbol_bg10_2
+  rotate: true
+  xy: 703, 1
+  size: 118, 200
+  orig: 118, 200
+  offset: 0, 0
+  index: -1
+symbol_bg10_3
+  rotate: true
+  xy: 402, 1
+  size: 118, 300
+  orig: 118, 300
+  offset: 0, 0
+  index: -1
+symbol_bg10_4
+  rotate: true
+  xy: 1, 1
+  size: 118, 400
+  orig: 118, 400
+  offset: 0, 0
+  index: -1

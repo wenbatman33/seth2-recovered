@@ -1,0 +1,85 @@
+{
+  "project": "Project-F",
+  "status": "staged only; root Project-F remains unchanged",
+  "filesToInstallInOwnBackendFolder": [
+    "DisplayedPaytable.ts",
+    "WaysRules.ts",
+    "LocalGameBackend.ts",
+    "InstallLocalBackend.ts",
+    "InstallGameDataCompatibility.ts",
+    "InstallStateMachineCompatibility.ts"
+  ],
+  "bootstrap": [
+    "InstallLocalBackend(GameServiceBase,{search:location.search}) before constructing/connecting any recovered service",
+    "installProjectFGameDataCompatibility(GameData) before first response reaches GameLogic",
+    "installProjectFStateMachineCompatibility(GameState,GameEvent,dispatch) before native StateMachineManager.getMachine constructs any StateMachine"
+  ],
+  "global": "ProjectFCreatorLocalBackend",
+  "wallet": "project-f.creator.local-backend.v1 with .test.<slug> only for named debug wallets",
+  "sourceFields": {
+    "initial": "engine.definition + nonempty State[] + nullable bonusState; full platform stake/settings",
+    "purchase": "spin action=buyFeature featureIndex0 featureValue=freeGame; ACK engine.gameState is object with spinId; follow-up same spinId returns State[] without debit",
+    "spin": "34 raw cells; groupSymbols/groupUpgrade/transformInfo/totalWays[]/currentTimes/viewWinnings/roundWinnings/totalWinnings/currentView/totalViews/freeGameCount",
+    "settlement": "closeSpin alone credits pending.awardCents; spin/bonus/progress never pays wallet",
+    "jp": "spin bonusType=jpGame action=collect actionValue=position; response bonusState.pickPositions[]; three identical category strings produce totalWinnings/prize",
+    "fortune": "spin bonusType=fortuneLanding action=collect actionValue=amount token=ownOfferToken; repeat token is idempotent; finish action, then native sender issues closeSpin",
+    "lucky": "bonusState.bonusType=luckyWealth prize=own award; native LuckyWealthView completes and closeSpin settles"
+  },
+  "localHooksProvided": {
+    "InstallGameDataCompatibility.ts": [
+      "Select nonempty toSymbol before falling back to nonempty toWild; original []||toWild crashes",
+      "Use real34-cell coordinate mapping rather than parser.reelResult.length, which is never assigned and remains null",
+      "Preserve native singular transform VO plus localTransformGroups for all supplied replacements; native renderer consumes complete groupUpgrade array",
+      "Resume persisted local currentSpinIndex; preserve parsed groups/frames/bonusState",
+      "Mark progress only after original setNextSpinData has parsed the next state",
+      "Foreign/nonlocal responses retain original methods"
+    ],
+    "InstallStateMachineCompatibility.ts": [
+      "Wrap getMachine before StateMachine.from consumes original state objects",
+      "Resumed free stage uses actual FG state routes instead of MG_SHOW_ALL_WIN_STATE",
+      "Resumed fortune goes through native MG_CLOSE_SPIN_STATE to original fortune UI; fully collected offers route native finish/close",
+      "JP/lucky resumes use native MG_CLOSE_SPIN_STATE; all native view/event completion callbacks remain original"
+    ]
+  },
+  "qaExamples": {
+    "ways-win": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "ways-lose": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "silver-gold": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "gold-wild": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "freeGame": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "free-retrigger": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "jpGame": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "fortuneLanding": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1",
+    "luckyWealth": "?reaDebug=1&reaTestWallet=f-qa&reaScenario=<scenario>&reaDevelopmentMute=1"
+  },
+  "defaultBonusProbabilities": {
+    "jpGame": 0.001,
+    "fortuneLanding": 0.003,
+    "luckyWealth": 0.003,
+    "meaning": "own mutually exclusive main-game bonus probabilities, not provider hit frequency"
+  },
+  "developerOptions": {
+    "waysConfig": "groupChance/silverChance/wildChance/scatterChance/jackpotChance/maxCascades/maxStages/maxFreeRounds",
+    "bonusConfig": "jpGame/fortuneLanding/luckyWealth probability overrides",
+    "bonusesFalse": "disables random bonus entry; explicit isolated QA scenario can still force bonus",
+    "quiet": "explicit option or reaDevelopmentMute=1; normal default sound remains on"
+  },
+  "tests": {
+    "command": "node --experimental-vm-modules .cache/rea-new-games/Project-F/backend-staging/test-backend.mjs",
+    "passed": 16,
+    "capturedCodeActuallyExecuted": [
+      "GameData class/parser",
+      "GameSender initial/spin/buyFeature/close/JPpick/fortuneCollect/fortuneFinish",
+      "StakeModel",
+      "GameState original MG/FG/bonus transition functions"
+    ],
+    "independentMathChecks": [
+      "fixed-spec separate ways oracle over raw cells and group anchors",
+      "independent physical-cell survival/gravity oracle across ordinary/silver/gold cascades",
+      "max32400/min2025",
+      "10+5 free round cap100"
+    ],
+    "limitations": "Original engine lifecycle and UI services mocked in offline fixtures; no rendering/input/audio acceptance"
+  },
+  "notImplemented": "original backend replay/history/table/ranking services; no claim of original RNG/RTP"
+}

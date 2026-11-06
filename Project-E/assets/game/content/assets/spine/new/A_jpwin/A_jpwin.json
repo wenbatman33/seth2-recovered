@@ -1,0 +1,223 @@
+{
+  "skeleton": {
+    "hash": "V7mKlcZzqAOHdjXC0nicrnLGH8g",
+    "spine": "3.7.94",
+    "width": 0,
+    "height": 0
+  },
+  "bones": [
+    {
+      "name": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "JP",
+      "bone": "root",
+      "attachment": "JP_L"
+    },
+    {
+      "name": "JP2",
+      "bone": "root",
+      "blend": "additive"
+    },
+    {
+      "name": "mask",
+      "bone": "root",
+      "attachment": "mask"
+    },
+    {
+      "name": "JP3",
+      "bone": "root",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "JP": {
+        "JP_L": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            278,
+            -73,
+            -278,
+            -73,
+            -278,
+            73,
+            278,
+            73
+          ]
+        }
+      },
+      "JP2": {
+        "JP_L": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            278,
+            -73,
+            -278,
+            -73,
+            -278,
+            73,
+            278,
+            73
+          ]
+        }
+      },
+      "JP3": {
+        "JP_L": {
+          "type": "mesh",
+          "hull": 4,
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            278,
+            -73,
+            -278,
+            -73,
+            -278,
+            73,
+            278,
+            73
+          ]
+        }
+      },
+      "mask": {
+        "mask": {
+          "type": "clipping",
+          "end": "JP3",
+          "vertexCount": 4,
+          "vertices": [
+            -423.2,
+            156.63,
+            -258.33,
+            -192.05,
+            -368.24,
+            -192.05,
+            -548.27,
+            164.21
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "win": {
+      "slots": {
+        "JP2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "JP_L"
+            }
+          ]
+        },
+        "JP3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "JP_L"
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "mask": {
+            "mask": [
+              {
+                "time": 0
+              },
+              {
+                "time": 0.5,
+                "vertices": [
+                  699.25494,
+                  0,
+                  699.25494,
+                  0,
+                  748.5249,
+                  0,
+                  748.5249
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

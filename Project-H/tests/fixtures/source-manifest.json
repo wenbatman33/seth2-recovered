@@ -1,0 +1,161 @@
+{
+  "project": "Project-H",
+  "modules": [
+    {
+      "file": "H-g1011-GameData.ts.js",
+      "moduleIdentity": "chunks:///_virtual/GameData.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "ba3648ae67708ce5fa3603c925bb95828e53bbe2480a5367bf5e40f18eaf8b10",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 77205,
+        "endExclusive": 90246
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-GameSender.ts.js",
+      "moduleIdentity": "chunks:///_virtual/GameSender.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "232eea607d5a1e700fc2fd30fbc5a28cb7ac01bedf7807eec18edfb2ef8f417a",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 146172,
+        "endExclusive": 158592
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-StateFactory.ts.js",
+      "moduleIdentity": "chunks:///_virtual/StateFactory.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "8e52bd82ac444792245014664effd40fd2ee75dc07966304b1afc51486a5a290",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 257810,
+        "endExclusive": 258391
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-StateId.ts.js",
+      "moduleIdentity": "chunks:///_virtual/StateId.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "d7c83e92d07e65d31a5aac19b771f6b3afa7ed71f09155cae6956cd78a931245",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 259244,
+        "endExclusive": 261421
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-MGStates.ts.js",
+      "moduleIdentity": "chunks:///_virtual/MGStates.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "89b362ed9edb890d015f97b430fe74b51449b3638b4d2e0daecc2a287308e1ba",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 231981,
+        "endExclusive": 243560
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-FGStates.ts.js",
+      "moduleIdentity": "chunks:///_virtual/FGStates.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "9fdff03bf53d5fade4a2e937ad2b77ee6a7881b16139f60031297cc2b6789ce6",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 43864,
+        "endExclusive": 55455
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-BonusStates.ts.js",
+      "moduleIdentity": "chunks:///_virtual/BonusStates.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "5bc163c9d39e7204e1ada27d13992e7f89845c4dc5488f0924ef64d39cf2c0f2",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 10823,
+        "endExclusive": 13932
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-GameState.ts.js",
+      "moduleIdentity": "chunks:///_virtual/GameState.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "aff38343653945c4b6388595b0cad61a35bc46231757f7d22fd3f7b5ad52eaec",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 161896,
+        "endExclusive": 163500
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-GameReelsController.ts.js",
+      "moduleIdentity": "chunks:///_virtual/GameReelsController.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "550d56f0c285ff2be993f04c8471003f41d660ba71de0f6602ef98ef285794f8",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 127591,
+        "endExclusive": 146169
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-JackpotGameView.ts.js",
+      "moduleIdentity": "chunks:///_virtual/JackpotGameView.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "5ee5c5a248da445c6a0c83f0b9d4f73dc277f112177acca597f5db3d23fc115a",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 202265,
+        "endExclusive": 213802
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-HeavenlyTreasuresView.ts.js",
+      "moduleIdentity": "chunks:///_virtual/HeavenlyTreasuresView.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "3387966cf2881c332d4937b08672e0c0b7fcc774bbf7453e37ae1cca11a46474",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 192146,
+        "endExclusive": 202262
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-LuckyWealthView.ts.js",
+      "moduleIdentity": "chunks:///_virtual/LuckyWealthView.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "d70ff1e00098eb452532cba683d9c605ddef931b49fc0d6e720aab06d88baae4",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 226828,
+        "endExclusive": 231978
+      },
+      "role": "narrow public frontend source fixture; no original production responses/session/tokens"
+    },
+    {
+      "file": "H-g1011-JpBarView.ts.js",
+      "moduleIdentity": "chunks:///_virtual/JpBarView.ts",
+      "capturedBundle": "g1011",
+      "formattedSha256": "cbcd9aaf6801f41ea119637909371b2281e43acbc22d10ac14803918c91aa671",
+      "capturedIndexSha256": "83cc6582f0c0113c11db3251b10282973c1f89aabcef42ef5a247fadc494f72d",
+      "utf8ByteRange": {
+        "start": 220361,
+        "endExclusive": 226825
+      },
+      "role": "original public native jackpot setter/ticker source fixture"
+    }
+  ]
+}

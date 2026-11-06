@@ -1,0 +1,104 @@
+
+symbol_04.png
+size: 208,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s4_bag
+  rotate: false
+  xy: 117, 89
+  size: 90, 46
+  orig: 92, 51
+  offset: 1, 1
+  index: -1
+s4_bagup_a
+  rotate: false
+  xy: 119, 136
+  size: 72, 36
+  orig: 73, 37
+  offset: 0, 1
+  index: -1
+s4_bagup_b
+  rotate: false
+  xy: 38, 35
+  size: 67, 25
+  orig: 67, 26
+  offset: 0, 1
+  index: -1
+s4_bagup_c
+  rotate: true
+  xy: 117, 17
+  size: 71, 35
+  orig: 72, 36
+  offset: 0, 1
+  index: -1
+s4_bagup_d
+  rotate: true
+  xy: 153, 21
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+s4_coin_a_2
+  rotate: false
+  xy: 1, 23
+  size: 36, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+s4_coin_b
+  rotate: true
+  xy: 171, 4
+  size: 16, 36
+  orig: 17, 37
+  offset: 0, 1
+  index: -1
+s4_gb
+  rotate: true
+  xy: 119, 173
+  size: 98, 88
+  orig: 99, 89
+  offset: 0, 1
+  index: -1
+s4_gb_2
+  rotate: false
+  xy: 1, 61
+  size: 115, 102
+  orig: 115, 102
+  offset: 0, 0
+  index: -1
+s4_rope_a
+  rotate: true
+  xy: 153, 2
+  size: 18, 17
+  orig: 18, 18
+  offset: 0, 1
+  index: -1
+s4_rope_a_sd
+  rotate: false
+  xy: 1, 1
+  size: 16, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+s4_rope_b
+  rotate: true
+  xy: 192, 141
+  size: 31, 14
+  orig: 31, 15
+  offset: 0, 1
+  index: -1
+s4_shine
+  rotate: false
+  xy: 38, 1
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+symbol_ring
+  rotate: false
+  xy: 1, 164
+  size: 117, 107
+  orig: 117, 107
+  offset: 0, 0
+  index: -1

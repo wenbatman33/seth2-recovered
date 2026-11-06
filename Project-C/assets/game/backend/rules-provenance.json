@@ -1,0 +1,216 @@
+{
+  "project": "Project-C",
+  "gameId": "g1009",
+  "gn": "tiger-princess",
+  "status": "self-authored simulated backend adapted to the captured frontend; not original server RNG/RTP",
+  "images": [
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_01.png",
+      "sha256": "5774b04005bc37bd6d98c9e6f6d88479ddf9b60836ff852ef7b70fe2fa531bf1"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_02.png",
+      "sha256": "a2f4ac55d247901e94b1bda137dcf3f18e9035b6e76d3e7aa0a2263b959ad7dd"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_03.png",
+      "sha256": "16918ff20b088e62495effcd79dcce281dd1f51b4c40c9d8f788c3be29fb43ed"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_04.png",
+      "sha256": "da345c4e66d616fcd4bbcd7e88f27873445748999634ca76a18b0f01ecde5bd1"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_05.png",
+      "sha256": "b9ada3611ed326bd0150ee404ace840fc116b29f30a7b4a5d82ebdc42b8d74ac"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_06.png",
+      "sha256": "76b9e51f283079a3200768ebccb4c928ed64e7368c7c1f42af075128b9b9c6ec"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_07.png",
+      "sha256": "e8cf4109d1d2123e3f636caa6061c3275810729cc9018323600076742cfd88c8"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_08.png",
+      "sha256": "9ba65fcdec3e6f2fee5fb03e685cb2b41194288659f0d3875acbd7780a09cbb8"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_09.png",
+      "sha256": "302fb8c834971dea85669a05180eabac438d797e261dc81f0769a53023211d27"
+    },
+    {
+      "path": "assets/game/content/assets/texture/locale/landscape/zh-tw/rules_10.png",
+      "sha256": "dab92a63ace09df653d726b8d73ded06b4cf2d0b7fcc0311ca6e34459b05693d"
+    }
+  ],
+  "visualReview": {
+    "parentAgent": "rules_01 through rules_10 reviewed individually",
+    "implementingAgent": "rules_01 through rules_10 reviewed individually"
+  },
+  "verifiedDisplayedRules": {
+    "ordinaryMinCount": 8,
+    "betDivisor": 20,
+    "ordinaryPayValues": [
+      [
+        200,
+        500,
+        1000
+      ],
+      [
+        50,
+        200,
+        500
+      ],
+      [
+        40,
+        100,
+        300
+      ],
+      [
+        30,
+        40,
+        240
+      ],
+      [
+        20,
+        30,
+        200
+      ],
+      [
+        16,
+        24,
+        160
+      ],
+      [
+        10,
+        20,
+        100
+      ],
+      [
+        8,
+        18,
+        80
+      ],
+      [
+        5,
+        15,
+        40
+      ]
+    ],
+    "buyFeatureCosts": [
+      200,
+      500,
+      2000
+    ],
+    "freeRounds": 15,
+    "retriggerRounds": 5,
+    "freeRoundCap": 100,
+    "multiplierRange": [
+      2,
+      500
+    ],
+    "jackpotCountToTier": {
+      "2": "jp-mini",
+      "3": "jp-minor",
+      "4": "jp-major",
+      "5": "jp-grand"
+    },
+    "scatterTotalCountPayValues": {
+      "4": 60,
+      "5": 100,
+      "6": 2000
+    },
+    "totemPayout": {
+      "minCount": 3,
+      "payValue": 5
+    }
+  },
+  "reusedOwnedCode": [
+    {
+      "path": "Project-A/assets/game/backend/FeatureDefinitions.ts",
+      "sha256": "eb9783c74903a390328bd49c06517142719b0b4f41c4786a53a0c48497eec985"
+    },
+    {
+      "path": "Project-A/assets/game/backend/FeatureRules.ts",
+      "sha256": "da1ada94a4d6dca7da9a80915d519c3051b3bec2e1b48384f62948de361e4a9f"
+    },
+    {
+      "path": "Project-A/assets/game/backend/InstallLocalBackend.ts",
+      "sha256": "9390ade167b567e90d1619416d28dbcfcef9124b2666b17f438ac84d28f1cdcf"
+    },
+    {
+      "path": "Project-A/assets/game/backend/JackpotRules.ts",
+      "sha256": "e337e3e4f3fe7c4be6a931a404f82962ec4a801a9eec5b4ae5037fa1da3e4ba7"
+    },
+    {
+      "path": "Project-A/assets/game/backend/LocalGameBackend.ts",
+      "sha256": "9c8f4c814a38beb866c8a9883066ac5bf063c30a026ede0c3b14882ad40b9ddd"
+    },
+    {
+      "path": "Project-A/assets/game/backend/LocalJackpotContinuation.ts",
+      "sha256": "cddb5bfe05956655850de543ec8698eb1a0d6d07303218ac6954e7c96ef59474"
+    },
+    {
+      "path": "Project-A/assets/game/backend/OrdinaryRules.ts",
+      "sha256": "5159ab17f89d50a6ebb0648f503cf89de64e294801cb9a052dbcc1b5f066de29"
+    }
+  ],
+  "assumptions": [
+    "all symbol and feature probabilities/weights",
+    "initial bankroll, stake options and thresholds",
+    "jackpot pool seeds/contributions/reset",
+    "multiplier upgrade steps and targeting",
+    "lock duration and split targeting/copy counts",
+    "super-main sequence length default 3 is configurable local design, not a recovered server contract",
+    "cent rounding and maximum payout policy",
+    "mystery chest probability, eligible-losing-round selection and awarded multiplier weights are explicitly self-defined local simulation"
+  ],
+  "notVerified": [
+    "original RNG/RTP",
+    "original server probabilities",
+    "Creator import or runtime animation completion",
+    "replay/history/table/ranking server features"
+  ],
+  "frontendSources": [
+    {
+      "path": "extracted/g1009/00008-CreateNewCloseSpinFlowCmd-fbff8cc21cb4.js",
+      "sha256": "5187fc873aad5792d9e23332af0485f7ab5d7b19e84236819fbb6739738e1d20"
+    },
+    {
+      "path": "extracted/g1009/00012-CreateNewSpinCompleteFlowCmd-fb705e567f0f.js",
+      "sha256": "ff9a6bb41ef88b767698cfc66400141304c3aeb31d9609eac4c6b02e8ff2eb2f"
+    },
+    {
+      "path": "extracted/g1009/00029-GameData-bc80f9b0e331.js",
+      "sha256": "2bb87fc8f598cffbbd245b0735c821c5629744f4a517115e8cb1131cda887c77"
+    },
+    {
+      "path": "extracted/g1009/00036-GameSender-ebce738d8f22.js",
+      "sha256": "08fc559e2c0183c0489b34c7abb22914634b4f8d4844f8fd5dad8438c9157cda"
+    },
+    {
+      "path": "extracted/g1009/00037-GameService-1cc09e7ad521.js",
+      "sha256": "38aa54c36d27c10942e88c3944d33d40dd67af7529185e554409d46b9b94551b"
+    },
+    {
+      "path": "extracted/g1009/00038-GameSymbolID-c313348c9201.js",
+      "sha256": "4fd4ac1c90a4c427d059d3e601016aa97d3243aeec87926d2b35a92affd31800"
+    },
+    {
+      "path": "extracted/g1009/00045-ParseResponse-84f0797954b2.js",
+      "sha256": "4f2cebcd6b8ad0b5821152397ddc5bbe6c8b17c7ee780510ffc36f689a4a1b97"
+    }
+  ],
+  "selfDefinedMysteryChest": {
+    "status": "new self-authored simulated probability and award, not original provider RNG/RTP",
+    "config": "new LocalGameBackend({mysteryChest:{probability:0.01,multipliers:[1,2,5,10],weights:[60,25,12,3]}})",
+    "eligibility": "exactly one genuinely zero-award ordinary terminal stage, no jackpot or free trigger and no purchase",
+    "wireContract": "noWinReward = roundWinnings = totalWinnings = local reward; stored in generated pending operation; only closeSpin credits award",
+    "debug": "?reaDebug=1&reaTestWallet=chest-qa&reaScenario=mystery-chest&reaDevelopmentMute=1",
+    "nativeClient": "GameLogic SHOW_TREASURE_VIEW opens original TreasuresView; showTreasureWin receives original event.complete; close flow sends closeSpin after that callback",
+    "simultaneousAwards": "No bonus layered over ordinary/feature/JP awards; no user wallet migration",
+    "runtimeAnimationVerified": false
+  }
+}

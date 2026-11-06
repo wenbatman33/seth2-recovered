@@ -1,0 +1,202 @@
+
+A_mahjong.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_Mahjong-at-table
+  rotate: true
+  xy: 1029, 118
+  size: 136, 183
+  orig: 136, 183
+  offset: 0, 0
+  index: -1
+Mahjong-1
+  rotate: false
+  xy: 128, 26
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Mahjong-10
+  rotate: false
+  xy: 1308, 219
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+Mahjong-11
+  rotate: true
+  xy: 194, 2
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+Mahjong-12
+  rotate: false
+  xy: 208, 26
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+Mahjong-13
+  rotate: true
+  xy: 161, 2
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+Mahjong-2
+  rotate: true
+  xy: 128, 2
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+Mahjong-3
+  rotate: false
+  xy: 160, 26
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+Mahjong-4
+  rotate: false
+  xy: 184, 26
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+Mahjong-5
+  rotate: true
+  xy: 580, 62
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+Mahjong-6
+  rotate: false
+  xy: 1331, 224
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+Mahjong-7
+  rotate: true
+  xy: 1170, 96
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Mahjong-8
+  rotate: true
+  xy: 612, 63
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+Mahjong-9
+  rotate: false
+  xy: 232, 26
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+Mahjong-at-table-1
+  rotate: false
+  xy: 538, 83
+  size: 489, 171
+  orig: 489, 171
+  offset: 0, 0
+  index: -1
+Mahjong-at-table-2
+  rotate: false
+  xy: 2, 58
+  size: 534, 196
+  orig: 534, 196
+  offset: 0, 0
+  index: -1
+R_Mahjong-1
+  rotate: false
+  xy: 1214, 198
+  size: 35, 56
+  orig: 35, 56
+  offset: 0, 0
+  index: -1
+R_Mahjong-10
+  rotate: true
+  xy: 538, 58
+  size: 23, 40
+  orig: 23, 40
+  offset: 0, 0
+  index: -1
+R_Mahjong-11
+  rotate: false
+  xy: 1280, 213
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+R_Mahjong-12
+  rotate: true
+  xy: 1127, 91
+  size: 25, 41
+  orig: 25, 41
+  offset: 0, 0
+  index: -1
+R_Mahjong-2
+  rotate: false
+  xy: 2, 2
+  size: 31, 54
+  orig: 31, 54
+  offset: 0, 0
+  index: -1
+R_Mahjong-3
+  rotate: false
+  xy: 35, 2
+  size: 30, 54
+  orig: 30, 54
+  offset: 0, 0
+  index: -1
+R_Mahjong-4
+  rotate: false
+  xy: 67, 8
+  size: 30, 48
+  orig: 30, 48
+  offset: 0, 0
+  index: -1
+R_Mahjong-5
+  rotate: true
+  xy: 1029, 86
+  size: 30, 51
+  orig: 30, 51
+  offset: 0, 0
+  index: -1
+R_Mahjong-6
+  rotate: false
+  xy: 1251, 209
+  size: 27, 45
+  orig: 27, 45
+  offset: 0, 0
+  index: -1
+R_Mahjong-7
+  rotate: true
+  xy: 1082, 89
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+R_Mahjong-8
+  rotate: false
+  xy: 1214, 149
+  size: 27, 47
+  orig: 27, 47
+  offset: 0, 0
+  index: -1
+R_Mahjong-9
+  rotate: false
+  xy: 99, 15
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1

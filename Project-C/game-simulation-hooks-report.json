@@ -1,0 +1,110 @@
+{
+  "project": "Project-C",
+  "status": "game simulation hooks installed; offline parser and native callback contracts pass; GUI acceptance pending",
+  "scope": "6 game scripts plus owned local backend; no A/B, shared/main, bootstrap or registry edits",
+  "gameScripts": [
+    {
+      "path": "assets/game/scripts/g1009-GameData.ts",
+      "sha256": "d2f3c49f4d056a8376741c53f173a93adc4be876bc0c579db84c869a9880c1d0",
+      "originalMetaUuid": "1ccec4f1-68d2-4bb0-8f1d-ac873be25227",
+      "metaWrittenByThisTask": false
+    },
+    {
+      "path": "assets/game/scripts/g1009-ParseResponse.ts",
+      "sha256": "a97b89657faa3a6252f462e05aeedaa47a731321d971c8dd93515261b77ca044",
+      "originalMetaUuid": "489fea2c-283c-44da-9f05-0118e5539a4d",
+      "metaWrittenByThisTask": false
+    },
+    {
+      "path": "assets/game/scripts/g1009-CreateNewSpinCompleteFlowCmd.ts",
+      "sha256": "0714d8a6df09e18ace619f0b2298884383be2a5f6389d8d2822970d0f4c79a34",
+      "originalMetaUuid": "697fa88d-70ad-493a-b57b-3d5ad18b7367",
+      "metaWrittenByThisTask": false
+    },
+    {
+      "path": "assets/game/scripts/g1009-CreateNewSpinFlowCmd.ts",
+      "sha256": "eec49de41350399866130c0688a980e904dada91952c7740c7673e9af1eda332",
+      "originalMetaUuid": "1310bbc5-d3fe-4808-a3af-259ead922e08",
+      "metaWrittenByThisTask": false
+    },
+    {
+      "path": "assets/game/scripts/g1009-JackpotView.ts",
+      "sha256": "669c43276b9e3d38026409bf1f4cb5ec9c2b454cd68b9c3a786954737df8fb4a",
+      "originalMetaUuid": "61ffd700-672a-4511-8bdc-997b10f4ffa2",
+      "metaWrittenByThisTask": false
+    },
+    {
+      "path": "assets/game/scripts/g1009-SymbolView.ts",
+      "originalMetaUuid": "389a4c33-d436-4b8d-9e66-80a3ed76251a",
+      "metaWrittenByThisTask": false,
+      "sha256": "e2e0030bfef41ae8e678e0a68e29f50cfdb5acd7282a970f956ad90246b3593d"
+    }
+  ],
+  "installedHooks": [
+    "local response identity, persisted cursor validation and resume of multiplier/lock parsers",
+    "local resumed free-spin gameType",
+    "monotonic progress after native stage parsing",
+    "JP feature continuation through original SHOW_JP_WIN and SHOW_JP completion callbacks",
+    "JP popup/trophy/reel and quick-stop amount separation",
+    "retrigger visuals only for positive integral localExtraFreeRounds",
+    "selected feature rate for 200/500/2000 purchase preview"
+  ],
+  "bootstrap": {
+    "status": "already installed by parent; not changed by this task",
+    "runtimeVerified": false
+  },
+  "mysteryChest": {
+    "status": "new self-authored simulated probability and award, not original provider RNG/RTP",
+    "config": "new LocalGameBackend({mysteryChest:{probability:0.01,multipliers:[1,2,5,10],weights:[60,25,12,3]}})",
+    "eligibility": "exactly one genuinely zero-award ordinary terminal stage, no jackpot or free trigger and no purchase",
+    "wireContract": "noWinReward = roundWinnings = totalWinnings = local reward; stored in generated pending operation; only closeSpin credits award",
+    "debug": "?reaDebug=1&reaTestWallet=chest-qa&reaScenario=mystery-chest&reaDevelopmentMute=1",
+    "nativeClient": "GameLogic SHOW_TREASURE_VIEW opens original TreasuresView; showTreasureWin receives original event.complete; close flow sends closeSpin after that callback",
+    "simultaneousAwards": "No bonus layered over ordinary/feature/JP awards; no user wallet migration",
+    "runtimeAnimationVerified": false
+  },
+  "validation": {
+    "originalCapturedParserTests": 12,
+    "installedGameHookAndChestTests": 9,
+    "commands": [
+      "node --experimental-vm-modules .cache/rea-new-games/Project-C/backend-staging/test-backend.mjs",
+      "node --experimental-vm-modules .cache/rea-new-games/Project-C/backend-staging/test-game-hooks.mjs"
+    ],
+    "rootBackendAndStagingSynced": [
+      "LocalGameBackend.ts",
+      "InstallLocalBackend.ts"
+    ],
+    "nativeTreasureExecuted": [
+      "CreateNewCloseSpinFlowCmd.createFlow",
+      "GameLogic SHOW_TREASURE_VIEW async callback",
+      "TreasuresView.showTreasureWin",
+      "TreasuresView.playCoinSprayAndRunScore"
+    ],
+    "invariants": [
+      "original foreign response behavior retained",
+      "real callback ordering rather than runtime timer substitutions",
+      "no debit/award on progress",
+      "duplicate purchase/spin/close remains idempotent",
+      "persisted chest survives reload without new draw",
+      "A/B wallets remain isolated",
+      "development mute remains opt-in"
+    ]
+  },
+  "limitations": [
+    "No Creator build, browser rendering, mouse/touch, sound or actual Spine animation acceptance in this subtask",
+    "Original RNG/RTP, source probabilities and chest distribution remain unknown",
+    "Original provider replay/history/ranking/table services remain unsupported"
+  ],
+  "localCallbackRefinements": [
+    {
+      "id": "C-CALLBACK-01",
+      "method": "SymbolView.playScatterWin",
+      "fix": "once-only native completion wrapper for stage.localRules===true; foreign behavior preserved"
+    },
+    {
+      "id": "C-RESUME-01",
+      "method": "GameData.setNewInitData",
+      "fix": "local resumed cursor>0 snapshots preceding stage before rebuilding native multiplier/lock parsers"
+    }
+  ]
+}

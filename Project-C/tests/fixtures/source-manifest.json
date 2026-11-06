@@ -1,0 +1,84 @@
+{
+  "project": "Project-C",
+  "purpose": "offline actual frontend consumer fixtures; no game engine, launch credentials or production responses",
+  "modules": [
+    {
+      "module": "chunks/rollupPluginModLoBabelHelpers",
+      "file": "fixtures/extracted/chunks/00001-rollupPluginModLoBabelHelpers-b477504e0354.js",
+      "sha256": "f528c98145953e06dfb3affd1724dd13fdc643dde5a21e0127642d1b93bb67bf",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/GameConfigModel",
+      "file": "fixtures/extracted/g1009/00028-GameConfigModel-a0b30d3fd89c.js",
+      "sha256": "64946d97f1ba61fe09808b51a42077e6e9a916fa932bfbaa2294c48239f8ad3b",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/GameData",
+      "file": "fixtures/extracted/g1009/00029-GameData-bc80f9b0e331.js",
+      "sha256": "2bb87fc8f598cffbbd245b0735c821c5629744f4a517115e8cb1131cda887c77",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/GameSender",
+      "file": "fixtures/extracted/g1009/00036-GameSender-ebce738d8f22.js",
+      "sha256": "08fc559e2c0183c0489b34c7abb22914634b4f8d4844f8fd5dad8438c9157cda",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/GameService",
+      "file": "fixtures/extracted/g1009/00037-GameService-1cc09e7ad521.js",
+      "sha256": "38aa54c36d27c10942e88c3944d33d40dd67af7529185e554409d46b9b94551b",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/GameSymbolID",
+      "file": "fixtures/extracted/g1009/00038-GameSymbolID-c313348c9201.js",
+      "sha256": "4fd4ac1c90a4c427d059d3e601016aa97d3243aeec87926d2b35a92affd31800",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/ParseResponse",
+      "file": "fixtures/extracted/g1009/00045-ParseResponse-84f0797954b2.js",
+      "sha256": "4f2cebcd6b8ad0b5821152397ddc5bbe6c8b17c7ee780510ffc36f689a4a1b97",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1009/types",
+      "file": "fixtures/extracted/g1009/00056-types-b23c5581eba6.js",
+      "sha256": "e13b16e12787d845a6872053088068c9757a1a2639f790c0dd0957492537e726",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/DefinitionModel",
+      "file": "fixtures/extracted/slotFramework/00015-DefinitionModel-69110617766a.js",
+      "sha256": "1de6b2aebd747ad707e1dd30729c596e9393d9ec55a9165768ebd582072ef780",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/GameStateModel",
+      "file": "fixtures/extracted/slotFramework/00025-GameStateModel-85b191b45874.js",
+      "sha256": "130483201902ebc61c5dde99fb0b2a33375bf7d452a08a791707edc75673c52e",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/InitialModel",
+      "file": "fixtures/extracted/slotFramework/00034-InitialModel-89a024a76356.js",
+      "sha256": "eec853cb438a8172e7a73f65a0b2c2fbd6dfa2e48cdc43e926d123f29adf8489",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/PlatformModel",
+      "file": "fixtures/extracted/slotFramework/00052-PlatformModel-7a1df28a9251.js",
+      "sha256": "103b71a1959dfd016f3c9ab8072f8a31f2d1d298013a93156039a1c9e3617f05",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/StakeModel",
+      "file": "fixtures/extracted/slotFramework/00095-StakeModel-a87c04948b69.js",
+      "sha256": "3afca05f936e1f2b409429ac9f7c378b922e8f37604e572bbb2ff889f1d48e96",
+      "source": "inertly captured public client module; no production responses"
+    }
+  ]
+}

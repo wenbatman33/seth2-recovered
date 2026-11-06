@@ -31,6 +31,9 @@ try{
     });assert.equal(target.pathname,'/collection/'+(path==='Project-A'?'Project-B':'Project-A')+'/');
   }
   packagePages(root); // Recognized generated output can be refreshed.
+  const preview=packagePages(root,join(root,'.cache/pages/preview'),{preview:true});
+  assert.deepEqual(preview.manifest.projects.map(project=>project.project),['Project-A']);
+  assert.ok(!existsSync(join(preview.output,'Project-B')),'Disabled games must not be published in an interim preview');
   assert.throws(()=>packagePages(root,join(root,'Project-A')),/must stay inside/);
   rmSync(join(root,'Project-B/build/web/application.js'));
   assert.throws(()=>packagePages(root),/Missing official GUI build/);assert.ok(existsSync(join(output,'Project-A/application.js')),'A failed package must preserve the last valid output');

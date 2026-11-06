@@ -1,0 +1,33 @@
+{
+  "project": "Project-E",
+  "sourceIntent": {
+    "nativeLogic": "Project-E/assets/game/scripts/g1012-GameLogic.ts",
+    "sha256": "45ed98aee8dc8506e99dbe5ffcfb79df1cad31bc3f18fc77ef24970b6c1e7613",
+    "transientDisableAssignments": 2,
+    "transientEnableAssignments": 2,
+    "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+    "navigationHookInstalled": true,
+    "readmeNeutralTitle": true,
+    "fakeBackendExplicit": true
+  },
+  "checks": {
+    "project": "Project-E",
+    "staleNativeFlagsBlockEvenAtFullVolume": true,
+    "nativeSlidersDoNotRestoreFlags": true,
+    "probeKeepsNormalOwnedSettings": true,
+    "developmentMuteDoesNotPersistWalletMute": true,
+    "replaySpinIdMutesByOriginalIntent": true,
+    "nativeFlagResetPreservesVolumes": true,
+    "installedAdapterExecuted": true,
+    "samePageNativePauseRemains": true,
+    "nonLocalInitializationUnchanged": true,
+    "sources": {
+      "audioComponent": "36c6772fa873bcb9f4e638522e24bc6b14ef2819043af7b4fe65be02558275cd",
+      "gameView": "22ae1cc2ffefc59746b6fbb67a22b12b6f755177ca90268291a8c135b78c3831",
+      "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+      "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+      "bootstrap": "14de5f99f6bfcd5d907aba8d47131a3aa3d089622bb830c4ba986d788601bcfc"
+    }
+  },
+  "boundary": "Static/VM source contracts only. Browser autoplay unlock, physical output, mute bus and scene interaction require actual GUI/browser validation."
+}

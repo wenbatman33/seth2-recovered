@@ -1,0 +1,32 @@
+{
+  "scope": "public original avatar source only; no private launch/session data",
+  "checks": [
+    {
+      "url": "https://play.riversense.tw/avatars/0.png",
+      "source": "published debug getInitialResponse avatarUrl",
+      "result": "DNS failure; old debug endpoint is not the production URL derivation"
+    },
+    {
+      "url": "https://play.godeebxp.com/avatars/0.png",
+      "sourceEvidence": "Original UrlUtils.GetAvatarUrl uses production location.origin + /avatars/{id}.png; capture origin play.godeebxp.com",
+      "verifiedOriginalPNG": false,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "default": "keep native empty selector with local-only safe-close guard",
+  "downloaded": 0,
+  "generatedOrSubstitutedPortraits": false,
+  "furtherProbingStopped": true,
+  "sourceCode": [
+    {
+      "file": "Project-E/assets/shared/scripts/slotFramework-UrlUtils2.ts",
+      "sha256": "3da5a8f1f2cba49d74c20cd31fd556bda9c8f3feaf33433657c6961a1d31b4bb",
+      "contract": "GetAvatarUrl(non-http id) uses UrlModel.base_url + /avatars/{id}.png; production base_url follows location.origin"
+    },
+    {
+      "file": "Project-I/assets/shared/scripts/slotFramework-UrlUtils2.ts",
+      "sha256": "3da5a8f1f2cba49d74c20cd31fd556bda9c8f3feaf33433657c6961a1d31b4bb",
+      "contract": "GetAvatarUrl(non-http id) uses UrlModel.base_url + /avatars/{id}.png; production base_url follows location.origin"
+    }
+  ]
+}

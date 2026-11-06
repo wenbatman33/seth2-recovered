@@ -1,0 +1,88 @@
+{
+  "status": "official compiled contracts and actual six-roller main initialization passed; first silver-gold spin pending",
+  "strategy": "Use original native base-prefab component instead of six mounted custom components, retaining original component fileId and nested instance IDs. Original per-instance fields are native propertyOverrides.",
+  "sourceIdentities": [
+    {
+      "slot": 0,
+      "originalComponentDocumentId": 184,
+      "originalComponentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "90UQjH6QBCZoDWtpstWStG",
+      "darkNodeDocumentId": 61
+    },
+    {
+      "slot": 1,
+      "originalComponentDocumentId": 185,
+      "originalComponentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "b3vKsxB4tJx688NpezKmaq",
+      "darkNodeDocumentId": 63
+    },
+    {
+      "slot": 2,
+      "originalComponentDocumentId": 186,
+      "originalComponentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "a6QKBNwWJNUpf5ayZg0sUN",
+      "darkNodeDocumentId": 65
+    },
+    {
+      "slot": 3,
+      "originalComponentDocumentId": 187,
+      "originalComponentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "f5xoJXQqhEX4m6/OsUXZma",
+      "darkNodeDocumentId": 67
+    },
+    {
+      "slot": 4,
+      "originalComponentDocumentId": 188,
+      "originalComponentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "ecARrK+xxOvYAfyNvovTXQ",
+      "darkNodeDocumentId": 69
+    },
+    {
+      "slot": 5,
+      "originalComponentDocumentId": 189,
+      "originalComponentFileId": "ffy9tx9phCk6/UJJF3cZi6",
+      "nodeFileId": "61D9dF+eJCsqJilr+oYQdG",
+      "instanceFileId": "e28hVyJDlOKppdz/C8po5d",
+      "darkNodeDocumentId": 71
+    }
+  ],
+  "sourceUuidPreserved": true,
+  "scriptUuidPreserved": true,
+  "allExistingMetaBytesPreserved": true,
+  "unreachableOriginalMountAndComponentRecordsRetainedAsProvenance": true,
+  "semanticAssertions": [
+    "base original nodes/components/geometry unchanged; exact source component appended",
+    "all six original targetOverrides target same fileId with explicit original controller source",
+    "all six original mounted-dark fields become native propertyOverrides",
+    "no new visual assets, timers, RNG or gameplay hooks"
+  ],
+  "guiVerified": false,
+  "compiledVerified": true,
+  "backup": ".cache/rea-new-games/Project-F/before-native-roller-base",
+  "actualCompileVerification": {
+    "officialBuildLocalTime": "2026-11-06T15:35:33+08:00",
+    "completedLocalTime": "2026-11-06T15:35:45+08:00",
+    "command": "nice -n 15 node Project-F/tests/test-mounted-components.mjs --built",
+    "passed": 3,
+    "baseClassRetained": true,
+    "originalNestedResolutionContracts": 6,
+    "originalDarkNodeBindings": 6,
+    "sourceAndMetaIdentitiesPreserved": true,
+    "decoderNormalization": "Compiled inline CCObjects are normalized by existing pure editor_document only in the fixture; source/build files are not regenerated.",
+    "artifactSha256": {
+      "build/web/assets/g1004/config.json": "37010d78f0b86e2b77145f666094354d73a3568542d937ef59a5c136de5a40f0",
+      "build/web/assets/g1004/import/0d/0d2938b9e.json": "f8a9aa334ba3e3fe9f6bcc256cfa3f0e24575d2082371d93a0d75c83e2e44edf"
+    },
+    "actualRuntimeComponentsVerified": false,
+    "guiVerified": false
+  },
+  "actualRuntimeComponentsVerified": true,
+  "actualRuntimeObservationSource": "parent live official-build browser observation in this task",
+  "guiInitializationVerified": true,
+  "gameplayVerified": false
+}

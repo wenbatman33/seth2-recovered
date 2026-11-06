@@ -1,0 +1,3198 @@
+{
+  "status": 200,
+  "message": "ok",
+  "eventName": "spin",
+  "token": "2181f9fcbe3845fc97bf6594b54bcef8",
+  "engine": {
+    "freeRoundCount": 0,
+    "signalCondition": null,
+    "tag": "",
+    "gameState": [
+      {
+        "action": "spin",
+        "totalStake": 40,
+        "numFreeSpins": 10,
+        "freeTimesDenominator": 10,
+        "freeSpinWon": 10,
+        "isJp": "",
+        "currentWinnings": 0,
+        "totalWinnings": 80,
+        "freespinWinnings": 80,
+        "startFreeGame": true,
+        "noWinReward": 0,
+        "view": [
+          [
+            6,
+            3,
+            5,
+            5,
+            5
+          ],
+          [
+            2,
+            8,
+            7,
+            7,
+            2
+          ],
+          [
+            7,
+            9,
+            9,
+            8,
+            6
+          ],
+          [
+            3,
+            7,
+            6,
+            9,
+            7
+          ]
+        ],
+        "winSymbols": [],
+        "scatterPos": [
+          0,
+          4,
+          4,
+          8,
+          0
+        ],
+        "modifier": []
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 9,
+        "freeTimesDenominator": 10,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 360,
+        "totalWinnings": 440,
+        "freespinWinnings": 440,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            1,
+            1,
+            6,
+            6,
+            1
+          ],
+          [
+            7,
+            1,
+            7,
+            8,
+            1
+          ],
+          [
+            5,
+            5,
+            5,
+            7,
+            5
+          ],
+          [
+            6,
+            4,
+            6,
+            2,
+            3
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 7,
+            "counts": 3,
+            "winLine": 0,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              2,
+              2,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 1,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              4,
+              4,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 5,
+            "winLine": 2,
+            "type": "line",
+            "winnings": 150,
+            "payoutFactory": 150,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 6,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 10,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 12,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              4,
+              2
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 14,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              2,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 17,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              4,
+              2,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 3,
+            "winLine": 18,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 3,
+            "winLine": 26,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 28,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 30,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 34,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 36,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 38,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              0,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": []
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 8,
+        "freeTimesDenominator": 10,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 30,
+        "totalWinnings": 470,
+        "freespinWinnings": 470,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            8,
+            8,
+            5,
+            7,
+            1
+          ],
+          [
+            6,
+            5,
+            8,
+            8,
+            1
+          ],
+          [
+            4,
+            4,
+            1,
+            5,
+            1
+          ],
+          [
+            5,
+            8,
+            1,
+            4,
+            5
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 4,
+            "counts": 3,
+            "winLine": 1,
+            "type": "line",
+            "winnings": 10,
+            "payoutFactory": 10,
+            "symbolPos": [
+              4,
+              4,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 6,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 3,
+            "winLine": 23,
+            "type": "line",
+            "winnings": 10,
+            "payoutFactory": 10,
+            "symbolPos": [
+              4,
+              4,
+              8,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 26,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              0,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": []
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 7,
+        "freeTimesDenominator": 10,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 5,
+        "totalWinnings": 475,
+        "freespinWinnings": 475,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            2,
+            7,
+            2,
+            8,
+            1
+          ],
+          [
+            8,
+            5,
+            8,
+            6,
+            1
+          ],
+          [
+            6,
+            6,
+            5,
+            5,
+            5
+          ],
+          [
+            5,
+            9,
+            6,
+            2,
+            3
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 23,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              4,
+              4,
+              8,
+              0,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        "modifier": []
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 6,
+        "freeTimesDenominator": 10,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 90,
+        "totalWinnings": 565,
+        "freespinWinnings": 565,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            6,
+            1,
+            2,
+            8,
+            7
+          ],
+          [
+            8,
+            1,
+            8,
+            3,
+            6
+          ],
+          [
+            5,
+            1,
+            5,
+            5,
+            2
+          ],
+          [
+            6,
+            1,
+            6,
+            7,
+            5
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 0,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              2,
+              2,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 1,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              4,
+              4,
+              4,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 3,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              8,
+              8,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 12,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 13,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              4,
+              8,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 15,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              4,
+              8,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 16,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 17,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              4,
+              2,
+              4,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 31,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              8,
+              8,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 36,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 37,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              4,
+              8,
+              4,
+              0,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 5,
+        "freeTimesDenominator": 10,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 55,
+        "totalWinnings": 620,
+        "freespinWinnings": 620,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            8,
+            1,
+            7,
+            1,
+            7
+          ],
+          [
+            2,
+            1,
+            3,
+            7,
+            2
+          ],
+          [
+            7,
+            1,
+            5,
+            4,
+            6
+          ],
+          [
+            6,
+            1,
+            6,
+            6,
+            7
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 3,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              8,
+              8,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 5,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              4,
+              2,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 15,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              4,
+              8,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 3,
+            "winLine": 31,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              8,
+              8,
+              0,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 14,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 130,
+        "totalWinnings": 750,
+        "freespinWinnings": 750,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            8,
+            1,
+            8,
+            9,
+            7
+          ],
+          [
+            4,
+            1,
+            5,
+            5,
+            8
+          ],
+          [
+            7,
+            1,
+            6,
+            8,
+            1
+          ],
+          [
+            5,
+            1,
+            9,
+            6,
+            1
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 2,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 11,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 14,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              2,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 29,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 3,
+            "winLine": 30,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 3,
+            "winLine": 39,
+            "type": "line",
+            "winnings": 5,
+            "payoutFactory": 5,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              0,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          4,
+          8,
+          1,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 13,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 220,
+        "totalWinnings": 970,
+        "freespinWinnings": 970,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            7,
+            1,
+            5,
+            1,
+            5
+          ],
+          [
+            6,
+            1,
+            3,
+            1,
+            8
+          ],
+          [
+            8,
+            1,
+            7,
+            1,
+            3
+          ],
+          [
+            2,
+            1,
+            5,
+            1,
+            7
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 10,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              8,
+              8
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 28,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              4,
+              8
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 38,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              8,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 12,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 240,
+        "totalWinnings": 1210,
+        "freespinWinnings": 1210,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            6,
+            1,
+            7,
+            1,
+            5
+          ],
+          [
+            3,
+            1,
+            8,
+            1,
+            3
+          ],
+          [
+            8,
+            1,
+            3,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            6,
+            1,
+            8
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 3,
+            "counts": 4,
+            "winLine": 20,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              2,
+              4,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 21,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              4,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 3,
+            "counts": 4,
+            "winLine": 24,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              4,
+              4,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 25,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              4,
+              2,
+              2,
+              2,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 11,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 180,
+        "totalWinnings": 1390,
+        "freespinWinnings": 1390,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            4,
+            1,
+            9,
+            1,
+            8
+          ],
+          [
+            8,
+            1,
+            8,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            7,
+            1,
+            3
+          ],
+          [
+            4,
+            1,
+            8,
+            1,
+            8
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 0,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 4,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              4,
+              8,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 12,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 16,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 5,
+            "winLine": 36,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              4,
+              8
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 10,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 160,
+        "totalWinnings": 1550,
+        "freespinWinnings": 1550,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            6,
+            1,
+            3,
+            1,
+            4
+          ],
+          [
+            7,
+            1,
+            7,
+            1,
+            8
+          ],
+          [
+            8,
+            1,
+            5,
+            1,
+            3
+          ],
+          [
+            4,
+            1,
+            2,
+            1,
+            7
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 0,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 12,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 16,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              2,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 36,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              1,
+              2,
+              4,
+              8
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 9,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 375,
+        "totalWinnings": 1925,
+        "freespinWinnings": 1925,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            4,
+            1,
+            5,
+            1,
+            3
+          ],
+          [
+            6,
+            1,
+            7,
+            1,
+            8
+          ],
+          [
+            8,
+            1,
+            4,
+            1,
+            4
+          ],
+          [
+            5,
+            1,
+            6,
+            1,
+            7
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 4,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              2,
+              4,
+              8,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 4,
+            "winLine": 10,
+            "type": "line",
+            "winnings": 50,
+            "payoutFactory": 50,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 4,
+            "winLine": 28,
+            "type": "line",
+            "winnings": 50,
+            "payoutFactory": 50,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 5,
+            "winLine": 38,
+            "type": "line",
+            "winnings": 250,
+            "payoutFactory": 250,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              8,
+              4
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 8,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 75,
+        "totalWinnings": 2000,
+        "freespinWinnings": 2000,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            8,
+            1,
+            7,
+            1,
+            4
+          ],
+          [
+            2,
+            1,
+            3,
+            1,
+            8
+          ],
+          [
+            8,
+            1,
+            5,
+            1,
+            7
+          ],
+          [
+            6,
+            1,
+            6,
+            1,
+            4
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 3,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              8,
+              8,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 15,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              4,
+              8,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 31,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              8,
+              8,
+              4,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 7,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 140,
+        "totalWinnings": 2140,
+        "freespinWinnings": 2140,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            7,
+            1,
+            3,
+            1,
+            8
+          ],
+          [
+            6,
+            1,
+            7,
+            1,
+            3
+          ],
+          [
+            4,
+            1,
+            5,
+            1,
+            7
+          ],
+          [
+            7,
+            1,
+            8,
+            1,
+            8
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 6,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 11,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 18,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 26,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 29,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 34,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 4,
+            "winLine": 39,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 6,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 125,
+        "totalWinnings": 2265,
+        "freespinWinnings": 2265,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            5,
+            1,
+            5,
+            1,
+            2
+          ],
+          [
+            6,
+            1,
+            2,
+            1,
+            6
+          ],
+          [
+            8,
+            1,
+            6,
+            1,
+            7
+          ],
+          [
+            4,
+            1,
+            7,
+            1,
+            3
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 2,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 14,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              2,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 20,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              2,
+              2,
+              4,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 24,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              2,
+              4,
+              4,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 30,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          2,
+          0,
+          8,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 5,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 1175,
+        "totalWinnings": 3440,
+        "freespinWinnings": 3440,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            6,
+            1,
+            8,
+            1,
+            3
+          ],
+          [
+            7,
+            1,
+            5,
+            1,
+            7
+          ],
+          [
+            3,
+            1,
+            3,
+            1,
+            6
+          ],
+          [
+            5,
+            1,
+            7,
+            1,
+            2
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 3,
+            "counts": 4,
+            "winLine": 1,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              4,
+              4,
+              4,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 4,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              4,
+              8,
+              4,
+              2
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 11,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 3,
+            "counts": 5,
+            "winLine": 13,
+            "type": "line",
+            "winnings": 400,
+            "payoutFactory": 400,
+            "symbolPos": [
+              4,
+              8,
+              4,
+              2,
+              1
+            ]
+          },
+          {
+            "symbol": 3,
+            "counts": 4,
+            "winLine": 17,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              4,
+              2,
+              4,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 29,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 3,
+            "counts": 5,
+            "winLine": 37,
+            "type": "line",
+            "winnings": 400,
+            "payoutFactory": 400,
+            "symbolPos": [
+              4,
+              8,
+              4,
+              2,
+              1
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 39,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              8,
+              4,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 4,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 325,
+        "totalWinnings": 3765,
+        "freespinWinnings": 3765,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            4,
+            1,
+            6,
+            1,
+            6
+          ],
+          [
+            7,
+            1,
+            4,
+            1,
+            7
+          ],
+          [
+            6,
+            1,
+            5,
+            1,
+            4
+          ],
+          [
+            8,
+            1,
+            7,
+            1,
+            8
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 4,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              2,
+              4,
+              8,
+              4,
+              2
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 4,
+            "winLine": 5,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              4,
+              2,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 4,
+            "winLine": 6,
+            "type": "line",
+            "winnings": 50,
+            "payoutFactory": 50,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 4,
+            "winLine": 18,
+            "type": "line",
+            "winnings": 50,
+            "payoutFactory": 50,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 4,
+            "winLine": 26,
+            "type": "line",
+            "winnings": 50,
+            "payoutFactory": 50,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 4,
+            "counts": 4,
+            "winLine": 34,
+            "type": "line",
+            "winnings": 50,
+            "payoutFactory": 50,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              4,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 3,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 320,
+        "totalWinnings": 4085,
+        "freespinWinnings": 4085,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            8,
+            1,
+            8,
+            1,
+            7
+          ],
+          [
+            6,
+            1,
+            7,
+            1,
+            6
+          ],
+          [
+            7,
+            1,
+            8,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            1,
+            5
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 2,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 10,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              8,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 14,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 21,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              4,
+              4,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "symbol": 7,
+            "counts": 5,
+            "winLine": 25,
+            "type": "line",
+            "winnings": 100,
+            "payoutFactory": 100,
+            "symbolPos": [
+              4,
+              2,
+              2,
+              2,
+              1
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 28,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 30,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 38,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              4,
+              8,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 2,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 620,
+        "totalWinnings": 4705,
+        "freespinWinnings": 4705,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            7,
+            1,
+            8,
+            1,
+            6
+          ],
+          [
+            4,
+            1,
+            5,
+            1,
+            4
+          ],
+          [
+            8,
+            1,
+            6,
+            1,
+            5
+          ],
+          [
+            6,
+            1,
+            9,
+            1,
+            6
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 5,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              4,
+              2,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 5,
+            "winLine": 7,
+            "type": "line",
+            "winnings": 150,
+            "payoutFactory": 150,
+            "symbolPos": [
+              8,
+              8,
+              4,
+              2,
+              1
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 5,
+            "winLine": 19,
+            "type": "line",
+            "winnings": 150,
+            "payoutFactory": 150,
+            "symbolPos": [
+              8,
+              4,
+              4,
+              4,
+              8
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 5,
+            "winLine": 27,
+            "type": "line",
+            "winnings": 150,
+            "payoutFactory": 150,
+            "symbolPos": [
+              8,
+              8,
+              4,
+              8,
+              8
+            ]
+          },
+          {
+            "symbol": 6,
+            "counts": 5,
+            "winLine": 35,
+            "type": "line",
+            "winnings": 150,
+            "payoutFactory": 150,
+            "symbolPos": [
+              8,
+              4,
+              4,
+              2,
+              1
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          4,
+          8,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 1,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 120,
+        "totalWinnings": 4825,
+        "freespinWinnings": 4825,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            8,
+            1,
+            6,
+            1,
+            3
+          ],
+          [
+            2,
+            1,
+            8,
+            1,
+            7
+          ],
+          [
+            8,
+            1,
+            5,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            3,
+            1,
+            2
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 6,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 18,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 21,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              4,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 25,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              4,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 26,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 8,
+            "counts": 4,
+            "winLine": 34,
+            "type": "line",
+            "winnings": 20,
+            "payoutFactory": 20,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              4,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 40,
+        "numFreeSpins": 0,
+        "freeTimesDenominator": 20,
+        "freeSpinWon": 0,
+        "isJp": "",
+        "currentWinnings": 400,
+        "totalWinnings": 5225,
+        "freespinWinnings": 5225,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "view": [
+          [
+            5,
+            1,
+            6,
+            1,
+            7
+          ],
+          [
+            4,
+            1,
+            5,
+            1,
+            4
+          ],
+          [
+            5,
+            1,
+            7,
+            1,
+            8
+          ],
+          [
+            6,
+            1,
+            4,
+            1,
+            7
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 4,
+            "counts": 5,
+            "winLine": 4,
+            "type": "line",
+            "winnings": 250,
+            "payoutFactory": 250,
+            "symbolPos": [
+              2,
+              4,
+              8,
+              4,
+              2
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 6,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              4,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 18,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 21,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              4,
+              4,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 25,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              4,
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 26,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "symbol": 5,
+            "counts": 4,
+            "winLine": 34,
+            "type": "line",
+            "winnings": 25,
+            "payoutFactory": 25,
+            "symbolPos": [
+              1,
+              2,
+              2,
+              4,
+              0
+            ]
+          }
+        ],
+        "scatterPos": [
+          0,
+          4,
+          0,
+          2,
+          0
+        ],
+        "modifier": [
+          {
+            "col": 1,
+            "pos": [
+              1,
+              6,
+              11,
+              16
+            ]
+          },
+          {
+            "col": 3,
+            "pos": [
+              3,
+              8,
+              13,
+              18
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "platform": {
+    "game": {
+      "stakeValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ratioValues": [
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ]
+    },
+    "player": {
+      "uid": 744,
+      "balance": {
+        "currency": "TWD",
+        "amount": 83956.28
+      }
+    }
+  }
+}

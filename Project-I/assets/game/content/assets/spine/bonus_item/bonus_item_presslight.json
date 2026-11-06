@@ -1,0 +1,1128 @@
+{
+  "skeleton": {
+    "hash": "MxSBW6TicMYmKsDazt4i5dENDx8",
+    "spine": "3.8.99",
+    "x": -169.51,
+    "y": -166.36,
+    "width": 339.01,
+    "height": 332.75,
+    "images": "./image/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root",
+      "scaleX": 0.25,
+      "scaleY": 0.25
+    },
+    {
+      "name": "m_light",
+      "parent": "root"
+    },
+    {
+      "name": "center",
+      "parent": "root"
+    },
+    {
+      "name": "bk",
+      "parent": "root"
+    },
+    {
+      "name": "circle",
+      "parent": "root"
+    },
+    {
+      "name": "fx_circle_in",
+      "parent": "circle"
+    },
+    {
+      "name": "fx_circle_out",
+      "parent": "circle"
+    },
+    {
+      "name": "fx_light",
+      "parent": "root"
+    },
+    {
+      "name": "fx_light_1",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_2",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_3",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_4",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_5",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_6",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_7",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_8",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_9",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_light_10",
+      "parent": "fx_light"
+    },
+    {
+      "name": "fx_circle_key",
+      "parent": "circle"
+    },
+    {
+      "name": "骨骼",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fx_light_bk",
+      "bone": "bk",
+      "attachment": "fx_light_bk"
+    },
+    {
+      "name": "fx_light_10",
+      "bone": "fx_light_10",
+      "attachment": "fx_light_10"
+    },
+    {
+      "name": "fx_light_9",
+      "bone": "fx_light_9",
+      "attachment": "fx_light_9"
+    },
+    {
+      "name": "fx_light_8",
+      "bone": "fx_light_8",
+      "attachment": "fx_light_8"
+    },
+    {
+      "name": "fx_light_7",
+      "bone": "fx_light_7",
+      "attachment": "fx_light_7"
+    },
+    {
+      "name": "fx_light_6",
+      "bone": "fx_light_6",
+      "attachment": "fx_light_6"
+    },
+    {
+      "name": "fx_light_5",
+      "bone": "fx_light_5",
+      "attachment": "fx_light_5"
+    },
+    {
+      "name": "fx_light_4",
+      "bone": "fx_light_4",
+      "attachment": "fx_light_4"
+    },
+    {
+      "name": "fx_light_3",
+      "bone": "fx_light_3",
+      "attachment": "fx_light_3"
+    },
+    {
+      "name": "fx_light_2",
+      "bone": "fx_light_2",
+      "attachment": "fx_light_2"
+    },
+    {
+      "name": "fx_light_1",
+      "bone": "fx_light_1",
+      "attachment": "fx_light_1"
+    },
+    {
+      "name": "fx_center",
+      "bone": "center",
+      "attachment": "fx_center"
+    },
+    {
+      "name": "fx_main_light",
+      "bone": "m_light",
+      "attachment": "fx_main_light"
+    },
+    {
+      "name": "fx_circle_out",
+      "bone": "fx_circle_out",
+      "attachment": "fx_circle_out"
+    },
+    {
+      "name": "fx_circle_in",
+      "bone": "fx_circle_in",
+      "attachment": "fx_circle_in"
+    },
+    {
+      "name": "fx_circle_key",
+      "bone": "fx_circle_key",
+      "attachment": "fx_circle_key"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fx_center": {
+          "fx_center": {
+            "y": 0.06,
+            "width": 1356,
+            "height": 1331
+          }
+        },
+        "fx_circle_in": {
+          "fx_circle_in": {
+            "x": 4.59,
+            "y": 0.02,
+            "width": 570,
+            "height": 570
+          }
+        },
+        "fx_circle_key": {
+          "fx_circle_key": {
+            "width": 230,
+            "height": 230
+          }
+        },
+        "fx_circle_out": {
+          "fx_circle_out": {
+            "x": -0.03,
+            "width": 1002,
+            "height": 1002
+          }
+        },
+        "fx_light_1": {
+          "fx_light_1": {
+            "x": 196.07,
+            "y": 272.94,
+            "width": 508,
+            "height": 674
+          }
+        },
+        "fx_light_2": {
+          "fx_light_2": {
+            "x": 10.2,
+            "y": 281.04,
+            "width": 432,
+            "height": 620
+          }
+        },
+        "fx_light_3": {
+          "fx_light_3": {
+            "x": 263.34,
+            "y": -236.49,
+            "width": 645,
+            "height": 580
+          }
+        },
+        "fx_light_4": {
+          "fx_light_4": {
+            "x": -1.46,
+            "y": -286.86,
+            "width": 444,
+            "height": 620
+          }
+        },
+        "fx_light_5": {
+          "fx_light_5": {
+            "x": -300.06,
+            "y": 294.22,
+            "width": 706,
+            "height": 688
+          }
+        },
+        "fx_light_6": {
+          "fx_light_6": {
+            "x": 290.05,
+            "y": -1.13,
+            "width": 678,
+            "height": 60
+          }
+        },
+        "fx_light_7": {
+          "fx_light_7": {
+            "x": 312.58,
+            "y": -11.41,
+            "width": 676,
+            "height": 242
+          }
+        },
+        "fx_light_8": {
+          "fx_light_8": {
+            "x": -217.62,
+            "y": -189.71,
+            "width": 516,
+            "height": 467
+          }
+        },
+        "fx_light_9": {
+          "fx_light_9": {
+            "x": -320.84,
+            "y": 1.1,
+            "width": 678,
+            "height": 64
+          }
+        },
+        "fx_light_10": {
+          "fx_light_10": {
+            "x": -325.53,
+            "y": 7.36,
+            "width": 705,
+            "height": 388
+          }
+        },
+        "fx_light_bk": {
+          "fx_light_bk": {
+            "x": -0.73,
+            "y": 0.34,
+            "width": 1292,
+            "height": 1292
+          }
+        },
+        "fx_main_light": {
+          "fx_main_light": {
+            "x": -92,
+            "y": 84,
+            "rotation": 2.38,
+            "width": 820,
+            "height": 825
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "loop": {
+      "slots": {
+        "fx_center": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff7c",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff7c"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_circle_in": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_circle_key": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff7d"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_circle_out": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_1": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_2": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_3": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_4": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_5": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_6": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_7": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_8": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_9": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_10": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_main_light": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff95",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "fx_circle_in": {
+          "scale": [
+            {
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1,
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        "fx_circle_out": {
+          "scale": [
+            {
+              "x": 0.5,
+              "y": 0.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "m_light": {
+          "scale": [
+            {},
+            {
+              "time": 1,
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        "fx_light_5": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.8,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "fx_light_9": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 1,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "fx_light_6": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.8,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.6667,
+              "y": 0.8
+            },
+            {
+              "time": 1,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "x": 0.9,
+              "y": 0.9
+            }
+          ]
+        },
+        "fx_light": {
+          "scale": [
+            {
+              "x": 0.1,
+              "y": 0.1
+            }
+          ]
+        },
+        "fx_circle_key": {
+          "scale": [
+            {},
+            {
+              "time": 1.3333,
+              "x": 3,
+              "y": 3
+            }
+          ]
+        }
+      }
+    },
+    "press": {
+      "slots": {
+        "fx_center": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_circle_in": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_circle_key": {
+          "color": [
+            {
+              "color": "ffffffc8",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_circle_out": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_1": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_2": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_3": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_4": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_5": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_6": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_7": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_8": {
+          "color": [
+            {
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_9": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_light_10": {
+          "color": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fx_light_bk": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff74",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_main_light": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffaf",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffaf",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "fx_circle_in": {
+          "scale": [
+            {},
+            {
+              "time": 0.8333,
+              "x": 3,
+              "y": 3
+            }
+          ]
+        },
+        "fx_circle_out": {
+          "scale": [
+            {
+              "x": 0.2,
+              "y": 0.2,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "m_light": {
+          "scale": [
+            {},
+            {
+              "time": 1.3333,
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        "fx_light_5": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.8,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1,
+              "x": 0.6,
+              "y": 0.6
+            }
+          ]
+        },
+        "fx_light_9": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 1,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "fx_light_6": {
+          "scale": [
+            {
+              "x": 0.8,
+              "y": 0.8,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.6667,
+              "y": 0.8
+            },
+            {
+              "time": 1,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "fx_light": {
+          "scale": [
+            {
+              "x": 0.01,
+              "y": 0.01
+            }
+          ]
+        },
+        "fx_circle_key": {
+          "translate": [
+            {
+              "x": 8.96,
+              "y": 5.98
+            }
+          ],
+          "scale": [
+            {},
+            {
+              "time": 0.3333,
+              "x": 2.25,
+              "y": 2.25
+            },
+            {
+              "time": 0.7333,
+              "x": 4.5,
+              "y": 4.5
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+A_symbol_05.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF_light
+  rotate: false
+  xy: 2, 129
+  size: 314, 313
+  orig: 314, 313
+  offset: 0, 0
+  index: -1
+cross
+  rotate: false
+  xy: 318, 362
+  size: 46, 80
+  orig: 46, 80
+  offset: 0, 0
+  index: -1
+symbol_05
+  rotate: false
+  xy: 2, 2
+  size: 95, 125
+  orig: 95, 125
+  offset: 0, 0
+  index: -1

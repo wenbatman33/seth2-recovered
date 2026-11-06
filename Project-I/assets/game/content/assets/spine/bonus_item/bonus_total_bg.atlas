@@ -1,0 +1,55 @@
+
+bonus_total_bg.png
+size: 1644,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_l_d
+  rotate: false
+  xy: 1066, 30
+  size: 181, 331
+  orig: 181, 333
+  offset: 0, 0
+  index: -1
+fire_l_up
+  rotate: true
+  xy: 1412, 27
+  size: 165, 231
+  orig: 165, 231
+  offset: 0, 0
+  index: -1
+fire_r_d
+  rotate: true
+  xy: 1248, 9
+  size: 110, 109
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+fire_r_m
+  rotate: false
+  xy: 1248, 120
+  size: 163, 241
+  orig: 163, 242
+  offset: 0, 0
+  index: -1
+fire_r_up
+  rotate: true
+  xy: 1412, 193
+  size: 168, 230
+  orig: 188, 236
+  offset: 9, 6
+  index: -1
+glow
+  rotate: true
+  xy: 642, 1
+  size: 360, 423
+  orig: 360, 423
+  offset: 0, 0
+  index: -1
+lines
+  rotate: true
+  xy: 1, 1
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,16 @@
+{
+  "status": "static dependencies resolved; runtime not verified",
+  "metadataIds": 3237,
+  "imports": 1923,
+  "documents": 192,
+  "referenceCount": 2135,
+  "duplicateUuids": [],
+  "missingImports": [],
+  "missingReferences": [],
+  "engineClassNamesExcluded": [
+    {
+      "name": "CCPropertyOverrideInfo",
+      "reason": "Cocos 3.8.8 engine built-in class name, not compressed UUID"
+    }
+  ]
+}

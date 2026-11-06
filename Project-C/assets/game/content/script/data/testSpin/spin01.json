@@ -1,0 +1,2571 @@
+{
+  "eventName": "spin",
+  "token": "57bb5e49cb044c79b1a32c562e7e79e9",
+  "status": 200,
+  "message": "ok",
+  "platform": {
+    "game": {
+      "stakeValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ratioValues": [
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ]
+    },
+    "player": {
+      "uid": 9209,
+      "balance": {
+        "currency": "TWD",
+        "amount": 10016109.96
+      }
+    }
+  },
+  "engine": {
+    "buyFeatureType": "otherFeature01",
+    "spinId": "6916e26231d7f9f0b2879149",
+    "gameState": [
+      {
+        "startFreeGame": true,
+        "noWinReward": 0,
+        "currentTimes": -1,
+        "currentView": 0,
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 15,
+        "isGoldenFg": true,
+        "isJp": "",
+        "totalWinnings": 1.2000000000000002,
+        "totalViews": 24,
+        "action": "spin",
+        "maleTotemLevel": 0,
+        "roundWinnings": 1.2000000000000002,
+        "newTimesSymbols": [],
+        "winSymbols": [],
+        "timesUpgrade": [],
+        "posTransform": [],
+        "timesSymbols": [],
+        "view": [
+          [
+            1,
+            9,
+            5,
+            3,
+            16,
+            5
+          ],
+          [
+            1,
+            2,
+            1,
+            1,
+            6,
+            5
+          ],
+          [
+            5,
+            9,
+            1,
+            3,
+            6,
+            7
+          ],
+          [
+            5,
+            9,
+            15,
+            15,
+            4,
+            7
+          ],
+          [
+            1,
+            15,
+            7,
+            3,
+            4,
+            4
+          ]
+        ],
+        "splitList": []
+      },
+      {
+        "totalStake": 0.4,
+        "isGoldenFg": true,
+        "totalViews": 24,
+        "currentView": 1,
+        "startFreeGame": false,
+        "roundWinnings": 0,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 14,
+        "isJp": "",
+        "currentTimes": 0,
+        "totalWinnings": 1.2000000000000002,
+        "newTimesSymbols": [
+          {
+            "symbol": 12,
+            "symbolPos": 7,
+            "times": 10,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 9,
+            "times": 3,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 28,
+            "times": 6,
+            "isRare": false
+          }
+        ],
+        "posTransform": [],
+        "timesSymbols": [
+          {
+            "symbol": 12,
+            "symbolPos": 7,
+            "times": 10,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 9,
+            "times": 3
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 28,
+            "times": 6,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "splitList": [],
+        "view": [
+          [
+            4,
+            4,
+            4,
+            9,
+            1,
+            2
+          ],
+          [
+            3,
+            12,
+            8,
+            13,
+            5,
+            6
+          ],
+          [
+            3,
+            4,
+            4,
+            2,
+            5,
+            1
+          ],
+          [
+            7,
+            6,
+            1,
+            2,
+            2,
+            8
+          ],
+          [
+            9,
+            8,
+            1,
+            3,
+            13,
+            3
+          ]
+        ],
+        "winSymbols": [],
+        "timesUpgrade": []
+      },
+      {
+        "noWinReward": 0,
+        "isJp": "",
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "startFreeGame": false,
+        "femaleTotemLevel": 0,
+        "currentTimes": 0,
+        "roundWinnings": 0,
+        "freeGameCount": 13,
+        "maleTotemLevel": 0,
+        "totalWinnings": 1.2000000000000002,
+        "totalViews": 24,
+        "isGoldenFg": true,
+        "currentView": 2,
+        "view": [
+          [
+            5,
+            5,
+            1,
+            2,
+            3,
+            2
+          ],
+          [
+            5,
+            4,
+            7,
+            1,
+            3,
+            2
+          ],
+          [
+            9,
+            4,
+            7,
+            2,
+            4,
+            3
+          ],
+          [
+            6,
+            13,
+            1,
+            1,
+            4,
+            8
+          ],
+          [
+            13,
+            9,
+            5,
+            3,
+            2,
+            5
+          ]
+        ],
+        "newTimesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 24,
+            "times": 8,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbolPos": 19,
+            "times": 2,
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13
+          }
+        ],
+        "timesUpgrade": [],
+        "timesSymbols": [
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 24,
+            "times": 8,
+            "isRare": false
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 19,
+            "times": 2,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "splitList": [],
+        "posTransform": [],
+        "winSymbols": []
+      },
+      {
+        "maleTotemLevel": 0,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "freeGameCount": 12,
+        "totalViews": 24,
+        "startFreeGame": false,
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "currentTimes": 0,
+        "currentView": 3,
+        "isGoldenFg": true,
+        "isJp": "",
+        "roundWinnings": 0,
+        "totalWinnings": 1.2000000000000002,
+        "splitList": [],
+        "posTransform": [],
+        "view": [
+          [
+            8,
+            1,
+            4,
+            5,
+            6,
+            1
+          ],
+          [
+            8,
+            2,
+            13,
+            5,
+            5,
+            1
+          ],
+          [
+            2,
+            2,
+            4,
+            7,
+            3,
+            3
+          ],
+          [
+            2,
+            9,
+            8,
+            18,
+            9,
+            3
+          ],
+          [
+            5,
+            3,
+            8,
+            2,
+            9,
+            18
+          ]
+        ],
+        "winSymbols": [],
+        "newTimesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 8,
+            "times": 8,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": [],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 8,
+            "times": 8,
+            "isRare": false,
+            "lock": 0
+          }
+        ]
+      },
+      {
+        "currentTimes": 0,
+        "isJp": "",
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "isGoldenFg": true,
+        "currentView": 4,
+        "startFreeGame": false,
+        "freeGameCount": 11,
+        "roundWinnings": 1,
+        "totalWinnings": 2.2,
+        "totalViews": 24,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "noWinReward": 0,
+        "view": [
+          [
+            7,
+            6,
+            3,
+            8,
+            2,
+            5
+          ],
+          [
+            9,
+            6,
+            11,
+            13,
+            2,
+            4
+          ],
+          [
+            9,
+            2,
+            5,
+            2,
+            17,
+            2
+          ],
+          [
+            3,
+            2,
+            6,
+            2,
+            4,
+            2
+          ],
+          [
+            3,
+            8,
+            6,
+            17,
+            4,
+            1
+          ]
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 11,
+            "symbolPos": 8,
+            "times": 65,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 9,
+            "times": 3,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "winSymbols": [
+          {
+            "winnings": 1,
+            "symbol": 2,
+            "symbolPos": [
+              4,
+              10,
+              13,
+              15,
+              17,
+              19,
+              21,
+              23
+            ]
+          }
+        ],
+        "newTimesSymbols": [
+          {
+            "isRare": true,
+            "lock": 0,
+            "symbol": 11,
+            "symbolPos": 8,
+            "times": 65
+          },
+          {
+            "times": 3,
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 9
+          }
+        ],
+        "timesUpgrade": [
+          {
+            "symbolPos": 8,
+            "beforeSymbol": 11,
+            "afterSymbol": 11,
+            "beforeTimes": 65,
+            "afterTimes": 80
+          }
+        ],
+        "splitList": [],
+        "posTransform": [
+          {
+            "beforePos": 7,
+            "afterPos": 19
+          },
+          {
+            "beforePos": 1,
+            "afterPos": 13
+          },
+          {
+            "beforePos": 9,
+            "afterPos": 21
+          },
+          {
+            "beforePos": 3,
+            "afterPos": 15
+          },
+          {
+            "beforePos": 11,
+            "afterPos": 23
+          },
+          {
+            "beforePos": 5,
+            "afterPos": 17
+          }
+        ]
+      },
+      {
+        "totalWinnings": 2.3000000000000003,
+        "totalViews": 24,
+        "startFreeGame": false,
+        "maleTotemLevel": 2,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 11,
+        "isGoldenFg": true,
+        "currentTimes": 0,
+        "currentView": 5,
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "roundWinnings": 1.1,
+        "noWinReward": 0,
+        "isJp": "",
+        "newTimesSymbols": [],
+        "timesUpgrade": [
+          {
+            "beforeSymbol": 11,
+            "afterSymbol": 10,
+            "beforeTimes": 80,
+            "afterTimes": 100,
+            "symbolPos": 8
+          },
+          {
+            "beforeTimes": 80,
+            "afterTimes": 100,
+            "symbolPos": 27,
+            "beforeSymbol": 11,
+            "afterSymbol": 10
+          },
+          {
+            "symbolPos": 16,
+            "beforeSymbol": 11,
+            "afterSymbol": 10,
+            "beforeTimes": 80,
+            "afterTimes": 100
+          },
+          {
+            "afterTimes": 100,
+            "symbolPos": 9,
+            "beforeSymbol": 11,
+            "afterSymbol": 10,
+            "beforeTimes": 80
+          }
+        ],
+        "splitList": [
+          {
+            "from": 8,
+            "to": [
+              27,
+              16,
+              9
+            ]
+          }
+        ],
+        "view": [
+          [
+            7,
+            7,
+            3,
+            3,
+            7,
+            3
+          ],
+          [
+            9,
+            7,
+            11,
+            17,
+            7,
+            3
+          ],
+          [
+            9,
+            6,
+            5,
+            8,
+            17,
+            5
+          ],
+          [
+            3,
+            6,
+            6,
+            13,
+            4,
+            4
+          ],
+          [
+            3,
+            8,
+            6,
+            17,
+            4,
+            1
+          ]
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 11,
+            "symbolPos": 8,
+            "times": 80,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 21,
+            "times": 3,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbolPos": 27,
+            "times": 80,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 11
+          },
+          {
+            "isRare": true,
+            "lock": 0,
+            "symbol": 11,
+            "symbolPos": 16,
+            "times": 80
+          },
+          {
+            "symbolPos": 9,
+            "times": 80,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 11
+          }
+        ],
+        "winSymbols": [
+          {
+            "symbol": 17,
+            "winnings": 0.1,
+            "symbolPos": [
+              9,
+              16,
+              27
+            ]
+          }
+        ],
+        "posTransform": []
+      },
+      {
+        "femaleTotemLevel": 0,
+        "currentTimes": 0,
+        "roundWinnings": 443.3,
+        "currentView": 6,
+        "freeGameCount": 11,
+        "isGoldenFg": true,
+        "isJp": "",
+        "totalWinnings": 444.5,
+        "startFreeGame": false,
+        "totalViews": 24,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "timesSymbols": [
+          {
+            "lock": 0,
+            "symbol": 10,
+            "symbolPos": 8,
+            "times": 100,
+            "isRare": true
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 21,
+            "times": 3,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "lock": 0,
+            "symbol": 10,
+            "symbolPos": 27,
+            "times": 100,
+            "isRare": true
+          },
+          {
+            "times": 100,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 10,
+            "symbolPos": 16
+          },
+          {
+            "lock": 0,
+            "symbol": 10,
+            "symbolPos": 9,
+            "times": 100,
+            "isRare": true
+          }
+        ],
+        "winSymbols": [],
+        "newTimesSymbols": [],
+        "posTransform": [],
+        "timesUpgrade": [],
+        "splitList": [],
+        "view": [
+          [
+            7,
+            7,
+            3,
+            3,
+            7,
+            3
+          ],
+          [
+            9,
+            7,
+            10,
+            10,
+            7,
+            3
+          ],
+          [
+            9,
+            6,
+            5,
+            8,
+            10,
+            5
+          ],
+          [
+            3,
+            6,
+            6,
+            13,
+            4,
+            4
+          ],
+          [
+            3,
+            8,
+            6,
+            10,
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "currentTimes": 403,
+        "totalViews": 24,
+        "currentView": 7,
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "totalWinnings": 444.5,
+        "startFreeGame": false,
+        "freeGameCount": 10,
+        "isGoldenFg": true,
+        "noWinReward": 0,
+        "femaleTotemLevel": 0,
+        "isJp": "",
+        "roundWinnings": 0,
+        "splitList": [],
+        "posTransform": [],
+        "view": [
+          [
+            5,
+            5,
+            4,
+            3,
+            6,
+            5
+          ],
+          [
+            5,
+            6,
+            1,
+            3,
+            13,
+            2
+          ],
+          [
+            9,
+            8,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            9,
+            4,
+            3,
+            1,
+            7,
+            3
+          ],
+          [
+            2,
+            6,
+            2,
+            6,
+            5,
+            3
+          ]
+        ],
+        "winSymbols": [],
+        "timesSymbols": [
+          {
+            "symbolPos": 10,
+            "times": 4,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 13
+          }
+        ],
+        "newTimesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 10,
+            "times": 4,
+            "isRare": true,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": []
+      },
+      {
+        "femaleTotemLevel": 0,
+        "currentView": 8,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "freeGameCount": 9,
+        "currentTimes": 403,
+        "totalWinnings": 444.5,
+        "startFreeGame": false,
+        "isGoldenFg": true,
+        "isJp": "",
+        "roundWinnings": 0,
+        "totalViews": 24,
+        "splitList": [],
+        "view": [
+          [
+            3,
+            3,
+            1,
+            4,
+            1,
+            6
+          ],
+          [
+            1,
+            3,
+            1,
+            7,
+            1,
+            6
+          ],
+          [
+            3,
+            4,
+            7,
+            4,
+            4,
+            9
+          ],
+          [
+            3,
+            4,
+            7,
+            7,
+            4,
+            9
+          ],
+          [
+            6,
+            2,
+            5,
+            4,
+            2,
+            5
+          ]
+        ],
+        "winSymbols": [],
+        "timesSymbols": [],
+        "newTimesSymbols": [],
+        "posTransform": [],
+        "timesUpgrade": []
+      },
+      {
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "roundWinnings": 0,
+        "totalViews": 24,
+        "currentView": 9,
+        "isGoldenFg": true,
+        "maleTotemLevel": 0,
+        "freeGameCount": 8,
+        "currentTimes": 403,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "isJp": "",
+        "totalWinnings": 444.5,
+        "timesSymbols": [],
+        "view": [
+          [
+            3,
+            1,
+            1,
+            6,
+            4,
+            2
+          ],
+          [
+            5,
+            2,
+            3,
+            9,
+            1,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            6,
+            4,
+            8
+          ],
+          [
+            4,
+            18,
+            5,
+            1,
+            1,
+            8
+          ],
+          [
+            8,
+            8,
+            5,
+            6,
+            5,
+            18
+          ]
+        ],
+        "newTimesSymbols": [],
+        "splitList": [],
+        "posTransform": [],
+        "winSymbols": [],
+        "timesUpgrade": []
+      },
+      {
+        "femaleTotemLevel": 0,
+        "freeGameCount": 7,
+        "isGoldenFg": true,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "totalStake": 0.4,
+        "isJp": "",
+        "currentTimes": 403,
+        "roundWinnings": 0,
+        "totalWinnings": 444.5,
+        "totalViews": 24,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "currentView": 10,
+        "winSymbols": [],
+        "newTimesSymbols": [],
+        "timesUpgrade": [],
+        "posTransform": [],
+        "view": [
+          [
+            1,
+            1,
+            3,
+            9,
+            9,
+            6
+          ],
+          [
+            2,
+            1,
+            2,
+            9,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            7,
+            2,
+            4,
+            8
+          ],
+          [
+            3,
+            5,
+            2,
+            2,
+            6,
+            4
+          ],
+          [
+            3,
+            8,
+            3,
+            5,
+            6,
+            4
+          ]
+        ],
+        "timesSymbols": [],
+        "splitList": []
+      },
+      {
+        "currentTimes": 403,
+        "roundWinnings": 0.1,
+        "startFreeGame": false,
+        "noWinReward": 0,
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "isGoldenFg": true,
+        "totalViews": 24,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "freeGameCount": 6,
+        "totalWinnings": 444.6,
+        "currentView": 11,
+        "isJp": "",
+        "posTransform": [
+          {
+            "beforePos": 17,
+            "afterPos": 29
+          },
+          {
+            "afterPos": 23,
+            "beforePos": 11
+          },
+          {
+            "beforePos": 5,
+            "afterPos": 17
+          }
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 4,
+            "times": 4,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 28,
+            "times": 2,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": [
+          {
+            "symbolPos": 4,
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 4,
+            "afterTimes": 6
+          }
+        ],
+        "splitList": [],
+        "newTimesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 4,
+            "times": 4,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 28,
+            "times": 2,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "view": [
+          [
+            9,
+            9,
+            9,
+            9,
+            13,
+            8
+          ],
+          [
+            9,
+            9,
+            4,
+            8,
+            4,
+            5
+          ],
+          [
+            7,
+            8,
+            4,
+            8,
+            6,
+            5
+          ],
+          [
+            7,
+            8,
+            17,
+            2,
+            6,
+            9
+          ],
+          [
+            3,
+            17,
+            3,
+            2,
+            13,
+            9
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 9,
+            "winnings": 0.1,
+            "symbolPos": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              23,
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "isGoldenFg": true,
+        "currentTimes": 403,
+        "currentView": 12,
+        "totalViews": 24,
+        "startFreeGame": false,
+        "totalStake": 0.4,
+        "roundWinnings": 0.36,
+        "totalWinnings": 444.86,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "freeGameCount": 6,
+        "isJp": "",
+        "maleTotemLevel": 3,
+        "femaleTotemLevel": 0,
+        "posTransform": [
+          {
+            "beforePos": 13,
+            "afterPos": 19
+          },
+          {
+            "beforePos": 7,
+            "afterPos": 13
+          },
+          {
+            "beforePos": 9,
+            "afterPos": 15
+          },
+          {
+            "beforePos": 3,
+            "afterPos": 9
+          }
+        ],
+        "view": [
+          [
+            1,
+            8,
+            9,
+            9,
+            13,
+            17
+          ],
+          [
+            1,
+            8,
+            4,
+            8,
+            4,
+            8
+          ],
+          [
+            7,
+            8,
+            4,
+            8,
+            6,
+            8
+          ],
+          [
+            7,
+            8,
+            17,
+            2,
+            6,
+            5
+          ],
+          [
+            3,
+            17,
+            3,
+            2,
+            13,
+            5
+          ]
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 4,
+            "times": 6,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 28,
+            "times": 2,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 7,
+            "times": 6,
+            "isRare": true
+          },
+          {
+            "times": 6,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 25
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 13,
+            "times": 6,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 9,
+            "times": 6,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 17,
+            "times": 6,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 20,
+            "times": 6,
+            "isRare": true,
+            "lock": 0
+          }
+        ],
+        "splitList": [
+          {
+            "from": 4,
+            "to": [
+              7,
+              25,
+              13,
+              9,
+              17,
+              20
+            ]
+          }
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "winnings": 0.16,
+            "symbolPos": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17,
+              19
+            ]
+          },
+          {
+            "winnings": 0.1,
+            "symbol": 17,
+            "symbolPos": [
+              5,
+              20,
+              25
+            ]
+          }
+        ],
+        "newTimesSymbols": [],
+        "timesUpgrade": [
+          {
+            "symbolPos": 4,
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 6,
+            "afterTimes": 8
+          },
+          {
+            "symbolPos": 7,
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 6,
+            "afterTimes": 8
+          },
+          {
+            "beforeTimes": 6,
+            "afterTimes": 8,
+            "symbolPos": 25,
+            "beforeSymbol": 13,
+            "afterSymbol": 13
+          },
+          {
+            "symbolPos": 13,
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 6,
+            "afterTimes": 8
+          },
+          {
+            "afterTimes": 8,
+            "symbolPos": 9,
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 6
+          },
+          {
+            "symbolPos": 17,
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 6,
+            "afterTimes": 8
+          },
+          {
+            "beforeSymbol": 13,
+            "afterSymbol": 13,
+            "beforeTimes": 6,
+            "afterTimes": 8,
+            "symbolPos": 20
+          }
+        ]
+      },
+      {
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "currentTimes": 403,
+        "roundWinnings": 165.96,
+        "noWinReward": 0,
+        "freeGameCount": 6,
+        "totalWinnings": 610.46,
+        "totalViews": 24,
+        "startFreeGame": false,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "isJp": "",
+        "currentView": 13,
+        "isGoldenFg": true,
+        "newTimesSymbols": [],
+        "view": [
+          [
+            1,
+            7,
+            9,
+            6,
+            13,
+            7
+          ],
+          [
+            1,
+            7,
+            4,
+            9,
+            4,
+            7
+          ],
+          [
+            7,
+            13,
+            4,
+            13,
+            6,
+            13
+          ],
+          [
+            7,
+            13,
+            13,
+            2,
+            6,
+            5
+          ],
+          [
+            3,
+            13,
+            3,
+            2,
+            13,
+            5
+          ]
+        ],
+        "winSymbols": [],
+        "timesSymbols": [
+          {
+            "symbolPos": 4,
+            "times": 8,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 13
+          },
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 28,
+            "times": 2,
+            "isRare": false
+          },
+          {
+            "symbolPos": 13,
+            "times": 8,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 13
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 25,
+            "times": 8,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbolPos": 19,
+            "times": 8,
+            "isRare": true,
+            "lock": 0,
+            "symbol": 13
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 15,
+            "times": 8,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 17,
+            "times": 8,
+            "isRare": true,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 20,
+            "times": 8,
+            "isRare": true,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": [],
+        "splitList": [],
+        "posTransform": []
+      },
+      {
+        "roundWinnings": 0,
+        "totalViews": 24,
+        "startFreeGame": false,
+        "totalWinnings": 610.46,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "isJp": "",
+        "currentTimes": 461,
+        "currentView": 14,
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 5,
+        "isGoldenFg": true,
+        "winSymbols": [],
+        "timesUpgrade": [],
+        "posTransform": [],
+        "view": [
+          [
+            3,
+            1,
+            2,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            1,
+            2,
+            1,
+            2,
+            5
+          ],
+          [
+            2,
+            5,
+            8,
+            6,
+            7,
+            3
+          ],
+          [
+            9,
+            5,
+            8,
+            4,
+            7,
+            5
+          ],
+          [
+            9,
+            3,
+            1,
+            6,
+            1,
+            3
+          ]
+        ],
+        "timesSymbols": [],
+        "newTimesSymbols": [],
+        "splitList": []
+      },
+      {
+        "totalViews": 24,
+        "isGoldenFg": true,
+        "totalWinnings": 610.46,
+        "maleTotemLevel": 0,
+        "freeGameCount": 4,
+        "isJp": "",
+        "roundWinnings": 0,
+        "startFreeGame": false,
+        "totalStake": 0.4,
+        "femaleTotemLevel": 0,
+        "currentTimes": 461,
+        "currentView": 15,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "winSymbols": [],
+        "timesUpgrade": [],
+        "posTransform": [],
+        "timesSymbols": [
+          {
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 3,
+            "times": 2
+          }
+        ],
+        "newTimesSymbols": [
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 3,
+            "times": 2,
+            "isRare": false
+          }
+        ],
+        "splitList": [],
+        "view": [
+          [
+            5,
+            6,
+            7,
+            13,
+            6,
+            4
+          ],
+          [
+            2,
+            6,
+            4,
+            8,
+            6,
+            3
+          ],
+          [
+            5,
+            8,
+            4,
+            8,
+            2,
+            3
+          ],
+          [
+            2,
+            2,
+            3,
+            4,
+            9,
+            7
+          ],
+          [
+            3,
+            2,
+            3,
+            4,
+            8,
+            4
+          ]
+        ]
+      },
+      {
+        "femaleTotemLevel": 0,
+        "roundWinnings": 0,
+        "totalWinnings": 610.46,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "isGoldenFg": true,
+        "currentTimes": 461,
+        "currentView": 16,
+        "isJp": "",
+        "startFreeGame": false,
+        "freeGameCount": 3,
+        "totalViews": 24,
+        "splitList": [],
+        "view": [
+          [
+            3,
+            8,
+            3,
+            2,
+            3,
+            3
+          ],
+          [
+            6,
+            8,
+            2,
+            8,
+            6,
+            5
+          ],
+          [
+            3,
+            2,
+            5,
+            4,
+            6,
+            5
+          ],
+          [
+            3,
+            2,
+            1,
+            9,
+            4,
+            7
+          ],
+          [
+            1,
+            1,
+            1,
+            9,
+            4,
+            9
+          ]
+        ],
+        "timesUpgrade": [],
+        "newTimesSymbols": [],
+        "posTransform": [],
+        "winSymbols": [],
+        "timesSymbols": []
+      },
+      {
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "isGoldenFg": true,
+        "roundWinnings": 0.4,
+        "startFreeGame": false,
+        "action": "freeSpin",
+        "freeGameCount": 2,
+        "currentTimes": 461,
+        "totalWinnings": 610.86,
+        "totalViews": 24,
+        "currentView": 17,
+        "isJp": "",
+        "noWinReward": 0,
+        "femaleTotemLevel": 0,
+        "view": [
+          [
+            7,
+            17,
+            5,
+            7,
+            5,
+            9
+          ],
+          [
+            8,
+            5,
+            7,
+            7,
+            7,
+            9
+          ],
+          [
+            5,
+            5,
+            7,
+            1,
+            7,
+            4
+          ],
+          [
+            5,
+            8,
+            6,
+            1,
+            9,
+            13
+          ],
+          [
+            6,
+            5,
+            6,
+            9,
+            9,
+            5
+          ]
+        ],
+        "splitList": [],
+        "posTransform": [
+          {
+            "beforePos": 6,
+            "afterPos": 18
+          },
+          {
+            "beforePos": 0,
+            "afterPos": 12
+          },
+          {
+            "beforePos": 19,
+            "afterPos": 25
+          },
+          {
+            "beforePos": 1,
+            "afterPos": 19
+          },
+          {
+            "beforePos": 23,
+            "afterPos": 29
+          },
+          {
+            "beforePos": 17,
+            "afterPos": 23
+          },
+          {
+            "beforePos": 11,
+            "afterPos": 17
+          },
+          {
+            "beforePos": 5,
+            "afterPos": 11
+          }
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 23,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "newTimesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 23,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": [],
+        "winSymbols": [
+          {
+            "winnings": 0.4,
+            "symbol": 5,
+            "symbolPos": [
+              2,
+              4,
+              7,
+              12,
+              13,
+              18,
+              25,
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "freeGameCount": 2,
+        "isJp": "",
+        "roundWinnings": 0.6000000000000001,
+        "totalViews": 24,
+        "currentView": 18,
+        "action": "freeSpin",
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "femaleTotemLevel": 0,
+        "totalWinnings": 611.0600000000001,
+        "startFreeGame": false,
+        "isGoldenFg": true,
+        "currentTimes": 461,
+        "noWinReward": 0,
+        "newTimesSymbols": [],
+        "splitList": [],
+        "view": [
+          [
+            5,
+            1,
+            8,
+            7,
+            5,
+            6
+          ],
+          [
+            7,
+            9,
+            7,
+            7,
+            7,
+            9
+          ],
+          [
+            7,
+            9,
+            7,
+            1,
+            7,
+            9
+          ],
+          [
+            8,
+            17,
+            6,
+            1,
+            9,
+            4
+          ],
+          [
+            6,
+            8,
+            6,
+            9,
+            9,
+            13
+          ]
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 29,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": [],
+        "posTransform": [
+          {
+            "beforePos": 0,
+            "afterPos": 12
+          },
+          {
+            "beforePos": 2,
+            "afterPos": 14
+          },
+          {
+            "beforePos": 4,
+            "afterPos": 16
+          }
+        ],
+        "winSymbols": [
+          {
+            "symbol": 7,
+            "winnings": 0.2,
+            "symbolPos": [
+              3,
+              6,
+              8,
+              9,
+              10,
+              12,
+              14,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "isJp": "",
+        "currentTimes": 461,
+        "totalViews": 24,
+        "startFreeGame": false,
+        "femaleTotemLevel": 0,
+        "totalWinnings": 611.1600000000001,
+        "noWinReward": 0,
+        "roundWinnings": 0.7000000000000001,
+        "currentView": 19,
+        "freeGameCount": 2,
+        "isGoldenFg": true,
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "action": "freeSpin",
+        "timesSymbols": [
+          {
+            "times": 4,
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 29
+          }
+        ],
+        "newTimesSymbols": [],
+        "splitList": [],
+        "view": [
+          [
+            6,
+            1,
+            9,
+            8,
+            6,
+            6
+          ],
+          [
+            5,
+            9,
+            8,
+            17,
+            6,
+            9
+          ],
+          [
+            5,
+            9,
+            8,
+            1,
+            5,
+            9
+          ],
+          [
+            8,
+            17,
+            6,
+            1,
+            9,
+            4
+          ],
+          [
+            6,
+            8,
+            6,
+            9,
+            9,
+            13
+          ]
+        ],
+        "winSymbols": [
+          {
+            "winnings": 0.1,
+            "symbol": 9,
+            "symbolPos": [
+              2,
+              7,
+              11,
+              13,
+              17,
+              22,
+              27,
+              28
+            ]
+          }
+        ],
+        "timesUpgrade": [],
+        "posTransform": [
+          {
+            "beforePos": 1,
+            "afterPos": 13
+          },
+          {
+            "beforePos": 21,
+            "afterPos": 27
+          },
+          {
+            "beforePos": 15,
+            "afterPos": 21
+          },
+          {
+            "beforePos": 9,
+            "afterPos": 15
+          },
+          {
+            "beforePos": 3,
+            "afterPos": 9
+          },
+          {
+            "afterPos": 28,
+            "beforePos": 16
+          },
+          {
+            "beforePos": 10,
+            "afterPos": 22
+          },
+          {
+            "afterPos": 16,
+            "beforePos": 4
+          },
+          {
+            "afterPos": 17,
+            "beforePos": 5
+          }
+        ]
+      },
+      {
+        "totalStake": 0.4,
+        "isGoldenFg": true,
+        "roundWinnings": 1.28,
+        "totalWinnings": 611.7400000000001,
+        "noWinReward": 0,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 2,
+        "isJp": "",
+        "currentTimes": 461,
+        "startFreeGame": false,
+        "maleTotemLevel": 2,
+        "totalViews": 24,
+        "currentView": 20,
+        "action": "freeSpin",
+        "splitList": [
+          {
+            "from": 29,
+            "to": [
+              26,
+              22,
+              9,
+              25
+            ]
+          }
+        ],
+        "newTimesSymbols": [],
+        "posTransform": [
+          {
+            "beforePos": 12,
+            "afterPos": 24
+          },
+          {
+            "beforePos": 6,
+            "afterPos": 18
+          },
+          {
+            "beforePos": 13,
+            "afterPos": 19
+          },
+          {
+            "afterPos": 13,
+            "beforePos": 7
+          },
+          {
+            "beforePos": 2,
+            "afterPos": 20
+          },
+          {
+            "beforePos": 9,
+            "afterPos": 15
+          },
+          {
+            "beforePos": 5,
+            "afterPos": 17
+          }
+        ],
+        "view": [
+          [
+            6,
+            17,
+            9,
+            8,
+            8,
+            1
+          ],
+          [
+            5,
+            1,
+            8,
+            8,
+            8,
+            6
+          ],
+          [
+            5,
+            1,
+            8,
+            17,
+            6,
+            6
+          ],
+          [
+            8,
+            17,
+            6,
+            1,
+            6,
+            4
+          ],
+          [
+            6,
+            8,
+            6,
+            1,
+            5,
+            13
+          ]
+        ],
+        "winSymbols": [
+          {
+            "symbol": 8,
+            "winnings": 0.16,
+            "symbolPos": [
+              3,
+              4,
+              8,
+              9,
+              10,
+              14,
+              18,
+              25
+            ]
+          },
+          {
+            "winnings": 0.32,
+            "symbol": 6,
+            "symbolPos": [
+              0,
+              11,
+              16,
+              17,
+              20,
+              22,
+              24,
+              26
+            ]
+          },
+          {
+            "symbol": 17,
+            "winnings": 0.1,
+            "symbolPos": [
+              1,
+              15,
+              19
+            ]
+          }
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 29,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 26,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 22,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbolPos": 9,
+            "times": 4,
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 25,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": []
+      },
+      {
+        "startFreeGame": false,
+        "action": "freeSpin",
+        "maleTotemLevel": 0,
+        "isJp": "",
+        "roundWinnings": 1399.04,
+        "currentView": 21,
+        "noWinReward": 0,
+        "femaleTotemLevel": 0,
+        "isGoldenFg": true,
+        "totalWinnings": 2009.5,
+        "freeGameCount": 2,
+        "currentTimes": 461,
+        "totalStake": 0.4,
+        "totalViews": 24,
+        "splitList": [],
+        "newTimesSymbols": [
+          {
+            "times": 6,
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 1
+          },
+          {
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 8,
+            "times": 6
+          },
+          {
+            "times": 100,
+            "isRare": false,
+            "lock": 0,
+            "symbol": 10,
+            "symbolPos": 4
+          },
+          {
+            "lock": 0,
+            "symbol": 10,
+            "symbolPos": 10,
+            "times": 500,
+            "isRare": false
+          }
+        ],
+        "view": [
+          [
+            9,
+            13,
+            9,
+            9,
+            10,
+            8
+          ],
+          [
+            9,
+            2,
+            13,
+            9,
+            10,
+            1
+          ],
+          [
+            6,
+            1,
+            4,
+            13,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            9,
+            1,
+            13,
+            4
+          ],
+          [
+            5,
+            13,
+            13,
+            1,
+            5,
+            13
+          ]
+        ],
+        "winSymbols": [],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 29,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 26,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 22,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 15,
+            "times": 4,
+            "isRare": false
+          },
+          {
+            "symbol": 13,
+            "symbolPos": 25,
+            "times": 4,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "isRare": false,
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 1,
+            "times": 6
+          },
+          {
+            "lock": 0,
+            "symbol": 13,
+            "symbolPos": 8,
+            "times": 6,
+            "isRare": false
+          },
+          {
+            "symbol": 10,
+            "symbolPos": 4,
+            "times": 100,
+            "isRare": false,
+            "lock": 0
+          },
+          {
+            "symbol": 10,
+            "symbolPos": 10,
+            "times": 500,
+            "isRare": false,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": [],
+        "posTransform": []
+      },
+      {
+        "maleTotemLevel": 0,
+        "roundWinnings": 0,
+        "totalWinnings": 2009.5,
+        "startFreeGame": false,
+        "femaleTotemLevel": 0,
+        "freeGameCount": 1,
+        "isGoldenFg": true,
+        "currentTimes": 1093,
+        "currentView": 22,
+        "noWinReward": 0,
+        "totalStake": 0.4,
+        "isJp": "",
+        "action": "freeSpin",
+        "totalViews": 24,
+        "winSymbols": [],
+        "timesSymbols": [],
+        "posTransform": [],
+        "timesUpgrade": [],
+        "splitList": [],
+        "newTimesSymbols": [],
+        "view": [
+          [
+            4,
+            6,
+            5,
+            2,
+            8,
+            5
+          ],
+          [
+            4,
+            6,
+            5,
+            3,
+            8,
+            1
+          ],
+          [
+            6,
+            7,
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            6,
+            7,
+            7,
+            3,
+            5,
+            4
+          ],
+          [
+            3,
+            2,
+            1,
+            4,
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "currentTimes": 1093,
+        "noWinReward": 0,
+        "action": "freeSpin",
+        "roundWinnings": 0,
+        "totalViews": 24,
+        "currentView": 23,
+        "startFreeGame": false,
+        "femaleTotemLevel": 0,
+        "totalStake": 0.4,
+        "maleTotemLevel": 0,
+        "freeGameCount": 0,
+        "isGoldenFg": true,
+        "isJp": "",
+        "totalWinnings": 2009.5,
+        "view": [
+          [
+            7,
+            6,
+            3,
+            4,
+            7,
+            6
+          ],
+          [
+            7,
+            6,
+            3,
+            6,
+            2,
+            2
+          ],
+          [
+            5,
+            17,
+            1,
+            2,
+            2,
+            3
+          ],
+          [
+            5,
+            1,
+            1,
+            1,
+            6,
+            5
+          ],
+          [
+            17,
+            13,
+            4,
+            5,
+            6,
+            3
+          ]
+        ],
+        "splitList": [],
+        "winSymbols": [],
+        "posTransform": [],
+        "newTimesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 25,
+            "times": 4,
+            "isRare": true,
+            "lock": 0
+          }
+        ],
+        "timesSymbols": [
+          {
+            "symbol": 13,
+            "symbolPos": 25,
+            "times": 4,
+            "isRare": true,
+            "lock": 0
+          }
+        ],
+        "timesUpgrade": []
+      }
+    ]
+  }
+}

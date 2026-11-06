@@ -1,0 +1,90 @@
+
+symbol_04.png
+size: 1140,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s4_bead_01
+  rotate: false
+  xy: 1118, 112
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+s4_bead_02
+  rotate: false
+  xy: 1128, 112
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+s4_gourd
+  rotate: false
+  xy: 1023, 43
+  size: 73, 76
+  orig: 73, 76
+  offset: 0, 0
+  index: -1
+s4_lid
+  rotate: false
+  xy: 1097, 71
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+s4_line_01
+  rotate: true
+  xy: 1116, 77
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+s4_line_02
+  rotate: true
+  xy: 1097, 90
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+s4_line_03
+  rotate: true
+  xy: 1068, 20
+  size: 22, 50
+  orig: 22, 50
+  offset: 0, 0
+  index: -1
+s4_shadow
+  rotate: true
+  xy: 1023, 2
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+symbol_bg04_1
+  rotate: false
+  xy: 904, 19
+  size: 118, 100
+  orig: 118, 100
+  offset: 0, 0
+  index: -1
+symbol_bg04_2
+  rotate: true
+  xy: 703, 1
+  size: 118, 200
+  orig: 118, 200
+  offset: 0, 0
+  index: -1
+symbol_bg04_3
+  rotate: true
+  xy: 402, 1
+  size: 118, 300
+  orig: 118, 300
+  offset: 0, 0
+  index: -1
+symbol_bg04_4
+  rotate: true
+  xy: 1, 1
+  size: 118, 400
+  orig: 118, 400
+  offset: 0, 0
+  index: -1

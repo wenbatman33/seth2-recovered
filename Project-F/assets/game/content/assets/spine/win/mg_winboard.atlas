@@ -1,0 +1,13 @@
+
+mg_winboard.jpg
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+board
+  rotate: false
+  xy: 1, 1
+  size: 642, 65
+  orig: 644, 67
+  offset: 1, 1
+  index: -1

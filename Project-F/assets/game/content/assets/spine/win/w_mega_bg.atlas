@@ -1,0 +1,47 @@
+
+w_mega_bg-b1d35a0b-42bb-4e04-8633-3caf61aa2739.png
+size: 56,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sword
+  rotate: false
+  xy: 1, 1
+  size: 52, 266
+  orig: 52, 266
+  offset: 0, 0
+  index: -1
+
+w_mega_bg.jpg
+size: 388,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mega_fx_01
+  rotate: false
+  xy: 340, 11
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+mega_fx_03
+  rotate: false
+  xy: 340, 26
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+mega_light_01
+  rotate: false
+  xy: 1, 1
+  size: 338, 193
+  orig: 338, 193
+  offset: 0, 0
+  index: -1
+sword_wh
+  rotate: false
+  xy: 340, 69
+  size: 45, 125
+  orig: 45, 125
+  offset: 0, 0
+  index: -1

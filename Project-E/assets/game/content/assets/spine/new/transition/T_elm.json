@@ -1,0 +1,1762 @@
+{
+  "skeleton": {
+    "hash": "CaZT7DocX0ZC1I0Gyddluya4q0k",
+    "spine": "3.8.57",
+    "x": -513,
+    "y": -415,
+    "width": 1024,
+    "height": 980
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "Elm_L",
+      "parent": "root",
+      "x": -148.56,
+      "y": -337.13
+    },
+    {
+      "name": "Elm_R-01",
+      "parent": "root",
+      "x": 282.84,
+      "y": -314.27
+    },
+    {
+      "name": "Elm_m-01",
+      "parent": "root"
+    },
+    {
+      "name": "Elm_L-03",
+      "parent": "Elm_L",
+      "x": -145.71,
+      "y": 284.25
+    },
+    {
+      "name": "Elm_L-01",
+      "parent": "Elm_L",
+      "x": -16.21,
+      "y": 25.2
+    },
+    {
+      "name": "transitions_start",
+      "parent": "root",
+      "x": -286.95,
+      "y": -82.26,
+      "scaleX": 2.5,
+      "scaleY": 2.5
+    },
+    {
+      "name": "Elm_m-1",
+      "parent": "Elm_m-01",
+      "x": 64.68,
+      "y": -175.03
+    },
+    {
+      "name": "Elm_R-1",
+      "parent": "Elm_R-01",
+      "x": -40.71,
+      "y": 10.99
+    },
+    {
+      "name": "Elm_m-03",
+      "parent": "Elm_m-01",
+      "x": 37.59,
+      "y": 252.39
+    },
+    {
+      "name": "Elm_R-03",
+      "parent": "Elm_R-01",
+      "x": 96.49,
+      "y": 337.4
+    }
+  ],
+  "slots": [
+    {
+      "name": "Elm_R-03",
+      "bone": "Elm_R-03",
+      "blend": "additive"
+    },
+    {
+      "name": "Elm_R-02",
+      "bone": "Elm_R-01",
+      "attachment": "Elm_R-02"
+    },
+    {
+      "name": "Elm_R-01",
+      "bone": "Elm_R-1",
+      "attachment": "Elm_R-01"
+    },
+    {
+      "name": "Elm_R-01_mask",
+      "bone": "Elm_R-01",
+      "attachment": "Elm_R-01_mask"
+    },
+    {
+      "name": "Elm_R-1",
+      "bone": "Elm_R-1",
+      "attachment": "Elm_R-01",
+      "blend": "additive"
+    },
+    {
+      "name": "Elm_L-03",
+      "bone": "Elm_L-03",
+      "blend": "additive"
+    },
+    {
+      "name": "Elm_L-02",
+      "bone": "Elm_L",
+      "attachment": "Elm_L-02"
+    },
+    {
+      "name": "Elm_L-01",
+      "bone": "Elm_L-01",
+      "attachment": "Elm_L-01"
+    },
+    {
+      "name": "Elm_L-01_mask",
+      "bone": "Elm_L",
+      "attachment": "Elm_L-01_mask"
+    },
+    {
+      "name": "Elm_L-light",
+      "bone": "Elm_L",
+      "attachment": "Elm_L-01",
+      "blend": "additive"
+    },
+    {
+      "name": "Elm_m-03",
+      "bone": "Elm_m-03",
+      "blend": "additive"
+    },
+    {
+      "name": "Elm_m-02",
+      "bone": "Elm_m-01",
+      "attachment": "Elm_m-02"
+    },
+    {
+      "name": "Elm_m-01",
+      "bone": "Elm_m-1",
+      "attachment": "Elm_m-01"
+    },
+    {
+      "name": "Elm_m-01_mask",
+      "bone": "Elm_m-01",
+      "attachment": "Elm_m-01_mask"
+    },
+    {
+      "name": "Elm_m-1",
+      "bone": "Elm_m-1",
+      "attachment": "Elm_m-01",
+      "blend": "additive"
+    },
+    {
+      "name": "transitions_start",
+      "bone": "transitions_start",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Elm_R-01_mask": {
+          "Elm_R-01_mask": {
+            "type": "clipping",
+            "end": "Elm_R-1",
+            "vertexCount": 4,
+            "vertices": [
+              -174.89,
+              -115.56,
+              424.18,
+              64.85,
+              495.88,
+              -159.51,
+              -119.37,
+              -337.61
+            ]
+          }
+        },
+        "Elm_m-02": {
+          "Elm_m-02": {
+            "x": 13,
+            "y": 149,
+            "width": 374,
+            "height": 832
+          }
+        },
+        "Elm_m-01_mask": {
+          "Elm_m-01_mask": {
+            "type": "clipping",
+            "end": "Elm_m-1",
+            "vertexCount": 4,
+            "vertices": [
+              -217.84,
+              -316.78,
+              317.49,
+              -274.01,
+              426.58,
+              -464.97,
+              -235.31,
+              -498.22
+            ]
+          }
+        },
+        "Elm_m-1": {
+          "Elm_m-01": {
+            "x": -42.68,
+            "y": 335.03,
+            "width": 362,
+            "height": 798
+          }
+        },
+        "Elm_m-03": {
+          "Elm_m-03": {
+            "x": -24.59,
+            "y": -103.89,
+            "width": 480,
+            "height": 937
+          }
+        },
+        "Elm_L-light": {
+          "Elm_L-01": {
+            "x": -142.44,
+            "y": 267.63,
+            "width": 428,
+            "height": 643
+          }
+        },
+        "transitions_start": {
+          "transitions_start_001": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_002": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_003": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_004": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_005": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_006": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_007": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_008": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_009": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_010": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_011": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_012": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_013": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_014": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_015": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_016": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_017": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_018": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_019": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_020": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_021": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_022": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_023": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_024": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_025": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_026": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_027": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_028": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_029": {
+            "width": 370,
+            "height": 370
+          },
+          "transitions_start_030": {
+            "width": 370,
+            "height": 370
+          }
+        },
+        "Elm_L-01_mask": {
+          "Elm_L-01_mask": {
+            "type": "clipping",
+            "end": "Elm_L-light",
+            "vertexCount": 4,
+            "vertices": [
+              -264.07,
+              -58.55,
+              324.48,
+              -171.2,
+              375.05,
+              -453.97,
+              -379.02,
+              -316.03
+            ]
+          }
+        },
+        "Elm_R-01": {
+          "Elm_R-01": {
+            "x": 122.37,
+            "y": 232.78,
+            "width": 293,
+            "height": 569
+          }
+        },
+        "Elm_R-02": {
+          "Elm_R-02": {
+            "x": 73.16,
+            "y": 236.77,
+            "width": 306,
+            "height": 589
+          }
+        },
+        "Elm_R-03": {
+          "Elm_R-03": {
+            "x": -33.83,
+            "y": -100.63,
+            "width": 391,
+            "height": 693
+          }
+        },
+        "Elm_m-01": {
+          "Elm_m-01": {
+            "x": -42.68,
+            "y": 335.03,
+            "width": 362,
+            "height": 798
+          }
+        },
+        "Elm_L-03": {
+          "Elm_L-03": {
+            "x": 14.77,
+            "y": -27.62,
+            "width": 523,
+            "height": 773
+          }
+        },
+        "Elm_L-01": {
+          "Elm_L-01": {
+            "x": -126.22,
+            "y": 242.43,
+            "width": 428,
+            "height": 643
+          }
+        },
+        "Elm_L-02": {
+          "Elm_L-02": {
+            "x": -143.44,
+            "y": 256.13,
+            "width": 442,
+            "height": 668
+          }
+        },
+        "Elm_R-1": {
+          "Elm_R-01": {
+            "x": 122.37,
+            "y": 232.78,
+            "width": 293,
+            "height": 569
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "loop_01": {
+      "slots": {
+        "Elm_R-1": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_R-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-03": {
+          "attachment": [
+            {
+              "name": "Elm_L-03"
+            }
+          ]
+        },
+        "Elm_m-1": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.083,
+              "y": 1.083,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              },
+              {
+                "time": 1.3,
+                "vertices": [
+                  -456.7409,
+                  1133.3522,
+                  0.00011,
+                  1039.0192,
+                  0.00011,
+                  1039.0192,
+                  -456.7409,
+                  1133.3522
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "loop_02": {
+      "slots": {
+        "Elm_m-03": {
+          "attachment": [
+            {
+              "name": "Elm_m-03"
+            }
+          ]
+        },
+        "Elm_R-1": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_R-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.083,
+              "y": 1.083,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        },
+        "Elm_m-03": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.078,
+              "y": 1.078,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_m-01_mask": {
+            "Elm_m-01_mask": [
+              {},
+              {
+                "time": 0.6667,
+                "offset": 1,
+                "vertices": [
+                  670.78705,
+                  6e-05,
+                  670.78705,
+                  4e-05,
+                  446.84906,
+                  4e-05,
+                  446.84906
+                ]
+              },
+              {
+                "time": 1.3,
+                "offset": 1,
+                "vertices": [
+                  1296.855,
+                  0.00011,
+                  1296.855,
+                  0.00011,
+                  1296.855,
+                  0.00011,
+                  1296.855
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "loop_03": {
+      "slots": {
+        "Elm_L-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Elm_R-03": {
+          "attachment": [
+            {
+              "name": "Elm_R-03"
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-light": {
+          "attachment": [
+            {
+              "name": "Elm_L-01"
+            }
+          ]
+        },
+        "Elm_L-02": {
+          "attachment": [
+            {
+              "name": "Elm_L-02"
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.6667,
+              "x": 1.083,
+              "y": 1.083,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        },
+        "Elm_R-03": {
+          "scale": [
+            {},
+            {
+              "time": 0.6333,
+              "x": 1.085,
+              "y": 1.085
+            },
+            {
+              "time": 1.3
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_R-01_mask": {
+            "Elm_R-01_mask": [
+              {},
+              {
+                "time": 1.3,
+                "offset": 1,
+                "vertices": [
+                  828.05396,
+                  6e-05,
+                  828.05396,
+                  6e-05,
+                  828.05396,
+                  6e-05,
+                  828.05396
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "start_01": {
+      "slots": {
+        "Elm_R-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-03": {
+          "attachment": [
+            {
+              "name": "Elm_L-03"
+            }
+          ]
+        },
+        "transitions_start": {
+          "attachment": [
+            {
+              "name": "transitions_start_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "transitions_start_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "transitions_start_003"
+            },
+            {
+              "time": 0.1,
+              "name": "transitions_start_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "transitions_start_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "transitions_start_006"
+            },
+            {
+              "time": 0.2,
+              "name": "transitions_start_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "transitions_start_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "transitions_start_009"
+            },
+            {
+              "time": 0.3,
+              "name": "transitions_start_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "transitions_start_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "transitions_start_012"
+            },
+            {
+              "time": 0.4,
+              "name": "transitions_start_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "transitions_start_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "transitions_start_015"
+            },
+            {
+              "time": 0.5,
+              "name": "transitions_start_016"
+            },
+            {
+              "time": 0.5333,
+              "name": "transitions_start_017"
+            },
+            {
+              "time": 0.5667,
+              "name": "transitions_start_018"
+            },
+            {
+              "time": 0.6,
+              "name": "transitions_start_019"
+            },
+            {
+              "time": 0.6333,
+              "name": "transitions_start_020"
+            },
+            {
+              "time": 0.6667,
+              "name": "transitions_start_021"
+            },
+            {
+              "time": 0.7,
+              "name": "transitions_start_022"
+            },
+            {
+              "time": 0.7333,
+              "name": "transitions_start_023"
+            },
+            {
+              "time": 0.7667,
+              "name": "transitions_start_024"
+            },
+            {
+              "time": 0.8,
+              "name": "transitions_start_025"
+            },
+            {
+              "time": 0.8333,
+              "name": "transitions_start_026"
+            },
+            {
+              "time": 0.8667,
+              "name": "transitions_start_027"
+            },
+            {
+              "time": 0.9,
+              "name": "transitions_start_028"
+            },
+            {
+              "time": 0.9333,
+              "name": "transitions_start_029"
+            },
+            {
+              "time": 0.9667,
+              "name": "transitions_start_030"
+            },
+            {
+              "time": 1,
+              "name": null
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {}
+          ]
+        },
+        "Elm_L-01": {
+          "rotate": [
+            {
+              "curve": 0.411,
+              "c2": 0.06,
+              "c3": 0.571,
+              "c4": 0.92
+            },
+            {
+              "time": 0.3333,
+              "angle": 15.1
+            }
+          ],
+          "translate": [
+            {
+              "curve": 0.411,
+              "c2": 0.06,
+              "c3": 0.571,
+              "c4": 0.92
+            },
+            {
+              "time": 0.3333,
+              "x": -60.21,
+              "y": -42.53
+            }
+          ]
+        },
+        "transitions_start": {
+          "translate": [
+            {
+              "x": -52.41,
+              "y": 110.06
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "start_02": {
+      "slots": {
+        "Elm_m-03": {
+          "attachment": [
+            {
+              "name": "Elm_m-03"
+            }
+          ]
+        },
+        "Elm_R-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-light": {
+          "attachment": [
+            {
+              "name": "Elm_L-01"
+            }
+          ]
+        },
+        "transitions_start": {
+          "attachment": [
+            {
+              "name": "transitions_start_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "transitions_start_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "transitions_start_003"
+            },
+            {
+              "time": 0.1,
+              "name": "transitions_start_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "transitions_start_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "transitions_start_006"
+            },
+            {
+              "time": 0.2,
+              "name": "transitions_start_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "transitions_start_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "transitions_start_009"
+            },
+            {
+              "time": 0.3,
+              "name": "transitions_start_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "transitions_start_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "transitions_start_012"
+            },
+            {
+              "time": 0.4,
+              "name": "transitions_start_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "transitions_start_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "transitions_start_015"
+            },
+            {
+              "time": 0.5,
+              "name": "transitions_start_016"
+            },
+            {
+              "time": 0.5333,
+              "name": "transitions_start_017"
+            },
+            {
+              "time": 0.5667,
+              "name": "transitions_start_018"
+            },
+            {
+              "time": 0.6,
+              "name": "transitions_start_019"
+            },
+            {
+              "time": 0.6333,
+              "name": "transitions_start_020"
+            },
+            {
+              "time": 0.6667,
+              "name": "transitions_start_021"
+            },
+            {
+              "time": 0.7,
+              "name": "transitions_start_022"
+            },
+            {
+              "time": 0.7333,
+              "name": "transitions_start_023"
+            },
+            {
+              "time": 0.7667,
+              "name": "transitions_start_024"
+            },
+            {
+              "time": 0.8,
+              "name": "transitions_start_025"
+            },
+            {
+              "time": 0.8333,
+              "name": "transitions_start_026"
+            },
+            {
+              "time": 0.8667,
+              "name": "transitions_start_027"
+            },
+            {
+              "time": 0.9,
+              "name": "transitions_start_028"
+            },
+            {
+              "time": 0.9333,
+              "name": "transitions_start_029"
+            },
+            {
+              "time": 0.9667,
+              "name": "transitions_start_030"
+            },
+            {
+              "time": 1,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {}
+          ]
+        },
+        "transitions_start": {
+          "translate": [
+            {
+              "x": 328.11,
+              "y": 321.13
+            }
+          ]
+        },
+        "Elm_m-1": {
+          "rotate": [
+            {
+              "curve": 0.491,
+              "c2": 0.1,
+              "c3": 0.339,
+              "c4": 0.85
+            },
+            {
+              "time": 0.3333,
+              "angle": -20.18
+            }
+          ],
+          "translate": [
+            {
+              "curve": 0.491,
+              "c2": 0.1,
+              "c3": 0.339,
+              "c4": 0.85
+            },
+            {
+              "time": 0.3333,
+              "x": 55.85,
+              "y": -34.9
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "start_03": {
+      "slots": {
+        "Elm_L-03": {
+          "attachment": [
+            {
+              "name": null
+            }
+          ]
+        },
+        "Elm_R-03": {
+          "attachment": [
+            {
+              "name": "Elm_R-03"
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "transitions_start": {
+          "attachment": [
+            {
+              "name": "transitions_start_001"
+            },
+            {
+              "time": 0.0333,
+              "name": "transitions_start_002"
+            },
+            {
+              "time": 0.0667,
+              "name": "transitions_start_003"
+            },
+            {
+              "time": 0.1,
+              "name": "transitions_start_004"
+            },
+            {
+              "time": 0.1333,
+              "name": "transitions_start_005"
+            },
+            {
+              "time": 0.1667,
+              "name": "transitions_start_006"
+            },
+            {
+              "time": 0.2,
+              "name": "transitions_start_007"
+            },
+            {
+              "time": 0.2333,
+              "name": "transitions_start_008"
+            },
+            {
+              "time": 0.2667,
+              "name": "transitions_start_009"
+            },
+            {
+              "time": 0.3,
+              "name": "transitions_start_010"
+            },
+            {
+              "time": 0.3333,
+              "name": "transitions_start_011"
+            },
+            {
+              "time": 0.3667,
+              "name": "transitions_start_012"
+            },
+            {
+              "time": 0.4,
+              "name": "transitions_start_013"
+            },
+            {
+              "time": 0.4333,
+              "name": "transitions_start_014"
+            },
+            {
+              "time": 0.4667,
+              "name": "transitions_start_015"
+            },
+            {
+              "time": 0.5,
+              "name": "transitions_start_016"
+            },
+            {
+              "time": 0.5333,
+              "name": "transitions_start_017"
+            },
+            {
+              "time": 0.5667,
+              "name": "transitions_start_018"
+            },
+            {
+              "time": 0.6,
+              "name": "transitions_start_019"
+            },
+            {
+              "time": 0.6333,
+              "name": "transitions_start_020"
+            },
+            {
+              "time": 0.6667,
+              "name": "transitions_start_021"
+            },
+            {
+              "time": 0.7,
+              "name": "transitions_start_022"
+            },
+            {
+              "time": 0.7333,
+              "name": "transitions_start_023"
+            },
+            {
+              "time": 0.7667,
+              "name": "transitions_start_024"
+            },
+            {
+              "time": 0.8,
+              "name": "transitions_start_025"
+            },
+            {
+              "time": 0.8333,
+              "name": "transitions_start_026"
+            },
+            {
+              "time": 0.8667,
+              "name": "transitions_start_027"
+            },
+            {
+              "time": 0.9,
+              "name": "transitions_start_028"
+            },
+            {
+              "time": 0.9333,
+              "name": "transitions_start_029"
+            },
+            {
+              "time": 0.9667,
+              "name": "transitions_start_030"
+            },
+            {
+              "time": 1,
+              "name": null
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {}
+          ]
+        },
+        "transitions_start": {
+          "translate": [
+            {
+              "x": 658.54,
+              "y": 48.87
+            }
+          ]
+        },
+        "Elm_R-1": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.509,
+              "c4": 0.99
+            },
+            {
+              "time": 0.3333,
+              "angle": -24.89
+            }
+          ],
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.509,
+              "c4": 0.99
+            },
+            {
+              "time": 0.3333,
+              "x": 41.89,
+              "y": -27.92
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tease_01": {
+      "slots": {
+        "Elm_R-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-03": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Elm_L-03"
+            }
+          ]
+        },
+        "Elm_L-light": {
+          "attachment": [
+            {
+              "name": "Elm_L-01"
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_L-03": {
+          "scale": [
+            {
+              "x": 0.497,
+              "y": 0.497,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667
+            }
+          ]
+        },
+        "Elm_L": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 1.023,
+              "y": 1.023,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 34.43,
+              "y": 13.39,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tease_02": {
+      "slots": {
+        "Elm_m-03": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Elm_m-03"
+            }
+          ]
+        },
+        "Elm_R-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-light": {
+          "attachment": [
+            {
+              "name": "Elm_L-01"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_m-03": {
+          "scale": [
+            {
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.1667
+            }
+          ]
+        },
+        "Elm_m-1": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "angle": -2.9,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ],
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 27.92,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 1.021,
+              "y": 1.021,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tease_03": {
+      "slots": {
+        "Elm_R-03": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "Elm_R-03"
+            }
+          ]
+        },
+        "Elm_L-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        },
+        "Elm_L-light": {
+          "attachment": [
+            {
+              "name": "Elm_L-01"
+            }
+          ]
+        },
+        "Elm_m-01": {
+          "color": [
+            {
+              "color": "666666ff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Elm_R-03": {
+          "scale": [
+            {
+              "x": 0.5,
+              "y": 0.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667
+            }
+          ]
+        },
+        "Elm_R-1": {
+          "rotate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "angle": -3.52,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ],
+          "translate": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 16.29,
+              "y": -16.29,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        },
+        "Elm_R-01": {
+          "scale": [
+            {
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.1667,
+              "x": 1.021,
+              "y": 1.021,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "Elm_L-01_mask": {
+            "Elm_L-01_mask": [
+              {
+                "vertices": [
+                  -380.37488,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -380.37488
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

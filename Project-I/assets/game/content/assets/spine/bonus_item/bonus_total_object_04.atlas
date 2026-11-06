@@ -1,0 +1,76 @@
+
+bonus_total_object_04.png
+size: 1020,184
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+04_dan
+  rotate: false
+  xy: 616, 24
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+04_plate
+  rotate: false
+  xy: 228, 27
+  size: 214, 155
+  orig: 214, 155
+  offset: 0, 0
+  index: -1
+cl_1
+  rotate: true
+  xy: 865, 1
+  size: 83, 86
+  orig: 85, 87
+  offset: 0, 1
+  index: -1
+cl_2
+  rotate: false
+  xy: 952, 2
+  size: 67, 82
+  orig: 97, 82
+  offset: 0, 0
+  index: -1
+cl_3
+  rotate: false
+  xy: 775, 85
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+cl_4
+  rotate: false
+  xy: 873, 85
+  size: 92, 97
+  orig: 92, 97
+  offset: 0, 0
+  index: -1
+cl_5
+  rotate: true
+  xy: 775, 5
+  size: 79, 89
+  orig: 85, 89
+  offset: 6, 0
+  index: -1
+dan_fx
+  rotate: false
+  xy: 443, 10
+  size: 172, 172
+  orig: 172, 172
+  offset: 0, 0
+  index: -1
+plate_fx
+  rotate: false
+  xy: 1, 15
+  size: 226, 167
+  orig: 226, 167
+  offset: 0, 0
+  index: -1
+sha
+  rotate: true
+  xy: 966, 90
+  size: 92, 46
+  orig: 94, 46
+  offset: 2, 0
+  index: -1

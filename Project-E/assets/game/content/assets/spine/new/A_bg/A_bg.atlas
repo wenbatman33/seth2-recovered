@@ -1,0 +1,222 @@
+
+A_bg.png
+size: 2044,1772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_castle
+  rotate: true
+  xy: 425, 891
+  size: 508, 521
+  orig: 512, 522
+  offset: 2, 0
+  index: -1
+BG_castle2
+  rotate: true
+  xy: 1084, 2
+  size: 508, 521
+  orig: 512, 522
+  offset: 2, 0
+  index: -1
+BG_moon
+  rotate: false
+  xy: 1267, 1228
+  size: 384, 384
+  orig: 386, 386
+  offset: 1, 1
+  index: -1
+BG_moon2
+  rotate: false
+  xy: 1653, 1224
+  size: 387, 386
+  orig: 396, 396
+  offset: 5, 5
+  index: -1
+BG_moon_light
+  rotate: false
+  xy: 2, 1065
+  size: 421, 409
+  orig: 423, 411
+  offset: 1, 1
+  index: -1
+BG_mountain-01
+  rotate: false
+  xy: 436, 1441
+  size: 421, 190
+  orig: 423, 192
+  offset: 1, 1
+  index: -1
+BG_mountain-02
+  rotate: false
+  xy: 859, 1401
+  size: 406, 226
+  orig: 408, 228
+  offset: 1, 1
+  index: -1
+BG_mountain-03
+  rotate: false
+  xy: 948, 879
+  size: 876, 343
+  orig: 878, 345
+  offset: 1, 1
+  index: -1
+BG_mountain-031
+  rotate: false
+  xy: 2, 546
+  size: 876, 343
+  orig: 878, 345
+  offset: 1, 1
+  index: -1
+BG_mountain-04
+  rotate: false
+  xy: 2, 1476
+  size: 432, 156
+  orig: 434, 158
+  offset: 1, 1
+  index: -1
+BG_sea
+  rotate: false
+  xy: 880, 512
+  size: 1082, 365
+  orig: 1082, 365
+  offset: 0, 0
+  index: -1
+WLG
+  rotate: false
+  xy: 1073, 1629
+  size: 260, 140
+  orig: 260, 140
+  offset: 0, 0
+  index: -1
+batFly/batA_000
+  rotate: false
+  xy: 644, 1633
+  size: 218, 136
+  orig: 228, 205
+  offset: 4, 18
+  index: -1
+batFly/batA_001
+  rotate: false
+  xy: 1685, 1612
+  size: 157, 157
+  orig: 228, 205
+  offset: 33, 0
+  index: -1
+batFly/batA_002
+  rotate: true
+  xy: 1522, 1614
+  size: 155, 161
+  orig: 228, 205
+  offset: 35, 0
+  index: -1
+batFly/batA_003
+  rotate: false
+  xy: 225, 1648
+  size: 192, 121
+  orig: 228, 205
+  offset: 18, 46
+  index: -1
+batFly/batA_005
+  rotate: false
+  xy: 2, 1657
+  size: 221, 112
+  orig: 228, 205
+  offset: 7, 69
+  index: -1
+batFly/batA_006
+  rotate: false
+  xy: 864, 1632
+  size: 207, 137
+  orig: 228, 205
+  offset: 21, 68
+  index: -1
+batFly/batA_007
+  rotate: false
+  xy: 1335, 1619
+  size: 185, 150
+  orig: 228, 205
+  offset: 35, 55
+  index: -1
+batFly/batA_008
+  rotate: false
+  xy: 419, 1634
+  size: 223, 135
+  orig: 228, 205
+  offset: 5, 51
+  index: -1
+bgDW
+  rotate: false
+  xy: 2, 91
+  size: 1080, 419
+  orig: 1080, 420
+  offset: 0, 1
+  index: -1
+
+A_bg2.png
+size: 1836,1104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_remains
+  rotate: true
+  xy: 547, 2
+  size: 1099, 437
+  orig: 1099, 443
+  offset: 0, 6
+  index: -1
+BG_sky
+  rotate: true
+  xy: 2, 21
+  size: 1080, 543
+  orig: 1082, 545
+  offset: 1, 1
+  index: -1
+bgDW01
+  rotate: true
+  xy: 1413, 21
+  size: 1080, 419
+  orig: 1080, 420
+  offset: 0, 1
+  index: -1
+bgDW2
+  rotate: true
+  xy: 986, 21
+  size: 1080, 425
+  orig: 1080, 425
+  offset: 0, 0
+  index: -1
+
+
+A_bg_3.jpg
+size: 544,468
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JPGexp/LLL
+  rotate: true
+  xy: 2, 16
+  size: 229, 230
+  orig: 229, 230
+  offset: 0, 0
+  index: -1
+JPGexp/Lgg
+  rotate: false
+  xy: 234, 2
+  size: 305, 243
+  orig: 315, 315
+  offset: 6, 35
+  index: -1
+JPGexp/blood1
+  rotate: false
+  xy: 172, 247
+  size: 324, 216
+  orig: 324, 216
+  offset: 0, 0
+  index: -1
+JPGexp/glg2
+  rotate: false
+  xy: 2, 295
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1

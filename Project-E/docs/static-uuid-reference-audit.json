@@ -1,0 +1,209 @@
+{
+  "project": "Project-E",
+  "status": "static read-only evidence; no rendering/runtime acceptance",
+  "metaFiles": 1466,
+  "metaUUIDs": 2693,
+  "documentFiles": 95,
+  "referenceOccurrences": 1980,
+  "referencedUUIDs": 307,
+  "categories": {
+    "installedEngineBuiltin": 13,
+    "actualLocalMeta": 293,
+    "sourceMappedMissingMeta": 1
+  },
+  "duplicateMetaOwners": {},
+  "errors": [],
+  "missing": [
+    {
+      "uses": [
+        {
+          "file": "assets/game/content/prefabs/anim/A_jp_light.prefab",
+          "propertyLocation": [
+            7,
+            "_spriteFrame"
+          ],
+          "expectedType": null
+        }
+      ],
+      "uuid": "43f867bf-43c1-4e2f-bdfc-54f4ed761797@f9941",
+      "sourceMappings": [
+        {
+          "group": "frames",
+          "type": "cc.SpriteFrame",
+          "bundle": "g1012",
+          "path": "assets/texture/common/new/common/A_jp_light/A_jp_light_00001/spriteFrame",
+          "imagePath": "assets/shared/images/g1012/1428e0364.png",
+          "imageExists": true,
+          "textureSourceUuid": "1428e0364@6c48a",
+          "textureUuid": "1428e0364@6c48a",
+          "source": {
+            "file": "assets/g1012/import/04/0428e0364.json",
+            "sha256": "372cd53ee08656f1cca5bacd779be58f2e18de005bb9debee8018aad1b92a5f9"
+          }
+        },
+        {
+          "group": "frameRecords",
+          "type": "cc.SpriteFrame",
+          "bundle": "g1012",
+          "path": null,
+          "imagePath": "assets/shared/images/g1012/1428e0364.png",
+          "imageExists": true,
+          "textureSourceUuid": "1428e0364@6c48a",
+          "textureUuid": "1428e0364@6c48a",
+          "source": {
+            "file": "assets/g1012/import/04/0428e0364.json",
+            "sha256": "372cd53ee08656f1cca5bacd779be58f2e18de005bb9debee8018aad1b92a5f9"
+          }
+        }
+      ]
+    }
+  ],
+  "installedEngineBuiltinsUsed": {
+    "158e7e52-3220-4cd7-9694-713e0e6e8278@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_toggle_checkmark.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_toggle_checkmark.png",
+        "ownerExists": true
+      }
+    ],
+    "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_btn_normal.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_btn_normal.png",
+        "ownerExists": true
+      }
+    ],
+    "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_btn_pressed.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_btn_pressed.png",
+        "ownerExists": true
+      }
+    ],
+    "951249e0-9f16-456d-8b85-a6ca954da16b@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_btn_disabled.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_btn_disabled.png",
+        "ownerExists": true
+      }
+    ],
+    "11bdc4b0-64a8-4eb7-a2a7-9fb9e233e977@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_toggle_normal.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_toggle_normal.png",
+        "ownerExists": true
+      }
+    ],
+    "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_panel.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_panel.png",
+        "ownerExists": true
+      }
+    ],
+    "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_sprite_splash.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_sprite_splash.png",
+        "ownerExists": true
+      }
+    ],
+    "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_sprite.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_sprite.png",
+        "ownerExists": true
+      }
+    ],
+    "f12a23c4-b924-4322-a260-3d982428f1e8@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_radio_button_off.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_radio_button_off.png",
+        "ownerExists": true
+      }
+    ],
+    "24a704da-2867-446d-8d1a-5e920c75e09d@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_progressbar.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_progressbar.png",
+        "ownerExists": true
+      }
+    ],
+    "afc47931-f066-46b0-90be-9fe61f213428@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_scrollbar_vertical.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_scrollbar_vertical.png",
+        "ownerExists": true
+      }
+    ],
+    "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_scrollbar_vertical_bg.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_scrollbar_vertical_bg.png",
+        "ownerExists": true
+      }
+    ],
+    "9fd900dd-221b-4f89-8f2c-fba34243c835@f9941": [
+      {
+        "meta": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_progressbar_bg.png.meta",
+        "node": "root.subMetas.f9941",
+        "importer": "sprite-frame",
+        "owner": "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_progressbar_bg.png",
+        "ownerExists": true
+      }
+    ]
+  },
+  "staticReferences": [
+    {
+      "componentType": "cc.Sprite",
+      "propertyPath": [
+        "_spriteFrame"
+      ],
+      "sourceFrameUuid": "43f867bf-43c1-4e2f-bdfc-54f4ed761797@f9941",
+      "componentFileId": "56QwT0HkdOgY8kZwTZp30M",
+      "kind": "component-property",
+      "project": "Project-E",
+      "sourceAssetUuid": "7bfec9d4-c35f-483a-8455-c0c6151b116c",
+      "sourceAssetPath": "assets/game/content/prefabs/anim/A_jp_light.prefab",
+      "sourceAssetSha256": "c8722a51847e848b627801ace0d5512b2187a84ece774023f5c7111eccbb7230",
+      "officialBuild": {
+        "status": "asset UUID absent from official build bundle configs"
+      }
+    }
+  ],
+  "summary": {
+    "missingUUIDs": 1,
+    "missingOccurrences": 1,
+    "sourceMappedUUIDs": 1,
+    "unmappedUUIDs": 0,
+    "uncertainRestoreIdentities": 0,
+    "buildResults": {
+      "not-inspected": 1
+    }
+  },
+  "sourceAliasManifestSha256": "8f747523bbbc1d57c18159db66cea5f37d6337c2075bcbcdb4ef6c6982a352e1"
+}

@@ -1,0 +1,90 @@
+
+w_super_bg.jpg
+size: 924,924
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sw_light_c
+  rotate: false
+  xy: 1, 247
+  size: 543, 315
+  orig: 543, 316
+  offset: 0, 1
+  index: -1
+sw_light_d
+  rotate: false
+  xy: 1, 563
+  size: 582, 360
+  orig: 582, 361
+  offset: 0, 1
+  index: -1
+sw_light_e
+  rotate: true
+  xy: 584, 553
+  size: 370, 255
+  orig: 370, 256
+  offset: 0, 1
+  index: -1
+sw_totem_b1
+  rotate: false
+  xy: 545, 361
+  size: 291, 191
+  orig: 291, 192
+  offset: 0, 1
+  index: -1
+sw_totem_b2
+  rotate: false
+  xy: 530, 127
+  size: 248, 111
+  orig: 249, 112
+  offset: 0, 1
+  index: -1
+sw_totem_b3
+  rotate: true
+  xy: 779, 17
+  size: 221, 99
+  orig: 221, 99
+  offset: 0, 0
+  index: -1
+sw_totem_b4
+  rotate: false
+  xy: 1, 1
+  size: 179, 91
+  orig: 180, 91
+  offset: 0, 0
+  index: -1
+sw_txt_a_sd
+  rotate: false
+  xy: 545, 239
+  size: 333, 121
+  orig: 333, 121
+  offset: 0, 0
+  index: -1
+sw_txt_b_sd
+  rotate: false
+  xy: 444, 23
+  size: 211, 103
+  orig: 211, 104
+  offset: 0, 1
+  index: -1
+sw_txtbox_
+  rotate: false
+  xy: 1, 93
+  size: 442, 82
+  orig: 442, 82
+  offset: 0, 0
+  index: -1
+sw_txtbox_a
+  rotate: false
+  xy: 1, 176
+  size: 528, 70
+  orig: 528, 71
+  offset: 0, 1
+  index: -1
+sw_txtbox_b
+  rotate: false
+  xy: 1, 176
+  size: 528, 70
+  orig: 528, 71
+  offset: 0, 1
+  index: -1

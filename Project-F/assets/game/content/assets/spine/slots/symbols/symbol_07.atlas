@@ -1,0 +1,111 @@
+
+symbol_07.png
+size: 120,1188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s7_bag_01
+  rotate: true
+  xy: 54, 1005
+  size: 81, 61
+  orig: 81, 61
+  offset: 0, 0
+  index: -1
+s7_bag_02
+  rotate: false
+  xy: 44, 1087
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+s7_coin_01
+  rotate: true
+  xy: 1, 1098
+  size: 46, 42
+  orig: 46, 42
+  offset: 0, 0
+  index: -1
+s7_coin_01_shadow
+  rotate: false
+  xy: 83, 1166
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+s7_coin_02
+  rotate: false
+  xy: 44, 1128
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+s7_coin_02_shadow
+  rotate: true
+  xy: 1, 1179
+  size: 8, 12
+  orig: 26, 17
+  offset: 0, 2
+  index: -1
+s7_coin_03
+  rotate: false
+  xy: 1, 1038
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+s7_line_01
+  rotate: false
+  xy: 1, 1145
+  size: 42, 23
+  orig: 42, 23
+  offset: 0, 0
+  index: -1
+s7_line_02
+  rotate: false
+  xy: 14, 1173
+  size: 15, 14
+  orig: 17, 16
+  offset: 1, 1
+  index: -1
+s7_shadow_01
+  rotate: false
+  xy: 30, 1169
+  size: 27, 18
+  orig: 27, 18
+  offset: 0, 0
+  index: -1
+s7_shadow_02
+  rotate: false
+  xy: 58, 1167
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+symbol_bg07_1
+  rotate: false
+  xy: 1, 904
+  size: 118, 100
+  orig: 118, 100
+  offset: 0, 0
+  index: -1
+symbol_bg07_2
+  rotate: false
+  xy: 1, 703
+  size: 118, 200
+  orig: 118, 200
+  offset: 0, 0
+  index: -1
+symbol_bg07_3
+  rotate: false
+  xy: 1, 402
+  size: 118, 300
+  orig: 118, 300
+  offset: 0, 0
+  index: -1
+symbol_bg07_4
+  rotate: false
+  xy: 1, 1
+  size: 118, 400
+  orig: 118, 400
+  offset: 0, 0
+  index: -1

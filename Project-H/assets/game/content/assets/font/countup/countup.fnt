@@ -1,0 +1,18 @@
+info face="countup" size=115 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=131 base=115 scaleW=384 scaleH=384 pages=1 packed=0
+page id=0 file="countup.png"
+chars count=12
+char id=32 x=2 y=353 width=0 height=0 xoffset=0 yoffset=105 xadvance=32 page=0 chnl=15
+char id=47 x=168 y=236 width=47 height=115 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=48 x=251 y=119 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=49 x=168 y=119 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=50 x=85 y=236 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=51 x=85 y=119 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=52 x=251 y=2 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=53 x=168 y=2 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=54 x=85 y=2 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=55 x=2 y=236 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=56 x=2 y=119 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+char id=57 x=2 y=2 width=81 height=115 xoffset=0 yoffset=0 xadvance=81 page=0 chnl=15
+kernings count=1
+kerning first=49 second=49 amount=-8

@@ -1,0 +1,2079 @@
+{
+  "skeleton": {
+    "hash": "nFdCTPN2MEVZzeblanXPCpkyNS8",
+    "spine": "3.8.99",
+    "x": -174.25,
+    "y": -17.05,
+    "width": 351.9,
+    "height": 261.8,
+    "images": "./image/megawin/mega_image/",
+    "audio": "C:/Users/XH-007/Desktop/鹿肉/美工/SPINE/孫行者/win/../../拜金女/win/tospine/Mega win"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "y": 45,
+      "scaleX": 0.85,
+      "scaleY": 0.85
+    },
+    {
+      "name": "mega_win",
+      "parent": "root"
+    },
+    {
+      "name": "mega_group",
+      "parent": "mega_win",
+      "x": 1.5,
+      "y": 149,
+      "color": "ff4141ff"
+    },
+    {
+      "name": "mega_sweeplight",
+      "parent": "mega_group",
+      "color": "ff7474ff"
+    },
+    {
+      "name": "win_group",
+      "parent": "mega_win",
+      "x": 3.68,
+      "y": 7.89,
+      "color": "ffe629ff"
+    },
+    {
+      "name": "win_sweeplight",
+      "parent": "win_group",
+      "x": -4.82,
+      "y": 3.09,
+      "color": "ffce5fff"
+    },
+    {
+      "name": "mega_M",
+      "parent": "mega_group",
+      "x": -144,
+      "y": -1,
+      "color": "ff4141ff"
+    },
+    {
+      "name": "mega_E",
+      "parent": "mega_group",
+      "x": -39.5,
+      "y": 8.5,
+      "color": "ff4141ff"
+    },
+    {
+      "name": "mega_G",
+      "parent": "mega_group",
+      "x": 50,
+      "y": 8,
+      "color": "ff4141ff"
+    },
+    {
+      "name": "mega_A",
+      "parent": "mega_group",
+      "x": 149,
+      "y": -5,
+      "color": "ff4141ff"
+    },
+    {
+      "name": "win_W",
+      "parent": "win_group",
+      "x": -79.68,
+      "y": -6.89,
+      "color": "ffe629ff"
+    },
+    {
+      "name": "win_I",
+      "parent": "win_group",
+      "x": 4.82,
+      "y": -6.89,
+      "color": "ffe629ff"
+    },
+    {
+      "name": "win_N",
+      "parent": "win_group",
+      "x": 80.82,
+      "y": -6.89,
+      "color": "ffe629ff"
+    },
+    {
+      "name": "sparkle",
+      "parent": "mega_win",
+      "x": -140,
+      "y": 54.5
+    },
+    {
+      "name": "sparkle2",
+      "parent": "mega_win",
+      "x": -140,
+      "y": 54.5
+    },
+    {
+      "name": "sparkle3",
+      "parent": "mega_win",
+      "x": -140,
+      "y": 54.5
+    },
+    {
+      "name": "sparkle4",
+      "parent": "mega_win",
+      "x": -140,
+      "y": 54.5
+    },
+    {
+      "name": "sparkle5",
+      "parent": "mega_win",
+      "x": -140,
+      "y": 54.5,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "glow",
+      "parent": "mega_win",
+      "x": 9,
+      "y": 0.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "mega_A2",
+      "bone": "mega_A",
+      "attachment": "mega_A2"
+    },
+    {
+      "name": "mega_G2",
+      "bone": "mega_G",
+      "attachment": "mega_G2"
+    },
+    {
+      "name": "mega_M2",
+      "bone": "mega_M",
+      "attachment": "mega_M2"
+    },
+    {
+      "name": "megawin_E2",
+      "bone": "mega_E",
+      "attachment": "megawin_E2"
+    },
+    {
+      "name": "mega_A",
+      "bone": "mega_A",
+      "attachment": "mega_A"
+    },
+    {
+      "name": "mega_G",
+      "bone": "mega_G",
+      "attachment": "mega_G"
+    },
+    {
+      "name": "mega_E",
+      "bone": "mega_E",
+      "attachment": "mega_E"
+    },
+    {
+      "name": "mega_M",
+      "bone": "mega_M",
+      "attachment": "mega_M"
+    },
+    {
+      "name": "mega_sweeplight_add",
+      "bone": "mega_sweeplight",
+      "blend": "additive"
+    },
+    {
+      "name": "win_N",
+      "bone": "win_N",
+      "attachment": "win_N"
+    },
+    {
+      "name": "win_W",
+      "bone": "win_W",
+      "attachment": "win_W"
+    },
+    {
+      "name": "win_I",
+      "bone": "win_I",
+      "attachment": "win_I"
+    },
+    {
+      "name": "win_sweeplight_add",
+      "bone": "win_sweeplight",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_add",
+      "bone": "glow",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle_add",
+      "bone": "sparkle",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle2_add",
+      "bone": "sparkle2",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle3_add",
+      "bone": "sparkle3",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle4_add",
+      "bone": "sparkle4",
+      "blend": "additive"
+    },
+    {
+      "name": "sparkle5_add",
+      "bone": "sparkle5",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "glow_add": {
+          "glow": {
+            "scaleX": 3,
+            "scaleY": 3,
+            "width": 209,
+            "height": 223
+          }
+        },
+        "mega_A": {
+          "mega_A": {
+            "width": 111,
+            "height": 154
+          }
+        },
+        "mega_A2": {
+          "mega_A2": {
+            "x": -4.5,
+            "y": -7,
+            "width": 126,
+            "height": 174
+          }
+        },
+        "mega_E": {
+          "mega_E": {
+            "width": 86,
+            "height": 147
+          }
+        },
+        "mega_G": {
+          "mega_G": {
+            "width": 103,
+            "height": 148
+          }
+        },
+        "mega_G2": {
+          "mega_G2": {
+            "y": -7,
+            "width": 115,
+            "height": 166
+          }
+        },
+        "mega_M": {
+          "mega_M": {
+            "width": 121,
+            "height": 158
+          }
+        },
+        "mega_M2": {
+          "mega_M2": {
+            "x": 5.5,
+            "y": -6,
+            "width": 136,
+            "height": 178
+          }
+        },
+        "mega_sweeplight_add": {
+          "mega_sweeplight_00": {
+            "x": -148.5,
+            "y": 19.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 57,
+            "height": 61
+          },
+          "mega_sweeplight_01": {
+            "x": -128.5,
+            "y": 8.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 77,
+            "height": 75
+          },
+          "mega_sweeplight_02": {
+            "x": -108.5,
+            "y": -3.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 97,
+            "height": 88
+          },
+          "mega_sweeplight_03": {
+            "x": -90.5,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 115,
+            "height": 90
+          },
+          "mega_sweeplight_04": {
+            "x": -72.5,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 133,
+            "height": 91
+          },
+          "mega_sweeplight_05": {
+            "x": -56.5,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 149,
+            "height": 91
+          },
+          "mega_sweeplight_06": {
+            "x": -50,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 156,
+            "height": 91
+          },
+          "mega_sweeplight_07": {
+            "x": -21.5,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 134,
+            "height": 66
+          },
+          "mega_sweeplight_08": {
+            "x": -15,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 191,
+            "height": 91
+          },
+          "mega_sweeplight_09": {
+            "x": -11,
+            "y": -5.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 195,
+            "height": 91
+          },
+          "mega_sweeplight_10": {
+            "x": -2.5,
+            "y": -5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 194,
+            "height": 90
+          },
+          "mega_sweeplight_11": {
+            "x": 1,
+            "y": -4,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 198,
+            "height": 88
+          },
+          "mega_sweeplight_12": {
+            "x": 5,
+            "y": -7,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 202,
+            "height": 90
+          },
+          "mega_sweeplight_13": {
+            "x": 5.5,
+            "y": -9,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 202,
+            "height": 89
+          },
+          "mega_sweeplight_14": {
+            "x": 5.5,
+            "y": -12,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 202,
+            "height": 86
+          },
+          "mega_sweeplight_15": {
+            "x": 6.5,
+            "y": -12,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 201,
+            "height": 86
+          },
+          "mega_sweeplight_16": {
+            "x": 44,
+            "y": -12,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 164,
+            "height": 86
+          },
+          "mega_sweeplight_17": {
+            "x": 50,
+            "y": -12.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 158,
+            "height": 86
+          },
+          "mega_sweeplight_18": {
+            "x": 70,
+            "y": -13.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 138,
+            "height": 85
+          },
+          "mega_sweeplight_19": {
+            "x": 90.5,
+            "y": -16.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 117,
+            "height": 82
+          },
+          "mega_sweeplight_20": {
+            "x": 110,
+            "y": -17,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 97,
+            "height": 81
+          },
+          "mega_sweeplight_21": {
+            "x": 127,
+            "y": -18.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 80,
+            "height": 80
+          },
+          "mega_sweeplight_22": {
+            "x": 144,
+            "y": -32,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 63,
+            "height": 66
+          },
+          "mega_sweeplight_23": {
+            "x": 164,
+            "y": -49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 43,
+            "height": 49
+          }
+        },
+        "megawin_E2": {
+          "megawin_E2": {
+            "x": 2.5,
+            "y": -6.5,
+            "width": 95,
+            "height": 168
+          }
+        },
+        "sparkle2_add": {
+          "sparkle": {
+            "width": 150,
+            "height": 149
+          }
+        },
+        "sparkle3_add": {
+          "sparkle": {
+            "width": 150,
+            "height": 149
+          }
+        },
+        "sparkle4_add": {
+          "sparkle": {
+            "width": 150,
+            "height": 149
+          }
+        },
+        "sparkle5_add": {
+          "sparkle": {
+            "width": 150,
+            "height": 149
+          }
+        },
+        "sparkle_add": {
+          "sparkle": {
+            "width": 150,
+            "height": 149
+          }
+        },
+        "win_I": {
+          "win_I": {
+            "width": 57,
+            "height": 148
+          }
+        },
+        "win_N": {
+          "win_N": {
+            "width": 117,
+            "height": 148
+          }
+        },
+        "win_W": {
+          "win_W": {
+            "width": 146,
+            "height": 148
+          }
+        },
+        "win_sweeplight_add": {
+          "win_sweeplight_02": {
+            "x": -114.86,
+            "y": 36.01,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 30,
+            "height": 26
+          },
+          "win_sweeplight_03": {
+            "x": -100.36,
+            "y": 23.01,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 46,
+            "height": 40
+          },
+          "win_sweeplight_04": {
+            "x": -81.36,
+            "y": 10.01,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 65,
+            "height": 54
+          },
+          "win_sweeplight_05": {
+            "x": -65.36,
+            "y": -3.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 82,
+            "height": 68
+          },
+          "win_sweeplight_06": {
+            "x": -48.36,
+            "y": -7.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 99,
+            "height": 72
+          },
+          "win_sweeplight_07": {
+            "x": -34.36,
+            "y": -7.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 112,
+            "height": 72
+          },
+          "win_sweeplight_08": {
+            "x": -13.86,
+            "y": -8.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 131,
+            "height": 73
+          },
+          "win_sweeplight_09": {
+            "x": -2.86,
+            "y": -8.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 141,
+            "height": 73
+          },
+          "win_sweeplight_10": {
+            "x": -0.86,
+            "y": -8.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 142,
+            "height": 73
+          },
+          "win_sweeplight_11": {
+            "x": 2.14,
+            "y": -9.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 140,
+            "height": 74
+          },
+          "win_sweeplight_12": {
+            "x": 5.64,
+            "y": -9.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 138,
+            "height": 74
+          },
+          "win_sweeplight_13": {
+            "x": 8.64,
+            "y": -8.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 135,
+            "height": 73
+          },
+          "win_sweeplight_14": {
+            "x": 12.14,
+            "y": -9.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 131,
+            "height": 74
+          },
+          "win_sweeplight_15": {
+            "x": 22.14,
+            "y": -9.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 121,
+            "height": 73
+          },
+          "win_sweeplight_16": {
+            "x": 39.14,
+            "y": -10.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 104,
+            "height": 73
+          },
+          "win_sweeplight_17": {
+            "x": 64.64,
+            "y": -10.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 79,
+            "height": 72
+          },
+          "win_sweeplight_18": {
+            "x": 72.64,
+            "y": -12.99,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 71,
+            "height": 70
+          },
+          "win_sweeplight_19": {
+            "x": 90.14,
+            "y": -26.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 53,
+            "height": 56
+          },
+          "win_sweeplight_20": {
+            "x": 104.64,
+            "y": -42.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 38,
+            "height": 39
+          },
+          "win_sweeplight_21": {
+            "x": 104.64,
+            "y": -42.49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 38,
+            "height": 39
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "in": {
+      "slots": {
+        "glow_add": {
+          "color": [
+            {
+              "color": "89151500",
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1,
+              "color": "ffc7477e"
+            },
+            {
+              "time": 0.6667,
+              "color": "cc212100"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "glow"
+            }
+          ]
+        },
+        "mega_A": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_A2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_E": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_G": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_G2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_M": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_M2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "mega_sweeplight_add": {
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "mega_sweeplight_00"
+            },
+            {
+              "time": 0.1667,
+              "name": "mega_sweeplight_01"
+            },
+            {
+              "time": 0.2,
+              "name": "mega_sweeplight_02"
+            },
+            {
+              "time": 0.2333,
+              "name": "mega_sweeplight_03"
+            },
+            {
+              "time": 0.2667,
+              "name": "mega_sweeplight_04"
+            },
+            {
+              "time": 0.3,
+              "name": "mega_sweeplight_05"
+            },
+            {
+              "time": 0.3333,
+              "name": "mega_sweeplight_06"
+            },
+            {
+              "time": 0.3667,
+              "name": "mega_sweeplight_07"
+            },
+            {
+              "time": 0.4,
+              "name": "mega_sweeplight_08"
+            },
+            {
+              "time": 0.4333,
+              "name": "mega_sweeplight_09"
+            },
+            {
+              "time": 0.4667,
+              "name": "mega_sweeplight_10"
+            },
+            {
+              "time": 0.5,
+              "name": "mega_sweeplight_11"
+            },
+            {
+              "time": 0.5333,
+              "name": "mega_sweeplight_12"
+            },
+            {
+              "time": 0.5667,
+              "name": "mega_sweeplight_13"
+            },
+            {
+              "time": 0.6,
+              "name": "mega_sweeplight_14"
+            },
+            {
+              "time": 0.6333,
+              "name": "mega_sweeplight_15"
+            },
+            {
+              "time": 0.6667,
+              "name": "mega_sweeplight_16"
+            },
+            {
+              "time": 0.7,
+              "name": "mega_sweeplight_17"
+            },
+            {
+              "time": 0.7333,
+              "name": "mega_sweeplight_18"
+            },
+            {
+              "time": 0.7667,
+              "name": "mega_sweeplight_19"
+            },
+            {
+              "time": 0.8,
+              "name": "mega_sweeplight_20"
+            },
+            {
+              "time": 0.8333,
+              "name": "mega_sweeplight_21"
+            },
+            {
+              "time": 0.8667,
+              "name": "mega_sweeplight_22"
+            },
+            {
+              "time": 0.9,
+              "name": "mega_sweeplight_23"
+            },
+            {
+              "time": 0.9333,
+              "name": null
+            }
+          ]
+        },
+        "megawin_E2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "sparkle2_add": {
+          "color": [
+            {
+              "time": 0.2333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2333,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle3_add": {
+          "color": [
+            {
+              "time": 0.2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle4_add": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3333,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle5_add": {
+          "color": [
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3667,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle_add": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "win_I": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "win_N": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "win_W": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "win_sweeplight_add": {
+          "attachment": [
+            {
+              "time": 0.3,
+              "name": "win_sweeplight_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "win_sweeplight_03"
+            },
+            {
+              "time": 0.3667,
+              "name": "win_sweeplight_04"
+            },
+            {
+              "time": 0.4,
+              "name": "win_sweeplight_05"
+            },
+            {
+              "time": 0.4333,
+              "name": "win_sweeplight_06"
+            },
+            {
+              "time": 0.4667,
+              "name": "win_sweeplight_07"
+            },
+            {
+              "time": 0.5,
+              "name": "win_sweeplight_08"
+            },
+            {
+              "time": 0.5333,
+              "name": "win_sweeplight_09"
+            },
+            {
+              "time": 0.5667,
+              "name": "win_sweeplight_10"
+            },
+            {
+              "time": 0.6,
+              "name": "win_sweeplight_11"
+            },
+            {
+              "time": 0.6333,
+              "name": "win_sweeplight_12"
+            },
+            {
+              "time": 0.6667,
+              "name": "win_sweeplight_13"
+            },
+            {
+              "time": 0.7,
+              "name": "win_sweeplight_14"
+            },
+            {
+              "time": 0.7333,
+              "name": "win_sweeplight_15"
+            },
+            {
+              "time": 0.7667,
+              "name": "win_sweeplight_16"
+            },
+            {
+              "time": 0.8,
+              "name": "win_sweeplight_17"
+            },
+            {
+              "time": 0.8333,
+              "name": "win_sweeplight_18"
+            },
+            {
+              "time": 0.8667,
+              "name": "win_sweeplight_19"
+            },
+            {
+              "time": 0.9,
+              "name": "win_sweeplight_20"
+            },
+            {
+              "time": 0.9333,
+              "name": "win_sweeplight_21"
+            },
+            {
+              "time": 0.9667,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "mega_group": {
+          "scale": [
+            {
+              "x": 0.3,
+              "y": 0.3,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1,
+              "x": 1.192,
+              "y": 1.192
+            },
+            {
+              "time": 0.1667
+            }
+          ]
+        },
+        "win_group": {
+          "scale": [
+            {
+              "x": 0.3,
+              "y": 0.3,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1,
+              "x": 1.192,
+              "y": 1.192
+            },
+            {
+              "time": 0.1667
+            }
+          ]
+        },
+        "sparkle": {
+          "rotate": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.8,
+              "angle": -47.62
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1667,
+              "x": -54.48,
+              "y": 156.47
+            },
+            {
+              "time": 0.8,
+              "x": -31.07,
+              "y": 160.23
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.3,
+              "x": 1.1,
+              "y": 1.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 0.8,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle2": {
+          "scale": [
+            {
+              "time": 0.2333,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.3667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.8667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle3": {
+          "rotate": [
+            {
+              "time": 0.2,
+              "angle": -48.57
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.2,
+              "x": 270.4,
+              "y": -48.02
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.2,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.3333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.8333,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle4": {
+          "translate": [
+            {
+              "time": 0.3333,
+              "x": 328.45,
+              "y": 72.13
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.4667,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.9667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle5": {
+          "translate": [
+            {
+              "time": 0.3667,
+              "x": 178.6,
+              "y": 172.03
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.5,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 1,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "glow": {
+          "translate": [
+            {
+              "y": 35.81
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.604,
+              "y": 0.604,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1,
+              "x": 1.529,
+              "y": 1.529
+            },
+            {
+              "time": 0.5667,
+              "x": 1.565,
+              "y": 1.565
+            }
+          ]
+        }
+      }
+    },
+    "loop": {
+      "slots": {
+        "mega_sweeplight_add": {
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "mega_sweeplight_00"
+            },
+            {
+              "time": 0.1667,
+              "name": "mega_sweeplight_01"
+            },
+            {
+              "time": 0.2,
+              "name": "mega_sweeplight_02"
+            },
+            {
+              "time": 0.2333,
+              "name": "mega_sweeplight_03"
+            },
+            {
+              "time": 0.2667,
+              "name": "mega_sweeplight_04"
+            },
+            {
+              "time": 0.3,
+              "name": "mega_sweeplight_05"
+            },
+            {
+              "time": 0.3333,
+              "name": "mega_sweeplight_06"
+            },
+            {
+              "time": 0.3667,
+              "name": "mega_sweeplight_07"
+            },
+            {
+              "time": 0.4,
+              "name": "mega_sweeplight_08"
+            },
+            {
+              "time": 0.4333,
+              "name": "mega_sweeplight_09"
+            },
+            {
+              "time": 0.4667,
+              "name": "mega_sweeplight_10"
+            },
+            {
+              "time": 0.5,
+              "name": "mega_sweeplight_11"
+            },
+            {
+              "time": 0.5333,
+              "name": "mega_sweeplight_12"
+            },
+            {
+              "time": 0.5667,
+              "name": "mega_sweeplight_13"
+            },
+            {
+              "time": 0.6,
+              "name": "mega_sweeplight_14"
+            },
+            {
+              "time": 0.6333,
+              "name": "mega_sweeplight_15"
+            },
+            {
+              "time": 0.6667,
+              "name": "mega_sweeplight_16"
+            },
+            {
+              "time": 0.7,
+              "name": "mega_sweeplight_17"
+            },
+            {
+              "time": 0.7333,
+              "name": "mega_sweeplight_18"
+            },
+            {
+              "time": 0.7667,
+              "name": "mega_sweeplight_19"
+            },
+            {
+              "time": 0.8,
+              "name": "mega_sweeplight_20"
+            },
+            {
+              "time": 0.8333,
+              "name": "mega_sweeplight_21"
+            },
+            {
+              "time": 0.8667,
+              "name": "mega_sweeplight_22"
+            },
+            {
+              "time": 0.9,
+              "name": "mega_sweeplight_23"
+            },
+            {
+              "time": 0.9333,
+              "name": null
+            }
+          ]
+        },
+        "sparkle2_add": {
+          "color": [
+            {
+              "time": 0.2333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2333,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle3_add": {
+          "color": [
+            {
+              "time": 0.2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle4_add": {
+          "color": [
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3667,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle5_add": {
+          "color": [
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3667,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "sparkle_add": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "sparkle"
+            }
+          ]
+        },
+        "win_sweeplight_add": {
+          "attachment": [
+            {
+              "time": 0.3,
+              "name": "win_sweeplight_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "win_sweeplight_03"
+            },
+            {
+              "time": 0.3667,
+              "name": "win_sweeplight_04"
+            },
+            {
+              "time": 0.4,
+              "name": "win_sweeplight_05"
+            },
+            {
+              "time": 0.4333,
+              "name": "win_sweeplight_06"
+            },
+            {
+              "time": 0.4667,
+              "name": "win_sweeplight_07"
+            },
+            {
+              "time": 0.5,
+              "name": "win_sweeplight_08"
+            },
+            {
+              "time": 0.5333,
+              "name": "win_sweeplight_09"
+            },
+            {
+              "time": 0.5667,
+              "name": "win_sweeplight_10"
+            },
+            {
+              "time": 0.6,
+              "name": "win_sweeplight_11"
+            },
+            {
+              "time": 0.6333,
+              "name": "win_sweeplight_12"
+            },
+            {
+              "time": 0.6667,
+              "name": "win_sweeplight_13"
+            },
+            {
+              "time": 0.7,
+              "name": "win_sweeplight_14"
+            },
+            {
+              "time": 0.7333,
+              "name": "win_sweeplight_15"
+            },
+            {
+              "time": 0.7667,
+              "name": "win_sweeplight_16"
+            },
+            {
+              "time": 0.8,
+              "name": "win_sweeplight_17"
+            },
+            {
+              "time": 0.8333,
+              "name": "win_sweeplight_18"
+            },
+            {
+              "time": 0.8667,
+              "name": "win_sweeplight_19"
+            },
+            {
+              "time": 0.9,
+              "name": "win_sweeplight_20"
+            },
+            {
+              "time": 0.9333,
+              "name": "win_sweeplight_21"
+            },
+            {
+              "time": 0.9667,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "sparkle": {
+          "rotate": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.8,
+              "angle": -47.62
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1667,
+              "x": -54.48,
+              "y": 156.47
+            },
+            {
+              "time": 0.8,
+              "x": -31.07,
+              "y": 160.23
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.3,
+              "x": 1.1,
+              "y": 1.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 0.8,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle2": {
+          "scale": [
+            {
+              "time": 0.2333,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.3667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.8667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle3": {
+          "rotate": [
+            {
+              "time": 0.2,
+              "angle": -48.57
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.2,
+              "x": 270.4,
+              "y": -48.02
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.2,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.3333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.8333,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle4": {
+          "translate": [
+            {
+              "time": 0.3667,
+              "x": 328.45,
+              "y": 72.13
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.5,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 1,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "sparkle5": {
+          "translate": [
+            {
+              "time": 0.3667,
+              "x": 178.6,
+              "y": 172.03
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3667,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.5,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 1,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "mega_M": {
+          "translate": [
+            {
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1,
+              "y": 22.81
+            },
+            {
+              "time": 0.2,
+              "y": -9
+            },
+            {
+              "time": 0.2667
+            }
+          ]
+        },
+        "mega_E": {
+          "translate": [
+            {
+              "time": 0.0333,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1333,
+              "y": 22.81
+            },
+            {
+              "time": 0.2333,
+              "y": -9
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        },
+        "mega_G": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.1667,
+              "y": 22.81
+            },
+            {
+              "time": 0.2667,
+              "y": -9
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "mega_A": {
+          "translate": [
+            {
+              "time": 0.1,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.2,
+              "y": 22.81
+            },
+            {
+              "time": 0.3,
+              "y": -9
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "win_W": {
+          "translate": [
+            {
+              "time": 0.1333,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.2333,
+              "y": 22.81
+            },
+            {
+              "time": 0.3333,
+              "y": -9
+            },
+            {
+              "time": 0.4
+            }
+          ]
+        },
+        "win_I": {
+          "translate": [
+            {
+              "time": 0.1667,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.2667,
+              "y": 22.81
+            },
+            {
+              "time": 0.3667,
+              "y": -9
+            },
+            {
+              "time": 0.4333
+            }
+          ]
+        },
+        "win_N": {
+          "translate": [
+            {
+              "time": 0.2,
+              "curve": 0,
+              "c2": 0.31,
+              "c3": 0.649,
+              "c4": 0.88
+            },
+            {
+              "time": 0.3,
+              "y": 22.81
+            },
+            {
+              "time": 0.4,
+              "y": -9
+            },
+            {
+              "time": 0.4667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

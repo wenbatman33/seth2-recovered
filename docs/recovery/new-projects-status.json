@@ -1,0 +1,92 @@
+{
+  "status": "work in progress; no remote publication",
+  "projects": [
+    {
+      "project": "Project-C",
+      "recoveredModules": 346,
+      "layout": [
+        "landscape"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": true,
+      "runtimeValidation": [
+        "desktop ordinary loss",
+        "desktop multiplier win settled",
+        "phone original-landscape-fit",
+        "phone purchase200 ->15 free games settled"
+      ],
+      "pending": "special features, menus/audio and final homepage routing verification"
+    },
+    {
+      "project": "Project-D",
+      "recoveredModules": 345,
+      "layout": [
+        "landscape",
+        "portrait"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": true,
+      "runtimeValidation": [
+        "desktop multiplier win settled 10000->9999->10019",
+        "native portrait phone purchase100",
+        "persisted FG resume no second debit; completed award4.5"
+      ],
+      "pending": "special features, menus/audio and final homepage routing verification"
+    },
+    {
+      "project": "Project-E",
+      "recoveredModules": 344,
+      "layout": [
+        "portrait"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": false,
+      "runtimeValidation": [],
+      "pending": "official GUI build and browser gameplay verification"
+    },
+    {
+      "project": "Project-F",
+      "recoveredModules": 331,
+      "layout": [
+        "portrait"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": false,
+      "runtimeValidation": [],
+      "pending": "official GUI build and browser gameplay verification"
+    },
+    {
+      "project": "Project-G",
+      "recoveredModules": 348,
+      "layout": [
+        "landscape"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": false,
+      "runtimeValidation": [],
+      "pending": "official GUI build and browser gameplay verification"
+    },
+    {
+      "project": "Project-H",
+      "recoveredModules": 340,
+      "layout": [
+        "portrait"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": false,
+      "runtimeValidation": [],
+      "pending": "official GUI build and browser gameplay verification"
+    },
+    {
+      "project": "Project-I",
+      "recoveredModules": 344,
+      "layout": [
+        "portrait"
+      ],
+      "backend": "owned local simulation; original RNG/RTP unknown",
+      "officialGuiBuilt": false,
+      "runtimeValidation": [],
+      "pending": "official GUI build and browser gameplay verification"
+    }
+  ]
+}

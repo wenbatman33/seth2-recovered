@@ -1,0 +1,112 @@
+{
+  "project": "Project-G",
+  "reason": "Original development-only Node scripts import node:fs/node:crypto and must not be compiled by Creator asset pipeline",
+  "runtimeImportsFound": 0,
+  "serializedAssetReferencesFound": 0,
+  "executedOriginalTools": false,
+  "files": [
+    {
+      "from": "assets/shared/framework/tools/crypto-core.meta",
+      "to": "tools/source-framework/crypto-core.meta",
+      "sha256": "3da805e97a86e7b99583440c975ce661bbba17aa0c7e697574f7ce6a1d0e7798",
+      "metaUUID": "348e2329-0ff4-457d-95f8-c25658d4a09c"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/crypto_core.c.meta",
+      "to": "tools/source-framework/crypto-core/crypto_core.c.meta",
+      "sha256": "2233fd8396db794942ecd887394b91161e2110c35e4ed347fc4dbafff5454382",
+      "metaUUID": "94a5ee32-1488-49a1-aeda-e8d4813505a6"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/crypto_core.c",
+      "to": "tools/source-framework/crypto-core/crypto_core.c",
+      "sha256": "343af1fbe03bc4fbdfe4d49f151c2bbc63e3b6a304a3e7d474924067fc7ed645",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/gen_key.mjs.meta",
+      "to": "tools/source-framework/crypto-core/gen_key.mjs.meta",
+      "sha256": "1284c8dee5f453900ccdac1c79144cee63064da4ff1bc1863ba2998a64409a52",
+      "metaUUID": "e25d65d2-2167-4a59-a32c-17303555cbff"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/README.md",
+      "to": "tools/source-framework/crypto-core/README.md",
+      "sha256": "6101edc22147230e233e39c03ffab77b610d4513c00c27b6bcd1106499dd385d",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/build.sh",
+      "to": "tools/source-framework/crypto-core/build.sh",
+      "sha256": "b8db2fd40ef8de4c620b358553e54bad1867036d71c093ef26cec2c59d0f8333",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/build.sh.meta",
+      "to": "tools/source-framework/crypto-core/build.sh.meta",
+      "sha256": "cf78b329359fcfe55ceb6e9a01e52e3748f97e3a816d8b35c34bfa7cfd5c4b74",
+      "metaUUID": "71b62a74-bde5-4fb4-8ac6-0df355bb4c08"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/test.meta",
+      "to": "tools/source-framework/crypto-core/test.meta",
+      "sha256": "21be3e8dd7383f5b677077c31e6bc348f6ba5b3a175aa0eb2eba9860c1ecade3",
+      "metaUUID": "e2c427ed-e73c-40ac-b90c-bb97faf4c441"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/gen_key.mjs",
+      "to": "tools/source-framework/crypto-core/gen_key.mjs",
+      "sha256": "cf41f04a2c85d62897fba9964caaae98083eeb8664248d00a9a90be200d3bb36",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/master_key.h.meta",
+      "to": "tools/source-framework/crypto-core/master_key.h.meta",
+      "sha256": "e9d0dc7ac17f742c016da4355f2e35fcfbb5723089e1a734258aa623dd078efd",
+      "metaUUID": "c9eccb55-4fe4-41b7-adb8-f1fae820af51"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/README.md.meta",
+      "to": "tools/source-framework/crypto-core/README.md.meta",
+      "sha256": "16f86b26402bc4ae269add4b7bd57de8f2864c38f946e7472be6fb80bc94b3a3",
+      "metaUUID": "50b1687c-4c7f-42f3-8654-23eddddae5cd"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/master_key.h",
+      "to": "tools/source-framework/crypto-core/master_key.h",
+      "sha256": "68ad09eb350e035ea7e189d144e4830ab258948687d7adce9cb5327b67364a04",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/test/verify.mjs.meta",
+      "to": "tools/source-framework/crypto-core/test/verify.mjs.meta",
+      "sha256": "956b084be7ad7f436d42e6c178f73cf06aeada8e8a7ca4e8db536d1452f9573b",
+      "metaUUID": "354b9f71-970a-4933-924a-ee54a40a0ad1"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/test/verify.mjs",
+      "to": "tools/source-framework/crypto-core/test/verify.mjs",
+      "sha256": "fd4157fb01d48098a4b1501e7ba0aa4aadea0df09caf21376507d42604a130eb",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/test/stream_cipher_ref.mjs.meta",
+      "to": "tools/source-framework/crypto-core/test/stream_cipher_ref.mjs.meta",
+      "sha256": "41bbe569dcdd0aa2ac0fdd5bf2d228e5827d43484c0c777e52d8f15e592d1853",
+      "metaUUID": "40fd454c-c1fd-4a77-91c9-3aff68e0e5c2"
+    },
+    {
+      "from": "assets/shared/framework/tools/crypto-core/test/stream_cipher_ref.mjs",
+      "to": "tools/source-framework/crypto-core/test/stream_cipher_ref.mjs",
+      "sha256": "640949d57e22b92a9fa0cb9a8925a28d100c2e20ae73e8c2b817041af31568a7",
+      "metaUUID": null
+    },
+    {
+      "from": "assets/shared/framework/tools.meta",
+      "to": "tools/source-framework.meta",
+      "sha256": "c814d65e67e50dfebaaff3c55925c2f9b05ce9057839fcac1a212cf5718de043",
+      "metaUUID": "f4709be8-3b33-4aeb-b07b-49f7887b8774"
+    }
+  ],
+  "boundary": "Preserved original files and meta bytes; relocated outside assets. Original build.sh has historical output-relative path; do not execute it as a frontend build step."
+}

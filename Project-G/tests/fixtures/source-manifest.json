@@ -1,0 +1,42 @@
+{
+  "project": "Project-G",
+  "purpose": "offline actual frontend consumer fixtures; no game engine, launch credentials or production responses",
+  "modules": [
+    {
+      "module": "g1008/GameData",
+      "file": "fixtures/contracts-static/G-g1008-GameData.ts.js",
+      "sha256": "d2d3b912e93b4038ebfb0ac6da6b242cd1d779f4d84afce4ab9e70d93c3974c5",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1008/ParseResponse",
+      "file": "fixtures/contracts-static/G-g1008-ParseResponse.ts.js",
+      "sha256": "3c77563457999a0f999971305296738dafe45e843390403482b7cc0a32a72117",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1008/GameSender",
+      "file": "fixtures/contracts-static/G-g1008-GameSender.ts.js",
+      "sha256": "13b0b0880a9fda465bac5a7e67855296384c3ff3f4c5246efc327e55b31290c2",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "slotFramework/SettingsModel",
+      "file": "fixtures/contracts-static/G-slotFramework-SettingsModel.ts.js",
+      "sha256": "0e306f6dcb047fef3eb4cc2f4425427de3fcd74cdf0390445a3b561fd6bba1c8",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "g1008/GameConfigModel",
+      "file": "fixtures/contracts-static/G-g1008-GameConfigModel.ts.js",
+      "sha256": "6dcd157dc6cbe1728bb8d4939a47df478b36fa6a866a85767855220f5c1bb6e0",
+      "source": "inertly captured public client module; no production responses"
+    },
+    {
+      "module": "chunks/rollupPluginModLoBabelHelpers",
+      "file": "fixtures/extracted/chunks/00001-rollupPluginModLoBabelHelpers-b477504e0354.js",
+      "sha256": "f528c98145953e06dfb3affd1724dd13fdc643dde5a21e0127642d1b93bb67bf",
+      "source": "inertly captured public client module; no production responses"
+    }
+  ]
+}

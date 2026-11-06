@@ -1,0 +1,214 @@
+{
+  "passed": 7,
+  "projects": [
+    {
+      "project": "Project-C",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "f40e849a3fa3c8b2958c6b5608588d9a59ad85580d935576cf2449406be5cb5a",
+        "gameView": "7c6439992d194af12d5cbf0d9a5db4a73ad596355d2d3006063472eb01644d01",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "0376c8c1d171af888d972c574692cdf6b0568b1dc812bfa0fd18c0605ee3fd91"
+      }
+    },
+    {
+      "project": "Project-D",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "d44d65b923a8c17bffcf2a92c115807e3c1d8311846a3fba6631c3ffffd513d0",
+        "gameView": "a278e86e5f71ef32a6e7ceaf4bc0dfcdff32009674bae94f2ded495c8871f439",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "ac9372c1c67eb5f9ab59ae3a27c13a2cea0605ff34d0233a19fe1bb63954cf24"
+      }
+    },
+    {
+      "project": "Project-E",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "36c6772fa873bcb9f4e638522e24bc6b14ef2819043af7b4fe65be02558275cd",
+        "gameView": "22ae1cc2ffefc59746b6fbb67a22b12b6f755177ca90268291a8c135b78c3831",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "14de5f99f6bfcd5d907aba8d47131a3aa3d089622bb830c4ba986d788601bcfc"
+      }
+    },
+    {
+      "project": "Project-F",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "e8fe9f8853662ebdb88e15ffb5d784c9a9eaed7bf5170debad00201e8420b509",
+        "gameView": "d9d484082e83d553fb127fa0183f1680eeda4ea77824a8d6181ddc7851910645",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "b0132b960762eaae384518a24606c5a4bc38829eb741b567c2508e29aedf78f4"
+      }
+    },
+    {
+      "project": "Project-G",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "53a58b5def96fd1f1b85ff701f3a58910e5e827ffb7636d452a68d5214e7a936",
+        "gameView": "594c5fb9b0929ade1a8776f8ae9ed28135031a0f7045489334e37ac9166ffcd9",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "0e7050f061a4969075a09edca2f99eec5ba8e712d1302e49b3147c47e9ce6f36"
+      }
+    },
+    {
+      "project": "Project-H",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "a34fd0fe4915689d5ea755f50f57a45a03c9df51bf01992501880dc43a139df5",
+        "gameView": "87a60e98423cebbdcd62fbdfff2f55a4d637ff9345320c0862a49290ca998311",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "76ce04baa011417df260022e1c61e109bf47ce3976e13c6d6f944836671d4980"
+      }
+    },
+    {
+      "project": "Project-I",
+      "staleNativeFlagsBlockEvenAtFullVolume": true,
+      "nativeSlidersDoNotRestoreFlags": true,
+      "probeKeepsNormalOwnedSettings": true,
+      "developmentMuteDoesNotPersistWalletMute": true,
+      "replaySpinIdMutesByOriginalIntent": true,
+      "nativeFlagResetPreservesVolumes": true,
+      "installedAdapterExecuted": true,
+      "samePageNativePauseRemains": true,
+      "nonLocalInitializationUnchanged": true,
+      "sources": {
+        "audioComponent": "abc02c81c8f75f3e335918f9fe04e361110e01fe65fa9ee9078c13f2104cc691",
+        "gameView": "38ce3e1637b178d876f715bb95d7fb5911f512c1a9807eb1c200408ae6797fd1",
+        "settingsModel": "9a3fd72406cdcb067e676fa182e3ad1eb98610f6185a8a8947fa12052178bd11",
+        "settingView": "c09d281409bf11c70d257eb11751e30491890afa63424bf94a8b02f85bd49fa4",
+        "bootstrap": "6f3da9ee04fe0a3731e89da65c713e784856c01b19bafc4f788b359e703de4d0"
+      }
+    }
+  ],
+  "scope": "new stale-flag concern only; actual source consumers, inert play host; no renderer or physical audio",
+  "testMutatesGameSource": false,
+  "installedLocalAudioAdapter": true,
+  "sourceIntentEvidence": {
+    "Project-C": {
+      "nativeLogic": "Project-C/assets/game/scripts/g1009-GameLogic.ts",
+      "sha256": "18a87f1fbf6a48a8fa03a798b1b8a93950402fa13b180a109cbfb33abe64e812",
+      "transientDisableAssignments": 1,
+      "transientEnableAssignments": 1,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    },
+    "Project-D": {
+      "nativeLogic": "Project-D/assets/game/scripts/g1001-GameLogic.ts",
+      "sha256": "0d4bba271ae802c5ff939ecaec56824b2c7a394d120b61783a02731564baf0a2",
+      "transientDisableAssignments": 1,
+      "transientEnableAssignments": 1,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    },
+    "Project-E": {
+      "nativeLogic": "Project-E/assets/game/scripts/g1012-GameLogic.ts",
+      "sha256": "45ed98aee8dc8506e99dbe5ffcfb79df1cad31bc3f18fc77ef24970b6c1e7613",
+      "transientDisableAssignments": 2,
+      "transientEnableAssignments": 2,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    },
+    "Project-F": {
+      "nativeLogic": "Project-F/assets/game/scripts/g1004-GameLogic.ts",
+      "sha256": "011930021b3ae5fd37b318ca03cb71f2dbe9524c70c4c4f39b9a355b8330fcf5",
+      "transientDisableAssignments": 1,
+      "transientEnableAssignments": 1,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    },
+    "Project-G": {
+      "nativeLogic": "Project-G/assets/game/scripts/g1008-GameLogic.ts",
+      "sha256": "b9bfdf0bd1d9a473ea422315358e82b87977805b26c280360bafbc49014c2897",
+      "transientDisableAssignments": 1,
+      "transientEnableAssignments": 1,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    },
+    "Project-H": {
+      "nativeLogic": "Project-H/assets/game/scripts/g1011-GameLogic.ts",
+      "sha256": "ed5656ff2298da66292a9c88d7e22ba7861f94f9d0423df976e1a8c137c29e2e",
+      "transientDisableAssignments": 2,
+      "transientEnableAssignments": 2,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    },
+    "Project-I": {
+      "nativeLogic": "Project-I/assets/game/scripts/g1002-GameLogic.ts",
+      "sha256": "172c34b49bd5f9c88384a235264642f3822e947c3bdbfaf6fd714fb4dad9d198",
+      "transientDisableAssignments": 2,
+      "transientEnableAssignments": 2,
+      "audioFlagsHelper": "assets/shared/bootstrap/local-audio-flags.ts",
+      "navigationHookInstalled": true,
+      "readmeNeutralTitle": true,
+      "fakeBackendExplicit": true
+    }
+  },
+  "boundary": "Static/VM source contracts only. Browser autoplay unlock, physical output, mute bus and scene interaction require actual GUI/browser validation."
+}

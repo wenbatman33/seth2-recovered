@@ -1,0 +1,274 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "A_frame_A",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 30,
+    "speed": 1,
+    "wrapMode": 2,
+    "enableTrsBlending": false,
+    "_duration": 1.3333333333333333,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": []
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__id__": 7
+    },
+    "_channel": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Sprite"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.03333333333333333,
+      0.06666666666666667,
+      0.1,
+      0.13333333333333333,
+      0.16666666666666666,
+      0.2,
+      0.23333333333333334,
+      0.26666666666666666,
+      0.3,
+      0.3333333333333333,
+      0.36666666666666664,
+      0.4,
+      0.43333333333333335,
+      0.4666666666666667,
+      0.5,
+      0.5333333333333333,
+      0.5666666666666667,
+      0.6,
+      0.6333333333333333,
+      0.6666666666666666,
+      0.7,
+      0.7333333333333333,
+      0.7666666666666667,
+      0.8,
+      0.8333333333333334,
+      0.8666666666666667,
+      0.9,
+      0.9333333333333333,
+      0.9666666666666667,
+      1,
+      1.0333333333333334,
+      1.0666666666666667,
+      1.1,
+      1.1333333333333333,
+      1.1666666666666667,
+      1.2,
+      1.2333333333333334,
+      1.2666666666666666,
+      1.3
+    ],
+    "_values": [
+      {
+        "__uuid__": "1ewE/6+FVMJJMTlBdrIA7p@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6aDm0VsXFAv7bq2kNvxJZ+@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "57CQvhmChMLYmI3NXRyjbg@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "9dYnX6V9JDv57izC0TVDk9@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "51sQv0lG5GtbEGb/gQASIB@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "5fjubTDjlJ1aV/ptGzIP3b@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "24mQdb5UBAR6+EM9LI8sOE@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "076QMWvytMa5W3SxmLQdtc@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "b8OYZDNkFEX5OFCtc+aF50@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "0fMJ8kqiJIoYaWFqy9/OOB@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "bbtkwyOKxLVJ01fE5e9yZg@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "0dKZdsI2tCrasyISjtWBIF@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "fbBr3xBmZJa5N+pGmNyF9B@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6f9EzyXyFINbu0HchGxRKt@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "5fiw8lh9hOBb6bwsJmB/55@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "64ugG6IhJF8ql7XtEtLvm+@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "57xYqs6WJK1L64ZNKUhjBD@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "f1YgMEClBNEIpfMIp+MDuG@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "90ZXCwYw9OIbEZ52owNmK+@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "62FqmhZBVFtaG0pFjBV7pV@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "58Nspj401ILIPJtQwIdaX1@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "12EIJe94NMOqOUSodI+eq+@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "a4nwoIGoFBWpJPph7G6ER8@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "31y/eyu1dONprhUpU1bOy+@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "cbkH/Hs3VLaomk+vHDPlXT@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "35czY4O9pCuo3R3jeiVjbk@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "3eXANFdeZHvbta49guFhlV@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "d7YTK2i/5Ozr+KWTQx9xeR@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "e6CM+nL7pK7LphGublE+5W@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "0bew1UUjVPppw5arVlpWsr@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "67ndX7P+RNoqPN7+FuN/Qo@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "27lV3OiSdMPpj659QH+HKJ@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "4fcHhRAG1N/ZqdtyevmJ7F@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "247eWJijVKkKk5Ps5bKX5u@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "b75HZWCqpK0YWdM4lNsJEC@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "7ayK785YNOpYQI1lLl/Dfu@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "39b6EITdlOgaU95MUTIIXG@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "eabMA4CQJOII5/SzWjurT1@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "59adkjm/9ACqcmHkZFjeLG@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "c6wFRD3zZDG6dgmM2CbTW2@f9941",
+        "__expectedType__": "cc.Asset"
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.TrackBinding",
+    "path": {
+      "__id__": 2
+    },
+    "proxy": null
+  }
+]

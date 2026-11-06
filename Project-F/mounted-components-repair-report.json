@@ -1,0 +1,31 @@
+{
+  "project": "Project-F",
+  "change": "Original six mounted GameSlotRoller components now have explicit original node ownership backlinks; nested instance/mount descriptors retained",
+  "asset": "assets/game/content/prefabs/GameView.prefab",
+  "beforeSha256": "d7e5999c301a58af3b6aa942e808a2e87bfc87a566764540c96e912e524b89d9",
+  "afterSha256": "adeb98a4867b2330e4f628713d7ded24eb82adcff5d38f2e1885cbe1c16c6ca7",
+  "metaSha256": "6309c176c6a7a9b692c2e1d1d2b68bbcf9169c4dbe73166053ba9cee486d2997",
+  "originalMetaPreserved": true,
+  "originalComponentFileIdsPreserved": true,
+  "repairedBacklinks": 6,
+  "compiledVerification": "pending official Creator build",
+  "runtimeVerification": false,
+  "actualCompileFollowUp": {
+    "reportedBuildLocalTime": "2026-11-06T15:13:07+08:00",
+    "status": "failed; source ownership backlinks did not prevent stripping",
+    "actualBuiltFixture": "node Project-F/tests/test-mounted-components.mjs --built",
+    "failure": "Actual Creator compile pruned mounted component0 (all six null)",
+    "importedLibrary": {
+      "path": "library/ba/bab2baa1-04c5-4ecd-986d-715ef72bcaeb.json",
+      "sha256": "a6c95edfded146288dc3680ccece7a5fdc86953afa50dfb061217507882eb8fe",
+      "retainedOriginalComponents": 6,
+      "retainedBacklinks": 6
+    },
+    "compilerCache": {
+      "path": "temp/asset-db/assets/ba/bab2baa1-04c5-4ecd-986d-715ef72bcaeb/build1.0.1/debug.json",
+      "classOccurrences": 0
+    },
+    "interpretation": "Imported source contains original objects; Creator build serialization strips the mounted custom class. Registration/serialization investigation continues.",
+    "runtimeVerified": false
+  }
+}

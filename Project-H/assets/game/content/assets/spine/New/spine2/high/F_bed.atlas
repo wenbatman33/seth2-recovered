@@ -1,0 +1,27 @@
+
+F_bed.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bed
+  rotate: false
+  xy: 2, 86
+  size: 999, 295
+  orig: 999, 295
+  offset: 0, 0
+  index: -1
+freegameno
+  rotate: false
+  xy: 1003, 107
+  size: 374, 274
+  orig: 374, 274
+  offset: 0, 0
+  index: -1
+freegameword
+  rotate: false
+  xy: 2, 2
+  size: 358, 82
+  orig: 358, 82
+  offset: 0, 0
+  index: -1
