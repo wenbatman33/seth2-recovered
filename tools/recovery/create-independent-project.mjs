@@ -10,6 +10,7 @@ import {parse} from '@babel/parser';
 import traverseModule from '@babel/traverse';
 import generateModule from '@babel/generator';
 import {containedFile,sha256} from './extract-system-modules.mjs';
+import {releaseBuildConfiguration,releaseBuilderSettings} from './configure-startup-release.mjs';
 const traverse=traverseModule.default,generate=generateModule.default;
 const collection=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const template=path.join(collection,'Project-A');
@@ -98,7 +99,7 @@ export async function assemble(captureDir,stageDir,scriptsDir,metadataSpec,newRo
   await fs.mkdir(root);
   await fs.cp(path.join(stage,'assets'),path.join(root,'assets'),{recursive:true,errorOnExist:true,force:false});
   await fs.mkdir(path.join(root,'docs'));await fs.mkdir(path.join(root,'tools'));await fs.mkdir(path.join(root,'.creator'));
-  for(const file of ['engine.json','builder.json','project.json','program.json','device.json']){const dest=path.join(root,'settings/v2/packages',file);await fs.mkdir(path.dirname(dest),{recursive:true});await fs.copyFile(path.join(template,'settings/v2/packages',file),dest,fs.constants?.COPYFILE_EXCL);}
+  for(const file of ['engine.json','builder.json','project.json','program.json','device.json']){const dest=path.join(root,'settings/v2/packages',file);await fs.mkdir(path.dirname(dest),{recursive:true});if(file==='builder.json')await writeJson(dest,releaseBuilderSettings(await json(path.join(template,'settings/v2/packages',file))));else await fs.copyFile(path.join(template,'settings/v2/packages',file),dest,fs.constants?.COPYFILE_EXCL);}
   await fs.copyFile(path.join(template,'.creator/default-meta.json'),path.join(root,'.creator/default-meta.json'));
   await fs.copyFile(path.join(template,'tsconfig.json'),path.join(root,'tsconfig.json'));
   await fs.copyFile(path.join(template,'.gitignore'),path.join(root,'.gitignore'));
@@ -115,7 +116,7 @@ export async function assemble(captureDir,stageDir,scriptsDir,metadataSpec,newRo
     const metaFile=path.join(root,folder+'.meta'),meta=await json(metaFile);meta.userData={...meta.userData,isBundle:true,bundleName:name,priority:name==='resources'?8:1,compressionType:{},isRemoteBundle:{}};
     await fs.writeFile(metaFile,JSON.stringify(meta,null,2)+'\n');bundleConfigs.push({name,root:'db://'+folder,uuid:meta.uuid,output:true});
   }
-  const build=await json(path.join(template,'build-config.json'));Object.assign(build,{name:metadata.project,startScene:scenes[defaultMode].uuid,scenes:Object.values(scenes),bundleConfigs,buildPath:'project://build',outputName:'web'});
+  const build=releaseBuildConfiguration(await json(path.join(template,'build-config.json')));Object.assign(build,{name:metadata.project,startScene:scenes[defaultMode].uuid,scenes:Object.values(scenes),bundleConfigs,buildPath:'project://build',outputName:'web'});
   const resolution=settings.screen?.designResolution||{width:1280,height:720};build.packages['web-desktop'].resolution={designWidth:resolution.width,designHeight:resolution.height};delete build.packages['adsense-h5g-plugin'];await writeJson(path.join(root,'build-config.json'),build);
   for(const file of ['start-preview.cjs','frontend-launch.js','prepare-recovered-build.cjs']){const source=file==='prepare-recovered-build.cjs'?path.join(collection,'tools/recovery/templates',file):path.join(template,'tools',file);await fs.copyFile(source,path.join(root,'tools',file));}
   await fs.writeFile(path.join(root,'tools/prepare-recovered-build.mjs'),"import preparation from './prepare-recovered-build.cjs';\nexport const {prepareRecoveredBuild}=preparation;\nprepareRecoveredBuild(process.argv[2]||'build/web');\n",{flag:'wx'});

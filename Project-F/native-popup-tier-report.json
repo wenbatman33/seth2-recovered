@@ -1,0 +1,93 @@
+{
+  "project": "Project-F",
+  "status": "official compiled five-tier contract passed; original stuck26.4 operation restored and settled once in actual GUI",
+  "rootCause": "Original parseWinOddsTypes assigns entry index0 to first authored big20 threshold. Original BigWinShowView.showBigWin requires truthy level and therefore level0 opens an empty blocking view without score/close events.",
+  "observedCase": {
+    "officialBuildLocalTime": "16:45:30",
+    "award": 26.4,
+    "stake": 1,
+    "originalLevel": 0,
+    "nativeBank": 4,
+    "expectedBank": 4,
+    "pendingClose": true
+  },
+  "fix": "Only the owned local GameData adapter maps existing positive five tier thresholds big/super/mega/ultra/legendary to native popup levels1..5. No win0/filler threshold, no forced caption, timeout or synthetic close. Original frontend methods/assets/meta unchanged.",
+  "sourceFixture": {
+    "file": "tests/test-native-big-win-levels.mjs",
+    "passed": 4,
+    "nativeMethodsExecuted": [
+      "GameData.parseWinOddsTypes (baseline)",
+      "GameData.setBigWinReach",
+      "BigWinShowView.showBigWin",
+      "RunScoreComponent.runScore",
+      "RunScoreComponent.updateStatus",
+      "BigWinShowView.removeAllTween"
+    ],
+    "levelsVerified": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "amountsVerified": [
+      26.4,
+      40,
+      83,
+      160,
+      1000
+    ],
+    "below20NoBigPopup": true,
+    "nativeCloseEventCountPerView": 1
+  },
+  "compiledGuard": {
+    "tool": "tools/recovery/check-built-backend.mjs",
+    "uses": "Actual compiled owned InstallGameDataCompatibility; original GUI factories remain inert.",
+    "old16_45Artifact": "Rejected levels0..4; native popup requires1..5.",
+    "nextBuildRequired": false,
+    "new17_06Artifact": "Seven compiled backend cases and actual compiled five-tier mapping passed"
+  },
+  "tweenWarning": "Original level0 block is reproduced without any null-target warning. Warning16392 remains a separate observation; no global tween semantics changed.",
+  "adapterSha256": "8448e1b65d749483723f375abdb5f28747eb141a5db0a0f69e5f737e7ce568d8",
+  "guiVerified": true,
+  "observedAt": "2026-11-06T09:09:21.104463+00:00",
+  "actualGuiEvidence": {
+    "officialBuildLocalTime": "17:06:04",
+    "source": "parent actual official-build browser observation in this task",
+    "compiledOwnedBackendCasesPassed": 7,
+    "compiledFiveTierCheckPassed": true,
+    "wallet": "f-rate-v2-01",
+    "operation": "same persisted operation; original26.4 round",
+    "initialBalance": 9999,
+    "newSpinRequested": false,
+    "nativeAudit": {
+      "stage": 3,
+      "nativeInitBank": 0,
+      "restoredBeforeBank": 4,
+      "restoredDoneBank": 4,
+      "expectedBank": 4,
+      "rollers": 6
+    },
+    "settlement": {
+      "closeSpinCount": 1,
+      "balanceBefore": 9999,
+      "balanceAfter": 10025.4,
+      "award": 26.4,
+      "returnedOperableMain": true,
+      "visibleCounter": "x4",
+      "visibleTotalWin": "26.40"
+    },
+    "limitations": [
+      "Intermediate popup was not captured; complete popup visual acceptance is not claimed.",
+      "Mid-FG resume remains pending actual QA."
+    ]
+  },
+  "guiScope": "Persisted blocked operation recovery, bank restoration and once-only close; full popup visuals not captured",
+  "popupVisualAcceptance": "First tier observed; all five tier visuals are not fully accepted",
+  "firstTierPopupVisualObserved": true,
+  "firstTierPopupVisualEvidence": {
+    "build": "17:06:04",
+    "run": "f-fg-v2-final-01",
+    "observed": "Original BIG WIN text/animation and22.80 count; clicked to skip, run later settled305 once"
+  }
+}

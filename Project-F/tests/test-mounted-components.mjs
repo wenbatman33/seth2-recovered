@@ -40,12 +40,15 @@ if(process.argv.includes('--built')){
 from pathlib import Path
 import json,sys
 sys.dont_write_bytecode=True;sys.path.insert(0,sys.argv[1])
-from restore_cocos_serialization import unpack,CompiledDecoder,editor_document
+from restore_cocos_serialization import unpack,CompiledDecoder,editor_document,decode_uuid
 base=Path(sys.argv[2])/'build/web/assets/g1004';config=json.loads((base/'config.json').read_text());result=[]
+def asset_uuid(value):
+ return decode_uuid(config['uuids'][value] if isinstance(value,int) else value)
 for uid in sys.argv[3:]:
  for pack,values in config['packs'].items():
-  if uid in values:
-   file=next((base/'import'/pack[:2]).glob(pack+'*.json'));result.append(editor_document(CompiledDecoder(unpack(json.loads(file.read_text()))[values.index(uid)]).decode(),uid));break
+  identities=[asset_uuid(value) for value in values]
+  if uid in identities:
+   file=next((base/'import'/pack[:2]).glob(pack+'*.json'));result.append(editor_document(CompiledDecoder(unpack(json.loads(file.read_text()))[identities.index(uid)]).decode(),uid));break
  else:raise ValueError('Actual build missing original prefab '+uid)
 print(json.dumps(result))
 `;

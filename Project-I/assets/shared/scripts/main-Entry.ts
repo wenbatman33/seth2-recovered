@@ -66,3 +66,13 @@ _dependency2.cclegacy._RF.push({}, "5aaf2lBMtdMrrl2N8Y5zFqB", "Entry", void 0), 
     }
   }]), e;
 }()).bundle = "", _dependency2.cclegacy._RF.pop();
+
+// Owned opt-in startup measurement at the genuine native game-view callback.
+if (typeof window !== 'undefined' && window.__recoveryStartupProfile) {
+  const nativeEnterGameView = _export.prototype.onEnterGameView;
+  _export.prototype.onEnterGameView = function (...args) {
+    const result = nativeEnterGameView.apply(this, args);
+    window.__recoveryStartupProfile.mark('native-game-view-created', { bundle: this.bundle });
+    return result;
+  };
+}

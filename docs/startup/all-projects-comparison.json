@@ -1,0 +1,408 @@
+{
+  "observedAt": "2026-11-06T11:05:18.795669+00:00",
+  "scope": "All nine actual official Creator3.8.8 GUI canonical Web release builds. File inventories are not network timings or full frontend acceptance.",
+  "baselineInventorySha256": "5731a5707661ca8a08c4ab99c23196050da21b55533662b827c870714be1be38",
+  "projects": [
+    {
+      "project": "Project-A",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 9707527,
+      "javascriptBytesAfter": 5288260,
+      "javascriptReductionPercent": 45.5,
+      "importJsonFilesBefore": 2706,
+      "importJsonFilesAfter": 5,
+      "totalBuildBytesBefore": 142769633,
+      "totalBuildBytesAfter": 137478948,
+      "media": {
+        "raster": {
+          "beforeFiles": 1241,
+          "afterFiles": 1241,
+          "beforeBytes": 111078220,
+          "afterBytes": 111078220,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "c6825da1ba33850cd7619260e630ba6cce3ecf52f333bffda4e0c8711c16e1ba",
+          "afterMultisetSha256": "c6825da1ba33850cd7619260e630ba6cce3ecf52f333bffda4e0c8711c16e1ba"
+        },
+        "audio": {
+          "beforeFiles": 94,
+          "afterFiles": 94,
+          "beforeBytes": 8628823,
+          "afterBytes": 8628823,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "a432bdf0c4caf5326ab6a8df6777b6c537de752d80ec33f463356105d813a8f1",
+          "afterMultisetSha256": "a432bdf0c4caf5326ab6a8df6777b6c537de752d80ec33f463356105d813a8f1"
+        }
+      }
+    },
+    {
+      "project": "Project-B",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 9702210,
+      "javascriptBytesAfter": 5284490,
+      "javascriptReductionPercent": 45.5,
+      "importJsonFilesBefore": 1649,
+      "importJsonFilesAfter": 5,
+      "totalBuildBytesBefore": 125339533,
+      "totalBuildBytesAfter": 120311523,
+      "media": {
+        "raster": {
+          "beforeFiles": 813,
+          "afterFiles": 813,
+          "beforeBytes": 81729476,
+          "afterBytes": 81729476,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "86eb95e83a8c5175de6f165496b4731ddff91e5b202d2287c20eea358b5af67c",
+          "afterMultisetSha256": "86eb95e83a8c5175de6f165496b4731ddff91e5b202d2287c20eea358b5af67c"
+        },
+        "audio": {
+          "beforeFiles": 96,
+          "afterFiles": 96,
+          "beforeBytes": 25490304,
+          "afterBytes": 25490304,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "558d73816d6f267e369b52dc2e5b5c79109d4e01d05a6fd97e9148bfc26595df",
+          "afterMultisetSha256": "558d73816d6f267e369b52dc2e5b5c79109d4e01d05a6fd97e9148bfc26595df"
+        }
+      }
+    },
+    {
+      "project": "Project-C",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 9377211,
+      "javascriptBytesAfter": 6478057,
+      "javascriptReductionPercent": 30.9,
+      "importJsonFilesBefore": 1666,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 106309461,
+      "totalBuildBytesAfter": 102823703,
+      "media": {
+        "raster": {
+          "beforeFiles": 785,
+          "afterFiles": 786,
+          "beforeBytes": 75590764,
+          "afterBytes": 75627299,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": false,
+          "addedOriginalHashes": {
+            "bf5477cbd0c7baa0a6c03f82f6d6381433e5f36fd2d40fec5efcc22aa2a81932": {
+              "count": 1,
+              "bytesPerFile": 36535
+            }
+          },
+          "beforeMultisetSha256": "70851f432b12347e614b4903a3a30d79ce33d688470ddb11cad72fb558c4c3b7",
+          "afterMultisetSha256": "e970577e60d666f548fb82906dd1d6f12c233a4294561c68e216a463c499e04b"
+        },
+        "audio": {
+          "beforeFiles": 78,
+          "afterFiles": 78,
+          "beforeBytes": 11522825,
+          "afterBytes": 11522825,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "95bcfffd0953e37560ce329afba99f3d31f1f2ae02eccfff6d23b8b9cddd1460",
+          "afterMultisetSha256": "95bcfffd0953e37560ce329afba99f3d31f1f2ae02eccfff6d23b8b9cddd1460"
+        }
+      }
+    },
+    {
+      "project": "Project-D",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 11898152,
+      "javascriptBytesAfter": 6680286,
+      "javascriptReductionPercent": 43.9,
+      "importJsonFilesBefore": 2053,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 97905599,
+      "totalBuildBytesAfter": 91979056,
+      "media": {
+        "raster": {
+          "beforeFiles": 942,
+          "afterFiles": 942,
+          "beforeBytes": 71322379,
+          "afterBytes": 71322379,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "2ad315511f0c7a48b93779948b96107f60c8f4b5bc4b361efbb7bbac3b783b1b",
+          "afterMultisetSha256": "2ad315511f0c7a48b93779948b96107f60c8f4b5bc4b361efbb7bbac3b783b1b"
+        },
+        "audio": {
+          "beforeFiles": 60,
+          "afterFiles": 60,
+          "beforeBytes": 5773121,
+          "afterBytes": 5773121,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "02627365ae767efc5cc1ea4b3c44457bb6547cd105bb352647f88c50047bd5fb",
+          "afterMultisetSha256": "02627365ae767efc5cc1ea4b3c44457bb6547cd105bb352647f88c50047bd5fb"
+        }
+      }
+    },
+    {
+      "project": "Project-E",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 11437008,
+      "javascriptBytesAfter": 6383491,
+      "javascriptReductionPercent": 44.2,
+      "importJsonFilesBefore": 1285,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 133587824,
+      "totalBuildBytesAfter": 128022887,
+      "media": {
+        "raster": {
+          "beforeFiles": 634,
+          "afterFiles": 634,
+          "beforeBytes": 111837944,
+          "afterBytes": 111837944,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "210b090ccd7681d3269f76af6a50740e06a88fbe9590fdcc14c3081e6ac30347",
+          "afterMultisetSha256": "210b090ccd7681d3269f76af6a50740e06a88fbe9590fdcc14c3081e6ac30347"
+        },
+        "audio": {
+          "beforeFiles": 48,
+          "afterFiles": 48,
+          "beforeBytes": 4541328,
+          "afterBytes": 4541328,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "b66f8b3b55f5a461c44e93d62c411db39de07795396da5291f460e9a30604bf3",
+          "afterMultisetSha256": "b66f8b3b55f5a461c44e93d62c411db39de07795396da5291f460e9a30604bf3"
+        }
+      }
+    },
+    {
+      "project": "Project-F",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 12218865,
+      "javascriptBytesAfter": 6817927,
+      "javascriptReductionPercent": 44.2,
+      "importJsonFilesBefore": 1891,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 101398018,
+      "totalBuildBytesAfter": 95347397,
+      "media": {
+        "raster": {
+          "beforeFiles": 920,
+          "afterFiles": 920,
+          "beforeBytes": 74681269,
+          "afterBytes": 74681269,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "2dea72fefb2c24c82d3170398379417b208fa031e7dfb18a7369fe29d3d9e244",
+          "afterMultisetSha256": "2dea72fefb2c24c82d3170398379417b208fa031e7dfb18a7369fe29d3d9e244"
+        },
+        "audio": {
+          "beforeFiles": 109,
+          "afterFiles": 109,
+          "beforeBytes": 8857808,
+          "afterBytes": 8857808,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "f1362effe99ceb198505cbade0eb89d65651f1ce124d6c5a1de582832ab4ad8c",
+          "afterMultisetSha256": "f1362effe99ceb198505cbade0eb89d65651f1ce124d6c5a1de582832ab4ad8c"
+        }
+      }
+    },
+    {
+      "project": "Project-G",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 11343739,
+      "javascriptBytesAfter": 6319963,
+      "javascriptReductionPercent": 44.3,
+      "importJsonFilesBefore": 1205,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 75517142,
+      "totalBuildBytesAfter": 70004523,
+      "media": {
+        "raster": {
+          "beforeFiles": 596,
+          "afterFiles": 596,
+          "beforeBytes": 48445863,
+          "afterBytes": 48445863,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "e6ea237218ad1c63cfcd88634041a792be17404efbe338575dbf75d60a08ff43",
+          "afterMultisetSha256": "e6ea237218ad1c63cfcd88634041a792be17404efbe338575dbf75d60a08ff43"
+        },
+        "audio": {
+          "beforeFiles": 68,
+          "afterFiles": 68,
+          "beforeBytes": 9966877,
+          "afterBytes": 9966877,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "66729e8f98c68176b35bff697c5d646f159878710be3af4837b82e89b8a9af90",
+          "afterMultisetSha256": "66729e8f98c68176b35bff697c5d646f159878710be3af4837b82e89b8a9af90"
+        }
+      }
+    },
+    {
+      "project": "Project-H",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 11381783,
+      "javascriptBytesAfter": 6408703,
+      "javascriptReductionPercent": 43.7,
+      "importJsonFilesBefore": 1452,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 122455715,
+      "totalBuildBytesAfter": 116935324,
+      "media": {
+        "raster": {
+          "beforeFiles": 670,
+          "afterFiles": 670,
+          "beforeBytes": 96063683,
+          "afterBytes": 96063683,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "5f4ddae6c73c797ee6ed6b634ab06f2f843c521363199198f870a29c03b06285",
+          "afterMultisetSha256": "5f4ddae6c73c797ee6ed6b634ab06f2f843c521363199198f870a29c03b06285"
+        },
+        "audio": {
+          "beforeFiles": 113,
+          "afterFiles": 113,
+          "beforeBytes": 9004218,
+          "afterBytes": 9004218,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "ef76bd08b2e8c5660fe3c90cfea40b3169126f8a4e5834368f73747617e0aadb",
+          "afterMultisetSha256": "ef76bd08b2e8c5660fe3c90cfea40b3169126f8a4e5834368f73747617e0aadb"
+        }
+      }
+    },
+    {
+      "project": "Project-I",
+      "engineDebugBefore": true,
+      "engineDebugAfter": false,
+      "javascriptBytesBefore": 11880803,
+      "javascriptBytesAfter": 6614821,
+      "javascriptReductionPercent": 44.3,
+      "importJsonFilesBefore": 1649,
+      "importJsonFilesAfter": 6,
+      "totalBuildBytesBefore": 69556707,
+      "totalBuildBytesAfter": 63655607,
+      "media": {
+        "raster": {
+          "beforeFiles": 806,
+          "afterFiles": 806,
+          "beforeBytes": 39204587,
+          "afterBytes": 39204587,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "066b50fef9ee51162c215c5c494a6a55aabc3e0c827fc62555587a19d8118b77",
+          "afterMultisetSha256": "066b50fef9ee51162c215c5c494a6a55aabc3e0c827fc62555587a19d8118b77"
+        },
+        "audio": {
+          "beforeFiles": 116,
+          "afterFiles": 116,
+          "beforeBytes": 9669987,
+          "afterBytes": 9669987,
+          "allPreviousBytesAndDuplicatesPreserved": true,
+          "identicalMultiset": true,
+          "addedOriginalHashes": {},
+          "beforeMultisetSha256": "790640b8e87cf9ccca4e9b221e0ab406fd64850948b5e936b5a0cbf8c8c7017c",
+          "afterMultisetSha256": "790640b8e87cf9ccca4e9b221e0ab406fd64850948b5e936b5a0cbf8c8c7017c"
+        }
+      }
+    }
+  ],
+  "representativeColdBrowserMeasurement": {
+    "project": "Project-I",
+    "conditions": {
+      "server": "local comparison server",
+      "fixedRequestLatencyMs": 40,
+      "compression": "gzip for JS/JSON/CSS/HTML",
+      "cacheControl": "public,max-age=600",
+      "browserCache": "fresh unique URL prefix for each cold navigation",
+      "developmentAudio": "muted via output bus",
+      "readiness": "genuine original Entry.onEnterGameView callback for bundle g1002",
+      "notPublicPagesTiming": true
+    },
+    "samples": {
+      "beforeReadyMs": [
+        12382,
+        11043
+      ],
+      "afterReadyMs": [
+        6967,
+        6971
+      ]
+    },
+    "median": {
+      "beforeReadyMs": 11712.5,
+      "afterReadyMs": 6969.0,
+      "improvementPercent": 40.5
+    },
+    "startupRequests": {
+      "before": 1075,
+      "after": 522
+    },
+    "transferBytes": {
+      "before": 34561569,
+      "after": 34147638
+    },
+    "javascriptBytesMB": {
+      "before": 11.88,
+      "after": 6.61
+    },
+    "importJsonFiles": {
+      "before": 1649,
+      "after": 6
+    },
+    "mediaPreservation": {
+      "rasterFileCount": 806,
+      "allRasterBytesIdentical": true
+    },
+    "limitations": [
+      "Fixed-latency local comparison, not a measurement of public Pages speed or every user network.",
+      "Two cold navigation samples per version; no original media removed or recompressed."
+    ]
+  },
+  "additionalSourceRaster": {
+    "project": "Project-C",
+    "difference": "One original source raster now included by the canonical official bundle build; no previous media removed or modified",
+    "sourcePath": "Project-C/assets/shared/images/resources/199a3e420.png",
+    "builtPath": "Project-C/build/web/assets/sourcePackedImages/native/6c/6c43fc34-a94e-41a8-91f2-f556549a7eee.png",
+    "sha256": "bf5477cbd0c7baa0a6c03f82f6d6381433e5f36fd2d40fec5efcc22aa2a81932",
+    "bytes": 36535,
+    "sourceAliasManifest": "Project-C/docs/source-asset-alias-manifest.json",
+    "sourceMetaUuid": "6c43fc34-a94e-41a8-91f2-f556549a7eee"
+  },
+  "totals": {
+    "javascriptBytesBefore": 98947298,
+    "javascriptBytesAfter": 56275998,
+    "importJsonFilesBefore": 15556,
+    "importJsonFilesAfter": 52,
+    "totalBuildBytesBefore": 974839632,
+    "totalBuildBytesAfter": 926558968,
+    "javascriptReductionPercent": 43.1
+  },
+  "remotePublishedAtMeasurement": false
+}

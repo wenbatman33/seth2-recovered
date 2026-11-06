@@ -87,9 +87,7 @@
             "localFixesPresent": true
           }
         }
-      ],
-      "observedAt": "2026-11-06T07:58:31.963038+00:00",
-      "backendSourceDigest": "92f31d4f21e24d52db7dffcf97549c34451ede12c7dd735bc1c50902cd5c43f2"
+      ]
     },
     {
       "project": "Project-D",
@@ -150,9 +148,7 @@
             "originalRngRestored": false
           }
         }
-      ],
-      "observedAt": "2026-11-06T07:58:31.963038+00:00",
-      "backendSourceDigest": "b4ab257c7714adacff431f96965285392743f009f0bae92bd125e3e8b1dc3204"
+      ]
     },
     {
       "project": "Project-E",
@@ -341,9 +337,7 @@
             "browser": false
           }
         }
-      ],
-      "observedAt": "2026-11-06T07:58:31.963038+00:00",
-      "backendSourceDigest": "812c19d518fb3b655860b20fac5d12ce249af71bb1e12c8818ca3c350416856a"
+      ]
     },
     {
       "project": "Project-F",
@@ -411,6 +405,24 @@
           }
         },
         {
+          "file": "Project-F/tests/test-native-big-win-levels.mjs",
+          "sha256": "3d0ab99b7c58a01acd076d80f7a20f267f758684ebe9702f89ae23bb7a78f6ae",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 4,
+            "originalParserPopupScoreMethodsExecuted": true,
+            "nativeTierLevels": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "guiVerified": false
+          }
+        },
+        {
           "file": "Project-F/tests/test-native-rate-bank.mjs",
           "sha256": "aab3d27deb3f0b164d73b76e1e85cecba2ca3f6dfbd3f3fedbdc0a6258e71a95",
           "exitCode": 0,
@@ -425,7 +437,7 @@
         },
         {
           "file": "Project-F/tests/test-native-rate-resume.mjs",
-          "sha256": "79208a8511412de72ed908cbb4557eb04d29e6f562a5a0f6f41c01c9d75773ff",
+          "sha256": "29b276d3935397203c92a004c3673a9e672825efbd57a6df74cf3281da411090",
           "exitCode": 0,
           "summary": {
             "project": "Project-F",
@@ -433,6 +445,19 @@
             "originalInitStyleCollectorExecuted": true,
             "guiVerified": false,
             "localOnly": true
+          }
+        },
+        {
+          "file": "Project-F/tests/test-native-resume-async-fsm.mjs",
+          "sha256": "7306181c47141c1d1bd5033b9726c572889a83dabf293cf0cb7fc5127c821760",
+          "exitCode": 0,
+          "summary": {
+            "project": "Project-F",
+            "passed": 5,
+            "actualOriginalFsmExecuted": true,
+            "actualOriginalRateCollectorExecuted": true,
+            "syntheticResumeEvents": 0,
+            "guiVerified": false
           }
         },
         {
@@ -449,8 +474,8 @@
           }
         }
       ],
-      "observedAt": "2026-11-06T08:32:42.251345+00:00",
-      "backendSourceDigest": "5d3dfb85634f84b6900dbd7e4c063dc01dbf84cfba8bf02cf2e74b9d4f98764a"
+      "observedAt": "2026-11-06T09:25:41.367985+00:00",
+      "backendSourceDigest": "91f6b34da455ef8234c92793e821a8dd7bb3050530a58c7b134d8fd527d67aa7"
     },
     {
       "project": "Project-G",
@@ -522,9 +547,7 @@
             "guiVerified": false
           }
         }
-      ],
-      "observedAt": "2026-11-06T07:58:31.963038+00:00",
-      "backendSourceDigest": "341f3a5dcbe538948d38d63be9660f6b820cff771951b1b9a6adf570098fc7f3"
+      ]
     },
     {
       "project": "Project-H",
@@ -606,9 +629,7 @@
             "browser": false
           }
         }
-      ],
-      "observedAt": "2026-11-06T07:58:31.963038+00:00",
-      "backendSourceDigest": "116f3815595df061fbe5e9e111074eca6792f7eee76b34a1c36b3e8dd5705bc7"
+      ]
     },
     {
       "project": "Project-I",
@@ -773,16 +794,11 @@
             "browser": false
           }
         }
-      ],
-      "observedAt": "2026-11-06T07:58:31.963038+00:00",
-      "backendSourceDigest": "e503de6d87dd6e59c190985c07c283d22dcae4824dcca5eb981ff8cfc69890c9"
+      ]
     }
   ],
   "failures": 0,
-  "observedAt": "2026-11-06T08:32:42.251345+00:00",
-  "testFileCount": 42,
-  "execution": "serial nice15; portable source/backend fixtures only",
-  "originalRngRestored": false,
-  "originalRtpRestored": false,
-  "latestUpdate": "Project-F only refreshed after native resume adapter; other snapshots retain observedAt"
+  "observedAt": "2026-11-06T09:25:41.367985+00:00",
+  "testFileCount": 44,
+  "latestUpdate": "Project-F refreshed after actual-native-FSM async-destination fixture; other project snapshots retained"
 }

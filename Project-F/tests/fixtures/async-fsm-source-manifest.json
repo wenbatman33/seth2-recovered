@@ -1,0 +1,14 @@
+{
+  "project": "Project-F",
+  "source": "public original FSM and validation modules; no launch/session data",
+  "files": [
+    {
+      "file": "fixtures/extracted/main/00057-fsm-60c9510a5b53.js",
+      "sha256": "04c1ced731e726a9f120ad7a5a6e8d0009c3aed6ef09eeeba65764ca6dd7be5b"
+    },
+    {
+      "file": "fixtures/extracted/main/00174-validate-52947d276c35.js",
+      "sha256": "e63c6d288f42341245cb5b69ccab6cdbc16db33ebef90520d9b6481236a9a69f"
+    }
+  ]
+}

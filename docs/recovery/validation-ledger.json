@@ -1,10 +1,10 @@
 {
-  "observedAt": "2026-11-06T08:32:42.251345+00:00",
-  "status": "local validation in progress; no remote publication",
+  "observedAt": "2026-11-06T11:00:43.759230+00:00",
+  "status": "interim preview published; full frontend validation in progress",
   "offlineAggregate": {
     "file": "docs/recovery/offline-test-report.json",
-    "sha256": "a667a5f05e7e54120b851f3c8303ec46fcc046db1e6bbaaff78f78387ef3874b",
-    "testFiles": 42,
+    "sha256": "328019e36895996a70d9f6d0c71889d8aa79965489e28fc36bf2d64c630e3492",
+    "testFiles": 44,
     "failures": 0
   },
   "boundaries": [
@@ -88,7 +88,8 @@
         "status": "passed",
         "testFiles": 9,
         "failures": 0,
-        "backendSourceDigest": "812c19d518fb3b655860b20fac5d12ce249af71bb1e12c8818ca3c350416856a"
+        "backendSourceDigest": "812c19d518fb3b655860b20fac5d12ce249af71bb1e12c8818ca3c350416856a",
+        "projectRunnerLastPassed": 45
       },
       "sourceAssetOracle": {
         "status": "passed",
@@ -101,18 +102,43 @@
         "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
       },
       "gui": {
-        "status": "latest official build reached main; first gameplay round in progress",
-        "reportedBuildLocalTime": "15:15:20",
+        "status": "selected actual native workflows passed on latest official build; complete acceptance pending",
+        "reportedBuildLocalTime": "16:50:31",
         "observed": [
-          "Latest native sprites and castle background displayed; prior opaque texture404 no longer reproduced",
-          "No real TypeError or404 during latest main initialization"
+          "Fresh ordinary win62.5 classified level1; original SHOW_BIG_WIN_END -> close -> MG_WAIT_SPIN; credit once9998->10060.5",
+          "Saved ordinary operation resumed and settled once without a new debit",
+          "Phone390x844: entry+5FG, response factor6 displayed, native FG_BIG_WIN and return to main;69.5 credited once9998->10067.5",
+          "Latest fever-transform-wild: original3-WILD Spine completion,9lines17.5; native summary -> close -> wait, credit once9998->10015.5",
+          "Startup native MINOR1000 displayed; no new Project-E runtime errors observed in latest transform run",
+          "Same latest build fever-transform-symbol: original2-symbol animation completed;10 credited once9998->10008, final MG_WAIT_SPIN; native MINI200 pool display confirmed, not a JP award test",
+          "Same16:50:31 build restored old e-fever-01 operation project-e-local-1 at9998 with no new spin/debit; native restore confirmation -> original3-WILD animation -> closeSpin credited17.5 once ->10015.5 and MG_WAIT_SPIN",
+          "Same16:50:31 build MINI award e-jp-final-01:10000->9998->10198; native JP_WIN_STATE onEntry -> SHOW_JP_END -> MG_CLOSE_SPIN -> MG_WAIT, closeSpin credited200 once, audit error:null. Intermediate popup screenshot not captured; other tiers unverified.",
+          "Latest16:50:31 build phone390x844 e-manual-fg-final-01: actual spin click -> native automatic choice, FREE GAME x8, entry+5FG6stages,10000->9998->10024 with26 credited once and MG_WAIT. No manual choice click; manual-FG pending retained."
         ],
-        "blockingObservation": "intro96%; opaque source Texture2D references returned404, including1428e0364@6c48a",
+        "blockingObservation": null,
         "pending": [
-          "first spin settlement and special workflows",
-          "audio/input/phone and final advertised homepage routes"
+          "manual pointer choice of all three original FG cards",
+          "remaining jackpot tiers (minor/major/grand) and full-combo special presentations",
+          "all advertised homepage routes and complete viewport/menu/input matrix"
         ],
-        "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer"
+        "evidenceSource": "parent live official Creator/browser observations in this task; offline fixtures and compiled backend results are separate evidence",
+        "officialCreatorVersion": "3.8.8",
+        "evidenceFiles": [
+          "Project-E/docs/fever-transform-gui-verification.json",
+          "Project-E/docs/native-win-completion.json",
+          "Project-E/docs/native-fg-selection-audit.json",
+          "Project-E/docs/compiled-backend-fever-final.json"
+        ],
+        "resolvedObservations": [
+          {
+            "observation": "intro96%; opaque source Texture2D references returned404, including1428e0364@6c48a",
+            "resolution": "Later official build reached native main and completed selected workflows; no opaque texture404 reproduced in latest run"
+          },
+          {
+            "observation": "Original E transform node or Spine animation missing at 5",
+            "resolution": "Inactive Skeleton lifecycle correction; latest16:50:31 original transform and settlement passed"
+          }
+        ]
       },
       "completeAcceptance": false
     },
@@ -120,9 +146,9 @@
       "project": "Project-F",
       "offline": {
         "status": "passed",
-        "testFiles": 7,
+        "testFiles": 9,
         "failures": 0,
-        "backendSourceDigest": "5d3dfb85634f84b6900dbd7e4c063dc01dbf84cfba8bf02cf2e74b9d4f98764a"
+        "backendSourceDigest": "91f6b34da455ef8234c92793e821a8dd7bb3050530a58c7b134d8fd527d67aa7"
       },
       "sourceAssetOracle": {
         "status": "passed",
@@ -135,26 +161,58 @@
         "snapshotNote": "Original geometry and pixel-byte provenance verified. Creator first-import may remap opaque texture IDs later; runtime physical-path resolver uses current AssetDB rather than stale UUID snapshot."
       },
       "gui": {
-        "status": "native-base ordinary cascade passed; corrected owned bank and source-proven resume fix await official rebuild",
-        "reportedBuildLocalTime": "15:35:33",
+        "status": "Release build clean async mid-FG restore, native banks, original win flow and once settlement passed; full frontend acceptance remains pending",
+        "reportedBuildLocalTime": "18:52:20",
         "observed": [
           "intro and main displayed",
           "BGM32.052s loop and SFX observed",
           "Latest actual compiled base retains original GameSlotRoller class/fileId and symbolPrefab; six GameView controller target contracts and dark-node bindings verified by --built fixture3 checks",
           "Actual latest main initializes six roller components; previous null isFreeGame/initData errors no longer reproduced",
           "Native-base official build15:35:33: six-stage silver/gold/wild animations,32400WAYS and original SUPERWIN83 popup worked; closeSpin once9999->10082",
-          "That operation exposed native displayed bank10 vs owned legacy bank7. Exact own generator corrected to native-rate-bank-v2 and native consumer oracle5 checks passed; original frontend unchanged."
+          "That operation exposed native displayed bank10 vs owned legacy bank7. Exact own generator corrected to native-rate-bank-v2 and native consumer oracle5 checks passed; original frontend unchanged.",
+          "Latest official native component3/backend7 compiled cases passed (parent observation before new tier guard)",
+          "Actual silver-gold f-rate-v2-01:4stages,stake1,award26.4; native audit after-showWinRateFlow stages0/1/2 bank4==expected4, six rollers",
+          "After main TOTAL WIN26.40: dark blocking view, no close request and balance9999. Source fixture proves own first tier parsedlevel0, so native popup never starts score/close. Local adapter fixes levels1..5; original method bodies unchanged.",
+          "Latest official build17:06:04 passed seven compiled owned backend cases and new compiled five-tier mapping check",
+          "Persisted f-rate-v2-01 initial returned same operation/balance9999 without another spin; original intro and resume confirmation accepted",
+          "Owned native audit terminalstage3: initbank0 ->restoreBefore4 ->restoreDone4, expected4, six rollers",
+          "Same operation closeSpin once9999->10025.4; operable main returned with visiblex4 and TOTAL WIN26.40",
+          "Phone mid-FG f-fg-v2-final-01:20stages/305award, stake1 debit10000->9999; stage5 reload same operation/9999 with no spin",
+          "Native resume audit0->before14->actual no-win collector16==expected16->done16; six rollers",
+          "Listed later native banks stages6/7/8/9/10/15/16/17/18/19:26/28/28/38/42/52/54/56/60/60, all equal expected",
+          "Original BIG WIN text/animation and22.80 count observed during FG; parent clicked skip",
+          "Same operation finished closeSpin once9999->10304 award305, operable full phone main, no new spin",
+          "Release18:52:20: first freeGame stake1; reload same project-f-local-1 at stage6 balance9999; native bank0->34==expected34, six rollers; original MG_WAIT_RESUME_STATE Promise returns FG_WAIT_SPIN_STATE with no state anomalies; subsequent native bank40/44/44/52/52/54/64 match; native ULTRA/LEGENDARY and TOTALWIN1046.50; closeSpin once9999->11045.5, MG_WAIT_SPIN_STATE and phone main operable"
         ],
-        "blockingObservation": "first silver-gold spin did not finish; actual build pruned six mounted roller components and produced null references",
-        "localRepair": "six original component/node backlinks restored in GameView.prefab; original metaUUID/fileIds retained",
-        "repairVerification": "source fixture passes; actual compiled component retention and gameplay pending",
         "pending": [
-          "Official final F build with native-rate-bank-v2 and native-rate-resume-v1",
-          "Actual fresh round and mid-FG reload with original collection animations and matching visible bank",
-          "Remaining gameplay and advertised homepage routes"
+          "Remaining special flows/all-tier visuals and final homepage acceptance"
         ],
         "evidenceSource": "parent live GUI observations in this task; not independently replayed by the offline reviewer",
-        "blockers": []
+        "blockers": [],
+        "limitations": [
+          "Clean async restore and this complete freeGame round passed on the actual release build; remaining special flows and all five tier visuals are not fully accepted."
+        ],
+        "historicalIssues": [
+          {
+            "issue": "Six custom mounted components stripped in early build",
+            "resolvedBy": "Native base-prefab representation; actual six rollers initialized and subsequent gameplay settled"
+          },
+          {
+            "issue": "Legacy own bank7 differed from native10",
+            "resolvedBy": "native-rate-bank-v2; current audited ordinary/FG banks match"
+          },
+          {
+            "issue": "Own first popup tier parsedlevel0 caused dark blocking view",
+            "resolvedBy": "Five native popup levels1..5;26.4 old pending settled and actual22.80 first-tier popup observed"
+          }
+        ],
+        "repairVerification": {
+          "nativePrefabComponents": "compiled3 checks plus actual six initialized rollers",
+          "nativeBank": "ordinary4 and listed mid-FG banks14->16 through60 match expected",
+          "popup": "same26.4 blocked operation resumed and settled once; actual BIG WIN22.80 first-tier visuals observed",
+          "currentAsyncCleanup": "original FSM proves old empty return is invalid; new Promise destination source5 checks passed, rebuilt GUI repeat pending"
+        },
+        "startupReleaseEvidence": "Project-F/docs/startup-release-resume-verification.json"
       },
       "completeAcceptance": false
     },
@@ -282,5 +340,9 @@
       },
       "completeAcceptance": false
     }
-  ]
+  ],
+  "published": {
+    "record": "docs/recovery/interim-preview-release.json",
+    "scope": "interim preview; full acceptance not complete"
+  }
 }

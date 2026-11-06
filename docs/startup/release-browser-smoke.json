@@ -1,0 +1,145 @@
+{
+  "scope": "Local official release build smoke; startup optimization is separate from full frontend gameplay acceptance",
+  "projects": {
+    "Project-A": {
+      "officialBuild": "2026-11-06 18:28:33 Asia/Taipei",
+      "browser": "1280x720; intro, original main board, first spin, native MEGA WIN popup, return to main",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 200,
+      "walletAfter": 10199,
+      "sourceMediaIdentical": true
+    },
+    "Project-B": {
+      "officialBuild": "2026-11-06 18:38:01 Asia/Taipei",
+      "browser": "1280x720; intro, original main board, first spin, return to main",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 0,
+      "walletAfter": 9999,
+      "sourceMediaIdentical": true
+    },
+    "Project-I": {
+      "officialBuild": "2026-11-06 18:10:33 Asia/Taipei",
+      "browser": "1280x720 and 390x844; native transform first spin, award once, running AudioContext and native BGM/SFX with development output muted",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 1,
+      "walletAfter": 10000,
+      "sourceMediaIdentical": true
+    },
+    "Project-C": {
+      "officialBuild": "2026-11-06 18:43:08 Asia/Taipei",
+      "browser": "1280x720; original intro and main, native first spin and closeSpin, ordinary round",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 0,
+      "walletAfter": 9999,
+      "sourceMediaIdentical": false,
+      "allPreviousMediaPreserved": true,
+      "additionalOriginalRaster": "resources/199a3e420.png; exact source hash verified"
+    },
+    "Project-D": {
+      "officialBuild": "2026-11-06 18:46:22 Asia/Taipei",
+      "browser": "1280x720 original intro and main; native first spin -> closeSpin status 200, ordinary zero-win round",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 0,
+      "walletAfter": 9999
+    },
+    "Project-E": {
+      "officialBuild": "2026-11-06 18:49:15 Asia/Taipei",
+      "browser": "1280x720 original portrait board with desktop backdrop; native first spin -> closeSpin status 200",
+      "walletBefore": 10000,
+      "stake": 2,
+      "award": 0,
+      "walletAfter": 9998
+    },
+    "Project-F": {
+      "officialBuild": "2026-11-06 18:52:20 Asia/Taipei",
+      "browser": "1280x720 intro/main and 390x844 native freeGame, reload mid-round, native confirm, original win/summary transitions, closed once and returned to MG_WAIT_SPIN_STATE",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 1046.5,
+      "walletAfter": 11045.5,
+      "sameOperationOnReload": "project-f-local-1",
+      "reloadBalanceBefore": 9999,
+      "reloadBalanceAfter": 9999,
+      "nativeResume": {
+        "stage": 6,
+        "bankBefore": 0,
+        "bankRestored": 34,
+        "expectedBank": 34,
+        "rollers": 6,
+        "transitionResult": "FG_WAIT_SPIN_STATE",
+        "emptyDestinationOrExceptionAnomalies": []
+      },
+      "continuationBanks": [
+        [
+          7,
+          40
+        ],
+        [
+          8,
+          44
+        ],
+        [
+          9,
+          44
+        ],
+        [
+          10,
+          52
+        ],
+        [
+          11,
+          52
+        ],
+        [
+          12,
+          54
+        ],
+        [
+          13,
+          64
+        ]
+      ],
+      "closeCountAfterReload": 1
+    },
+    "Project-G": {
+      "officialBuild": "2026-11-06 18:59:51 Asia/Taipei",
+      "browser": "1280x720 original main; native first spin and closeSpin status200, ordinary zero-win round",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 0,
+      "walletAfter": 9999
+    },
+    "Project-H": {
+      "officialBuild": "2026-11-06 19:03:17 Asia/Taipei",
+      "browser": "1280x720 original main; native first spin and closeSpin status200, ordinary zero-win round",
+      "walletBefore": 10000,
+      "stake": 1,
+      "award": 0,
+      "walletAfter": 9999
+    }
+  },
+  "pagesPrefixValidation": {
+    "observedAt": "2026-11-06T11:12:00.958178+00:00",
+    "origin": "http://127.0.0.1:8294",
+    "prefix": "/seth2-recovered/",
+    "method": "Clicked all nine actual homepage Start links, then visually observed the original intro or native main after loading. Separate per-game ordinary/feature round checks used canonical local runtime.",
+    "projects": [
+      "Project-A",
+      "Project-B",
+      "Project-C",
+      "Project-D",
+      "Project-E",
+      "Project-F",
+      "Project-G",
+      "Project-H",
+      "Project-I"
+    ],
+    "packagedApplicationSettingsHashesVerified": true,
+    "remotePublishedAtMeasurement": false
+  }
+}

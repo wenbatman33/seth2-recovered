@@ -85,7 +85,13 @@ export async function loadBuiltBackend(projectRoot) {
   assert.equal(candidates.length, 1, 'Expected one compiled owned LocalGameBackend.ts registration');
   const { LocalGameBackend } = load(candidates[0]);
   assert.equal(typeof LocalGameBackend, 'function', 'Compiled backend export missing');
-  return { LocalGameBackend, root, executed, evidence };
+  function loadOwnedModule(name) {
+    assert(owned.has(name), 'Refusing non-owned extra module: ' + name);
+    const matches = [...registry.keys()].filter(id => path.posix.basename(id) === name);
+    assert.equal(matches.length, 1, 'Expected one compiled owned ' + name);
+    return load(matches[0]);
+  }
+  return { LocalGameBackend, root, executed, evidence, loadOwnedModule };
 }
 export function validateStages(stages, label = 'operation') {
   assert(Array.isArray(stages) && stages.length > 0, label + ': gameState must contain stages');
@@ -122,6 +128,21 @@ function success(response, label) { assert.equal(response?.status, 200, label + 
 export async function checkBuiltBackend(projectRoot) {
   const loaded = await loadBuiltBackend(projectRoot), { LocalGameBackend } = loaded;
   const project = path.basename(loaded.root), results = [];
+  let nativeResumePromiseVerified = false;
+  if (project === 'Project-F') {
+    const stage = { action: 'freeSpin', currentView: 1, totalViews: 3, winSymbols: [], localRateProvenance: { revision: 'native-rate-resume-v1' } };
+    const data = { __projectFLocalOperation: true, getData: () => ({ parser: { currentGameState: stage } }), __projectFRateResume: { stage, ready: false }, __projectFRestoreNativeRateResume: () => Promise.resolve() };
+    class ResumeState { constructor() { this.data = data; this.MG_WAIT_RESUME_STATE = { transitionTo: () => 'original' }; this.FG_WAIT_SPIN_STATE = { id: 'FG_WAIT_SPIN_STATE' }; }
+      getMachine() { return this; } }
+    const events = [], names = { START_RESUME: 'resume', CHANGE_GAME_STYLE: 'style', UPDATE_TIMES: 'times' };
+    loaded.loadOwnedModule('InstallStateMachineCompatibility.ts').installProjectFStateMachineCompatibility(ResumeState, names, name => events.push(name));
+    const state = new ResumeState(); state.getMachine();
+    const destination = state.MG_WAIT_RESUME_STATE.transitionTo({ event: { name: 'resume' } });
+    assert(destination && typeof destination.then === 'function', 'Compiled Project-F resume contract stale: native sendAsync requires a Promise resolving a destination, never an empty string');
+    assert.equal(await destination, 'FG_WAIT_SPIN_STATE', 'Compiled Project-F resume resolved an invalid destination');
+    assert(!events.includes('resume'), 'Compiled Project-F must not resend START_RESUME');
+    nativeResumePromiseVerified = true;
+  }
   const common = { quiet: true, initialBalance: 100000, bonuses: false,
     jackpotConfig: { triggerProbability: 0 }, mysteryChest: { probability: 0 },
     waysConfig: { jackpotChance: 0 } };
@@ -133,6 +154,16 @@ export async function checkBuiltBackend(projectRoot) {
       assert(Number.isFinite(threshold) && threshold > 0, label + ': zero award satisfies winOdds threshold ' + level + '=' + threshold);
     }
     if (project === 'Project-F') assert.equal(initial.engine.definition.localReconstruction?.mathRevision, 'native-rate-bank-v2', label + ': compiled rate bank is stale');
+    if (project === 'Project-F' && label === 'ordinary') {
+      // The source-native popup rejects level0. Verify the actual compiled
+      // owned adapter maps its five authored tiers to real native levels1..5.
+      class PopupData { constructor() { this.__projectFLocalOperation = true; this.data = { parser: { winOdds: [] } }; }
+        parseWinOddsTypes(definition) { this.data.parser.winOdds = Object.values(definition.winOddsTypes).map((reachRate, level) => ({ level, reachRate })); } }
+      loaded.loadOwnedModule('InstallGameDataCompatibility.ts').installProjectFGameDataCompatibility(PopupData);
+      const popup = new PopupData(); popup.parseWinOddsTypes(initial.engine.definition);
+      assert.deepEqual(Array.from(popup.data.parser.winOdds, row => row.level), [1, 2, 3, 4, 5], 'Compiled Project-F popup tier mapping stale: level0 cannot complete native BigWinShowView');
+      assert.equal(popup.data.parser.winOdds[0].reachRate, 20, 'Compiled Project-F first popup threshold changed');
+    }
     const response = success(backend.request('spin', { requestId: 'compiled-' + label, ...payload }), label + ' spin');
     const id = response.engine.spinId, pendingBalance = backend.state.balanceCents;
     const chain = Array.isArray(response.engine.gameState) ? response : success(backend.request('spin', { spinId: id }), label + ' purchase continuation');
@@ -234,7 +265,7 @@ export async function checkBuiltBackend(projectRoot) {
     run('purchase-' + (feature.featureIndex ?? index), {}, { action: 'buyFeature', featureIndex: feature.featureIndex ?? index, featureValue: feature.feature });
   }
   if (['Project-C', 'Project-D', 'Project-G'].includes(project)) assert(results.some(result => result.multiplierRecords > 0), 'Multiplier QA did not exercise any records');
-  return { project, status: 'compiled owned backend fixtures pass', buildEvidence: loaded.evidence, executedModules: loaded.executed, results,
+  return { project, status: 'compiled owned backend fixtures pass', nativeResumePromiseVerified, buildEvidence: loaded.evidence, executedModules: loaded.executed, results,
     guiGlobalsExecuted: false, creatorRuntimeVerified: false, originalRngRestored: false, originalRtpRestored: false };
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

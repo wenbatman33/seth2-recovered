@@ -1,5 +1,5 @@
 {
-  "status": "local simulation installed; runtime not verified",
+  "status": "local validation in progress; latest official build native JP pick family and observed once-only settlement passed",
   "project": "Project-H",
   "capture": {
     "directory": "/Users/batman_work/claude/seth2-recovered/.cache/rea-new-games/Project-H/capture",
@@ -11265,7 +11265,10 @@
       "poolSource": "existing owned bonus configuration",
       "runtimeOnly": true,
       "originalScriptUuidPreserved": true,
-      "sourceFixtureChecks": 15
+      "sourceFixtureChecks": 15,
+      "guiVerified": true,
+      "guiEvidence": "docs/jackpot-gui-verification.json",
+      "scope": "Startup native MAJOR2000/GRAND10000 and own pool dataset verified; not a settlement or original-production pool claim"
     }
   },
   "backend": {
@@ -11329,8 +11332,19 @@
     ]
   },
   "validation": {
-    "officialGuiBuild": false,
-    "gameplay": false
+    "officialGuiBuild": true,
+    "gameplay": false,
+    "completeGameplayAcceptance": false,
+    "guiEvidence": "docs/jackpot-gui-verification.json",
+    "compiledBackendEvidence": "docs/compiled-backend-final-jp.json",
+    "compiledBackendCases": 5,
+    "latestOfficialBuildLocalTime": "2026-11-06 17:18:16 Asia/Taipei",
+    "selectedJackpotUiObserved": true,
+    "jackpotSettlementVerified": true,
+    "selectedJackpotFamilyCompleted": true,
+    "jackpotGuiTier": "jp-minor",
+    "jackpotGuiFinalBalance": 10499,
+    "centralLedgerSyncPending": true
   },
   "tests": {
     "commands": [

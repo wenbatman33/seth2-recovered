@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "project": "Project-I",
+  "observedAt": "2026-11-06T10:25:28.032201+00:00",
+  "status": "startup comparison and selected native UI flow verified locally; full frontend acceptance remains separate",
+  "build": {
+    "engine": "Creator 3.8.8",
+    "method": "official Dashboard/Creator GUI",
+    "artifactLabelLocal": "2026-11-06 18:10:33 Asia/Taipei",
+    "debug": false,
+    "buildMode": "normal",
+    "mangleProperties": false,
+    "md5Cache": false,
+    "mainBundleCompressionType": "merge_all_json",
+    "effectiveCustomBundleSetting": {
+      "file": "Project-I/settings/v2/packages/builder.json",
+      "path": "bundleConfig.custom.default.configs.web.preferredOptions",
+      "value": {
+        "isRemote": false,
+        "compressionType": "merge_all_json"
+      }
+    },
+    "fallbackOptions": {
+      "compressionType": "merge_dep"
+    },
+    "aliasAudit": "Detailed DOM request history requires reaDebug=1; ordinary mode retains counts and explicit failures.",
+    "ineffectiveApproachesExcluded": [
+      "normal GUI build bundleConfigs[].compressionType override",
+      "legacy per-directory compressionType[web-desktop] override"
+    ]
+  },
+  "timing": {
+    "conditions": {
+      "server": "local comparison server",
+      "fixedRequestLatencyMs": 40,
+      "compression": "gzip for JS/JSON/CSS/HTML",
+      "cacheControl": "public,max-age=600",
+      "browserCache": "fresh unique URL prefix for each cold navigation",
+      "developmentAudio": "muted via output bus",
+      "readiness": "genuine original Entry.onEnterGameView callback for bundle g1002",
+      "notPublicPagesTiming": true
+    },
+    "samples": {
+      "beforeReadyMs": [
+        12382,
+        11043
+      ],
+      "afterReadyMs": [
+        6967,
+        6971
+      ]
+    },
+    "median": {
+      "beforeReadyMs": 11712.5,
+      "afterReadyMs": 6969.0,
+      "improvementPercent": 40.5
+    },
+    "startupRequests": {
+      "before": 1075,
+      "after": 522
+    },
+    "transferBytes": {
+      "before": 34561569,
+      "after": 34147638
+    },
+    "limitations": [
+      "Fixed-latency local comparison, not a measurement of public Pages speed or every user network.",
+      "Two cold navigation samples per version; no original media removed or recompressed."
+    ]
+  },
+  "builtInventory": {
+    "before": {
+      "engineDebug": true,
+      "fileCount": 2699,
+      "totalFileBytes": 69556707,
+      "jsFiles": 21,
+      "jsBytes": 11880803,
+      "importJsonFiles": 1649,
+      "importJsonBytes": 4334655,
+      "bundles": {
+        "g1002": {
+          "packCount": 40,
+          "packMemberCount": 808,
+          "configBytes": 491356,
+          "debug": true,
+          "uuidCount": 2087
+        },
+        "internal": {
+          "packCount": 1,
+          "packMemberCount": 21,
+          "configBytes": 6031,
+          "debug": true,
+          "uuidCount": 22
+        },
+        "main": {
+          "packCount": 3,
+          "packMemberCount": 14,
+          "configBytes": 4543,
+          "debug": true,
+          "uuidCount": 38
+        },
+        "resources": {
+          "packCount": 12,
+          "packMemberCount": 39,
+          "configBytes": 15184,
+          "debug": true,
+          "uuidCount": 78
+        },
+        "slotFramework": {
+          "packCount": 28,
+          "packMemberCount": 402,
+          "configBytes": 175744,
+          "debug": true,
+          "uuidCount": 735
+        },
+        "sourcePackedImages": {
+          "packCount": 0,
+          "packMemberCount": 0,
+          "configBytes": 774,
+          "debug": true,
+          "uuidCount": 2
+        }
+      }
+    },
+    "after": {
+      "engineDebug": false,
+      "fileCount": 1056,
+      "totalFileBytes": 63655607,
+      "jsFiles": 21,
+      "jsBytes": 6614821,
+      "importJsonFiles": 6,
+      "importJsonBytes": 4134790,
+      "bundles": {
+        "g1002": {
+          "packCount": 1,
+          "packMemberCount": 2045,
+          "configBytes": 186525,
+          "debug": false,
+          "uuidCount": 2048
+        },
+        "internal": {
+          "packCount": 1,
+          "packMemberCount": 21,
+          "configBytes": 2176,
+          "debug": false,
+          "uuidCount": 22
+        },
+        "main": {
+          "packCount": 1,
+          "packMemberCount": 22,
+          "configBytes": 1675,
+          "debug": false,
+          "uuidCount": 36
+        },
+        "resources": {
+          "packCount": 1,
+          "packMemberCount": 65,
+          "configBytes": 4815,
+          "debug": false,
+          "uuidCount": 67
+        },
+        "slotFramework": {
+          "packCount": 1,
+          "packMemberCount": 695,
+          "configBytes": 62741,
+          "debug": false,
+          "uuidCount": 708
+        },
+        "sourcePackedImages": {
+          "packCount": 1,
+          "packMemberCount": 2,
+          "configBytes": 460,
+          "debug": false,
+          "uuidCount": 3
+        }
+      }
+    }
+  },
+  "mediaPreservation": {
+    "raster": {
+      "beforeFiles": 806,
+      "afterFiles": 806,
+      "beforeBytes": 39204587,
+      "afterBytes": 39204587,
+      "duplicateCountsPreserved": true,
+      "allFileBytesIdentical": true,
+      "beforeMultisetSha256": "560a390da50c219eb434b7d96be1cb1264f98ddce63e676e46db15bdea704422",
+      "afterMultisetSha256": "560a390da50c219eb434b7d96be1cb1264f98ddce63e676e46db15bdea704422",
+      "hashMethod": "SHA256 of canonical JSON sorted-key mapping: native-file SHA256 -> {count,bytesPerFile}",
+      "extensions": {
+        ".jpg": 25,
+        ".png": 781
+      }
+    },
+    "audio": {
+      "beforeFiles": 116,
+      "afterFiles": 116,
+      "beforeBytes": 9669987,
+      "afterBytes": 9669987,
+      "duplicateCountsPreserved": true,
+      "allFileBytesIdentical": true,
+      "beforeMultisetSha256": "31b18ca14b7ae892724cc42ceff5a2b6a3d0d798ec5f40ff0e6b871349b409db",
+      "afterMultisetSha256": "31b18ca14b7ae892724cc42ceff5a2b6a3d0d798ec5f40ff0e6b871349b409db",
+      "hashMethod": "SHA256 of canonical JSON sorted-key mapping: native-file SHA256 -> {count,bytesPerFile}",
+      "extensions": {
+        ".mp3": 116
+      }
+    }
+  },
+  "nativeValidation": {
+    "evidenceOrigin": "Parent agent operated and observed official build in the real browser; inventory independently read by this reporting agent.",
+    "desktopViewport": {
+      "width": 1280,
+      "height": 720,
+      "originalIntroAndMainRendered": true
+    },
+    "phoneViewport": {
+      "width": 390,
+      "height": 844,
+      "nativeResponsiveLayoutRendered": true
+    },
+    "selectedTransformRound": {
+      "testWallet": "i-release-main-01",
+      "scenario": "transform",
+      "stake": 1,
+      "balanceBefore": 10000,
+      "balanceAfterDebit": 9999,
+      "stageCount": 2,
+      "award": 1,
+      "balanceAfterSettlement": 10000,
+      "closeSpinCount": 1
+    },
+    "audio": {
+      "contextState": "running",
+      "bgmDurationSeconds": 36.3637,
+      "bgmLoop": true,
+      "multipleNativeSfxObserved": true,
+      "developmentOutputBusMuted": true,
+      "audibleSpeakerVerificationClaimed": false
+    },
+    "compiledBackendCasesPassed": 7,
+    "actualOutputVerification": {
+      "passed": true,
+      "bundles": 6,
+      "importJsonFiles": 6
+    },
+    "backendBoundary": "Project-owned simulated backend; this does not establish original server RNG or RTP.",
+    "completeFrontendAcceptance": false
+  },
+  "provenance": {
+    "timingInput": {
+      "path": ".cache/startup-profile/Project-I-startup-comparison.json",
+      "sha256": "2410c95a2f34ca1ff51d2d4ee0c9b3ce07f4f303e5e25fe63a6665de4bf2a84d"
+    },
+    "beforeInventory": {
+      "path": ".cache/startup-profile/all-projects-before.json",
+      "sha256": "5731a5707661ca8a08c4ab99c23196050da21b55533662b827c870714be1be38",
+      "artifactRoot": ".cache/startup-profile/Project-I-baseline"
+    },
+    "afterInventory": {
+      "path": ".cache/startup-profile/Project-I-after.json",
+      "sha256": "b8f760b1ec73e5db7a423320c82760b6a4eb806563327cbfdd8b1335cca712b0",
+      "artifactRoot": "Project-I/build/web"
+    },
+    "settingsSha256": "aa021e4bcbc416e61c08f2dd1b4ff592e51a68887cfd564d9aadf11d676c84c0",
+    "buildConfigSha256": "7d483226df53885f61ba0fe22a0c07d9cb80a8de06ef02f4437ca73b4e8200f0"
+  },
+  "limitations": [
+    "Two cold local navigation samples per version; fixed 40ms per-request latency, gzip and fresh URL prefixes. This is not public GitHub Pages timing.",
+    "Built JS byte counts are raw file sizes; startup transfer bytes are the separately measured compressed/browser transfer metric.",
+    "The before/after trial includes release compilation, effective Web JSON merging and audit projection changes together; it does not isolate individual contributions.",
+    "Exact raster/audio file-byte hash multisets match, including duplicate counts; no media deletion or recompression is inferred or required.",
+    "Startup and this selected native transform flow do not establish complete coverage of every bonus, tier or resume path."
+  ]
+}

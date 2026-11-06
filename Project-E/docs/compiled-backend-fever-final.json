@@ -1,0 +1,86 @@
+{
+  "project": "Project-E",
+  "status": "compiled owned backend fixtures pass",
+  "buildEvidence": [
+    {
+      "path": "build/web/assets/g1012/index.js",
+      "sha256": "0a3ef28cf0b306078f8aa4d5e3781ee1602af874f46b566ae9d398f5a5e4a5d5"
+    },
+    {
+      "path": "build/web/assets/internal/index.js",
+      "sha256": "435b015fc99b19b317752e42b7c723a76ac6e093570b4827729548222f3b3ff2"
+    },
+    {
+      "path": "build/web/assets/main/index.js",
+      "sha256": "520900168bc496d03e524255d35c6b245233cd059cef8ab454a3d1d7d06ae443"
+    },
+    {
+      "path": "build/web/assets/resources/index.js",
+      "sha256": "a8a8842dba5661964a271fa0d82e5d00ba102dcbfe02407a66ed1a15dd5335bf"
+    },
+    {
+      "path": "build/web/assets/slotFramework/index.js",
+      "sha256": "279b9eb0e060574c76e05b0e82598f0639a6e07bca2a69ab73f839be6f027471"
+    },
+    {
+      "path": "build/web/assets/sourcePackedImages/index.js",
+      "sha256": "3cd3b3f577ccd4d45d71c86bbe461d29771f449773f8d77512494a5da4014cd0"
+    },
+    {
+      "path": "build/web/src/chunks/bundle.js",
+      "sha256": "329454003d296f7bd874351c8999f483d447848a700542948e871d8618d7e0d6"
+    }
+  ],
+  "executedModules": [
+    "chunks:///_virtual/rollupPluginModLoBabelHelpers.js",
+    "chunks:///_virtual/DisplayedRules.ts",
+    "chunks:///_virtual/Rules.ts",
+    "chunks:///_virtual/LocalGameBackend.ts"
+  ],
+  "results": [
+    {
+      "label": "ordinary",
+      "stages": 1,
+      "multiplierRecords": 0,
+      "awardCents": 0,
+      "persisted": true,
+      "creditOnce": true
+    },
+    {
+      "label": "qa-win",
+      "stages": 1,
+      "multiplierRecords": 0,
+      "awardCents": 6250,
+      "persisted": true,
+      "creditOnce": true
+    },
+    {
+      "label": "qa-lose",
+      "stages": 1,
+      "multiplierRecords": 0,
+      "awardCents": 0,
+      "persisted": true,
+      "creditOnce": true
+    },
+    {
+      "label": "qa-free-retrigger",
+      "stages": 16,
+      "multiplierRecords": 0,
+      "awardCents": 31000,
+      "persisted": true,
+      "creditOnce": true
+    },
+    {
+      "label": "purchase-0",
+      "stages": 6,
+      "multiplierRecords": 0,
+      "awardCents": 7800,
+      "persisted": true,
+      "creditOnce": true
+    }
+  ],
+  "guiGlobalsExecuted": false,
+  "creatorRuntimeVerified": false,
+  "originalRngRestored": false,
+  "originalRtpRestored": false
+}

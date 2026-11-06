@@ -1,0 +1,51 @@
+{
+  "officialBuild": "2026-11-06 18:52:20 Asia/Taipei",
+  "browser": "1280x720 intro/main and 390x844 native freeGame, reload mid-round, native confirm, original win/summary transitions, closed once and returned to MG_WAIT_SPIN_STATE",
+  "walletBefore": 10000,
+  "stake": 1,
+  "award": 1046.5,
+  "walletAfter": 11045.5,
+  "sameOperationOnReload": "project-f-local-1",
+  "reloadBalanceBefore": 9999,
+  "reloadBalanceAfter": 9999,
+  "nativeResume": {
+    "stage": 6,
+    "bankBefore": 0,
+    "bankRestored": 34,
+    "expectedBank": 34,
+    "rollers": 6,
+    "transitionResult": "FG_WAIT_SPIN_STATE",
+    "emptyDestinationOrExceptionAnomalies": []
+  },
+  "continuationBanks": [
+    [
+      7,
+      40
+    ],
+    [
+      8,
+      44
+    ],
+    [
+      9,
+      44
+    ],
+    [
+      10,
+      52
+    ],
+    [
+      11,
+      52
+    ],
+    [
+      12,
+      54
+    ],
+    [
+      13,
+      64
+    ]
+  ],
+  "closeCountAfterReload": 1
+}

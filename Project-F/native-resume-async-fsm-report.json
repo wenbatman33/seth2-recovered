@@ -1,0 +1,81 @@
+{
+  "project": "Project-F",
+  "revision": "native-async-destination-v1",
+  "status": "source fixed and actual original FSM fixture passed; official rebuild/clean GUI repeat pending",
+  "actualGuiRunBeforeFix": {
+    "officialBuildLocalTime": "17:06:04",
+    "wallet": "f-fg-v2-final-01",
+    "scenario": "freeGame QA; natural stake1 entry, not buy100",
+    "stageCount": 20,
+    "totalAward": 305,
+    "initialDebit": "10000->9999",
+    "reload": "same persisted operation, initial9999, no new spin",
+    "resumeAtStage": 5,
+    "nativeBankRestore": {
+      "initial": 0,
+      "before": 14,
+      "afterNativeCollector": 16,
+      "expected": 16,
+      "done": 16,
+      "rollers": 6
+    },
+    "laterAuditedBanks": {
+      "6": 26,
+      "7": 28,
+      "8": 28,
+      "9": 38,
+      "10": 42,
+      "15": 52,
+      "16": 54,
+      "17": 56,
+      "18": 60,
+      "19": 60
+    },
+    "allListedAuditsMatchedExpected": true,
+    "firstTierPopupObserved": "Original BIG WIN text/animation and22.80 count; parent clicked to skip",
+    "settlement": "Same operation closeSpin once9999->10304 award305; operable full phone main; no new spin",
+    "knownError": "One Invalid destination node from old empty-string resume transition; run continued after synthetic second START_RESUME. Fixed locally; clean new-run validation pending."
+  },
+  "cause": "Native executeStateAsync awaits transitionTo then maps its result to a registered state. Old hook returned empty string and later resent START_RESUME; the second event advanced correctly but the first always rejected Invalid destination node.",
+  "fix": "Only owned local resume adapter returns the true native collector-restoration Promise, resolving to original destination ID after completion. Removed empty-string return and synthetic START_RESUME resend. Original FSM, original state IDs, bank arithmetic, native collectors, art and existing meta untouched.",
+  "fixture": {
+    "file": "tests/test-native-resume-async-fsm.mjs",
+    "passed": 5,
+    "actualOriginalModules": [
+      "main/fsm.ts",
+      "main/validate.ts",
+      "GameSlotController native rate collector callbacks"
+    ],
+    "proof": [
+      "Real original sendAsync rejects old empty destination.",
+      "Real sendAsync awaits original rate collector and enters valid FG_WAIT_SPIN_STATE exactly once.",
+      "No synthetic resume event is emitted.",
+      "Real collector failure preserves original error and never advances.",
+      "Foreign transition stays original; opt-in state audit bounded160 with no empty anomaly."
+    ]
+  },
+  "diagnostics": {
+    "optIn": "reaDebug=1&reaTestWallet=<fresh-name>&reaRateAudit=1",
+    "selector": "#ProjectFLocalRuntimeBoundary",
+    "attributes": [
+      "data-native-state",
+      "data-native-states",
+      "data-native-state-anomalies"
+    ],
+    "bounds": {
+      "stateRecords": 160,
+      "anomalies": 16
+    },
+    "behavior": "Read-only observation of original/owned onEntry/onExit/transitionTo returns or errors, no timers, event injection or return changes."
+  },
+  "compiledGuard": {
+    "file": "tools/recovery/check-built-backend.mjs",
+    "old17_06BuildRejected": true,
+    "reason": "Compiled resume contract stale: expected Promise resolving destination, found empty string",
+    "nextBuildRequired": true
+  },
+  "sourceSha256": "ab310567f83bc6b87109b94559afea900e114ca32b707fcd94f2a680daf62442",
+  "originalFsmSha256": "751fcceab36676aa7a4e225a6a2073023b08f7a051d65b2aca133031d2c68b01",
+  "compiledVerified": false,
+  "guiVerified": false
+}

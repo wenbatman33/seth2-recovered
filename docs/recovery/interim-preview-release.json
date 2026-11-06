@@ -26,5 +26,14 @@
   "limitations": [
     "Newly enabled projects remain test previews; full original gameplay fidelity is not asserted.",
     "Owned local simulated backend; original RNG, RTP and server not recovered."
-  ]
+  ],
+  "published": {
+    "sourceCommit": "35b0564d9439cc2ec07a25ee3a419d6f81266ca1",
+    "staticCommit": "aa9beface8fc7d441496cb3a99362840a215f393",
+    "pagesWorkflowRun": 42189289851,
+    "validationWorkflowRun": 42189289918,
+    "bothWorkflows": "success",
+    "url": "https://wenbatman33.github.io/seth2-recovered/",
+    "browserConfirmed": "Online homepage has nine cards; Project-D homepage click reached original introduction and playable main board."
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "status": "local simulation installed; runtime not verified",
+  "status": "official build and selected native workflows verified; full acceptance pending",
   "project": "Project-E",
   "capture": {
     "directory": "/Users/batman_work/claude/seth2-recovered/.cache/rea-new-games/Project-E/capture",
@@ -11035,7 +11035,7 @@
       "evidence": "docs/native-menu-and-audio-audit.md"
     },
     "ownedFeverBridge": {
-      "status": "7 original FSM/parser/consumer checks pass with official Skeleton.__preload/findAnimation method fixture; real transform GUI failure corrected in source, official rebuild/retest pending",
+      "status": "original3-WILD and2-symbol transformations, saved3-WILD operation reload, and native completion/settlement verified on official16:50:31 GUI build; remaining specials pending",
       "patches": [
         {
           "file": "assets/game/scripts/g1012-GameData.ts",
@@ -11077,8 +11077,11 @@
         "fixture": "tests/fixtures/Creator388-SkeletonLifecycle.js",
         "materialOrUuidChanged": false,
         "timerFallbackAdded": false,
-        "guiRetestPending": true
-      }
+        "guiRetestPending": false,
+        "guiEvidence": "docs/fever-transform-gui-verification.json"
+      },
+      "reloadGuiVerified": true,
+      "reloadGuiEvidence": "docs/fever-transform-gui-verification.json#savedTransformGuiRecovery"
     },
     "collectionNavigation": {
       "file": "assets/shared/scripts/slotFramework-ExitUtils.ts",
@@ -11178,7 +11181,9 @@
       "autoConfirmTimeNotConsumed": true,
       "timingPatchMade": false,
       "phoneAutomaticChainVerified": true,
-      "manualChoicePointerVerified": false
+      "manualChoicePointerVerified": false,
+      "latestPhoneBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+      "latestPhoneFactor": 8
     }
   },
   "backend": {
@@ -11234,8 +11239,21 @@
     ]
   },
   "validation": {
-    "officialGuiBuild": false,
-    "gameplay": false
+    "officialGuiBuild": true,
+    "gameplay": false,
+    "completeGameplayAcceptance": false,
+    "verifiedWorkflows": [
+      "fresh ordinary big-win completion and settlement once",
+      "saved ordinary operation reload and settlement once",
+      "phone390x844 automatic native5FG flow and settlement once",
+      "fever original3-WILD transformation, native summary/close and settlement once",
+      "fever original2-symbol transformation, return to native wait and10 credited once",
+      "saved transform operation reload without a new spin/debit, original3-WILD animation and17.5 credited once",
+      "MINI original JP_WIN_STATE -> SHOW_JP_END -> native close/wait and200 credited once; intermediate popup screenshot not captured",
+      "latest official build phone390x844 spin click -> automatic original FG selection x8 ->5FG ->26 credited once -> native wait; manual choice remains unverified"
+    ],
+    "latestOfficialGuiBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+    "guiEvidence": "docs/fever-transform-gui-verification.json"
   },
   "offlineContractTests": {
     "runner": "tests/run-tests.mjs",

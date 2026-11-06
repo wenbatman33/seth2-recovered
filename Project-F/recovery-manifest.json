@@ -10912,6 +10912,24 @@
       "scope": "active owned local operation and exact per-stage authored provenance only",
       "sourceConsumerChecks": 8,
       "existingMetaUuidsPreserved": true,
+      "compiledVerified": true,
+      "guiVerified": true,
+      "guiScope": "Terminal ordinary and mid-FG bank/markers/full305 settlement observed on17:06; current async-destination-v1 cleanup still needs rebuild/clean GUI repeat"
+    },
+    "nativePopupTierLevels": {
+      "report": "native-popup-tier-report.json",
+      "scope": "owned local response only; existing five source popup levels1..5",
+      "sourceChecks": 4,
+      "originalMetaPreserved": true,
+      "compiledVerified": true,
+      "guiVerified": true,
+      "guiScope": "Preserved26.4 operation restored/settled once; intermediate popup visuals not captured"
+    },
+    "nativeResumeAsyncDestination": {
+      "revision": "native-async-destination-v1",
+      "report": "native-resume-async-fsm-report.json",
+      "actualOriginalFsmFixtureChecks": 5,
+      "originalFsmAndMetaUntouched": true,
       "compiledVerified": false,
       "guiVerified": false
     }
@@ -10969,7 +10987,8 @@
       "revision": "native-rate-bank-v2",
       "report": "native-rate-bank-report.json",
       "originalServerRestored": false,
-      "guiVerified": false
+      "guiVerified": true,
+      "guiScope": "Ordinary native bank4 and terminal resume4; mid-FG pending"
     }
   }
 }

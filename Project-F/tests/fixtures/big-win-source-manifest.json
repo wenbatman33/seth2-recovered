@@ -1,0 +1,14 @@
+{
+  "project": "Project-F",
+  "purpose": "Public client source provenance for native popup completion contract; no launch data",
+  "modules": [
+    {
+      "file": "fixtures/extracted/g1004/00001-BigWinShowView-822b5dd00c1a.js",
+      "sha256": "1d9ae1ed56611801638ef1e3f0a9da4cf8f3f42bd689279d7baa62a7e05b3694"
+    },
+    {
+      "file": "fixtures/extracted/slotFramework/00070-RunScoreComponent-0ee7c073f117.js",
+      "sha256": "49c3c2449aa9ad4f2d4ffd1d7201d3b93be69c899219ba0cff3c30aa90d6f5d6"
+    }
+  ]
+}

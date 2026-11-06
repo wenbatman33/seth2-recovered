@@ -1,0 +1,84 @@
+{
+  "observedAt": "2026-11-06T09:00:17.205743+00:00",
+  "scope": "Read-only source consumer audit; no changes to C/G/H/I",
+  "projects": [
+    {
+      "project": "Project-C",
+      "firstThreshold": 20,
+      "selectedLevelAt20": 0,
+      "consumer": "g1009-BigwinView.showBigwin / playAnimation / playWin",
+      "result": "Level0 is explicitly supported as normal WIN; playAnimation branches0 to playWin and schedules native completion. No same truthy-level deadlock proven. Five authored entries do not mean same five named popup tiers; no adjustment made.",
+      "source": [
+        "assets/game/scripts/g1009-GameData.ts",
+        "assets/game/scripts/g1009-BigwinView.ts"
+      ],
+      "sourceSha256": {
+        "assets/game/scripts/g1009-GameData.ts": "d2f3c49f4d056a8376741c53f173a93adc4be876bc0c579db84c869a9880c1d0",
+        "assets/game/scripts/g1009-BigwinView.ts": "dd2f030ed3c3a48c52b5bc1ac048520dece418d6b77585aade023226762513d7"
+      }
+    },
+    {
+      "project": "Project-G",
+      "firstThreshold": 20,
+      "selectedLevelAt20": 0,
+      "consumer": "g1008-BigwinView.showBigwin / playAnimation / playWin",
+      "result": "Level0 is explicitly supported; normal-WIN animation schedules showWinResult/native completion. No same deadlock proven. No adjustment made.",
+      "source": [
+        "assets/game/scripts/g1008-GameData.ts",
+        "assets/game/scripts/g1008-BigwinView.ts"
+      ],
+      "sourceSha256": {
+        "assets/game/scripts/g1008-GameData.ts": "b6e8ab3d4cab1695900e4e44081373da62fda55d12c81231c7033385d3ae1fcf",
+        "assets/game/scripts/g1008-BigwinView.ts": "d47d58f6024a9fb8fe38ae0dc7504e45c0c774b20782d158587d0cdeb3ea66be"
+      }
+    },
+    {
+      "project": "Project-H",
+      "thresholds": [
+        20,
+        20,
+        50,
+        100,
+        500,
+        1000
+      ],
+      "selectedLevelAt20": 1,
+      "consumer": "g1011-WinView.showWin requires truthy level",
+      "result": "Own definition intentionally has win20 and bigWin20. Parser sorts all values; reach selection takes last matching entry, so20 chooseslevel1 and bypasses level0 trap; below20 returnsnull. No adjustment made.",
+      "source": [
+        "assets/game/backend/LocalGameBackend.ts",
+        "assets/game/scripts/g1011-GameData.ts",
+        "assets/game/scripts/g1011-WinView.ts"
+      ],
+      "sourceSha256": {
+        "assets/game/backend/LocalGameBackend.ts": "e9a884064b0126b9d6d829658ee9262a9593df1d62abba89481b1f844f0c3ed4",
+        "assets/game/scripts/g1011-GameData.ts": "31404e798032dee384198f4415d64d04eef0d6ca8f49e3f2c5dc7d11e4799951",
+        "assets/game/scripts/g1011-WinView.ts": "a075569dcafb58f16fe8d5bf872fa9b90748bcd9b18a419b8a849215eb75ac75"
+      }
+    },
+    {
+      "project": "Project-I",
+      "thresholds": [
+        20,
+        20,
+        50,
+        100,
+        500,
+        1000
+      ],
+      "selectedLevelAt20": 1,
+      "consumer": "g1002-WinView.showWin requires truthy level",
+      "result": "DefinitionConfig copies six-entry DisplayedRules with positive win20 and bigWin20; last matching entry selectslevel1 at20; below20 returnsnull. No same trap proven. No adjustment made.",
+      "source": [
+        "assets/game/backend/DisplayedRules.ts",
+        "assets/game/scripts/g1002-GameData.ts",
+        "assets/game/scripts/g1002-WinView.ts"
+      ],
+      "sourceSha256": {
+        "assets/game/backend/DisplayedRules.ts": "7319b47eecea41aff8aa59997659e6167397bb29abdfe927e4fc91d8594e8b29",
+        "assets/game/scripts/g1002-GameData.ts": "b6342606646f2dea213c40804132956a4b805eaf680c9e76bf1e83579fd0c0de",
+        "assets/game/scripts/g1002-WinView.ts": "e499545ec2ac8f1fb3d0691d7f92e31c31d5f6fba63ac8ed291d67666b02e97f"
+      }
+    }
+  ]
+}

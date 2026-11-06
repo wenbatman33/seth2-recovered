@@ -1,6 +1,6 @@
 {
   "project": "Project-F",
-  "status": "local-only source and original-consumer fixtures pass; official rebuild/GUI pending",
+  "status": "Mid-FG bank restoration and full305 settlement observed; async destination error fixed locally, clean repeat pending",
   "mathRevision": "native-rate-bank-v2",
   "resumeProvenanceRevision": "native-rate-resume-v1",
   "proof": [
@@ -27,7 +27,8 @@
     "optIn": "reaDebug=1&reaTestWallet=<fresh-name>&reaRateAudit=1",
     "selector": "#ProjectFNativeRateAudit",
     "attribute": "data-records",
-    "scope": "hidden own DOM audit; only active local test wallet;16 records x at most34 symbols; native bank/expected stage/marker data, no arbitrary browser-global evaluation"
+    "scope": "hidden own DOM audit; only active local test wallet;16 records x at most34 symbols; native bank/expected stage/marker data, no arbitrary browser-global evaluation",
+    "nativeStateAuditReport": "native-resume-async-fsm-report.json"
   },
   "existingMetaUuidsPreserved": true,
   "newOwnMeta": "assets/game/backend/InstallNativeRateCompatibility.ts.meta",
@@ -36,12 +37,88 @@
     "assets/game/backend/WaysRules.ts": "5e018ad8c430b515bdbb2aefc633d29f4c0abd1c14004a5657f0da43ad2c26d6",
     "assets/game/backend/DisplayedPaytable.ts": "cce1233940b3e1f1a0a540890218e2074c14a586ff71f74746f489c2ec7c2cbc",
     "assets/game/backend/InstallGameDataCompatibility.ts": "08d26d30308439c3eff86ff8294bc66add4181b10b7501d151117710c00a964b",
-    "assets/game/backend/InstallStateMachineCompatibility.ts": "d861513870f3b331133e42bba41df0334ef7ec5b1972c5e8c82b75bbb4769264",
+    "assets/game/backend/InstallStateMachineCompatibility.ts": "ab310567f83bc6b87109b94559afea900e114ca32b707fcd94f2a680daf62442",
     "assets/game/backend/InstallNativeRateCompatibility.ts": "f0045cdde2fe28f042aad521b26bbebbcce00b95ba4b5fa596d96d480f483c11",
     "assets/game/scripts/g1004-GameSlotController.ts": "551995230e298d0dd1d148b4d3c99e55d8992f7838858f1614f29e53d6a302ea"
   },
-  "compiledVerified": false,
-  "guiVerified": false,
+  "compiledVerified": true,
+  "guiVerified": true,
   "originalRngRestored": false,
-  "originalRtpRestored": false
+  "originalRtpRestored": false,
+  "observedAt": "2026-11-06T09:09:21.104463+00:00",
+  "actualGuiEvidence": {
+    "officialBuildLocalTime": "17:06:04",
+    "source": "parent actual official-build browser observation in this task",
+    "compiledOwnedBackendCasesPassed": 7,
+    "compiledFiveTierCheckPassed": true,
+    "wallet": "f-rate-v2-01",
+    "operation": "same persisted operation; original26.4 round",
+    "initialBalance": 9999,
+    "newSpinRequested": false,
+    "nativeAudit": {
+      "stage": 3,
+      "nativeInitBank": 0,
+      "restoredBeforeBank": 4,
+      "restoredDoneBank": 4,
+      "expectedBank": 4,
+      "rollers": 6
+    },
+    "settlement": {
+      "closeSpinCount": 1,
+      "balanceBefore": 9999,
+      "balanceAfter": 10025.4,
+      "award": 26.4,
+      "returnedOperableMain": true,
+      "visibleCounter": "x4",
+      "visibleTotalWin": "26.40"
+    },
+    "limitations": [
+      "Intermediate popup was not captured; complete popup visual acceptance is not claimed.",
+      "Mid-FG resume remains pending actual QA."
+    ]
+  },
+  "guiScope": "Only terminal ordinary stage3 restored0->4->4 and exact stored award26.4 credited once; not mid-FG or all resume routes",
+  "midFreeGameResumeVerified": true,
+  "midFreeGameResumeScope": "Native bank/collected marker restoration and continuation through final settlement verified on17:06 run, which still logged old async destination error",
+  "midFreeGameRunEvidence": {
+    "officialBuildLocalTime": "17:06:04",
+    "wallet": "f-fg-v2-final-01",
+    "scenario": "freeGame QA; natural stake1 entry, not buy100",
+    "stageCount": 20,
+    "totalAward": 305,
+    "initialDebit": "10000->9999",
+    "reload": "same persisted operation, initial9999, no new spin",
+    "resumeAtStage": 5,
+    "nativeBankRestore": {
+      "initial": 0,
+      "before": 14,
+      "afterNativeCollector": 16,
+      "expected": 16,
+      "done": 16,
+      "rollers": 6
+    },
+    "laterAuditedBanks": {
+      "6": 26,
+      "7": 28,
+      "8": 28,
+      "9": 38,
+      "10": 42,
+      "15": 52,
+      "16": 54,
+      "17": 56,
+      "18": 60,
+      "19": 60
+    },
+    "allListedAuditsMatchedExpected": true,
+    "firstTierPopupObserved": "Original BIG WIN text/animation and22.80 count; parent clicked to skip",
+    "settlement": "Same operation closeSpin once9999->10304 award305; operable full phone main; no new spin",
+    "knownError": "One Invalid destination node from old empty-string resume transition; run continued after synthetic second START_RESUME. Fixed locally; clean new-run validation pending."
+  },
+  "fsmAsyncContract": {
+    "revision": "native-async-destination-v1",
+    "report": "native-resume-async-fsm-report.json",
+    "sourceFixtureChecks": 5,
+    "compiledVerified": false,
+    "guiVerified": false
+  }
 }

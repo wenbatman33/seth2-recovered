@@ -1,0 +1,1047 @@
+{
+  "scope": "All nine actual official Creator3.8.8 GUI canonical Web release builds. File inventories are not network timings or full frontend acceptance.",
+  "projects": [
+    {
+      "project": "Project-A",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:30:36.003Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "191b0c71df8bb42b34cd3171d4cff66bfc7fd10f08816eb33e0e820d2e25ef72",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "f938d33042be2deb837279d6a6a478bdd83748ec822356c2819e1fe2edb9997a",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 52136,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/08/0872def43.json",
+              "bytes": 52136,
+              "sha256": "3701d5ec1d06328eab541e8b2d3ace69933992e36543fe212a628be14f24d63f"
+            }
+          ]
+        },
+        {
+          "bundle": "g1005",
+          "configPath": "build/web/assets/g1005/config.json",
+          "configSha256": "f3dd6bfab146776abefa759db5972e8b9447cd80fbd4694861ec4e7cf731aafb",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 9621921,
+          "imports": [
+            {
+              "path": "build/web/assets/g1005/import/0d/0dc9f03a0.json",
+              "bytes": 9621921,
+              "sha256": "17a5470d56bfe85b9252cc7a84946204965156fedbba3f2159fd8489b170aa5a"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "d7e56f1b30e2dcc57cf7ac97df88c6cb65212fe9c01213a0cb8142a67f9aedf2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698360,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/04/040c2bf22.json",
+              "bytes": 698360,
+              "sha256": "8cf46616f273df16edabafdfa3c3d25ec6b3b74825b9397453e2154cc3bcec48"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 5,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-B",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:38:23.013Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "2abeff72f2743260dff254b3c49556cfd3ccaed93cfed1a691a399b0ecb3680e",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "a19fad05450704308d33a581a1206d32a29e89c66f71ca384dc9d731a2ec8c09",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 32122,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/08/08cdade17.json",
+              "bytes": 32122,
+              "sha256": "a8a8e318047fc6247223255a0b2ff77933ee885324f8e52a935ead0c6bb025eb"
+            }
+          ]
+        },
+        {
+          "bundle": "g1007",
+          "configPath": "build/web/assets/g1007/config.json",
+          "configSha256": "efc9be51ab999e4dd7f653c68e20a8e43df61134924a09aad9724a35f100b83e",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/g1007/import/04/04aa3364-d2b4-4d10-a509-7ce686a7611d.bin",
+            "build/web/assets/g1007/import/85/853501dd-ab63-4685-9f0f-da221482a634.bin",
+            "build/web/assets/g1007/import/89/89e32951-7edf-44aa-b5a4-d2fecfd53729.bin",
+            "build/web/assets/g1007/import/a3/a3097035-303f-47bf-ad1e-ed2962cdb0fb.bin"
+          ],
+          "importBytes": 5452462,
+          "imports": [
+            {
+              "path": "build/web/assets/g1007/import/0b/0b122d7b5.json",
+              "bytes": 5452462,
+              "sha256": "526008a3f35b64f4529b27b4146d4daa6e81caf9f7f8344b93265e95ff0770a1"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "d7e56f1b30e2dcc57cf7ac97df88c6cb65212fe9c01213a0cb8142a67f9aedf2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698360,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/04/040c2bf22.json",
+              "bytes": 698360,
+              "sha256": "8cf46616f273df16edabafdfa3c3d25ec6b3b74825b9397453e2154cc3bcec48"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 5,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-C",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:43:38.639Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "d8b26d2b5fd0180d91168dfb1c43b09d75af90dd0053485730919a9d6fd38dfd",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "490754cd984fa045e43f6403c57021933009e08714300615880640e82183a224",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 32122,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/08/08cdade17.json",
+              "bytes": 32122,
+              "sha256": "2307553baa5f605fa5b67180e0950cd9533c0ebb2fd0d94cfe757a9b1219e40c"
+            }
+          ]
+        },
+        {
+          "bundle": "g1009",
+          "configPath": "build/web/assets/g1009/config.json",
+          "configSha256": "3f776ff5510d53c093d4e34b8503696ed1cfb5904f8e1f327ef4dfe8d20b3ad7",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 6686594,
+          "imports": [
+            {
+              "path": "build/web/assets/g1009/import/07/07c6423f9.json",
+              "bytes": 6686594,
+              "sha256": "212b127d3547a08515920df664b6bf35cff2314c0015bd5ae700fafabd055a8d"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "79ccdad7ab11b430f0614f16739e325b12264b0fbb493acdc62d5edcce38cf6d",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698364,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/0e/0e60bbfcd.json",
+              "bytes": 698364,
+              "sha256": "4b5fccb05daaeae5bf52c2bad98340258a0d342cc7ae82272d0f1e1cd46f1515"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "f4226c3b0b521431ba107a7385f7175e641a6ac99d900cf9e1b38b6fdce6ff8c",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 215,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/05/05d9c2cae.json",
+              "bytes": 215,
+              "sha256": "628514577bab2a1088dc2a4c9c29cc79fab0483e7d21bd9848ce1ee2d55ae4c8"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-D",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:47:06.132Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "b69b04e58c4c0689f0d9359aae941a3572c96725aad94e94c999db49ca8dd092",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "327868343304f454136ffa24e602dab21e1c51ff2bb5aab2ab743fd3d0f759a2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 52266,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/08/0872def43.json",
+              "bytes": 52266,
+              "sha256": "e739b75217917f2a27c352571ced0f9129267ae1a2a68caaaa89914de9ed76f7"
+            }
+          ]
+        },
+        {
+          "bundle": "g1001",
+          "configPath": "build/web/assets/g1001/config.json",
+          "configSha256": "d6777933a6cb84a4204b7a57e4e3188bbb6968cb2085f06f80c20d28bc5674a4",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 5272128,
+          "imports": [
+            {
+              "path": "build/web/assets/g1001/import/0e/0e21f1edf.json",
+              "bytes": 5272128,
+              "sha256": "e3e2252b83c036b2c172ae8489740c55187b8649080119718f0fa21b4be58355"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "67e752fdb36304e73199cca13de7f7e37f22cc2785ddd6543e3fb36b59555742",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698364,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/0c/0c93fa23b.json",
+              "bytes": 698364,
+              "sha256": "7c297c6e4fcf2f25941975aa61f209ab072f2fdc05501b5be49c68d5a7d3c2d7"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "959751e37cbc127d1ca709057a9ea058c50c08f4571f042d51ce7dcdd824ece3",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 215,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/03/0391de412.json",
+              "bytes": 215,
+              "sha256": "bbf8a6bb0321ee580bf1e38d81a9e524816d57376ebecb6c08f0132925f24a56"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-E",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:49:58.647Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "27d37359ec14d059d3752aac4c70515a8c50e488300e69101fe6d2531fa7dbba",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "389271dd8bfe267e07445751e603e2ff45a1ac28d7b064dd2a1a12ba174495f6",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 33456,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/01/014e1c5cc.json",
+              "bytes": 33456,
+              "sha256": "7dce6423bbf7bc218d6b15426d89f2b37a37cc390e8dd276a967a29426ddca15"
+            }
+          ]
+        },
+        {
+          "bundle": "g1012",
+          "configPath": "build/web/assets/g1012/config.json",
+          "configSha256": "0c88b7d674f6c1554b4f6c7278b088f594d04105dca0f0b14714d1879facbddd",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/g1012/import/45/453c73d0-dd34-4fc4-9316-353868a3dee7.bin",
+            "build/web/assets/g1012/import/8e/8e2a97d7-177d-41d0-86cb-f80da45562fd.bin",
+            "build/web/assets/g1012/import/99/9955d4c9-34bd-476f-8f16-1c885713c644.bin",
+            "build/web/assets/g1012/import/c5/c5462e13-6649-4e33-a3a3-176e216a0549.bin"
+          ],
+          "importBytes": 2912685,
+          "imports": [
+            {
+              "path": "build/web/assets/g1012/import/0e/0e35994b0.json",
+              "bytes": 2912685,
+              "sha256": "1a9046580e864e9b3369ac3533d1e612817b2445ea4bbe5e11a7ebd2f1d4d8d0"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "f2dcd54a8dcfc6ccd2235c191d32ff611a2ec31b12906b9b149915dfc30beac7",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698467,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/03/032d7ec12.json",
+              "bytes": 698467,
+              "sha256": "4b4db79bf23fccd99df522c88f37c66c804eac4b1cfca21fbef171df07f25ca4"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "0641441826a3e34d33fa0088db9d08787d705786bad571f9df884a82f5b25694",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 2054,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/0c/0c056a81f.json",
+              "bytes": 2054,
+              "sha256": "c319113b28f76446871bf6d8c03c7b9fc1abeaa00247ac555c40248c648f6222"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-F",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:53:09.614Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "ab0121f52796df8ec99c0461b95648850992cecf87aa76d625e4b8f93f23c1af",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "389271dd8bfe267e07445751e603e2ff45a1ac28d7b064dd2a1a12ba174495f6",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 33456,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/01/014e1c5cc.json",
+              "bytes": 33456,
+              "sha256": "7dce6423bbf7bc218d6b15426d89f2b37a37cc390e8dd276a967a29426ddca15"
+            }
+          ]
+        },
+        {
+          "bundle": "g1004",
+          "configPath": "build/web/assets/g1004/config.json",
+          "configSha256": "e41e09b15b0b63c7a8d0dbf7c9932ae02d1af1b74590177511c641b91f2f27d6",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/g1004/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin"
+          ],
+          "importBytes": 2550548,
+          "imports": [
+            {
+              "path": "build/web/assets/g1004/import/08/08188e68a.json",
+              "bytes": 2550548,
+              "sha256": "22aba854ff422621b59193a4d516514575506db9dcd7557f5823bc99e4800d63"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "67e752fdb36304e73199cca13de7f7e37f22cc2785ddd6543e3fb36b59555742",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698364,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/0c/0c93fa23b.json",
+              "bytes": 698364,
+              "sha256": "7c297c6e4fcf2f25941975aa61f209ab072f2fdc05501b5be49c68d5a7d3c2d7"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "5faef3651958c5fc439ed84c53264f4e9d76f28949b78cd793533c94aadfa175",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 2208,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/05/05df90b13.json",
+              "bytes": 2208,
+              "sha256": "4d6bf5982b06ca7a4f39de6fad93701a3caedddc8bfc3154eedb8029ca265afb"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-G",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T11:01:09.093Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "40ce5c5b0753236d09a9dbedb7521ed855ff9ef4476d70566d2149a333eca5a8",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "490754cd984fa045e43f6403c57021933009e08714300615880640e82183a224",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 32122,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/08/08cdade17.json",
+              "bytes": 32122,
+              "sha256": "2307553baa5f605fa5b67180e0950cd9533c0ebb2fd0d94cfe757a9b1219e40c"
+            }
+          ]
+        },
+        {
+          "bundle": "g1008",
+          "configPath": "build/web/assets/g1008/config.json",
+          "configSha256": "77bfac1c063cb7190ef04abc094820b52355430d88ede12c5b066828ab6579ea",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 2830441,
+          "imports": [
+            {
+              "path": "build/web/assets/g1008/import/0c/0cd8a0624.json",
+              "bytes": 2830441,
+              "sha256": "60c90fc44fc233b67212faacf884cc2e170007bf7d2276dbe192dd4fb49114c2"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "f2dcd54a8dcfc6ccd2235c191d32ff611a2ec31b12906b9b149915dfc30beac7",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698467,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/03/032d7ec12.json",
+              "bytes": 698467,
+              "sha256": "4b4db79bf23fccd99df522c88f37c66c804eac4b1cfca21fbef171df07f25ca4"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "188e0fc36540031cff1eda0114fe0e3dcd7463ee6c0aab4716908533ea95920f",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 215,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/04/04fb65d74.json",
+              "bytes": 215,
+              "sha256": "54afd985a441e1ec142298799306d99156eedabbef556987b39bab86d1751b44"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-H",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T11:03:46.536Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "5f0fcdbf5fa8079f24d7b1058729fac8208efb84d5e5008fe77c9195c41dd037",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "389271dd8bfe267e07445751e603e2ff45a1ac28d7b064dd2a1a12ba174495f6",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 33456,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/01/014e1c5cc.json",
+              "bytes": 33456,
+              "sha256": "7dce6423bbf7bc218d6b15426d89f2b37a37cc390e8dd276a967a29426ddca15"
+            }
+          ]
+        },
+        {
+          "bundle": "g1011",
+          "configPath": "build/web/assets/g1011/config.json",
+          "configSha256": "271ae5b9691d07f22e414ca90375dbecc1e0edb3a6bb959d12f211df76e56c3c",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 3152523,
+          "imports": [
+            {
+              "path": "build/web/assets/g1011/import/09/09956ec2f.json",
+              "bytes": 3152523,
+              "sha256": "d633848bf7b599e12bfc35781e1828c9668737fbd65249d5e299a265f18449df"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "f2dcd54a8dcfc6ccd2235c191d32ff611a2ec31b12906b9b149915dfc30beac7",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698467,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/03/032d7ec12.json",
+              "bytes": 698467,
+              "sha256": "4b4db79bf23fccd99df522c88f37c66c804eac4b1cfca21fbef171df07f25ca4"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "406fabdb5d14e4e92bbc4723b0e1cde5fffd29d03431e0ae0c860e19dea133f6",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 215,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/03/03850e358.json",
+              "bytes": 215,
+              "sha256": "b5b2888a500204a35fa9829e3cdb8073d568dd07423f5044eafcf26f49e29de1"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    },
+    {
+      "project": "Project-I",
+      "status": "actual canonical release/merged-import output verified",
+      "observedAt": "2026-11-06T10:21:15.969Z",
+      "buildDirectory": "build/web",
+      "engineDebug": false,
+      "settingsSha256": "dee94fa580d0d925de0ba2545e619688e8e8ac2a551ce5c1b112f28f7f72cd7f",
+      "bundles": [
+        {
+          "bundle": "internal",
+          "configPath": "build/web/assets/internal/config.json",
+          "configSha256": "a202555ca7f99aee1c7c250308e2737cd8b4c926d056c32c8662a9d1a103a9aa",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 394847,
+          "imports": [
+            {
+              "path": "build/web/assets/internal/import/09/0977efd1f.json",
+              "bytes": 394847,
+              "sha256": "cbdb8bc876494fa5320d84877343db5d3937f92b2371205a821e56bb42975df8"
+            }
+          ]
+        },
+        {
+          "bundle": "resources",
+          "configPath": "build/web/assets/resources/config.json",
+          "configSha256": "96b0430f2eb14aff6df3cbac2812ed1dcd11b89f19be3bd2f899605e2e35a3b2",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.bin",
+            "build/web/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.bin"
+          ],
+          "importBytes": 150992,
+          "imports": [
+            {
+              "path": "build/web/assets/resources/import/0c/0c8d3901c.json",
+              "bytes": 150992,
+              "sha256": "1f79622d203bd1856306b28445acd67eef3d285998880d295b3e8702d1a03c2c"
+            }
+          ]
+        },
+        {
+          "bundle": "main",
+          "configPath": "build/web/assets/main/config.json",
+          "configSha256": "389271dd8bfe267e07445751e603e2ff45a1ac28d7b064dd2a1a12ba174495f6",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 33456,
+          "imports": [
+            {
+              "path": "build/web/assets/main/import/01/014e1c5cc.json",
+              "bytes": 33456,
+              "sha256": "7dce6423bbf7bc218d6b15426d89f2b37a37cc390e8dd276a967a29426ddca15"
+            }
+          ]
+        },
+        {
+          "bundle": "g1002",
+          "configPath": "build/web/assets/g1002/config.json",
+          "configSha256": "326a13e512224b1bcb72df4d547033418b077479bffd5a9822e6b1477b35a379",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 2856916,
+          "imports": [
+            {
+              "path": "build/web/assets/g1002/import/06/0694b31b8.json",
+              "bytes": 2856916,
+              "sha256": "7c900f04e8a5ad889a5be84cb0711faa9a8e9557486b27f3a7f46b6a30c12068"
+            }
+          ]
+        },
+        {
+          "bundle": "slotFramework",
+          "configPath": "build/web/assets/slotFramework/config.json",
+          "configSha256": "67e752fdb36304e73199cca13de7f7e37f22cc2785ddd6543e3fb36b59555742",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [
+            "build/web/assets/slotFramework/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.bin",
+            "build/web/assets/slotFramework/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.bin",
+            "build/web/assets/slotFramework/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.bin",
+            "build/web/assets/slotFramework/import/ac/ac22d975-0e24-4353-87de-cb2957eede22.bin"
+          ],
+          "importBytes": 698364,
+          "imports": [
+            {
+              "path": "build/web/assets/slotFramework/import/0c/0c93fa23b.json",
+              "bytes": 698364,
+              "sha256": "7c297c6e4fcf2f25941975aa61f209ab072f2fdc05501b5be49c68d5a7d3c2d7"
+            }
+          ]
+        },
+        {
+          "bundle": "sourcePackedImages",
+          "configPath": "build/web/assets/sourcePackedImages/config.json",
+          "configSha256": "02915e58fabab1db376a6259c04b484744c98f05972e948d358cc17da5c5a5d9",
+          "packCount": 1,
+          "importJsonCount": 1,
+          "declaredBinaryCompanions": [],
+          "importBytes": 215,
+          "imports": [
+            {
+              "path": "build/web/assets/sourcePackedImages/import/05/0502774c7.json",
+              "bytes": 215,
+              "sha256": "d3da4067b2bca0c84e30a811f06f394047d651015e5f6a5e4bf21d99f689a950"
+            }
+          ]
+        }
+      ],
+      "totalImportJsonFiles": 6,
+      "gameplayVerified": false,
+      "imageByteIdentityVerified": false,
+      "sourceAssetsModifiedByVerifier": false
+    }
+  ]
+}

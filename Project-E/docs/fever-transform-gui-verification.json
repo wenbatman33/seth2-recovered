@@ -1,0 +1,141 @@
+{
+  "project": "Project-E",
+  "status": "selected actual native transform workflow verified; full gameplay acceptance incomplete",
+  "observedBy": "root official Creator and browser verification in current task",
+  "officialCreatorVersion": "3.8.8",
+  "officialBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+  "compiledDataFixtures": {
+    "file": "docs/compiled-backend-fever-final.json",
+    "sha256": "a5f0a343193e026ec39741485136b5558b0cc00a9873bdec0462be256d9ca4e4",
+    "casesPassed": 5,
+    "guiVerificationSeparate": true
+  },
+  "actualGui": {
+    "wallet": "e-fever-final-01",
+    "scenario": "fever-transform-wild",
+    "stake": 2,
+    "balanceBeforeSpin": 10000,
+    "balanceAfterDebit": 9998,
+    "originalSymbolNodesTransformedToWild": 3,
+    "originalTransformSpineCompletionObserved": true,
+    "winLines": 9,
+    "award": 17.5,
+    "nativeStateChain": [
+      "MG_SPIN_TO_STOP_STATE",
+      "MG_SHOW_WIN_SUMMARY_STATE",
+      "MG_CLOSE_SPIN_STATE",
+      "MG_WAIT_SPIN_STATE"
+    ],
+    "closeSpinCount": 1,
+    "creditedAward": 17.5,
+    "balanceAfterClose": 10015.5,
+    "jackpotStartupMinor": 1000,
+    "newProjectRuntimeErrorsObserved": 0
+  },
+  "resolvedPriorFailure": {
+    "buildLocalTime": "2026-11-06 15:41:56 Asia/Taipei",
+    "message": "Original E transform node or Spine animation missing at 5",
+    "cause": "Owned bridge queried Skeleton.findAnimation before inactive original effect node reached official __preload",
+    "resolution": "Validate original SkeletonData runtime animation, activate original effect node, then play original animation and await original complete listener",
+    "materialOrUuidChanged": false,
+    "timerFallbackAdded": false,
+    "retestPassed": true
+  },
+  "otherVerifiedWorkflows": [
+    {
+      "report": "docs/native-win-completion.json",
+      "scope": "fresh ordinary big-win source completion plus saved operation settlement once"
+    },
+    {
+      "report": "docs/native-fg-selection-audit.json",
+      "scope": "390x844 phone automatic entry +5FG, selected response multiplier6, original FG big win and return to main, settlement once"
+    }
+  ],
+  "notYetVerified": [
+    "manual pointer choice of all three original FG cards",
+    "remaining jackpot tiers (minor/major/grand) and full-combo special presentations",
+    "all advertised homepage routes and complete viewport/menu/input matrix"
+  ],
+  "originalPhaseRecovered": false,
+  "adaptation": "Owned local bridge using existing original transform nodes, source SkeletonData/animation and original FSM continuation; source published FSM lacks active transform phase",
+  "originalRngRestored": false,
+  "originalRtpRestored": false,
+  "completeAcceptance": false,
+  "actualGuiSymbolTransform": {
+    "observedBy": "root official Creator/browser verification",
+    "officialBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+    "wallet": "e-fever-symbol-final-01",
+    "scenario": "fever-transform-symbol",
+    "stake": 2,
+    "balanceBeforeSpin": 10000,
+    "balanceAfterDebit": 9998,
+    "originalSymbolNodesTransformed": 2,
+    "targetPresentation": "original character symbol",
+    "originalTransformAnimationCompletionObserved": true,
+    "award": 10,
+    "closeSpinCount": 1,
+    "creditedAward": 10,
+    "balanceAfterClose": 10008,
+    "finalNativeState": "MG_WAIT_SPIN_STATE",
+    "nativeJackpotMiniDisplay": 200,
+    "jackpotAwardWorkflowVerified": false
+  },
+  "savedTransformGuiRecovery": {
+    "observedBy": "root official Creator/browser verification",
+    "officialBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+    "wallet": "e-fever-01",
+    "restoredOperationId": "project-e-local-1",
+    "balanceAtInitial": 9998,
+    "newSpinRequestIssued": false,
+    "nativeRestoreConfirmationUsed": true,
+    "originalThreeWildAnimationCompleted": true,
+    "closeSpinCount": 1,
+    "creditedAward": 17.5,
+    "balanceAfterClose": 10015.5,
+    "finalNativeState": "MG_WAIT_SPIN_STATE"
+  },
+  "actualGuiJackpotMini": {
+    "observedBy": "root official Creator/browser verification",
+    "officialBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+    "wallet": "e-jp-final-01",
+    "scenario": "jackpot-mini",
+    "stake": 2,
+    "balanceBeforeSpin": 10000,
+    "balanceAfterDebit": 9998,
+    "award": 200,
+    "nativeStateChain": [
+      "JP_WIN_STATE:onEntry",
+      "GameEvent:SHOW_JP_END",
+      "MG_CLOSE_SPIN_STATE",
+      "MG_WAIT_SPIN_STATE"
+    ],
+    "closeSpinCount": 1,
+    "balanceAfterClose": 10198,
+    "nativeAuditError": null,
+    "intermediateJackpotPopupScreenshotCaptured": false,
+    "allPoolVisualAcceptance": false
+  },
+  "latestPhoneAutomaticFreeGame": {
+    "observedBy": "root official Creator/browser verification",
+    "officialBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "wallet": "e-manual-fg-final-01",
+    "scenario": "free",
+    "actualSpinPointerClick": true,
+    "selectionConfirmedBy": "original automatic countdown; user did not click a choice",
+    "displayedSelectedFactor": 8,
+    "roundStages": 6,
+    "freeSpinStages": 5,
+    "stake": 2,
+    "balanceBeforeSpin": 10000,
+    "balanceAfterDebit": 9998,
+    "totalAward": 26,
+    "closeSpinCount": 1,
+    "balanceAfterClose": 10024,
+    "finalNativeState": "MG_WAIT_SPIN_STATE",
+    "manualThreeCardPointerChoiceVisuallyVerified": false
+  }
+}

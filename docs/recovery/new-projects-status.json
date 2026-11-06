@@ -1,5 +1,5 @@
 {
-  "status": "work in progress; no remote publication",
+  "status": "interim preview published; full frontend validation in progress",
   "projects": [
     {
       "project": "Project-C",
@@ -40,9 +40,19 @@
         "portrait"
       ],
       "backend": "owned local simulation; original RNG/RTP unknown",
-      "officialGuiBuilt": false,
-      "runtimeValidation": [],
-      "pending": "official GUI build and browser gameplay verification"
+      "officialGuiBuilt": true,
+      "runtimeValidation": [
+        "fresh original ordinary big-win completion and saved operation settlement once",
+        "phone390x844 automatic5FG flow and return to main, credit once",
+        "official16:50:31 original3-WILD transform -> native summary/close -> wait,17.5 credit once",
+        "same official build original2-symbol transform and10 credit once; native wait restored",
+        "saved original3-WILD operation restored without a new spin/debit,17.5 credited once and native wait restored",
+        "MINI native JP_WIN_STATE completion and200 credited once; no intermediate popup screenshot",
+        "latest16:50:31 phone390x844 actual spin click -> automatic x8 selection ->5FG ->26 credit once -> native wait; manual selection not verified"
+      ],
+      "pending": "manual FG card pointer choice; remaining MINOR/MAJOR/GRAND JP and full-combo specials; final advertised routes and complete viewport/menu/input matrix",
+      "evidence": "Project-E/docs/fever-transform-gui-verification.json",
+      "completeAcceptance": false
     },
     {
       "project": "Project-F",
@@ -51,9 +61,17 @@
         "portrait"
       ],
       "backend": "owned local simulation; original RNG/RTP unknown",
-      "officialGuiBuilt": false,
-      "runtimeValidation": [],
-      "pending": "official GUI build and browser gameplay verification"
+      "officialGuiBuilt": true,
+      "runtimeValidation": [
+        "six native rollers and grouped silver/gold/wild cascade",
+        "ordinary bank4 and26.4 pending recovery with once settlement",
+        "phone mid-FG reload restored native bank14->16; subsequent audited banks match through60",
+        "original BIG WIN22.80 first-tier text/animation",
+        "same free operation full305 settled once9999->10304, phone main operable",
+        "Release18:52:20 clean mid-FG reload: native Promise resolves FG_WAIT_SPIN_STATE, no state anomalies, bank34 restored and subsequent banks match; same1046.5 award once9999->11045.5, phone main operable"
+      ],
+      "pending": "Remaining special/all-tier visual workflows and full frontend acceptance; startup release/resume slice passed",
+      "latestStartupReleaseEvidence": "Project-F/docs/startup-release-resume-verification.json"
     },
     {
       "project": "Project-G",
@@ -88,5 +106,9 @@
       "runtimeValidation": [],
       "pending": "official GUI build and browser gameplay verification"
     }
-  ]
+  ],
+  "published": {
+    "record": "docs/recovery/interim-preview-release.json",
+    "scope": "interim preview; full acceptance not complete"
+  }
 }

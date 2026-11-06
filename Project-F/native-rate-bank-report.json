@@ -1,7 +1,7 @@
 {
   "project": "Project-F",
   "mathRevision": "native-rate-bank-v2",
-  "status": "owned generator corrected and source-consumer fixtures passed; official rebuild/GUI pending",
+  "status": "Actual ordinary and mid-FG native banks match; mid-FG full305 settled once. Async state error cleanup requires rebuilt repeat.",
   "sourceEvidence": {
     "file": "tests/fixtures/extracted/g1004/00019-GameSlotController-3340c955bd35.js",
     "sha256": "e6202b97392458bada4cc1c8e3d5003f015f784839a5f209ad99dba669193d6b",
@@ -32,7 +32,7 @@
   },
   "originalRngRestored": false,
   "originalRtpRestored": false,
-  "guiVerified": false,
+  "guiVerified": true,
   "sourceSha256": {
     "assets/game/backend/WaysRules.ts": "5e018ad8c430b515bdbb2aefc633d29f4c0abd1c14004a5657f0da43ad2c26d6",
     "assets/game/backend/DisplayedPaytable.ts": "cce1233940b3e1f1a0a540890218e2074c14a586ff71f74746f489c2ec7c2cbc",
@@ -42,7 +42,7 @@
     "assets/game/scripts/g1004-GameSlotController.ts": "551995230e298d0dd1d148b4d3c99e55d8992f7838858f1614f29e53d6a302ea"
   },
   "compiledHarness": "tools/recovery/check-built-backend.mjs now requires mathRevision native-rate-bank-v2, even native bank and separated effective payout on actual built stages",
-  "compiledVerified": false,
+  "compiledVerified": true,
   "staleArtifactRegression": {
     "officialBuildLocalTime": "15:35:33",
     "command": "nice -n 15 node tools/recovery/check-built-backend.mjs Project-F",
@@ -54,5 +54,71 @@
     "status": "proven by original native callbacks and corrected locally; official rebuild/GUI pending",
     "report": "native-rate-resume-report.json",
     "sourceConsumerChecks": 8
+  },
+  "guiScope": "Current ordinary bank4 and terminal resume restoration4; mid-FG bank carry not yet verified",
+  "actualGuiEvidence": {
+    "officialBuildLocalTime": "17:06:04",
+    "source": "parent actual official-build browser observation in this task",
+    "compiledOwnedBackendCasesPassed": 7,
+    "compiledFiveTierCheckPassed": true,
+    "wallet": "f-rate-v2-01",
+    "operation": "same persisted operation; original26.4 round",
+    "initialBalance": 9999,
+    "newSpinRequested": false,
+    "nativeAudit": {
+      "stage": 3,
+      "nativeInitBank": 0,
+      "restoredBeforeBank": 4,
+      "restoredDoneBank": 4,
+      "expectedBank": 4,
+      "rollers": 6
+    },
+    "settlement": {
+      "closeSpinCount": 1,
+      "balanceBefore": 9999,
+      "balanceAfter": 10025.4,
+      "award": 26.4,
+      "returnedOperableMain": true,
+      "visibleCounter": "x4",
+      "visibleTotalWin": "26.40"
+    },
+    "limitations": [
+      "Intermediate popup was not captured; complete popup visual acceptance is not claimed.",
+      "Mid-FG resume remains pending actual QA."
+    ]
+  },
+  "midFreeGameRunEvidence": {
+    "officialBuildLocalTime": "17:06:04",
+    "wallet": "f-fg-v2-final-01",
+    "scenario": "freeGame QA; natural stake1 entry, not buy100",
+    "stageCount": 20,
+    "totalAward": 305,
+    "initialDebit": "10000->9999",
+    "reload": "same persisted operation, initial9999, no new spin",
+    "resumeAtStage": 5,
+    "nativeBankRestore": {
+      "initial": 0,
+      "before": 14,
+      "afterNativeCollector": 16,
+      "expected": 16,
+      "done": 16,
+      "rollers": 6
+    },
+    "laterAuditedBanks": {
+      "6": 26,
+      "7": 28,
+      "8": 28,
+      "9": 38,
+      "10": 42,
+      "15": 52,
+      "16": 54,
+      "17": 56,
+      "18": 60,
+      "19": 60
+    },
+    "allListedAuditsMatchedExpected": true,
+    "firstTierPopupObserved": "Original BIG WIN text/animation and22.80 count; parent clicked to skip",
+    "settlement": "Same operation closeSpin once9999->10304 award305; operable full phone main; no new spin",
+    "knownError": "One Invalid destination node from old empty-string resume transition; run continued after synthetic second START_RESUME. Fixed locally; clean new-run validation pending."
   }
 }

@@ -1,0 +1,115 @@
+{
+  "project": "Project-H",
+  "recordedAt": "2026-11-06T09:24:17.266970+00:00",
+  "status": "selected latest-build native JP pick family completed through popup and once-only observed settlement; other families remain pending",
+  "evidenceSource": "Parent agent live official Creator/browser observations reported in this task; recorder did not independently operate GUI",
+  "officialCreatorVersion": "3.8.8",
+  "reportedBuildLocalTime": "2026-11-06 17:18:16 Asia/Taipei",
+  "buildEvidence": [
+    {
+      "path": "build/web/assets/g1011/index.js",
+      "sha256": "2c9105fa11aa9fe6e5fa11bd9af31a79cb38105745318518ee20a28bc5481ae6"
+    },
+    {
+      "path": "build/web/assets/internal/index.js",
+      "sha256": "435b015fc99b19b317752e42b7c723a76ac6e093570b4827729548222f3b3ff2"
+    },
+    {
+      "path": "build/web/assets/main/index.js",
+      "sha256": "6ec7ae41459465c7f1f00d475a6c0196dcbe0b019fa7c527d00d7e2d6078b5fb"
+    },
+    {
+      "path": "build/web/assets/resources/index.js",
+      "sha256": "a8a8842dba5661964a271fa0d82e5d00ba102dcbfe02407a66ed1a15dd5335bf"
+    },
+    {
+      "path": "build/web/assets/slotFramework/index.js",
+      "sha256": "279b9eb0e060574c76e05b0e82598f0639a6e07bca2a69ab73f839be6f027471"
+    },
+    {
+      "path": "build/web/assets/sourcePackedImages/index.js",
+      "sha256": "3cd3b3f577ccd4d45d71c86bbe461d29771f449773f8d77512494a5da4014cd0"
+    },
+    {
+      "path": "build/web/src/chunks/bundle.js",
+      "sha256": "329454003d296f7bd874351c8999f483d447848a700542948e871d8618d7e0d6"
+    }
+  ],
+  "compiledBackend": {
+    "file": "docs/compiled-backend-final-jp.json",
+    "passedCases": 5,
+    "scope": "Executed compiled owned backend modules with controlled fixtures; not engine/browser or original server acceptance"
+  },
+  "scope": {
+    "backend": "owned-local-simulation",
+    "originalServerRestored": false,
+    "originalRngRestored": false,
+    "originalRtpRestored": false,
+    "originalProductionPoolsRestored": false
+  },
+  "startupPools": {
+    "observedTickerLabels": {
+      "MAJOR": 2000,
+      "GRAND": 10000
+    },
+    "observedOwnedDomDataset": {
+      "jp-mini": 100,
+      "jp-minor": 500,
+      "jp-major": 2000,
+      "jp-grand": 10000
+    },
+    "poolSource": "existing own BonusRules configuration; no amount or probability changes"
+  },
+  "operation": {
+    "walletTestSuffix": "h-jp-final-01",
+    "scenario": "jpGame",
+    "stake": 1,
+    "initialBalance": 10000,
+    "afterInitialDebit": 9999,
+    "nativeLayout": "Original twelve-ingot pick interface",
+    "input": "Manual pointer selections of the first nine distinct visible cells",
+    "distinctSelections": 9,
+    "continuationResponses": {
+      "request": "spin",
+      "status": 200,
+      "balanceAfterEach": 9999,
+      "additionalDebitsObserved": 0
+    },
+    "ninthSelection": {
+      "category": "jp-minor",
+      "displayedAward": 500
+    },
+    "awardPresentation": "Original goldfish MINOR 500 animation and coins explicitly visible",
+    "originalPopupCloseClicked": true,
+    "finalCloseResponseObserved": true,
+    "finalWalletBalance": 10499,
+    "creditOnceVerified": true,
+    "spinId": "project-h-local-1",
+    "finalCloseResponse": {
+      "request": "closeSpin",
+      "spinId": "project-h-local-1",
+      "status": 200,
+      "creditedAward": 500,
+      "balanceBefore": 9999,
+      "balanceAfter": 10499
+    },
+    "browserRetryVerified": false,
+    "operableMainReturned": true,
+    "mainDisplayedWin": 500
+  },
+  "pending": [
+    "Other native bonus pointer families, including falling-box collect/finish and Lucky popup close",
+    "Remaining menu/input/viewport and final advertised homepage route checks"
+  ],
+  "limits": [
+    "One selected JP tier is observed; this does not establish every tier or original provider pools",
+    "Hidden purchase interface remains unsupported because the original popup asset was absent",
+    "One observed close/credit sequence is confirmed; duplicate-close and reload invariants are covered by offline fixtures, not re-exercised in this GUI JP run"
+  ],
+  "updatedAt": "2026-11-06T09:24:39.702685+00:00",
+  "centralSyncNeeded": {
+    "target": "docs/recovery/validation-ledger.json",
+    "performed": false,
+    "summary": "H17:18:16 own pools correct; original12-ingot manual9distinct picks -> originalMINOR500/goldfish/coins -> sameopcloseSpin200 credits9999->10499 and operablemainwin500. Other tiers/bonusfamilies remain pending."
+  }
+}

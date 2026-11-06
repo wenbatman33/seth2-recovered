@@ -1,12 +1,103 @@
 {
- "project":"Project-E",
- "status":"source consumer audit and original automatic phone FG chain verified; manual choice-pointer operation not yet visually verified",
- "source":"assets/game/scripts/g1012-FreeGameAlertView.ts",
- "ordinarySelection":{"introDelaySeconds":0.5,"beginTimeSeconds":10,"countdownPath":["showIntroAlert","startCountdown","update","onTimeUp","playSelectItemAnim","original Spine completion","source delay(1)","startFreeGame"],"usesAutoConfirmTime":false,"manualControls":["left arrow","right arrow","confirm button","space key"],"wrapsIndices":[1,2,3]},
- "factorContract":{"values":[4,6,8],"valueSelectedBy":"response currentGameState.selectFgMultiple before intro","pointerChoiceSelects":"which card reveals the already selected response factor","remainingCards":"other two values shuffled by original source","separateFactorSelectionRequest":false},
- "replayOnly":{"forcedRevealDelaySeconds":2,"manualControlsDisabled":true},
- "ownedDefinitionTiming":{"autoConfirmTime":1.5,"sourceDebugAutoConfirmTime":0,"doesNotShortenThisSelection":true,"timingPatchMade":false},
- "fixture":{"file":"tests/test-native-fg-selection.mjs","checksPassed":3,"sourceConsumerMethodsExecuted":true,"fixtureControlsClockAndSpineCallback":true,"browser":false,"engine":false},
- "phoneGuiEvidence":{"observedBy":"root official Creator/browser verification","viewport":{"width":390,"height":844},"roundStages":6,"freeSpinStages":5,"displayedSelectedFactor":6,"balanceBeforeSpin":10000,"balanceAfterDebit":9998,"totalAward":69.5,"balanceAfterClose":10067.5,"closeSpinCount":1,"nativeFreeBigWinReached":true,"returnedToMain":true,"finalState":"MG_WAIT_SPIN_STATE","manualThreeCardPointerChoiceVisuallyVerified":false},
- "originalRngRestored":false
+  "project": "Project-E",
+  "status": "source consumer audit and original automatic phone FG chain verified; manual choice-pointer operation not yet visually verified",
+  "source": "assets/game/scripts/g1012-FreeGameAlertView.ts",
+  "ordinarySelection": {
+    "introDelaySeconds": 0.5,
+    "beginTimeSeconds": 10,
+    "countdownPath": [
+      "showIntroAlert",
+      "startCountdown",
+      "update",
+      "onTimeUp",
+      "playSelectItemAnim",
+      "original Spine completion",
+      "source delay(1)",
+      "startFreeGame"
+    ],
+    "usesAutoConfirmTime": false,
+    "manualControls": [
+      "left arrow",
+      "right arrow",
+      "confirm button",
+      "space key"
+    ],
+    "wrapsIndices": [
+      1,
+      2,
+      3
+    ]
+  },
+  "factorContract": {
+    "values": [
+      4,
+      6,
+      8
+    ],
+    "valueSelectedBy": "response currentGameState.selectFgMultiple before intro",
+    "pointerChoiceSelects": "which card reveals the already selected response factor",
+    "remainingCards": "other two values shuffled by original source",
+    "separateFactorSelectionRequest": false
+  },
+  "replayOnly": {
+    "forcedRevealDelaySeconds": 2,
+    "manualControlsDisabled": true
+  },
+  "ownedDefinitionTiming": {
+    "autoConfirmTime": 1.5,
+    "sourceDebugAutoConfirmTime": 0,
+    "doesNotShortenThisSelection": true,
+    "timingPatchMade": false
+  },
+  "fixture": {
+    "file": "tests/test-native-fg-selection.mjs",
+    "checksPassed": 3,
+    "sourceConsumerMethodsExecuted": true,
+    "fixtureControlsClockAndSpineCallback": true,
+    "browser": false,
+    "engine": false
+  },
+  "phoneGuiEvidence": {
+    "observedBy": "root official Creator/browser verification",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "roundStages": 6,
+    "freeSpinStages": 5,
+    "displayedSelectedFactor": 6,
+    "balanceBeforeSpin": 10000,
+    "balanceAfterDebit": 9998,
+    "totalAward": 69.5,
+    "balanceAfterClose": 10067.5,
+    "closeSpinCount": 1,
+    "nativeFreeBigWinReached": true,
+    "returnedToMain": true,
+    "finalState": "MG_WAIT_SPIN_STATE",
+    "manualThreeCardPointerChoiceVisuallyVerified": false
+  },
+  "originalRngRestored": false,
+  "latestPhoneGuiEvidence": {
+    "observedBy": "root official Creator/browser verification",
+    "officialBuildLocalTime": "2026-11-06 16:50:31 Asia/Taipei",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "wallet": "e-manual-fg-final-01",
+    "scenario": "free",
+    "actualSpinPointerClick": true,
+    "selectionConfirmedBy": "original automatic countdown; user did not click a choice",
+    "displayedSelectedFactor": 8,
+    "roundStages": 6,
+    "freeSpinStages": 5,
+    "stake": 2,
+    "balanceBeforeSpin": 10000,
+    "balanceAfterDebit": 9998,
+    "totalAward": 26,
+    "closeSpinCount": 1,
+    "balanceAfterClose": 10024,
+    "finalNativeState": "MG_WAIT_SPIN_STATE",
+    "manualThreeCardPointerChoiceVisuallyVerified": false
+  }
 }
